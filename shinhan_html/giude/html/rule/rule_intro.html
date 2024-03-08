@@ -1,0 +1,246 @@
+<!doctype html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<title>프로젝트 - Standard Guide</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+	<meta name="keywords" content="웹스타일가이드, 퍼블리싱가이드, STANDARD-UI">
+	<meta name="description" content="웹스타일가이드, 퍼블리싱가이드, STANDARD-UI">
+	<!-- Front -->
+	<script src="../../js/import.js"></script>
+	<!-- Guide -->
+	<link rel="stylesheet" href="../../codeview/styles/shCoreDefaultWhite.css">
+	<script src="../../js/addon/jquery.mCustomScrollbar.min.js"></script>
+	<script src="../../js/addon/jquery.clipboard.min.js"></script>
+	<script src="../../js/ui/ui.guide.js"></script>
+	<script src="../../codeview/scripts/shCore.js"></script>
+	<script src="../../codeview/scripts/shAutoLoader.js"></script>
+	<script src="../../codeview/scripts/shBrushjScript.js"></script>
+	<script src="../../codeview/scripts/shBrushXml.js"></script>
+	<script src="../../codeview/scripts/shBrushCss.js"></script>
+	<script>SyntaxHighlighter.all();</script>
+</head>
+<body>
+<div id="g-wrapper" class="g-convention-wrap">
+	<header id="g-header">
+		<div class="g-header-inner">
+			<h1 class="g-logo"><a href="../../index.html">Project Guide</a></h1>
+			<button type="button" class="g-btn-aside"><span>Menu</span></button>
+			<nav class="g-lnb">
+				<ul>
+					<li><a href="../ia/index.html">현황판</a></li>
+					<li><a href="../ia/pc_index.html">pc현황판</a></li>
+					<li><a href="../ia/admin_index.html">admin현황판</a></li>
+					<li class="is-current"><a href="rule_intro.html">퍼블리싱가이드</a></li>
+					<li><a href="../accessibility/wa_index.html">접근성가이드</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+	<div id="g-container">
+		<aside id="g-aside">
+			<div class="g-js-scroll g-aside-scroll">
+				<nav class="g-snb">
+					<ul class="g-depth1 g-snbMenu1" style="display:block;">
+						<li class="g-node1">
+							<a href="javascript:;">규칙가이드</a>
+							<ul class="g-depth2">
+								<li class="g-node2 is-current"><a href="rule_intro.html">기본정책</a></li>
+								<li class="g-node2"><a href="rule_standard.html">표준규칙</a></li>
+								<li class="g-node2"><a href="rule_code.html">코드규칙</a></li>
+								<li class="g-node2"><a href="rule_name.html">네임규칙</a></li>
+								<!-- <li class="g-node2"><a href="rule_codeset.html">설계패턴</a></li> -->
+							</ul>
+						</li>
+					</ul>
+				</nav>
+			</div>
+		</aside>
+
+		<!-- Content -->
+		<article id="g-content">
+			<div class="g-content-header">
+				<div class="g-in-sec">
+					<h1 class="g-h1">기본정책</h1>
+					<small class="g-explain-h1">Publishing Conventions</small>
+				</div>
+			</div>
+			<div class="g-content-body">
+				<!-- section -->
+				<section class="g-section g-in-sec">
+					<div class="g-section-header">
+						<h2 class="g-h2">프로젝트 환경</h2>
+					</div>
+					<div class="g-section-body">
+						<div class="g-tbl-type1">
+							<table>
+								<caption>환경정의</caption>
+								<colgroup>
+									<col style="width:20%">
+									<col>
+								</colgroup>
+								<tbody>
+									<tr>
+										<th scope="row" class="align-l">문서 및 버전</th>
+										<td>HTML5, CSS3</td>
+									</tr>
+									<tr>
+										<th scope="row" class="align-l">인코딩</th>
+										<td>UTF-8</td>
+									</tr>
+									<tr>
+										<th scope="row" class="align-l">웹 유형</th>
+										<td>PC Web, Mobile Web view</td>
+										<!-- PC Web | Mobile Web | Responsive Web | Mobile Hybrid Web -->
+									</tr>
+									<tr>
+										<th scope="row" class="align-l">PC 웹 호환성</th>
+										<td>
+											<div class="g-browser-icons">
+												<img src="../../img/ico_edge.png" alt="">												
+												<img src="../../img/ico_crom.png" alt="">
+												<!-- <img src="../../img/ico_firefox.png" alt="">
+												<img src="../../img/ico_sapari.jpg" alt="">
+												<img src="../../img/ico_opera.png" alt=""> -->
+											</div>
+											<style type="text/css">
+												.g-browser-icons img {width:30px; height:30px;}
+											</style>
+										</td>
+									</tr>
+									<tr>
+										<th scope="row" class="align-l">Mobile 웹 호환성</th>
+										<td>
+											<div class="g-browser-icons">
+												안드로이드 9.x 이상, IOS 14.x 이상
+											</div>
+											<style type="text/css">
+												.g-browser-icons img {width:30px; height:30px;}
+											</style>
+										</td>
+									</tr>
+									<tr>
+										<th scope="row" class="align-l">해상도 범위</th>
+										<td>
+											<ul>
+												<li>Mobile : 360 ~ 430</li>
+												<li>Tablet : 별도대응 없음</li>
+												<li>Desctop : 1600*900 ~ 1920*1080</li>
+											</ul>
+										</td>
+									</tr>
+									<tr>
+										<th scope="row" class="align-l">최적화 기준</th>
+										<td>
+											<ul>
+												<li>Mobile : 360</li>
+												<li>Tablet : 별도대응 없음</li>
+												<li>Desctop : 1920</li>
+											</ul>
+										</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+				</section>
+				<!-- //section1 -->
+
+				<!-- section2 -->
+				<section class="g-section g-in-sec">
+					<div class="g-section-header">
+						<h2 class="g-h2">파일/폴더 구조</h2>
+					</div>
+					<div class="g-section-body">
+						<div class="g-tbl-type1">
+							<table>
+								<caption>파일구조</caption>
+								<colgroup>
+									<col style="width:20%">
+									<col style="width:20%">
+									<col style="width:30%">
+									<col>
+								</colgroup>
+								<thead>
+									<tr>
+										<th>분류 폴더</th>
+										<th>서브 폴더</th>
+										<th>파일 이름</th>
+										<th>파일 설명</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>fonts</td>
+										<td></td>
+										<td></td>
+										<td>
+											웹폰트
+										</td>
+									</tr>
+									<tr>
+										<td>css</td>
+										<td></td>
+										<td>
+											reset.css<br>
+											common.css<br>
+											content.css
+										</td>
+										<td>
+											스타일 - 초기화<br>
+											스타일 - 공통
+											스타일 - 컨텐츠
+										</td>
+									</tr>				
+									<tr>
+										<td>images</td>
+										<td>
+											@mov<br>										
+											@temp<br>
+											banner<br>
+											bg<br>
+											content<br>
+											dokbar<br>
+											icon
+										</td>
+										<td></td>
+										<td>
+											이미지 - 동성상 더미<br>
+											이미지 - 이미지 더미<br>
+											이미지 - 배너<br>
+											이미지 - 컨텐츠 이미지<br>
+											이미지 - 독바<br>
+											이미지 - 아이콘
+										</td>
+									</tr>
+									<tr>
+										<td>html</td>
+										<td>
+											guide<br>
+											common<br>
+											main<br>
+											content	
+										</td>
+										<td></td>
+										<td>
+											HTML - 가이드<br>
+											HTML - 공통<br>
+											HTML - 메인<br>
+											HTML - 서브페이지	
+										</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+				</section>
+				<!-- //section -->
+			</div>
+		</article>
+		<!-- //Content -->
+	</div>
+	<a href="javascript:;" class="g-top" onclick="$(window).scrollTop(0)">TOP</a>
+</div>
+</body>
+</html>
