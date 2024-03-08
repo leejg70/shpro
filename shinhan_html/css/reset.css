@@ -59,7 +59,6 @@
 html,
 body, .wrap{
     height: 100%;
-    height: var(--all-height);
 }
 
 /* 반응형 대응 */
@@ -128,9 +127,9 @@ strong { font-weight: 700; color: #333; }
 .clear { clear: both; }
 .ellip { overflow: hidden; display: inline-block; max-width: 100%; text-overflow: ellipsis; white-space: nowrap; }
 .none { display: none !important; }
-.bdr0 { border: 0 !important; }
-.bdrt0 { border-top: 0 !important; }
-.bdrb0 { border-bottom: 0 !important; }
+.bo0 { border: 0 !important; }
+.bt0 { border-top: 0 !important; }
+.bb0 { border-bottom: 0 !important; }
 .lh0 { line-height: 0 !important; }
 
 /* Floating */
@@ -263,25 +262,37 @@ strong { font-weight: 700; color: #333; }
 .grid.column2{grid-column: 1 / 3;}
 .flex{display: flex; }
 .flex.column4{display: flex; flex-wrap: wrap;}
+.col-4-2{display:flex; justify-content: space-between;}
+.col-4-2 li{width: 20%; border: 1px solid #fff;}
+
 
 .wrap{max-width: 1200px; margin: 0 auto;}
 header{ height:200px; background-color: aqua;}
 main{height: 800px; background-color: coral;}
 footer{ height:200px; background-color: burlywood;}
 .popup-wrap{position: fixed;}
-.sample-box{ display: flex; flex-direction: row; flex-wrap: wrap; border:1px dotted #FF00FF;}
+.sample-box{ display: flex; flex-wrap: wrap; border:1px dotted #FF00FF;}
 .sample-box li{height: 20vw;width: 25%; border: 1px solid #fff;}
-@media (max-width:1000px) {
-	.sample-box li{width: 50%; max-width: 500px;}
-}
 
-@media (max-width:359px) {
-	html { font-size: 54.6875%; }
+/* 테브릿 대응 */
+/* 360 ~ 1280 이하 */
+@media (max-width:1280px) {
+	.sample-box li{width: 50%; max-width: 500px;}
+	.col-4-2{flex-wrap: wrap;}
+	.col-4-2 li{flex-basis:calc(50% - 1rem); }
+}
+/* 모바일가로 텝블릿 대응 */
+/* 부분적으로 대응 함 */
+/* 360 ~ 768 이하 */
+@media (max-width:768px) {
+	
+}
+/* 모바일 360이하 사이즈 대응 */
+@media (max-width:360x) {
 	html {font-size: 2.7777777777777777vw;} /* 360 미만일때 일괄적으로 축소*/
 }
-@media (max-width:300px) {
-	html { font-size: 48.61111%;}
-}
+
+/* 테스트 */
 .login{position: relative;}
 .login input{padding:10px; border: 1px solid #ff4019;}
 input:focus, input:not(:placeholder-shown) {border: 1px solid #FF00FF;}
