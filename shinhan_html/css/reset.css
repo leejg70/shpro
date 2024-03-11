@@ -265,19 +265,19 @@ strong { font-weight: 700; color: #333; }
 .col-4-2{display:flex; justify-content: space-between;}
 .col-4-2 li{width: 20%; border: 1px solid #fff;}
 
-
+body{padding: 0 4rem;}
 .wrap{max-width: 1200px; margin: 0 auto;}
 header{ height:200px; background-color: aqua;}
 main{height: 800px; background-color: coral;}
 footer{ height:200px; background-color: burlywood;}
 .popup-wrap{position: fixed;}
-.sample-box{ display: flex; flex-wrap: wrap; border:1px dotted #FF00FF;}
-.sample-box li{height: 20vw;width: 25%; border: 1px solid #fff;}
+.col-2-1 { display: flex; flex-wrap: wrap; gap: 2rem; border:1px dotted #FF00FF;}
+.col-2-1 li{height: 20vw; width: calc(50% - 1rem); border: 1px solid #fff;}
 
 /* 테브릿 대응 */
 /* 360 ~ 1280 이하 */
 @media (max-width:1280px) {
-	.sample-box li{width: 50%; max-width: 500px;}
+	.col-2-1 li{width: 50%; width: 100%;}
 	.col-4-2{flex-wrap: wrap;}
 	.col-4-2 li{flex-basis:calc(50% - 1rem); }
 }
