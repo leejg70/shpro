@@ -7,11 +7,9 @@
 <meta name="apple-mobile-web-app-capable" content="yes">
 <title>메인</title>
 <link rel="stylesheet" href="../css/reset.css">
-<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
-
 </head>
 <body>
-    <div class="wrap" id="app">
+    <div class="wrap">
         <header class="header">
             <div class="head-inner">                     
             </div>      
@@ -20,33 +18,33 @@
             <!-- // Menu -->           
         </header>
         <!-- // Header -->
-        <main class="content" v-click-outside="toggleShow">
+        <main class="content" style="background-color: #fff;">
             <h2 class="one-shinhan">폰트테스트</h2>
-            <section>
-                <ul class="col-4-2">
-                    <li>반응형테스트</li>
-                    <li>반응형테스트</li>
-                    <li>반응형테스트</li>
-                    <li>반응형테스트</li>
-                    <li>반응형테스트</li>
-                    <li>반응형테스트</li>
-                </ul>
-                <ul class="col-4-2">
-                    <li>반응형테스트</li>
-                    <li>반응형테스트</li>
-                    <li>반응형테스트</li>
-                    <li>반응형테스트</li>         
-                </ul>
-                <ul class="col-2-1">
-                    <li>반응형테스트</li>
-                    <li>반응형테스트</li>
-                    <li>반응형테스트</li>
-                    <li>반응형테스트</li>         
-                </ul>
-                <div class="login">
-                    <input type="text" class="name" aria-label="성(선택사항)" placeholder='성(선택사항)' name="name" value="" aria-disabled="false">
-                    <div class="title" aria-hidden="true">성(선택사항)</div>
-                </div>        
+            <section>  
+                <div id="app">
+                    <button>컴포넌트 등록</button>
+                    <my-component></my-component> 
+                    <my-component3></my-component3>
+                </div>
+                <script src="https://cdn.jsdelivr.net/npm/vue@2.6.0"></script>
+                <script>
+                    // 전역 컴포넌트 등록
+                    Vue.component('my-component', {
+                            template: '<div> 전역 컴포넌트 등록</div>'
+                    });
+                    Vue.component('my-component2', {
+                            template: '<div> 전역 컴포넌트 등록222</div>'
+                    });
+                    Vue.component('my-component3', {
+                            template: '<div> 전역 컴포넌트 등록333</div>'
+                    });
+                    Vue.component('my-component4', {
+                            template: '<div> 전역 컴포넌트 등록444</div>'
+                    });
+                    new Vue({
+                        el: '#app'
+                    });
+                </script>
             </section>
         </main>
         <!-- // Content -->     
@@ -65,11 +63,11 @@
                         <span>이메일 : data_admin@shinhan.com</span>    
                     </address>
                     <p class="copyright">Copyright 2024 Shinhan Data Specialized Institution All Rights Reserved.</p>
-                </div> 
-                <!--패밀리사이트-->
-                <family-list-wrap></family-list-wrap>         
-                <!-- <div class="family-list-wrap toggle-wrap">
-                    <button type="button" class="btn-toggle" aria-expanded="false">관련기관 바로가기</button>
+                </div>
+
+          
+                <div class="family-list-wrap">
+                    <button type="button" aria-expanded="false">관련기관 바로가기</button>
                     <ul>
                         <li><a href="javascript:;" target="_blank">관련기관1</a></li>
                         <li><a href="javascript:;" target="_blank">관련기관1</a></li>
@@ -80,37 +78,11 @@
                         <li><a href="javascript:;" target="_blank">관련기관1</a></li>
                         <li><a href="javascript:;" target="_blank">관련기관1</a></li>
                     </ul>
-                </div> -->
+                </div>
+
             </div>            
         </footer>
         <!-- //footer-->
     </div>
 </body>
 </html>
-<script>
-    Vue.component('family-list-wrap', {        
-        template: `
-            <div class="family-list-wrap" :class="show ? '' : 'active'">
-                <button type="button" class="btn-toggle" @click="toggleShow" >관련기관 바로가기</button>
-                <ul>                
-                    <li v-for="family in family" :key="작명"><a href="javascript:;" target="_blank">{{ family }}</a></li>                    
-                </ul>
-            </div>     
-        `,
-        data() {
-            return {
-                show: true,
-                family: ['Home', 'Shop', 'About']
-            }
-        },
-        methods: {
-            toggleShow(){
-                this.show = !this.show;
-            }
-        }
-    })
-
-    new Vue({
-        el : '#app',
-    });
-</script>
