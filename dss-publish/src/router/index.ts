@@ -3,8 +3,8 @@ import MainRoutes from './MainRoutes';
 import AuthRoutes from './AuthRoutes';
 import { useAuthStore } from '@/stores/auth';
 import ComponentRoutes from './ComponentRoutes';
-import CommonRoutes from './CommonRoutes';
-import GuideRoutes from './GuideRoutes';
+import CommonRoutes from './dss/CommonRoutes';
+import GuideRoutes from './dss/GuideRoutes';
 
 import { useUIStore } from '@/stores/ui';
 

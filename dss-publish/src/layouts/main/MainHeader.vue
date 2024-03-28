@@ -14,7 +14,7 @@
                     </ul>
                 </div>
                 <div class="gnb-wrap">
-                    <h1 class="title1"><img src="../../assets/img/common/logo.png" alt="" class="logo"></h1>
+                    <h1 class="title1"><img src="../../assets/dss/images/common/logo.png" alt="" class="logo"></h1>
                     <nav class="gnb-menu">
                         <ul class="menu-list">
                             <li><a href="javascript:;" class="">Data서비스</a></li>
@@ -29,7 +29,7 @@
                         <ul class="util-list">
                             <li><button class="btn-community"><i class="ico ico_thumb_m ico-community"></i>커뮤니티</button></li>
                             <li><button class="btn-search"><i class="ico ico_thumb_m ico-search"><span class="sr-only">검색</span></i></button></li>
-                            <li><button class="btn-allmenu"><span class="sr-only">전체메뉴</span></button></li>
+                            <li><button class="btn-allmenu"><i class="ico ico_thumb_m ico-allmenu"><span class="sr-only">전체메뉴</span></i></button></li>
                         </ul>
                     </div>
                 </div>                

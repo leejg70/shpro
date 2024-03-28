@@ -4,9 +4,9 @@ import PageHeader from '@/layouts/main/MainHeader.vue'
 import PageFooter from '@/layouts/main/MainFooter.vue'
 </script>
 <template>
-  <v-app>
+  <v-app class="wrap">
     <PageHeader/> <!-- 헤더 컴포넌트 -->
-    <v-main class="page-wrapper">
+    <v-main class="contents">
       <RouterView />
     </v-main>
     <PageFooter/> <!-- 푸터 컴포넌트 -->
