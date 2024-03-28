@@ -84,7 +84,7 @@
 											<td class="col-4depth" style="display: none;"></td>
 											<td class="col-5depth" style="display: none;"></td>
 											<td class="col-type" data-type=""></td>
-											<td class="col-url"><router-link to="/guide/01">GuideInput</router-link></td>
+											<td class="col-url"><router-link to="/guide/01" target="_blank">GuideInput</router-link></td>
 											<td class="col-date"></td>
 											<td class="col-complete" data-complete="done"></td>
 											<td class="col-worker"></td>
@@ -98,7 +98,7 @@
 											<td class="col-4depth" style="display: none;"></td>
 											<td class="col-5depth" style="display: none;"></td>
 											<td class="col-type" data-type=""></td>
-											<td class="col-url"><router-link to="/guide/02">GuideButton</router-link></td>
+											<td class="col-url"><router-link to="/guide/02" target="_blank">GuideButton</router-link></td>
 											<td class="col-date"></td>
 											<td class="col-complete" data-complete="done"></td>
 											<td class="col-worker"></td>
@@ -112,7 +112,7 @@
 											<td class="col-4depth" style="display: none;"></td>
 											<td class="col-5depth" style="display: none;"></td>
 											<td class="col-type" data-type=""></td>
-											<td class="col-url"><router-link to="/guide/03">CheckBox</router-link></td>
+											<td class="col-url"><router-link to="/guide/03" target="_blank">CheckBox</router-link></td>
 											<td class="col-date"></td>
 											<td class="col-complete" data-complete="done"></td>
 											<td class="col-worker"></td>
@@ -170,7 +170,7 @@
 											<td class="col-4depth" style="display: none;"></td>
 											<td class="col-5depth" style="display: none;"></td>
 											<td class="col-point"></td>
-											<td class="col-url"><router-link to="/login">/views/members/login/LoginView.vue</router-link></td>
+											<td class="col-url"><router-link to="/login"  target="_blank">/views/members/login/LoginView.vue</router-link></td>
 											<td class="col-date"></td>
 											<td class="col-complete" data-complete="done"></td>
 											<td class="col-worker"></td>
