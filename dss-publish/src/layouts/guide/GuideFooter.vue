@@ -29,5 +29,5 @@ const footerLink = shallowRef([
         </div>
     </div>            
   </v-footer>
-  <!-- //footer-->
+  <!-- //header-->
 </template>

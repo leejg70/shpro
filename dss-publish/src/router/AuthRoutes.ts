@@ -5,11 +5,11 @@ const AuthRoutes = {
     requiresAuth: false
   },
   children: [
-    {
-      name: 'Landingpage',
-      path: '/',
-      component: () => import('@/views/pages/landingpage/LandingPage.vue')
-    },
+    // {
+    //   name: 'Landingpage',
+    //   path: '/main',
+    //   component: () => import('@/views/pages/landingpage/LandingPage.vue')
+    // },
     {
       name: 'ContactUs',
       path: '/pages/contact-us',

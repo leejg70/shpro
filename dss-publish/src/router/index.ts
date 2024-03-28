@@ -4,6 +4,7 @@ import AuthRoutes from './AuthRoutes';
 import { useAuthStore } from '@/stores/auth';
 import ComponentRoutes from './ComponentRoutes';
 import CommonRoutes from './CommonRoutes';
+import GuideRoutes from './GuideRoutes';
 
 import { useUIStore } from '@/stores/ui';
 
@@ -17,6 +18,7 @@ export const router = createRouter({
     MainRoutes,
     ComponentRoutes,
     CommonRoutes,
+    GuideRoutes,
     AuthRoutes
   ]
 });
