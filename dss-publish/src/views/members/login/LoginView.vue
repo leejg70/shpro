@@ -51,13 +51,13 @@ const passwordRules = ref([
           required
         ></v-text-field>
       </div>
-      <div class="check-wrap">
+      <div class="form-checkbox">
         <v-checkbox
           v-model="checkbox"
           label="아이디 저장"
           color="primary"
           hide-details
-          class="form-checkbox"
+          class="checkbox"
         ></v-checkbox>
       </div>
       <div class="btn_wrap">
