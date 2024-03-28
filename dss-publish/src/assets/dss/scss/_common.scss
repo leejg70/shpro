@@ -121,6 +121,9 @@ input.v-field__input{background-color: transparent !important;}
 .gnb-wrap {margin-top:.25rem; padding:0; display: flex; justify-content: space-between; align-items: center; }
 .out-login-wrap{margin-top: 1rem; padding: 0.25rem 0rem;display: flex;align-items: center;justify-content: flex-end;}
 .btn-daram{display: flex; padding: 0.125rem 0.625rem; color: #356CFF; font-size: 0.875rem; font-weight: 700; line-height: 150%; border-radius: 6.1875rem; border: 1px solid #476EFF; }
+.out-login-wrap > ul{display: flex; margin-left: 2.4rem;}
+.out-login-wrap > ul li:not(:first-child){margin-left: 2.4rem;}
+.out-login-wrap > ul li a{display: flex;  color: #111518;font-size: 0.875rem;}
 .gnb-wrap h1 img{ height:2.5rem}
 .gnb-wrap .menu-list,.gnb-wrap .util-list{display: flex;}
 .gnb-wrap .menu-list li + li{margin-left: 3.5rem;}
