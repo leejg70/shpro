@@ -5,20 +5,24 @@
 ********************/
 /* 칼러 가이드 */
 /* 공통 변수 */
-:root { /* primary blue */
- --blue:#356CFF; --blue110:#0046FF; --blue080:#5D89FF; --blue060:#86A7FF; --blue040:#AEC4FF; --blue020:#D7E2FF; /* primary dark blue */
- --darkblue100:#011B6F; --darkblue110:#091850; --darkblue080:#344988; --darkblue060:#6776A6; --darkblue104:#99A4C3; /* secondary yellow */
- --Yellow100:#FFAF31; --Yellow080:#FFBF5A; --Yellow060:#FFCD58; --Yellow040:#FFDFAD; /* secondary yellow */
- --red100:#FF405B; --red110:#EC4352; --red040:#FFB3BD; /* grayscale */
- --black:#000000; --gray100:#111518; --gray090:#333333; --gray080:#666666; --gray070:#797979; --gray060:#949494; --gray050:#bbbbbb; --gray040:#cccccc; --gray030:#dddddd; --gray020:#e5e5e5; --gray010:#f0f0f0; --white:#ffffff; /* background */
- --bg_F7F8FC:#F7F8FC; --bg_F1F4FB:#F1F4FB; --bg_EBEFF8:#EBEFF8; --bg_E9EDFB:#E9EDFB; /* text */
- --text_111518:#111518; --text_333333:#333333; --text_666666:#666666; --text_888888:#666666; } 
-/* 폰트 가이드 */
+:root { 
+/* primary blue */
+--blue:#356CFF; --blue110:#0046FF; --blue080:#5D89FF; --blue060:#86A7FF; --blue040:#AEC4FF; --blue020:#D7E2FF; 
+/* primary dark blue */
+--darkblue100:#011B6F; --darkblue110:#091850; --darkblue080:#344988; --darkblue060:#6776A6; --darkblue104:#99A4C3; 
+/* secondary yellow */
+--Yellow100:#FFAF31; --Yellow080:#FFBF5A; --Yellow060:#FFCD58; --Yellow040:#FFDFAD; 
+/* secondary yellow */
+--red100:#FF405B; --red110:#EC4352; --red040:#FFB3BD; 
+/* grayscale */
+--black:#000000; --gray100:#111518; --gray090:#333333; --gray080:#666666; --gray070:#797979; --gray060:#949494; --gray050:#bbbbbb; --gray040:#cccccc; --gray030:#dddddd; --gray020:#e5e5e5; --gray010:#f0f0f0; --white:#ffffff; 
+/* background */
+--bg_F7F8FC:#F7F8FC; --bg_F1F4FB:#F1F4FB; --bg_EBEFF8:#EBEFF8; --bg_E9EDFB:#E9EDFB; 
+/* text */
+--text_111518:#111518; --text_333333:#333333; --text_666666:#666666; --text_888888:#666666; } 
+/* 폰트 */
  .one-shinhan { font-family: OneShinhan; } 
  .spoqa { font-family: 'Spoqa Han Sans Neo', 'Spoqa Han Sans JP', sans-serif; } 
-
-
-
 
 /* 아이콘 */
 .ico { display: inline-block; background-size: 100%; background-position: center; background-repeat: no-repeat; letter-spacing: normal; }
@@ -32,6 +36,8 @@
 .ico-s { width: 3.2rem; height: 3.2rem; }
 
 /* icon background image: */
+.ico-community{background-image: url(../img/icon/icon_32_community.png);}
+.ico-search{background-image: url(../img/icon/icon_32_search.png);}
 .ico-name { background-image: url(../images/icon/ico_my_defaultimg.png); }
 .ico-name { background-image: url(../images/icon/ico_my_defaultimg.png); }
 .ico-name { background-image: url(../images/icon/ico_my_defaultimg.png); }
@@ -51,6 +57,8 @@
 .btn.btn-text:active:before { background: #6464e8; } 
 .btn.btn-text:disabled { background: none; } 
 .btn.btn-text:disabled:before { background: #494949; } 
+
+.util-list button{display: flex; align-items: center;}
 
 /* 인풋 */
 :focus:not(:focus-visible) {
@@ -77,6 +85,19 @@ body { padding: 0 4rem; }
 .footer { padding: 4rem 0; } 
 .footer .foot-inner { position: relative; display: flex; margin: 0 auto; width: 100%; } 
 .popup-wrap { position: fixed; } 
+
+/* 헤더 */
+.gnb-wrap { padding: 4.3rem 0; display: flex; justify-content: space-between; align-items: center;}
+.out-login-wrap{display: flex;align-items: center;justify-content: flex-end;}
+.btn-daram{display: flex; padding: .2rem 1rem; color: #356CFF; font-size: 1.4rem; font-weight: 700; line-height: 100%; border-radius: 9.9rem; border: .1rem solid #476EFF; }
+.login{display: flex; margin-left: 2.4rem;}
+.login li:not(:first-child){margin-left: 2.4rem;}
+.login li a{display: flex; color: #111518;font-size: 1.4rem;}
+.gnb-wrap h1{ display: flex;}
+.gnb-wrap h1 img{ height:3.3rem}
+.gnb-wrap .menu-list,.gnb-wrap .util-list{display: flex;}
+.gnb-wrap .menu-list li + li{margin-left: 5.5rem;}
+.gnb-wrap .util-list li + li{margin-left: .6rem;}
 
 /* 푸터 */
 .bottom-logo { width: 12rem; height:2.8rem; background-image: url('../img/common/bottom_logo.png'); background-repeat: no-repeat; } 
