@@ -13,13 +13,8 @@ const MainRoutes = {
     },
     {
       name: 'LoginView',
-      path: '/members/login',
+      path: '/login',
       component: () => import('@/views/members/login/LoginView.vue')
-    },
-    {
-      name: 'MyselfView',
-      path: '/members/myself',
-      component: () => import('@/views/members/member/MyselfView.vue')
     }
   ]
 };
