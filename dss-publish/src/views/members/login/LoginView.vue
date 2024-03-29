@@ -23,9 +23,9 @@ const passwordRules = ref([
       <div class="form-group">
         <v-label>아이디</v-label>
         <v-text-field
+          :rules="emailRules"
           aria-label="아이디"
           v-model="userid"
-          :rules="emailRules"
           placeholder="이메일 아이디 입력"
           density="comfortable"
           variant="outlined"
@@ -38,10 +38,10 @@ const passwordRules = ref([
       <div class="form-group">
         <v-label>비밀번호</v-label>
         <v-text-field
-          aria-label="비밀번호"
-          v-model="password"
           :rules="passwordRules"
           :type="show ? 'text' : 'password'"
+          aria-label="비밀번호"
+          v-model="password"
           placeholder="비밀번호 입력"
           density="comfortable"
           variant="outlined"
@@ -53,30 +53,29 @@ const passwordRules = ref([
       </div>
       <div class="form-checkbox">
         <v-checkbox
+          :ripple="false"
           v-model="checkbox"
           label="아이디 저장"
           hide-details
-          class="checkbox"
+          class="check-agree"
         ></v-checkbox>
       </div>
-      <div class="btn_wrap">
-        <v-btn
-          :disabled="valid"
-          type="submit"
-          variant="flat"
-          color="primary"
-          size="large"
-          rounded="lg"
-          block
-        >
-          로그인
-        </v-btn>
-      </div>
+      <v-btn
+        :ripple="false"
+        :disabled="valid"
+        type="submit"
+        variant="flat"
+        color="primary"
+        size="large"
+        rounded="lg"
+        block
+      >
+        로그인
+      </v-btn>
     </Form>
     <div class="link-wrap">
       <a href="#none" class="txt-link">회원가입</a>
-      <a href="#none" class="txt-link">아이디 찾기</a>
-      <a href="#none" class="txt-link">비밀번호 변경</a>
+      <a href="#none" class="txt-link">아이디 찾기·비밀번호 변경</a>
     </div>
   </div>
 </template>
@@ -90,38 +89,44 @@ const passwordRules = ref([
   .login-header {
     position: relative;
     width: 100%;
-    margin: 0;
-    padding-bottom: 1rem;
+    margin-bottom: 2.5rem;
     .h-title {
-      font-size: 3rem;
+      font-family: 'OneShinhan';
+      font-size: 2.5rem;
       font-weight: 700;
       color: #111518;
+      line-height: 150%;
       text-align: center;
     }
   }
   .form-group {
-    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    .v-label {
+      margin-bottom: .5rem;
+      font-size: 1.125rem;
+      line-height: 150%;
+    }
+    .v-text-field input {
+      font-size: 1.125rem;
+    }
+    .v-input--density-comfortable {
+      --v-input-control-height: 4rem;
+      --v-input-padding-top: 0.75rem;
+    }
   }
-  .v-label {
-    margin-bottom: .5rem;
-    font-size: 1.125rem;
-  }
-  .v-text-field input {
-    font-size: 1.125rem;
+  .form-checkbox {
+    margin-bottom: 2.5rem;
+    .v-checkbox .v-label {
+      margin: 0 0 0 .5rem;
+      font-size: 1rem;
+      font-weight: 400;
+      line-height: 150%;
+    }
   }
   .v-btn--size-large {
     --v-btn-height: 4rem;
     font-size: 1.25rem;
     font-weight: 700;
-  }
-  .v-input--density-comfortable {
-    --v-input-control-height: 64px;
-    --v-input-padding-top: 12px;
-  }
-  .v-checkbox .v-label {
-    margin-bottom: 0;
-    font-size: 1rem;
-    font-weight: 400;
   }
 }
 
@@ -130,26 +135,32 @@ const passwordRules = ref([
     width: 100%;
     padding: 0 1.5rem;
     .login-header {
-      padding-bottom: 0;
+      margin-bottom: 1rem;
       .h-title {
-        font-size: 1.375rem;
+        font-size: 1.25rem;
       }
     }
     .form-group {
-      margin-top: 1rem;
+      margin-bottom: 1rem;
+      .v-label {
+        font-size: 1rem;
+      }
+      .v-text-field input {
+        font-size: 1rem;
+      }
+      .v-input--density-comfortable {
+        --v-input-control-height: 3.5rem;
+      }
     }
-    .v-label {
-      font-size: 1rem;
-    }
-    .v-text-field input {
-      font-size: 1rem;
+    .form-checkbox {
+      .v-checkbox .v-label {
+        margin-left: .25rem;
+        font-size: 0.875rem;
+      }
     }
     .v-btn--size-large {
       --v-btn-height: 3.5rem;
       font-size: 1.125rem;
-    }
-    .v-input--density-comfortable {
-      --v-input-control-height: 56px;
     }
   }
 }
