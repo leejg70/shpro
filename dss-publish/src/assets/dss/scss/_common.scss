@@ -145,7 +145,7 @@ input.v-field__input{background-color: transparent !important;}
 /* 푸터 */
 .v-footer.footer{padding: 2.5rem 0;margin: 0; height: auto; flex: unset; border-top: 1px solid #E0E0E0;}
 .footer .foot-inner { position: relative; display: flex; margin: 0 auto; width: 100%; } 
-.bottom-logo { display: flex; width: 7.5rem; height: 2.08331rem; padding: 0.18231rem 0.17081rem 0.18231rem 0rem; justify-content: center; align-items: center;; background-image: url('../images/common/bottom_logo.png'); background-repeat: no-repeat; } 
+.bottom-logo { display: flex; width: 7.5rem; height: 2.08331rem; padding: 0.18231rem 0.17081rem 0.18231rem 0rem; justify-content: center; align-items: center;; background-image: url('../images/common/bottom_logo.png'); background-repeat: no-repeat; background-size: 100%;} 
 .addr-wrap { margin-left: 5.5rem; display: flex; flex-direction: column; font-size: 0.875rem; } 
 .addr-wrap > ul { display: flex; font-family: 'OneShinhan'; } 
 .addr-wrap > ul > li:not(:first-child) { margin-left: 1.5rem; } 
@@ -167,6 +167,7 @@ address span{margin-right: 1rem; display: inline-block;}
         > .foot-inner {  
             flex-direction: column;
             > .bottom-logo{
+                width: 6.25rem;
                 height: 1.73613rem;
             }
         }
@@ -211,3 +212,11 @@ address span{margin-right: 1rem; display: inline-block;}
 .check-agree .v-selection-control__input > .v-icon {opacity: 1;}
 .check-agree .mdi-checkbox-blank-outline::before {content: ''; width: 1.5rem; height: 1.5rem; background-image: url(../images/icon/icon_checkbox_off.svg);}
 .check-agree .mdi-checkbox-marked::before {content: ''; width: 1.5rem; height: 1.5rem; background-image: url(../images/icon/icon_checkbox_on.svg)}
+
+/* 720 미만일때 일괄적으로 축소*/
+@media (max-width:720px) and (min-width: 360px) { 
+}
+/* 360 미만일때 일괄적으로 축소*/
+@media only screen and (max-width: 360px) {
+    html { font-size: 4.4444vw !important; } 
+}
