@@ -128,6 +128,28 @@ const passwordRules = ref([
     font-size: 1.25rem;
     font-weight: 700;
   }
+  .link-wrap {
+    position: relative;
+    height: 1.25rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    .txt-link {
+      padding: 0 1.5rem;
+      font-size: 1rem;
+      line-height: 100%;
+      &::after {
+        content: '';
+        position: absolute;
+        top: 0;
+        width: 1px;
+        height: 1.25rem;
+        margin-left: 1.5rem;
+        background-color: #e5e5e5;
+      }
+    }
+  }
 }
 
 @media only screen and (max-width: 1280px) {
