@@ -189,16 +189,16 @@ address span{margin-right: 1rem; display: inline-block;}
     } 
 }
 /* input */
-.v-field {padding:0;font-size: 1rem; min-height: 3rem; height: 3rem;}
-.v-field__input:focus, 
-.v-field__input:active{color:#111518 !important;}
-.v-field__input:placeholder-shown {color:#888 !important; background:transparent !important;}
-.v-field__input::placeholder{font-size: 1rem; color:#888}
-.v-field__input{font-size: 1rem;min-height: 3rem;height: 3rem; background-color:transparent !important; }
-.v-text-field input {font-size: 1rem !important;}
-.v-field--disabled { opacity: 0.5 !important;  background-color: #e8e8e8;  color: #606060;  pointer-events: none;}
-.v-field__outline {color: #dddddd !important;  --v-field-border-opacity: 1;}
-.v-field__outline.text-primary {color: #356cff !important;  --v-field-border-opacity: 1;}
-.v-field--disabled .v-field__outline{color: #bcbcbc!important;}
-.v-field__clearable{position: absolute; top:0; right:.5rem; height:100%; justify-content: center;}
-.v-field__prepend-inner > .v-icon, .v-field__append-inner > .v-icon, .v-field__clearable > .v-icon {opacity: 0.42 !important;}
+.v-field {padding:0;}
+// .v-field__input:focus, 
+// .v-field__input:active{color:#111518 !important;}
+// .v-field__input:placeholder-shown {color:#888 !important; background:transparent !important;}
+// .v-field__input::placeholder{font-size: 1rem; color:#888}
+// .v-field__input{font-size: 1rem;min-height: 3rem;height: 3rem; background-color:transparent !important; }
+// .v-text-field input {font-size: 1rem !important;}
+// .v-field--disabled { opacity: 0.5 !important;  background-color: #e8e8e8;  color: #606060;  pointer-events: none;}
+// // .v-field__outline {color: #dddddd !important;  --v-field-border-opacity: 1;}
+// // .v-field__outline.text-primary {color: #356cff !important;  --v-field-border-opacity: 1;}
+// // .v-field--disabled .v-field__outline{color: #bcbcbc!important;}
+// .v-field__clearable{position: absolute; top:0; right:.5rem; height:100%; justify-content: center;}
+// .v-field__prepend-inner > .v-icon, .v-field__append-inner > .v-icon, .v-field__clearable > .v-icon {opacity: 0.42 !important;}
