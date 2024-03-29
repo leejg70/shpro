@@ -119,6 +119,9 @@ $typography: map-deep-merge(
   $typography
 );
 
+
+
+
 // Custom Variables
 // colors
 $white: #fff !default;
@@ -135,6 +138,7 @@ $theme-colors: (
   primary: var(--v-theme-primary),
   secondary: var(--v-theme-secondary),
   success: var(--v-theme-success),
+  Tertiary:var(--v-theme-tertiary),
   info: var(--v-theme-info),
   warning: var(--v-theme-warning),
   error: var(--v-theme-error)
