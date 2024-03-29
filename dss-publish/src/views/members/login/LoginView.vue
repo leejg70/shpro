@@ -53,12 +53,18 @@ const passwordRules = ref([
       </div>
       <div class="form-checkbox">
         <v-checkbox
+          :on-icon="'mdi-marked'"
+          :off-icon="'mdi-outline'"
           v-model="checkbox"
-          label="아이디 저장"
-          color="primary"
           hide-details
           class="checkbox"
-        ></v-checkbox>
+        >
+          <template v-slot:label>
+            <div :class="checkbox ? 'checked' : 'unchecked'">
+              아이디 저장
+            </div>
+          </template>
+        </v-checkbox>
       </div>
       <div class="btn_wrap">
         <v-btn
@@ -85,7 +91,7 @@ const passwordRules = ref([
 <style lang="scss">
 .login {
   position: relative;
-  width: 588px;
+  max-width: 588px;
   margin: 0 auto;
   padding: 0;
   .login-header {
@@ -122,6 +128,7 @@ const passwordRules = ref([
   .v-checkbox .v-label {
     margin-bottom: 0;
     font-size: 1rem;
+    font-weight: 400;
   }
 }
 

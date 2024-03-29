@@ -202,3 +202,23 @@ address span{margin-right: 1rem; display: inline-block;}
 // // .v-field--disabled .v-field__outline{color: #bcbcbc!important;}
 // .v-field__clearable{position: absolute; top:0; right:.5rem; height:100%; justify-content: center;}
 // .v-field__prepend-inner > .v-icon, .v-field__append-inner > .v-icon, .v-field__clearable > .v-icon {opacity: 0.42 !important;}
+
+.form-checkbox {
+    .v-selection-control__input > .v-icon {
+    opacity: 1;
+    }
+    .checkbox {
+      .mdi-checkbox-blank-outline::before {
+        content: '';
+        width: 2rem;
+        height: 2rem;
+        background-image: url(../images/icon/icon_checkbox_off.svg);
+      }
+      .mdi-checkbox-marked::before {
+        content: '';
+        width: 2rem;
+        height: 2rem;
+        background-image: url(../images/icon/icon_checkbox_on.svg)
+      }
+    }
+  }
