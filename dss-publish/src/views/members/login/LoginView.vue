@@ -53,18 +53,11 @@ const passwordRules = ref([
       </div>
       <div class="form-checkbox">
         <v-checkbox
-          :on-icon="'mdi-marked'"
-          :off-icon="'mdi-outline'"
           v-model="checkbox"
+          label="아이디 저장"
           hide-details
           class="checkbox"
-        >
-          <template v-slot:label>
-            <div :class="checkbox ? 'checked' : 'unchecked'">
-              아이디 저장
-            </div>
-          </template>
-        </v-checkbox>
+        ></v-checkbox>
       </div>
       <div class="btn_wrap">
         <v-btn
