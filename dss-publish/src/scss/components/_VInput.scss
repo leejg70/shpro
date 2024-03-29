@@ -15,7 +15,7 @@
 }
 .v-input--density-default {
   .v-field__input {
-    min-height: 42px;
+    min-height: 3rem;
   }
 }
 .v-field--variant-outlined {
@@ -79,4 +79,32 @@ textarea.v-field__input {
 .v-input--density-comfortable {
   --v-input-control-height: 46px;
   --v-input-padding-top: 12px;
+}
+.v-field__input::placeholder{
+font-size: 1rem; color:#888;
+}
+.v-field--disabled { 
+  opacity: 0.5 !important;  
+  background-color: #e8e8e8;  
+  color: #606060;  
+  pointer-events: none;
+  .v-field__outline{
+    color: #bcbcbc!important;
+  }
+}
+.v-field__clearable{
+  position: absolute; 
+  top:0; right:.5rem; 
+  height:100%; 
+  justify-content: center;
+}
+.v-field__prepend-inner > .v-icon,
+.v-field__append-inner > .v-icon,
+.v-field__clearable > .v-icon {opacity: 0.42 !important;}
+.v-messages{ 
+  font-size: 0.875rem;
+}
+.mdi-close-circle::before {
+  content: "\F0159";
+  color: #000000;
 }
