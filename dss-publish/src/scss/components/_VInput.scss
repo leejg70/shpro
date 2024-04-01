@@ -37,6 +37,7 @@
 }
 .v-label {
   font-size: 1rem;
+  line-height: 150%;
   font-weight: 500;
   --v-medium-emphasis-opacity: 1;
   color: rgb(var(--v-theme-lightText));
@@ -61,6 +62,7 @@ textarea.v-field__input {
 .textarea-input {
   .v-label {
     top: 0.9375rem;
+    line-height: 150%;
   }
 }
 
