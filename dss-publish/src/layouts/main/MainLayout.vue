@@ -7,7 +7,7 @@ import PageFooter from '@/layouts/main/MainFooter.vue'
   <v-app class="wrap">
     <PageHeader/> <!-- 헤더 컴포넌트 -->
     <v-main class="container">
-      <div class="main-inner">
+      <div class="ly-inner">
         <RouterView />
       </div>      
     </v-main>
