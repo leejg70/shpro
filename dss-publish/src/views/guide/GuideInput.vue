@@ -45,17 +45,22 @@ const link = ref({ filelink: 'https://vuetifyjs.com/en/components/text-fields/' 
   <v-row>
     <v-col cols="12">
       <v-row>  
-        <v-col cols="12" md="3">
+        <v-col cols="12" md="12">
           <!-- general -->
           <UiParentCard title="General">
             <div>
+              <v-label>아이디</v-label>
               <v-text-field color="primary" persistent-placeholder placeholder="Email Address" variant="outlined"></v-text-field>
+              <v-label>아이디 value 있을경우</v-label>
               <v-text-field color="primary" persistent-placeholder placeholder="Email Address" value="demo@company.com" variant="outlined"></v-text-field>
+              <v-label>아이디 placeholder/disabled 있을경우</v-label>
               <v-text-field color="primary" persistent-placeholder placeholder="demo@company.com" variant="outlined" disabled></v-text-field>
+              <v-label>아이디 placeholder/value/disabled 있을경우</v-label>
               <v-text-field color="primary" persistent-placeholder placeholder="demo@company.com" value="demo@company.com" variant="outlined" disabled></v-text-field>
+              <v-label>아이디 삭제버튼</v-label>
               <v-text-field color="primary" persistent-placeholder placeholder="demo@company.com" variant="outlined" clearable></v-text-field>
-              <v-text-field color="primary" :rules="[() => !!password || '비밀번호를 입력해주세요.']" persistent-placeholder placeholder="demo@company.com" variant="outlined" clearable></v-text-field>
-              
+              <v-label>패스워드 삭제버튼</v-label>
+              <v-text-field color="primary" :rules="[() => !!password || '비밀번호를 입력해주세요.']" persistent-placeholder placeholder="demo@company.com" variant="outlined" clearable></v-text-field>              
             </div>
           </UiParentCard>
         </v-col>

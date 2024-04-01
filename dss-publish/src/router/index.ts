@@ -38,8 +38,8 @@ interface AuthStore {
   logout(): void;
 }
 
+/* 로그인으로 이동
 router.beforeEach(async (to, from, next) => {
-  // redirect to login page if not logged in and trying to access a restricted page
   const publicPages = ['/auth/login1'];
   const authRequired = !publicPages.includes(to.path);
   const auth: AuthStore = useAuthStore();
@@ -53,6 +53,7 @@ router.beforeEach(async (to, from, next) => {
     next();
   }
 });
+*/
 
 router.beforeEach(() => {
   const uiStore = useUIStore();

@@ -60,11 +60,11 @@ const AuthRoutes = {
       path: '/auth/login3',
       component: () => import('@/views/authentication/auth3/AuthenticationPage3.vue')
     },
-    {
-      name: 'Login',
-      path: '/auth/login1',
-      component: () => import('@/views/authentication/auth1/LoginPage1.vue')
-    },
+    // {
+    //   name: 'Login',
+    //   path: '/auth/login1',
+    //   component: () => import('@/views/authentication/auth1/LoginPage1.vue')
+    // },
     {
       name: 'Register',
       path: '/auth/register1',
