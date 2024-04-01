@@ -169,13 +169,27 @@
 											<td class="col-3depth"></td>
 											<td class="col-4depth" style="display: none;"></td>
 											<td class="col-5depth" style="display: none;"></td>
-											<td class="col-point"></td>
+											<td class="col-point">Page</td>
 											<td class="col-url"><router-link to="/login"  target="_blank">/views/members/login/LoginView.vue</router-link></td>
 											<td class="col-date"></td>
 											<td class="col-complete" data-complete="done"></td>
 											<td class="col-worker"></td>
 											<td class="col-memo"></td>
-										</tr>	
+										</tr>
+										<tr>
+											<td class="col-num">2</td>
+											<td class="col-1depth"></td>
+											<td class="col-2depth">아이디 찾기 / 비밀번호 변경</td>
+											<td class="col-3depth"></td>
+											<td class="col-4depth" style="display: none;"></td>
+											<td class="col-5depth" style="display: none;"></td>
+											<td class="col-point">Page</td>
+											<td class="col-url"><router-link to="/idfind"  target="_blank">/views/members/login/IdFindView.vue</router-link></td>
+											<td class="col-date"></td>
+											<td class="col-complete" data-complete="done"></td>
+											<td class="col-worker"></td>
+											<td class="col-memo"></td>
+										</tr>
 									</tbody>
 								</table>
 							</div>

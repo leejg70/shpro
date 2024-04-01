@@ -15,6 +15,11 @@ const MainRoutes = {
       name: 'LoginView',
       path: '/login',
       component: () => import('@/views/members/login/LoginView.vue')
+    },
+    {
+      name: 'IdFindView',
+      path: '/idfind',
+      component: () => import('@/views/members/login/IdFindView.vue')
     }
   ]
 };
