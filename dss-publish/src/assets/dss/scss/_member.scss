@@ -1,9 +1,9 @@
 .member {
   position: relative;
-  max-width: 588px;
+  max-width: 792px;
   margin: 0 auto;
   padding: 0;
-  .login-header {
+  .member-header {
     position: relative;
     width: 100%;
     margin-bottom: 2.5rem;
@@ -13,7 +13,6 @@
       font-weight: 700;
       color: #111518;
       line-height: 150%;
-      text-align: center;
     }
   }
   .form-group {
@@ -73,10 +72,10 @@
 }
 
 @media only screen and (max-width: 1280px) {
-  .login {
+  .member {
     width: 100%;
     padding: 0 1.5rem;
-    .login-header {
+    .member-header {
       margin-bottom: 1rem;
       .h-title {
         font-size: 1.25rem;

@@ -64,24 +64,104 @@ function load() {
           <v-row>
             <v-col cols="12">
               <UiParentCard title="Button x-large">
-                <div class="d-flex ga-4 align-center flex-column flex-wrap flex-sm-row fill-height">               
-                  <v-btn  variant="flat" color="primary" size="x-large" rounded="lg" :ripple="false">primary</v-btn>
-                  <v-btn  variant="tonal" color="secondary" size="x-large" rounded="lg" :ripple="false">secondary</v-btn>
-                  <v-btn  variant="flat" color="Tertiary" size="x-large" rounded="lg" :ripple="false">Tertiary</v-btn> 
-                  <v-btn  variant="outlined" color="primary" size="x-large" rounded="lg" :ripple="false">primary outlined</v-btn>
-                  <v-btn  variant="outlined" color="Outlinded" size="x-large" rounded="lg" :ripple="false">Outlinded</v-btn>                  
+                <div class="d-flex ga-4 align-center flex-column flex-wrap flex-sm-row fill-height">
+                  <v-btn
+                    :ripple="false"
+                    variant="flat"
+                    color="primary"
+                    size="x-large"
+                    rounded="lg"
+                  >
+                    primary
+                  </v-btn>
+                  <v-btn
+                  :ripple="false"
+                    variant="tonal"
+                    color="secondary"
+                    size="x-large"
+                    rounded="lg"
+                  >
+                    secondary
+                  </v-btn>
+                  <v-btn
+                  :ripple="false"
+                    variant="flat"
+                    color="Tertiary"
+                    size="x-large"
+                    rounded="lg"
+                  >
+                    Tertiary
+                  </v-btn>
+                  <v-btn
+                    :ripple="false"
+                    variant="outlined"
+                    color="primary"
+                    size="x-large"
+                    rounded="lg"
+                  >
+                    primary outlined
+                  </v-btn>
+                  <v-btn
+                    :ripple="false"
+                    variant="outlined"
+                    color="Outlinded"
+                    size="x-large"
+                    rounded="lg"
+                  >
+                    Outlinded
+                  </v-btn>
                 </div>
               </UiParentCard>
             </v-col>
             <!-- Outlined Buttons -->
             <v-col cols="12">
               <UiParentCard title="Button large">
-                <div class="d-flex ga-4 align-center flex-column flex-wrap flex-sm-row fill-height">               
-                  <v-btn  variant="flat" color="primary" size="large" rounded="md" :ripple="false">primary</v-btn>
-                  <v-btn  variant="tonal" color="secondary" size="large" rounded="md" :ripple="false">secondary</v-btn>
-                  <v-btn  variant="flat" color="Tertiary" size="large" rounded="md" :ripple="false">Tertiary</v-btn> 
-                  <v-btn  variant="outlined" color="primary" size="large" rounded="md" :ripple="false">primary outlined</v-btn>
-                  <v-btn  variant="outlined" color="Outlinded" size="large" rounded="md" :ripple="false">Outlinded</v-btn>                  
+                <div class="d-flex ga-4 align-center flex-column flex-wrap flex-sm-row fill-height">
+                  <v-btn
+                    :ripple="false"
+                    variant="flat"
+                    color="primary"
+                    size="large"
+                    rounded="md"
+                  >
+                    primary
+                  </v-btn>
+                  <v-btn
+                    :ripple="false"
+                    variant="tonal"
+                    color="secondary"
+                    size="large"
+                    rounded="md"
+                  >
+                    secondary
+                  </v-btn>
+                  <v-btn
+                    :ripple="false"
+                    variant="flat"
+                    color="Tertiary"
+                    size="large"
+                    rounded="md"
+                  >
+                    Tertiary
+                  </v-btn>
+                  <v-btn
+                    :ripple="false"
+                    variant="outlined"
+                    color="primary"
+                    size="large"
+                    rounded="md"
+                  >
+                    primary outlined
+                  </v-btn>
+                  <v-btn
+                    :ripple="false"
+                    variant="outlined"
+                    color="Outlinded"
+                    size="large"
+                    rounded="md"
+                  >
+                    Outlinded
+                  </v-btn>
                 </div>
               </UiParentCard>
             </v-col>
@@ -89,11 +169,51 @@ function load() {
             <v-col cols="12">
               <UiParentCard title="Button small">
                 <div class="d-flex ga-4 align-center flex-column flex-wrap flex-sm-row fill-height">               
-                  <v-btn  variant="flat" color="primary" size="small" rounded="md" :ripple="false">primary</v-btn>
-                  <v-btn  variant="tonal" color="secondary" size="small" rounded="md" :ripple="false">secondary</v-btn>
-                  <v-btn  variant="flat" color="Tertiary" size="small" rounded="md" :ripple="false">Tertiary</v-btn> 
-                  <v-btn  variant="outlined" color="primary" size="small" rounded="md" :ripple="false">primary outlined</v-btn>
-                  <v-btn  variant="outlined" color="Outlinded" size="small" rounded="md" :ripple="false">Outlinded</v-btn>                  
+                  <v-btn
+                    :ripple="false"
+                    variant="flat"
+                    color="primary"
+                    size="small"
+                    rounded="md"
+                  >
+                    primary
+                  </v-btn>
+                  <v-btn
+                    :ripple="false"
+                    variant="tonal"
+                    color="secondary"
+                    size="small"
+                    rounded="md"
+                  >
+                    secondary
+                  </v-btn>
+                  <v-btn
+                    :ripple="false"
+                    variant="flat"
+                    color="Tertiary"
+                    size="small"
+                    rounded="md"
+                  >
+                    Tertiary
+                  </v-btn> 
+                  <v-btn
+                    :ripple="false"
+                    variant="outlined"
+                    color="primary"
+                    size="small"
+                    rounded="md"
+                  >
+                    primary outlined
+                  </v-btn>
+                  <v-btn
+                    :ripple="false"
+                    variant="outlined"
+                    color="Outlinded"
+                    size="small"
+                    rounded="md"
+                  >
+                    Outlinded
+                  </v-btn>                  
                 </div>
               </UiParentCard>
             </v-col>
@@ -101,11 +221,51 @@ function load() {
             <v-col cols="12">
               <UiParentCard title="Button x-small">
                 <div class="d-flex ga-4 align-center flex-column flex-wrap flex-sm-row fill-height">               
-                  <v-btn  variant="flat" color="primary" size="x-small" rounded="md" :ripple="false">primary</v-btn>
-                  <v-btn  variant="tonal" color="secondary" size="x-small" rounded="md" :ripple="false">secondary</v-btn>
-                  <v-btn  variant="flat" color="Tertiary" size="x-small" rounded="md" :ripple="false">Tertiary</v-btn> 
-                  <v-btn  variant="outlined" color="primary" size="x-small" rounded="md" :ripple="false">primary outlined</v-btn>
-                  <v-btn  variant="outlined" color="Outlinded" size="x-small" rounded="md" :ripple="false">Outlinded</v-btn>                  
+                  <v-btn
+                  :ripple="false"
+                    variant="flat" 
+                    olor="primary"
+                    size="x-small"
+                    rounded="md"
+                  >
+                    primary
+                  </v-btn>
+                  <v-btn
+                    :ripple="false"
+                    variant="tonal"
+                    color="secondary"
+                    size="x-small"
+                    rounded="md"
+                  >
+                    secondary
+                  </v-btn>
+                  <v-btn
+                    :ripple="false"
+                    variant="flat"
+                    color="Tertiary"
+                    size="x-small"
+                    rounded="md"
+                  >
+                    Tertiary
+                  </v-btn> 
+                  <v-btn
+                    :ripple="false"
+                    variant="outlined"
+                    color="primary"
+                    size="x-small"
+                    rounded="md"
+                  >
+                    primary outlined
+                  </v-btn>
+                  <v-btn
+                    :ripple="false"
+                    variant="outlined"
+                    color="Outlinded"
+                    size="x-small"
+                    rounded="md"
+                  >
+                    Outlinded
+                  </v-btn>                  
                 </div>
               </UiParentCard>
             </v-col>
@@ -113,11 +273,56 @@ function load() {
             <v-col cols="12">
               <UiParentCard title="Button disabled">
                 <div class="d-flex ga-4 align-center flex-column flex-wrap flex-sm-row fill-height">               
-                  <v-btn  text="Cotained" variant="flat" color="primary" size="x-large" rounded="lg" disabled>primary</v-btn>
-                  <v-btn  text="Cotained" variant="tonal" color="secondary" size="x-large" rounded="lg" disabled>secondary</v-btn>
-                  <v-btn  text="Cotained" variant="flat" color="Tertiary" size="x-large" rounded="lg" disabled>Tertiary</v-btn> 
-                  <v-btn  text="Cotained" variant="outlined" color="primary" size="x-large" rounded="lg" disabled>primary outlined</v-btn>
-                  <v-btn  text="Cotained" variant="outlined" color="Outlinded" size="x-large" rounded="lg" disabled>Outlinded</v-btn>                  
+                  <v-btn
+                    text="Cotained"
+                    variant="flat"
+                    color="primary"
+                    size="x-large"
+                    rounded="lg"
+                    disabled
+                  >
+                    primary
+                  </v-btn>
+                  <v-btn
+                    text="Cotained"
+                    variant="tonal"
+                    color="secondary"
+                    size="x-large"
+                    rounded="lg"
+                    disabled
+                  >
+                    secondary
+                  </v-btn>
+                  <v-btn
+                    text="Cotained"
+                    variant="flat"
+                    color="Tertiary"
+                    size="x-large"
+                    rounded="lg"
+                    disabled
+                  >
+                    Tertiary
+                  </v-btn> 
+                  <v-btn
+                    text="Cotained"
+                    variant="outlined"
+                    color="primary"
+                    size="x-large"
+                    rounded="lg"
+                    disabled
+                  >
+                    primary outlined
+                  </v-btn>
+                  <v-btn
+                    text="Cotained"
+                    variant="outlined"
+                    color="Outlinded"
+                    size="x-large"
+                    rounded="lg"
+                    disabled
+                  >
+                    Outlinded
+                  </v-btn>                  
                 </div>
               </UiParentCard>
             </v-col>
