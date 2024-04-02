@@ -20,6 +20,11 @@ const MainRoutes = {
       name: 'IdFindView',
       path: '/idfind',
       component: () => import('@/views/members/login/IdFindView.vue')
+    },
+    {
+      name: 'IdFwcChange',
+      path: '/idchange',
+      component: () => import('@/views/members/login/IdFwcChange.vue')
     }
   ]
 };
