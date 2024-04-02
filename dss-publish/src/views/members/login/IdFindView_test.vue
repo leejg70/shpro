@@ -99,13 +99,11 @@ const checkbox = ref(false);
           Open Dialog
         </v-btn>
       </template>
-
       <div class="aaaaaa" style="width: 500px; height:500px; border:2px solid #eee">
         <Agreement></Agreement>
         <v-btn color="primary" block @click="dialog1 = false">Close Dialog</v-btn>
       </div>
-    </v-dialog>
-    
+    </v-dialog>    
 </template>
 
 <style lang="scss">

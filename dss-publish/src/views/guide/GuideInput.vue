@@ -49,22 +49,96 @@ const link = ref({ filelink: 'https://vuetifyjs.com/en/components/text-fields/' 
           <!-- general -->
           <UiParentCard title="General">
             <div>
-              <v-label>아이디</v-label>
-              <v-text-field color="primary" persistent-placeholder placeholder="Email Address" variant="outlined"></v-text-field>
-              <v-label>아이디 value 있을경우</v-label>
-              <v-text-field color="primary" persistent-placeholder placeholder="Email Address" value="demo@company.com" variant="outlined"></v-text-field>
-              <v-label>아이디 placeholder/disabled 있을경우</v-label>
-              <v-text-field color="primary" persistent-placeholder placeholder="demo@company.com" variant="outlined" disabled></v-text-field>
-              <v-label>아이디 placeholder/value/disabled 있을경우</v-label>
-              <v-text-field color="primary" persistent-placeholder placeholder="demo@company.com" value="demo@company.com" variant="outlined" disabled></v-text-field>
-              <v-label>아이디 삭제버튼</v-label>
-              <v-text-field color="primary" persistent-placeholder placeholder="demo@company.com" variant="outlined" clearable></v-text-field>
-              <v-label>패스워드 삭제버튼</v-label>
-              <v-text-field color="primary" :rules="[() => !!password || '비밀번호를 입력해주세요.']" persistent-placeholder placeholder="demo@company.com" variant="outlined" clearable></v-text-field>              
+              <v-label>
+                아이디
+              </v-label>
+              <v-text-field 
+                color="primary" 
+                persistent-placeholder 
+                placeholder="Email Address" 
+                variant="outlined"
+              ></v-text-field>
+
+              <v-label>
+                아이디 value 있을경우
+              </v-label>
+              <v-text-field 
+                color="primary" 
+                persistent-placeholder 
+                placeholder="Email Address" 
+                value="demo@company.com" 
+                variant="outlined"
+              ></v-text-field>
+
+              <v-label>
+                아이디 placeholder/disabled 있을경우
+              </v-label>
+              <v-text-field 
+                color="primary" 
+                persistent-placeholder 
+                placeholder="demo@company.com" 
+                variant="outlined" 
+                disabled
+              ></v-text-field>
+
+              <v-label>
+                아이디 placeholder/value/disabled 있을경우
+              </v-label>
+              <v-text-field 
+                color="primary" 
+                persistent-placeholder 
+                placeholder="demo@company.com" 
+                value="demo@company.com" 
+                variant="outlined" 
+                disabled
+              ></v-text-field>
+
+              <v-label>
+                아이디 삭제버튼
+              </v-label>
+              <v-text-field 
+                color="primary" 
+                persistent-placeholder 
+                placeholder="demo@company.com" 
+                variant="outlined" 
+                clearable
+              ></v-text-field>
+
+              <v-label>
+                패스워드 삭제버튼
+              </v-label>
+              <v-text-field 
+                color="primary" 
+                :rules="[() => !!password || '비밀번호를 입력해주세요.']" 
+                persistent-placeholder 
+                placeholder="demo@company.com" 
+                variant="outlined" clearable
+              ></v-text-field>             
+        
+              <v-label>
+                셀렉트버튼
+              </v-label>
+              <!-- Radio with Label -->
+                         
+              <div>
+                <v-radio-group class="v-btn-radio" inline>
+                  <v-radio label="SKT" color="primary" value="SKT"></v-radio>
+                  <v-radio label="KT" color="primary" value="KT"></v-radio>
+                  <v-radio label="LG U+" color="primary" value="LG U+"></v-radio>
+                  <v-radio label="알뜰폰" color="primary" value="알뜰폰" ></v-radio>
+                </v-radio-group>
+              </div>               
+              <div>
+                <v-select             
+                label="Select"
+                :items="['SKT알뜰폰', 'KT알뜰폰', 'LG U+알뜰폰']"              
+                ></v-select> 
+              </div>
+         
             </div>
           </UiParentCard>
         </v-col>
       </v-row>
     </v-col>
-  </v-row>
+  </v-row> 
 </template>
