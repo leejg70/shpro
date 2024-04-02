@@ -29,11 +29,28 @@
                     <ul class="util-list">
                         <li><button class="btn-community"><i class="ico ico_thumb_m ico-community"></i>커뮤니티</button></li>
                         <li><button class="btn-search"><i class="ico ico_thumb_m ico-search"><span class="sr-only">검색</span></i></button></li>
-                        <li><button class="btn-allmenu"><i class="ico ico_thumb_m ico-allmenu"><span class="sr-only">전체메뉴</span></i></button></li>
+                        <li><button  color="" @click="menu = true" class="btn-allmenu"><i class="ico ico_thumb_m ico-allmenu"><span class="sr-only">전체메뉴</span></i></button></li>
                     </ul>
                 </div>
             </div>                     
         </div>    
     </header>
-  <!-- //header-->
+    <!-- //header-->
+    <!--  전체메뉴 -->
+    <v-dialog v-model="menu" width="auto">                          
+        <div class="allmenu" style="width: 500px; height:500px; border:2px solid #eee; background-color: #fff;">
+            메뉴테스트
+            <v-btn color="" class="btn-close" block @click="menu = false">Close Dialog</v-btn>
+        </div> 
+    </v-dialog>  
 </template>
+
+<script lang="ts">
+export default {
+data () {
+   return { 
+    menu : false,
+   }
+},
+};
+</script>
