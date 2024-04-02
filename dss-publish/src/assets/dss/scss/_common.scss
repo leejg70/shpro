@@ -216,13 +216,24 @@ address span {margin-right: 1rem; display: inline-block;}
 // .v-field__prepend-inner > .v-icon, .v-field__append-inner > .v-icon, .v-field__clearable > .v-icon {opacity: 0.42 !important;}
 
 /* checkbox */
+.check-all.v-input--density-default:not(.v-autocomplete--multiple) {--v-input-control-height: 2rem;}
+.check-all .v-selection-control__input,
+.check-all .v-selection-control__wrapper {width: 2rem; height: 2rem;}
+.check-all .v-selection-control__input::before {background-color: transparent;}
+.check-all .v-selection-control__input > .v-icon {opacity: 1;}
+.check-all .mdi-checkbox-blank-outline::before {content: ''; width: 1.5rem; height: 1.5rem; background-image: url(../images/icon/icon_checkbox_off.svg); background-size: 100%;}
+.check-all .mdi-checkbox-marked::before {content: ''; width: 1.5rem; height: 1.5rem; background-image: url(../images/icon/icon_checkbox_on.svg); background-size: 100%;}
+
 .check-agree.v-input--density-default:not(.v-autocomplete--multiple) {--v-input-control-height: 2rem;}
 .check-agree .v-selection-control__input,
 .check-agree .v-selection-control__wrapper {width: 2rem; height: 2rem;}
 .check-agree .v-selection-control__input::before {background-color: transparent;}
 .check-agree .v-selection-control__input > .v-icon {opacity: 1;}
-.check-agree .mdi-checkbox-blank-outline::before {content: ''; width: 1.5rem; height: 1.5rem; background-image: url(../images/icon/icon_checkbox_off.svg);}
-.check-agree .mdi-checkbox-marked::before {content: ''; width: 1.5rem; height: 1.5rem; background-image: url(../images/icon/icon_checkbox_on.svg)}
+.check-agree .mdi-checkbox-blank-outline::before {content: ''; width: 2rem; height: 2rem; background-image: url(../images/icon/icon_arrow_off.svg); background-size: 100%;}
+.check-agree .mdi-checkbox-marked::before {content: ''; width: 2rem; height: 2rem; background-image: url(../images/icon/icon_arrow_on.svg); background-size: 100%;}
+
+.v-btn--variant-text .v-btn__overlay {background-color: transparent;}
+.mdi-arrow-down::before {content: ''; width: 1.5rem; height: 1.5rem; background-image: url(../images/icon/icon_arrow.png); background-size: 100%;}
 
 /* 720 미만일때 일괄적으로 축소*/
 @media (max-width:720px) and (min-width: 360px) {

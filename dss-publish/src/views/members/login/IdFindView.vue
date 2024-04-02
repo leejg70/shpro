@@ -20,7 +20,7 @@ const formTerms = ref({
       <p class="text">본인 확인을 위한 휴대폰인증을 진행합니다.</p>
     </div>
     <Form class="form-wrap">
-      <div class="form-group">
+      <div class="form-group agree-depth">
         <div class="ele-tit">
           <v-label>약관 동의</v-label>
         </div>
@@ -38,6 +38,7 @@ const formTerms = ref({
               </div>
               <v-btn
                 :ripple="false"
+                variant="text"
                 icon="mdi-arrow-down"
                 class="btn-toggle"
               ></v-btn>

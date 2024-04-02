@@ -31,32 +31,63 @@
       color: #111518;
     }
   }
-  .form-group {
-    margin-bottom: 1.5rem;
-    .v-label {
-      margin-bottom: .5rem;
-      font-size: 1.125rem;
+  .form-wrap {
+    padding-bottom: 2rem;
+    border-bottom: 1px solid #e5e5e5;
+    .form-group {
+      position: relative;
+      padding-left: 12.8rem !important;
+      &.agree-depth {
+        padding: 1.5rem 0 2rem 0;
+        border-top: 1px solid #111518;
+        border-bottom: 1px solid #111518;
+      }
+      .ele-tit {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 12.8rem;
+        padding-top: 1.5rem;
+      }
+      .terms-info {
+        display: block;
+        position: relative;
+        .terms-wrap {
+          display: block;
+          position: relative;
+          .terms-header {
+            position: relative;
+            margin: 0;
+            padding-bottom: 1.5rem;
+            border-bottom: 1px solid #e5e5e5;
+            .form-checkbox {
+              display: block;
+              position: relative;
+              width: 100%;
+              .v-checkbox .v-label {
+                margin: 0 0 0 .5rem;
+                font-size: 1rem;
+                font-weight: 500;
+              }
+            }
+            .btn-toggle {
+              overflow: hidden;
+              display: block;
+              position: absolute;
+              top: .25rem;
+              right: 0;
+              width: 1.5rem;
+              height: 1.5rem;
+              transform: rotate(0);
+            }
+          }
+          .terms-body {
+            display: block;
+            padding: 0;
+          }
+        }
+      }
     }
-    .v-text-field input {
-      font-size: 1.125rem;
-    }
-    .v-input--density-comfortable {
-      --v-input-control-height: 4rem;
-      --v-input-padding-top: 0.75rem;
-    }
-  }
-  .form-checkbox {
-    margin-bottom: 2.5rem;
-    .v-checkbox .v-label {
-      margin: 0 0 0 .5rem;
-      font-size: 1rem;
-      font-weight: 400;
-    }
-  }
-  .v-btn--size-large {
-    --v-btn-height: 4rem;
-    font-size: 1.25rem;
-    font-weight: 700;
   }
 }
 
@@ -82,28 +113,6 @@
       .text {
         font-size: 1rem;
       }
-    }
-    .form-group {
-      margin-bottom: 1rem;
-      .v-label {
-        font-size: 1rem;
-      }
-      .v-text-field input {
-        font-size: 1rem;
-      }
-      .v-input--density-comfortable {
-        --v-input-control-height: 3.5rem;
-      }
-    }
-    .form-checkbox {
-      .v-checkbox .v-label {
-        margin-left: .25rem;
-        font-size: 0.875rem;
-      }
-    }
-    .v-btn--size-large {
-      --v-btn-height: 3.5rem;
-      font-size: 1.125rem;
     }
   }
 }

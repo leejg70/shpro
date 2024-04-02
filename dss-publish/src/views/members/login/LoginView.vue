@@ -57,7 +57,7 @@ const passwordRules = ref([
           v-model="checkbox"
           label="아이디 저장"
           hide-details
-          class="check-agree"
+          class="check-all"
         ></v-checkbox>
       </div>
       <v-btn
