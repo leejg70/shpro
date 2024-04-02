@@ -2,7 +2,10 @@
 import { ref } from 'vue';
 import { Form } from 'vee-validate';
 
-const checkbox = ref(false);
+const formTerms = ref({
+  value: ['0', '1', '2', '3', '4'],
+  allSelected: false,
+});
 </script>
 
 <template>
@@ -19,111 +22,120 @@ const checkbox = ref(false);
     <Form class="form-wrap">
       <div class="form-group">
         <div class="ele-tit">
-          <v-label>약관동의</v-label>
+          <v-label>약관 동의</v-label>
         </div>
-        <div class="work-info">
-          <div class="agreement_wrap">
-            <div class="agreement_inner">
-              <dl class="accordion_wrap accordion_check agree_depth01">
-                <dt class="accordion_header on">
-                  <div class="form-checkbox">
-                    <v-checkbox
-                      :ripple="false"
-                      v-model="checkbox"
-                      label="휴대폰 본인확인 전체 동의"
-                      hide-details
-                      class="check-agree"
-                    ></v-checkbox>
-                  </div>
-                  <v-btn
-                    icon="$vuetify"
-                    variant="text"
-                    class="toggle_btn"  
-                    @click="toggleIsPlaying"                 
-                    :class="isPlaying ? '' : 'active'"      
-                  >
-                    전체보기
-                  </v-btn>
-                </dt>
-                <dd class="accordion_body" v-show="isPlaying">
-                  <div class="agree_depth02">
-                    <div class="check_wrap">
-                      <label for="t05-NewAgree01_010" class="check_agree">
-                      <input type="checkbox" id="t05-NewAgree01_010" name="t05-NewAgree01_010" class="set_AutoComplete">
-                        <span>[필수] 휴대폰 본인확인 이용 동의</span>
-                      </label>
-                      <button type="button" class="btn_check_pop btn_txt" @click="dialog1 = true"><span>내용보기</span></button>
-                    </div>                 
-                    <div class="check_wrap" >
-                      <label for="t05-NewAgree01_020" class="check_agree">
-                        <input type="checkbox" id="t05-NewAgree01_020" name="t05-NewAgree01_020" class="set_AutoComplete">
-                        <span>[필수] 고유식별정보 처리 동의</span>
-                      </label>
-                      <button type="button" class="btn_check_pop btn_txt"><span>내용보기</span></button>
-                    </div>
-                    <div class="check_wrap">
-                      <label for="t05-NewAgree01_030" class="check_agree">
-                        <input type="checkbox" id="t05-NewAgree01_030" name="t05-NewAgree01_030" class="set_AutoComplete">
-                        <span>[필수] 통신사 이용약관 동의</span>
-                      </label>
-                      <button type="button" class="btn_check_pop btn_txt"><span>내용보기</span></button>
-                    </div>
-                    <div class="check_wrap">
-                      <label for="t05-NewAgree01_040" class="check_agree">
-                        <input type="checkbox" id="t05-NewAgree01_040" name="t05-NewAgree01_040" class="set_AutoComplete">
-                        <span>[필수] 개인정보 수집 및 이용 동의</span>
-                      </label>
-                      <button type="button" class="btn_check_pop btn_txt"><span>내용보기</span></button>
-                    </div>
-                    <div class="check_wrap">
-                      <label for="t05-NewAgree01_050" class="check_agree">
-                        <input type="checkbox" id="t05-NewAgree01_050" name="t05-NewAgree01_050" class="set_AutoComplete">
-                        <span>[필수] 개인정보 제3자 제공 동의</span>
-                      </label>
-                      <button type="button" class="btn_check_pop btn_txt"><span>내용보기</span></button>
-                    </div>                                        
-                  </div>
-                </dd>
-              </dl>
-            </div>
-          </div>
+        <div class="terms-info">
+          <dl class="terms-wrap">
+            <dt class="terms-header">
+              <div class="form-checkbox">
+                <v-checkbox
+                  :ripple="false"
+                  v-model="formTerms.allSelected"
+                  label="휴대폰 본인확인 전체 동의"
+                  hide-details
+                  class="check-all"
+                ></v-checkbox>
+              </div>
+              <v-btn
+                :ripple="false"
+                icon="mdi-arrow-down"
+                class="btn-toggle"
+              ></v-btn>
+            </dt>
+            <dd class="terms-body">
+              <div class="check-wrap">
+                <div class="form-checkbox">
+                  <v-checkbox
+                    :ripple="false"
+                    :value="formTerms.value[0]"
+                    label="[필수] 휴대폰 본인확인 이용 동의"
+                    hide-details
+                    class="check-agree"
+                  ></v-checkbox>
+                </div>
+                <v-btn
+                  variant="text"
+                  class="btn-link"
+                >
+                  내용보기
+                </v-btn>
+              </div>
+              <div class="check-wrap">
+                <div class="form-checkbox">
+                  <v-checkbox
+                    :ripple="false"
+                    :value="formTerms.value[1]"
+                    label="[필수] 고유식별정보 처리 동의"
+                    hide-details
+                    class="check-agree"
+                  ></v-checkbox>
+                </div>
+                <v-btn
+                  variant="text"
+                  class="btn-link"
+                >
+                  내용보기
+                </v-btn>
+              </div>
+              <div class="check-wrap">
+                <div class="form-checkbox">
+                  <v-checkbox
+                    :ripple="false"
+                    :value="formTerms.value[2]"
+                    label="[필수] 통신사 이용약관 동의"
+                    hide-details
+                    class="check-agree"
+                  ></v-checkbox>
+                </div>
+                <v-btn
+                  variant="text"
+                  class="btn-link"
+                >
+                  내용보기
+                </v-btn>
+              </div>
+              <div class="check-wrap">
+                <div class="form-checkbox">
+                  <v-checkbox
+                    :ripple="false"
+                    :value="formTerms.value[3]"
+                    label="[필수] 개인정보 수집 및 이용 동의"
+                    hide-details
+                    class="check-agree"
+                  ></v-checkbox>
+                </div>
+                <v-btn
+                  variant="text"
+                  class="btn-link"
+                >
+                  내용보기
+                </v-btn>
+              </div>
+              <div class="check-wrap">
+                <div class="form-checkbox">
+                  <v-checkbox
+                    :ripple="false"
+                    :value="formTerms.value[4]"
+                    label="[필수] 개인정보 제3자 제공 동의"
+                    hide-details
+                    class="check-agree"
+                  ></v-checkbox>
+                </div>
+                <v-btn
+                  variant="text"
+                  class="btn-link"
+                >
+                  내용보기
+                </v-btn>
+              </div>
+            </dd>
+          </dl>
         </div>
       </div>
     </Form>
   </div>
-  <div>
-</div>
-    <v-dialog v-model="dialog1" width="auto">
-      <template v-slot:activator="{ props }">
-        <v-btn color="primary" v-bind="props">
-          Open Dialog
-        </v-btn>
-      </template>
-
-      <div class="aaaaaa" style="width: 500px; height:500px; border:2px solid #eee">
-        <Agreement></Agreement>
-        <v-btn color="primary" block @click="dialog1 = false">Close Dialog</v-btn>
-      </div>
-    </v-dialog>
-    
 </template>
 
 <style lang="scss">
-</style>
 
-<script lang="ts">
-import Agreement from "../agreement/sample.vue";
-export default {
-data () {
-   return {
-     isPlaying: false,
-     dialog1: false,
-   }
-},
-methods: {
-   toggleIsPlaying() {
-      this.isPlaying = !this.isPlaying;
-   }
-}
-};
-</script>
+</style>
