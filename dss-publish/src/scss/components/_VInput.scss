@@ -133,11 +133,9 @@ textarea.v-field__input {
   border: 1px solid #aaa;
   background: #fff; 
 }
-.v-btn-radio .v-selection-control--dirty .v-label{ width: 25%;
+.v-btn-radio .v-selection-control--dirty .v-label{ 
   border: 2px solid  #356CFF;
   color:#356CFF;
-  width: 100%;
-  height: 100%;
 }
 .v-btn-radio .v-btn--active.v-btn::after {
   content: "";
@@ -152,9 +150,6 @@ textarea.v-field__input {
   opacity: 1;
   transition: opacity 0.2s ease-in-out;
 }
-
-
-
 
 @media only screen and (max-width: 1280px) {
   .v-input--density-default .v-field__input {
@@ -176,6 +171,20 @@ textarea.v-field__input {
     }
     textarea {
       padding-top: 1px;
+    }
+  }
+  .v-btn-radio .v-label{ 
+    font-size: 0.875rem;
+    height: 2.5rem;
+    padding: 0rem;   
+    border-radius: 0.125rem;
+  }
+  .v-btn-radio .v-radio{
+    width:calc(25% - .1875rem);
+  }
+  .v-btn-radio {
+    .v-radio + .v-radio{
+      margin-left: .25rem;
     }
   }
 }
