@@ -13,148 +13,168 @@ const formTerms = ref({
     <div class="member-header">
       <h3 class="h-title">아이디 찾기·비밀번호 변경</h3>
     </div>
-    <div class="member-step">
+    <!-- <div class="member-step">
       <div class="step-txt">본인 인증</div>
     </div>
     <div class="member-text">
       <p class="text">본인 확인을 위한 휴대폰인증을 진행합니다.</p>
-    </div>
-    <div class="complete">
-      <p>김신한님의 아이디는 hg**@ shinhan.com 입니다</p>
-      <div>
+    </div> -->
+    <div class="change-box">
+      <p class="change-tit">김신한님의 아이디는 <span>hg**@ shinhan.com</span> 입니다</p>
+      <div class="change-btn-area">
         <v-btn
           :ripple="false"
           variant="flat"
           color="primary"
           size="x-large"
-          rounded="lg"
+          rounded="lg"     
+          class="btn-w14"
         >
         로그인
       </v-btn>
-      </div>
-        
+      </div>        
     </div>
 
 
+    <div class="form-tit-area">
+      <div class="form-txt"><span>비밀번호</span> 를 잊으셨나요?</div>
+      <p class="form-s-txt">비밀번호 재설정을 통해 변경이 가능합니다.</p>
+    </div>
 
-
-    <Form class="form-wrap">
-      <div class="form-group">
-        <div class="ele-tit">
-          <v-label>약관 동의</v-label>
+    <Form class="form-wrap change">
+      <div class="form-box-group">
+        <div class="form-group change">
+          <div class="ele-tit">
+            <v-label>비밀번호 재설정</v-label>
+          </div>
+          <div class="input-wrap">
+            <v-text-field 
+              color="primary" 
+              :rules="[() => !!password || '숫자, 영문, 특수문자를 조합해 8~20자리로 생성해주세요.']" 
+              persistent-placeholder 
+              placeholder="새 비밀번호" 
+              variant="outlined" clearable
+            ></v-text-field>  
+          </div>
         </div>
-        <div class="terms-info">
-          <dl class="terms-wrap">
-            <dt class="terms-header">
-              <div class="form-checkbox">
-                <v-checkbox
-                  :ripple="false"
-                  v-model="formTerms.allSelected"
-                  label="휴대폰 본인확인 전체 동의"
-                  hide-details
-                  class="check-all"
-                ></v-checkbox>
-              </div>
-              <v-btn
-                :ripple="false"
-                icon="mdi-arrow-down"
-                class="btn-toggle"
-              ></v-btn>
-            </dt>
-            <dd class="terms-body">
-              <div class="check-wrap">
-                <div class="form-checkbox">
-                  <v-checkbox
-                    :ripple="false"
-                    :value="formTerms.value[0]"
-                    label="[필수] 휴대폰 본인확인 이용 동의"
-                    hide-details
-                    class="check-agree"
-                  ></v-checkbox>
-                </div>
-                <v-btn
-                  variant="text"
-                  class="btn-link"
-                >
-                  내용보기
-                </v-btn>
-              </div>
-              <div class="check-wrap">
-                <div class="form-checkbox">
-                  <v-checkbox
-                    :ripple="false"
-                    :value="formTerms.value[1]"
-                    label="[필수] 고유식별정보 처리 동의"
-                    hide-details
-                    class="check-agree"
-                  ></v-checkbox>
-                </div>
-                <v-btn
-                  variant="text"
-                  class="btn-link"
-                >
-                  내용보기
-                </v-btn>
-              </div>
-              <div class="check-wrap">
-                <div class="form-checkbox">
-                  <v-checkbox
-                    :ripple="false"
-                    :value="formTerms.value[2]"
-                    label="[필수] 통신사 이용약관 동의"
-                    hide-details
-                    class="check-agree"
-                  ></v-checkbox>
-                </div>
-                <v-btn
-                  variant="text"
-                  class="btn-link"
-                >
-                  내용보기
-                </v-btn>
-              </div>
-              <div class="check-wrap">
-                <div class="form-checkbox">
-                  <v-checkbox
-                    :ripple="false"
-                    :value="formTerms.value[3]"
-                    label="[필수] 개인정보 수집 및 이용 동의"
-                    hide-details
-                    class="check-agree"
-                  ></v-checkbox>
-                </div>
-                <v-btn
-                  variant="text"
-                  class="btn-link"
-                >
-                  내용보기
-                </v-btn>
-              </div>
-              <div class="check-wrap">
-                <div class="form-checkbox">
-                  <v-checkbox
-                    :ripple="false"
-                    :value="formTerms.value[4]"
-                    label="[필수] 개인정보 제3자 제공 동의"
-                    hide-details
-                    class="check-agree"
-                  ></v-checkbox>
-                </div>
-                <v-btn
-                  variant="text"
-                  class="btn-link"
-                >
-                  내용보기
-                </v-btn>
-              </div>
-            </dd>
-          </dl>
+        <div class="form-group change">
+          <div class="ele-tit">
+            <v-label>비밀번호 확인</v-label>
+          </div>
+          <div class="input-wrap">
+            <v-text-field 
+              color="primary" 
+              :rules="[() => !!password || '비밀번호를 입력해주세요.']" 
+              persistent-placeholder 
+              placeholder="새 비밀번호 확인" 
+              variant="outlined" clearable
+            ></v-text-field>  
+          </div>
         </div>
       </div>
+      <div class="change-btn-area">
+          <v-btn
+            :ripple="false"
+            variant="flat"
+            color="primary"
+            size="x-large"
+            rounded="lg"     
+            class="btn-w14"
+            disabled
+          >
+          비밀번호 변경
+        </v-btn>
+      </div>  
     </Form>
   </div>
 </template>
 
 <style lang="scss">
+.member {
+  .form-tit-area{
+    padding-top: 5rem;
+    .form-txt{
+      font-size: 1.5rem;   
+      font-weight: 500;
+      line-height: 150%;
+      span{
+        color: #356CFF;
+      }
+    }
+    .form-s-txt{
+      margin-top: 0.5rem;
+      font-size: 1.125rem;
+      line-height: 150%;
+    }
+  }
 
+  .form-wrap.change{
+    border-bottom: 0;
+    .form-box-group{
+      margin-top: 1rem;
+      padding: 1.5rem 0 .1rem; 
+      border-top: 1px solid #111518;
+      border-bottom: 1px solid #E5E5E5;
+      .form-group{
+        .ele-tit{
+          padding-top: 0.6rem;
+        }
+      }
+    }
+  }
+.change-box{
+  .change-tit{
+    padding-top: 2rem;
+    font-size: 1.5rem;
+    text-align: center;
+    span{
+      color:#356CFF;
+    }  
+  }
+}
+
+  .btn-w14{
+  min-width: 14rem;
+  }
+  .change-btn-area{
+    padding-top: 4rem;
+    text-align: center;
+  }
+
+}
+@media only screen and (max-width: 1280px) {
+  .member { 
+    .form-wrap.change{ 
+    .form-box-group{
+      .form-group{
+        .ele-tit{
+          padding-top: 0;
+        }
+      }
+    }
+  }
+  .btn-w14{
+      min-width: 100%;
+  }
+  .form-tit-area{
+    padding-top: 4rem; 
+    .form-txt{
+      font-size: 1.25rem;  
+    }
+    .form-s-txt{
+      margin-top: 0.75rem;
+      font-size: 1rem;
+    }
+  }
+  }
+  .change-btn-area{
+    padding-top: 2.5rem;
+  }
+  .change-box{
+    .change-tit{
+      padding-top: 1.5rem;
+      font-size: 1.125rem; 
+    }
+  }
+}
 </style>
