@@ -26,7 +26,7 @@
     }
     .v-input--density-comfortable {
       --v-input-control-height: 4rem;
-      --v-input-padding-top: 0.75rem;
+      --v-input-padding-top: .75rem;
     }
   }
   .form-checkbox {
@@ -94,7 +94,7 @@
     .form-checkbox {
       .v-checkbox .v-label {
         margin-left: .25rem;
-        font-size: 0.875rem;
+        font-size: .875rem;
       }
     }
     .v-btn--size-large {
@@ -105,10 +105,10 @@
       margin-top: 1.5rem;
       .txt-link {
         padding: 0 1rem;
-        font-size: 0.875rem;
+        font-size: .875rem;
         &::before {
           top: .2rem;
-          height: 0.875rem;
+          height: .875rem;
           margin-left: -1rem;
         }
       }

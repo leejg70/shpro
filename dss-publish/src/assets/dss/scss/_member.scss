@@ -116,7 +116,7 @@
                 width: auto;
                 height: 1.5rem;
                 padding: 0;
-                font-size: 0.875rem;
+                font-size: .875rem;
                 color: #111518;
                 line-height: 100%;
                 .v-btn__append {
@@ -131,6 +131,15 @@
         margin-top: 1.5rem;
         .ele-tit {
           padding-top: .6rem;
+        }
+        .input-wrap {
+          position: relative;
+          width: 100%;
+          box-sizing: border-box;
+          .v-input--density-comfortable {
+            --v-input-control-height: 3rem;
+            --v-input-padding-top: .6rem;
+          }
         }
       }
     }
@@ -179,7 +188,7 @@
             .terms-header {
               .form-checkbox {
                 .v-checkbox .v-label {
-                  font-size: 0.875rem;
+                  font-size: .875rem;
                 }
               }
               .btn-toggle {
@@ -196,11 +205,11 @@
                 .form-checkbox {
                   .v-checkbox .v-label {
                     padding-right: 5rem;
-                    font-size: 0.875rem;
+                    font-size: .875rem;
                   }
                 }
                 .btn-link {
-                  font-size: 0.75rem;
+                  font-size: .75rem;
                   .v-btn__append {
                     margin: 0 0 0 .1rem;
                     .mdi-chevron-right::before {
@@ -216,6 +225,14 @@
         + .form-group {
           .ele-tit {
             padding: 0 0 .5rem 0;
+          }
+          .input-wrap {
+            .v-text-field input {
+              font-size: .875rem;
+            }
+            .v-input--density-comfortable {
+              --v-input-control-height: 2.625rem;
+            }
           }
         }
       }
