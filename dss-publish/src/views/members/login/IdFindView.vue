@@ -6,6 +6,17 @@ const formTerms = ref({
   value: ['0', '1', '2', '3', '4'],
   allSelected: false,
 });
+
+// 추가
+const  agreOnOf = ref(false);
+const agreClick = () => {
+  if(agreOnOf.value == false){
+    agreOnOf.value = true ;
+  } else {
+    agreOnOf.value = false;
+  }
+};
+const dialog = ref(false);
 </script>
 
 <template>
@@ -41,9 +52,11 @@ const formTerms = ref({
                 variant="text"
                 icon="mdi-arrow-down"
                 class="btn-toggle"
+                @click="agreClick"  
+                :class="agreOnOf ? 'active' : '' "
               ></v-btn>
             </dt>
-            <dd class="terms-body">
+            <dd class="terms-body" v-show="agreOnOf">
               <div class="check-wrap">
                 <div class="form-checkbox">
                   <v-checkbox
@@ -57,6 +70,7 @@ const formTerms = ref({
                 <v-btn
                   variant="text"
                   class="btn-link"
+                  @click="dialog = true"
                 >
                   내용보기
                 </v-btn>
@@ -135,8 +149,13 @@ const formTerms = ref({
       </div>
     </Form>
   </div>
+  <v-dialog v-model="dialog" width="auto">
+      <div class="aaaaaa" style="width: 500px; height:500px; border:2px solid #eee">
+        <Agreement></Agreement>
+        <v-btn color="primary" block @click="dialog = false">Close Dialog</v-btn>
+      </div>
+    </v-dialog>
 </template>
 
 <style lang="scss">
-
 </style>
