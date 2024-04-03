@@ -58,7 +58,7 @@
           .terms-header {
             position: relative;
             margin: 0;
-            padding-bottom: 1.5rem;
+            padding: 0;
             .form-checkbox {
               display: block;
               position: relative;
@@ -80,11 +80,15 @@
               width: 2rem;
               height: 2rem;
               transform: rotate(0);
+              &.active {
+                transform: rotate(180deg);
+              }
             }
           }
           .terms-body {
             display: block;
-            padding: 1rem 0 0 0;
+            margin-top: 1.5rem;
+            padding-top: 1rem;
             border-top: 1px solid #e5e5e5;
             .check-wrap {
               position: relative;
@@ -99,7 +103,7 @@
                   position: relative;
                   width: 100%;
                   height: auto;
-                  padding: .25rem 5rem .25rem 2.5rem;
+                  padding: .25rem 6rem .25rem 2.5rem;
                   font-size: 1rem;
                   font-weight: 400;
                   color: #333;
@@ -107,12 +111,16 @@
               }
               .btn-link {
                 position: absolute;
-                top: 0;
+                top: .25rem;
                 right: 0;
                 width: auto;
                 height: 1.5rem;
+                padding: 0;
                 font-size: 0.875rem;
                 line-height: 100%;
+                .v-btn__append {
+                  margin: .1rem 0 0 .1rem;
+                }
               }
             }
           }
@@ -162,18 +170,36 @@
         .terms-info {
           .terms-wrap {
             .terms-header {
-              padding-bottom: 1rem;
               .form-checkbox {
                 .v-checkbox .v-label {
                   font-size: 0.875rem;
                 }
               }
+              .btn-toggle {
+                .mdi-arrow-down::before {
+                  width: 1.25rem;
+                  height: 1.25rem;
+                }
+              }
             }
             .terms-body {
+              margin-top: 1rem;
+              padding-top: .5rem;
               .check-wrap {
                 .form-checkbox {
                   .v-checkbox .v-label {
+                    padding-right: 5rem;
                     font-size: 0.875rem;
+                  }
+                }
+                .btn-link {
+                  font-size: 0.75rem;
+                  .v-btn__append {
+                    margin: 0 0 0 .1rem;
+                    .mdi-chevron-right::before {
+                      width: 1rem;
+                      height: 1rem;
+                    }
                   }
                 }
               }

@@ -6,9 +6,7 @@ const formTerms = ref({
   value: ['0', '1', '2', '3', '4'],
   allSelected: false,
 });
-
-// 추가
-const  agreOnOf = ref(false);
+const agreOnOf = ref(false);
 const agreClick = () => {
   if(agreOnOf.value == false){
     agreOnOf.value = true ;
@@ -49,14 +47,14 @@ const dialog = ref(false);
               </div>
               <v-btn
                 :ripple="false"
+                :class="agreOnOf ? 'active' : ''"
                 variant="text"
                 icon="mdi-arrow-down"
+                @click="agreClick"
                 class="btn-toggle"
-                @click="agreClick"  
-                :class="agreOnOf ? 'active' : '' "
               ></v-btn>
             </dt>
-            <dd class="terms-body" v-show="agreOnOf">
+            <dd v-show="agreOnOf" class="terms-body">
               <div class="check-wrap">
                 <div class="form-checkbox">
                   <v-checkbox
@@ -68,9 +66,11 @@ const dialog = ref(false);
                   ></v-checkbox>
                 </div>
                 <v-btn
+                  :ripple="false"
+                  append-icon="mdi-chevron-right"
                   variant="text"
-                  class="btn-link"
                   @click="dialog = true"
+                  class="btn-link"
                 >
                   내용보기
                 </v-btn>
@@ -86,6 +86,8 @@ const dialog = ref(false);
                   ></v-checkbox>
                 </div>
                 <v-btn
+                  :ripple="false"
+                  append-icon="mdi-chevron-right"
                   variant="text"
                   class="btn-link"
                 >
@@ -103,6 +105,8 @@ const dialog = ref(false);
                   ></v-checkbox>
                 </div>
                 <v-btn
+                  :ripple="false"
+                  append-icon="mdi-chevron-right"
                   variant="text"
                   class="btn-link"
                 >
@@ -120,6 +124,8 @@ const dialog = ref(false);
                   ></v-checkbox>
                 </div>
                 <v-btn
+                  :ripple="false"
+                  append-icon="mdi-chevron-right"
                   variant="text"
                   class="btn-link"
                 >
@@ -137,6 +143,8 @@ const dialog = ref(false);
                   ></v-checkbox>
                 </div>
                 <v-btn
+                  :ripple="false"
+                  append-icon="mdi-chevron-right"
                   variant="text"
                   class="btn-link"
                 >
@@ -149,13 +157,23 @@ const dialog = ref(false);
       </div>
     </Form>
   </div>
-  <v-dialog v-model="dialog" width="auto">
-      <div class="aaaaaa" style="width: 500px; height:500px; border:2px solid #eee">
-        <Agreement></Agreement>
-        <v-btn color="primary" block @click="dialog = false">Close Dialog</v-btn>
-      </div>
-    </v-dialog>
+  <v-dialog
+    v-model="dialog"
+    width="auto"
+  >
+    <div class="aaaaaa" style="width: 500px; height:500px; border:2px solid #eee">
+      <Agreement></Agreement>
+      <v-btn
+        @click="dialog = false"
+        color="primary"
+        block
+      >
+        Close Dialog
+      </v-btn>
+    </div>
+  </v-dialog>
 </template>
 
 <style lang="scss">
+
 </style>

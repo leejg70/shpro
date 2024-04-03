@@ -236,6 +236,7 @@ address span {margin-right: 1rem; display: inline-block;}
 
 .v-btn--variant-text .v-btn__overlay {background-color: transparent;}
 .mdi-arrow-down::before {content: ''; width: 1.5rem; height: 1.5rem; background-image: url(../images/icon/icon_arrow.png); background-size: 100%;}
+.mdi-chevron-right::before {content: ''; width: 1.25rem; height: 1.25rem; background-image: url(../images/btn/btn_arrow.png); background-size: 100%;}
 
 /* 720 미만일때 일괄적으로 축소*/
 @media (max-width:720px) and (min-width: 360px) {
