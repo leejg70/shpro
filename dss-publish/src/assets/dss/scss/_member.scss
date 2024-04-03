@@ -59,13 +59,14 @@
             position: relative;
             margin: 0;
             padding-bottom: 1.5rem;
-            border-bottom: 1px solid #e5e5e5;
             .form-checkbox {
               display: block;
               position: relative;
               width: 100%;
               .v-checkbox .v-label {
+                width: 100%;
                 margin: 0 0 0 .5rem;
+                padding-right: 2rem;
                 font-size: 1rem;
                 font-weight: 500;
               }
@@ -74,16 +75,46 @@
               overflow: hidden;
               display: block;
               position: absolute;
-              top: .25rem;
+              top: 0;
               right: 0;
-              width: 1.5rem;
-              height: 1.5rem;
+              width: 2rem;
+              height: 2rem;
               transform: rotate(0);
             }
           }
           .terms-body {
             display: block;
-            padding: 0;
+            padding: 1rem 0 0 0;
+            border-top: 1px solid #e5e5e5;
+            .check-wrap {
+              position: relative;
+              width: 100%;
+              margin-top: .5rem;
+              .form-checkbox {
+                display: block;
+                position: relative;
+                width: 100%;
+                .v-checkbox .v-label {
+                  display: block;
+                  position: relative;
+                  width: 100%;
+                  height: auto;
+                  padding: .25rem 5rem .25rem 2.5rem;
+                  font-size: 1rem;
+                  font-weight: 400;
+                  color: #333;
+                }
+              }
+              .btn-link {
+                position: absolute;
+                top: 0;
+                right: 0;
+                width: auto;
+                height: 1.5rem;
+                font-size: 0.875rem;
+                line-height: 100%;
+              }
+            }
           }
         }
       }
@@ -112,6 +143,43 @@
       margin-bottom: 2rem;
       .text {
         font-size: 1rem;
+      }
+    }
+    .form-wrap {
+      padding-bottom: 1.5rem;
+      .form-group {
+        padding-left: 0 !important;
+        &.agree-depth {
+          padding: 1rem 0 1.5rem 0;
+        }
+        .ele-tit {
+          display: block;
+          position: static;
+          width: auto;
+          padding-top: 0;
+          padding-bottom: 1rem;
+        }
+        .terms-info {
+          .terms-wrap {
+            .terms-header {
+              padding-bottom: 1rem;
+              .form-checkbox {
+                .v-checkbox .v-label {
+                  font-size: 0.875rem;
+                }
+              }
+            }
+            .terms-body {
+              .check-wrap {
+                .form-checkbox {
+                  .v-checkbox .v-label {
+                    font-size: 0.875rem;
+                  }
+                }
+              }
+            }
+          }
+        }
       }
     }
   }
