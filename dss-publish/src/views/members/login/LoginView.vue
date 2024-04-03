@@ -8,7 +8,7 @@ const show = ref(false);
 const checkbox = ref(false);
 const valid = ref(false);
 const emailRules = ref([(v: string) => !!v || '이메일 아이디를 입력해주세요.', (v: string) => /.+@.+\..+/.test(v) || '이메일 아이디는 유효해야 합니다.']);
-const passwordRules = ref([(v: string) => !!v || '비밀번호를 입력해주세요.', (v: string) => (v && v.length <= 10) || '비밀번호는 10자 미만이어야 합니다.']);
+const passwordRules = ref([(v: string) => !!v || '비밀번호를 입력해주세요.', (v: string) => (v && v.length <= 10) || '비밀번호를 8자리 이상 입력해 주세요.']);
 </script>
 
 <template>

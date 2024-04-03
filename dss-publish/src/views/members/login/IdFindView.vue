@@ -16,7 +16,7 @@ const agreClick = () => {
 };
 const dialog = ref(false);
 const realNm = ref(false);
-const nameRules = ref([(v: string) => !!v || '이름은 필수입력입니다.']);
+const nameRules = ref([(v: string) => !!v || '이름은 필수 입력입니다.']);
 </script>
 
 <template>
@@ -160,6 +160,25 @@ const nameRules = ref([(v: string) => !!v || '이름은 필수입력입니다.']
       <div class="form-group">
         <div class="ele-tit">
           <v-label>이름</v-label>
+        </div>
+        <div class="input-wrap">
+          <v-text-field
+            :rules="nameRules"
+            aria-label="이름"
+            v-model="realNm"
+            placeholder="이름 입력"
+            density="comfortable"
+            variant="outlined"
+            color="primary"
+            hide-details="auto"
+            clearable
+            required
+          ></v-text-field>
+        </div>
+      </div>
+      <div class="form-group">
+        <div class="ele-tit">
+          <v-label>주민등록번호</v-label>
         </div>
         <div class="input-wrap">
           <v-text-field

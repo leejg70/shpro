@@ -137,8 +137,8 @@
           width: 100%;
           box-sizing: border-box;
           .v-input--density-comfortable {
-            --v-input-control-height: 3rem;
-            --v-input-padding-top: .6rem;
+            --v-input-control-height: 2.875rem;
+            --v-input-padding-top: .75rem;
           }
         }
       }
@@ -228,10 +228,10 @@
           }
           .input-wrap {
             .v-text-field input {
+              min-height: auto;
+              padding-top: .657rem;
+              padding-bottom: .657rem;
               font-size: .875rem;
-            }
-            .v-input--density-comfortable {
-              --v-input-control-height: 2.625rem;
             }
           }
         }
