@@ -92,7 +92,6 @@
     padding: 0rem 1rem;
     font-weight: 500;
   }
-
 }
 
 .v-btn-group .v-btn {
@@ -113,32 +112,32 @@
   background-color: rgb(var(--v-theme-primary)) !important;
   color: rgb(var(--v-theme-on-primary)) !important;
 }
-.bg-primary.v-btn--disabled{
+
+.bg-primary.v-btn--disabled {
   --v-theme-overlay-multiplier: var(--v-theme-primary-overlay-multiplier);
   background-color: #DEE6F1 !important;
   color: #98A2BC !important;
 }
 
-.bg-secondary {
-  --v-theme-overlay-multiplier: var(--v-theme-secondary-overlay-multiplier);
-  background-color:  rgb(var(--v-theme-secondary) #E9EDFB)  !important;
-  color: rgb(var(--v-theme-on-secondary)) !important;  
-  border: 1px solid #DDD;
-}
+// .bg-secondary {
+//   --v-theme-overlay-multiplier: var(--v-theme-secondary-overlay-multiplier);
+//   background-color: rgb(var(--v-theme-secondary)) !important;
+//   color: #494F60 !important;
+// }
 
-.bg-secondary {
-  --v-theme-overlay-multiplier: var(--v-theme-secondary-overlay-multiplier);
-  border: 1px solid #DDD;
-  background-color: #FFF;
-  color: #111518 !important;
-}
+// .bg-secondary {
+//   --v-theme-overlay-multiplier: var(--v-theme-secondary-overlay-multiplier);
+//   border: 1px solid #DDD;
+//   background-color: #FFF;
+//   color: #111518 !important;
+// }
 
-.bg-Tertiary{
+.bg-Tertiary {
   --v-theme-overlay-multiplier: var(--v-theme-secondary-overlay-multiplier);
   background-color: #011B6A  !important;
   color: #ffffff !important;
-
 }
+
 .text-Tertiary {
   --v-theme-overlay-multiplier: var(--v-theme-secondary-overlay-multiplier);
   color: #011B6A !important;
@@ -150,13 +149,15 @@
   background-color: #011B6A  !important;
   color: rgb(var(--v-theme-on-secondary)) !important;
 }
-/*  disabled */
+
 .text-Outlinded {
   --v-theme-overlay-multiplier: var(--v-theme-secondary-overlay-multiplier);
   border: 1px solid #DDD;
   background-color: #FFF;
   color: #111518 !important;
 }
+
+/*  disabled */
 .text-primary.v-btn--variant-outlined.v-btn--disabled,
 .text-Outlinded.v-btn--variant-outlined.v-btn--disabled{
   pointer-events: none;
@@ -165,8 +166,9 @@
   color: #cccccc !important;
   opacity: 1;
 }
+
 .bg-Tertiary.v-btn--disabled{
-  background-color:  #969DB1 !important;
+  background-color: #969DB1 !important;
 }
 
 .v-btn__overlay {

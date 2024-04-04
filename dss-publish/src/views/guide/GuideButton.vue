@@ -75,8 +75,8 @@ function load() {
                     primary
                   </v-btn>
                   <v-btn
-                  :ripple="false"
-                    variant="tonal"
+                    :ripple="false"
+                    variant="flat"
                     color="secondary"
                     size="x-large"
                     rounded="lg"

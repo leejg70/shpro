@@ -31,6 +31,7 @@
       color: #111518;
     }
   }
+  // 본인 인증
   .form-wrap {
     padding-bottom: 2rem;
     border-bottom: 1px solid #e5e5e5;
@@ -144,6 +145,42 @@
       }
     }
   }
+  // 비밀번호 변경
+  .complete-box {
+    padding: 5rem 0 3rem;
+    text-align: center;
+    .icon-success {
+      width: 5rem;
+      height: 5rem;
+    }
+    .complete-text {
+      margin-top: 2rem;
+      color: #111518;
+      > div {
+        font-size: 1.5rem;
+        font-weight: 500;
+        > span {
+          color: #356cff;
+        }
+      }
+      > p {
+        padding-top: .75rem;
+        font-size: 1.125rem;
+      }
+    }
+  }
+  .btn-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 4rem;
+    .btn-w14 {
+      width: 14rem;
+      + .btn-w14 {
+        margin-left: 1rem;
+      }
+    }
+  }
 }
 
 @media only screen and (max-width: 1280px) {
@@ -169,6 +206,7 @@
         font-size: 1rem;
       }
     }
+    // 본인 인증
     .form-wrap {
       padding-bottom: 1.5rem;
       .form-group {
@@ -234,6 +272,37 @@
               font-size: .875rem;
             }
           }
+        }
+      }
+    }
+    // 비밀번호 변경
+    .complete-box {
+      padding: 3.25rem 0rem 2rem;
+      .icon-success {
+        width: 4.5rem;
+        height: 4.5rem;
+      }
+      .mdi-check-circle-outline::before {
+        width: 4.5rem;
+        height: 4.5rem;
+      }
+      .complete-text {
+        margin-top: 1.5rem;
+        > div {
+          font-size: 1.125rem;
+        }
+        > p {
+          padding-top: .5rem;
+          font-size: 1rem;     
+        } 
+      }
+    }
+    .btn-wrap {
+      padding-top: 2.5rem;
+      .btn-w14 {
+        width: calc(50% - .25rem);
+        + .btn-w14 {
+          margin-left: .5rem;
         }
       }
     }

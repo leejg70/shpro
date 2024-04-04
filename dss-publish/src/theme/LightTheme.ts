@@ -11,7 +11,7 @@ const DefaultTheme: ThemeTypes = {
   },
   colors: {
     primary: '#356CFF',
-    secondary: '#5B6B79',
+    secondary: '#E9EDFB',
     info: '#3ec9d6',
     success: '#2ca87f',
     warning: '#e58a00',
