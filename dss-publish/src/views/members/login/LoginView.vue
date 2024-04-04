@@ -49,7 +49,6 @@ const passwordRules = ref([(v: string) => !!v || '비밀번호를 입력해주�
       </div>
       <div class="form-checkbox">
         <v-checkbox
-          :ripple="false"
           v-model="checkbox"
           label="아이디 저장"
           hide-details
@@ -57,7 +56,6 @@ const passwordRules = ref([(v: string) => !!v || '비밀번호를 입력해주�
         ></v-checkbox>
       </div>
       <v-btn
-        :ripple="false"
         :disabled="valid"
         type="submit"
         variant="flat"

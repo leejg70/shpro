@@ -101,7 +101,8 @@ hr {margin: 0;}
 .sr-only {position: absolute; overflow: hidden; width: .1rem; height: .1rem; margin: -.1rem; padding: 0; border: 0 none; clip: rect(0, 0, 0, 0);}
 caption, legend {overflow: hidden; width: 1px; height: 1px; margin: -1px 0 0 0; padding: 0; font-size: 0; color: transparent; line-height: 0; border: 0;}
 input.v-field__input {background-color: transparent !important;}
-.v-btn--variant-elevated{pointer-events: none !important;}
+.v-ripple__container {opacity: 0 !important;}
+.v-btn--variant-text .v-btn__overlay {background-color: transparent;}
 
 /* Icon background image: */
 .ico {display: flex; justify-content: center; align-items: center; width: 2rem; height: 2rem; background-size: 100%;}
@@ -216,7 +217,7 @@ address span {margin-right: 1rem; display: inline-block;}
 // .v-field__clearable {position: absolute; top:0; right:.5rem; height:100%; justify-content: center;}
 // .v-field__prepend-inner > .v-icon, .v-field__append-inner > .v-icon, .v-field__clearable > .v-icon {opacity: 0.42 !important;}
 
-/* checkbox */
+/* Checkbox */
 .check-all.v-input--density-default:not(.v-autocomplete--multiple) {--v-input-control-height: 2rem;}
 .check-all .v-selection-control {width: 100%;}
 .check-all .v-selection-control__input,
@@ -235,9 +236,9 @@ address span {margin-right: 1rem; display: inline-block;}
 .check-agree .mdi-checkbox-blank-outline::before {content: ''; width: 2rem; height: 2rem; background-image: url(../images/icon/icon_arrow_off.svg); background-size: 100%;}
 .check-agree .mdi-checkbox-marked::before {content: ''; width: 2rem; height: 2rem; background-image: url(../images/icon/icon_arrow_on.svg); background-size: 100%;}
 
-.v-btn--variant-text .v-btn__overlay {background-color: transparent;}
-.mdi-arrow-down::before {content: ''; width: 1.5rem; height: 1.5rem; background-image: url(../images/icon/icon_arrow.png); background-size: 100%;}
-.mdi-chevron-right::before {content: ''; width: 1.25rem; height: 1.25rem; background-image: url(../images/btn/btn_arrow.png); background-size: 100%;}
+/* Ico Arrow */
+.terms-wrap .mdi-arrow-down::before {content: ''; width: 1.5rem; height: 1.5rem; background-image: url(../images/icon/icon_arrow.png); background-size: 100%;}
+.terms-wrap .mdi-chevron-right::before {content: ''; width: 1.25rem; height: 1.25rem; background-image: url(../images/btn/btn_arrow.png); background-size: 100%;}
 
 /* 720 미만일때 일괄적으로 축소*/
 @media (max-width:720px) and (min-width: 360px) {
