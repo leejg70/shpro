@@ -194,7 +194,7 @@
 											<td class="col-num">2</td>
 											<td class="col-1depth"></td>
 											<td class="col-2depth">아이디 찾기·비밀번호 변경</td>
-											<td class="col-3depth"></td>
+											<td class="col-3depth"> 변경 </td>
 											<td class="col-4depth" style="display: none;"></td>
 											<td class="col-5depth" style="display: none;"></td>
 											<td class="col-point">Page</td>
@@ -204,6 +204,36 @@
 											<td class="col-worker"></td>
 											<td class="col-memo"></td>
 										</tr>
+										<tr>
+											<td class="col-num">2</td>
+											<td class="col-1depth"></td>
+											<td class="col-2depth">아이디 찾기·비밀번호 변경</td>
+											<td class="col-3depth"> 완료 </td>
+											<td class="col-4depth" style="display: none;"></td>
+											<td class="col-5depth" style="display: none;"></td>
+											<td class="col-point">Page</td>
+											<td class="col-url"><router-link to="/completion"  target="_blank">/views/members/login/IdFindCompletion.vue</router-link></td>
+											<td class="col-date"></td>
+											<td class="col-complete" data-complete="done"></td>
+											<td class="col-worker"></td>
+											<td class="col-memo"></td>
+										</tr>
+										<tr>
+											<td class="col-num">2</td>
+											<td class="col-1depth"></td>
+											<td class="col-2depth">팝업샘플</td>
+											<td class="col-3depth"> </td>
+											<td class="col-4depth" style="display: none;"></td>
+											<td class="col-5depth" style="display: none;"></td>
+											<td class="col-point">popup</td>
+											<td class="col-url"><router-link to="/completion"  target="_blank">/views/members/login/PopupSample.vue</router-link></td>
+											<td class="col-date"></td>
+											<td class="col-complete" data-complete="done"></td>
+											<td class="col-worker"></td>
+											<td class="col-memo"></td>
+										</tr>
+
+										
 									</tbody>
 								</table>
 							</div>

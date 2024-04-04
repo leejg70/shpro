@@ -6,6 +6,8 @@ const formTerms = ref({
   value: ['0', '1', '2', '3', '4'],
   allSelected: false,
 });
+const realNm = ref(false);
+const pwRules = ref([(v: string) => !!v || '숫자, 영문, 특수문자를 조합해 8~20자리로 생성해주세요.']);
 </script>
 
 <template>
@@ -34,37 +36,36 @@ const formTerms = ref({
       </v-btn>
       </div>        
     </div>
-
-
     <div class="form-tit-area">
       <div class="form-txt"><span>비밀번호</span> 를 잊으셨나요?</div>
       <p class="form-s-txt">비밀번호 재설정을 통해 변경이 가능합니다.</p>
     </div>
-
     <Form class="form-wrap change">
       <div class="form-box-group">
-        <div class="form-group change">
+        <div class="form-group">
           <div class="ele-tit">
             <v-label>비밀번호 재설정</v-label>
           </div>
           <div class="input-wrap">
             <v-text-field 
               color="primary" 
-              :rules="[() => !!password || '숫자, 영문, 특수문자를 조합해 8~20자리로 생성해주세요.']" 
+              hide-details="auto"
+              :rules="pwRules"
               persistent-placeholder 
               placeholder="새 비밀번호" 
               variant="outlined" clearable
             ></v-text-field>  
           </div>
         </div>
-        <div class="form-group change">
+        <div class="form-group">
           <div class="ele-tit">
             <v-label>비밀번호 확인</v-label>
           </div>
           <div class="input-wrap">
             <v-text-field 
               color="primary" 
-              :rules="[() => !!password || '비밀번호를 입력해주세요.']" 
+              hide-details="auto"
+              :rules="pwRules"             
               persistent-placeholder 
               placeholder="새 비밀번호 확인" 
               variant="outlined" clearable
@@ -76,7 +77,7 @@ const formTerms = ref({
           <v-btn
             :ripple="false"
             variant="flat"
-            color="primary"
+            color="primary"           
             size="x-large"
             rounded="lg"     
             class="btn-w14"
@@ -88,7 +89,6 @@ const formTerms = ref({
     </Form>
   </div>
 </template>
-
 <style lang="scss">
 .member {
   .form-tit-area{
@@ -107,12 +107,11 @@ const formTerms = ref({
       line-height: 150%;
     }
   }
-
   .form-wrap.change{
     border-bottom: 0;
     .form-box-group{
-      margin-top: 1rem;
-      padding: 1.5rem 0 .1rem; 
+      margin: 1rem 0 2.5rem;
+      padding: 1.5rem 0; 
       border-top: 1px solid #111518;
       border-bottom: 1px solid #E5E5E5;
       .form-group{
@@ -122,30 +121,29 @@ const formTerms = ref({
       }
     }
   }
-.change-box{
-  .change-tit{
-    padding-top: 2rem;
-    font-size: 1.5rem;
-    text-align: center;
-    span{
-      color:#356CFF;
-    }  
+  .change-box{
+    .change-tit{
+      padding: 3rem 0rem;
+      font-size: 1.5rem;
+      text-align: center;
+      span{
+        color:#356CFF;
+      }  
+    }
   }
-}
-
   .btn-w14{
   min-width: 14rem;
   }
   .change-btn-area{
-    padding-top: 4rem;
+    padding-top: 1.5rem;
     text-align: center;
   }
-
 }
 @media only screen and (max-width: 1280px) {
   .member { 
     .form-wrap.change{ 
     .form-box-group{
+      margin: 1rem 0 1.5rem;
       .form-group{
         .ele-tit{
           padding-top: 0;
@@ -166,15 +164,16 @@ const formTerms = ref({
       font-size: 1rem;
     }
   }
-  }
   .change-btn-area{
-    padding-top: 2.5rem;
+    padding-top: 1rem;
   }
   .change-box{
     .change-tit{
-      padding-top: 1.5rem;
+      padding: 2rem 0; 
       font-size: 1.125rem; 
     }
   }
+
+  } 
 }
 </style>

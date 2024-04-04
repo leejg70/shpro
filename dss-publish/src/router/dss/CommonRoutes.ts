@@ -25,6 +25,11 @@ const MainRoutes = {
       name: 'IdFwcChange',
       path: '/idchange',
       component: () => import('@/views/members/login/IdFwcChange.vue')
+    },
+    {
+      name: 'IdFindCompletion',
+      path: '/completion',
+      component: () => import('@/views/members/login/IdFindCompletion.vue')
     }
   ]
 };
