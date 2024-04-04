@@ -111,13 +111,6 @@ input.v-field__input {background-color: transparent !important;}
 .ico-allmenu {background-image: url('../images/icon/icon_32_sitemap.png');}
 .btn-community {display: flex; align-items: center;}
 
-@media only screen and (max-width: 1280px) {
-    .ico {
-        width: 1.75rem;
-        height: 1.75rem;
-    }
-}
-
 /* Align */
 .v-application.wrap .head-inner,
 .v-footer.footer .foot-inner,
@@ -153,6 +146,52 @@ input.v-field__input {background-color: transparent !important;}
 .addr-wrap address {margin-top: 1.25rem; line-height: 1.5; color: #111518;}
 .addr-wrap .copyright {margin-top: 1rem; color: #666; line-height: 1.5;}
 address span {margin-right: 1rem; display: inline-block;}
+
+/* Input */
+.v-field {padding:0;}
+.v-messages__message {line-height: 150%;}
+
+/* Checkbox */
+.check-all.v-input--density-default:not(.v-autocomplete--multiple) {--v-input-control-height: 2rem;}
+.check-all .v-selection-control {width: 100%;}
+.check-all .v-selection-control__input,
+.check-all .v-selection-control__wrapper {width: 2rem; height: 2rem;}
+.check-all .v-selection-control__input::before {background-color: transparent;}
+.check-all .v-selection-control__input > .v-icon {opacity: 1;}
+.check-all .mdi-checkbox-blank-outline::before {content: ''; width: 1.5rem; height: 1.5rem; background-image: url(../images/icon/icon_checkbox_off.svg); background-size: 100%;}
+.check-all .mdi-checkbox-marked::before {content: ''; width: 1.5rem; height: 1.5rem; background-image: url(../images/icon/icon_checkbox_on.svg); background-size: 100%;}
+
+.check-agree.v-input--density-default:not(.v-autocomplete--multiple) {--v-input-control-height: 2rem;}
+.check-agree .v-selection-control {width: 100%;}
+.check-agree .v-selection-control__input,
+.check-agree .v-selection-control__wrapper {position: absolute; top: 0; left: 0; width: 2rem; height: 2rem;}
+.check-agree .v-selection-control__input::before {background-color: transparent;}
+.check-agree .v-selection-control__input > .v-icon {opacity: 1; width: 100%; height: 100%;}
+.check-agree .mdi-checkbox-blank-outline::before {content: ''; width: 2rem; height: 2rem; background-image: url(../images/icon/icon_arrow_off.svg); background-size: 100%;}
+.check-agree .mdi-checkbox-marked::before {content: ''; width: 2rem; height: 2rem; background-image: url(../images/icon/icon_arrow_on.svg); background-size: 100%;}
+
+/* Ico Arrow */
+.terms-wrap .mdi-arrow-down::before {content: ''; width: 1.5rem; height: 1.5rem; background-image: url(../images/icon/icon_arrow.png); background-size: 100%;}
+.terms-wrap .mdi-chevron-right::before {content: ''; width: 1.25rem; height: 1.25rem; background-image: url(../images/btn/btn_arrow.png); background-size: 100%;}
+
+/* 360 미만일때 일괄적으로 축소*/
+@media only screen and (max-width: 360px) {
+    html {
+        font-size: 4.4444vw !important;
+    }
+}
+
+/* 720 미만일때 일괄적으로 축소*/
+@media (max-width:720px) and (min-width: 360px) {
+
+}
+
+// @media only screen and (max-width: 1280px) {
+//     .ico {
+//         width: 1.75rem;
+//         height: 1.75rem;
+//     }
+// }
 
 @media only screen and (max-width: 1280px) {
     .header {
@@ -198,55 +237,5 @@ address span {margin-right: 1rem; display: inline-block;}
                 }
             }
         }
-    }
-}
-
-/* Input */
-.v-field {padding:0;}
-.v-messages__message {line-height: 150%;}
-// .v-field__input:focus,
-// .v-field__input:active {color:#111518 !important;}
-// .v-field__input:placeholder-shown {color:#888 !important; background:transparent !important;}
-// .v-field__input::placeholder {font-size: 1rem; color:#888}
-// .v-field__input {font-size: 1rem;min-height: 3rem;height: 3rem; background-color:transparent !important; }
-// .v-text-field input {font-size: 1rem !important;}
-// .v-field--disabled {opacity: 0.5 !important;  background-color: #e8e8e8;  color: #606060;  pointer-events: none;}
-// // .v-field__outline {color: #dddddd !important;  --v-field-border-opacity: 1;}
-// // .v-field__outline.text-primary {color: #356cff !important;  --v-field-border-opacity: 1;}
-// // .v-field--disabled .v-field__outline {color: #bcbcbc!important;}
-// .v-field__clearable {position: absolute; top:0; right:.5rem; height:100%; justify-content: center;}
-// .v-field__prepend-inner > .v-icon, .v-field__append-inner > .v-icon, .v-field__clearable > .v-icon {opacity: 0.42 !important;}
-
-/* Checkbox */
-.check-all.v-input--density-default:not(.v-autocomplete--multiple) {--v-input-control-height: 2rem;}
-.check-all .v-selection-control {width: 100%;}
-.check-all .v-selection-control__input,
-.check-all .v-selection-control__wrapper {width: 2rem; height: 2rem;}
-.check-all .v-selection-control__input::before {background-color: transparent;}
-.check-all .v-selection-control__input > .v-icon {opacity: 1;}
-.check-all .mdi-checkbox-blank-outline::before {content: ''; width: 1.5rem; height: 1.5rem; background-image: url(../images/icon/icon_checkbox_off.svg); background-size: 100%;}
-.check-all .mdi-checkbox-marked::before {content: ''; width: 1.5rem; height: 1.5rem; background-image: url(../images/icon/icon_checkbox_on.svg); background-size: 100%;}
-
-.check-agree.v-input--density-default:not(.v-autocomplete--multiple) {--v-input-control-height: 2rem;}
-.check-agree .v-selection-control {width: 100%;}
-.check-agree .v-selection-control__input,
-.check-agree .v-selection-control__wrapper {position: absolute; top: 0; left: 0; width: 2rem; height: 2rem;}
-.check-agree .v-selection-control__input::before {background-color: transparent;}
-.check-agree .v-selection-control__input > .v-icon {opacity: 1; width: 100%; height: 100%;}
-.check-agree .mdi-checkbox-blank-outline::before {content: ''; width: 2rem; height: 2rem; background-image: url(../images/icon/icon_arrow_off.svg); background-size: 100%;}
-.check-agree .mdi-checkbox-marked::before {content: ''; width: 2rem; height: 2rem; background-image: url(../images/icon/icon_arrow_on.svg); background-size: 100%;}
-
-/* Ico Arrow */
-.terms-wrap .mdi-arrow-down::before {content: ''; width: 1.5rem; height: 1.5rem; background-image: url(../images/icon/icon_arrow.png); background-size: 100%;}
-.terms-wrap .mdi-chevron-right::before {content: ''; width: 1.25rem; height: 1.25rem; background-image: url(../images/btn/btn_arrow.png); background-size: 100%;}
-
-/* 720 미만일때 일괄적으로 축소*/
-@media (max-width:720px) and (min-width: 360px) {
-
-}
-/* 360 미만일때 일괄적으로 축소*/
-@media only screen and (max-width: 360px) {
-    html {
-        font-size: 4.4444vw !important;
     }
 }
