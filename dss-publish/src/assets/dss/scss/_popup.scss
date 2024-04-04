@@ -1,0 +1,68 @@
+.v-dialog > .v-overlay__content {
+  max-height: 100%;
+  width: 100%;
+  max-width: 100%;
+  margin: 0;
+}
+.v-overlay__scrim { 
+  background: rgb(17, 21, 24);
+  opacity: .7;
+}
+.popup-agree-wrap{
+  width: 62.25rem;
+  height:35.75rem;
+  background-color:#fff;
+  border-radius: 1rem;
+  padding-bottom: 1.5rem;
+ }
+ .v-btn.btn-popup-close{
+   all: unset;
+   position: absolute;
+   right: 0;
+   top:0;
+   display: block;
+   width: 5rem;
+   height: 5rem;
+   overflow: hidden;
+   background-image:url(@/assets/dss/images/icon/icon_popup_close.png); 
+   background-size: 1.5rem;
+   background-position: center;
+   background-repeat: no-repeat;
+   cursor: pointer;
+   .v-btn__content {
+     all: unset;
+   }
+ }
+ .popup-head{
+  border-radius: 1rem 1rem 0;
+  padding: 1.5rem 2rem;
+  .popup-title{
+    font-size: 1.5rem;
+    color:  #111518;
+    font-weight: 500;
+  }
+ }
+ .popup-cont{
+  padding: .5rem 2rem;
+  -webkit-box-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  overflow: auto;
+  overflow-x: hidden;
+  -webkit-overflow-scrolling: touch;
+  height: calc(100% - 5.25rem);
+ }
+
+ @media only screen and (max-width: 1280px) {
+  .popup-agree-wrap{
+    left: -2rem !important;
+    width: 100vw;
+    height:100vh;
+    border-radius: 0;
+    padding-bottom: 1.5rem;
+   }
+   .v-btn.btn-popup-close{ 
+     width: 3.5rem;
+     height: 3.5rem; 
+   }
+}

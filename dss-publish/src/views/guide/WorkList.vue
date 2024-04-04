@@ -226,14 +226,12 @@
 											<td class="col-4depth" style="display: none;"></td>
 											<td class="col-5depth" style="display: none;"></td>
 											<td class="col-point">popup</td>
-											<td class="col-url"><router-link to="/completion"  target="_blank">/views/members/login/PopupSample.vue</router-link></td>
+											<td class="col-url"><router-link to="/popupsample"  target="_blank">/views/members/login/PopupSample.vue</router-link></td>
 											<td class="col-date"></td>
 											<td class="col-complete" data-complete="done"></td>
 											<td class="col-worker"></td>
 											<td class="col-memo"></td>
-										</tr>
-
-										
+										</tr>										
 									</tbody>
 								</table>
 							</div>
