@@ -17,6 +17,8 @@ const agreClick = () => {
 const dialog = ref(false);
 const realNm = ref(false);
 const nameRules = ref([(v: string) => !!v || '이름은 필수 입력입니다.']);
+const birthday = ref(false);
+const gender = ref(false);
 </script>
 
 <template>
@@ -166,7 +168,7 @@ const nameRules = ref([(v: string) => !!v || '이름은 필수 입력입니다.'
             :rules="nameRules"
             aria-label="이름"
             v-model="realNm"
-            placeholder="이름 입력"
+            placeholder="국·영문 최대 20자 입력"
             density="comfortable"
             variant="outlined"
             color="primary"
@@ -174,25 +176,51 @@ const nameRules = ref([(v: string) => !!v || '이름은 필수 입력입니다.'
             clearable
             required
           ></v-text-field>
+          <!-- <div class="v-input__details"><div class="v-messages" role="alert" aria-live="polite" id="input-24-messages"><div class="v-messages__message">이름은 필수 입력입니다.</div></div></div> -->
         </div>
       </div>
       <div class="form-group">
         <div class="ele-tit">
           <v-label>주민등록번호</v-label>
         </div>
-        <div class="input-wrap">
-          <v-text-field
-            :rules="nameRules"
-            aria-label="이름"
-            v-model="realNm"
-            placeholder="이름 입력"
-            density="comfortable"
-            variant="outlined"
-            color="primary"
-            hide-details="auto"
-            clearable
-            required
-          ></v-text-field>
+        <div class="jumin-wrap">
+          <div class="first">
+            <v-text-field
+              aria-label="주민등록번호 숫자 앞 6자리"
+              v-model="birthday"
+              placeholder="앞 6자리"
+              density="comfortable"
+              variant="outlined"
+              color="primary"
+              hide-details="auto"
+              clearable
+              required
+            ></v-text-field>
+            <span>-</span>
+          </div>
+          <div class="last">
+            <v-text-field
+              :rules="nameRules"
+              aria-label="주민등록번호 숫자 뒤 1자리"
+              v-model="gender"
+              placeholder="뒤 1자리"
+              density="comfortable"
+              variant="outlined"
+              color="primary"
+              hide-details="auto"
+              clearable
+              required
+            ></v-text-field>
+            <div class="masking">
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </div>
+          <p class="text_tip error">주민등록번호는 필수 입력입니다.</p>
         </div>
       </div>
     </Form>
