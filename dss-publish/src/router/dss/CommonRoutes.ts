@@ -30,6 +30,16 @@ const MainRoutes = {
       name: 'IdFindCompletion',
       path: '/completion',
       component: () => import('@/views/members/login/IdFindCompletion.vue')
+    },
+    {
+      name: 'PopupSample',
+      path: '/popupsample',
+      component: () => import('@/views/members/login/PopupSample.vue')
+    },
+    {
+      name: 'MemberType',
+      path: '/membertype',
+      component: () => import('@/views/members/member/MemberType.vue')
     }
   ]
 };

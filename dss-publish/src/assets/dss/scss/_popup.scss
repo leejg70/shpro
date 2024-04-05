@@ -119,3 +119,109 @@
     }
   }
 }
+
+.mb-type-wrap{
+}
+
+.mb-type-radio{
+    padding: 1.5rem 2rem 1.5rem 5.2rem;
+    flex-direction: column-reverse;
+    align-items: flex-start;
+    border-radius: 1rem;
+    border: 1px solid #E5E5E5;
+  + .mb-type-radio{
+    margin-top: 1rem;
+  }
+  &.v-selection-control--dirty{
+    border: 2px solid #356CFF;
+  }
+  .v-label{
+    padding-bottom: 1rem;
+    font-size: 1.375rem;  
+    font-weight: 500;
+    color: #111518;  
+  }
+  .mb-type-stit{
+    padding-top: 1rem;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #111518;
+    border-top: 1px solid #F0F0F0;    
+  }
+  .v-selection-control__wrapper{
+    position: relative;
+    all: unset;
+    width: 100%;
+    .v-icon{
+      position: absolute;
+      top:50%;
+      transform: translateY(-50%);
+      left:2rem;
+      width: 2rem;
+      height:2rem; 
+    }
+    .v-selection-control__input{
+      position: absolute;
+      top:0;
+      left:0;
+      width: 100%;
+      height: 100%;
+      border-radius: 0;   
+
+      .v-icon--size-default {
+        font-size: 2rem;
+      }
+      .mdi-radiobox-marked{
+        padding: 0;
+        &::before {
+          content: "";
+          position: absolute;
+          top:0;
+          left:0;
+          width: 2rem;
+          height:2rem;          
+          background-image: url(@/assets/dss/images/icon/icon_radio_active.png);
+          background-repeat: no-repeat;
+          background-size: 100%;
+          background-position: center;
+        }        
+      }
+      .mdi-radiobox-blank{
+        &::before {
+          all: unset;
+          content: "";
+          position: absolute;
+          top:0;
+          left:0;
+          width: 2rem;
+          height:2rem;          
+          background-image: url(@/assets/dss/images/icon/icon_radio_default.png);
+          background-repeat: no-repeat;
+          background-size: 100%;
+          background-position: center;
+        }
+      }
+      &::before{
+        content: "";
+        border-radius: 0 !important;
+        background-color: transparent !important;
+      }
+      input{
+      opacity: 0;
+     }
+    }
+
+  }
+}
+// .v-selection-control__input::before {
+//   content: "";
+//   position: absolute;
+//   top: 0;
+//   left: 0;
+//   width: 100%;
+//   height: 100%;
+//   border-radius: 100%;
+//   background-color: #fff;
+//   opacity: 0;
+//   pointer-events: none;
+// }
