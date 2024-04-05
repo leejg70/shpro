@@ -34,7 +34,7 @@
     }
   }
   // 본인 인증
-  .form-wrap {
+  .form-box {
     padding-bottom: 2rem;
     border-bottom: 1px solid #e5e5e5;
     .form-group {
@@ -146,8 +146,56 @@
         }
       }
     }
+    &.change {
+      padding: 1.5rem 0;
+      border-top: 1px solid #111518;
+      .form-group:first-child {
+        .ele-tit {
+          padding-top: .6rem;
+        }
+      }
+    }
   }
   // 비밀번호 변경
+  .find-text {
+    padding: 3rem 0 0;
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #111518;
+    text-align: center;
+    word-break: break-word;
+    .email {
+      color: #356cff;
+    }
+  }
+  .change-box {
+    padding: 5rem 0 1rem;
+    color: #111518;
+    .title {
+      font-size: 1.5rem;   
+      font-weight: 500;
+      span {
+        color: #356cff;
+      }
+    }
+    .text {
+      padding-top: .5rem;
+      font-size: 1.125rem;
+    }
+  }
+  .btn-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4rem;
+    .btn-w14 {
+      width: 14rem;
+      + .btn-w14 {
+        margin-left: 1rem;
+      }
+    }
+  }
+  // 비밀번호 재설정
   .complete-box {
     padding: 5rem 0 3rem;
     text-align: center;
@@ -168,18 +216,6 @@
       > p {
         padding-top: .75rem;
         font-size: 1.125rem;
-      }
-    }
-  }
-  .btn-wrap {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-top: 4rem;
-    .btn-w14 {
-      width: 14rem;
-      + .btn-w14 {
-        margin-left: 1rem;
       }
     }
   }
@@ -209,7 +245,7 @@
       }
     }
     // 본인 인증
-    .form-wrap {
+    .form-box {
       padding-bottom: 1.5rem;
       .form-group {
         padding-left: 0 !important;
@@ -269,8 +305,30 @@
           .input-wrap {
             .v-text-field input {
               min-height: auto;
-              padding-top: .657rem;
-              padding-bottom: .657rem;
+              padding-top: .7rem;
+              padding-bottom: .6rem;
+              font-size: .875rem;
+            }
+            .v-field__input::placeholder{
+              font-size: .875rem;
+            }
+          }
+        }
+      }
+      &.change {
+        .form-group:first-child {
+          .ele-tit {
+            padding-top: 0;
+            padding-bottom: .5rem;
+          }
+          .input-wrap {
+            .v-text-field input {
+              min-height: auto;
+              padding-top: .7rem;
+              padding-bottom: .6rem;
+              font-size: .875rem;
+            }
+            .v-field__input::placeholder{
               font-size: .875rem;
             }
           }
@@ -278,8 +336,35 @@
       }
     }
     // 비밀번호 변경
+    .find-text {
+      padding: 2rem 0 0;
+      font-size: 1.125rem;
+    }
+    .change-box {
+      padding: 4rem 0 1rem;
+      .title {
+        font-size: 1.25rem;
+      }
+      .text {
+        padding-top: .75rem;
+        font-size: 1rem;
+      }
+    }
+    .btn-wrap {
+      margin-top: 2.5rem;
+      .btn-w14 {
+        width: 100%;
+        &.complete {
+          width: calc(50% - .25rem);
+        }
+        + .btn-w14 {
+          margin-left: .5rem;
+        }
+      }
+    }
+    // 비밀번호 재설정
     .complete-box {
-      padding: 3.25rem 0rem 2rem;
+      padding: 3.25rem 0 2rem;
       .icon-success {
         width: 4.5rem;
         height: 4.5rem;
@@ -297,15 +382,6 @@
           padding-top: .5rem;
           font-size: 1rem;     
         } 
-      }
-    }
-    .btn-wrap {
-      padding-top: 2.5rem;
-      .btn-w14 {
-        width: calc(50% - .25rem);
-        + .btn-w14 {
-          margin-left: .5rem;
-        }
       }
     }
   }
