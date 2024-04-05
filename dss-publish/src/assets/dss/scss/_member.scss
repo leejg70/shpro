@@ -143,6 +143,16 @@
             --v-input-control-height: 2.875rem;
             --v-input-padding-top: .75rem;
           }
+          &.btn-side .input-wrap {
+            width: calc(100% - 10.5rem);
+          }
+          &.btn-side .btn-w10 {
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 10rem;
+            min-width: 10rem;
+          }
         }
         .jumin-wrap {
           overflow: hidden;
@@ -368,6 +378,28 @@
             }
             .v-field__input::placeholder{
               font-size: .875rem;
+            }
+            &.btn-side .input-wrap {
+              width: calc(100% - 7rem);
+            }
+            &.btn-side .btn-w10 {
+              width: 6.5rem;
+              min-width: 6.5rem;
+            }
+          }
+          .jumin-wrap {
+            display: flex;
+            span {
+              height: 2.5rem;
+              line-height: 2.5rem;
+            }
+            .last {
+              display: flex;
+              .masking {
+                height: 2.5rem;
+                padding: 1.1rem .5rem;
+                line-height: 2.5rem;
+              }
             }
           }
         }

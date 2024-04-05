@@ -173,17 +173,19 @@ const phone = ref('');
           </div>
           <div class="jumin-wrap">
             <div class="first">
-              <v-text-field
-                aria-label="주민등록번호 숫자 앞 6자리"
-                v-model="birthday"
-                placeholder="앞 6자리"
-                density="comfortable"
-                variant="outlined"
-                color="primary"
-                hide-details="auto"
-                clearable
-                required
-              ></v-text-field>
+              <div class="input-wrap">
+                <v-text-field
+                  aria-label="주민등록번호 숫자 앞 6자리"
+                  v-model="birthday"
+                  placeholder="앞 6자리"
+                  density="comfortable"
+                  variant="outlined"
+                  color="primary"
+                  hide-details="auto"
+                  clearable
+                  required
+                ></v-text-field>
+              </div>
             </div>
             <span>-</span>
             <div class="last">
@@ -240,23 +242,26 @@ const phone = ref('');
           <div class="ele-tit">
             <v-label>휴대폰 번호</v-label>
           </div>
-          <div class="input-wrap">
-            <v-text-field
-              aria-label="휴대폰번호 숫자 최대 11자리"
-              v-model="phone"
-              placeholder="[-] 없이 숫자만 입력"
-              density="comfortable"
-              variant="outlined"
-              color="primary"
-              hide-details="auto"
-              clearable
-              required
-            ></v-text-field>
+          <div class="input-wrap btn-side">
+            <div class="input-wrap">
+              <v-text-field
+                aria-label="휴대폰번호 숫자 최대 11자리"
+                v-model="phone"
+                placeholder="[-] 없이 숫자만 입력"
+                density="comfortable"
+                variant="outlined"
+                color="primary"
+                hide-details="auto"
+                clearable
+                required
+              ></v-text-field>
+            </div>
             <v-btn
               variant="outlined"
               color="primary"
               size="large"
               rounded="md"
+              class="btn-w10"
             >
               인증번호 전송
             </v-btn>
