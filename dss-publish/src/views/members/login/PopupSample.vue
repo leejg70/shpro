@@ -1,9 +1,11 @@
 <script setup lang="ts">
 import { ref } from 'vue';
+
+
+import Agreement from  '@/views/members/agreement/PopupAgree.vue'
+import Alert from  '@/views/members/agreement/AlertSample.vue'
 const dialog = ref(false);
 const alert= ref(false);
-import Agreement from  '@/views/members/agreement/sample.vue'
-
 </script>
 <template>
   팝업테스트 
@@ -27,43 +29,39 @@ import Agreement from  '@/views/members/agreement/sample.vue'
     </v-btn>
 
 <!-- 약관팝업 -->
-  <v-dialog
-  v-model="dialog"
-  width="auto"
-  >  
-    <div class="popup-agree-wrap">
-    <Agreement></Agreement>
+      <v-dialog
+      v-model="dialog"
+      width="auto"
+      > 
+      <Agreement></Agreement>
       <v-btn
       @click="dialog = false"  
       block
       class="btn-popup-close"
-    >
+      >
       <span class="sr-only">닫기</span>
-    </v-btn>
-    </div>
-  </v-dialog>
-<!-- 얼럿 -->
-<v-dialog
-  v-model="alert"
-  width="auto"
-  >  
+      </v-btn>
+    </v-dialog>
+
+    <!-- 얼럿 -->
+    <v-dialog
+    v-model="alert"
+    width="auto"
+    >  
     <div class="popup-alert-wrap">
-      <div class="alert-head"></div>
-      <div class="alert-cont"></div>
+      <!-- <div class="alert-head"></div> -->
+      <Alert></Alert>
       <div class="alert-foot">
         <v-btn
-        @click="dialog = false"  
+        @click="alert = false"  
         block
-        class="btn-popup-close"
+        class="btn-alert-close"
         >
         확인
         </v-btn>
       </div>  
     </div>
   </v-dialog>
-
-
-
 </template>
 <style lang="scss">
 
