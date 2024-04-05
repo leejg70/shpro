@@ -18,9 +18,6 @@ const realNm = ref('');
 const birthday = ref('');
 const gender = ref('');
 const phone = ref('');
-const nameRules = ref([(v: string) => !!v || '이름은 필수 입력입니다.']);
-const birthdayRules = ref([(v: string) => !!v || '주민등록번호는 필수 입력입니다.']);
-const phoneRules = ref([(v: string) => !!v || '(-) 하이픈 없이 숫자만 입력해주세요.']);
 </script>
 
 <template>
@@ -157,7 +154,6 @@ const phoneRules = ref([(v: string) => !!v || '(-) 하이픈 없이 숫자만 �
           </div>
           <div class="input-wrap">
             <v-text-field
-              :rules="nameRules"
               aria-label="이름"
               v-model="realNm"
               placeholder="국·영문 최대 20자 입력"
@@ -168,17 +164,16 @@ const phoneRules = ref([(v: string) => !!v || '(-) 하이픈 없이 숫자만 �
               clearable
               required
             ></v-text-field>
-            <p class="text-tip error">이름은 필수 입력입니다.</p>
           </div>
+          <p class="text-tip error">이름은 필수 입력입니다.</p>
         </div>
         <div class="form-group">
           <div class="ele-tit">
             <v-label>주민등록번호</v-label>
           </div>
-          <div class="input-wrap">
+          <div class="jumin-wrap">
             <div class="first">
               <v-text-field
-                :rules="birthdayRules"
                 aria-label="주민등록번호 숫자 앞 6자리"
                 v-model="birthday"
                 placeholder="앞 6자리"
@@ -189,21 +184,22 @@ const phoneRules = ref([(v: string) => !!v || '(-) 하이픈 없이 숫자만 �
                 clearable
                 required
               ></v-text-field>
-              <span>-</span>
             </div>
+            <span>-</span>
             <div class="last">
-              <v-text-field
-                :rules="birthdayRules"
-                aria-label="주민등록번호 숫자 뒤 1자리"
-                v-model="gender"
-                placeholder="뒤 1자리"
-                density="comfortable"
-                variant="outlined"
-                color="primary"
-                hide-details="auto"
-                clearable
-                required
-              ></v-text-field>
+              <div class="input-wrap">
+                <v-text-field
+                  aria-label="주민등록번호 숫자 뒤 1자리"
+                  v-model="gender"
+                  placeholder="뒤 1자리"
+                  density="comfortable"
+                  variant="outlined"
+                  color="primary"
+                  hide-details="auto"
+                  clearable
+                  required
+                ></v-text-field>
+              </div>
               <div class="masking">
                 <span></span>
                 <span></span>
@@ -213,8 +209,11 @@ const phoneRules = ref([(v: string) => !!v || '(-) 하이픈 없이 숫자만 �
                 <span></span>
               </div>
             </div>
-            <p class="text-tip error">주민등록번호는 필수 입력입니다.</p>
           </div>
+          <p class="text-tip error">주민등록번호는 필수 입력입니다.</p>
+          <!--
+          <p class="text-tip error">만 19세 미만은 회원가입이 불가합니다.</p>
+          -->
         </div>
         <div class="form-group">
           <div class="ele-tit">
@@ -225,7 +224,7 @@ const phoneRules = ref([(v: string) => !!v || '(-) 하이픈 없이 숫자만 �
               <v-radio label="SKT" color="primary" value="SKT"></v-radio>
               <v-radio label="KT" color="primary" value="KT"></v-radio>
               <v-radio label="LG U+" color="primary" value="LG U+"></v-radio>
-              <v-radio label="알뜰폰" color="primary" value="알뜰폰" ></v-radio>
+              <v-radio label="알뜰폰" color="primary" value="알뜰폰"></v-radio>
             </v-radio-group>
             <v-select
               aria-label="알뜰폰"
@@ -234,8 +233,8 @@ const phoneRules = ref([(v: string) => !!v || '(-) 하이픈 없이 숫자만 �
               color="primary"
               hide-details="auto"
             ></v-select>
-            <p class="text-tip error">통신사 선택은 필수입니다.</p>
           </div>
+          <p class="text-tip error">통신사 선택은 필수입니다.</p>
         </div>
         <div class="form-group">
           <div class="ele-tit">
@@ -243,7 +242,6 @@ const phoneRules = ref([(v: string) => !!v || '(-) 하이픈 없이 숫자만 �
           </div>
           <div class="input-wrap">
             <v-text-field
-              :rules="phoneRules"
               aria-label="휴대폰번호 숫자 최대 11자리"
               v-model="phone"
               placeholder="[-] 없이 숫자만 입력"
@@ -262,8 +260,13 @@ const phoneRules = ref([(v: string) => !!v || '(-) 하이픈 없이 숫자만 �
             >
               인증번호 전송
             </v-btn>
-            <p class="text-tip error">(-) 하이픈 없이 숫자만 입력해주세요.</p>
           </div>
+          <p class="text-tip hint">인증번호가 전송되었습니다. 인증번호를 입력해주세요.</p>
+          <!--
+          <p class="text-tip error">(-) 하이픈 없이 숫자만 입력해주세요.</p>
+          <p class="text-tip error">휴대폰번호는 필수 입력입니다.</p>
+          <p class="text-tip error">인증번호 전송에 실패했습니다. 인증정보를 확인해주세요.</p>
+          -->
         </div>
       </div>
       <div class="btn-wrap">
@@ -273,6 +276,7 @@ const phoneRules = ref([(v: string) => !!v || '(-) 하이픈 없이 숫자만 �
           size="x-large"
           rounded="lg"
           class="btn-w14"
+          disabled
         >
           다음
         </v-btn>

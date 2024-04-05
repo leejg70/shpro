@@ -144,6 +144,63 @@
             --v-input-padding-top: .75rem;
           }
         }
+        .jumin-wrap {
+          overflow: hidden;
+          > div {
+            float: left;
+          }
+          .first {
+            width: 20rem;
+          }
+          span {
+            float: left;
+            display: block;
+            width: 1.5rem;
+            height: 3rem;
+            line-height: 3rem;
+            color: #111518;
+            text-align: center;
+          }
+          .last {
+            width: 15rem;
+            .input-wrap {
+              float: left;
+              width: 6rem;
+            }
+            .masking {
+              float: left;
+              display: flex;
+              justify-content: space-between;
+              width: auto;
+              height: 3rem;
+              padding: 1.3rem .5rem;
+              line-height: 3rem;
+              span {
+                display: inline-block;
+                width: .3rem;
+                height: .3rem;
+                line-height: 0;
+                border-radius: 50%;
+                background-color: #111518;
+                vertical-align: middle;
+                + span {
+                  margin-left: .2rem;
+                }
+              }
+            }
+          }
+        }
+      }
+      .text-tip {
+        position: relative;
+        margin-top: .5rem;
+        font-size: .875rem;
+        &.error {
+          color: #ff3636;
+        }
+        &.hint {
+          color: #356cff;
+        }
       }
     }
     &.change {
@@ -313,6 +370,9 @@
               font-size: .875rem;
             }
           }
+        }
+        .text-tip {
+          font-size: .75rem;
         }
       }
       &.change {
