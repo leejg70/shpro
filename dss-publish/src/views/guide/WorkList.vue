@@ -36,7 +36,7 @@
 				<br>
 				<p class="ia-msg">* 제목영역을 클릭하면 펼치거나, 접을 수 있습니다.</p>
 				<!-- 00_Guide -->
-				<!-- wait:작업중, done:완료, del:삭제, except:보류  -->
+				<!-- wait:작업중, done:완료, del:삭제, except:보류
 				<section class="ia-section ia-section-ajax" data-file="ajax_ia_0" data-color="01a2de" id="gIA0">
 					<div class="ia-section-header">
 						<h2 class="ia-h2"><a href="#this" class="accordion-toggle">01_가이드</a></h2>
@@ -124,7 +124,7 @@
 						</div>
 					</div>
 				</section>
-				<!-- //00_Guide -->
+				//00_Guide -->
 
 				<!-- 02_Convention -->			
 				<section class="ia-section ia-section-ajax" data-file="ajax_ia_1" data-color="01a2de" id="gIA1">
@@ -179,8 +179,8 @@
 										<tr>
 											<td class="col-num">2</td>
 											<td class="col-1depth"></td>
-											<td class="col-2depth">아이디 찾기 / 비밀번호 변경</td>
-											<td class="col-3depth"></td>
+											<td class="col-2depth">아이디 찾기·비밀번호 변경</td>
+											<td class="col-3depth">본인 인증</td>
 											<td class="col-4depth" style="display: none;"></td>
 											<td class="col-5depth" style="display: none;"></td>
 											<td class="col-point">Page</td>
@@ -193,8 +193,8 @@
 										<tr>
 											<td class="col-num">2</td>
 											<td class="col-1depth"></td>
-											<td class="col-2depth">아이디 찾기·비밀번호 변경</td>
-											<td class="col-3depth"> 변경 </td>
+											<td class="col-2depth"></td>
+											<td class="col-3depth">비밀번호 변경</td>
 											<td class="col-4depth" style="display: none;"></td>
 											<td class="col-5depth" style="display: none;"></td>
 											<td class="col-point">Page</td>
@@ -207,8 +207,8 @@
 										<tr>
 											<td class="col-num">2</td>
 											<td class="col-1depth"></td>
-											<td class="col-2depth">아이디 찾기·비밀번호 변경</td>
-											<td class="col-3depth"> 완료 </td>
+											<td class="col-2depth"></td>
+											<td class="col-3depth">비밀번호 재설정</td>
 											<td class="col-4depth" style="display: none;"></td>
 											<td class="col-5depth" style="display: none;"></td>
 											<td class="col-point">Page</td>
@@ -221,8 +221,8 @@
 										<tr>
 											<td class="col-num">2</td>
 											<td class="col-1depth"></td>
-											<td class="col-2depth">팝업샘플</td>
-											<td class="col-3depth"> </td>
+											<td class="col-2depth"></td>
+											<td class="col-3depth">팝업샘플</td>
 											<td class="col-4depth" style="display: none;"></td>
 											<td class="col-5depth" style="display: none;"></td>
 											<td class="col-point">popup</td>

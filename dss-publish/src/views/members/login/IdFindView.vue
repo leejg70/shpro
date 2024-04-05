@@ -282,7 +282,3 @@ const phoneRules = ref([(v: string) => !!v || '(-) 하이픈 없이 숫자만 �
     </div>
   </v-dialog>
 </template>
-
-<style lang="scss">
-
-</style>
