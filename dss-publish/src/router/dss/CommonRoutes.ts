@@ -40,7 +40,17 @@ const MainRoutes = {
       name: 'MemberType',
       path: '/membertype',
       component: () => import('@/views/members/member/MemberType.vue')
-    }
+    },
+    {
+      name: 'MemberAgree',
+      path: '/memberagree',
+      component: () => import('@/views/members/member/MemberAgree.vue')
+    },
+    {
+      name: 'BusinessSearch',
+      path: '/businesssearch',
+      component: () => import('@/views/members/member/BusinessSearch.vue')
+    }    
   ]
 };
 
