@@ -275,18 +275,6 @@
       font-size: 1.125rem;
     }
   }
-  .btn-wrap {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 4rem;
-    .btn-w14 {
-      width: 14rem;
-      + .btn-w14 {
-        margin-left: 1rem;
-      }
-    }
-  }
   // 비밀번호 재설정
   .complete-box {
     padding: 5rem 0 3rem;
@@ -312,7 +300,18 @@
     }
   }
 }
-
+.btn-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4rem;
+  .btn-w14 {
+    width: 14rem;
+    + .btn-w14 {
+      margin-left: 1rem;
+    }
+  }
+}
 @media only screen and (max-width: 1280px) {
   .member {
     width: 100%;
@@ -474,18 +473,6 @@
         font-size: 1rem;
       }
     }
-    .btn-wrap {
-      margin-top: 2.5rem;
-      .btn-w14 {
-        width: 100%;
-        &.complete {
-          width: calc(50% - .25rem);
-        }
-        + .btn-w14 {
-          margin-left: .5rem;
-        }
-      }
-    }
     // 비밀번호 재설정
     .complete-box {
       padding: 3.25rem 0 2rem;
@@ -506,6 +493,18 @@
           padding-top: .5rem;
           font-size: 1rem;     
         } 
+      }
+    }
+  }
+  .btn-wrap {
+    margin-top: 2.5rem;
+    .btn-w14 {
+      width: 100%;
+      &.complete {
+        width: calc(50% - .25rem);
+      }
+      + .btn-w14 {
+        margin-left: .5rem;
       }
     }
   }
