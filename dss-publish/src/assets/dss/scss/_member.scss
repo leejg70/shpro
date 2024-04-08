@@ -153,6 +153,21 @@
             width: 10rem;
             min-width: 10rem;
           }
+          // &.side-timer {
+          //   padding-right: 4.2rem;
+          // }
+          .timer {
+            display: inline-block;
+            position: absolute;
+            top: .875rem;
+            right: 1rem;
+            width: 3.4rem;
+            height: 1.25rem;
+            box-sizing: border-box;
+            font-size: .875rem;
+            line-height: 1.25rem;
+            color: #666;
+          }
         }
         .jumin-wrap {
           overflow: hidden;
@@ -197,6 +212,16 @@
                   margin-left: .2rem;
                 }
               }
+            }
+          }
+        }
+        .phone-wrap {
+          .select-wrap {
+            position: relative;
+            width: 100%;
+            margin-top: 1rem;
+            .v-select .v-field {
+              font-size: 1rem;
             }
           }
         }
@@ -293,7 +318,7 @@
     width: 100%;
     padding: 0 1.5rem;
     .member-header {
-      margin-bottom: 1rem;
+      margin-bottom: 1.5rem;
       .h-title {
         font-size: 1.25rem;
       }
@@ -376,7 +401,7 @@
               padding-bottom: .6rem;
               font-size: .875rem;
             }
-            .v-field__input::placeholder{
+            .v-field__input::placeholder {
               font-size: .875rem;
             }
             &.btn-side .input-wrap {
@@ -399,6 +424,13 @@
                 height: 2.5rem;
                 padding: 1.1rem .5rem;
                 line-height: 2.5rem;
+              }
+            }
+          }
+          .phone-wrap {
+            .select-wrap {
+              .v-select .v-field {
+                font-size: .875rem;
               }
             }
           }

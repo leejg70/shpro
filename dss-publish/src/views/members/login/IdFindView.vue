@@ -18,6 +18,8 @@ const realNm = ref('');
 const birthday = ref('');
 const gender = ref('');
 const phone = ref('');
+const selected = ref('알뜰폰');
+const items = ['알뜰폰', 'SKT알뜰폰', 'KT알뜰폰', 'LG U+알뜰폰'];
 </script>
 
 <template>
@@ -221,20 +223,25 @@ const phone = ref('');
           <div class="ele-tit">
             <v-label>통신사 선택</v-label>
           </div>
-          <div class="input-wrap">
-            <v-radio-group class="v-btn-radio" inline>
-              <v-radio label="SKT" color="primary" value="SKT"></v-radio>
-              <v-radio label="KT" color="primary" value="KT"></v-radio>
-              <v-radio label="LG U+" color="primary" value="LG U+"></v-radio>
-              <v-radio label="알뜰폰" color="primary" value="알뜰폰"></v-radio>
-            </v-radio-group>
-            <v-select
-              aria-label="알뜰폰"
-              :items="['알뜰폰', 'SKT알뜰폰', 'KT알뜰폰', 'LG U+알뜰폰']"
-              variant="outlined"
-              color="primary"
-              hide-details="auto"
-            ></v-select>
+          <div class="phone-wrap">
+            <div class="input-wrap">
+              <v-radio-group class="v-btn-radio" inline>
+                <v-radio label="SKT" color="primary" value="SKT"></v-radio>
+                <v-radio label="KT" color="primary" value="KT"></v-radio>
+                <v-radio label="LG U+" color="primary" value="LG U+"></v-radio>
+                <v-radio label="알뜰폰" color="primary" value="알뜰폰"></v-radio>
+              </v-radio-group>
+            </div>
+            <div class="select-wrap">
+              <v-select
+                aria-label="알뜰폰"
+                v-model="selected"
+                :items="items"
+                variant="outlined"
+                color="primary"
+                hide-details="auto"
+              ></v-select>
+            </div>
           </div>
           <p class="text-tip error">통신사 선택은 필수입니다.</p>
         </div>
@@ -265,13 +272,61 @@ const phone = ref('');
             >
               인증번호 전송
             </v-btn>
+            <!--
+            <v-btn
+              variant="outlined"
+              color="primary"
+              size="large"
+              rounded="md"
+              class="btn-w10"
+            >
+              재전송
+            </v-btn>
+            -->
           </div>
           <p class="text-tip hint">인증번호가 전송되었습니다. 인증번호를 입력해주세요.</p>
           <!--
           <p class="text-tip error">(-) 하이픈 없이 숫자만 입력해주세요.</p>
           <p class="text-tip error">휴대폰번호는 필수 입력입니다.</p>
-          <p class="text-tip error">인증번호 전송에 실패했습니다. 인증정보를 확인해주세요.</p>
+          <p class="text-tip error">인증번호 발송에 실패했습니다. 이름/주민번호/통신사를 확인해주세요.</p>
           -->
+        </div>
+        <div class="form-group">
+          <div class="ele-tit">
+            <v-label>인증번호</v-label>
+          </div>
+          <div class="input-wrap btn-side">
+            <div class="input-wrap side-timer">
+              <v-text-field
+                aria-label="인증번호 숫자 6자리"
+                v-model="phone"
+                placeholder="숫자 6자리 입력"
+                density="comfortable"
+                variant="outlined"
+                color="primary"
+                hide-details="auto"
+                clearable
+                required
+              ></v-text-field>
+              <span class="timer">
+                <v-icon
+                  icon="mdi-clock-outline"
+                  class="timer"
+                ></v-icon>
+                2:44
+              </span>
+            </div>
+            <v-btn
+              variant="outlined"
+              color="primary"
+              size="large"
+              rounded="md"
+              class="btn-w10"
+            >
+              휴대폰 인증
+            </v-btn>
+          </div>
+          <p class="text-tip error">입력시간을 초과하였습니다. 인증번호 재전송 후 다시 시도해주세요.</p>
         </div>
       </div>
       <div class="btn-wrap">

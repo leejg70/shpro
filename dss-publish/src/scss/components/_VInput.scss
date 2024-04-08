@@ -102,26 +102,25 @@ textarea.v-field__input {
   }
 }
 
-.v-field__clearable{
-  position: absolute; 
-  top:0; right:.5rem; 
-  height:100%; 
+.v-field__clearable {
+  position: absolute;
+  top:0; right:.5rem;
+  height:100%;
   justify-content: center;
 }
 
 .v-field__prepend-inner > .v-icon,
 .v-field__append-inner > .v-icon,
-.v-field__clearable > .v-icon {opacity: 0.42 !important;}
-.v-messages{ 
+.v-field__clearable > .v-icon {opacity: 1 !important;}
+.v-messages{
   font-size: 0.875rem;
 }
 
 .mdi-close-circle::before {
   content: "\F0159";
-  color: #000000;
 }
 
-.v-autocomplete__selection-text{    
+.v-autocomplete__selection-text {
   color:#111518;
   font-size: 1rem;
 }
