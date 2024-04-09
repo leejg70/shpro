@@ -101,7 +101,7 @@ hr {margin: 0;}
 .sr-only {position: absolute; overflow: hidden; width: .1rem; height: .1rem; margin: -.1rem; padding: 0; border: 0 none; clip: rect(0, 0, 0, 0);}
 caption, legend {overflow: hidden; width: 1px; height: 1px; margin: -1px 0 0 0; padding: 0; font-size: 0; color: transparent; line-height: 0; border: 0;}
 input.v-field__input {background-color: transparent !important;}
-.v-field__input {opacity: 1;}
+.v-field__input {padding-left: 1rem; padding-right: 1rem; opacity: 1;}
 .v-ripple__container {opacity: 0 !important;}
 .v-btn--variant-text .v-btn__overlay {background-color: transparent;}
 
@@ -166,11 +166,11 @@ address span {margin-right: 1rem; display: inline-block;}
 .check-agree.v-input--density-default:not(.v-autocomplete--multiple) {--v-input-control-height: 2rem;}
 .check-agree .v-selection-control {width: 100%;}
 .check-agree .v-selection-control__input,
-.check-agree .v-selection-control__wrapper {position: absolute; top: 0; left: 0; width: 2rem; height: 2rem;}
+.check-agree .v-selection-control__wrapper {position: absolute; top: 0; left: 0; width: 2rem; height: 2rem; padding: .25rem;}
 .check-agree .v-selection-control__input::before {background-color: transparent;}
 .check-agree .v-selection-control__input > .v-icon {opacity: 1; width: 100%; height: 100%;}
-.check-agree .mdi-checkbox-blank-outline::before {content: ''; width: 2rem; height: 2rem; background-image: url('../images/icon/icon_arrow_off.svg'); background-size: 100%;}
-.check-agree .mdi-checkbox-marked::before {content: ''; width: 2rem; height: 2rem; background-image: url('../images/icon/icon_arrow_on.svg'); background-size: 100%;}
+.check-agree .mdi-checkbox-blank-outline::before {content: ''; width: 1.5rem; height: 1.5rem; background-image: url('../images/icon/icon_arrow_off.svg'); background-size: 100%;}
+.check-agree .mdi-checkbox-marked::before {content: ''; width: 1.5rem; height: 1.5rem; background-image: url('../images/icon/icon_arrow_on.svg'); background-size: 100%;}
 
 /* Ico Arrow */
 .terms-wrap .mdi-arrow-down::before {content: ''; width: 1.5rem; height: 1.5rem; background-image: url('../images/btn/btn_toggle_arrow.png'); background-size: 100%;}
@@ -217,6 +217,10 @@ address span {margin-right: 1rem; display: inline-block;}
 // }
 
 @media only screen and (max-width: 1280px) {
+    .v-field__input {
+        padding-left: .75rem;
+        padding-right: .75rem;
+    }
     .header {
         padding: 0.875rem 1.5rem;
     }

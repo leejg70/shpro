@@ -69,7 +69,7 @@
               .v-checkbox .v-label {
                 width: 100%;
                 margin: 0 0 0 .5rem;
-                padding-right: 2rem;
+                padding-right: 3rem;
                 font-size: 1rem;
                 font-weight: 500;
               }
@@ -78,13 +78,14 @@
               overflow: hidden;
               display: block;
               position: absolute;
-              top: 0;
+              top: -.5rem;
               right: 0;
-              width: 2rem;
-              height: 2rem;
-              transform: rotate(0);
+              width: 3rem;
+              height: 3rem;
+              padding: .75rem 0 .75rem 1.5rem;
+              transform: rotateX(0);
               &.active {
-                transform: rotate(180deg);
+                transform: rotateX(180deg);
               }
             }
           }
@@ -143,30 +144,33 @@
             --v-input-control-height: 2.875rem;
             --v-input-padding-top: .75rem;
           }
-          &.btn-side .input-wrap {
+          &.side-btn .v-input {
             width: calc(100% - 10.5rem);
           }
-          &.btn-side .btn-w10 {
+          &.side-btn .btn-w10 {
             position: absolute;
             top: 0;
             right: 0;
             width: 10rem;
             min-width: 10rem;
           }
-          // &.side-timer {
-          //   padding-right: 4.2rem;
-          // }
-          .timer {
+          &.side-timer .v-field__input {
+            padding-right: 4.2rem;
+          }
+          &.side-timer .timer-box {
             display: inline-block;
             position: absolute;
-            top: .875rem;
-            right: 1rem;
+            top: .88rem;
+            right: 11.5rem;
             width: 3.4rem;
             height: 1.25rem;
             box-sizing: border-box;
             font-size: .875rem;
             line-height: 1.25rem;
             color: #666;
+            .icon-timer {
+              margin-top: -.2rem;
+            }
           }
         }
         .jumin-wrap {
@@ -177,14 +181,14 @@
           .first {
             width: 20rem;
           }
-          span {
+          .space {
             float: left;
             display: block;
             width: 1.5rem;
             height: 3rem;
+            padding: 0 .5rem;
             line-height: 3rem;
             color: #111518;
-            text-align: center;
           }
           .last {
             width: 15rem;
@@ -312,6 +316,7 @@
     }
   }
 }
+
 @media only screen and (max-width: 1280px) {
   .member {
     width: 100%;
@@ -403,22 +408,37 @@
             .v-field__input::placeholder {
               font-size: .875rem;
             }
-            &.btn-side .input-wrap {
+            &.side-btn .v-input {
               width: calc(100% - 7rem);
             }
-            &.btn-side .btn-w10 {
+            &.side-btn .btn-w10 {
               width: 6.5rem;
               min-width: 6.5rem;
+            }
+            &.side-timer .v-field__input {
+              padding-right: 3.85rem;
+            }
+            &.side-timer .timer-box {
+              top: .69rem;
+              right: 7.75rem;
+              width: 3.1rem;
+              font-size: .75rem;
+              .icon-timer {
+                margin-top: 0;
+              }
             }
           }
           .jumin-wrap {
             display: flex;
-            span {
+            .space {
               height: 2.5rem;
               line-height: 2.5rem;
             }
             .last {
               display: flex;
+              .input-wrap {
+                width: 5rem;
+              }
               .masking {
                 height: 2.5rem;
                 padding: 1.1rem .5rem;

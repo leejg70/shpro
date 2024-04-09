@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { ref } from 'vue';
+import Agreement from  '@/views/members/agreement/PopupAgree.vue'
 
 const formTerms = ref({
   value: ['0', '1', '2', '3', '4'],
@@ -18,6 +19,7 @@ const realNm = ref('');
 const birthday = ref('');
 const gender = ref('');
 const phone = ref('');
+const sms = ref('');
 const selected = ref('알뜰폰');
 const items = ['알뜰폰', 'SKT알뜰폰', 'KT알뜰폰', 'LG U+알뜰폰'];
 </script>
@@ -189,7 +191,7 @@ const items = ['알뜰폰', 'SKT알뜰폰', 'KT알뜰폰', 'LG U+알뜰폰'];
                 ></v-text-field>
               </div>
             </div>
-            <span>-</span>
+            <span class="space">-</span>
             <div class="last">
               <div class="input-wrap">
                 <v-text-field
@@ -249,7 +251,7 @@ const items = ['알뜰폰', 'SKT알뜰폰', 'KT알뜰폰', 'LG U+알뜰폰'];
           <div class="ele-tit">
             <v-label>휴대폰 번호</v-label>
           </div>
-          <div class="input-wrap btn-side">
+          <div class="input-wrap side-btn">
             <div class="input-wrap">
               <v-text-field
                 aria-label="휴대폰번호 숫자 최대 11자리"
@@ -295,27 +297,24 @@ const items = ['알뜰폰', 'SKT알뜰폰', 'KT알뜰폰', 'LG U+알뜰폰'];
           <div class="ele-tit">
             <v-label>인증번호</v-label>
           </div>
-          <div class="input-wrap btn-side">
-            <div class="input-wrap side-timer">
-              <v-text-field
-                aria-label="인증번호 숫자 6자리"
-                v-model="phone"
-                placeholder="숫자 6자리 입력"
-                density="comfortable"
-                variant="outlined"
-                color="primary"
-                hide-details="auto"
-                clearable
-                required
-              ></v-text-field>
-              <span class="timer">
-                <v-icon
-                  icon="mdi-clock-outline"
-                  class="timer"
-                ></v-icon>
-                2:44
-              </span>
-            </div>
+          <div class="input-wrap side-btn side-timer">
+            <v-text-field
+              aria-label="인증번호 숫자 6자리"
+              v-model="sms"
+              placeholder="숫자 6자리 입력"
+              density="comfortable"
+              variant="outlined"
+              color="primary"
+              hide-details="auto"
+              required
+            ></v-text-field>
+            <span class="timer-box">
+              <v-icon
+                icon="mdi-clock-outline"
+                class="icon-timer"
+              ></v-icon>
+              2:44
+            </span>
             <v-btn
               variant="outlined"
               color="primary"
@@ -347,15 +346,13 @@ const items = ['알뜰폰', 'SKT알뜰폰', 'KT알뜰폰', 'LG U+알뜰폰'];
     v-model="dialog"
     width="auto"
   >
-    <div class="aaaaaa" style="width: 500px; height:500px; border:2px solid #eee">
-      <Agreement></Agreement>
-      <v-btn
-        @click="dialog = false"
-        color="primary"
-        block
-      >
-        Close Dialog
-      </v-btn>
-    </div>
+    <Agreement></Agreement>
+    <v-btn
+      @click="dialog = false"  
+      block
+      class="btn-popup-close"
+    >
+      닫기
+    </v-btn>
   </v-dialog>
 </template>
