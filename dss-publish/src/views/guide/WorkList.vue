@@ -231,7 +231,49 @@
 											<td class="col-complete" data-complete="done"></td>
 											<td class="col-worker"></td>
 											<td class="col-memo"></td>
-										</tr>										
+										</tr>
+										<tr>
+											<td class="col-num">2</td>
+											<td class="col-1depth"></td>
+											<td class="col-2depth">회원가입 개인</td>
+											<td class="col-3depth">가입유형선택</td>
+											<td class="col-4depth" style="display: none;"></td>
+											<td class="col-5depth" style="display: none;"></td>
+											<td class="col-point">page</td>
+											<td class="col-url"><router-link to="/membertype"  target="_blank">/views/members/member/MemberType.vue</router-link></td>
+											<td class="col-date"></td>
+											<td class="col-complete" data-complete="done"></td>
+											<td class="col-worker"></td>
+											<td class="col-memo"></td>
+										</tr>
+										<tr>
+											<td class="col-num">2</td>
+											<td class="col-1depth"></td>
+											<td class="col-2depth"></td>
+											<td class="col-3depth">서비스 이용약관</td>
+											<td class="col-4depth" style="display: none;"></td>
+											<td class="col-5depth" style="display: none;"></td>
+											<td class="col-point">page</td>
+											<td class="col-url"><router-link to="/memberagree"  target="_blank">/views/members/member/MemberAgree.vue</router-link></td>
+											<td class="col-date"></td>
+											<td class="col-complete" data-complete="done"></td>
+											<td class="col-worker"></td>
+											<td class="col-memo"></td>
+										</tr>
+										<tr>
+											<td class="col-num">2</td>
+											<td class="col-1depth"></td>
+											<td class="col-2depth">회원가입 법인사업자</td>
+											<td class="col-3depth">정보입력 (기업명 검색)</td>
+											<td class="col-4depth" style="display: none;"></td>
+											<td class="col-5depth" style="display: none;"></td>
+											<td class="col-point">page</td>
+											<td class="col-url"><router-link to="/businesssearch"  target="_blank">/views/members/member/BusinessSearch.vue</router-link></td>
+											<td class="col-date"></td>
+											<td class="col-complete" data-complete="done"></td>
+											<td class="col-worker"></td>
+											<td class="col-memo"></td>
+										</tr>
 									</tbody>
 								</table>
 							</div>

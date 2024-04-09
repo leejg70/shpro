@@ -37,7 +37,7 @@
         <v-btn
           variant="flat"
           color="primary"
-          size="x-large"
+size="x-large"
           rounded="lg"
           class="btn-w14"
         >

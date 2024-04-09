@@ -24,7 +24,7 @@ const popup = ref(false);
     <v-btn
       @click="popup = false"  
       block
-      class="btn-popup-close"
+      class="btn-popup-close"셔ㅔ
       >
       <span class="sr-only">닫기</span>
       </v-btn>
