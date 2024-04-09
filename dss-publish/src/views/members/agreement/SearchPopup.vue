@@ -4,7 +4,7 @@ import { ref } from 'vue';
 const radios = ref('기업명을 동일하게 입력해주세요');
 </script>
 <template>
-  <!-- <div class="popup-agree-wrap">
+  <div class="popup-agree-wrap">
     <div class="popup-head">
       <h3 tabindex="0">기업찾기</h3>
     </div>
@@ -124,11 +124,11 @@ const radios = ref('기업명을 동일하게 입력해주세요');
             </div>        
         </div>
     </div>
-  </div> -->
+  </div>
 </template>
 
 <style lang="scss">
-/* .search-area{
+.search-area{
   background: #F7F8FC;
   .input-wrap{
     display: flex;
@@ -166,8 +166,8 @@ const radios = ref('기업명을 동일하게 입력해주세요');
         text-align:center;
       }    
   }
-} */
-/* .table-list-body{
+} 
+ .table-list-body{
   .table-list-group{
     display: flex;
     border-bottom: 1px solid  #DDD;
@@ -181,13 +181,16 @@ const radios = ref('기업명을 동일하게 입력해주세요');
       width:100%; 
       display: flex;
       padding: 1rem;
-      li{}
-      .tb-center{
+      li{
         width: 33.5555%;
+        &.tb-center{
+         text-align:center;
+        }
       }
+
     }
   }
 
-} */
+} 
 
 </style>
