@@ -195,8 +195,9 @@ address span {margin-right: 1rem; display: inline-block;}
 .complete-box .mdi-check-circle-outline::before {content: ''; width: 5rem; height: 5rem; background-image: url('../images/icon/icon_success.png'); background-size: 100%;}
 
 /* Step */
+.step-flow ul li i {overflow: hidden; display: inline-block; position: relative; width: 1.25rem; height: 1.25rem; background-image: url('../images/icon/icon_step_off.png'); background-size: 100%; vertical-align: baseline; text-indent: -9999px;}
+.step-flow ul li.complete i {width: 1.25rem; height: 1.25rem; background-image: url('../images/icon/icon_step_on.png'); background-size: 100%;}
 .step-flow ul li.current i::before {content: ''; display: block; position: absolute; top: 0; left: 0; width: 1.25rem; height: 1.25rem; background-image: url('../images/icon/icon_step_check.png'); background-size: 100%;}
-.step-flow ul li i {overflow: hidden; display: inline-block; position: relative; width: 1.25rem; height: 1.25rem; background-image: url('../images/icon/icon_step.png'); background-size: 100%; vertical-align: baseline; text-indent: -9999px;}
 
 /* Delete */
 .mdi-close-circle::before {color: #949494;}

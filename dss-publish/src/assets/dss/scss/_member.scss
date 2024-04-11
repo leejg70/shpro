@@ -57,6 +57,11 @@
                 display: none;
               }
             }
+            &.complete {
+              &::before {
+                border-top: 1px solid #356CFF;
+              }
+            }
           }
         }
         .blind {
@@ -302,6 +307,27 @@
       }
     }
   }
+  // 서비스 이용약관
+  .form-group {
+    &.agree-checkbox {
+      .form-checkbox {
+        padding: 1.5rem 0;
+        border-top: 1px solid #111518;
+        .v-checkbox {
+          .v-label {
+            margin-left: .5rem;
+            font-size: 1rem;
+          }
+        }
+      }
+      .text-area {
+        height: 25rem;
+        padding: 1.5rem 2rem 0 0;
+        border-top: 1px solid #e5e5e5;
+        border-bottom: 1px solid #e5e5e5;
+      }
+    }
+  }
   // 비밀번호 변경
   .find-text {
     padding: 3rem 0 0;
@@ -535,6 +561,23 @@
               font-size: .875rem;
             }
           }
+        }
+      }
+    }
+    // 서비스 이용약관
+    .form-group {
+      &.agree-checkbox {
+        .form-checkbox {
+          padding: 1rem 0;
+          .v-checkbox {
+            .v-label {
+              font-size: .875rem;
+            }
+          }
+        }
+        .text-area {
+          height: 17.5rem;
+          padding: 1rem 0 0 0;
         }
       }
     }
