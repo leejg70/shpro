@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { ref } from 'vue';
-import Agreement from  '@/views/members/agreement/PopupAgree.vue'
+import Agreement from  '@/views/dss/Member/Agreement/PopupAgree.vue'
 
 const formTerms = ref({
   value: ['0', '1', '2', '3', '4'],
