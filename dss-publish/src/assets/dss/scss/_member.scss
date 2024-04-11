@@ -25,6 +25,56 @@
       font-weight: 500;
       color: #111518;
     }
+    &.member-flow {
+      .step-flow {
+        overflow: hidden;
+        padding-top: .88rem;
+        ul {
+          float: right;
+          li {
+            float: left;
+            position: relative;
+            width: 2.75rem;
+            height: 1.25rem;
+            white-space: nowrap;
+            &::before {
+              content: '';
+              display: block;
+              position: absolute;
+              top: 50%;
+              left: 1.25rem;
+              width: 1.5rem;
+              border-top: 1px solid #eaeaea;
+            }
+            &.current i {
+              width: 1.25rem;
+              height: 1.25rem;
+              vertical-align: top;
+            }
+            &:last-child {
+              width: auto;
+              &::before {
+                display: none;
+              }
+            }
+          }
+        }
+        .blind {
+          position: absolute;
+          overflow: hidden;
+          left: auto;
+          top: auto;
+          width: 1px;
+          height: 1px;
+          clip: rect(1px, 1px, 1px, 1px);
+          clip-path: inset(50%);
+          margin: 0;
+          border: 0;
+          background: transparent;
+          color: transparent;
+        }
+      }
+    }
   }
   .member-text {
     margin-bottom: 3rem;
@@ -332,6 +382,16 @@
       .step-txt {
         float: none;
         font-size: 1.25rem;
+      }
+      &.member-flow {
+        margin-bottom: 1.5rem;
+        .step-flow {
+          margin-top: .75rem;
+          padding-top: 0;
+          ul {
+            float: none;
+          }
+        }
       }
     }
     .member-text {
