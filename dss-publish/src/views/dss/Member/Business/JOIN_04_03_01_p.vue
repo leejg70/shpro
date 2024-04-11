@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { ref } from 'vue';
 
-import searchpopup from  '@/views/members/agreement/SearchPopup.vue'
+import searchpopup from  '@/views/dss/Member/Agreement/SearchPopup.vue'
 const popup = ref(false);
 </script>
 
