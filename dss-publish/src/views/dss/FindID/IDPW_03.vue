@@ -1,86 +1,40 @@
-<script setup lang="ts">
-import { ref } from 'vue';
-
-const resetpw = ref('');
-const verifytpw = ref('');
-const resetpwRules = ref([(v: string) => !!v || '숫자, 영문, 특수문자를 조합해 8~20자리로 생성해주세요.']);
-const verifypwRules = ref([(v: string) => !!v || '비밀번호를 확인해 주세요.']);
-</script>
-
 <template>
   <div class="member">
     <div class="member-header">
       <h3 class="h-title">아이디 찾기·비밀번호 변경</h3>
     </div>
-    <p class="find-text"><span>김신한</span>님의 아이디는 <span class="email">hg**@shinhan.com</span> 입니다.</p>
+    <div class="member-step">
+      <div class="step-txt">비밀번호 변경</div>
+    </div>
+    <div class="complete-box">
+      <v-icon
+        icon="mdi-check-circle-outline"
+        class="icon-success"
+      ></v-icon>
+      <div class="complete-text">
+        <div><span>김신한</span>님</div>
+        <p>비밀번호가 재설정 되었습니다.</p>
+      </div>
+    </div>
     <div class="btn-wrap">
+      <v-btn
+        variant="flat"
+        color="secondary"
+        size="x-large"
+        rounded="lg"
+        class="btn-w14 complete"
+      >
+        메인
+      </v-btn>
       <v-btn
         variant="flat"
         color="primary"
         size="x-large"
         rounded="lg"
-        class="btn-w14"
+        class="btn-w14 complete"
       >
         로그인
       </v-btn>
     </div>
-    <div class="change-box">
-      <p class="title"><span>비밀번호</span>를 잊으셨나요?</p>
-      <p class="text">비밀번호 재설정을 통해 변경이 가능합니다.</p>
-    </div>
-    <Form class="form-wrap">
-      <div class="form-box change">
-        <div class="form-group">
-          <div class="ele-tit">
-            <v-label>비밀번호 재설정</v-label>
-          </div>
-          <div class="input-wrap">
-            <v-text-field
-              :rules="resetpwRules"
-              aria-label="비밀번호 재설정"
-              v-model="resetpw"
-              placeholder="새 비밀번호"
-              density="comfortable"
-              variant="outlined"
-              color="primary"
-              hide-details="auto"
-              clearable
-              required
-            ></v-text-field>
-          </div>
-        </div>
-        <div class="form-group">
-          <div class="ele-tit">
-            <v-label>비밀번호 확인</v-label>
-          </div>
-          <div class="input-wrap">
-            <v-text-field
-              :rules="verifypwRules"
-              aria-label="비밀번호 재설정"
-              v-model="verifytpw"
-              placeholder="새 비밀번호 확인"
-              density="comfortable"
-              variant="outlined"
-              color="primary"
-              hide-details="auto"
-              clearable
-              required
-            ></v-text-field>
-          </div>
-        </div>
-      </div>
-      <div class="btn-wrap">
-        <v-btn
-          variant="flat"
-          color="primary"
-          size="x-large"
-          rounded="lg"
-          class="btn-w14"
-          disabled
-        >
-          비밀번호 변경
-        </v-btn>
-      </div>
-    </Form>
   </div>
 </template>
