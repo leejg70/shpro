@@ -77,6 +77,25 @@
   background-color: transparent;
 }
 
+.v-btn.btn-search {
+  all: unset;
+  position: absolute;
+  right: 1rem;
+  top: 50%;
+  transform: translateY(-50%);
+  display: block;
+  width: 2rem;
+  height: 2rem;
+  overflow: hidden;
+  background-image: url(@/assets/dss/images/icon/icon_32_search.png);
+  background-size: 2rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+
+
+
 @media only screen and (max-width: 1280px) {
   .v-btn--size-x-large {
     --v-btn-size: 1rem;
@@ -101,5 +120,11 @@
     font-size: var(--v-btn-size);
     padding: 0 1rem;
     font-weight: 500;
+  }
+
+  .v-btn.btn-search {
+    width: 1.5rem;
+    height: 1.5rem;
+    background-size: 1.5rem;
   }
 }

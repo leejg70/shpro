@@ -1,8 +1,8 @@
 import { createRouter, createWebHistory } from 'vue-router';
-import MainRoutes from './MainRoutes';
-import AuthRoutes from './AuthRoutes';
+// import MainRoutes from './MainRoutes';
+// import AuthRoutes from './AuthRoutes';
 import { useAuthStore } from '@/stores/auth';
-import ComponentRoutes from './ComponentRoutes';
+// import ComponentRoutes from './ComponentRoutes';
 import CommonRoutes from './dss/CommonRoutes';
 import GuideRoutes from './dss/GuideRoutes';
 
@@ -15,28 +15,28 @@ export const router = createRouter({
       path: '/:pathMatch(.*)*',
       component: () => import('@/views/pages/maintenance/error/Error404Page.vue')
     },
-    MainRoutes,
-    ComponentRoutes,
+    // MainRoutes,
+    // ComponentRoutes,
     CommonRoutes,
     GuideRoutes,
-    AuthRoutes
+    // AuthRoutes
   ]
 });
 
-interface User {
-  // Define the properties and their types for the user data here
-  // For example:
-  id: number;
-  name: string;
-}
+// interface User {
+//   // Define the properties and their types for the user data here
+//   // For example:
+//   id: number;
+//   name: string;
+// }
 
 // Assuming you have a type/interface for your authentication store
-interface AuthStore {
-  user: User | null;
-  returnUrl: string | null;
-  login(username: string, password: string): Promise<void>;
-  logout(): void;
-}
+// interface AuthStore {
+//   user: User | null;
+//   returnUrl: string | null;
+//   login(username: string, password: string): Promise<void>;
+//   logout(): void;
+// }
 
 /* 로그인으로 이동
 router.beforeEach(async (to, from, next) => {
