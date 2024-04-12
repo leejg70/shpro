@@ -138,24 +138,16 @@ const radios = ref('기업명을 동일하게 입력해주세요');
                           <li class="bo-email">@naver.com</li>
                         </ul>
                       </li>
-                      <li class="table-list-group">
-                        <div class="tb-radio">
-                          <v-radio 
-                          label="기업선택"  
-                          class="default-type-radio"
-                          value="개인 7"                
-                          >
-                        </v-radio>
-                        </div>
+                      <li class="table-list-group">               
                         <ul class="table-list">                  
-                          <li class="bo-name">신한카드</li>
-                          <li class="bo-num">111-11-11111</li>
-                          <li class="bo-email">@naver.com</li>
-                        </ul>
+                          <li class="no-data">
+                            <p class="no-data-tit"></p>검색 결과
+                            <p class="no-data-txt">검색된 결과가 없습니다.</p>
+                          </li>                  
+                        </ul> 
                       </li>
                     </ul> 
-                  </v-radio-group>
-               
+                  </v-radio-group>               
                 </div>
                 <div class="table-foot">  
                 </div>  
@@ -199,6 +191,25 @@ const radios = ref('기업명을 동일하게 입력해주세요');
 </template>
 
 <style lang="scss">
+.no-data{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3rem 2rem;
+  width: 100%;
+  .no-data-tit{
+    color:  #111518;
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 150%;
+  }
+  .no-data-txt{
+    margin-top: .75rem; 
+    color: #666;
+    font-size: 1rem;
+    line-height: 150%;
+  }
+}
 .search-area{
   .v-field__clearable {
     right: 3rem;
@@ -325,6 +336,21 @@ const radios = ref('기업명을 동일하게 입력해주세요');
 } 
 
 @media only screen and (max-width: 1280px) {
+.no-data{
+  padding: 2rem 1.5rem;
+  .no-data-tit{
+    font-size: 1.125rem;
+  }
+  .no-data-txt{
+    margin-top: .25rem;
+    font-size: 0.875rem;  
+  }
+}
+  
+.table-content{
+  border-top: 1px solid #111518;
+  
+}
   .search-area{
     .v-field__clearable {
       right: 2.5rem;
