@@ -89,6 +89,31 @@ const MainRoutes = {
       component: () => import('@/views/dss/SolutionService/PRDS_00_01.vue')
     },
     {
+      name: 'PRDM_00',
+      path: '/PRDM_00',
+      component: () => import('@/views/dss/ADService/PRDM_00.vue')
+    },
+    {
+      name: 'PRDM_01',
+      path: '/PRDM_01',
+      component: () => import('@/views/dss/ADService/PRDM_01.vue')
+    },
+    {
+      name: 'PRDM_01_01',
+      path: '/PRDM_01_01',
+      component: () => import('@/views/dss/ADService/PRDM_01_01.vue')
+    },
+    {
+      name: 'PRDM_01_02',
+      path: '/PRDM_01_02',
+      component: () => import('@/views/dss/ADService/PRDM_01_02.vue')
+    },
+    {
+      name: 'PRDM_01_03',
+      path: '/PRDM_01_03',
+      component: () => import('@/views/dss/ADService/PRDM_01_03.vue')
+    },
+    {
       name: 'PRDM_02',
       path: '/PRDM_02',
       component: () => import('@/views/dss/ADService/PRDM_02.vue')
@@ -306,6 +331,16 @@ const MainRoutes = {
       component: () => import('@/views/dss/Login/LGIN_02_p.vue')
     },
     {
+      name: 'LGIN_03',
+      path: '/LGIN_03',
+      component: () => import('@/views/dss/Login/LGIN_03.vue')
+    },
+    {
+      name: 'LGIN_04',
+      path: '/LGIN_04',
+      component: () => import('@/views/dss/Login/LGIN_04.vue')
+    },
+    {
       name: 'LOUT_01_p',
       path: '/LOUT_01_p',
       component: () => import('@/views/dss/Login/LOUT_01_p.vue')
@@ -319,6 +354,11 @@ const MainRoutes = {
       name: 'LOUT_03_p',
       path: '/LOUT_03_p',
       component: () => import('@/views/dss/Login/LOUT_03_p.vue')
+    },
+    {
+      name: 'LOUT_04_p',
+      path: '/LOUT_04_p',
+      component: () => import('@/views/dss/Login/LOUT_04_p.vue')
     },
     {
       name: 'IDPW_01',
@@ -490,6 +530,11 @@ const MainRoutes = {
       name: 'CFMP_01_p',
       path: '/CFMP_01_p',
       component: () => import('@/views/dss/Common/CFMP_01_p.vue')
+    },
+    {
+      name: 'FILE_01_p',
+      path: '/FILE_01_p',
+      component: () => import('@/views/dss/Common/FILE_01_p.vue')
     },
     {
       name: 'ETC_02',

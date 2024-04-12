@@ -32,7 +32,7 @@
 		</section>
 		<!-- //Note -->
 		<br>
-		<p class="ia-msg">* 전체 페이지 : 103</p>
+		<p class="ia-msg">* 전체 페이지 : 108</p>
 		<!-- 00_Guide -->
 		<!-- wait:작업중, done:완료, del:삭제, except:보류
 		<section class="ia-section ia-section-ajax" data-file="ajax_ia_0" data-color="01a2de" id="gIA0">
@@ -255,7 +255,7 @@
 			<div class="ia-section-header">
 				<h2 class="ia-h2"><a href="#this" class="accordion-toggle">GNB 메뉴</a></h2>
 				<div class="ia-legend">
-					<span class="item"><em>총 페이지 : </em><em class="legend-total">35</em>,</span>
+					<span class="item"><em>총 페이지 : </em><em class="legend-total">36</em>,</span>
 					<span class="item c-done"><em>완료 : </em><em class="legend-complete">0</em>,</span>
 					<span class="item"><em>진척률 : </em><em class="legend-process">0%</em></span>
 				</div>
@@ -395,11 +395,11 @@
 								<tr>
 									<td class="col-num">10</td>
 									<td class="col-1depth">광고서비스</td>
-									<td class="col-2depth">타겟마케팅</td>
-									<td class="col-3depth">서비스안내</td>
+									<td class="col-2depth"></td>
+									<td class="col-3depth"></td>
 									<td class="col-4depth"></td>
-									<td class="col-point">TBD</td>
-									<td class="col-url"><router-link to="/" target="_blank">/views/dss/ADService/</router-link></td>
+									<td class="col-point">page</td>
+									<td class="col-url"><router-link to="/PRDM_00" target="_blank">/views/dss/ADService/PRDM_00</router-link></td>
 									<td class="col-date"></td>
 									<td class="col-complete" data-complete=""></td>
 									<td class="col-memo"></td>
@@ -407,11 +407,11 @@
 								<tr>
 									<td class="col-num">11</td>
 									<td class="col-1depth"></td>
-									<td class="col-2depth"></td>
-									<td class="col-3depth">고객탐색 및 가상견적</td>
+									<td class="col-2depth">타겟마케팅</td>
+									<td class="col-3depth">서비스안내</td>
 									<td class="col-4depth"></td>
-									<td class="col-point">TBD</td>
-									<td class="col-url"><router-link to="/" target="_blank">/views/dss/ADService/</router-link></td>
+									<td class="col-point">page</td>
+									<td class="col-url"><router-link to="/PRDM_01" target="_blank">/views/dss/ADService/PRDM_01</router-link></td>
 									<td class="col-date"></td>
 									<td class="col-complete" data-complete=""></td>
 									<td class="col-memo"></td>
@@ -420,10 +420,10 @@
 									<td class="col-num">12</td>
 									<td class="col-1depth"></td>
 									<td class="col-2depth"></td>
-									<td class="col-3depth">템플릿작성</td>
+									<td class="col-3depth">가상견적</td>
 									<td class="col-4depth"></td>
-									<td class="col-point">TBD</td>
-									<td class="col-url"><router-link to="/" target="_blank">/views/dss/ADService/</router-link></td>
+									<td class="col-point">page</td>
+									<td class="col-url"><router-link to="/PRDM_01_01" target="_blank">/views/dss/ADService/PRDM_01_01</router-link></td>
 									<td class="col-date"></td>
 									<td class="col-complete" data-complete=""></td>
 									<td class="col-memo"></td>
@@ -432,16 +432,28 @@
 									<td class="col-num">13</td>
 									<td class="col-1depth"></td>
 									<td class="col-2depth"></td>
-									<td class="col-3depth">전송완료</td>
+									<td class="col-3depth">템플릿작성</td>
 									<td class="col-4depth"></td>
-									<td class="col-point">TBD</td>
-									<td class="col-url"><router-link to="/" target="_blank">/views/dss/ADService/</router-link></td>
+									<td class="col-point">page</td>
+									<td class="col-url"><router-link to="/PRDM_01_02" target="_blank">/views/dss/ADService/PRDM_01_02</router-link></td>
 									<td class="col-date"></td>
 									<td class="col-complete" data-complete=""></td>
 									<td class="col-memo"></td>
 								</tr>
 								<tr>
 									<td class="col-num">14</td>
+									<td class="col-1depth"></td>
+									<td class="col-2depth"></td>
+									<td class="col-3depth">신청완료</td>
+									<td class="col-4depth"></td>
+									<td class="col-point">page</td>
+									<td class="col-url"><router-link to="/PRDM_01_03" target="_blank">/views/dss/ADService/PRDM_01_03</router-link></td>
+									<td class="col-date"></td>
+									<td class="col-complete" data-complete=""></td>
+									<td class="col-memo"></td>
+								</tr>
+								<tr>
+									<td class="col-num">15</td>
 									<td class="col-1depth"></td>
 									<td class="col-2depth">서베이대행서비스</td>
 									<td class="col-3depth"></td>
@@ -453,7 +465,7 @@
 									<td class="col-memo"></td>
 								</tr>
 								<tr>
-									<td class="col-num">15</td>
+									<td class="col-num">16</td>
 									<td class="col-1depth"></td>
 									<td class="col-2depth">SOL-Pay 배너광고</td>
 									<td class="col-3depth"></td>
@@ -465,7 +477,7 @@
 									<td class="col-memo"></td>
 								</tr>
 								<tr>
-									<td class="col-num">16</td>
+									<td class="col-num">17</td>
 									<td class="col-1depth">API서비스</td>
 									<td class="col-2depth">목록(default)</td>
 									<td class="col-3depth"></td>
@@ -477,7 +489,7 @@
 									<td class="col-memo"></td>
 								</tr>
 								<tr>
-									<td class="col-num">17</td>
+									<td class="col-num">18</td>
 									<td class="col-1depth"></td>
 									<td class="col-2depth">목록(검색결과)</td>
 									<td class="col-3depth">결과 有</td>
@@ -489,7 +501,7 @@
 									<td class="col-memo"></td>
 								</tr>
 								<tr>
-									<td class="col-num">18</td>
+									<td class="col-num">19</td>
 									<td class="col-1depth"></td>
 									<td class="col-2depth"></td>
 									<td class="col-3depth">결과 無</td>
@@ -501,7 +513,7 @@
 									<td class="col-memo"></td>
 								</tr>
 								<tr>
-									<td class="col-num">19</td>
+									<td class="col-num">20</td>
 									<td class="col-1depth"></td>
 									<td class="col-2depth">상세</td>
 									<td class="col-3depth"></td>
@@ -513,7 +525,7 @@
 									<td class="col-memo"></td>
 								</tr>
 								<tr>
-									<td class="col-num">20</td>
+									<td class="col-num">21</td>
 									<td class="col-1depth"></td>
 									<td class="col-2depth">API서비스 이용방법 안내</td>
 									<td class="col-3depth"></td>
@@ -525,7 +537,7 @@
 									<td class="col-memo"></td>
 								</tr>
 								<tr>
-									<td class="col-num">21</td>
+									<td class="col-num">22</td>
 									<td class="col-1depth">My</td>
 									<td class="col-2depth">계정전환</td>
 									<td class="col-3depth">정보입력(개인사업자)</td>
@@ -537,7 +549,7 @@
 									<td class="col-memo"></td>
 								</tr>
 								<tr>
-									<td class="col-num">22</td>
+									<td class="col-num">23</td>
 									<td class="col-1depth"></td>
 									<td class="col-2depth"></td>
 									<td class="col-3depth">정보입력(법인사업자)</td>
@@ -549,7 +561,7 @@
 									<td class="col-memo"></td>
 								</tr>
 								<tr>
-									<td class="col-num">23</td>
+									<td class="col-num">24</td>
 									<td class="col-1depth"></td>
 									<td class="col-2depth"></td>
 									<td class="col-3depth"></td>
@@ -561,7 +573,7 @@
 									<td class="col-memo"></td>
 								</tr>
 								<tr>
-									<td class="col-num">24</td>
+									<td class="col-num">25</td>
 									<td class="col-1depth"></td>
 									<td class="col-2depth">회원정보변경</td>
 									<td class="col-3depth">(개인) 조회</td>
@@ -573,7 +585,7 @@
 									<td class="col-memo"></td>
 								</tr>
 								<tr>
-									<td class="col-num">25</td>
+									<td class="col-num">26</td>
 									<td class="col-1depth"></td>
 									<td class="col-2depth"></td>
 									<td class="col-3depth"></td>
@@ -585,7 +597,7 @@
 									<td class="col-memo"></td>
 								</tr>
 								<tr>
-									<td class="col-num">26</td>
+									<td class="col-num">27</td>
 									<td class="col-1depth"></td>
 									<td class="col-2depth"></td>
 									<td class="col-3depth">(개인사업자) 조회</td>
@@ -597,7 +609,7 @@
 									<td class="col-memo"></td>
 								</tr>
 								<tr>
-									<td class="col-num">27</td>
+									<td class="col-num">28</td>
 									<td class="col-1depth"></td>
 									<td class="col-2depth"></td>
 									<td class="col-3depth"></td>
@@ -609,7 +621,7 @@
 									<td class="col-memo"></td>
 								</tr>
 								<tr>
-									<td class="col-num">28</td>
+									<td class="col-num">29</td>
 									<td class="col-1depth"></td>
 									<td class="col-2depth"></td>
 									<td class="col-3depth">(법인사업자) 조회</td>
@@ -621,7 +633,7 @@
 									<td class="col-memo"></td>
 								</tr>
 								<tr>
-									<td class="col-num">29</td>
+									<td class="col-num">30</td>
 									<td class="col-1depth"></td>
 									<td class="col-2depth"></td>
 									<td class="col-3depth"></td>
@@ -633,7 +645,7 @@
 									<td class="col-memo"></td>
 								</tr>
 								<tr>
-									<td class="col-num">30</td>
+									<td class="col-num">31</td>
 									<td class="col-1depth"></td>
 									<td class="col-2depth"></td>
 									<td class="col-3depth">(공통) 회원탈퇴 안내</td>
@@ -645,7 +657,7 @@
 									<td class="col-memo"></td>
 								</tr>
 								<tr>
-									<td class="col-num">31</td>
+									<td class="col-num">32</td>
 									<td class="col-1depth"></td>
 									<td class="col-2depth"></td>
 									<td class="col-3depth"></td>
@@ -657,7 +669,7 @@
 									<td class="col-memo"></td>
 								</tr>
 								<tr>
-									<td class="col-num">32</td>
+									<td class="col-num">33</td>
 									<td class="col-1depth"></td>
 									<td class="col-2depth">나의계약</td>
 									<td class="col-3depth">목록</td>
@@ -669,7 +681,7 @@
 									<td class="col-memo"></td>
 								</tr>
 								<tr>
-									<td class="col-num">33</td>
+									<td class="col-num">34</td>
 									<td class="col-1depth"></td>
 									<td class="col-2depth">관심상품</td>
 									<td class="col-3depth">목록</td>
@@ -681,7 +693,7 @@
 									<td class="col-memo"></td>
 								</tr>
 								<tr>
-									<td class="col-num">34</td>
+									<td class="col-num">35</td>
 									<td class="col-1depth"></td>
 									<td class="col-2depth">나의문의</td>
 									<td class="col-3depth">목록</td>
@@ -693,7 +705,7 @@
 									<td class="col-memo"></td>
 								</tr>
 								<tr>
-									<td class="col-num">35</td>
+									<td class="col-num">36</td>
 									<td class="col-1depth"></td>
 									<td class="col-2depth">알림</td>
 									<td class="col-3depth">목록</td>
@@ -943,7 +955,7 @@
 									<td class="col-1depth"></td>
 									<td class="col-2depth"></td>
 									<td class="col-3depth">상세</td>
-									<td class="col-4depth">댓글 조회mode</td>
+									<td class="col-4depth"></td>
 									<td class="col-point">page</td>
 									<td class="col-url"><router-link to="/COMU_02_02_r" target="_blank">/views/dss/Community/COMU_02_02_r</router-link></td>
 									<td class="col-date"></td>
@@ -955,7 +967,7 @@
 									<td class="col-1depth"></td>
 									<td class="col-2depth"></td>
 									<td class="col-3depth"></td>
-									<td class="col-4depth">댓글 수정mode</td>
+									<td class="col-4depth">수정</td>
 									<td class="col-point">page</td>
 									<td class="col-url"><router-link to="/COMU_02_02_u" target="_blank">/views/dss/Community/COMU_02_02_u</router-link></td>
 									<td class="col-date"></td>
@@ -987,7 +999,7 @@
 			<div class="ia-section-header">
 				<h2 class="ia-h2"><a href="#this" class="accordion-toggle">로그인/로그아웃/회원가입</a></h2>
 				<div class="ia-legend">
-					<span class="item"><em>총 페이지 : </em><em class="legend-total">37</em>,</span>
+					<span class="item"><em>총 페이지 : </em><em class="legend-total">40</em>,</span>
 					<span class="item c-done"><em>완료 : </em><em class="legend-complete">0</em>,</span>
 					<span class="item"><em>진척률 : </em><em class="legend-process">0%</em></span>
 				</div>
@@ -1042,6 +1054,30 @@
 								</tr>
 								<tr>
 									<td class="col-num">3</td>
+									<td class="col-1depth"></td>
+									<td class="col-2depth"></td>
+									<td class="col-3depth">휴면해제 본인인증</td>
+									<td class="col-4depth"></td>
+									<td class="col-point">page</td>
+									<td class="col-url"><router-link to="/LGIN_03" target="_blank">/views/dss/Login/LGIN_03</router-link></td>
+									<td class="col-date"></td>
+									<td class="col-complete" data-complete=""></td>
+									<td class="col-memo"></td>
+								</tr>
+								<tr>
+									<td class="col-num">4</td>
+									<td class="col-1depth"></td>
+									<td class="col-2depth"></td>
+									<td class="col-3depth">휴면해제 완료</td>
+									<td class="col-4depth"></td>
+									<td class="col-point">page</td>
+									<td class="col-url"><router-link to="/LGIN_04" target="_blank">/views/dss/Login/LGIN_04</router-link></td>
+									<td class="col-date"></td>
+									<td class="col-complete" data-complete=""></td>
+									<td class="col-memo"></td>
+								</tr>
+								<tr>
+									<td class="col-num">5</td>
 									<td class="col-1depth">로그아웃</td>
 									<td class="col-2depth">로그아웃 재확인 안내</td>
 									<td class="col-3depth"></td>
@@ -1053,7 +1089,7 @@
 									<td class="col-memo"></td>
 								</tr>
 								<tr>
-									<td class="col-num">4</td>
+									<td class="col-num">6</td>
 									<td class="col-1depth"></td>
 									<td class="col-2depth">로그아웃 예정 안내</td>
 									<td class="col-3depth"></td>
@@ -1065,7 +1101,7 @@
 									<td class="col-memo"></td>
 								</tr>
 								<tr>
-									<td class="col-num">5</td>
+									<td class="col-num">7</td>
 									<td class="col-1depth"></td>
 									<td class="col-2depth">로그아웃 완료 안내</td>
 									<td class="col-3depth"></td>
@@ -1077,7 +1113,19 @@
 									<td class="col-memo"></td>
 								</tr>
 								<tr>
-									<td class="col-num">6</td>
+									<td class="col-num">8</td>
+									<td class="col-1depth"></td>
+									<td class="col-2depth">강제 로그아웃 안내</td>
+									<td class="col-3depth"></td>
+									<td class="col-4depth"></td>
+									<td class="col-point">popup</td>
+									<td class="col-url"><router-link to="/LOUT_04_p" target="_blank">/views/dss/Login/LOUT_04_p</router-link></td>
+									<td class="col-date"></td>
+									<td class="col-complete" data-complete=""></td>
+									<td class="col-memo"></td>
+								</tr>
+								<tr>
+									<td class="col-num">9</td>
 									<td class="col-1depth">아이디찾기</td>
 									<td class="col-2depth">본인인증</td>
 									<td class="col-3depth"></td>
@@ -1089,7 +1137,7 @@
 									<td class="col-memo"></td>
 								</tr>
 								<tr>
-									<td class="col-num">7</td>
+									<td class="col-num">10</td>
 									<td class="col-1depth"></td>
 									<td class="col-2depth">아이디찾기 결과</td>
 									<td class="col-3depth">성공</td>
@@ -1101,7 +1149,7 @@
 									<td class="col-memo"></td>
 								</tr>
 								<tr>
-									<td class="col-num">8</td>
+									<td class="col-num">11</td>
 									<td class="col-1depth"></td>
 									<td class="col-2depth"></td>
 									<td class="col-3depth">실패</td>
@@ -1113,7 +1161,7 @@
 									<td class="col-memo"></td>
 								</tr>
 								<tr>
-									<td class="col-num">9</td>
+									<td class="col-num">12</td>
 									<td class="col-1depth"></td>
 									<td class="col-2depth">비밀번호 변경완료</td>
 									<td class="col-3depth"></td>
@@ -1125,7 +1173,7 @@
 									<td class="col-memo"></td>
 								</tr>
 								<tr>
-									<td class="col-num">10</td>
+									<td class="col-num">13</td>
 									<td class="col-1depth">회원가입</td>
 									<td class="col-2depth"></td>
 									<td class="col-3depth"></td>
@@ -1137,7 +1185,7 @@
 									<td class="col-memo"></td>
 								</tr>
 								<tr>
-									<td class="col-num">11</td>
+									<td class="col-num">14</td>
 									<td class="col-1depth"></td>
 									<td class="col-2depth">(개인) 본인인증</td>
 									<td class="col-3depth"></td>
@@ -1149,7 +1197,7 @@
 									<td class="col-memo"></td>
 								</tr>
 								<tr>
-									<td class="col-num">12</td>
+									<td class="col-num">15</td>
 									<td class="col-1depth"></td>
 									<td class="col-2depth">(개인) 서비스이용동의</td>
 									<td class="col-3depth"></td>
@@ -1161,10 +1209,10 @@
 									<td class="col-memo"></td>
 								</tr>
 								<tr>
-									<td class="col-num">13</td>
+									<td class="col-num">16</td>
 									<td class="col-1depth"></td>
 									<td class="col-2depth"></td>
-									<td class="col-3depth">(필수)DataBlue 이용약관</td>
+									<td class="col-3depth">(필수) DataBlue 이용약관</td>
 									<td class="col-4depth"></td>
 									<td class="col-point">popup</td>
 									<td class="col-url"><router-link to="/JOIN_02_02_01_p"  target="_blank">/views/dss/Member/Business/JOIN_02_02_01_p</router-link></td>
@@ -1173,10 +1221,10 @@
 									<td class="col-memo"></td>
 								</tr>
 								<tr>
-									<td class="col-num">14</td>
+									<td class="col-num">17</td>
 									<td class="col-1depth"></td>
 									<td class="col-2depth"></td>
-									<td class="col-3depth">(선택)마케팅동의</td>
+									<td class="col-3depth">(선택) 마케팅동의</td>
 									<td class="col-4depth"></td>
 									<td class="col-point">popup</td>
 									<td class="col-url"><router-link to="/JOIN_02_02_02_p"  target="_blank">/views/dss/Member/Business/JOIN_02_02_02_p</router-link></td>
@@ -1185,7 +1233,7 @@
 									<td class="col-memo"></td>
 								</tr>
 								<tr>
-									<td class="col-num">15</td>
+									<td class="col-num">18</td>
 									<td class="col-1depth"></td>
 									<td class="col-2depth">(개인) 정보입력</td>
 									<td class="col-3depth"></td>
@@ -1197,7 +1245,7 @@
 									<td class="col-memo"></td>
 								</tr>
 								<tr>
-									<td class="col-num">16</td>
+									<td class="col-num">19</td>
 									<td class="col-1depth"></td>
 									<td class="col-2depth">(개인) 가입완료</td>
 									<td class="col-3depth"></td>
@@ -1209,7 +1257,7 @@
 									<td class="col-memo"></td>
 								</tr>
 								<tr>
-									<td class="col-num">17</td>
+									<td class="col-num">20</td>
 									<td class="col-1depth"></td>
 									<td class="col-2depth">(개인사업자) 본인인증</td>
 									<td class="col-3depth"></td>
@@ -1221,7 +1269,7 @@
 									<td class="col-memo"></td>
 								</tr>
 								<tr>
-									<td class="col-num">18</td>
+									<td class="col-num">21</td>
 									<td class="col-1depth"></td>
 									<td class="col-2depth">(개인사업자) 서비스이용동의</td>
 									<td class="col-3depth"></td>
@@ -1233,7 +1281,7 @@
 									<td class="col-memo"></td>
 								</tr>
 								<tr>
-									<td class="col-num">19</td>
+									<td class="col-num">22</td>
 									<td class="col-1depth"></td>
 									<td class="col-2depth"></td>
 									<td class="col-3depth">(필수) DataBlue 이용약관</td>
@@ -1245,7 +1293,7 @@
 									<td class="col-memo"></td>
 								</tr>
 								<tr>
-									<td class="col-num">20</td>
+									<td class="col-num">23</td>
 									<td class="col-1depth"></td>
 									<td class="col-2depth"></td>
 									<td class="col-3depth">(선택) 마케팅동의</td>
@@ -1257,7 +1305,7 @@
 									<td class="col-memo"></td>
 								</tr>
 								<tr>
-									<td class="col-num">21</td>
+									<td class="col-num">24</td>
 									<td class="col-1depth"></td>
 									<td class="col-2depth">(개인사업자) 정보입력</td>
 									<td class="col-3depth"></td>
@@ -1269,7 +1317,7 @@
 									<td class="col-memo"></td>
 								</tr>
 								<tr>
-									<td class="col-num">22</td>
+									<td class="col-num">25</td>
 									<td class="col-1depth"></td>
 									<td class="col-2depth">(개인사업자) 가입완료</td>
 									<td class="col-3depth"></td>
@@ -1281,7 +1329,7 @@
 									<td class="col-memo"></td>
 								</tr>
 								<tr>
-									<td class="col-num">23</td>
+									<td class="col-num">26</td>
 									<td class="col-1depth"></td>
 									<td class="col-2depth">(법인사업자) 본인인증</td>
 									<td class="col-3depth"></td>
@@ -1293,7 +1341,7 @@
 									<td class="col-memo"></td>
 								</tr>
 								<tr>
-									<td class="col-num">24</td>
+									<td class="col-num">27</td>
 									<td class="col-1depth"></td>
 									<td class="col-2depth">(법인사업자) 서비스이용동의</td>
 									<td class="col-3depth"></td>
@@ -1305,7 +1353,7 @@
 									<td class="col-memo"></td>
 								</tr>
 								<tr>
-									<td class="col-num">25</td>
+									<td class="col-num">28</td>
 									<td class="col-1depth"></td>
 									<td class="col-2depth"></td>
 									<td class="col-3depth">(필수) DataBlue 이용약관</td>
@@ -1317,7 +1365,7 @@
 									<td class="col-memo"></td>
 								</tr>
 								<tr>
-									<td class="col-num">26</td>
+									<td class="col-num">29</td>
 									<td class="col-1depth"></td>
 									<td class="col-2depth"></td>
 									<td class="col-3depth">(선택) 마케팅동의</td>
@@ -1329,7 +1377,7 @@
 									<td class="col-memo"></td>
 								</tr>
 								<tr>
-									<td class="col-num">27</td>
+									<td class="col-num">30</td>
 									<td class="col-1depth"></td>
 									<td class="col-2depth">(법인사업자) 정보입력</td>
 									<td class="col-3depth"></td>
@@ -1341,7 +1389,7 @@
 									<td class="col-memo"></td>
 								</tr>
 								<tr>
-									<td class="col-num">28</td>
+									<td class="col-num">31</td>
 									<td class="col-1depth"></td>
 									<td class="col-2depth"></td>
 									<td class="col-3depth">기업찾기 팝업</td>
@@ -1353,7 +1401,7 @@
 									<td class="col-memo"></td>
 								</tr>
 								<tr>
-									<td class="col-num">29</td>
+									<td class="col-num">32</td>
 									<td class="col-1depth"></td>
 									<td class="col-2depth"></td>
 									<td class="col-3depth"></td>
@@ -1365,7 +1413,7 @@
 									<td class="col-memo"></td>
 								</tr>
 								<tr>
-									<td class="col-num">30</td>
+									<td class="col-num">33</td>
 									<td class="col-1depth"></td>
 									<td class="col-2depth"></td>
 									<td class="col-3depth"></td>
@@ -1377,7 +1425,7 @@
 									<td class="col-memo"></td>
 								</tr>
 								<tr>
-									<td class="col-num">31</td>
+									<td class="col-num">34</td>
 									<td class="col-1depth"></td>
 									<td class="col-2depth"></td>
 									<td class="col-3depth"></td>
@@ -1389,7 +1437,7 @@
 									<td class="col-memo"></td>
 								</tr>
 								<tr>
-									<td class="col-num">32</td>
+									<td class="col-num">35</td>
 									<td class="col-1depth"></td>
 									<td class="col-2depth">(법인사업자) 가입완료</td>
 									<td class="col-3depth"></td>
@@ -1401,7 +1449,7 @@
 									<td class="col-memo"></td>
 								</tr>
 								<tr>
-									<td class="col-num">33</td>
+									<td class="col-num">36</td>
 									<td class="col-1depth"></td>
 									<td class="col-2depth">(공통) 약관보기 팝업</td>
 									<td class="col-3depth">휴대폰본인확인이용동의</td>
@@ -1413,7 +1461,7 @@
 									<td class="col-memo"></td>
 								</tr>
 								<tr>
-									<td class="col-num">34</td>
+									<td class="col-num">37</td>
 									<td class="col-1depth"></td>
 									<td class="col-2depth"></td>
 									<td class="col-3depth">고유식별정보처리동의</td>
@@ -1425,7 +1473,7 @@
 									<td class="col-memo"></td>
 								</tr>
 								<tr>
-									<td class="col-num">35</td>
+									<td class="col-num">38</td>
 									<td class="col-1depth"></td>
 									<td class="col-2depth"></td>
 									<td class="col-3depth">통신사이용약관동의</td>
@@ -1437,7 +1485,7 @@
 									<td class="col-memo"></td>
 								</tr>
 								<tr>
-									<td class="col-num">36</td>
+									<td class="col-num">39</td>
 									<td class="col-1depth"></td>
 									<td class="col-2depth"></td>
 									<td class="col-3depth">개인정보수집및이용동의</td>
@@ -1449,7 +1497,7 @@
 									<td class="col-memo"></td>
 								</tr>
 								<tr>
-									<td class="col-num">37</td>
+									<td class="col-num">40</td>
 									<td class="col-1depth"></td>
 									<td class="col-2depth"></td>
 									<td class="col-3depth">개인정보제3자제공동의</td>
@@ -1473,7 +1521,7 @@
 			<div class="ia-section-header">
 				<h2 class="ia-h2"><a href="#this" class="accordion-toggle">공통/기타</a></h2>
 				<div class="ia-legend">
-					<span class="item"><em>총 페이지 : </em><em class="legend-total">5</em>,</span>
+					<span class="item"><em>총 페이지 : </em><em class="legend-total">6</em>,</span>
 					<span class="item c-done"><em>완료 : </em><em class="legend-complete">0</em>,</span>
 					<span class="item"><em>진척률 : </em><em class="legend-process">0%</em></span>
 				</div>
@@ -1528,6 +1576,18 @@
 								</tr>
 								<tr>
 									<td class="col-num">3</td>
+									<td class="col-1depth">다운로드 파일 팝업</td>
+									<td class="col-2depth"></td>
+									<td class="col-3depth"></td>
+									<td class="col-4depth"></td>
+									<td class="col-point">popup</td>
+									<td class="col-url"><router-link to="/FILE_01_p" target="_blank">/views/dss/Common/FILE_01_p</router-link></td>
+									<td class="col-date"></td>
+									<td class="col-complete" data-complete=""></td>
+									<td class="col-memo"></td>
+								</tr>
+								<tr>
+									<td class="col-num">4</td>
 									<td class="col-1depth">이용약관</td>
 									<td class="col-2depth"></td>
 									<td class="col-3depth"></td>
@@ -1539,7 +1599,7 @@
 									<td class="col-memo"></td>
 								</tr>
 								<tr>
-									<td class="col-num">4</td>
+									<td class="col-num">5</td>
 									<td class="col-1depth">개인정보처리방침</td>
 									<td class="col-2depth"></td>
 									<td class="col-3depth"></td>
@@ -1551,7 +1611,7 @@
 									<td class="col-memo"></td>
 								</tr>
 								<tr>
-									<td class="col-num">5</td>
+									<td class="col-num">6</td>
 									<td class="col-1depth">Loading Bar</td>
 									<td class="col-2depth"></td>
 									<td class="col-3depth"></td>

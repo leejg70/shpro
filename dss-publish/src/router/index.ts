@@ -1,7 +1,7 @@
 import { createRouter, createWebHistory } from 'vue-router';
 // import MainRoutes from './MainRoutes';
 // import AuthRoutes from './AuthRoutes';
-import { useAuthStore } from '@/stores/auth';
+// import { useAuthStore } from '@/stores/auth';
 // import ComponentRoutes from './ComponentRoutes';
 import CommonRoutes from './dss/CommonRoutes';
 import GuideRoutes from './dss/GuideRoutes';
@@ -11,10 +11,10 @@ import { useUIStore } from '@/stores/ui';
 export const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
-    {
-      path: '/:pathMatch(.*)*',
-      component: () => import('@/views/pages/maintenance/error/Error404Page.vue')
-    },
+    // {
+    //   path: '/:pathMatch(.*)*',
+    //   component: () => import('@/views/pages/maintenance/error/Error404Page.vue')
+    // },
     // MainRoutes,
     // ComponentRoutes,
     CommonRoutes,
