@@ -9,7 +9,7 @@ const checkbox = ref(false);
     <div class="member-header">
       <h3 class="h-title">회원가입 (개인)</h3>
     </div>
-    <div class="member-step member-flow">
+    <div class="member-step">
       <div class="step-txt">서비스 이용약관</div>
       <div class="step-flow" role="text">
         <ul>

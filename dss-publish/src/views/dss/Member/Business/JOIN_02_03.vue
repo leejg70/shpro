@@ -10,9 +10,9 @@ const sms = ref('');
     <div class="member-header">
       <h3 class="h-title">회원가입 (개인)</h3>
     </div>
-    <div class="member-step member-flow">
+    <div class="member-step">
       <div class="step-txt">정보 입력</div>
-      <div class="step-flow" role="text">
+      <div class="step-flow">
         <ul>
           <li class="complete"><i>1단계 본인인증</i></li>
           <li class="complete"><i>2단계 서비스이용동의</i></li>
