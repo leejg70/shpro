@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { ref } from 'vue';
-import Agreement from  '@/views/dss/Member/Agreement/PopupAgree.vue'
+import Agreement from  '../Member/Agreement/JOIN_05_01_p.vue'
 
 const formTerms = ref({
   value: ['0', '1', '2', '3', '4'],
@@ -348,7 +348,7 @@ const items = ['알뜰폰', 'SKT알뜰폰', 'KT알뜰폰', 'LG U+알뜰폰'];
   >
     <Agreement></Agreement>
     <v-btn
-      @click="dialog = false"  
+      @click="dialog = false"
       block
       class="btn-popup-close"
     >
