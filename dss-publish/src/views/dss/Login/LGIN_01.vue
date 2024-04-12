@@ -6,8 +6,6 @@ const password = ref('');
 const show = ref(false);
 const checkbox = ref(false);
 const valid = ref(false);
-const emailRules = ref([(v: string) => !!v || '이메일 아이디를 입력해주세요.', (v: string) => /.+@.+\..+/.test(v) || '이메일 아이디는 유효해야 합니다.']);
-const passwordRules = ref([(v: string) => !!v || '비밀번호를 입력해주세요.']);
 </script>
 
 <template>
@@ -19,7 +17,6 @@ const passwordRules = ref([(v: string) => !!v || '비밀번호를 입력해주�
       <div class="form-group">
         <v-label>아이디</v-label>
         <v-text-field
-          :rules="emailRules"
           aria-label="아이디"
           v-model="userid"
           placeholder="이메일 아이디 입력"
@@ -30,11 +27,11 @@ const passwordRules = ref([(v: string) => !!v || '비밀번호를 입력해주�
           clearable
           required
         ></v-text-field>
+        <p class="text-tip error">아이디는 필수 입력입니다.</p>
       </div>
       <div class="form-group">
         <v-label>비밀번호</v-label>
         <v-text-field
-          :rules="passwordRules"
           :type="show ? 'text' : 'password'"
           aria-label="비밀번호"
           v-model="password"
@@ -46,6 +43,7 @@ const passwordRules = ref([(v: string) => !!v || '비밀번호를 입력해주�
           clearable
           required
         ></v-text-field>
+        <p class="text-tip error">비밀번호를 입력해주세요.</p>
       </div>
       <div class="form-checkbox">
         <v-checkbox

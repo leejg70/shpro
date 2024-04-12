@@ -88,200 +88,61 @@
   }
   // 본인 인증
   .form-box {
-    padding-bottom: 2rem;
+    padding: 1.5rem 0 2rem;
+    border-top: 1px solid #111518;
     border-bottom: 1px solid #e5e5e5;
+    &.change {
+      padding-bottom: 1.5rem;
+    }
     .form-group {
       position: relative;
-      padding-left: 12.8rem !important;
-      &.agree-depth {
-        padding: 1.5rem 0 2rem 0;
-        border-top: 1px solid #111518;
-        border-bottom: 1px solid #111518;
-      }
+      padding-left: 12.75rem !important;
       .ele-tit {
         position: absolute;
         top: 0;
         left: 0;
-        width: 12.8rem;
-        padding-top: 1.5rem;
+        width: 12.75rem;
+        padding-top: .75rem;
       }
-      .terms-info {
-        display: block;
+      .input-wrap {
         position: relative;
-        .terms-wrap {
-          display: block;
-          position: relative;
-          .terms-header {
-            position: relative;
-            margin: 0;
-            padding: 0;
-            .form-checkbox {
-              display: block;
-              position: relative;
-              width: 100%;
-              .v-checkbox .v-label {
-                width: 100%;
-                margin: 0 0 0 .5rem;
-                padding-right: 3rem;
-                font-size: 1rem;
-                font-weight: 500;
-              }
-            }
-            .btn-toggle {
-              overflow: hidden;
-              display: block;
-              position: absolute;
-              top: -.5rem;
-              right: 0;
-              width: 3rem;
-              height: 3rem;
-              padding: .75rem 0 .75rem 1.5rem;
-              transform: rotateX(0);
-              &.active {
-                transform: rotateX(180deg);
-              }
-            }
-          }
-          .terms-body {
-            display: block;
-            margin-top: 1.5rem;
-            padding-top: 1rem;
-            border-top: 1px solid #e5e5e5;
-            .check-wrap {
-              position: relative;
-              width: 100%;
-              margin-top: .5rem;
-              .form-checkbox {
-                display: block;
-                position: relative;
-                width: 100%;
-                .v-checkbox .v-label {
-                  display: block;
-                  position: relative;
-                  width: 100%;
-                  height: auto;
-                  padding: .25rem 6rem .25rem 2.5rem;
-                  font-size: 1rem;
-                  font-weight: 400;
-                  color: #333;
-                }
-              }
-              .btn-link {
-                position: absolute;
-                top: .25rem;
-                right: 0;
-                width: auto;
-                height: 1.5rem;
-                padding: 0;
-                font-size: .875rem;
-                color: #111518;
-                line-height: 100%;
-                .v-btn__append {
-                  margin: .1rem 0 0 .1rem;
-                }
-              }
-            }
+        width: 100%;
+        box-sizing: border-box;
+        .v-input--density-comfortable {
+          --v-input-control-height: 2.875rem;
+          --v-input-padding-top: .75rem;
+        }
+        &.side-btn .v-input {
+          width: calc(100% - 10.5rem);
+        }
+        &.side-btn .btn-w10 {
+          position: absolute;
+          top: 0;
+          right: 0;
+          width: 10rem;
+          min-width: 10rem;
+        }
+        &.side-timer .v-field__input {
+          padding-right: 4.2rem;
+        }
+        &.side-timer .timer-box {
+          display: inline-block;
+          position: absolute;
+          top: .88rem;
+          right: 11.5rem;
+          width: 3.4rem;
+          height: 1.25rem;
+          box-sizing: border-box;
+          font-size: .875rem;
+          line-height: 1.25rem;
+          color: #666;
+          .icon-timer {
+            margin-top: -.2rem;
           }
         }
       }
       + .form-group {
         margin-top: 1.5rem;
-        .ele-tit {
-          padding-top: .6rem;
-        }
-        .input-wrap {
-          position: relative;
-          width: 100%;
-          box-sizing: border-box;
-          .v-input--density-comfortable {
-            --v-input-control-height: 2.875rem;
-            --v-input-padding-top: .75rem;
-          }
-          &.side-btn .v-input {
-            width: calc(100% - 10.5rem);
-          }
-          &.side-btn .btn-w10 {
-            position: absolute;
-            top: 0;
-            right: 0;
-            width: 10rem;
-            min-width: 10rem;
-          }
-          &.side-timer .v-field__input {
-            padding-right: 4.2rem;
-          }
-          &.side-timer .timer-box {
-            display: inline-block;
-            position: absolute;
-            top: .88rem;
-            right: 11.5rem;
-            width: 3.4rem;
-            height: 1.25rem;
-            box-sizing: border-box;
-            font-size: .875rem;
-            line-height: 1.25rem;
-            color: #666;
-            .icon-timer {
-              margin-top: -.2rem;
-            }
-          }
-        }
-        .jumin-wrap {
-          overflow: hidden;
-          > div {
-            float: left;
-          }
-          .first {
-            width: 20rem;
-          }
-          .space {
-            float: left;
-            display: block;
-            width: 1.5rem;
-            height: 3rem;
-            padding: 0 .5rem;
-            line-height: 3rem;
-            color: #111518;
-          }
-          .last {
-            width: 15rem;
-            .input-wrap {
-              float: left;
-              width: 6rem;
-            }
-            .masking {
-              float: left;
-              display: flex;
-              justify-content: space-between;
-              width: auto;
-              height: 3rem;
-              padding: 1.3rem .5rem;
-              line-height: 3rem;
-              span {
-                display: inline-block;
-                width: .3rem;
-                height: .3rem;
-                line-height: 0;
-                border-radius: 50%;
-                background-color: #111518;
-                vertical-align: middle;
-                + span {
-                  margin-left: .2rem;
-                }
-              }
-            }
-          }
-        }
-        .phone-wrap {
-          .select-wrap {
-            position: relative;
-            width: 100%;
-            margin-top: 1rem;
-            .v-select .v-field {
-              font-size: 1rem;
-            }
-          }
-        }
       }
       .text-tip {
         position: relative;
@@ -295,37 +156,246 @@
         }
       }
     }
-    &.change {
-      padding: 1.5rem 0;
-      border-top: 1px solid #111518;
-      .form-group:first-child {
-        .ele-tit {
-          padding-top: .6rem;
-        }
-      }
-    }
   }
+  // .form-box {
+  //   padding-bottom: 2rem;
+  //   border-bottom: 1px solid #e5e5e5;
+  //   .form-group {
+  //     position: relative;
+  //     padding-left: 12.8rem !important;
+  //     &.agree-depth {
+  //       padding: 1.5rem 0 2rem 0;
+  //       border-top: 1px solid #111518;
+  //       border-bottom: 1px solid #111518;
+  //     }
+  //     .ele-tit {
+  //       position: absolute;
+  //       top: 0;
+  //       left: 0;
+  //       width: 12.8rem;
+  //       padding-top: 1.5rem;
+  //     }
+  //     .terms-info {
+  //       display: block;
+  //       position: relative;
+  //       .terms-wrap {
+  //         display: block;
+  //         position: relative;
+  //         .terms-header {
+  //           position: relative;
+  //           margin: 0;
+  //           padding: 0;
+  //           .form-checkbox {
+  //             display: block;
+  //             position: relative;
+  //             width: 100%;
+  //             .v-checkbox .v-label {
+  //               width: 100%;
+  //               margin: 0 0 0 .5rem;
+  //               padding-right: 3rem;
+  //               font-size: 1rem;
+  //               font-weight: 500;
+  //             }
+  //           }
+  //           .btn-toggle {
+  //             overflow: hidden;
+  //             display: block;
+  //             position: absolute;
+  //             top: -.5rem;
+  //             right: 0;
+  //             width: 3rem;
+  //             height: 3rem;
+  //             padding: .75rem 0 .75rem 1.5rem;
+  //             transform: rotateX(0);
+  //             &.active {
+  //               transform: rotateX(180deg);
+  //             }
+  //           }
+  //         }
+  //         .terms-body {
+  //           display: block;
+  //           margin-top: 1.5rem;
+  //           padding-top: 1rem;
+  //           border-top: 1px solid #e5e5e5;
+  //           .check-wrap {
+  //             position: relative;
+  //             width: 100%;
+  //             margin-top: .5rem;
+  //             .form-checkbox {
+  //               display: block;
+  //               position: relative;
+  //               width: 100%;
+  //               .v-checkbox .v-label {
+  //                 display: block;
+  //                 position: relative;
+  //                 width: 100%;
+  //                 height: auto;
+  //                 padding: .25rem 6rem .25rem 2.5rem;
+  //                 font-size: 1rem;
+  //                 font-weight: 400;
+  //                 color: #333;
+  //               }
+  //             }
+  //             .btn-link {
+  //               position: absolute;
+  //               top: .25rem;
+  //               right: 0;
+  //               width: auto;
+  //               height: 1.5rem;
+  //               padding: 0;
+  //               font-size: .875rem;
+  //               color: #111518;
+  //               line-height: 100%;
+  //               .v-btn__append {
+  //                 margin: .1rem 0 0 .1rem;
+  //               }
+  //             }
+  //           }
+  //         }
+  //       }
+  //     }
+  //     + .form-group {
+  //       margin-top: 1.5rem;
+  //       .ele-tit {
+  //         padding-top: .6rem;
+  //       }
+  //       .input-wrap {
+  //         position: relative;
+  //         width: 100%;
+  //         box-sizing: border-box;
+  //         .v-input--density-comfortable {
+  //           --v-input-control-height: 2.875rem;
+  //           --v-input-padding-top: .75rem;
+  //         }
+  //         &.side-btn .v-input {
+  //           width: calc(100% - 10.5rem);
+  //         }
+  //         &.side-btn .btn-w10 {
+  //           position: absolute;
+  //           top: 0;
+  //           right: 0;
+  //           width: 10rem;
+  //           min-width: 10rem;
+  //         }
+  //         &.side-timer .v-field__input {
+  //           padding-right: 4.2rem;
+  //         }
+  //         &.side-timer .timer-box {
+  //           display: inline-block;
+  //           position: absolute;
+  //           top: .88rem;
+  //           right: 11.5rem;
+  //           width: 3.4rem;
+  //           height: 1.25rem;
+  //           box-sizing: border-box;
+  //           font-size: .875rem;
+  //           line-height: 1.25rem;
+  //           color: #666;
+  //           .icon-timer {
+  //             margin-top: -.2rem;
+  //           }
+  //         }
+  //       }
+  //       .jumin-wrap {
+  //         overflow: hidden;
+  //         > div {
+  //           float: left;
+  //         }
+  //         .first {
+  //           width: 20rem;
+  //         }
+  //         .space {
+  //           float: left;
+  //           display: block;
+  //           width: 1.5rem;
+  //           height: 3rem;
+  //           padding: 0 .5rem;
+  //           line-height: 3rem;
+  //           color: #111518;
+  //         }
+  //         .last {
+  //           width: 15rem;
+  //           .input-wrap {
+  //             float: left;
+  //             width: 6rem;
+  //           }
+  //           .masking {
+  //             float: left;
+  //             display: flex;
+  //             justify-content: space-between;
+  //             width: auto;
+  //             height: 3rem;
+  //             padding: 1.3rem .5rem;
+  //             line-height: 3rem;
+  //             span {
+  //               display: inline-block;
+  //               width: .3rem;
+  //               height: .3rem;
+  //               line-height: 0;
+  //               border-radius: 50%;
+  //               background-color: #111518;
+  //               vertical-align: middle;
+  //               + span {
+  //                 margin-left: .2rem;
+  //               }
+  //             }
+  //           }
+  //         }
+  //       }
+  //       .phone-wrap {
+  //         .select-wrap {
+  //           position: relative;
+  //           width: 100%;
+  //           margin-top: 1rem;
+  //           .v-select .v-field {
+  //             font-size: 1rem;
+  //           }
+  //         }
+  //       }
+  //     }
+  //     .text-tip {
+  //       position: relative;
+  //       margin-top: .5rem;
+  //       font-size: .875rem;
+  //       &.error {
+  //         color: #ff3636;
+  //       }
+  //       &.hint {
+  //         color: #356cff;
+  //       }
+  //     }
+  //   }
+  //   &.change {
+  //     padding: 1.5rem 0;
+  //     border-top: 1px solid #111518;
+  //     .form-group:first-child {
+  //       .ele-tit {
+  //         padding-top: .6rem;
+  //       }
+  //     }
+  //   }
+  // }
   // 서비스 이용약관
-  .form-group {
-    &.agree-checkbox {
-      .form-checkbox {
-        padding: 1.5rem 0;
-        border-top: 1px solid #111518;
-        .v-checkbox {
-          .v-label {
-            margin-left: .5rem;
-            font-size: 1rem;
-          }
-        }
-      }
-      .text-area {
-        height: 25rem;
-        padding: 1.5rem 2rem 0 0;
-        border-top: 1px solid #e5e5e5;
-        border-bottom: 1px solid #e5e5e5;
-      }
-    }
-  }
+  // .form-group {
+  //   &.agree-checkbox {
+  //     .form-checkbox {
+  //       padding: 1.5rem 0;
+  //       border-top: 1px solid #111518;
+  //       .v-checkbox {
+  //         .v-label {
+  //           margin-left: .5rem;
+  //           font-size: 1rem;
+  //         }
+  //       }
+  //     }
+  //     .text-area {
+  //       height: 25rem;
+  //       padding: 1.5rem 2rem 0 0;
+  //       border-top: 1px solid #e5e5e5;
+  //       border-bottom: 1px solid #e5e5e5;
+  //     }
+  //   }
+  // }
   // 비밀번호 변경
   .find-text {
     padding: 3rem 0 0;
@@ -417,112 +487,39 @@
       padding-bottom: 1.5rem;
       .form-group {
         padding-left: 0 !important;
-        &.agree-depth {
-          padding: 1rem 0 1.5rem 0;
-        }
         .ele-tit {
           display: block;
           position: static;
           width: auto;
-          padding-top: 0;
-          padding-bottom: 1rem;
+          padding: 0 0 .5rem 0;
         }
-        .terms-info {
-          .terms-wrap {
-            .terms-header {
-              .form-checkbox {
-                .v-checkbox .v-label {
-                  font-size: .875rem;
-                }
-              }
-              .btn-toggle {
-                .mdi-arrow-down::before {
-                  width: 1.25rem;
-                  height: 1.25rem;
-                }
-              }
-            }
-            .terms-body {
-              margin-top: 1rem;
-              padding-top: .5rem;
-              .check-wrap {
-                .form-checkbox {
-                  .v-checkbox .v-label {
-                    padding-right: 5rem;
-                    font-size: .875rem;
-                  }
-                }
-                .btn-link {
-                  font-size: .75rem;
-                  .v-btn__append {
-                    margin: 0 0 0 .1rem;
-                    .mdi-chevron-right::before {
-                      width: 1rem;
-                      height: 1rem;
-                    }
-                  }
-                }
-              }
-            }
+        .input-wrap {
+          .v-text-field input {
+            min-height: auto;
+            padding-top: .7rem;
+            padding-bottom: .6rem;
+            font-size: .875rem;
           }
-        }
-        + .form-group {
-          .ele-tit {
-            padding: 0 0 .5rem 0;
+          .v-field__input::placeholder {
+            font-size: .875rem;
           }
-          .input-wrap {
-            .v-text-field input {
-              min-height: auto;
-              padding-top: .7rem;
-              padding-bottom: .6rem;
-              font-size: .875rem;
-            }
-            .v-field__input::placeholder {
-              font-size: .875rem;
-            }
-            &.side-btn .v-input {
-              width: calc(100% - 7rem);
-            }
-            &.side-btn .btn-w10 {
-              width: 6.5rem;
-              min-width: 6.5rem;
-            }
-            &.side-timer .v-field__input {
-              padding-right: 3.85rem;
-            }
-            &.side-timer .timer-box {
-              top: .69rem;
-              right: 7.75rem;
-              width: 3.1rem;
-              font-size: .75rem;
-              .icon-timer {
-                margin-top: 0;
-              }
-            }
+          &.side-btn .v-input {
+            width: calc(100% - 7rem);
           }
-          .jumin-wrap {
-            display: flex;
-            .space {
-              height: 2.5rem;
-              line-height: 2.5rem;
-            }
-            .last {
-              display: flex;
-              .input-wrap {
-                width: 5rem;
-              }
-              .masking {
-                height: 2.5rem;
-                padding: 1.1rem .5rem;
-                line-height: 2.5rem;
-              }
-            }
+          &.side-btn .btn-w10 {
+            width: 6.5rem;
+            min-width: 6.5rem;
           }
-          .phone-wrap {
-            .select-wrap {
-              .v-select .v-field {
-                font-size: .875rem;
-              }
+          &.side-timer .v-field__input {
+            padding-right: 3.85rem;
+          }
+          &.side-timer .timer-box {
+            top: .69rem;
+            right: 7.75rem;
+            width: 3.1rem;
+            font-size: .75rem;
+            .icon-timer {
+              margin-top: 0;
             }
           }
         }
@@ -530,43 +527,161 @@
           font-size: .75rem;
         }
       }
-      &.change {
-        .form-group:first-child {
-          .ele-tit {
-            padding-top: 0;
-            padding-bottom: .5rem;
-          }
-          .input-wrap {
-            .v-text-field input {
-              min-height: auto;
-              padding-top: .7rem;
-              padding-bottom: .6rem;
-              font-size: .875rem;
-            }
-            .v-field__input::placeholder{
-              font-size: .875rem;
-            }
-          }
-        }
-      }
     }
+    // .form-box {
+    //   padding-bottom: 1.5rem;
+    //   .form-group {
+    //     padding-left: 0 !important;
+    //     &.agree-depth {
+    //       padding: 1rem 0 1.5rem 0;
+    //     }
+    //     .ele-tit {
+    //       display: block;
+    //       position: static;
+    //       width: auto;
+    //       padding-top: 0;
+    //       padding-bottom: 1rem;
+    //     }
+    //     .terms-info {
+    //       .terms-wrap {
+    //         .terms-header {
+    //           .form-checkbox {
+    //             .v-checkbox .v-label {
+    //               font-size: .875rem;
+    //             }
+    //           }
+    //           .btn-toggle {
+    //             .mdi-arrow-down::before {
+    //               width: 1.25rem;
+    //               height: 1.25rem;
+    //             }
+    //           }
+    //         }
+    //         .terms-body {
+    //           margin-top: 1rem;
+    //           padding-top: .5rem;
+    //           .check-wrap {
+    //             .form-checkbox {
+    //               .v-checkbox .v-label {
+    //                 padding-right: 5rem;
+    //                 font-size: .875rem;
+    //               }
+    //             }
+    //             .btn-link {
+    //               font-size: .75rem;
+    //               .v-btn__append {
+    //                 margin: 0 0 0 .1rem;
+    //                 .mdi-chevron-right::before {
+    //                   width: 1rem;
+    //                   height: 1rem;
+    //                 }
+    //               }
+    //             }
+    //           }
+    //         }
+    //       }
+    //     }
+    //     + .form-group {
+    //       .ele-tit {
+    //         padding: 0 0 .5rem 0;
+    //       }
+    //       .input-wrap {
+    //         .v-text-field input {
+    //           min-height: auto;
+    //           padding-top: .7rem;
+    //           padding-bottom: .6rem;
+    //           font-size: .875rem;
+    //         }
+    //         .v-field__input::placeholder {
+    //           font-size: .875rem;
+    //         }
+    //         &.side-btn .v-input {
+    //           width: calc(100% - 7rem);
+    //         }
+    //         &.side-btn .btn-w10 {
+    //           width: 6.5rem;
+    //           min-width: 6.5rem;
+    //         }
+    //         &.side-timer .v-field__input {
+    //           padding-right: 3.85rem;
+    //         }
+    //         &.side-timer .timer-box {
+    //           top: .69rem;
+    //           right: 7.75rem;
+    //           width: 3.1rem;
+    //           font-size: .75rem;
+    //           .icon-timer {
+    //             margin-top: 0;
+    //           }
+    //         }
+    //       }
+    //       .jumin-wrap {
+    //         display: flex;
+    //         .space {
+    //           height: 2.5rem;
+    //           line-height: 2.5rem;
+    //         }
+    //         .last {
+    //           display: flex;
+    //           .input-wrap {
+    //             width: 5rem;
+    //           }
+    //           .masking {
+    //             height: 2.5rem;
+    //             padding: 1.1rem .5rem;
+    //             line-height: 2.5rem;
+    //           }
+    //         }
+    //       }
+    //       .phone-wrap {
+    //         .select-wrap {
+    //           .v-select .v-field {
+    //             font-size: .875rem;
+    //           }
+    //         }
+    //       }
+    //     }
+    //     .text-tip {
+    //       font-size: .75rem;
+    //     }
+    //   }
+    //   &.change {
+    //     .form-group:first-child {
+    //       .ele-tit {
+    //         padding-top: 0;
+    //         padding-bottom: .5rem;
+    //       }
+    //       .input-wrap {
+    //         .v-text-field input {
+    //           min-height: auto;
+    //           padding-top: .7rem;
+    //           padding-bottom: .6rem;
+    //           font-size: .875rem;
+    //         }
+    //         .v-field__input::placeholder{
+    //           font-size: .875rem;
+    //         }
+    //       }
+    //     }
+    //   }
+    // }
     // 서비스 이용약관
-    .form-group {
-      &.agree-checkbox {
-        .form-checkbox {
-          padding: 1rem 0;
-          .v-checkbox {
-            .v-label {
-              font-size: .875rem;
-            }
-          }
-        }
-        .text-area {
-          height: 17.5rem;
-          padding: 1rem 0 0 0;
-        }
-      }
-    }
+    // .form-group {
+    //   &.agree-checkbox {
+    //     .form-checkbox {
+    //       padding: 1rem 0;
+    //       .v-checkbox {
+    //         .v-label {
+    //           font-size: .875rem;
+    //         }
+    //       }
+    //     }
+    //     .text-area {
+    //       height: 17.5rem;
+    //       padding: 1rem 0 0 0;
+    //     }
+    //   }
+    // }
     // 비밀번호 변경
     .find-text {
       padding: 2rem 0 0;

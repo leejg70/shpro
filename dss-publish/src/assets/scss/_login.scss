@@ -30,6 +30,14 @@
       --v-input-control-height: 4rem;
       --v-input-padding-top: .75rem;
     }
+    .text-tip {
+      position: relative;
+      margin-top: .5rem;
+      font-size: .875rem;
+      &.error {
+        color: #ff3636;
+      }
+    }
   }
   .form-checkbox {
     margin-bottom: 2.5rem;
@@ -91,6 +99,9 @@
       }
       .v-input--density-comfortable {
         --v-input-control-height: 3.5rem;
+      }
+      .text-tip {
+        font-size: .75rem;
       }
     }
     .form-checkbox {

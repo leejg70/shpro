@@ -3,8 +3,6 @@ import { ref } from 'vue';
 
 const resetpw = ref('');
 const verifytpw = ref('');
-const resetpwRules = ref([(v: string) => !!v || '숫자, 영문, 특수문자를 조합해 8~20자리로 생성해주세요.']);
-const verifypwRules = ref([(v: string) => !!v || '비밀번호를 확인해 주세요.']);
 </script>
 
 <template>
@@ -36,7 +34,6 @@ const verifypwRules = ref([(v: string) => !!v || '비밀번호를 확인해 주�
           </div>
           <div class="input-wrap">
             <v-text-field
-              :rules="resetpwRules"
               aria-label="비밀번호 재설정"
               v-model="resetpw"
               placeholder="새 비밀번호"
@@ -48,6 +45,10 @@ const verifypwRules = ref([(v: string) => !!v || '비밀번호를 확인해 주�
               required
             ></v-text-field>
           </div>
+          <p class="text-tip hint">숫자, 영문, 특수문자를 조합해 8~20자리로 생성해주세요.</p>
+          <!--
+          <p class="text-tip error">인증번호가 전송되었습니다. 인증번호를 입력해주세요.</p>
+          -->
         </div>
         <div class="form-group">
           <div class="ele-tit">
@@ -55,7 +56,6 @@ const verifypwRules = ref([(v: string) => !!v || '비밀번호를 확인해 주�
           </div>
           <div class="input-wrap">
             <v-text-field
-              :rules="verifypwRules"
               aria-label="비밀번호 재설정"
               v-model="verifytpw"
               placeholder="새 비밀번호 확인"
@@ -67,6 +67,7 @@ const verifypwRules = ref([(v: string) => !!v || '비밀번호를 확인해 주�
               required
             ></v-text-field>
           </div>
+          <p class="text-tip error"></p>
         </div>
       </div>
       <div class="btn-wrap">

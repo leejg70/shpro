@@ -26,7 +26,7 @@ const sms = ref('');
       <p class="text">회원가입을 위한 정보를 입력해주세요.</p>
     </div>
     <Form class="form-wrap">
-      <div class="form-box change">
+      <div class="form-box">
         <div class="form-group">
           <div class="ele-tit">
             <v-label>이메일 주소</v-label>
