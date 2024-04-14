@@ -5,10 +5,10 @@ import { router } from './router';
 import vuetify from './plugins/vuetify';
 import '@/scss/style.scss';
 import '@/assets/scss/style.scss';
-import PerfectScrollbar from 'vue3-perfect-scrollbar';
+// import PerfectScrollbar from 'vue3-perfect-scrollbar';
 // import VueApexCharts from 'vue3-apexcharts';
 // import VueTablerIcons from 'vue-tabler-icons';
-import Vue3Marquee from 'vue3-marquee';
+// import Vue3Marquee from 'vue3-marquee';
 // import SvgSprite from '@/components/shared/SvgSprite.vue';
 // google-fonts
 // import '@fontsource/roboto/400.css';
@@ -30,9 +30,9 @@ import Vue3Marquee from 'vue3-marquee';
 // Mock Api data
 // import './_mockApis';
 // import { fakeBackend } from '@/utils/helpers/fake-backend';
-import { vMaska } from 'maska';
+// import { vMaska } from 'maska';
 // print
-import print from 'vue3-print-nb';
+// import print from 'vue3-print-nb';
 // Table
 // import Vue3EasyDataTable from 'vue3-easy-data-table';
 //i18
@@ -48,13 +48,13 @@ const app = createApp(App);
 // fakeBackend();
 app.use(router);
 // app.component('EasyDataTable', Vue3EasyDataTable);
-app.use(PerfectScrollbar);
+// app.use(PerfectScrollbar);
 // app.component('SvgSprite', SvgSprite);
 app.use(createPinia());
 // app.use(VueTablerIcons);
-app.use(print);
-app.use(Vue3Marquee);
+// app.use(print);
+// app.use(Vue3Marquee);
 // app.use(i18n);
-app.directive('maska', vMaska);
+// app.directive('maska', vMaska);
 // app.use(VueApexCharts);
 app.use(vuetify).mount('#app');
