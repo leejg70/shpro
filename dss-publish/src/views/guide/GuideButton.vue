@@ -2,9 +2,9 @@
 import { ref } from 'vue';
 
 // common components
-import SvgSprite from '@/components/shared/SvgSprite.vue';
-import ComponentTitle from '@/components/shared/ComponentTitle.vue';
-import UiParentCard from '@/components/shared/UiParentCard.vue';
+// import SvgSprite from '@/components/shared/SvgSprite.vue';
+// import ComponentTitle from '@/components/shared/ComponentTitle.vue';
+// import UiParentCard from '@/components/shared/UiParentCard.vue';
 
 // component content
 const page = ref({ title: 'Buttons' });
