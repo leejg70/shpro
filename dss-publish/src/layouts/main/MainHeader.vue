@@ -14,7 +14,7 @@
                 </ul>
             </div>
             <div class="gnb-wrap">
-                <h1 class="title1"><img src="../../assets/dss/images/common/logo.png" alt="" class="logo"></h1>
+                <h1 class="title1"><img src="../../assets/images/common/logo.png" alt="" class="logo"></h1>
                 <nav class="gnb-menu">
                     <ul class="menu-list">
                         <li><a href="javascript:;" class="">Data서비스</a></li>
