@@ -88,86 +88,72 @@
   }
   // 본인 인증
   .form-box {
+    padding: 1.5rem 0 2rem;
+    border-top: 1px solid #111518;
+    border-bottom: 1px solid #e5e5e5;
     &.change {
-      padding: 1.5rem 0 2rem;
-      border-top: 1px solid #111518;
-      border-bottom: 1px solid #e5e5e5;
       padding-bottom: 1.5rem;
-      .form-group {
+    }
+    .form-group {
+      position: relative;
+      padding-left: 12.75rem !important;
+      .ele-tit {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 12.75rem;
+        padding-top: .75rem;
+      }
+      .input-wrap {
         position: relative;
-        padding-left: 12.75rem !important; 
-        .ele-tit {
+        width: 100%;
+        box-sizing: border-box;
+        .v-input--density-comfortable {
+          --v-input-control-height: 2.875rem;
+          --v-input-padding-top: .75rem;
+        }
+        &.side-btn .v-input {
+          width: calc(100% - 10.5rem);
+        }
+        &.side-btn .btn-w10 {
           position: absolute;
           top: 0;
-          left: 0;
-          width: 12.75rem;
-          padding: .75rem 0;
-        } 
-        .input-wrap {
-          position: relative;
-          width: 100%;
+          right: 0;
+          width: 10rem;
+          min-width: 10rem;
+        }
+        &.side-timer .v-field__input {
+          padding-right: 4.2rem;
+        }
+        &.side-timer .timer-box {
+          display: inline-block;
+          position: absolute;
+          top: .88rem;
+          right: 11.5rem;
+          width: 3.4rem;
+          height: 1.25rem;
           box-sizing: border-box;
-          .v-input--density-comfortable {
-            --v-input-control-height: 2.875rem;
-            --v-input-padding-top: .75rem;
-          }
-          &.side-btn .v-input {
-            width: calc(100% - 10.5rem);
-          }
-          &.side-btn .btn-w10 {
-            position: absolute;
-            top: 0;
-            right: 0;
-            width: 10rem;
-            min-width: 10rem;
-          }
-          &.side-timer .v-field__input {
-            padding-right: 4.2rem;
-          }
-          &.side-timer .timer-box {
-            display: inline-block;
-            position: absolute;
-            top: .88rem;
-            right: 11.5rem;
-            width: 3.4rem;
-            height: 1.25rem;
-            box-sizing: border-box;
-            font-size: .875rem;
-            line-height: 1.25rem;
-            color: #666;
-            .icon-timer {
-              margin-top: -.2rem;
-            }
+          font-size: .875rem;
+          line-height: 1.25rem;
+          color: #666;
+          .icon-timer {
+            margin-top: -.2rem;
           }
         }
-        + .form-group {
-          margin-top: 1.5rem;
-        }     
       }
-    }
-    &.busi-add{
-      display: flex;
-      flex-direction: column; 
-      height: 25rem;
-      .form-group {
+      + .form-group {
+        margin-top: 1.5rem;
+      }
+      .text-tip {
         position: relative;
-        padding-left: 0!important;  
-        .ele-tit {     
-          width: 100%;
-          padding-bottom: .5rem;
-        } 
-      }
-      .popup-scroll-area{overflow: auto; height: 25rem;}
-    }
-    .text-tip {
-      position: relative;
-      margin-top: .5rem;
-      font-size: .875rem;
-      &.error {
-        color: #ff3636;
-      }
-      &.hint {
-        color: #356cff;
+        margin-top: .5rem;
+        font-size: .875rem;
+        &.error {
+          color: #ff3636;
+        }
+        &.hint {
+          color: #356cff;
+        }
       }
     }
   }
@@ -499,72 +485,47 @@
     // 본인 인증
     .form-box {
       padding-bottom: 1.5rem;
-      &.change {
-        padding: 1.5rem 0 2rem;
-        border-top: 1px solid #111518;
-        border-bottom: 1px solid #e5e5e5;
-        padding-bottom: 1.5rem;
-        .form-group { 
-          padding-left: 0 !important;
-          .ele-tit {
-            display: block;
-            position: static;
-            width: auto;
-            padding: 0 0 .5rem 0;
-          }
-          .input-wrap {
-            .v-text-field input {
-              min-height: auto;
-              padding-top: .7rem;
-              padding-bottom: .6rem;
-              font-size: .875rem;
-            }
-            .v-field__input::placeholder {
-              font-size: .875rem;
-            }
-            &.side-btn .v-input {
-              width: calc(100% - 7rem);
-            }
-            &.side-btn .btn-w10 {
-              width: 6.5rem;
-              min-width: 6.5rem;
-            }
-            &.side-timer .v-field__input {
-              padding-right: 3.85rem;
-            }
-            &.side-timer .timer-box {
-              top: .69rem;
-              right: 7.75rem;
-              width: 3.1rem;
-              font-size: .75rem;
-              .icon-timer {
-                margin-top: 0;
-              }
-            }
-          }
-          .text-tip {
-            font-size: .75rem;
-          }
-        }
-      }
-      &.busi-add{
-        display: flex;
-        flex-direction: column; 
-        height: 25rem;
-        .form-group {
-          position: relative;
-          padding-left: 0!important;  
-          .ele-tit {     
-            width: 100%;
-            padding: .75rem 0 .5rem;
-          } 
-        }
-      }
-
-
       .form-group {
-       
-
+        padding-left: 0 !important;
+        .ele-tit {
+          display: block;
+          position: static;
+          width: auto;
+          padding: 0 0 .5rem 0;
+        }
+        .input-wrap {
+          .v-text-field input {
+            min-height: auto;
+            padding-top: .7rem;
+            padding-bottom: .6rem;
+            font-size: .875rem;
+          }
+          .v-field__input::placeholder {
+            font-size: .875rem;
+          }
+          &.side-btn .v-input {
+            width: calc(100% - 7rem);
+          }
+          &.side-btn .btn-w10 {
+            width: 6.5rem;
+            min-width: 6.5rem;
+          }
+          &.side-timer .v-field__input {
+            padding-right: 3.85rem;
+          }
+          &.side-timer .timer-box {
+            top: .69rem;
+            right: 7.75rem;
+            width: 3.1rem;
+            font-size: .75rem;
+            .icon-timer {
+              margin-top: 0;
+            }
+          }
+        }
+        .text-tip {
+          font-size: .75rem;
+        }
       }
     }
     // .form-box {
