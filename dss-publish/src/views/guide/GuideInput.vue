@@ -7,28 +7,28 @@ import { ref } from 'vue';
 // import UiParentCard from '@/components/shared/UiParentCard.vue';
 
 // define consts
-const caption_email1 = ref('demo@company.com');
-const caption_email2 = ref('demo@company.com');
-const caption_email3 = ref('demo@company.com');
-const validate_email1 = ref('demo.sd');
-const validate_email2 = ref('demo.sd');
-const multiline2 = ref('Default Value');
-const select_sm = ref<string>('Small');
-const full_text = ref('Default');
-const some_imp1 = ref('Default');
-const some_imp2 = ref('Default');
-const some_imp3 = ref('Default');
+// const caption_email1 = ref('demo@company.com');
+// const caption_email2 = ref('demo@company.com');
+// const caption_email3 = ref('demo@company.com');
+// const validate_email1 = ref('demo.sd');
+// const validate_email2 = ref('demo.sd');
+// const multiline2 = ref('Default Value');
+// const select_sm = ref<string>('Small');
+// const full_text = ref('Default');
+// const some_imp1 = ref('Default');
+// const some_imp2 = ref('Default');
+// const some_imp3 = ref('Default');
 
 // rules for email textfield
-const rules = ref({
-  required: (value: string) => !!value || 'Required.',
-  counter: (value: string) => value.length <= 20 || 'Max 20 characters',
-  email: (value: string) => {
-    const pattern =
-      /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
-    return pattern.test(value) || 'Invalid e-mail.';
-  }
-});
+// const rules = ref({
+//   required: (value: string) => !!value || 'Required.',
+//   counter: (value: string) => value.length <= 20 || 'Max 20 characters',
+//   email: (value: string) => {
+//     const pattern =
+//       /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+//     return pattern.test(value) || 'Invalid e-mail.';
+//   }
+// });
 
 //  data of select
 const items = ref(['None', 'demo@company.com', 'Judiya@company.com', 'taju_diya@company.com']);
@@ -108,8 +108,7 @@ const link = ref({ filelink: 'https://vuetifyjs.com/en/components/text-fields/' 
                 패스워드 삭제버튼
               </v-label>
               <v-text-field 
-                color="primary" 
-                :rules="[() => !!password || '비밀번호를 입력해주세요.']" 
+                color="primary"               
                 persistent-placeholder 
                 placeholder="demo@company.com" 
                 variant="outlined" clearable
