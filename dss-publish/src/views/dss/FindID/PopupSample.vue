@@ -1,4 +1,4 @@
-<script setup lang="ts">
+<script setup>
 import { ref } from 'vue';
 import Agreement from  '@/views/dss/Member/Agreement/PopupAgree.vue'
 import Alert from  '@/views/dss/Member/Agreement/AlertSample.vue'

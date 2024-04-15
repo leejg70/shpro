@@ -1,4 +1,4 @@
-<script setup lang="ts">
+<script setup>
 const link = 'https://www.shinhancard.com/pconts/html/agree/1217932_7911.html'
 </script>
 

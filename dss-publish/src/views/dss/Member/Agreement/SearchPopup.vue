@@ -1,4 +1,4 @@
-<script setup lang="ts">
+<script setup>
 import { ref } from 'vue';
 
 const radios = ref('기업명을 동일하게 입력해주세요');

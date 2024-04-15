@@ -1,10 +1,10 @@
-<script setup lang="ts">
+<script setup>
 import { ref } from 'vue';
 
 const company = ref('');
-const companynumber = ref('');
 const email = ref('');
 const sms = ref('');
+const department = ref('');
 const resetpw = ref('');
 const verifytpw = ref('');
 </script>
@@ -35,37 +35,17 @@ const verifytpw = ref('');
           <div class="ele-tit">
             <v-label>기업명</v-label>
           </div>
-          <div class="input-wrap">
-            <v-text-field
-              aria-label="기업명"
-              v-model="company"
-              placeholder="기업명 입력"
-              density="comfortable"
-              variant="outlined"
-              color="primary"
-              hide-details="auto"
-              clearable
-              required
-            ></v-text-field>
-          </div>
-          <p class="text-tip error">기업명은 필수입력입니다.</p>
-        </div>
-        <div class="form-group">
-          <div class="ele-tit">
-            <v-label>사업자 등록번호</v-label>
-          </div>
           <div class="input-wrap side-btn">
             <div class="input-wrap">
               <v-text-field
-                aria-label="사업자 등록번호"
-                v-model="companynumber"
-                placeholder="[-]를 제외한 사업자 등록번호 입력"
+                aria-label="기업명"
+                v-model="company"
+                placeholder="기업 찾기"
                 density="comfortable"
                 variant="outlined"
                 color="primary"
                 hide-details="auto"
-                clearable
-                required
+                disabled
               ></v-text-field>
             </div>
             <v-btn
@@ -75,7 +55,7 @@ const verifytpw = ref('');
               rounded="md"
               class="btn-w10"
             >
-              사업자번호 확인
+              기업찾기
             </v-btn>
           </div>
         </div>
@@ -158,6 +138,25 @@ const verifytpw = ref('');
             </v-btn>
           </div>
           <p class="text-tip error">입력시간을 초과하였습니다. 인증번호 재전송 후 다시 시도해주세요.</p>
+        </div>
+        <div class="form-group">
+          <div class="ele-tit">
+            <v-label>부서명</v-label>
+          </div>
+          <div class="input-wrap">
+            <v-text-field
+              aria-label="부서명"
+              v-model="department"
+              placeholder="부서명 입력"
+              density="comfortable"
+              variant="outlined"
+              color="primary"
+              hide-details="auto"
+              clearable
+              required
+            ></v-text-field>
+          </div>
+          <p class="text-tip error">부서명은 필수 입력입니다.</p>
         </div>
         <div class="form-group">
           <div class="ele-tit">

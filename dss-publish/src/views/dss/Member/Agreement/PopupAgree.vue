@@ -1,4 +1,4 @@
-<script setup lang="ts">
+<script setup>
 import { ref } from 'vue';
 import Alert from  '@/views/dss/Member/Agreement/AlertSample.vue'
 const alert= ref(false);

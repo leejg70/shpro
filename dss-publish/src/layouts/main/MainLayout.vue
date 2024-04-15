@@ -1,4 +1,4 @@
-<script setup lang="ts">
+<script setup>
 import { RouterView } from 'vue-router';
 import PageHeader from '@/layouts/main/MainHeader.vue'
 import PageFooter from '@/layouts/main/MainFooter.vue'

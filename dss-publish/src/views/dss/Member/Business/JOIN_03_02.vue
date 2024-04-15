@@ -1,4 +1,4 @@
-<script setup lang="ts">
+<script setup>
 import { ref } from 'vue';
 import Agreement from  './JOIN_02_02_01_p.vue'
 
