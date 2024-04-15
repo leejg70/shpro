@@ -1,8 +1,8 @@
 <script setup lang="ts">
 import { ref } from 'vue';
 // common components
-import ComponentTitle from '@/components/shared/ComponentTitle.vue';
-import UiParentCard from '@/components/shared/UiParentCard.vue';
+// import ComponentTitle from '@/components/shared/ComponentTitle.vue';
+// import UiParentCard from '@/components/shared/UiParentCard.vue';
 
 // component content
 const page = ref({ title: 'Checkbox' });

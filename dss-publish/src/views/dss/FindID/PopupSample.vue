@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { ref } from 'vue';
-import Agreement from  '@/views/members/agreement/PopupAgree.vue'
-import Alert from  '@/views/members/agreement/AlertSample.vue'
+import Agreement from  '@/views/dss/Member/Agreement/PopupAgree.vue'
+import Alert from  '@/views/dss/Member/Agreement/AlertSample.vue'
 const dialog = ref(false);
 const alert= ref(false);
 </script>

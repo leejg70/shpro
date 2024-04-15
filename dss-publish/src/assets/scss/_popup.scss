@@ -11,7 +11,20 @@
   opacity: .7;
 }
 .popup-wrap{
-  // height:35.75rem;
+  .text-tip {
+    position: relative;
+    margin-top: .5rem;
+    font-size: .875rem;
+    &.error {
+      color: #ff3636;
+    }
+    &.hint {
+      color: #356cff;
+    }
+    &.message {
+      color: #888;
+    }
+  }
   background-color:#fff;
   border-radius: 1rem; 
   .popup-foot{
@@ -57,10 +70,6 @@
    }
    .popup-cont{
     padding: .5rem 2rem; 
-    // overflow: auto;
-    // overflow-x: hidden;
-    // -webkit-overflow-scrolling: touch;
-    // max-height: 25rem;
    }
    .busi-add{
     .form-box{
@@ -129,7 +138,10 @@
  }
 
  @media only screen and (max-width: 1280px) {
-  .popup-wrap{  
+  .popup-wrap{ 
+    .text-tip {
+      font-size: .75rem;
+    }
     border-radius: 0;
     .popup-foot{
       position:relative;
