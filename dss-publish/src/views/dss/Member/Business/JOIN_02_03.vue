@@ -135,7 +135,7 @@ const verifytpw = ref('');
           </div>
           <div class="input-wrap">
             <v-text-field
-              aria-label="비밀번호"
+              aria-label="비밀번호 확인"
               v-model="verifytpw"
               placeholder="비밀번호 재입력"
               density="comfortable"

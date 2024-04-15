@@ -6,6 +6,14 @@ const formTerms = ref({
   value: ['0', '1', '2'],
   allSelected: false,
 });
+const agreeOnOf = ref(true);
+const agreeClick = () => {
+  if(agreeOnOf.value == false){
+    agreeOnOf.value = true ;
+  } else {
+    agreeOnOf.value = false;
+  }
+};
 const dialog = ref(false);
 </script>
 
@@ -46,13 +54,15 @@ const dialog = ref(false);
                     class="check-all"
                   ></v-checkbox>
                   <v-btn
-                  variant="text"
-                  icon="mdi-arrow-down"
-                  class="btn-toggle"
-                ></v-btn>
+                    :class="agreeOnOf ? 'active' : ''"
+                    variant="text"
+                    icon="mdi-arrow-down"
+                    @click="agreeClick"
+                    class="btn-toggle"
+                  ></v-btn>
                 </div>
               </dt>
-              <dd class="terms-body">
+              <dd v-show="agreeOnOf" class="terms-body">
                 <div class="check-wrap">
                   <div class="form-checkbox">
                     <v-checkbox
@@ -117,6 +127,7 @@ const dialog = ref(false);
           size="x-large"
           rounded="lg"
           class="btn-w14"
+          disabled
         >
           다음
         </v-btn>

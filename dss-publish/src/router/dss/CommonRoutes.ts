@@ -426,16 +426,6 @@ const MainRoutes = {
       component: () => import('@/views/dss/Member/Business/JOIN_03_02.vue')
     },
     {
-      name: 'JOIN_03_02_01_p',
-      path: '/JOIN_03_02_01_p',
-      component: () => import('@/views/dss/Member/Business/JOIN_03_02_01_p.vue')
-    },
-    {
-      name: 'JOIN_03_02_02_p',
-      path: '/JOIN_03_02_02_p',
-      component: () => import('@/views/dss/Member/Business/JOIN_03_02_02_p.vue')
-    },
-    {
       name: 'JOIN_03_03',
       path: '/JOIN_03_03',
       component: () => import('@/views/dss/Member/Business/JOIN_03_03.vue')
@@ -454,16 +444,6 @@ const MainRoutes = {
       name: 'JOIN_04_02',
       path: '/JOIN_04_02',
       component: () => import('@/views/dss/Member/Business/JOIN_04_02.vue')
-    },
-    {
-      name: 'JOIN_04_02_01_p',
-      path: '/JOIN_04_02_01_p',
-      component: () => import('@/views/dss/Member/Business/JOIN_04_02_01_p.vue')
-    },
-    {
-      name: 'JOIN_04_02_02_p',
-      path: '/JOIN_04_02_02_p',
-      component: () => import('@/views/dss/Member/Business/JOIN_04_02_02_p.vue')
     },
     {
       name: 'JOIN_04_03',
