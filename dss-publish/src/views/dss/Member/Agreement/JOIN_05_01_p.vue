@@ -14,7 +14,7 @@ const link = 'https://www.shinhancard.com/pconts/html/agree/1217932_7911.html'
 </template>
 
 <style lang="scss">
-.iframe {  
+.iframe {
   border: 1px solid #ddd;
   width: 100%;
   height: 25rem;
