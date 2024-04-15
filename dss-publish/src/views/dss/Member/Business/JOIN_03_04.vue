@@ -21,7 +21,7 @@
           class="icon-success"
         ></v-icon>
         <div class="complete-text">
-          <div>회원가입 신청 완료</div>
+          <div>회원가입 완료</div>
           <p>환영합니다. 고객님.<br>신청해주신 개인사업자 서비스는 관리자 승인 후 이용 가능하며<br>로그인 후 기본 서비스는 이용 가능합니다.</p>
         </div>
       </div>

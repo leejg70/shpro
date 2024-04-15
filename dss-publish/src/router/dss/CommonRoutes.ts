@@ -89,6 +89,21 @@ const MainRoutes = {
       component: () => import('@/views/dss/SolutionService/PRDS_00_01.vue')
     },
     {
+      name: 'PRDS_00_02',
+      path: '/PRDS_00_02',
+      component: () => import('@/views/dss/SolutionService/PRDS_00_02.vue')
+    },
+    {
+      name: 'PRDS_00_03',
+      path: '/PRDS_00_03',
+      component: () => import('@/views/dss/SolutionService/PRDS_00_03.vue')
+    },
+    {
+      name: 'PRDS_00_04',
+      path: '/PRDS_00_04',
+      component: () => import('@/views/dss/SolutionService/PRDS_00_04.vue')
+    },
+    {
       name: 'PRDM_00',
       path: '/PRDM_00',
       component: () => import('@/views/dss/ADService/PRDM_00.vue')
@@ -515,6 +530,16 @@ const MainRoutes = {
       name: 'FILE_01_p',
       path: '/FILE_01_p',
       component: () => import('@/views/dss/Common/FILE_01_p.vue')
+    },
+    {
+      name: 'SYSA_p',
+      path: '/SYSA_p',
+      component: () => import('@/views/dss/Common/SYSA_p.vue')
+    },
+    {
+      name: 'SYSC_p',
+      path: '/SYSC_p',
+      component: () => import('@/views/dss/Common/SYSC_p.vue')
     },
     {
       name: 'ETC_02',
