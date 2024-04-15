@@ -3,6 +3,8 @@ import { ref } from 'vue';
 
 const email = ref('');
 const sms = ref('');
+const resetpw = ref('');
+const verifytpw = ref('');
 </script>
 
 <template>
@@ -66,11 +68,11 @@ const sms = ref('');
             </v-btn>
             -->
           </div>
-          <p class="text-tip hint">이메일 인증에 사용하신 이메일 주소는 로그인 ID로 사용됩니다.<br>추후 서비스 이용을 위해 해당 이메일을 기억해 주시기 바랍니다.</p>
+          <p class="text-tip message">이메일 인증에 사용하신 이메일 주소는 로그인 ID로 사용됩니다.<br>추후 서비스 이용을 위해 해당 이메일을 기억해 주시기 바랍니다.</p>
           <!--
           <p class="text-tip hint">인증번호가 전송되었습니다. 인증번호를 입력해주세요.</p>
           <p class="text-tip error">이메일주소가 올바르지 않습니다.</p>
-          <p class="text-tip error">이미 등록된 이메일입니다.</p>
+          <p class="text-tip error">이미 등록된 이메일 입니다.</p>
           -->
         </div>
         <div class="form-group">
@@ -81,7 +83,7 @@ const sms = ref('');
             <v-text-field
               aria-label="인증번호 숫자 6자리"
               v-model="sms"
-              placeholder="숫자 6자리 입력"
+              placeholder="인증번호 입력"
               density="comfortable"
               variant="outlined"
               color="primary"
@@ -106,6 +108,45 @@ const sms = ref('');
             </v-btn>
           </div>
           <p class="text-tip error">입력시간을 초과하였습니다. 인증번호 재전송 후 다시 시도해주세요.</p>
+        </div>
+        <div class="form-group">
+          <div class="ele-tit">
+            <v-label>비밀번호</v-label>
+          </div>
+          <div class="input-wrap">
+            <v-text-field
+              aria-label="비밀번호"
+              v-model="resetpw"
+              placeholder="비밀번호 입력"
+              density="comfortable"
+              variant="outlined"
+              color="primary"
+              hide-details="auto"
+              clearable
+              required
+            ></v-text-field>
+          </div>
+          <p class="text-tip message">비밀번호는 숫자, 영문, 특수문자를 조합해 8~20자리로 생성해주세요</p>
+          <!-- <p class="text-tip error">비밀번호를 8자 이상 입력해 주세요.</p> -->
+        </div>
+        <div class="form-group">
+          <div class="ele-tit">
+            <v-label>비밀번호 확인</v-label>
+          </div>
+          <div class="input-wrap">
+            <v-text-field
+              aria-label="비밀번호"
+              v-model="verifytpw"
+              placeholder="비밀번호 재입력"
+              density="comfortable"
+              variant="outlined"
+              color="primary"
+              hide-details="auto"
+              clearable
+              required
+            ></v-text-field>
+          </div>
+          <p class="text-tip error">비밀번호를 8자 이상 입력해 주세요.</p>
         </div>
       </div>
       <div class="btn-wrap">

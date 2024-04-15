@@ -288,9 +288,8 @@ const items = ['알뜰폰', 'SKT알뜰폰', 'KT알뜰폰', 'LG U+알뜰폰'];
           </div>
           <p class="text-tip hint">인증번호가 전송되었습니다. 인증번호를 입력해주세요.</p>
           <!--
-          <p class="text-tip error">(-) 하이픈 없이 숫자만 입력해주세요.</p>
-          <p class="text-tip error">휴대폰번호는 필수 입력입니다.</p>
-          <p class="text-tip error">인증번호 발송에 실패했습니다. 이름/주민번호/통신사를 확인해주세요.</p>
+          <p class="text-tip error">휴대폰 번호를 확인해주세요.</p>
+          <p class="text-tip error">인증번호 전송에 실패했습니다. 인증정보를 확인해주세요.</p>
           -->
         </div>
         <div class="form-group">

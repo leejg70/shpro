@@ -56,7 +56,7 @@ const verifytpw = ref('');
           </div>
           <div class="input-wrap">
             <v-text-field
-              aria-label="비밀번호 재설정"
+              aria-label="비밀번호 확인"
               v-model="verifytpw"
               placeholder="새 비밀번호 확인"
               density="comfortable"
@@ -67,7 +67,7 @@ const verifytpw = ref('');
               required
             ></v-text-field>
           </div>
-          <p class="text-tip error"></p>
+          <p class="text-tip error">비밀번호를 입력해주세요.</p>
         </div>
       </div>
       <div class="btn-wrap">
