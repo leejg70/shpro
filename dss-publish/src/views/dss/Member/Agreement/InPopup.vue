@@ -62,7 +62,7 @@ import { ref } from 'vue';
                             required
                             ></v-text-field>
                         </div>
-                        <p class="text-tip error">인 도메인이 올바르지 않습니다. 확인 후 다시 입력해주세요.</p>                  
+                        <p class="text-tip error">법인 도메인이 올바르지 않습니다. 확인 후 다시 입력해주세요.</p>                  
                     </div>                               
                 </div>           
             </Form>

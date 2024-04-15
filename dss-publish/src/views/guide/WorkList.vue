@@ -1468,8 +1468,8 @@
 									<td class="col-4depth"></td>
 									<td class="col-point">popup</td>
 									<td class="col-url"><router-link to="/JOIN_04_03_01_p" target="_blank">/views/dss/Member/Business/JOIN_04_03_01_p</router-link></td>
-									<td class="col-date"></td>
-									<td class="col-complete" data-complete=""></td>
+									<td class="col-date">2024-04-15</td>
+									<td class="col-complete" data-complete="done"></td>
 									<td class="col-memo"></td>
 								</tr>
 								<tr>
@@ -1504,8 +1504,8 @@
 									<td class="col-4depth">기업등록요청 팝업</td>
 									<td class="col-point">popup</td>
 									<td class="col-url"><router-link to="/JOIN_04_03_04_p" target="_blank">/views/dss/Member/Business/JOIN_04_03_04_p</router-link></td>
-									<td class="col-date"></td>
-									<td class="col-complete" data-complete=""></td>
+									<td class="col-date">2024-04-15</td>
+									<td class="col-complete" data-complete="done"></td>
 									<td class="col-memo"></td>
 								</tr>
 								<tr>
