@@ -13,16 +13,32 @@
 .popup-wrap{
   // height:35.75rem;
   background-color:#fff;
-  border-radius: 1rem;
-  padding-bottom: 1.5rem;
+  border-radius: 1rem; 
+  .popup-foot{
+    position:relative;
+    width: 100%;
+    .btn-popwrap{
+      padding-top: 1.5rem; 
+      padding-bottom: 1.5rem;
+    }
+  } 
+  .popup-foot.poup{
+    position:relative;
+    width: 100%;
+    .btn-popwrap{
+      padding-top: 1rem; 
+      padding-bottom: 1.5rem;
+    }
+  } 
+  .popup-scroll-area {
+    padding: 0.5rem 0;
+    overflow: auto;
+  }
   &.w62{
     width: 62.25rem;
   }
   &.w36{
     width: 36.75rem;
-    .popup-cont{
-      max-height: 25rem;
-    }
     .btn-wrap {
       margin-top: 0;
     }
@@ -36,12 +52,37 @@
       font-weight: 500;
     }
    }
+   .top-contet{
+    padding: 0 2rem;
+   }
    .popup-cont{
     padding: .5rem 2rem; 
-    overflow: auto;
-    overflow-x: hidden;
-    -webkit-overflow-scrolling: touch;
-    max-height: 25rem;
+    // overflow: auto;
+    // overflow-x: hidden;
+    // -webkit-overflow-scrolling: touch;
+    // max-height: 25rem;
+   }
+   .busi-add{
+    .form-box{
+      display: flex;
+      flex-direction: column; 
+      height: 25rem;
+      .form-group {
+        position: relative;
+        padding-left: 0!important;  
+        & + .form-group{
+          margin-top: 1.5rem;
+        }
+        .ele-tit {     
+          width: 100%;
+          padding-bottom: .5rem;
+        }       
+      }      
+    }
+    &.popup-scroll-area{
+      overflow: auto; 
+      height: 25rem;
+    }
    }
  }
  .v-btn.btn-popup-close{
@@ -86,19 +127,26 @@
       cursor: pointer;  
     }
  }
- .popup-foot{
-  position:relative;
-  padding:1.5rem 2rem;
-  width: 100%;
- }
-
-
-
 
  @media only screen and (max-width: 1280px) {
-  .popup-wrap{
-    padding-bottom: 1.5rem;
+  .popup-wrap{  
     border-radius: 0;
+    .popup-foot{
+      position:relative;
+      width: 100%;
+      .btn-popwrap{
+        padding-top: 1.5rem; 
+        padding-bottom: 1.5rem;
+      }
+    } 
+    .popup-foot.poup{
+      position:relative;
+      width: 100%;
+      .btn-popwrap{
+        padding-top: 1rem; 
+        padding-bottom: 1.5rem;
+      }
+    } 
     .form-group + .form-group {margin-top: 1.5rem;}
     &.w62{
       left: -2rem !important;
@@ -107,13 +155,13 @@
     }
     &.w36{
       width: 19.5rem;
-      border-radius: 1rem;
+      border-radius: 1rem;      
       .member{
         padding: 0;
       }
       .popup-foot {
         position:relative;
-        padding: 0 1.5rem;
+        // padding: 0 1.5rem;
         width: 100%;
       }
     }
@@ -128,17 +176,34 @@
       padding: .5rem 1.5rem; 
       max-height: calc(100vh - 4.5rem);
      }
+    // 본인 인증
+    .busi-add{
+      .form-box {
+        display: flex;
+        flex-direction: column; 
+        height: 25rem;
+        .form-group {
+          position: relative;
+          padding-left: 0!important;  
+          .ele-tit {     
+            width: 100%;
+            padding: .75rem 0 .5rem;
+          }
+          & + .form-group {margin-top: 1rem;}
+        }
+      }
+    }
    }
   .v-btn.btn-popup-close{ 
     width: 3.5rem;
     height: 3.5rem; 
   }
   .popup-alert-wrap{
-  margin:0 3rem;
-  max-width: calc(100% - 6rem);  
-  height:auto;
-  background-color:#fff;
-  border-radius: 1rem; 
+    margin:0 3rem;
+    max-width: calc(100% - 6rem);  
+    height:auto;
+    background-color:#fff;
+    border-radius: 1rem; 
     .alert-cont{
       padding: 1.75rem 1.5rem;
       font-size: 1rem;
@@ -154,9 +219,9 @@
       font-size: 1rem;
     }
   }
-  .popup-foot{
+  .popup-foot.fixed{
     position:fixed ;
-    padding:0 1.5rem 1.5rem;
+    // padding:0 1.5rem 1.5rem;
     width: 100%;
     bottom: 0;
     left:0;

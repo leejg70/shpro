@@ -93,20 +93,7 @@
   cursor: pointer;
 }
 
-.btn-wrap.type2{
-  display: flex;
-  padding-top: 1rem;
-  justify-content: center;
-  align-items: flex-start;
-  gap: 0.5rem;
-  flex: 1 0 0;
-  .btn-w14{
-    width: 14rem;    
-  }
-  .btn-w8{
-    width: 8rem;    
-  }
-}
+
 
 @media only screen and (max-width: 1280px) {
   .v-btn--size-x-large {
@@ -140,12 +127,4 @@
     background-size: 1.5rem;
   }
 
-  .btn-wrap.type2{
-    .btn-w14{
-      width: 64.1025641025641%;    
-    }
-    .btn-w8{
-      width: 33.3333%;    
-    }
-  }
 }

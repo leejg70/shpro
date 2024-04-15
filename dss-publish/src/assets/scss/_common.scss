@@ -202,10 +202,34 @@ address span {margin-right: 1rem; display: inline-block;}
 /* Delete */
 .mdi-close-circle::before {color: #949494;}
 
-/* Bottom-Button */
+/* Bottom- */
 .btn-wrap {display: flex; justify-content: center; align-items: center; margin-top: 4rem;}
 .btn-wrap .btn-w14 {width: 14rem;}
 .btn-wrap .btn-w14 + .btn-w14 {margin-left: 1rem;}
+
+/* popup Button */
+.btn-popwrap{
+    margin: 0 2rem;
+    border-top: 1px solid #E5E5E5;
+    display: flex;
+    padding-top: 1.5rem;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 0.5rem;
+    &.popup{
+        padding-top: 1rem;
+        margin: 0 1.5rem;
+    }
+    .btn-w14{
+      width: 14rem;    
+    }
+    .btn-w8{
+      width: 8rem;    
+    }
+  }
+
+
+
 
 /* 360 미만일때 일괄적으로 축소*/
 @media only screen and (max-width: 360px) {
@@ -297,4 +321,12 @@ address span {margin-right: 1rem; display: inline-block;}
             }
         }
     }
+    .btn-popwrap{
+        .btn-w14{
+          width: 64.1025641025641%;    
+        }
+        .btn-w8{
+          width: 33.3333%;    
+        }
+      }
 }

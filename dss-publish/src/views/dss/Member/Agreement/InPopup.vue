@@ -7,7 +7,7 @@ import { ref } from 'vue';
       <h3 tabindex="0">기업추가</h3>
     </div>
     <div class="popup-cont">         
-        <div class="member"> 
+        <div class="busi-add popup-scroll-area"> 
             <Form class="form-wrap">
                 <div class="form-box busi-add">                 
                     <div class="form-group">
@@ -66,10 +66,10 @@ import { ref } from 'vue';
                     </div>                               
                 </div>           
             </Form>
-        </div>       
+        </div>
     </div>
     <div class="popup-foot">
-      <div class="btn-wrap type2">
+      <div class="btn-popwrap popup">
         <v-btn
             variant="outlined"
             color="Outlinded"
@@ -94,5 +94,5 @@ import { ref } from 'vue';
 </template>
 
 <style lang="scss">
-  .popup-scroll-area {padding: 0.5rem 0;}
+  // .popup-scroll-area {padding: 0.5rem 0;}
 </style>
