@@ -4,7 +4,7 @@ import { ref } from 'vue';
 <template>
   <div class="popup-wrap w36">
     <div class="popup-head">
-      <h3 tabindex="0">기업추가</h3>
+      <h3 class="title">기업추가</h3>
     </div>
     <div class="popup-cont">         
         <div class="busi-add popup-scroll-area"> 

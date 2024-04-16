@@ -351,7 +351,7 @@ const items = ['알뜰폰', 'SKT알뜰폰', 'KT알뜰폰', 'LG U+알뜰폰'];
       block
       class="btn-popup-close"
     >
-      닫기
+      <span class="sr-only">닫기</span>
     </v-btn>
   </v-dialog>
 </template>

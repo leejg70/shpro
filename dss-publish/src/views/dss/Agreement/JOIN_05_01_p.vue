@@ -5,7 +5,7 @@ const link = 'https://www.shinhancard.com/pconts/html/agree/1217932_7911.html'
 <template>
   <div class="popup-wrap w62">
     <div class="popup-head">
-      <h3 tabindex="0">팝업 타이틀</h3>
+      <h3 class="title">휴대폰 본인확인 이용 동의</h3>
     </div>
     <div class="popup-cont">
       <iframe :src="link" class="iframe"></iframe>

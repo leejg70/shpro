@@ -10,7 +10,9 @@
   background: rgb(17, 21, 24);
   opacity: .7;
 }
-.popup-wrap{
+.popup-wrap {
+  background-color: #fff;
+  border-radius: 1rem;
   .text-tip {
     position: relative;
     margin-top: .5rem;
@@ -25,18 +27,16 @@
       color: #888;
     }
   }
-  background-color:#fff;
-  border-radius: 1rem; 
-  .popup-foot{
+  .popup-foot {
     position:relative;
     width: 100%;
-    .btn-popwrap{
+    .btn-popwrap {
       padding-top: 1.5rem; 
       padding-bottom: 1.5rem;
     }
   } 
-  .popup-foot.poup{
-    position:relative;
+  .popup-foot.poup {
+    position: relative;
     width: 100%;
     .btn-popwrap{
       padding-top: 1rem; 
@@ -44,42 +44,42 @@
     }
   } 
   .popup-scroll-area {
-    padding: 0.5rem 0;
+    padding: .5rem 0;
     overflow: auto;
   }
-  &.w62{
+  &.w62 {
     width: 62.25rem;
   }
-  &.w36{
+  &.w36 {
     width: 36.75rem;
     .btn-wrap {
       margin-top: 0;
     }
   }
-  .popup-head{
+  .popup-head {
     border-radius: 1rem 1rem 0;
     padding: 1.5rem 2rem;
-    .popup-title{
+    .title {
       font-size: 1.5rem;
-      color:  #111518;
       font-weight: 500;
+      color: #111518;
     }
-   }
-   .top-contet{
+  }
+  .top-contet {
     padding: 0 2rem;
-   }
-   .popup-cont{
+  }
+  .popup-cont {
     padding: .5rem 2rem; 
-   }
-   .busi-add{
-    .form-box{
+  }
+  .busi-add {
+    .form-box {
       display: flex;
       flex-direction: column; 
       height: 25rem;
       .form-group {
         position: relative;
-        padding-left: 0!important;  
-        & + .form-group{
+        padding-left: 0 !important;  
+        + .form-group {
           margin-top: 1.5rem;
         }
         .ele-tit {     
@@ -88,22 +88,22 @@
         }       
       }      
     }
-    &.popup-scroll-area{
+    &.popup-scroll-area {
       overflow: auto; 
       height: 25rem;
     }
-   }
- }
- .v-btn.btn-popup-close{
+  }
+}
+.v-btn.btn-popup-close {
   all: unset;
-  position: absolute;
-  right: 0;
-  top:0;
-  display: block;
-  width: 5rem;
-  height: 5rem;
   overflow: hidden;
-  background-image:url(../images/icon/icon_popup_close.png); 
+  display: block;
+  position: absolute;
+  top: 1.5rem;
+  right: 1.625rem;
+  width: 2.25rem;
+  height: 2.25rem;
+  background-image: url('../images/icon/icon_popup_close.png');
   background-size: 1.5rem;
   background-position: center;
   background-repeat: no-repeat;
@@ -112,20 +112,20 @@
     all: unset;
   }
 }
- .popup-alert-wrap{
+.popup-alert-wrap {
   width: 22.5rem;
   height:auto;
   background-color:#fff;
   border-radius: 1rem; 
-    .alert-cont{
+    .alert-cont {
       padding: 1.75rem 1.5rem;
       border-radius: 1rem 1rem 0;
       text-align: center;
     }
-    .alert-foot{
+    .alert-foot {
       border-top: 1px solid #E5E5E5;
     }   
-    .v-btn.btn-alert-close{
+    .v-btn.btn-alert-close {
       all: unset;     
       display: block;
       width: 100%;
@@ -137,38 +137,38 @@
     }
  }
 
- @media only screen and (max-width: 1280px) {
-  .popup-wrap{ 
+@media only screen and (max-width: 1280px) {
+  .popup-wrap {
+    border-radius: 0;
     .text-tip {
       font-size: .75rem;
     }
-    border-radius: 0;
-    .popup-foot{
+    .popup-foot {
       position:relative;
       width: 100%;
-      .btn-popwrap{
+      .btn-popwrap {
         padding-top: 1.5rem; 
         padding-bottom: 1.5rem;
       }
-    } 
-    .popup-foot.poup{
+    }
+    .popup-foot.poup {
       position:relative;
       width: 100%;
-      .btn-popwrap{
-        padding-top: 1rem; 
+      .btn-popwrap {
+        padding-top: 1rem;
         padding-bottom: 1.5rem;
       }
-    } 
+    }
     .form-group + .form-group {margin-top: 1.5rem;}
-    &.w62{
+    &.w62 {
       left: -2rem !important;
       width: 100vw;
-      height:100vh;
+      height: 100vh;
     }
-    &.w36{
+    &.w36 {
       width: 19.5rem;
-      border-radius: 1rem;      
-      .member{
+      border-radius: 1rem;
+      .member {
         padding: 0;
       }
       .popup-foot {
@@ -177,71 +177,73 @@
         width: 100%;
       }
     }
-    .popup-head{
+    .popup-head {
       border-radius: 0;
-      padding: 0.875rem 1.5rem 0.9375rem 1.5rem;
-      .popup-title{
-        font-size: 1.125rem;     
+      padding: .88rem 1.5rem .94rem 1.5rem;
+      .title {
+        font-size: 1.125rem;
       }
-     }
-    .popup-cont{
+    }
+    .popup-cont {
       padding: .5rem 1.5rem; 
       max-height: calc(100vh - 4.5rem);
-     }
+    }
     // 본인 인증
-    .busi-add{
+    .busi-add {
       .form-box {
         display: flex;
-        flex-direction: column; 
+        flex-direction: column;
         height: 25rem;
         .form-group {
           position: relative;
-          padding-left: 0!important;  
-          .ele-tit {     
+          padding-left: 0 !important;
+          .ele-tit {
             width: 100%;
             padding: .75rem 0 .5rem;
           }
-          & + .form-group {margin-top: 1rem;}
+          + .form-group {margin-top: 1rem;}
         }
       }
     }
-   }
-  .v-btn.btn-popup-close{ 
-    width: 3.5rem;
-    height: 3.5rem; 
   }
-  .popup-alert-wrap{
-    margin:0 3rem;
-    max-width: calc(100% - 6rem);  
-    height:auto;
-    background-color:#fff;
+  .v-btn.btn-popup-close {
+    top: .88rem;
+    right: 1.4063rem;
+    width: 1.6875rem;
+    height: 1.6875rem;
+  }
+  .popup-alert-wrap {
+    margin: 0 3rem;
+    max-width: calc(100% - 6rem);
+    height: auto;
+    background-color: #fff;
     border-radius: 1rem; 
-    .alert-cont{
+    .alert-cont {
       padding: 1.75rem 1.5rem;
       font-size: 1rem;
       border-radius: 1rem 1rem 0;
     }
-    .alert-foot{
-      border-top: 1px solid #E5E5E5;
-    }   
-    .v-btn.btn-alert-close{ 
+    .alert-foot {
+      border-top: 1px solid #e5e5e5;
+    }
+    .v-btn.btn-alert-close {
       display: block;
       width: 100%;
       height: 3.25rem;
       font-size: 1rem;
     }
   }
-  .popup-foot.fixed{
-    position:fixed ;
+  .popup-foot.fixed {
+    position: fixed;
     // padding:0 1.5rem 1.5rem;
     width: 100%;
     bottom: 0;
-    left:0;
+    left: 0;
     .btn-wrap.popup {
-      margin-top: 0.5rem;
+      margin-top: .5rem;
       padding-top: 1rem;
+    }
   }
- }
 }
 
 
