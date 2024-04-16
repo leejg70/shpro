@@ -1227,7 +1227,7 @@
 									<td class="col-3depth"></td>
 									<td class="col-4depth"></td>
 									<td class="col-point">page</td>
-									<td class="col-url"><router-link to="/JOIN_02_01" target="_blank">/views/dss/Member/Business/JOIN_02_01</router-link></td>
+									<td class="col-url"><router-link to="/JOIN_02_01" target="_blank">/views/dss/Member/JOIN_02_01</router-link></td>
 									<td class="col-date">2024-04-12</td>
 									<td class="col-complete" data-complete="done"></td>
 									<td class="col-memo"></td>
@@ -1239,7 +1239,7 @@
 									<td class="col-3depth"></td>
 									<td class="col-4depth"></td>
 									<td class="col-point">page</td>
-									<td class="col-url"><router-link to="/JOIN_02_02" target="_blank">/views/dss/Member/Business/JOIN_02_02</router-link></td>
+									<td class="col-url"><router-link to="/JOIN_02_02" target="_blank">/views/dss/Member/JOIN_02_02</router-link></td>
 									<td class="col-date">2024-04-12</td>
 									<td class="col-complete" data-complete="done"></td>
 									<td class="col-memo"></td>
@@ -1251,7 +1251,7 @@
 									<td class="col-3depth">(필수) DataBlue 이용약관</td>
 									<td class="col-4depth"></td>
 									<td class="col-point">popup</td>
-									<td class="col-url"><router-link to="/JOIN_02_02_01_p" target="_blank">/views/dss/Member/Business/JOIN_02_02_01_p</router-link></td>
+									<td class="col-url"><router-link to="/JOIN_02_02_01_p" target="_blank">/views/dss/Member/JOIN_02_02_01_p</router-link></td>
 									<td class="col-date">2024-04-12</td>
 									<td class="col-complete" data-complete="done"></td>
 									<td class="col-memo"></td>
@@ -1263,7 +1263,7 @@
 									<td class="col-3depth">(필수) 개인정보 수집 및 이용동의</td>
 									<td class="col-4depth"></td>
 									<td class="col-point">popup</td>
-									<td class="col-url"><router-link to="/JOIN_02_02_02_p" target="_blank">/views/dss/Member/Business/JOIN_02_02_02_p</router-link></td>
+									<td class="col-url"><router-link to="/JOIN_02_02_02_p" target="_blank">/views/dss/Member/JOIN_02_02_02_p</router-link></td>
 									<td class="col-date"></td>
 									<td class="col-complete" data-complete=""></td>
 									<td class="col-memo"></td>
@@ -1275,7 +1275,7 @@
 									<td class="col-3depth">(선택) 마케팅동의</td>
 									<td class="col-4depth"></td>
 									<td class="col-point">popup</td>
-									<td class="col-url"><router-link to="/JOIN_02_02_03_p" target="_blank">/views/dss/Member/Business/JOIN_02_02_03_p</router-link></td>
+									<td class="col-url"><router-link to="/JOIN_02_02_03_p" target="_blank">/views/dss/Member/JOIN_02_02_03_p</router-link></td>
 									<td class="col-date"></td>
 									<td class="col-complete" data-complete=""></td>
 									<td class="col-memo"></td>
@@ -1287,7 +1287,7 @@
 									<td class="col-3depth"></td>
 									<td class="col-4depth"></td>
 									<td class="col-point">page</td>
-									<td class="col-url"><router-link to="/JOIN_02_03" target="_blank">/views/dss/Member/Business/JOIN_02_03</router-link></td>
+									<td class="col-url"><router-link to="/JOIN_02_03" target="_blank">/views/dss/Member/JOIN_02_03</router-link></td>
 									<td class="col-date">2024-04-12</td>
 									<td class="col-complete" data-complete="done"></td>
 									<td class="col-memo"></td>
@@ -1299,7 +1299,7 @@
 									<td class="col-3depth"></td>
 									<td class="col-4depth"></td>
 									<td class="col-point">page</td>
-									<td class="col-url"><router-link to="/JOIN_02_04" target="_blank">/views/dss/Member/Business/JOIN_02_04</router-link></td>
+									<td class="col-url"><router-link to="/JOIN_02_04" target="_blank">/views/dss/Member/JOIN_02_04</router-link></td>
 									<td class="col-date">2024-04-12</td>
 									<td class="col-complete" data-complete="done"></td>
 									<td class="col-memo"></td>
@@ -1311,7 +1311,7 @@
 									<td class="col-3depth"></td>
 									<td class="col-4depth"></td>
 									<td class="col-point">page</td>
-									<td class="col-url"><router-link to="/JOIN_03_01" target="_blank">/views/dss/Member/Business/JOIN_03_01</router-link></td>
+									<td class="col-url"><router-link to="/JOIN_03_01" target="_blank">/views/dss/Member/JOIN_03_01</router-link></td>
 									<td class="col-date">2024-04-15</td>
 									<td class="col-complete" data-complete="done"></td>
 									<td class="col-memo"></td>
@@ -1323,7 +1323,7 @@
 									<td class="col-3depth"></td>
 									<td class="col-4depth"></td>
 									<td class="col-point">page</td>
-									<td class="col-url"><router-link to="/JOIN_03_02" target="_blank">/views/dss/Member/Business/JOIN_03_02</router-link></td>
+									<td class="col-url"><router-link to="/JOIN_03_02" target="_blank">/views/dss/Member/JOIN_03_02</router-link></td>
 									<td class="col-date">2024-04-15</td>
 									<td class="col-complete" data-complete="done"></td>
 									<td class="col-memo"></td>
@@ -1335,7 +1335,7 @@
 									<td class="col-3depth">(필수) DataBlue 이용약관</td>
 									<td class="col-4depth"></td>
 									<td class="col-point">popup</td>
-									<td class="col-url"><router-link to="/JOIN_02_02_01_p" target="_blank">/views/dss/Member/Business/JOIN_02_02_01_p</router-link></td>
+									<td class="col-url"><router-link to="/JOIN_02_02_01_p" target="_blank">/views/dss/Member/JOIN_02_02_01_p</router-link></td>
 									<td class="col-date">2024-04-12</td>
 									<td class="col-complete" data-complete="done"></td>
 									<td class="col-memo"></td>
@@ -1347,7 +1347,7 @@
 									<td class="col-3depth">(필수) 개인정보 수집 및 이용동의</td>
 									<td class="col-4depth"></td>
 									<td class="col-point">popup</td>
-									<td class="col-url"><router-link to="/JOIN_02_02_02_p" target="_blank">/views/dss/Member/Business/JOIN_02_02_02_p</router-link></td>
+									<td class="col-url"><router-link to="/JOIN_02_02_02_p" target="_blank">/views/dss/Member/JOIN_02_02_02_p</router-link></td>
 									<td class="col-date"></td>
 									<td class="col-complete" data-complete=""></td>
 									<td class="col-memo"></td>
@@ -1359,7 +1359,7 @@
 									<td class="col-3depth">(선택) 마케팅동의</td>
 									<td class="col-4depth"></td>
 									<td class="col-point">popup</td>
-									<td class="col-url"><router-link to="/JOIN_02_02_03_p" target="_blank">/views/dss/Member/Business/JOIN_02_02_03_p</router-link></td>
+									<td class="col-url"><router-link to="/JOIN_02_02_03_p" target="_blank">/views/dss/Member/JOIN_02_02_03_p</router-link></td>
 									<td class="col-date"></td>
 									<td class="col-complete" data-complete=""></td>
 									<td class="col-memo"></td>
@@ -1371,7 +1371,7 @@
 									<td class="col-3depth"></td>
 									<td class="col-4depth"></td>
 									<td class="col-point">page</td>
-									<td class="col-url"><router-link to="/JOIN_03_03" target="_blank">/views/dss/Member/Business/JOIN_03_03</router-link></td>
+									<td class="col-url"><router-link to="/JOIN_03_03" target="_blank">/views/dss/Member/JOIN_03_03</router-link></td>
 									<td class="col-date">2024-04-15</td>
 									<td class="col-complete" data-complete="done"></td>
 									<td class="col-memo"></td>
@@ -1383,7 +1383,7 @@
 									<td class="col-3depth"></td>
 									<td class="col-4depth"></td>
 									<td class="col-point">page</td>
-									<td class="col-url"><router-link to="/JOIN_03_04" target="_blank">/views/dss/Member/Business/JOIN_03_04</router-link></td>
+									<td class="col-url"><router-link to="/JOIN_03_04" target="_blank">/views/dss/Member/JOIN_03_04</router-link></td>
 									<td class="col-date">2024-04-15</td>
 									<td class="col-complete" data-complete="done"></td>
 									<td class="col-memo"></td>
@@ -1395,7 +1395,7 @@
 									<td class="col-3depth"></td>
 									<td class="col-4depth"></td>
 									<td class="col-point">page</td>
-									<td class="col-url"><router-link to="/JOIN_04_01" target="_blank">/views/dss/Member/Business/JOIN_04_01</router-link></td>
+									<td class="col-url"><router-link to="/JOIN_04_01" target="_blank">/views/dss/Member/JOIN_04_01</router-link></td>
 									<td class="col-date">2024-04-15</td>
 									<td class="col-complete" data-complete="done"></td>
 									<td class="col-memo"></td>
@@ -1407,7 +1407,7 @@
 									<td class="col-3depth"></td>
 									<td class="col-4depth"></td>
 									<td class="col-point">page</td>
-									<td class="col-url"><router-link to="/JOIN_04_02" target="_blank">/views/dss/Member/Business/JOIN_04_02</router-link></td>
+									<td class="col-url"><router-link to="/JOIN_04_02" target="_blank">/views/dss/Member/JOIN_04_02</router-link></td>
 									<td class="col-date">2024-04-15</td>
 									<td class="col-complete" data-complete="done"></td>
 									<td class="col-memo"></td>
@@ -1419,7 +1419,7 @@
 									<td class="col-3depth">(필수) DataBlue 이용약관</td>
 									<td class="col-4depth"></td>
 									<td class="col-point">popup</td>
-									<td class="col-url"><router-link to="/JOIN_02_02_01_p" target="_blank">/views/dss/Member/Business/JOIN_02_02_01_p</router-link></td>
+									<td class="col-url"><router-link to="/JOIN_02_02_01_p" target="_blank">/views/dss/Member/JOIN_02_02_01_p</router-link></td>
 									<td class="col-date">2024-04-12</td>
 									<td class="col-complete" data-complete="done"></td>
 									<td class="col-memo"></td>
@@ -1431,7 +1431,7 @@
 									<td class="col-3depth">(필수) 개인정보 수집 및 이용동의</td>
 									<td class="col-4depth"></td>
 									<td class="col-point">popup</td>
-									<td class="col-url"><router-link to="/JOIN_02_02_02_p" target="_blank">/views/dss/Member/Business/JOIN_02_02_02_p</router-link></td>
+									<td class="col-url"><router-link to="/JOIN_02_02_02_p" target="_blank">/views/dss/Member/JOIN_02_02_02_p</router-link></td>
 									<td class="col-date"></td>
 									<td class="col-complete" data-complete=""></td>
 									<td class="col-memo"></td>
@@ -1443,7 +1443,7 @@
 									<td class="col-3depth">(선택) 마케팅동의</td>
 									<td class="col-4depth"></td>
 									<td class="col-point">popup</td>
-									<td class="col-url"><router-link to="/JOIN_02_02_03_p" target="_blank">/views/dss/Member/Business/JOIN_02_02_03_p</router-link></td>
+									<td class="col-url"><router-link to="/JOIN_02_02_03_p" target="_blank">/views/dss/Member/JOIN_02_02_03_p</router-link></td>
 									<td class="col-date"></td>
 									<td class="col-complete" data-complete=""></td>
 									<td class="col-memo"></td>
@@ -1455,7 +1455,7 @@
 									<td class="col-3depth"></td>
 									<td class="col-4depth"></td>
 									<td class="col-point">page</td>
-									<td class="col-url"><router-link to="/JOIN_04_03" target="_blank">/views/dss/Member/Business/JOIN_04_03</router-link></td>
+									<td class="col-url"><router-link to="/JOIN_04_03" target="_blank">/views/dss/Member/JOIN_04_03</router-link></td>
 									<td class="col-date">2024-04-15</td>
 									<td class="col-complete" data-complete="done"></td>
 									<td class="col-memo"></td>
@@ -1467,7 +1467,7 @@
 									<td class="col-3depth">기업찾기 팝업</td>
 									<td class="col-4depth"></td>
 									<td class="col-point">popup</td>
-									<td class="col-url"><router-link to="/JOIN_04_03_01_p" target="_blank">/views/dss/Member/Business/JOIN_04_03_01_p</router-link></td>
+									<td class="col-url"><router-link to="/JOIN_04_03_01_p" target="_blank">/views/dss/Member/JOIN_04_03_01_p</router-link></td>
 									<td class="col-date">2024-04-15</td>
 									<td class="col-complete" data-complete="done"></td>
 									<td class="col-memo"></td>
@@ -1479,7 +1479,7 @@
 									<td class="col-3depth"></td>
 									<td class="col-4depth">성공</td>
 									<td class="col-point">popup</td>
-									<td class="col-url"><router-link to="/JOIN_04_03_02_p" target="_blank">/views/dss/Member/Business/JOIN_04_03_02_p</router-link></td>
+									<td class="col-url"><router-link to="/JOIN_04_03_02_p" target="_blank">/views/dss/Member/JOIN_04_03_02_p</router-link></td>
 									<td class="col-date"></td>
 									<td class="col-complete" data-complete=""></td>
 									<td class="col-memo"></td>
@@ -1491,7 +1491,7 @@
 									<td class="col-3depth"></td>
 									<td class="col-4depth">실패</td>
 									<td class="col-point">popup</td>
-									<td class="col-url"><router-link to="/JOIN_04_03_03_p" target="_blank">/views/dss/Member/Business/JOIN_04_03_03_p</router-link></td>
+									<td class="col-url"><router-link to="/JOIN_04_03_03_p" target="_blank">/views/dss/Member/JOIN_04_03_03_p</router-link></td>
 									<td class="col-date"></td>
 									<td class="col-complete" data-complete=""></td>
 									<td class="col-memo"></td>
@@ -1503,7 +1503,7 @@
 									<td class="col-3depth"></td>
 									<td class="col-4depth">기업등록요청 팝업</td>
 									<td class="col-point">popup</td>
-									<td class="col-url"><router-link to="/JOIN_04_03_04_p" target="_blank">/views/dss/Member/Business/JOIN_04_03_04_p</router-link></td>
+									<td class="col-url"><router-link to="/JOIN_04_03_04_p" target="_blank">/views/dss/Member/JOIN_04_03_04_p</router-link></td>
 									<td class="col-date">2024-04-15</td>
 									<td class="col-complete" data-complete="done"></td>
 									<td class="col-memo"></td>
@@ -1515,7 +1515,7 @@
 									<td class="col-3depth"></td>
 									<td class="col-4depth"></td>
 									<td class="col-point">page</td>
-									<td class="col-url"><router-link to="/JOIN_04_04" target="_blank">/views/dss/Member/Business/JOIN_04_04</router-link></td>
+									<td class="col-url"><router-link to="/JOIN_04_04" target="_blank">/views/dss/Member/JOIN_04_04</router-link></td>
 									<td class="col-date">2024-04-15</td>
 									<td class="col-complete" data-complete="done"></td>
 									<td class="col-memo"></td>
@@ -1527,7 +1527,7 @@
 									<td class="col-3depth">휴대폰본인확인이용동의</td>
 									<td class="col-4depth"></td>
 									<td class="col-point">popup</td>
-									<td class="col-url"><router-link to="/JOIN_05_01_p" target="_blank">/views/dss/Member/Agreement/JOIN_05_01_p</router-link></td>
+									<td class="col-url"><router-link to="/JOIN_05_01_p" target="_blank">/views/dss/Agreement/JOIN_05_01_p</router-link></td>
 									<td class="col-date">2024-04-15</td>
 									<td class="col-complete" data-complete="done"></td>
 									<td class="col-memo"></td>
@@ -1539,7 +1539,7 @@
 									<td class="col-3depth">고유식별정보처리동의</td>
 									<td class="col-4depth"></td>
 									<td class="col-point">popup</td>
-									<td class="col-url"><router-link to="/JOIN_05_02_p" target="_blank">/views/dss/Member/Agreement/JOIN_05_02_p</router-link></td>
+									<td class="col-url"><router-link to="/JOIN_05_02_p" target="_blank">/views/dss/Agreement/JOIN_05_02_p</router-link></td>
 									<td class="col-date"></td>
 									<td class="col-complete" data-complete=""></td>
 									<td class="col-memo"></td>
@@ -1551,7 +1551,7 @@
 									<td class="col-3depth">통신사이용약관동의</td>
 									<td class="col-4depth"></td>
 									<td class="col-point">popup</td>
-									<td class="col-url"><router-link to="/JOIN_05_03_p" target="_blank">/views/dss/Member/Agreement/JOIN_05_03_p</router-link></td>
+									<td class="col-url"><router-link to="/JOIN_05_03_p" target="_blank">/views/dss/Agreement/JOIN_05_03_p</router-link></td>
 									<td class="col-date"></td>
 									<td class="col-complete" data-complete=""></td>
 									<td class="col-memo"></td>
@@ -1563,7 +1563,7 @@
 									<td class="col-3depth">개인정보수집및이용동의</td>
 									<td class="col-4depth"></td>
 									<td class="col-point">popup</td>
-									<td class="col-url"><router-link to="/JOIN_05_04_p" target="_blank">/views/dss/Member/Agreement/JOIN_05_04_p</router-link></td>
+									<td class="col-url"><router-link to="/JOIN_05_04_p" target="_blank">/views/dss/Agreement/JOIN_05_04_p</router-link></td>
 									<td class="col-date"></td>
 									<td class="col-complete" data-complete=""></td>
 									<td class="col-memo"></td>
@@ -1575,7 +1575,7 @@
 									<td class="col-3depth">개인정보제3자제공동의</td>
 									<td class="col-4depth"></td>
 									<td class="col-point">popup</td>
-									<td class="col-url"><router-link to="/JOIN_05_05_p" target="_blank">/views/dss/Member/Agreement/JOIN_05_05_p</router-link></td>
+									<td class="col-url"><router-link to="/JOIN_05_05_p" target="_blank">/views/dss/Agreement/JOIN_05_05_p</router-link></td>
 									<td class="col-date"></td>
 									<td class="col-complete" data-complete=""></td>
 									<td class="col-memo"></td>

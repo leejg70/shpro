@@ -403,122 +403,122 @@ const MainRoutes = {
     {
       name: 'JOIN_02_01',
       path: '/JOIN_02_01',
-      component: () => import('@/views/dss/Member/Business/JOIN_02_01.vue')
+      component: () => import('@/views/dss/Member/JOIN_02_01.vue')
     },
     {
       name: 'JOIN_02_02',
       path: '/JOIN_02_02',
-      component: () => import('@/views/dss/Member/Business/JOIN_02_02.vue')
+      component: () => import('@/views/dss/Member/JOIN_02_02.vue')
     },
     {
       name: 'JOIN_02_02_01_p',
       path: '/JOIN_02_02_01_p',
-      component: () => import('@/views/dss/Member/Business/JOIN_02_02_01_p.vue')
+      component: () => import('@/views/dss/Member/JOIN_02_02_01_p.vue')
     },
     {
       name: 'JOIN_02_02_02_p',
       path: '/JOIN_02_02_02_p',
-      component: () => import('@/views/dss/Member/Business/JOIN_02_02_02_p.vue')
+      component: () => import('@/views/dss/Member/JOIN_02_02_02_p.vue')
     },
     {
       name: 'JOIN_02_02_03_p',
       path: '/JOIN_02_02_03_p',
-      component: () => import('@/views/dss/Member/Business/JOIN_02_02_03_p.vue')
+      component: () => import('@/views/dss/Member/JOIN_02_02_03_p.vue')
     },
     {
       name: 'JOIN_02_03',
       path: '/JOIN_02_03',
-      component: () => import('@/views/dss/Member/Business/JOIN_02_03.vue')
+      component: () => import('@/views/dss/Member/JOIN_02_03.vue')
     },
     {
       name: 'JOIN_02_04',
       path: '/JOIN_02_04',
-      component: () => import('@/views/dss/Member/Business/JOIN_02_04.vue')
+      component: () => import('@/views/dss/Member/JOIN_02_04.vue')
     },
     {
       name: 'JOIN_03_01',
       path: '/JOIN_03_01',
-      component: () => import('@/views/dss/Member/Business/JOIN_03_01.vue')
+      component: () => import('@/views/dss/Member/JOIN_03_01.vue')
     },
     {
       name: 'JOIN_03_02',
       path: '/JOIN_03_02',
-      component: () => import('@/views/dss/Member/Business/JOIN_03_02.vue')
+      component: () => import('@/views/dss/Member/JOIN_03_02.vue')
     },
     {
       name: 'JOIN_03_03',
       path: '/JOIN_03_03',
-      component: () => import('@/views/dss/Member/Business/JOIN_03_03.vue')
+      component: () => import('@/views/dss/Member/JOIN_03_03.vue')
     },
     {
       name: 'JOIN_03_04',
       path: '/JOIN_03_04',
-      component: () => import('@/views/dss/Member/Business/JOIN_03_04.vue')
+      component: () => import('@/views/dss/Member/JOIN_03_04.vue')
     },
     {
       name: 'JOIN_04_01',
       path: '/JOIN_04_01',
-      component: () => import('@/views/dss/Member/Business/JOIN_04_01.vue')
+      component: () => import('@/views/dss/Member/JOIN_04_01.vue')
     },
     {
       name: 'JOIN_04_02',
       path: '/JOIN_04_02',
-      component: () => import('@/views/dss/Member/Business/JOIN_04_02.vue')
+      component: () => import('@/views/dss/Member/JOIN_04_02.vue')
     },
     {
       name: 'JOIN_04_03',
       path: '/JOIN_04_03',
-      component: () => import('@/views/dss/Member/Business/JOIN_04_03.vue')
+      component: () => import('@/views/dss/Member/JOIN_04_03.vue')
     },
     {
       name: 'JOIN_04_03_01_p',
       path: '/JOIN_04_03_01_p',
-      component: () => import('@/views/dss/Member/Business/JOIN_04_03_01_p.vue')
+      component: () => import('@/views/dss/Member/JOIN_04_03_01_p.vue')
     },
     {
       name: 'JOIN_04_03_02_p',
       path: '/JOIN_04_03_02_p',
-      component: () => import('@/views/dss/Member/Business/JOIN_04_03_02_p.vue')
+      component: () => import('@/views/dss/Member/JOIN_04_03_02_p.vue')
     },
     {
       name: 'JOIN_04_03_03_p',
       path: '/JOIN_04_03_03_p',
-      component: () => import('@/views/dss/Member/Business/JOIN_04_03_03_p.vue')
+      component: () => import('@/views/dss/Member/JOIN_04_03_03_p.vue')
     },
     {
       name: 'JOIN_04_03_04_p',
       path: '/JOIN_04_03_04_p',
-      component: () => import('@/views/dss/Member/Business/JOIN_04_03_04_p.vue')
+      component: () => import('@/views/dss/Member/JOIN_04_03_04_p.vue')
     },
     {
       name: 'JOIN_04_04',
       path: '/JOIN_04_04',
-      component: () => import('@/views/dss/Member/Business/JOIN_04_04.vue')
+      component: () => import('@/views/dss/Member/JOIN_04_04.vue')
     },
     {
       name: 'JOIN_05_01_p',
       path: '/JOIN_05_01_p',
-      component: () => import('@/views/dss/Member/Agreement/JOIN_05_01_p.vue')
+      component: () => import('@/views/dss/Agreement/JOIN_05_01_p.vue')
     },
     {
       name: 'JOIN_05_02_p',
       path: '/JOIN_05_02_p',
-      component: () => import('@/views/dss/Member/Agreement/JOIN_05_02_p.vue')
+      component: () => import('@/views/dss/Agreement/JOIN_05_02_p.vue')
     },
     {
       name: 'JOIN_05_03_p',
       path: '/JOIN_05_03_p',
-      component: () => import('@/views/dss/Member/Agreement/JOIN_05_03_p.vue')
+      component: () => import('@/views/dss/Agreement/JOIN_05_03_p.vue')
     },
     {
       name: 'JOIN_05_04_p',
       path: '/JOIN_05_04_p',
-      component: () => import('@/views/dss/Member/Agreement/JOIN_05_04_p.vue')
+      component: () => import('@/views/dss/Agreement/JOIN_05_04_p.vue')
     },
     {
       name: 'JOIN_05_05_p',
       path: '/JOIN_05_05_p',
-      component: () => import('@/views/dss/Member/Agreement/JOIN_05_05_p.vue')
+      component: () => import('@/views/dss/Agreement/JOIN_05_05_p.vue')
     },
     // 공통/기타
     {

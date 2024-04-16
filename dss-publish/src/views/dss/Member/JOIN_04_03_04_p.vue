@@ -1,28 +1,28 @@
 <script setup>
 import { ref } from 'vue';
 
-import searchpopup from  '@/views/dss/Member/Agreement/SearchPopup.vue'
-const popup = ref(false);
+import helppopup from  '../Popup/InPopup.vue'
+const inpopup = ref(false);
 </script>
 
 <template>
-  기업찾기 팝업
+  기업추가 팝업
     <v-btn
       :ripple="false"  
-      @click="popup= true"
+      @click="inpopup= true"
       class="btn-link"
     >
-    기업찾기 팝업
+    기업추가 팝업
     </v-btn>
 
     <!--  기업찾기 팝업  -->
     <v-dialog
-    v-model="popup"
+    v-model="inpopup"
     width="auto"
     >
-    <searchpopup></searchpopup>
+    <helppopup></helppopup>
     <v-btn
-      @click="popup = false"  
+      @click="inpopup= false"  
       block
       class="btn-popup-close"
       >
