@@ -421,6 +421,11 @@ const MainRoutes = {
       component: () => import('@/views/dss/Member/Business/JOIN_02_02_02_p.vue')
     },
     {
+      name: 'JOIN_02_02_03_p',
+      path: '/JOIN_02_02_03_p',
+      component: () => import('@/views/dss/Member/Business/JOIN_02_02_03_p.vue')
+    },
+    {
       name: 'JOIN_02_03',
       path: '/JOIN_02_03',
       component: () => import('@/views/dss/Member/Business/JOIN_02_03.vue')
