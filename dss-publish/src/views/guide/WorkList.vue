@@ -1096,8 +1096,8 @@
 									<td class="col-4depth"></td>
 									<td class="col-point">page</td>
 									<td class="col-url"><router-link to="/LGIN_03" target="_blank">/views/dss/Login/LGIN_03</router-link></td>
-									<td class="col-date"></td>
-									<td class="col-complete" data-complete=""></td>
+									<td class="col-date">2024-04-16</td>
+									<td class="col-complete" data-complete="done"></td>
 									<td class="col-memo"></td>
 								</tr>
 								<tr>
@@ -1108,8 +1108,8 @@
 									<td class="col-4depth"></td>
 									<td class="col-point">page</td>
 									<td class="col-url"><router-link to="/LGIN_04" target="_blank">/views/dss/Login/LGIN_04</router-link></td>
-									<td class="col-date"></td>
-									<td class="col-complete" data-complete=""></td>
+									<td class="col-date">2024-04-16</td>
+									<td class="col-complete" data-complete="done"></td>
 									<td class="col-memo"></td>
 								</tr>
 								<tr>
