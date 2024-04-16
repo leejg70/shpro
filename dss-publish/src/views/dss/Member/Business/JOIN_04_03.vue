@@ -3,6 +3,7 @@ import { ref } from 'vue';
 
 const company = ref('');
 const email = ref('');
+const emailurl = ref('');
 const sms = ref('');
 const department = ref('');
 const resetpw = ref('');
@@ -63,24 +64,34 @@ const verifytpw = ref('');
           <div class="ele-tit">
             <v-label>이메일 주소</v-label>
           </div>
-          <div class="input-wrap side-btn">
-            <!-- <div class="email-wrap">
-              <div class="first">
-
+          <div class="email-wrap">
+            <div class="first">
+              <div class="input-wrap">
+                <v-text-field
+                  aria-label="이메일 주소"
+                  v-model="email"
+                  placeholder="이메일주소 입력"
+                  density="comfortable"
+                  variant="outlined"
+                  color="primary"
+                  hide-details="auto"
+                ></v-text-field>
               </div>
-            </div> -->
-            <div class="input-wrap">
-              <v-text-field
-                aria-label="이메일 주소"
-                v-model="email"
-                placeholder="이메일주소 입력"
-                density="comfortable"
-                variant="outlined"
-                color="primary"
-                hide-details="auto"
-                clearable
-                required
-              ></v-text-field>
+            </div>
+            <span class="space">@</span>
+            <div class="last">
+              <div class="input-wrap">
+                <v-text-field
+                  aria-label="이메일 url"
+                  v-model="emailurl"
+                  placeholder="이메일 url"
+                  density="comfortable"
+                  variant="outlined"
+                  color="primary"
+                  hide-details="auto"
+                  disabled
+                ></v-text-field>
+              </div>
             </div>
             <v-btn
               variant="outlined"
