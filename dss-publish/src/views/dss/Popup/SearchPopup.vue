@@ -3,6 +3,7 @@ import { ref } from 'vue';
 
 const radios = ref('기업명을 동일하게 입력해주세요');
 </script>
+
 <template>
   <div class="popup-wrap w62">
     <div class="popup-head">

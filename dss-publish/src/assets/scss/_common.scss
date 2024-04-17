@@ -75,22 +75,20 @@
 	font-style: normal;
 	font-display:swap;
 }
-html {
-    font-size: 62.5%;
-}
 
 /*  Reset  */
+html {font-size: 62.5%;}
 body {-webkit-text-size-adjust: none; -moz-text-size-adjust: none; -ms-text-size-adjust: none; text-size-adjust: none; -ms-user-select: none; -moz-user-select: -moz-none; -webkit-user-select: none; user-select: none; -webkit-font-smoothing: antialiased;}
 body, div, p, span, h1, h2, h3, h4, h5, h6, a, ul, ol, li, dl, dt, dd, table, th, td, form, fieldset, legend, input, textarea, button, select, label, header, footer, main, article, aside, section, address {margin: 0; padding: 0; -webkit-box-sizing: border-box; box-sizing: border-box;}
 body, input, textarea, select, button, table {font-family: 'Spoqa Han Sans Neo', 'Noto Sans KR', 'Malgun Gothic', '맑은 고딕', '돋움', 'dotum', 'Apple SD Gothic Neo', 'Helvetica Neue', 'Helvetica', 'Roboto', 'Arial', sans-serif; font-weight: 400; color: #111518; line-height: 1.5; letter-spacing: normal;}
-input, textarea, select, button, table {font-size: 1rem; border: 0 none; background-color: transparent;}
+input, textarea, select, button, table {font-size: 1.6rem; border: 0 none; background-color: transparent;}
 table {table-layout: fixed; width: 100%; border-collapse: collapse; border-spacing: 0; word-break: normal;}
 img, fieldset {border: 0;}
 address {font-style: normal;}
 /*a:active, a:hover, a:focus { color: #333; } */
 em {font-style: normal;}
 /* 링크 시 파랑배경 덥는 것 안보이게 */
-a, button {-webkit-tap-highlight-color:rgba(0,0,0,0); -webkit-tap-highlight-color:transparent; text-decoration-line: none !important;}
+a, button {-webkit-tap-highlight-color: rgba(0,0,0,0); -webkit-tap-highlight-color: transparent; text-decoration-line: none !important;}
 /* a 버튼 정의 */
 a {display: block; color: #111518; text-decoration: none;}
 button {border: 0; border-radius: 0; background-color: transparent; cursor: pointer;}
@@ -102,7 +100,7 @@ b, strong {font-weight: 500;}
 hr {margin: 0;}
 /* IR block formating context */
 .sr-only {position: absolute; overflow: hidden; width: .1rem; height: .1rem; margin: -.1rem; padding: 0; border: 0 none; clip: rect(0, 0, 0, 0);}
-caption, legend {overflow: hidden; width: 1px; height: 1px; margin: -1px 0 0 0; padding: 0; font-size: 0; color: transparent; line-height: 0; border: 0;}
+caption, legend {overflow: hidden; width: .1rem; height: .1rem; margin: -.1rem 0 0 0; padding: 0; font-size: 0; color: transparent; line-height: 0; border: 0;}
 input.v-field__input {background-color: transparent !important;}
 .v-field__input {padding-left: 1.6rem; padding-right: 1.6rem; opacity: 1;}
 .v-ripple__container {opacity: 0 !important;}
