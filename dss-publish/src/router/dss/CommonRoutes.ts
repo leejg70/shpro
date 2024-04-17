@@ -245,9 +245,29 @@ const MainRoutes = {
       component: () => import('@/views/dss/Databule/BLUE_01.vue')
     },
     {
-      name: 'BLUE_02',
-      path: '/BLUE_02',
-      component: () => import('@/views/dss/Databule/BLUE_02.vue')
+      name: 'BLUE_02_01',
+      path: '/BLUE_02_01',
+      component: () => import('@/views/dss/Databule/BLUE_02_01.vue')
+    },
+    {
+      name: 'BLUE_02_02',
+      path: '/BLUE_02_02',
+      component: () => import('@/views/dss/Databule/BLUE_02_02.vue')
+    },
+    {
+      name: 'BLUE_02_03',
+      path: '/BLUE_02_03',
+      component: () => import('@/views/dss/Databule/BLUE_02_03.vue')
+    },
+    {
+      name: 'BLUE_02_04',
+      path: '/BLUE_02_04',
+      component: () => import('@/views/dss/Databule/BLUE_02_04.vue')
+    },
+    {
+      name: 'BLUE_02_05',
+      path: '/BLUE_02_05',
+      component: () => import('@/views/dss/Databule/BLUE_02_05.vue')
     },
     {
       name: 'NOTI_01',
@@ -280,14 +300,24 @@ const MainRoutes = {
       component: () => import('@/views/dss/Customer/QNAS_01.vue')
     },
     {
-      name: 'QNAS_01_01_r',
-      path: '/QNAS_01_01_r',
-      component: () => import('@/views/dss/Customer/QNAS_01_01_r.vue')
+      name: 'QNAS_02_01',
+      path: '/QNAS_02_01',
+      component: () => import('@/views/dss/Customer/QNAS_02_01.vue')
     },
     {
-      name: 'QNAS_01_01_u',
-      path: '/QNAS_01_01_u',
-      component: () => import('@/views/dss/Customer/QNAS_01_01_u.vue')
+      name: 'QNAS_02_01_null',
+      path: '/QNAS_02_01_null',
+      component: () => import('@/views/dss/Customer/QNAS_02_01_null.vue')
+    },
+    {
+      name: 'QNAS_00_01_r',
+      path: '/QNAS_00_01_r',
+      component: () => import('@/views/dss/Customer/QNAS_00_01_r.vue')
+    },
+    {
+      name: 'QNAS_00_01_u',
+      path: '/QNAS_00_01_u',
+      component: () => import('@/views/dss/Customer/QNAS_00_01_u.vue')
     },
     {
       name: 'QNAS_01_01_c',
