@@ -1,6 +1,6 @@
 <script setup>
 import { ref } from 'vue';
-import Alert from  '@/views/dss/Member/Agreement/AlertSample.vue'
+import Alert from  './AlertSample.vue'
 const alert= ref(false);
 </script>
 <template> 
