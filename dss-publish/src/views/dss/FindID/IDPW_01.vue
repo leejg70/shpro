@@ -164,6 +164,7 @@ const items = ['알뜰폰', 'SKT알뜰폰', 'KT알뜰폰', 'LG U+알뜰폰'];
               density="comfortable"
               variant="outlined"
               color="primary"
+              rounded="md"
               hide-details="auto"
               clearable
               required
@@ -185,6 +186,7 @@ const items = ['알뜰폰', 'SKT알뜰폰', 'KT알뜰폰', 'LG U+알뜰폰'];
                   density="comfortable"
                   variant="outlined"
                   color="primary"
+                  rounded="md"
                   hide-details="auto"
                   clearable
                   required
@@ -201,6 +203,7 @@ const items = ['알뜰폰', 'SKT알뜰폰', 'KT알뜰폰', 'LG U+알뜰폰'];
                   density="comfortable"
                   variant="outlined"
                   color="primary"
+                  rounded="md"
                   hide-details="auto"
                   clearable
                   required
@@ -260,6 +263,7 @@ const items = ['알뜰폰', 'SKT알뜰폰', 'KT알뜰폰', 'LG U+알뜰폰'];
                 density="comfortable"
                 variant="outlined"
                 color="primary"
+                rounded="md"
                 hide-details="auto"
                 clearable
                 required
@@ -304,6 +308,7 @@ const items = ['알뜰폰', 'SKT알뜰폰', 'KT알뜰폰', 'LG U+알뜰폰'];
               density="comfortable"
               variant="outlined"
               color="primary"
+              rounded="md"
               hide-details="auto"
               required
             ></v-text-field>

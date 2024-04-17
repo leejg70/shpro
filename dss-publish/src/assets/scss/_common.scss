@@ -156,12 +156,12 @@ address span {margin-right: 1.6rem; display: inline-block;}
 .v-messages__message {line-height: 150%;}
 
 /* Checkbox */
-.check-all.v-input--density-default:not(.v-autocomplete--multiple) {--v-input-control-height: 3.2rem;}
+.check-all.v-input--density-default:not(.v-autocomplete--multiple) {--v-input-control-height: 2.4rem;}
 .check-all .v-selection-control {width: 100%;}
 .check-all .v-selection-control__input,
-.check-all .v-selection-control__wrapper {width: 3.2rem; height: 3.2rem;}
+.check-all .v-selection-control__wrapper {width: 2.4rem; height: 2.4rem;}
 .check-all .v-selection-control__input::before {background-color: transparent;}
-.check-all .v-selection-control__input > .v-icon {opacity: 1;}
+.check-all .v-selection-control__input > .v-icon {width: 2.4rem; height: 2.4rem; opacity: 1;}
 .check-all .mdi-checkbox-blank-outline::before {content: ''; width: 2.4rem; height: 2.4rem; background-image: url('../images/icon/icon_checkbox_off.svg'); background-size: 100%;}
 .check-all .mdi-checkbox-marked::before {content: ''; width: 2.4rem; height: 2.4rem; background-image: url('../images/icon/icon_checkbox_on.svg'); background-size: 100%;}
 
@@ -185,8 +185,8 @@ address span {margin-right: 1.6rem; display: inline-block;}
 .side-timer .mdi-clock-outline::before {content: ''; width: 2rem; height: 2rem; background-image: url('../images/icon/icon_timer.png'); background-size: 100%;}
 
 /* Select */
-.v-overlay-container .v-menu > .v-overlay__content {background-color: transparent; border: none; border-radius: 0.8rem; box-shadow: none;}
-.v-overlay-container .v-menu > .v-overlay__content > .v-list {margin-top: 0.4rem; margin-bottom: 0.4rem; padding-top: 6.0.8rem; padding-bottom: 6.0.8rem; background-color: #fff; border: 0.0625rem solid #356CFF; border-radius: 0.8rem; box-shadow: none;}
+.v-overlay-container .v-menu > .v-overlay__content {background-color: transparent; border: none; border-radius: .8rem; box-shadow: none;}
+.v-overlay-container .v-menu > .v-overlay__content > .v-list {margin-top: 0.4rem; margin-bottom: 0.4rem; padding-top: 6.0.8rem; padding-bottom: 6.0.8rem; background-color: #fff; border: 0.0625rem solid #356CFF; border-radius: .8rem; box-shadow: none;}
 .v-overlay-container .v-list-item-title {color: #111518;}
 .v-overlay-container .v-list-item--density-default.v-list-item--one-line {min-height: 4rem; padding: 0 1.6rem;}
 .v-overlay-container .v-list-item--variant-text .v-list-item__overlay {background-color: #F1F4FB;}
@@ -254,9 +254,9 @@ address span {margin-right: 1.6rem; display: inline-block;}
 
 /* 360 미만일때 일괄적으로 축소*/
 @media only screen and (max-width: 360px) {
-    html {
-        font-size: 4.4444vw !important;
-    }
+    // html {
+    //     font-size: 4.4444vw !important;
+    // }
 }
 
 /* 720 미만일때 일괄적으로 축소*/
@@ -287,7 +287,7 @@ address span {margin-right: 1.6rem; display: inline-block;}
         margin-left: 1.6rem;
     }
     .gnb-wrap h1 img {
-        height: 19.0.8rem;
+        height: 1.98rem;
     }
     .v-main.container {
         padding: 3.2rem 0 8rem;
@@ -298,14 +298,14 @@ address span {margin-right: 1.6rem; display: inline-block;}
             flex-direction: column;
             > .bottom-logo {
                 width: 10rem;
-                height: 2.8rem;
+                height: 2.3rem;
             }
         }
     }
     .addr-wrap {
         flex-direction: column;
         margin-left: 0;
-        margin-top: 21.4.4rem;
+        margin-top: 2.4rem;
         font-size: 1.2rem;
         text-align: left;
         span {
@@ -321,24 +321,24 @@ address span {margin-right: 1.6rem; display: inline-block;}
         }
     }
     .select-wrap .v-field--center-affix .v-field__append-inner {
-        margin: 0.9rem 1.6rem 0.9rem 0;
+        margin: .9rem 1.6rem .9rem 0;
     }
     .v-overlay-container .v-list-item-title {
         font-size: 1.4rem;
     }
     .v-overlay-container .v-menu > .v-overlay__content > .v-list {
-        padding-top: 0.4rem;
-        padding-bottom: 0.4rem;
+        padding-top: .4rem;
+        padding-bottom: .4rem;
     }
     .btn-wrap {
         margin-top: 4rem;
         .btn-w14 {
             width: 100%;
             &.complete {
-                width: calc(50% - 0.4rem);
+                width: calc(50% - .4rem);
             }
             + .btn-w14 {
-                margin-left: 0.8rem;
+                margin-left: .8rem;
             }
         }
     }

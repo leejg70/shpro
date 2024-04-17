@@ -8,7 +8,7 @@ $color-pack: false;
 
 // Global font size and border radius
 $font-size-root: 1rem;
-$border-radius-root: 0.5rem;
+$border-radius-root: .8rem;
 $body-font-family: Inter var !default;
 $heading-font-family: $body-font-family !default;
 $btn-font-weight: 400 !default;
@@ -118,9 +118,6 @@ $typography: map-deep-merge(
   ),
   $typography
 );
-
-
-
 
 // Custom Variables
 // colors
