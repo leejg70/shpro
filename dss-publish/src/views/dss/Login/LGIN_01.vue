@@ -23,7 +23,6 @@ const valid = ref(false);
           density="comfortable"
           variant="outlined"
           color="primary"
-          class="test"
           hide-details="auto"
           clearable
           required
@@ -40,7 +39,6 @@ const valid = ref(false);
           density="comfortable"
           variant="outlined"
           color="primary"
-          rounded="lg"
           hide-details="auto"
           clearable
           required
