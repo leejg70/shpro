@@ -12,11 +12,11 @@
 }
 .popup-wrap {
   background-color: #fff;
-  border-radius: 1rem;
+  border-radius: 1.6rem;
   .text-tip {
     position: relative;
-    margin-top: .5rem;
-    font-size: .875rem;
+    margin-top: 0.8rem;
+    font-size: 1.4rem;
     &.error {
       color: #ff3636;
     }
@@ -31,66 +31,66 @@
     position:relative;
     width: 100%;
     .btn-popwrap {
-      padding-top: 1.5rem; 
-      padding-bottom: 1.5rem;
+      padding-top: 2.4rem; 
+      padding-bottom: 2.4rem;
     }
   } 
   .popup-foot.poup {
     position: relative;
     width: 100%;
     .btn-popwrap{
-      padding-top: 1rem; 
-      padding-bottom: 1.5rem;
+      padding-top: 1.6rem; 
+      padding-bottom: 2.4rem;
     }
   } 
   .popup-scroll-area {
-    padding: .5rem 0;
+    padding: 0.8rem 0;
     overflow: auto;
   }
   &.w62 {
-    width: 62.25rem;
+    width: 99.6rem;
   }
   &.w36 {
-    width: 36.75rem;
+    width: 58.8rem;
     .btn-wrap {
       margin-top: 0;
     }
   }
   .popup-head {
-    border-radius: 1rem 1rem 0;
-    padding: 1.5rem 2rem;
+    border-radius: 1.6rem 1.6rem 0;
+    padding: 2.4rem 3.2rem;
     .title {
-      font-size: 1.5rem;
+      font-size: 2.4rem;
       font-weight: 500;
       color: #111518;
     }
   }
   .top-contet {
-    padding: 0 2rem;
+    padding: 0 3.2rem;
   }
   .popup-cont {
-    padding: .5rem 2rem; 
+    padding: 0.8rem 3.2rem; 
   }
   .busi-add {
     .form-box {
       display: flex;
       flex-direction: column; 
-      height: 25rem;
+      height: 40rem;
       .form-group {
         position: relative;
         padding-left: 0 !important;  
         + .form-group {
-          margin-top: 1.5rem;
+          margin-top: 2.4rem;
         }
         .ele-tit {     
           width: 100%;
-          padding-bottom: .5rem;
+          padding-bottom: 0.8rem;
         }       
       }      
     }
     &.popup-scroll-area {
       overflow: auto; 
-      height: 25rem;
+      height: 40rem;
     }
   }
 }
@@ -99,12 +99,12 @@
   overflow: hidden;
   display: block;
   position: absolute;
-  top: 1.5rem;
-  right: 1.625rem;
-  width: 2.25rem;
-  height: 2.25rem;
+  top: 2.4rem;
+  right: 2.6rem;
+  width: 3.6rem;
+  height: 3.6rem;
   background-image: url('../images/icon/icon_popup_close.png');
-  background-size: 1.5rem;
+  background-size: 2.4rem;
   background-position: center;
   background-repeat: no-repeat;
   cursor: pointer;
@@ -113,25 +113,25 @@
   }
 }
 .popup-alert-wrap {
-  width: 22.5rem;
+  width: 36rem;
   height:auto;
   background-color:#fff;
-  border-radius: 1rem; 
+  border-radius: 1.6rem; 
     .alert-cont {
-      padding: 1.75rem 1.5rem;
-      border-radius: 1rem 1rem 0;
+      padding: 2.8rem 2.4rem;
+      border-radius: 1.6rem 1.6rem 0;
       text-align: center;
     }
     .alert-foot {
-      border-top: 1px solid #E5E5E5;
+      border-top: 0.0625rem solid #E5E5E5;
     }   
     .v-btn.btn-alert-close {
       all: unset;     
       display: block;
       width: 100%;
-      height: 3.25rem;
+      height: 5.2rem;
       overflow: hidden;
-      font-size: 1rem;
+      font-size: 1.6rem;
       color: #356CFF;
       cursor: pointer;  
     }
@@ -141,33 +141,33 @@
   .popup-wrap {
     border-radius: 0;
     .text-tip {
-      font-size: .75rem;
+      font-size: 1.2rem;
     }
     .popup-foot {
       position:relative;
       width: 100%;
       .btn-popwrap {
-        padding-top: 1.5rem; 
-        padding-bottom: 1.5rem;
+        padding-top: 2.4rem; 
+        padding-bottom: 2.4rem;
       }
     }
     .popup-foot.poup {
       position:relative;
       width: 100%;
       .btn-popwrap {
-        padding-top: 1rem;
-        padding-bottom: 1.5rem;
+        padding-top: 1.6rem;
+        padding-bottom: 2.4rem;
       }
     }
-    .form-group + .form-group {margin-top: 1.5rem;}
+    .form-group + .form-group {margin-top: 2.4rem;}
     &.w62 {
-      left: -2rem !important;
+      left: -3.2rem !important;
       width: 100vw;
       height: 100vh;
     }
     &.w36 {
-      width: 19.5rem;
-      border-radius: 1rem;
+      width: 31.2rem;
+      border-radius: 1.6rem;
       .member {
         padding: 0;
       }
@@ -179,14 +179,14 @@
     }
     .popup-head {
       border-radius: 0;
-      padding: .88rem 1.5rem .94rem 1.5rem;
+      padding: 1.4rem 2.4rem 1.5rem 2.4rem;
       .title {
-        font-size: 1.125rem;
+        font-size: 1.8rem;
       }
     }
     .popup-cont {
-      padding: .5rem 1.5rem; 
-      max-height: calc(100vh - 4.5rem);
+      padding: 0.8rem 2.4rem; 
+      max-height: calc(100vh - 7.2rem);
     }
     // 본인 인증
     .busi-add {
@@ -199,29 +199,29 @@
           padding-left: 0 !important;
           .ele-tit {
             width: 100%;
-            padding: .75rem 0 .5rem;
+            padding: 1.2rem 0 0.8rem;
           }
-          + .form-group {margin-top: 1rem;}
+          + .form-group {margin-top: 1.6rem;}
         }
       }
     }
   }
   .v-btn.btn-popup-close {
-    top: .88rem;
-    right: 1.4063rem;
-    width: 1.6875rem;
-    height: 1.6875rem;
+    top: 1.4rem;
+    right: 2.2rem;
+    width: 2.7rem;
+    height: 2.7rem;
   }
   .popup-alert-wrap {
-    margin: 0 3rem;
-    max-width: calc(100% - 6rem);
+    margin: 0 4.8rem;
+    max-width: calc(100% - 9.6rem);
     height: auto;
     background-color: #fff;
-    border-radius: 1rem; 
+    border-radius: 1.6rem; 
     .alert-cont {
-      padding: 1.75rem 1.5rem;
-      font-size: 1rem;
-      border-radius: 1rem 1rem 0;
+      padding: 2.8rem 2.4rem;
+      font-size: 1.6rem;
+      border-radius: 1.6rem 1.6rem 0;
     }
     .alert-foot {
       border-top: 1px solid #e5e5e5;
@@ -229,8 +229,8 @@
     .v-btn.btn-alert-close {
       display: block;
       width: 100%;
-      height: 3.25rem;
-      font-size: 1rem;
+      height: 5.2rem;
+      font-size: 1.6rem;
     }
   }
   .popup-foot.fixed {
@@ -240,8 +240,8 @@
     bottom: 0;
     left: 0;
     .btn-wrap.popup {
-      margin-top: .5rem;
-      padding-top: 1rem;
+      margin-top: 0.8rem;
+      padding-top: 1.6rem;
     }
   }
 }

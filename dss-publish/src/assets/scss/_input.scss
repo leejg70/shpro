@@ -17,10 +17,10 @@
         justify-content: center;
         align-items: center;
         width: 100%;
-        height: 3rem;
-        padding: 0 1rem;  
+        height: 4.8rem;
+        padding: 0 1.6rem;  
         color: #888;
-        font-size: 1.25rem;
+        font-size: 2rem;
         font-weight: 500;
         line-height: 100%; 
         background-color: #fff;
@@ -33,7 +33,7 @@
           left: 0;
           bottom: 0;
           width: 100%;
-          height: 3px;
+          height: 0.3rem;
           background-color:#111518;
         }
         .v-label {  
@@ -47,26 +47,26 @@
 /* 라디오 버튼 */
 .v-input__control {width: 100%;}
 .v-btn-radio {display: flex;}
-.v-btn-radio .v-radio {width:calc(25% - .375rem);}
-.v-btn-radio .v-radio + .v-radio {margin-left: .5rem;}
+.v-btn-radio .v-radio {width:calc(25% - 0.6rem);}
+.v-btn-radio .v-radio + .v-radio {margin-left: 0.8rem;}
 .v-btn-radio .v-selection-control__wrapper {display: none;}
 .v-btn-radio .v-label {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 100%;
-  height: 3rem;
-  padding: 0 1rem;
+  height: 4.8rem;
+  padding: 0 1.6rem;
   font-weight: 500;
   color: #888;
   background-color: #fff;
   border: 1px solid #ccc;
-  border-radius: .13rem;
+  border-radius: 0.2rem;
 }
 .v-btn-radio .v-selection-control--dirty .v-label {
   font-weight: 700;
   color: #356cff;
-  border: 2px solid #356cff;
+  border: 0.2rem solid #356cff;
 }
 .v-btn-radio .v-btn--active.v-btn::after {
   content: "";
@@ -76,7 +76,7 @@
   width: 100%;
   height: 100%;
   pointer-events: none;
-  border: 2px solid #356cff;
+  border: 0.2rem solid #356cff;
   border-radius: inherit;
   opacity: 1;
   transition: opacity .2s ease-in-out;
@@ -84,26 +84,26 @@
 
 /* 유형형태 */
 .mb-type-radio {
-  padding: 1.5rem 2rem 1.5rem 5.2rem;
+  padding: 2.4rem 3.2rem 2.4rem 83.0.2rem;
   flex-direction: column-reverse;
   align-items: flex-start;
-  border-radius: 1rem;
-  border: 1px solid #E5E5E5;
+  border-radius: 1.6rem;
+  border: 0.0625rem solid #E5E5E5;
   + .mb-type-radio {
-    margin-top: 1rem;
+    margin-top: 1.6rem;
   }
   &.v-selection-control--dirty {
-    border: 2px solid #356CFF;
+    border: 0.2rem solid #356CFF;
   }
   .v-label {
-    padding-bottom: 1rem;
-    font-size: 1.375rem;
+    padding-bottom: 1.6rem;
+    font-size: 2.2rem;
     font-weight: 500;
     color: #111518;
   }
   .mb-type-stit {
-    padding-top: 1rem;
-    font-size: 1rem;
+    padding-top: 1.6rem;
+    font-size: 1.6rem;
     font-weight: 400;
     color: #111518;
     border-top: 1px solid #F0F0F0;
@@ -116,9 +116,9 @@
       position: absolute;
       top: 50%;
       transform: translateY(-50%);
-      left: 2rem;
-      width: 2rem;
-      height: 2rem;
+      left: 3.2rem;
+      width: 3.2rem;
+      height: 3.2rem;
     }
     .v-selection-control__input {
       position: absolute;
@@ -128,7 +128,7 @@
       height: 100%;
       border-radius: 0;
       .v-icon--size-default {
-        font-size: 2rem;
+        font-size: 3.2rem;
       }
       .mdi-radiobox-marked {
         padding: 0;
@@ -137,8 +137,8 @@
           position: absolute;
           top:0;
           left:0;
-          width: 2rem;
-          height:2rem;
+          width: 3.2rem;
+          height:3.2rem;
           background-image: url('../images/icon/icon_radio_active.png');
           background-repeat: no-repeat;
           background-size: 100%;
@@ -152,8 +152,8 @@
           position: absolute;
           top:0;
           left:0;
-          width: 2rem;
-          height:2rem;
+        width: 3.2rem;
+        height:3.2rem;
           background-image: url('../images/icon/icon_radio_default.png');
           background-repeat: no-repeat;
           background-size: 100%;
@@ -177,9 +177,9 @@
   .v-label {
     position: absolute; 
     overflow: hidden; 
-    width: .1rem; 
-    height: .1rem; 
-    margin: -.1rem; 
+    width: 2px; 
+    height: 2px; 
+    margin: -2px; 
     padding: 0; 
     border: 0 none; 
     clip: rect(0, 0, 0, 0);
@@ -204,8 +204,8 @@
           position: absolute;
           top:0;
           left:0;
-          width: 2rem;
-          height:2rem;
+          width: 3.2rem;
+          height:3.2rem;
           background-image: url('../images/icon/icon_radio_active.png');
           background-repeat: no-repeat;
           background-size: 100%;
@@ -219,8 +219,8 @@
           position: absolute;
           top:0;
           left:0;
-          width: 2rem;
-          height:2rem;
+          width: 3.2rem;
+          height:3.2rem;
           background-image: url('../images/icon/icon_radio_default.png');
           background-repeat: no-repeat;
           background-size: 100%;
@@ -244,8 +244,8 @@
     .v-selection-control-group{   
       .v-selection-control{   
         .v-label {  
-          font-size: 1rem;
-          height: 3rem;
+          font-size: 1.6rem;
+          height: 4.8rem;
           padding: 0;     
           color: #888;
         }           
@@ -261,40 +261,40 @@
   .v-input--density-default:not(.v-autocomplete--multiple),
   .v-field--variant-solo,
   .v-field--variant-filled {
-    --v-input-control-height: 2.4375rem;
-    --v-input-padding-top: 1px;
+    --v-input-control-height: 3.9rem;
+    --v-input-padding-top: 0.1rem;
     input.v-field__input {
-      padding-bottom: 1px;
+      padding-bottom: 0.1rem;
     }
     .v-field__input {
-      padding-bottom: 1px;
+      padding-bottom: 0.1rem;
     }
     textarea {
-      padding-top: 1px;
+      padding-top: 0.1rem;
     }
   }
   .v-btn-radio .v-label {
-    font-size: .875rem;
-    height: 2.625rem;
+    font-size: 1.4rem;
+    height: 4.2rem;
     padding: 0;
   }
   .v-btn-radio .v-radio {
-    width: calc(25% - .1875rem);
+    width: calc(25% - 0.3rem);
   }
   .v-btn-radio {
     .v-radio + .v-radio {
-      margin-left: .25rem;
+      margin-left: 0.4rem;
     }
   }
   .mb-type-radio {
-    padding: 1rem 1rem 1rem 4.2rem;
+    padding: 1.6rem 1.6rem 1.6rem 67.0.2rem;
     .v-label {
       padding-bottom: 1rem;
       font-size: 1rem;
     }
     .mb-type-stit {
-      padding-top: .75rem;
-      font-size: 0.875rem;
+      padding-top: 1.2rem;
+      font-size: 1.4rem;
     }
     .v-selection-control__wrapper {
       position: relative;
@@ -312,9 +312,9 @@
     .v-label {
       position: absolute; 
       overflow: hidden; 
-      width: .1rem; 
-      height: .1rem; 
-      margin: -.1rem; 
+      width: 0.2rem; 
+      height: 0.2rem; 
+      margin: -0.2rem; 
       padding: 0; 
       border: 0 none; 
       clip: rect(0, 0, 0, 0);
@@ -324,13 +324,13 @@
       all: unset;
       .v-icon {
         position: absolute; 
-        width: 1.5rem;
-        height: 1.5rem;
+        width: 2.4rem;
+        height: 2.4rem;
       }
       .v-selection-control__input {
         border-radius: 0;
         .v-icon--size-default {
-          font-size: 1.5rem;
+          font-size: 2.4rem;
         }
         .mdi-radiobox-marked {
           padding: 0;
@@ -339,8 +339,8 @@
             position: absolute;
             top:0;
             left:0;
-            width: 1.5rem;
-            height:1.5rem;
+            width: 2.4rem;
+            height:2.4rem;
             background-image: url('../images/icon/icon_radio_active.png');
             background-repeat: no-repeat;
             background-size: 100%;
@@ -354,8 +354,8 @@
             position: absolute;
             top:0;
             left:0;
-            width: 1.5rem;
-            height:1.5rem;
+            width: 2.4rem;
+            height:2.4rem;
             background-image: url('../images/icon/icon_radio_default.png');
             background-repeat: no-repeat;
             background-size: 100%;

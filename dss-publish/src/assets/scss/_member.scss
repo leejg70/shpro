@@ -8,10 +8,10 @@
   .member-header {
     position: relative;
     width: 100%;
-    margin-bottom: 2.5rem;
+    margin-bottom: 4rem;
     .h-title {
       font-family: 'OneShinhan';
-      font-size: 2.5rem;
+      font-size: 4rem;
       font-weight: 700;
       color: #111518;
     }
@@ -21,33 +21,33 @@
     margin-bottom: 1rem;
     .step-txt {
       float: left;
-      font-size: 2rem;
+      font-size: 3.2rem;
       font-weight: 500;
       color: #111518;
     }
     .step-flow {
       overflow: hidden;
-      padding-top: .88rem;
+      padding-top: 1.4rem;
       ul {
         float: right;
         li {
           float: left;
           position: relative;
-          width: 2.75rem;
-          height: 1.25rem;
+          width: 4.4rem;
+          height: 2rem;
           white-space: nowrap;
           &::before {
             content: '';
             display: block;
             position: absolute;
             top: 50%;
-            left: 1.25rem;
-            width: 1.5rem;
-            border-top: 1px solid #eaeaea;
+            left: 2rem;
+            width: 2.4rem;
+            border-top: 0.1rem solid #eaeaea;
           }
           &.current i {
-            width: 1.25rem;
-            height: 1.25rem;
+            width: 2rem;
+            height: 2rem;
             vertical-align: top;
           }
           &:last-child {
@@ -58,7 +58,7 @@
           }
           &.complete {
             &::before {
-              border-top: 1px solid #356CFF;
+              border-top: 0.1rem solid #356CFF;
             }
           }
         }
@@ -68,9 +68,9 @@
         overflow: hidden;
         left: auto;
         top: auto;
-        width: 1px;
-        height: 1px;
-        clip: rect(1px, 1px, 1px, 1px);
+        width: 0.1rem;
+        height: 0.1rem;
+        clip: rect(0.1rem, 0.1rem, 1px, 1px);
         clip-path: inset(50%);
         margin: 0;
         border: 0;
@@ -80,15 +80,15 @@
     }
   }
   .member-text {
-    margin-bottom: 3rem;
+    margin-bottom: 4.8rem;
     .text {
-      font-size: 1.125rem;
+      font-size: 1.8rem;
       color: #111518;
     }
   }
   // 본인 인증
   .form-box {
-    padding: 1.5rem 0 2rem;
+    padding: 2.4rem 0 3.2rem;
     border-top: 1px solid #111518;
     border-bottom: 1px solid #e5e5e5;
     &.change {
@@ -96,51 +96,51 @@
     }
     .form-group {
       position: relative;
-      padding-left: 12.75rem !important;
+      padding-left: 20.4rem !important;
       + .form-group {
-        margin-top: 1.5rem;
+        margin-top: 2.4rem;
       }
       .ele-tit {
         position: absolute;
         top: 0;
         left: 0;
-        width: 12.75rem;
-        padding-top: .75rem;
+        width: 20.4rem;
+        padding-top: 1.2rem;
       }
       .input-wrap {
         position: relative;
         width: 100%;
         box-sizing: border-box;
         .v-input--density-comfortable {
-          --v-input-control-height: 2.875rem;
-          --v-input-padding-top: .75rem;
+          --v-input-control-height: 4.6rem;
+          --v-input-padding-top: 0.75rem;
         }
         &.side-btn .v-input {
-          width: calc(100% - 10.5rem);
+          width: calc(100% - 16.8rem);
         }
         &.side-btn .btn-w10 {
           position: absolute;
           top: 0;
           right: 0;
-          width: 10rem;
-          min-width: 10rem;
+          width: 16rem;
+          min-width: 16rem;
         }
         &.side-timer .v-field__input {
-          padding-right: 4.2rem;
+          padding-right: 6.7rem;
         }
         &.side-timer .timer-box {
           display: inline-block;
           position: absolute;
-          top: .88rem;
-          right: 11.5rem;
-          width: 3.4rem;
-          height: 1.25rem;
+          top: 14.0.8rem;
+          right: 18.4rem;
+          width: 5.4rem;
+          height: 2rem;
           box-sizing: border-box;
-          font-size: .875rem;
-          line-height: 1.25rem;
+          font-size: 1.4rem;
+          line-height: 2rem;
           color: #666;
           .icon-timer {
-            margin-top: -.2rem;
+            margin-top: -0.3rem;
           }
         }
       }
@@ -155,36 +155,36 @@
         .space {
           float: left;
           display: block;
-          width: 1.5rem;
-          height: 3rem;
-          padding: 0 .5rem;
-          line-height: 3rem;
+          width: 2.4rem;
+          height: 4.8rem;
+          padding: 0 0.8rem;
+          line-height: 4.8rem;
           color: #111518;
         }
         .last {
-          width: 15rem;
+          width: 24rem;
           .input-wrap {
             float: left;
-            width: 6rem;
+            width: 9.6rem;
           }
           .masking {
             float: left;
             display: flex;
             justify-content: space-between;
             width: auto;
-            height: 3rem;
-            padding: 1.3rem .5rem;
-            line-height: 3rem;
+            height: 4.8rem;
+            padding: 20.0.8rem 0.8rem;
+            line-height: 4.8rem;
             span {
               display: inline-block;
-              width: .3rem;
-              height: .3rem;
+              width: 4.0.8rem;
+              height: 4.0.8rem;
               line-height: 0;
               border-radius: 50%;
               background-color: #111518;
               vertical-align: middle;
               + span {
-                margin-left: .2rem;
+                margin-left: 0.3rem;
               }
             }
           }
@@ -194,9 +194,9 @@
         .select-wrap {
           position: relative;
           width: 100%;
-          margin-top: 1rem;
+          margin-top: 1.6rem;
           .v-select .v-field {
-            font-size: 1rem;
+            font-size: 1.6rem;
           }
         }
       }
@@ -206,16 +206,16 @@
           float: left;
         }
         .first {
-          width: 12.125rem;
+          width: 19.4rem;
         }
         .space {
           float: left;
           display: block;
           width: 2rem;
           height: 3rem;
-          padding: 0 .5rem;
-          line-height: 3rem;
-          font-size: 1rem;
+          padding: 0 0.8rem;
+          line-height: 4.8rem;
+          font-size: 1.6rem;
           color: #111518;
         }
         .last {
@@ -223,13 +223,13 @@
         }
         .btn-w10 {
           float: left;
-          width: 10rem;
-          min-width: 10rem;
-          margin-left: .5rem;
+          width: 16rem;
+          min-width: 16rem;
+          margin-left: 0.8rem;
         }
       }
       &.agree-depth {
-        padding-bottom: 2rem;
+        padding-bottom: 3.2rem;
         border-bottom: 1px solid #111518;
         .ele-tit {
           padding-top: 0;
@@ -250,9 +250,9 @@
                 width: 100%;
                 .v-checkbox .v-label {
                   width: 100%;
-                  margin: 0 0 0 .5rem;
-                  padding-right: 3rem;
-                  font-size: 1rem;
+                  margin: 0 0 0 0.8rem;
+                  padding-right: 4.8rem;
+                  font-size: 1.6rem;
                   font-weight: 500;
                 }
               }
@@ -260,11 +260,11 @@
                 overflow: hidden;
                 display: block;
                 position: absolute;
-                top: -.5rem;
+                top: -0.8rem;
                 right: 0;
-                width: 3rem;
-                height: 3rem;
-                padding: .75rem 0 .75rem 1.5rem;
+                width: 4.8rem;
+                height: 4.8rem;
+                padding: 1.2rem 0 1.2rem 2.4rem;
                 transform: rotateX(0);
                 &.active {
                   transform: rotateX(180deg);
@@ -279,7 +279,7 @@
               .check-wrap {
                 position: relative;
                 width: 100%;
-                margin-top: .5rem;
+                margin-top: 0.8rem;
                 .form-checkbox {
                   display: block;
                   position: relative;
@@ -289,7 +289,7 @@
                     position: relative;
                     width: 100%;
                     height: auto;
-                    padding: .25rem 4.5rem .25rem 2.5rem;
+                    padding: 0.4rem 7.2rem 0.4rem 4rem;
                     font-size: 1rem;
                     font-weight: 400;
                     color: #333;
@@ -297,16 +297,16 @@
                 }
                 .btn-link {
                   position: absolute;
-                  top: .25rem;
+                  top: 0.4rem;
                   right: 0;
                   width: auto;
-                  height: 1.5rem;
+                  height: 2.4rem;
                   padding: 0;
-                  font-size: .875rem;
+                  font-size: 1.4rem;
                   color: #111518;
                   line-height: 100%;
                   .v-btn__append {
-                    margin: .1rem 0 0 .1rem;
+                    margin: 0.2rem 0 0 0.2rem;
                   }
                 }
               }
@@ -316,8 +316,8 @@
       }
       .text-tip {
         position: relative;
-        margin-top: .5rem;
-        font-size: .875rem;
+        margin-top: 0.8rem;
+        font-size: 1.4rem;
         &.error {
           color: #ff3636;
         }
@@ -336,8 +336,8 @@
   }
   // 비밀번호 변경
   .find-text {
-    padding: 3rem 0 0;
-    font-size: 1.5rem;
+    padding: 4.8rem 0 0;
+    font-size: 2.4rem;
     font-weight: 500;
     color: #111518;
     text-align: center;
@@ -347,41 +347,41 @@
     }
   }
   .change-box {
-    padding: 5rem 0 1rem;
+    padding: 8rem 0 1.6rem;
     color: #111518;
     .title {
-      font-size: 1.5rem;   
+      font-size: 2.4rem;   
       font-weight: 500;
       span {
         color: #356cff;
       }
     }
     .text {
-      padding-top: .5rem;
-      font-size: 1.125rem;
+      padding-top: 0.8rem;
+      font-size: 1.8rem;
     }
   }
   // 비밀번호 재설정
   .complete-box {
-    padding: 5rem 0 3rem;
+    padding: 8rem 0 4.8rem;
     text-align: center;
     .icon-success {
-      width: 5rem;
-      height: 5rem;
+      width: 8rem;
+      height: 8rem;
     }
     .complete-text {
-      margin-top: 2rem;
+      margin-top: 3.2rem;
       color: #111518;
       > div {
-        font-size: 1.5rem;
+        font-size: 2.4rem;
         font-weight: 500;
         > span {
           color: #356cff;
         }
       }
       > p {
-        padding-top: .75rem;
-        font-size: 1.125rem;
+        padding-top: 1.2rem;
+        font-size: 1.8rem;
       }
     }
   }
@@ -390,24 +390,24 @@
 @media only screen and (max-width: 1280px) {
   .member {
     width: 100%;
-    padding: 0 1.5rem;
+    padding: 0 2.4rem;
     .member-header {
-      margin-bottom: 1.5rem;
+      margin-bottom: 2.4rem;
       .h-title {
-        font-size: 1.25rem;
+        font-size: 2rem;
       }
     }
     .member-step {
-      margin-bottom: 1.5rem;
+      margin-bottom: 2.4rem;
       &.no-flow {
-        margin-bottom: .75rem;
+        margin-bottom: 1.2rem;
       }
       .step-txt {
         float: none;
-        font-size: 1.25rem;
+        font-size: 2rem;
       }
       .step-flow {
-        margin-top: .75rem;
+        margin-top: 1.2rem;
         padding-top: 0;
         ul {
           float: none;
@@ -415,48 +415,48 @@
       }
     }
     .member-text {
-      margin-bottom: 2rem;
+      margin-bottom: 3.2rem;
       .text {
-        font-size: 1rem;
+        font-size: 1.6rem;
       }
     }
     // 본인 인증
     .form-box {
-      padding-bottom: 1.5rem;
+      padding-bottom: 2.4rem;
       .form-group {
         padding-left: 0 !important;
         .ele-tit {
           display: block;
           position: static;
           width: auto;
-          padding: 0 0 .5rem 0;
+          padding: 0 0 0.8rem 0;
         }
         .input-wrap {
           .v-text-field input {
             min-height: auto;
-            height: 2.625rem;
-            font-size: .875rem;
+            height: 4.2rem;
+            font-size: 1.4rem;
           }
           .v-field__input::placeholder {
-            font-size: .875rem;
+            font-size: 1.4rem;
           }
           &.side-btn .v-input {
-            width: calc(100% - 7rem);
+            width: calc(100% - 11.2rem);
           }
           &.side-btn .btn-w10 {
-            width: 6.5rem;
-            min-width: 6.5rem;
-            height: 2.625rem;
+            width: 10.4rem;
+            min-width: 10.4rem;
+            height: 4.2rem;
             padding: 0;
           }
           &.side-timer .v-field__input {
-            padding-right: 3.85rem;
+            padding-right: 61.0.6rem;
           }
           &.side-timer .timer-box {
-            top: .69rem;
-            right: 7.75rem;
-            width: 3.1rem;
-            font-size: .75rem;
+            top: 11.0.4rem;
+            right: 12.4rem;
+            width: 49.0.6rem;
+            font-size: 1.2rem;
             .icon-timer {
               margin-top: 0;
             }
@@ -465,26 +465,26 @@
         .jumin-wrap {
           display: flex;
           .space {
-            height: 2.625rem;
-            line-height: 2.625rem;
+            height: 4.2rem;
+            line-height: 4.2rem;
           }
           .last {
             display: flex;
             .input-wrap {
-              width: 5rem;
+              width: 8rem;
             }
             .masking {
-              height: 2.625rem;
-              padding: 1.1rem .5rem;
-              line-height: 2.625rem;
+              height: 4.2rem;
+              padding: 17.0.6rem 0.8rem;
+              line-height: 4.2rem;
             }
           }
         }
         .phone-wrap {
           .select-wrap {
-            margin-top: .5rem;
+            margin-top: 0.8rem;
             .v-select .v-field {
-              font-size: .875rem;
+              font-size: 1.4rem;
             }
           }
         }
@@ -495,59 +495,59 @@
           }
           .first,
           .last {
-            width: calc(50% - .9375rem);
+            width: calc(50% - 1.5rem);
           }
           .space {
-            width: 1.875rem;
-            height: 2.625rem;
-            line-height: 2.625rem;
-            font-size: .875rem;
+            width: 3rem;
+            height: 4.2rem;
+            line-height: 4.2rem;
+            font-size: 1.4rem;
           }
           .btn-w10 {
             width: 100%;
-            height: 2.625rem;
-            margin-top: .5rem;
+            height: 4.2rem;
+            margin-top: 0.8rem;
             margin-left: 0;
           }
         }
         &.agree-depth {
-          margin-top: -.5rem;
-          padding-bottom: 1.5rem;
+          margin-top: -0.8rem;
+          padding-bottom: 2.4rem;
           .ele-tit {
-            padding-bottom: 1rem;
+            padding-bottom: 1.6rem;
           }
           .terms-info {
             .terms-wrap {
               .terms-header {
                 .form-checkbox {
                   .v-checkbox .v-label {
-                    font-size: .875rem;
+                    font-size: 1.4rem;
                   }
                 }
                 .btn-toggle {
                   .mdi-arrow-down::before {
-                    width: 1.25rem;
-                    height: 1.25rem;
+                    width: 2rem;
+                    height: 2rem;
                   }
                 }
               }
               .terms-body {
-                margin-top: 1rem;
-                padding-top: .5rem;
+                margin-top: 1.6rem;
+                padding-top: 0.8rem;
                 .check-wrap {
                   .form-checkbox {
                     .v-checkbox .v-label {
-                      padding-right: 4rem;
-                      font-size: .875rem;
+                      padding-right: 6.4rem;
+                      font-size: 1.4rem;
                     }
                   }
                   .btn-link {
-                    font-size: .75rem;
+                    font-size: 1.2rem;
                     .v-btn__append {
-                      margin: 0 0 0 .1rem;
+                      margin: 0 0 0 0.2rem;
                       .mdi-chevron-right::before {
-                        width: 1rem;
-                        height: 1rem;
+                        width: 1.6rem;
+                        height: 1.6rem;
                       }
                     }
                   }
@@ -557,44 +557,44 @@
           }
         }
         .text-tip {
-          font-size: .75rem;
+          font-size: 1.2rem;
         }
       }
     }
     // 비밀번호 변경
     .find-text {
-      padding: 2rem 0 0;
-      font-size: 1.125rem;
+      padding: 3.2rem 0 0;
+      font-size: 1.8rem;
     }
     .change-box {
-      padding: 4rem 0 1rem;
+      padding: 6.4rem 0 1.6rem;
       .title {
-        font-size: 1.25rem;
+        font-size: 2rem;
       }
       .text {
-        padding-top: .75rem;
-        font-size: 1rem;
+        padding-top: 1.2rem;
+        font-size: 1.6rem;
       }
     }
     // 비밀번호 재설정
     .complete-box {
-      padding: 2.5rem 0 2rem;
+      padding: 4rem 0 3.2rem;
       .icon-success {
-        width: 4.5rem;
-        height: 4.5rem;
+        width: 7.2rem;
+        height: 7.2rem;
       }
       .mdi-check-circle-outline::before {
-        width: 4.5rem;
-        height: 4.5rem;
+        width: 7.2rem;
+        height: 7.2rem;
       }
       .complete-text {
-        margin-top: 1.5rem;
+        margin-top: 2.4rem;
         > div {
-          font-size: 1.125rem;
+          font-size: 1.8rem;
         }
         > p {
-          padding-top: .5rem;
-          font-size: 1rem;     
+          padding-top: 0.8rem;
+          font-size: 1.6rem;     
         } 
       }
     }

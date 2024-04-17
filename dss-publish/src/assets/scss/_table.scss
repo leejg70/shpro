@@ -5,52 +5,52 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 3rem 2rem;
+  padding: 4.8rem 3.2rem;
   width: 100%;
   .no-data-tit {
     color: #111518;
-    font-size: 1.5rem;
+    font-size: 2.4rem;
     font-weight: 500;
     line-height: 150%;
   }
   .no-data-txt {
-    margin-top: .75rem; 
+    margin-top: 1.2rem; 
     color: #666;
-    font-size: 1rem;
+    font-size: 1.6rem;
     line-height: 150%;
   }
 }
 
 /* 검색 */
 .search-area {
-  padding: 1rem 2rem;
+  padding: 1.6rem 3.2rem;
   background: #F7F8FC;
   display: flex;
   flex-direction: column;
   align-items: center;
   .input-wrap {
     position: relative;
-    width: 36.75rem;  
+    width: 58.8rem;  
     .v-input,
     .v-input__control {    
       width:100%;      
       background-color: #fff !important;
-      border-radius: .5rem;
+      border-radius: 0.8rem;
     }
   }
   .v-field__clearable {
-    right: 3rem;
+    right: 4.8rem;
   }  
   .v-theme--DefaultTheme .v-field__input {
-    padding-right: 5rem;
+    padding-right: 8rem;
   }
 }
 
 /* 팝업 */
 .btn-wrap.popup {
-  margin-top: .5rem;
-  padding-top: 1.5rem;
-  border-top: 1px solid #E5E5E5;
+  margin-top: 0.8rem;
+  padding-top: 2.4rem;
+  border-top: 0.0625rem solid #E5E5E5;
 }
 .popup-agree-wrap .popup-cont {
   overflow: hidden;
@@ -59,42 +59,42 @@
 
 /* 설명글 */
 .info-area {
-  padding: .5rem 2rem;
+  padding: 0.8rem 3.2rem;
   .info-tip {      
     color:  #666;
-    font-size: .875rem;
+    font-size: 1.4rem;
   }
   .info-title {
-    padding: .5rem 0;
+    padding: 0.8rem 0;
     display: flex;
     align-items: center;
-    font-size: 1rem;
+    font-size: 1.6rem;
     color: #111518;
     line-height: 100%;
     .info-txt {
-      margin-right: .5rem;
+      margin-right: 0.8rem;
     }
   }
 }
 .popup-scroll-area .table-wrap {
-  height: 18.75rem;
+  height: 30rem;
   .v-input {
-    font-size: 1rem;
+    font-size: 1.6rem;
   }
 }
 
 /* table */ 
 .table-wrap.search {
   .bo-name {
-    width: calc(100% - 26rem);
+    width: calc(100% - 41.6rem);
     text-align:center;
   }
   .bo-num {
-    width: 10rem;
+    width: 16rem;
     text-align:center;
   }
   .bo-email {
-    width: 16rem;
+    width: 25.6rem;
     text-align:center;
   }
   .table-list-body {
@@ -104,7 +104,7 @@
   }
 }
 .table-wrap {
-  margin: .75rem 0;
+  margin: 1.2rem 0;
   border-top: 1px solid #111518;
   .table-head {
     border-bottom: 1px solid #DDD;
@@ -118,7 +118,7 @@
     .table-list-head {
       width: 100%;
       display: flex;
-      padding: 1rem;
+      padding: 1.6rem;
     }
   }
   .table-list-body {
@@ -129,100 +129,100 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        width:4rem;
+        width:6.4rem;
       }
       .table-list {
         width:100%;
         display: flex;
-        padding: 1rem;
+        padding: 1.6rem;
       }
     }
   }
 }
 
 @media only screen and (max-width: 1280px) {
-    .popup-scroll-area .table-wrap {
-        overflow: auto;
-          height: calc(100vh - 28rem); 
-        .v-input {
-          font-size: 0.875rem;
-        }
-    }
-    /* 데이터 없음 */
-    .no-data{
-        padding: 2rem 1.5rem;
-        .no-data-tit{
-            font-size: 1.125rem;
-        }
-        .no-data-txt{
-            margin-top: .25rem;
-            font-size: 0.875rem;  
-        }
-    }
-    /* table */ 
-    .table-wrap.search{
-        .bo-name{
-            width: 100%;
-            text-align:left;
-        }
-        .bo-num{
-            width: 100%;
-            text-align:left;
-        }
-        .bo-email{
-            width: 100%;
-            text-align:left;
-        }
-    }
-    /* 검색 */
-    .search-area{
-    padding: 1rem;
-        .input-wrap{     
-            width:100%;  
-        }
-    }
-    /* 설명글 */
-    .info-area{
-        display: flex;
-        min-height: 7.5rem;
-        flex-direction: column;
-        justify-content: flex-end;
-        .info-tip{
-            color:  #666;
-            font-size: 0.75rem;
-        }
-        .info-title{
-            font-size: 0.75rem;
-        }
-    }
-    .table-wrap{
-        margin: .75rem 0 2rem;
-        border-top: 1px solid  #111518;
-        .table-head{   
-            display: none;
-        }
-        .table-list-head{
-            width:100%;
+  .popup-scroll-area .table-wrap {
+      overflow: auto;
+        height: calc(100vh - 44.8rem); 
+      .v-input {
+        font-size: 1.4rem;
+      }
+  }
+  /* 데이터 없음 */
+  .no-data{
+      padding: 3.2rem 2.4rem;
+      .no-data-tit{
+          font-size: 1.8rem;
+      }
+      .no-data-txt{
+          margin-top: 0.4rem;
+          font-size: 1.4rem;  
+      }
+  }
+  /* table */ 
+  .table-wrap.search{
+      .bo-name{
+          width: 100%;
+          text-align:left;
+      }
+      .bo-num{
+          width: 100%;
+          text-align:left;
+      }
+      .bo-email{
+          width: 100%;
+          text-align:left;
+      }
+  }
+  /* 검색 */
+  .search-area{
+  padding: 1rem;
+      .input-wrap{     
+          width:100%;  
+      }
+  }
+  /* 설명글 */
+  .info-area{
+      display: flex;
+      min-height: 12rem;
+      flex-direction: column;
+      justify-content: flex-end;
+      .info-tip{
+          color:  #666;
+          font-size: 1.2rem;
+      }
+      .info-title{
+          font-size: 1.2rem;
+      }
+  }
+  .table-wrap{
+      margin: 1.2rem 0 3.2rem;
+      border-top: 1px solid  #111518;
+      .table-head{   
+          display: none;
+      }
+      .table-list-head{
+          width:100%;
+          display: flex;
+          padding: 1.6rem;           
+      }       
+      .table-list-body{
+          .table-list-group{
             display: flex;
-            padding: 1rem;           
-        }       
-        .table-list-body{
-            .table-list-group{
+            border-bottom: 1px solid  #DDD;
+            .tb-radio{
               display: flex;
-              border-bottom: 1px solid  #DDD;
-              .tb-radio{
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                width:4rem;  
-              }
-              .table-list{
-                width:100%; 
-                display: flex;
-                padding: .75rem;
-                flex-direction: column;
-              }
+              align-items: center;
+              justify-content: center;
+              width:6.4rem;  
             }
-        } 
-    }
+            .table-list{
+              width:100%; 
+              display: flex;
+              padding: 1.2rem;
+              flex-direction: column;
+            }
+          }
+      } 
+  }
 }
