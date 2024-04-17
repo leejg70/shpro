@@ -161,20 +161,21 @@ address span {margin-right: 1.6rem; display: inline-block;}
 .check-all .v-selection-control__input,
 .check-all .v-selection-control__wrapper {width: 2.4rem; height: 2.4rem;}
 .check-all .v-selection-control__input::before {background-color: transparent;}
-.check-all .v-selection-control__input > .v-icon {width: 2.4rem; height: 2.4rem; opacity: 1;}
+.check-all .v-selection-control__input > .v-icon {width: 100%; height: 100%; opacity: 1;}
 .check-all .mdi-checkbox-blank-outline::before {content: ''; width: 2.4rem; height: 2.4rem; background-image: url('../images/icon/icon_checkbox_off.svg'); background-size: 100%;}
 .check-all .mdi-checkbox-marked::before {content: ''; width: 2.4rem; height: 2.4rem; background-image: url('../images/icon/icon_checkbox_on.svg'); background-size: 100%;}
 
 .check-agree.v-input--density-default:not(.v-autocomplete--multiple) {--v-input-control-height: 3.2rem;}
 .check-agree .v-selection-control {width: 100%;}
 .check-agree .v-selection-control__input,
-.check-agree .v-selection-control__wrapper {position: absolute; top: 0; left: 0; width: 3.2rem; height: 3.2rem; padding: 0.4rem;}
+.check-agree .v-selection-control__wrapper {position: absolute; top: 0; left: 0; width: 3.2rem; height: 3.2rem; padding: .4rem;}
 .check-agree .v-selection-control__input::before {background-color: transparent;}
-.check-agree .v-selection-control__input > .v-icon {opacity: 1; width: 100%; height: 100%;}
+.check-agree .v-selection-control__input > .v-icon {width: 100%; height: 100%; opacity: 1;}
 .check-agree .mdi-checkbox-blank-outline::before {content: ''; width: 2.4rem; height: 2.4rem; background-image: url('../images/icon/icon_arrow_off.svg'); background-size: 100%;}
 .check-agree .mdi-checkbox-marked::before {content: ''; width: 2.4rem; height: 2.4rem; background-image: url('../images/icon/icon_arrow_on.svg'); background-size: 100%;}
 
 /* Ico Arrow */
+.terms-wrap .mdi-arrow-down {width: 100%; height: 100%;}
 .terms-wrap .mdi-arrow-down::before {content: ''; width: 2.4rem; height: 2.4rem; background-image: url('../images/btn/btn_toggle_arrow.png'); background-size: 100%;}
 .terms-wrap .mdi-chevron-right::before {content: ''; width: 2rem; height: 2rem; background-image: url('../images/btn/btn_arrow.png'); background-size: 100%;}
 

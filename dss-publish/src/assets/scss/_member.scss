@@ -18,7 +18,7 @@
   }
   .member-step {
     overflow: hidden;
-    margin-bottom: 1rem;
+    margin-bottom: 1.6rem;
     .step-txt {
       float: left;
       font-size: 3.2rem;
@@ -106,6 +106,9 @@
         left: 0;
         width: 20.4rem;
         padding-top: 1.2rem;
+        .v-label {
+          font-size: 1.6rem;
+        }
       }
       .input-wrap {
         position: relative;
@@ -150,19 +153,19 @@
           float: left;
         }
         .first {
-          width: 20rem;
+          width: 32rem;
         }
         .space {
           float: left;
           display: block;
-          width: 2.4rem;
+          width: 2.3rem;
           height: 4.8rem;
-          padding: 0 0.8rem;
+          padding: 0 .8rem;
           line-height: 4.8rem;
           color: #111518;
         }
         .last {
-          width: 24rem;
+          width: 24.5rem;
           .input-wrap {
             float: left;
             width: 9.6rem;
@@ -173,18 +176,18 @@
             justify-content: space-between;
             width: auto;
             height: 4.8rem;
-            padding: 20.0.8rem 0.8rem;
+            padding: 2.1rem 0 2.1rem .8rem;
             line-height: 4.8rem;
             span {
               display: inline-block;
-              width: 4.0.8rem;
-              height: 4.0.8rem;
+              width: .6rem;
+              height: .6rem;
               line-height: 0;
               border-radius: 50%;
               background-color: #111518;
               vertical-align: middle;
               + span {
-                margin-left: 0.3rem;
+                margin-left: .3rem;
               }
             }
           }
@@ -229,7 +232,7 @@
         }
       }
       &.agree-depth {
-        padding-bottom: 3.2rem;
+        padding-bottom: 3.6rem;
         border-bottom: 1px solid #111518;
         .ele-tit {
           padding-top: 0;
@@ -250,7 +253,7 @@
                 width: 100%;
                 .v-checkbox .v-label {
                   width: 100%;
-                  margin: 0 0 0 0.8rem;
+                  margin: 0 0 0 1.2rem;
                   padding-right: 4.8rem;
                   font-size: 1.6rem;
                   font-weight: 500;
@@ -260,7 +263,7 @@
                 overflow: hidden;
                 display: block;
                 position: absolute;
-                top: -0.8rem;
+                top: -1.2rem;
                 right: 0;
                 width: 4.8rem;
                 height: 4.8rem;
@@ -273,13 +276,13 @@
             }
             .terms-body {
               display: block;
-              margin-top: 1.5rem;
-              padding-top: 1rem;
+              margin-top: 2.4rem;
+              padding-top: 1.6rem;
               border-top: 1px solid #e5e5e5;
               .check-wrap {
                 position: relative;
                 width: 100%;
-                margin-top: 0.8rem;
+                margin-top: .8rem;
                 .form-checkbox {
                   display: block;
                   position: relative;
@@ -289,8 +292,8 @@
                     position: relative;
                     width: 100%;
                     height: auto;
-                    padding: 0.4rem 7.2rem 0.4rem 4rem;
-                    font-size: 1rem;
+                    padding: .4rem 7.2rem .4rem 4rem;
+                    font-size: 1.6rem;
                     font-weight: 400;
                     color: #333;
                   }
@@ -429,7 +432,10 @@
           display: block;
           position: static;
           width: auto;
-          padding: 0 0 0.8rem 0;
+          padding: 0 0 .8rem 0;
+          .v-label {
+            font-size: 1.4rem;
+          }
         }
         .input-wrap {
           .v-text-field input {
