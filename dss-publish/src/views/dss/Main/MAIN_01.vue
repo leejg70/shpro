@@ -12,7 +12,7 @@
             </p>
           </div>
           <button href="" class="">Data Blue 바로가기</button>
-          <div class="visual-img"><img src="../../../assets/images/@temp/visual_img1.png" alt="신한 Data Blue의 다양한 Data를 탐험하세요."></div>
+          <!-- <div class="visual-img"><img src="../../../assets/images/@temp/visual_img1.png" alt="신한 Data Blue의 다양한 Data를 탐험하세요."></div> -->
         </div>
       </div>
       <div class="my-login-wrap">
