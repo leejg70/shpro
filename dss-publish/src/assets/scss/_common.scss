@@ -111,7 +111,7 @@ input.v-field__input {background-color: transparent !important;}
 .ico-community {background-image: url('../images/icon/icon_32_community.png');}
 .ico-search {background-image: url('../images/icon/icon_32_search.png');}
 .ico-allmenu {background-image: url('../images/icon/icon_32_sitemap.png');}
-.btn-community {display: flex; font-size: 1.4rem; align-items: center; }
+.btn-community {display: flex; font-size: 1.4rem; align-items: center;}
 .btn-community .ico-community{margin-right: .8rem;}
 
 /* Align */
@@ -187,8 +187,8 @@ address span {margin-right: 1.6rem; display: inline-block;}
 
 /* Select */
 .v-overlay-container .v-menu > .v-overlay__content {background-color: transparent; border: none; border-radius: .8rem; box-shadow: none;}
-.v-overlay-container .v-menu > .v-overlay__content > .v-list {margin-top: 0.4rem; margin-bottom: 0.4rem; padding-top: 6.0.8rem; padding-bottom: 6.0.8rem; background-color: #fff; border: 0.0625rem solid #356CFF; border-radius: .8rem; box-shadow: none;}
-.v-overlay-container .v-list-item-title {color: #111518;}
+.v-overlay-container .v-menu > .v-overlay__content > .v-list {margin-top: .4rem; margin-bottom: .4rem; padding-top: .6rem; padding-bottom: .6rem; background-color: #fff; border: .1rem solid #356CFF; border-radius: .8rem; box-shadow: none;}
+.v-overlay-container .v-list-item-title {font-size: 1.6rem; color: #111518;}
 .v-overlay-container .v-list-item--density-default.v-list-item--one-line {min-height: 4rem; padding: 0 1.6rem;}
 .v-overlay-container .v-list-item--variant-text .v-list-item__overlay {background-color: #F1F4FB;}
 .v-overlay-container .v-list-item--active > .v-list-item__overlay {opacity: 1;}
@@ -198,7 +198,7 @@ address span {margin-right: 1.6rem; display: inline-block;}
 .complete-box .mdi-check-circle-outline::before {content: ''; width: 8rem; height: 8rem; background-image: url('../images/icon/icon_success.png'); background-size: 100%;}
 
 /* Step */
-.step-flow ul li i {overflow: hidden; display: inline-block; position: relative; width: 2rem; height: 2rem; background-image: url('../images/icon/icon_step_off.png'); background-size: 100%; vertical-align: baseline; text-indent: -624.9375rem;}
+.step-flow ul li i {overflow: hidden; display: inline-block; position: relative; width: 2rem; height: 2rem; background-image: url('../images/icon/icon_step_off.png'); background-size: 100%; vertical-align: baseline; text-indent: -999.9rem;}
 .step-flow ul li.complete i {width: 2rem; height: 2rem; background-image: url('../images/icon/icon_step_on.png'); background-size: 100%;}
 .step-flow ul li.current i::before {content: ''; display: block; position: absolute; top: 0; left: 0; width: 2rem; height: 2rem; background-image: url('../images/icon/icon_step_check.png'); background-size: 100%;}
 
@@ -211,7 +211,7 @@ address span {margin-right: 1.6rem; display: inline-block;}
 .btn-wrap .btn-w14 + .btn-w14 {margin-left: 1.6rem;}
 
 /* popup Button */
-.btn-popwrap{
+.btn-popwrap {
     margin: 0 3.2rem;
     border-top: 0.0625rem solid #E5E5E5;
     display: flex;
