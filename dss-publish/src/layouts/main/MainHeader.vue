@@ -2,7 +2,7 @@
     <header class="header">
         <div class="head-inner">                          
             <div class="out-login-wrap">
-                <button type="button" class="btn-daram">DataM</button>
+                <button type="button" class="btn-daram">DataBlue</button>
                 <ul>
                     <li><a href="javascript:;" class="">로그인</a></li>
                     <li><a href="javascript:;" class="">회원가입</a></li>
