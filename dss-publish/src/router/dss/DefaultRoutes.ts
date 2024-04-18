@@ -93,6 +93,21 @@ const DefaultRoutes = {
       component: () => import('@/views/dss/ADService/PRDM_01_03.vue')
     },
     {
+      name: 'PRDM_01_04',
+      path: '/PRDM_01_04',
+      component: () => import('@/views/dss/ADService/PRDM_01_04.vue')
+    },
+    {
+      name: 'PRDM_01_05',
+      path: '/PRDM_01_05',
+      component: () => import('@/views/dss/ADService/PRDM_01_05.vue')
+    },
+    {
+      name: 'PRDM_01_06',
+      path: '/PRDM_01_06',
+      component: () => import('@/views/dss/ADService/PRDM_01_06.vue')
+    },
+    {
       name: 'PRDM_02',
       path: '/PRDM_02',
       component: () => import('@/views/dss/ADService/PRDM_02.vue')
@@ -193,6 +208,16 @@ const DefaultRoutes = {
       component: () => import('@/views/dss/My/MY_04.vue')
     },
     {
+      name: 'MY_07',
+      path: '/MY_07',
+      component: () => import('@/views/dss/My/MY_07.vue')
+    },
+    {
+      name: 'MY_07_01',
+      path: '/MY_07_01',
+      component: () => import('@/views/dss/My/MY_07_01.vue')
+    },
+    {
       name: 'MY_05',
       path: '/MY_05',
       component: () => import('@/views/dss/My/MY_05.vue')
@@ -201,6 +226,11 @@ const DefaultRoutes = {
       name: 'MY_06',
       path: '/MY_06',
       component: () => import('@/views/dss/My/MY_06.vue')
+    },
+    {
+      name: 'MY_00_02_null',
+      path: '/MY_00_02_null',
+      component: () => import('@/views/dss/My/MY_00_02_null.vue')
     },
     // 그외 메뉴
     {

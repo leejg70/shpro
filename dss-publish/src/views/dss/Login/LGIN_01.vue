@@ -27,7 +27,11 @@ const valid = ref(false);
           clearable
           required
         ></v-text-field>
+        <p class="text-tip error">아이디를 입력해주세요.</p>
+        <!--
         <p class="text-tip error">아이디는 필수 입력입니다.</p>
+        <p class="text-tip error">이메일 형식으로 입력해주세요.</p>
+        -->
       </div>
       <div class="form-group">
         <v-label>비밀번호</v-label>

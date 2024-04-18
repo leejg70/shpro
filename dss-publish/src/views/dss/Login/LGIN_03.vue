@@ -160,7 +160,7 @@ const items = ['알뜰폰', 'SKT알뜰폰', 'KT알뜰폰', 'LG U+알뜰폰'];
             <v-text-field
               aria-label="이름"
               v-model="realNm"
-              placeholder="국·영문 최대 20자 입력"
+              placeholder="이름 입력"
               density="comfortable"
               variant="outlined"
               color="primary"
@@ -181,7 +181,7 @@ const items = ['알뜰폰', 'SKT알뜰폰', 'KT알뜰폰', 'LG U+알뜰폰'];
                 <v-text-field
                   aria-label="주민등록번호 숫자 앞 6자리"
                   v-model="birthday"
-                  placeholder="앞 6자리"
+                  placeholder="생년월일 6자리"
                   density="comfortable"
                   variant="outlined"
                   color="primary"
@@ -288,7 +288,7 @@ const items = ['알뜰폰', 'SKT알뜰폰', 'KT알뜰폰', 'LG U+알뜰폰'];
           </div>
           <p class="text-tip hint">인증번호가 전송되었습니다. 인증번호를 입력해주세요.</p>
           <!--
-          <p class="text-tip error">휴대폰 번호를 확인해주세요.</p>
+          <p class="text-tip error">휴대폰번호는 필수 입력입니다.</p>
           <p class="text-tip error">인증번호 전송에 실패했습니다. 인증정보를 확인해주세요.</p>
           -->
         </div>
@@ -300,7 +300,7 @@ const items = ['알뜰폰', 'SKT알뜰폰', 'KT알뜰폰', 'LG U+알뜰폰'];
             <v-text-field
               aria-label="인증번호 숫자 6자리"
               v-model="sms"
-              placeholder="숫자 6자리 입력"
+              placeholder="인증번호 6자리 입력"
               density="comfortable"
               variant="outlined"
               color="primary"
