@@ -85,7 +85,7 @@
 
 /* 유형형태 */
 .mb-type-radio {
-  padding: 2.4rem 3.2rem;
+  padding: 2.4rem 3.2rem 2.4rem 8.8rem;
   flex-direction: column-reverse;
   align-items: flex-start;
   border-radius: 1.6rem;
@@ -97,14 +97,12 @@
     border: .2rem solid #356CFF;
   }
   .v-label {
-    margin-left: 5.6rem;
     padding-bottom: 1.6rem;
     font-size: 2.2rem;
     font-weight: 500;
     color: #111518;
   }
   .mb-type-stit {
-    margin-left: 5.6rem;
     padding-top: 1.6rem;
     font-size: 1.6rem;
     color: #111518;
@@ -290,14 +288,12 @@
     }
   }
   .mb-type-radio {
-    padding: 1.6rem;
+    padding: 1.6rem 1.6rem 1.6rem 5.6rem;
     .v-label {
-      margin-left: 4rem;
       padding-bottom: 1.2rem;
       font-size: 1.6rem;
     }
     .mb-type-stit {
-      margin-left: 4rem;
       padding-top: 1.2rem;
       font-size: 1.4rem;
     }

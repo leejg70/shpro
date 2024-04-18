@@ -120,7 +120,7 @@ const verifytpw = ref('');
           </div>
           <p class="text-tip message">이메일 인증에 사용하신 이메일 주소는 로그인 ID로 사용됩니다.<br>추후 서비스 이용을 위해 해당 이메일을 기억해 주시기 바랍니다.</p>
           <!--
-          <p class="text-tip hint">인증번호가 전송되었습니다. 인증번호를 입력해주세요.</p>
+          <p class="text-tip success">인증번호가 전송되었습니다. 인증번호를 입력해주세요.</p>
           <p class="text-tip error">이메일주소가 올바르지 않습니다.</p>
           <p class="text-tip error">이미 등록된 이메일 입니다.</p>
           -->

@@ -45,7 +45,7 @@ const verifytpw = ref('');
               required
             ></v-text-field>
           </div>
-          <p class="text-tip hint">숫자, 영문, 특수문자를 조합해 8~20자리로 생성해주세요.</p>
+          <p class="text-tip success">숫자, 영문, 특수문자를 조합해 8~20자리로 생성해주세요.</p>
           <!--
           <p class="text-tip error">인증번호가 전송되었습니다. 인증번호를 입력해주세요.</p>
           -->
