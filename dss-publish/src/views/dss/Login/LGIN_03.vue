@@ -1,6 +1,6 @@
 <script setup>
 import { ref } from 'vue';
-import Agreement from  '../Agreement/JOIN_05_01_p.vue'
+import Agreement from  '../Agreement/JOIN_05_01_01_p.vue'
 
 const formTerms = ref({
   value: ['0', '1', '2', '3', '4'],

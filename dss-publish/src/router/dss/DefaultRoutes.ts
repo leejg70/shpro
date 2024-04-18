@@ -232,6 +232,11 @@ const DefaultRoutes = {
       path: '/MY_00_02_null',
       component: () => import('@/views/dss/My/MY_00_02_null.vue')
     },
+    {
+      name: 'MY_00_03_p',
+      path: '/MY_00_03_p',
+      component: () => import('@/views/dss/My/MY_00_03_p.vue')
+    },
     // 그외 메뉴
     {
       name: 'BLUE_01',
@@ -520,29 +525,134 @@ const DefaultRoutes = {
       component: () => import('@/views/dss/Member/JOIN_04_04.vue')
     },
     {
-      name: 'JOIN_05_01_p',
-      path: '/JOIN_05_01_p',
-      component: () => import('@/views/dss/Agreement/JOIN_05_01_p.vue')
+      name: 'JOIN_05_01_01_p',
+      path: '/JOIN_05_01_01_p',
+      component: () => import('@/views/dss/Agreement/JOIN_05_01_01_p.vue')
     },
     {
-      name: 'JOIN_05_02_p',
-      path: '/JOIN_05_02_p',
-      component: () => import('@/views/dss/Agreement/JOIN_05_02_p.vue')
+      name: 'JOIN_05_01_02_p',
+      path: '/JOIN_05_01_02_p',
+      component: () => import('@/views/dss/Agreement/JOIN_05_01_02_p.vue')
     },
     {
-      name: 'JOIN_05_03_p',
-      path: '/JOIN_05_03_p',
-      component: () => import('@/views/dss/Agreement/JOIN_05_03_p.vue')
+      name: 'JOIN_05_02_01_01_p',
+      path: '/JOIN_05_02_01_01_p',
+      component: () => import('@/views/dss/Agreement/JOIN_05_02_01_01_p.vue')
     },
     {
-      name: 'JOIN_05_04_p',
-      path: '/JOIN_05_04_p',
-      component: () => import('@/views/dss/Agreement/JOIN_05_04_p.vue')
+      name: 'JOIN_05_02_01_02_p',
+      path: '/JOIN_05_02_01_02_p',
+      component: () => import('@/views/dss/Agreement/JOIN_05_02_01_02_p.vue')
     },
     {
-      name: 'JOIN_05_05_p',
-      path: '/JOIN_05_05_p',
-      component: () => import('@/views/dss/Agreement/JOIN_05_05_p.vue')
+      name: 'JOIN_05_02_01_03_p',
+      path: '/JOIN_05_02_01_03_p',
+      component: () => import('@/views/dss/Agreement/JOIN_05_02_01_03_p.vue')
+    },
+    {
+      name: 'JOIN_05_02_02_01_p',
+      path: '/JOIN_05_02_02_01_p',
+      component: () => import('@/views/dss/Agreement/JOIN_05_02_02_01_p.vue')
+    },
+    {
+      name: 'JOIN_05_02_02_02_p',
+      path: '/JOIN_05_02_02_02_p',
+      component: () => import('@/views/dss/Agreement/JOIN_05_02_02_02_p.vue')
+    },
+    {
+      name: 'JOIN_05_02_02_03_p',
+      path: '/JOIN_05_02_02_03_p',
+      component: () => import('@/views/dss/Agreement/JOIN_05_02_02_03_p.vue')
+    },
+    {
+      name: 'JOIN_05_03_01_01_p',
+      path: '/JOIN_05_03_01_01_p',
+      component: () => import('@/views/dss/Agreement/JOIN_05_03_01_01_p.vue')
+    },
+    {
+      name: 'JOIN_05_03_01_02_p',
+      path: '/JOIN_05_03_01_02_p',
+      component: () => import('@/views/dss/Agreement/JOIN_05_03_01_02_p.vue')
+    },
+    {
+      name: 'JOIN_05_03_01_03_p',
+      path: '/JOIN_05_03_01_03_p',
+      component: () => import('@/views/dss/Agreement/JOIN_05_03_01_03_p.vue')
+    },
+    {
+      name: 'JOIN_05_03_02_01_p',
+      path: '/JOIN_05_03_02_01_p',
+      component: () => import('@/views/dss/Agreement/JOIN_05_03_02_01_p.vue')
+    },
+    {
+      name: 'JOIN_05_03_02_02_p',
+      path: '/JOIN_05_03_02_02_p',
+      component: () => import('@/views/dss/Agreement/JOIN_05_03_02_02_p.vue')
+    },
+    {
+      name: 'JOIN_05_03_02_03_p',
+      path: '/JOIN_05_03_02_03_p',
+      component: () => import('@/views/dss/Agreement/JOIN_05_03_02_03_p.vue')
+    },
+    {
+      name: 'JOIN_05_04_01_01_p',
+      path: '/JOIN_05_04_01_01_p',
+      component: () => import('@/views/dss/Agreement/JOIN_05_04_01_01_p.vue')
+    },
+    {
+      name: 'JOIN_05_04_01_02_p',
+      path: '/JOIN_05_04_01_02_p',
+      component: () => import('@/views/dss/Agreement/JOIN_05_04_01_02_p.vue')
+    },
+    {
+      name: 'JOIN_05_04_01_03_p',
+      path: '/JOIN_05_04_01_03_p',
+      component: () => import('@/views/dss/Agreement/JOIN_05_04_01_03_p.vue')
+    },
+    {
+      name: 'JOIN_05_04_02_01_p',
+      path: '/JOIN_05_04_02_01_p',
+      component: () => import('@/views/dss/Agreement/JOIN_05_04_02_01_p.vue')
+    },
+    {
+      name: 'JOIN_05_04_02_02_p',
+      path: '/JOIN_05_04_02_02_p',
+      component: () => import('@/views/dss/Agreement/JOIN_05_04_02_02_p.vue')
+    },
+    {
+      name: 'JOIN_05_04_02_03_p',
+      path: '/JOIN_05_04_02_03_p',
+      component: () => import('@/views/dss/Agreement/JOIN_05_04_02_03_p.vue')
+    },
+    {
+      name: 'JOIN_05_05_01_01_p',
+      path: '/JOIN_05_05_01_01_p',
+      component: () => import('@/views/dss/Agreement/JOIN_05_05_01_01_p.vue')
+    },
+    {
+      name: 'JOIN_05_05_01_02_p',
+      path: '/JOIN_05_05_01_02_p',
+      component: () => import('@/views/dss/Agreement/JOIN_05_05_01_02_p.vue')
+    },
+    {
+      name: 'JOIN_05_05_01_03_p',
+      path: '/JOIN_05_05_01_03_p',
+      component: () => import('@/views/dss/Agreement/JOIN_05_05_01_03_p.vue')
+    },
+    {
+      name: 'JOIN_05_05_02_01_p',
+      path: '/JOIN_05_05_02_01_p',
+      component: () => import('@/views/dss/Agreement/JOIN_05_05_02_01_p.vue')
+    },
+    {
+      name: 'JOIN_05_05_02_02_p',
+      path: '/JOIN_05_05_02_02_p',
+      component: () => import('@/views/dss/Agreement/JOIN_05_05_02_02_p.vue')
+    },
+    {
+      name: 'JOIN_05_05_02_03_p',
+      path: '/JOIN_05_05_02_03_p',
+      component: () => import('@/views/dss/Agreement/JOIN_05_05_02_03_p.vue')
     },
     // 공통/기타
     {

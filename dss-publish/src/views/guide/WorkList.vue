@@ -33,7 +33,7 @@
 		<!-- //Note -->
 		<br>
 		<div class="ia-total">
-			<p class="ia-msg">전체 페이지 : 122</p>
+			<p class="ia-msg">전체 페이지 : 150</p>
 			<p class="ia-version">IA 버전 : v0.97</p>
 		</div>
 		<!-- 00_Guide -->
@@ -153,6 +153,7 @@
 									<th scope="col" class="col-2depth">2Depth</th>
 									<th scope="col" class="col-3depth">3Depth</th>
 									<th scope="col" class="col-4depth">4Depth</th>
+									<th scope="col" class="col-5depth">5Depth</th>
 									<th scope="col" class="col-point">구분</th>
 									<th scope="col" class="col-url">URL</th>
 									<th scope="col" class="col-date">퍼블완료일</th>
@@ -167,6 +168,7 @@
 									<td class="col-2depth">비로그인</td>
 									<td class="col-3depth"></td>
 									<td class="col-4depth"></td>
+									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
 									<td class="col-url"><router-link to="/MAIN_01" target="_blank">/views/dss/Main/MAIN_01</router-link></td>
 									<td class="col-date"></td>
@@ -179,6 +181,7 @@
 									<td class="col-2depth">로그인</td>
 									<td class="col-3depth"></td>
 									<td class="col-4depth"></td>
+									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
 									<td class="col-url"><router-link to="/MAIN_02" target="_blank">/views/dss/Main/MAIN_02</router-link></td>
 									<td class="col-date"></td>
@@ -191,6 +194,7 @@
 									<td class="col-2depth">검색결과</td>
 									<td class="col-3depth">결과 有</td>
 									<td class="col-4depth"></td>
+									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
 									<td class="col-url"><router-link to="/MAIN_00_01" target="_blank">/views/dss/Main/MAIN_00_01</router-link></td>
 									<td class="col-date"></td>
@@ -203,6 +207,7 @@
 									<td class="col-2depth"></td>
 									<td class="col-3depth">결과 無</td>
 									<td class="col-4depth"></td>
+									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
 									<td class="col-url"><router-link to="/MAIN_00_01_null" target="_blank">/views/dss/Main/MAIN_00_01_null</router-link></td>
 									<td class="col-date"></td>
@@ -215,6 +220,7 @@
 									<td class="col-2depth">GNB메뉴 팝업</td>
 									<td class="col-3depth"></td>
 									<td class="col-4depth"></td>
+									<td class="col-5depth"></td>
 									<td class="col-point">popup</td>
 									<td class="col-url"><router-link to="/MAIN_00_02_p" target="_blank">/views/dss/Main/MAIN_00_02_p</router-link></td>
 									<td class="col-date"></td>
@@ -227,6 +233,7 @@
 									<td class="col-2depth">전체메뉴 팝업</td>
 									<td class="col-3depth"></td>
 									<td class="col-4depth"></td>
+									<td class="col-5depth"></td>
 									<td class="col-point">popup</td>
 									<td class="col-url"><router-link to="/MAIN_00_03_p" target="_blank">/views/dss/Main/MAIN_00_03_p</router-link></td>
 									<td class="col-date"></td>
@@ -239,6 +246,7 @@
 									<td class="col-2depth">메인공지 팝업</td>
 									<td class="col-3depth"></td>
 									<td class="col-4depth"></td>
+									<td class="col-5depth"></td>
 									<td class="col-point">popup</td>
 									<td class="col-url"><router-link to="/MAIN_00_04_p" target="_blank">/views/dss/Main/MAIN_00_04_p</router-link></td>
 									<td class="col-date"></td>
@@ -258,7 +266,7 @@
 			<div class="ia-section-header">
 				<h2 class="ia-h2"><a href="#this" class="accordion-toggle">GNB 메뉴</a></h2>
 				<div class="ia-legend">
-					<span class="item"><em>총 페이지 : </em><em class="legend-total">39</em>,</span>
+					<span class="item"><em>총 페이지 : </em><em class="legend-total">46</em>,</span>
 					<span class="item c-done"><em>완료 : </em><em class="legend-complete">0</em>,</span>
 					<span class="item"><em>진척률 : </em><em class="legend-process">0%</em></span>
 				</div>
@@ -279,6 +287,7 @@
 									<th scope="col" class="col-2depth">2Depth</th>
 									<th scope="col" class="col-3depth">3Depth</th>
 									<th scope="col" class="col-4depth">4Depth</th>
+									<th scope="col" class="col-5depth">5Depth</th>
 									<th scope="col" class="col-point">구분</th>
 									<th scope="col" class="col-url">URL</th>
 									<th scope="col" class="col-date">퍼블완료일</th>
@@ -293,6 +302,7 @@
 									<td class="col-2depth">Data상품</td>
 									<td class="col-3depth">목록(default)</td>
 									<td class="col-4depth"></td>
+									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
 									<td class="col-url"><router-link to="/PRDD_01" target="_blank">/views/dss/DataService/PRDD_01</router-link></td>
 									<td class="col-date"></td>
@@ -305,6 +315,7 @@
 									<td class="col-2depth"></td>
 									<td class="col-3depth">목록(검색결과)</td>
 									<td class="col-4depth">결과 有</td>
+									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
 									<td class="col-url"><router-link to="/PRDD_02_01" target="_blank">/views/dss/DataService/PRDD_02_01</router-link></td>
 									<td class="col-date"></td>
@@ -317,6 +328,7 @@
 									<td class="col-2depth"></td>
 									<td class="col-3depth"></td>
 									<td class="col-4depth">결과 無</td>
+									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
 									<td class="col-url"><router-link to="/PRDD_02_01_null" target="_blank">/views/dss/DataService/PRDD_02_01_null</router-link></td>
 									<td class="col-date"></td>
@@ -329,6 +341,7 @@
 									<td class="col-2depth"></td>
 									<td class="col-3depth"></td>
 									<td class="col-4depth">상세</td>
+									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
 									<td class="col-url"><router-link to="/PRDD_00_01" target="_blank">/views/dss/DataService/PRDD_00_01</router-link></td>
 									<td class="col-date"></td>
@@ -341,6 +354,7 @@
 									<td class="col-2depth">맞춤 Data</td>
 									<td class="col-3depth"></td>
 									<td class="col-4depth"></td>
+									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
 									<td class="col-url"><router-link to="/PRDD_03" target="_blank">/views/dss/DataService/PRDD_03</router-link></td>
 									<td class="col-date"></td>
@@ -353,6 +367,7 @@
 									<td class="col-2depth">목록(default)</td>
 									<td class="col-3depth"></td>
 									<td class="col-4depth"></td>
+									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
 									<td class="col-url"><router-link to="/PRDS_01" target="_blank">/views/dss/SolutionService/PRDS_01</router-link></td>
 									<td class="col-date"></td>
@@ -365,6 +380,7 @@
 									<td class="col-2depth">목록(검색결과)</td>
 									<td class="col-3depth">결과 有</td>
 									<td class="col-4depth"></td>
+									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
 									<td class="col-url"><router-link to="/PRDS_02_01" target="_blank">/views/dss/SolutionService/PRDS_02_01</router-link></td>
 									<td class="col-date"></td>
@@ -377,6 +393,7 @@
 									<td class="col-2depth"></td>
 									<td class="col-3depth">결과 無</td>
 									<td class="col-4depth"></td>
+									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
 									<td class="col-url"><router-link to="/PRDS_02_01_null" target="_blank">/views/dss/SolutionService/PRDS_02_01_null</router-link></td>
 									<td class="col-date"></td>
@@ -389,6 +406,7 @@
 									<td class="col-2depth">상세1</td>
 									<td class="col-3depth"></td>
 									<td class="col-4depth"></td>
+									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
 									<td class="col-url"><router-link to="/PRDS_00_01" target="_blank">/views/dss/SolutionService/PRDS_00_01</router-link></td>
 									<td class="col-date"></td>
@@ -401,6 +419,7 @@
 									<td class="col-2depth">상세2</td>
 									<td class="col-3depth"></td>
 									<td class="col-4depth"></td>
+									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
 									<td class="col-url"><router-link to="/PRDS_00_02" target="_blank">/views/dss/SolutionService/PRDS_00_02</router-link></td>
 									<td class="col-date"></td>
@@ -413,6 +432,7 @@
 									<td class="col-2depth">상세3</td>
 									<td class="col-3depth"></td>
 									<td class="col-4depth"></td>
+									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
 									<td class="col-url"><router-link to="/PRDS_00_03" target="_blank">/views/dss/SolutionService/PRDS_00_03</router-link></td>
 									<td class="col-date"></td>
@@ -425,6 +445,7 @@
 									<td class="col-2depth">상세4</td>
 									<td class="col-3depth"></td>
 									<td class="col-4depth"></td>
+									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
 									<td class="col-url"><router-link to="/PRDS_00_04" target="_blank">/views/dss/SolutionService/PRDS_00_04</router-link></td>
 									<td class="col-date"></td>
@@ -437,6 +458,7 @@
 									<td class="col-2depth"></td>
 									<td class="col-3depth"></td>
 									<td class="col-4depth"></td>
+									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
 									<td class="col-url"><router-link to="/PRDM_00" target="_blank">/views/dss/ADService/PRDM_00</router-link></td>
 									<td class="col-date"></td>
@@ -449,6 +471,7 @@
 									<td class="col-2depth">타겟마케팅</td>
 									<td class="col-3depth">서비스안내</td>
 									<td class="col-4depth"></td>
+									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
 									<td class="col-url"><router-link to="/PRDM_01" target="_blank">/views/dss/ADService/PRDM_01</router-link></td>
 									<td class="col-date"></td>
@@ -461,6 +484,7 @@
 									<td class="col-2depth"></td>
 									<td class="col-3depth">타겟군탐색 및 가상견적</td>
 									<td class="col-4depth"></td>
+									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
 									<td class="col-url"><router-link to="/PRDM_01_01" target="_blank">/views/dss/ADService/PRDM_01_01</router-link></td>
 									<td class="col-date"></td>
@@ -473,6 +497,7 @@
 									<td class="col-2depth"></td>
 									<td class="col-3depth">신청서 작성</td>
 									<td class="col-4depth">LMS</td>
+									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
 									<td class="col-url"><router-link to="/PRDM_01_02" target="_blank">/views/dss/ADService/PRDM_01_02</router-link></td>
 									<td class="col-date"></td>
@@ -485,6 +510,7 @@
 									<td class="col-2depth"></td>
 									<td class="col-3depth"></td>
 									<td class="col-4depth">RCS</td>
+									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
 									<td class="col-url"><router-link to="/PRDM_01_03" target="_blank">/views/dss/ADService/PRDM_01_03</router-link></td>
 									<td class="col-date"></td>
@@ -497,6 +523,7 @@
 									<td class="col-2depth"></td>
 									<td class="col-3depth"></td>
 									<td class="col-4depth">MMS</td>
+									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
 									<td class="col-url"><router-link to="/PRDM_01_04" target="_blank">/views/dss/ADService/PRDM_01_04</router-link></td>
 									<td class="col-date"></td>
@@ -509,6 +536,7 @@
 									<td class="col-2depth"></td>
 									<td class="col-3depth"></td>
 									<td class="col-4depth">APP PUSH</td>
+									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
 									<td class="col-url"><router-link to="/PRDM_01_05" target="_blank">/views/dss/ADService/PRDM_01_05</router-link></td>
 									<td class="col-date"></td>
@@ -521,6 +549,7 @@
 									<td class="col-2depth"></td>
 									<td class="col-3depth">신청완료</td>
 									<td class="col-4depth"></td>
+									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
 									<td class="col-url"><router-link to="/PRDM_01_06" target="_blank">/views/dss/ADService/PRDM_01_06</router-link></td>
 									<td class="col-date"></td>
@@ -533,6 +562,7 @@
 									<td class="col-2depth">서베이대행서비스</td>
 									<td class="col-3depth"></td>
 									<td class="col-4depth"></td>
+									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
 									<td class="col-url"><router-link to="/PRDM_02" target="_blank">/views/dss/ADService/PRDM_02</router-link></td>
 									<td class="col-date"></td>
@@ -545,6 +575,7 @@
 									<td class="col-2depth">SOL-Pay 배너광고</td>
 									<td class="col-3depth"></td>
 									<td class="col-4depth"></td>
+									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
 									<td class="col-url"><router-link to="/PRDM_03" target="_blank">/views/dss/ADService/PRDM_03</router-link></td>
 									<td class="col-date"></td>
@@ -557,6 +588,7 @@
 									<td class="col-2depth">목록(default)</td>
 									<td class="col-3depth"></td>
 									<td class="col-4depth"></td>
+									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
 									<td class="col-url"><router-link to="/PRDA_01" target="_blank">/views/dss/APIService/PRDA_01</router-link></td>
 									<td class="col-date"></td>
@@ -569,6 +601,7 @@
 									<td class="col-2depth">목록(검색결과)</td>
 									<td class="col-3depth">결과 有</td>
 									<td class="col-4depth"></td>
+									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
 									<td class="col-url"><router-link to="/PRDA_02_01" target="_blank">/views/dss/APIService/PRDA_02_01</router-link></td>
 									<td class="col-date"></td>
@@ -581,6 +614,7 @@
 									<td class="col-2depth"></td>
 									<td class="col-3depth">결과 無</td>
 									<td class="col-4depth"></td>
+									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
 									<td class="col-url"><router-link to="/PRDA_02_01_null" target="_blank">/views/dss/APIService/PRDA_02_01_null</router-link></td>
 									<td class="col-date"></td>
@@ -593,6 +627,7 @@
 									<td class="col-2depth">상세</td>
 									<td class="col-3depth"></td>
 									<td class="col-4depth"></td>
+									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
 									<td class="col-url"><router-link to="/PRDA_00_01" target="_blank">/views/dss/APIService/PRDA_00_01</router-link></td>
 									<td class="col-date"></td>
@@ -605,6 +640,7 @@
 									<td class="col-2depth">API서비스 이용방법 안내</td>
 									<td class="col-3depth"></td>
 									<td class="col-4depth"></td>
+									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
 									<td class="col-url"><router-link to="/PRDA_00_02" target="_blank">/views/dss/APIService/PRDA_00_02</router-link></td>
 									<td class="col-date"></td>
@@ -617,6 +653,7 @@
 									<td class="col-2depth">계정전환</td>
 									<td class="col-3depth">정보입력(개인사업자)</td>
 									<td class="col-4depth"></td>
+									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
 									<td class="col-url"><router-link to="/MY_01" target="_blank">/views/dss/My/MY_01</router-link></td>
 									<td class="col-date"></td>
@@ -629,6 +666,7 @@
 									<td class="col-2depth"></td>
 									<td class="col-3depth">정보입력(법인사업자)</td>
 									<td class="col-4depth"></td>
+									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
 									<td class="col-url"><router-link to="/MY_02" target="_blank">/views/dss/My/MY_02</router-link></td>
 									<td class="col-date"></td>
@@ -641,6 +679,7 @@
 									<td class="col-2depth"></td>
 									<td class="col-3depth"></td>
 									<td class="col-4depth">전환신청완료 안내</td>
+									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
 									<td class="col-url"><router-link to="/MY_00_01" target="_blank">/views/dss/My/MY_00_01</router-link></td>
 									<td class="col-date"></td>
@@ -653,6 +692,7 @@
 									<td class="col-2depth">회원정보변경</td>
 									<td class="col-3depth">(개인) 조회</td>
 									<td class="col-4depth"></td>
+									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
 									<td class="col-url"><router-link to="/MY_02_r" target="_blank">/views/dss/My/MY_02_r</router-link></td>
 									<td class="col-date"></td>
@@ -665,6 +705,7 @@
 									<td class="col-2depth"></td>
 									<td class="col-3depth"></td>
 									<td class="col-4depth">수정</td>
+									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
 									<td class="col-url"><router-link to="/MY_02_u" target="_blank">/views/dss/My/MY_02_u</router-link></td>
 									<td class="col-date"></td>
@@ -677,6 +718,7 @@
 									<td class="col-2depth"></td>
 									<td class="col-3depth">(개인사업자) 조회</td>
 									<td class="col-4depth"></td>
+									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
 									<td class="col-url"><router-link to="/MY_03_r" target="_blank">/views/dss/My/MY_03_r</router-link></td>
 									<td class="col-date"></td>
@@ -689,6 +731,7 @@
 									<td class="col-2depth"></td>
 									<td class="col-3depth"></td>
 									<td class="col-4depth">수정</td>
+									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
 									<td class="col-url"><router-link to="/MY_03_u" target="_blank">/views/dss/My/MY_03_u</router-link></td>
 									<td class="col-date"></td>
@@ -701,6 +744,7 @@
 									<td class="col-2depth"></td>
 									<td class="col-3depth">(법인사업자) 조회</td>
 									<td class="col-4depth"></td>
+									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
 									<td class="col-url"><router-link to="/MY_04_r" target="_blank">/views/dss/My/MY_04_r</router-link></td>
 									<td class="col-date"></td>
@@ -713,6 +757,7 @@
 									<td class="col-2depth"></td>
 									<td class="col-3depth"></td>
 									<td class="col-4depth">수정</td>
+									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
 									<td class="col-url"><router-link to="/MY_04_u" target="_blank">/views/dss/My/MY_04_u</router-link></td>
 									<td class="col-date"></td>
@@ -725,6 +770,7 @@
 									<td class="col-2depth"></td>
 									<td class="col-3depth">(공통) 회원탈퇴 안내</td>
 									<td class="col-4depth"></td>
+									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
 									<td class="col-url"><router-link to="/MY_05" target="_blank">/views/dss/My/MY_05</router-link></td>
 									<td class="col-date"></td>
@@ -737,6 +783,7 @@
 									<td class="col-2depth"></td>
 									<td class="col-3depth"></td>
 									<td class="col-4depth">회원탈퇴신청 완료</td>
+									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
 									<td class="col-url"><router-link to="/MY_05_01" target="_blank">/views/dss/My/MY_05_01</router-link></td>
 									<td class="col-date"></td>
@@ -749,6 +796,7 @@
 									<td class="col-2depth">나의계약</td>
 									<td class="col-3depth">목록</td>
 									<td class="col-4depth"></td>
+									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
 									<td class="col-url"><router-link to="/MY_03" target="_blank">/views/dss/My/MY_03</router-link></td>
 									<td class="col-date"></td>
@@ -761,6 +809,7 @@
 									<td class="col-2depth">관심상품</td>
 									<td class="col-3depth">목록</td>
 									<td class="col-4depth"></td>
+									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
 									<td class="col-url"><router-link to="/MY_04" target="_blank">/views/dss/My/MY_04</router-link></td>
 									<td class="col-date"></td>
@@ -773,6 +822,7 @@
 									<td class="col-2depth">타겟마케팅 신청내역</td>
 									<td class="col-3depth">목록</td>
 									<td class="col-4depth"></td>
+									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
 									<td class="col-url"><router-link to="/MY_07" target="_blank">/views/dss/My/MY_07</router-link></td>
 									<td class="col-date"></td>
@@ -785,6 +835,7 @@
 									<td class="col-2depth"></td>
 									<td class="col-3depth">상세</td>
 									<td class="col-4depth"></td>
+									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
 									<td class="col-url"><router-link to="/MY_07_01" target="_blank">/views/dss/My/MY_07_01</router-link></td>
 									<td class="col-date"></td>
@@ -797,6 +848,7 @@
 									<td class="col-2depth">나의문의</td>
 									<td class="col-3depth">목록</td>
 									<td class="col-4depth"></td>
+									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
 									<td class="col-url"><router-link to="/MY_05" target="_blank">/views/dss/My/MY_05</router-link></td>
 									<td class="col-date"></td>
@@ -809,6 +861,7 @@
 									<td class="col-2depth">알림</td>
 									<td class="col-3depth">목록</td>
 									<td class="col-4depth"></td>
+									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
 									<td class="col-url"><router-link to="/MY_06" target="_blank">/views/dss/My/MY_06</router-link></td>
 									<td class="col-date"></td>
@@ -818,11 +871,25 @@
 								<tr>
 									<td class="col-num"></td>
 									<td class="col-1depth"></td>
-									<td class="col-2depth">공통</td>
+									<td class="col-2depth">(공통)</td>
 									<td class="col-3depth">목록</td>
 									<td class="col-4depth"></td>
+									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
 									<td class="col-url"><router-link to="/MY_00_02_null" target="_blank">/views/dss/My/MY_00_02_null</router-link></td>
+									<td class="col-date"></td>
+									<td class="col-complete"></td>
+									<td class="col-memo"></td>
+								</tr>
+								<tr>
+									<td class="col-num"></td>
+									<td class="col-1depth"></td>
+									<td class="col-2depth">(공통)</td>
+									<td class="col-3depth">비밀번호변경</td>
+									<td class="col-4depth"></td>
+									<td class="col-5depth"></td>
+									<td class="col-point">popup</td>
+									<td class="col-url"><router-link to="/MY_00_03_p" target="_blank">/views/dss/My/MY_00_03_p</router-link></td>
 									<td class="col-date"></td>
 									<td class="col-complete"></td>
 									<td class="col-memo"></td>
@@ -861,6 +928,7 @@
 									<th scope="col" class="col-2depth">2Depth</th>
 									<th scope="col" class="col-3depth">3Depth</th>
 									<th scope="col" class="col-4depth">4Depth</th>
+									<th scope="col" class="col-5depth">5Depth</th>
 									<th scope="col" class="col-point">구분</th>
 									<th scope="col" class="col-url">URL</th>
 									<th scope="col" class="col-date">퍼블완료일</th>
@@ -875,6 +943,7 @@
 									<td class="col-2depth">Databule 안내</td>
 									<td class="col-3depth"></td>
 									<td class="col-4depth"></td>
+									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
 									<td class="col-url"><router-link to="/BLUE_01" target="_blank">/views/dss/Databule/BLUE_01</router-link></td>
 									<td class="col-date"></td>
@@ -887,6 +956,7 @@
 									<td class="col-2depth">신한 Data Universe</td>
 									<td class="col-3depth">Gran Data</td>
 									<td class="col-4depth"></td>
+									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
 									<td class="col-url"><router-link to="/BLUE_02_01" target="_blank">/views/dss/Databule/BLUE_02_01</router-link></td>
 									<td class="col-date"></td>
@@ -899,6 +969,7 @@
 									<td class="col-2depth"></td>
 									<td class="col-3depth">MyData</td>
 									<td class="col-4depth"></td>
+									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
 									<td class="col-url"><router-link to="/BLUE_02_02" target="_blank">/views/dss/Databule/BLUE_02_02</router-link></td>
 									<td class="col-date"></td>
@@ -911,6 +982,7 @@
 									<td class="col-2depth"></td>
 									<td class="col-3depth">MyCREDIT</td>
 									<td class="col-4depth"></td>
+									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
 									<td class="col-url"><router-link to="/BLUE_02_03" target="_blank">/views/dss/Databule/BLUE_02_03</router-link></td>
 									<td class="col-date"></td>
@@ -923,6 +995,7 @@
 									<td class="col-2depth"></td>
 									<td class="col-3depth">데이터전문기관</td>
 									<td class="col-4depth"></td>
+									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
 									<td class="col-url"><router-link to="/BLUE_02_04" target="_blank">/views/dss/Databule/BLUE_02_04</router-link></td>
 									<td class="col-date"></td>
@@ -935,6 +1008,7 @@
 									<td class="col-2depth"></td>
 									<td class="col-3depth">협력사</td>
 									<td class="col-4depth"></td>
+									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
 									<td class="col-url"><router-link to="/BLUE_02_05" target="_blank">/views/dss/Databule/BLUE_02_05</router-link></td>
 									<td class="col-date"></td>
@@ -947,6 +1021,7 @@
 									<td class="col-2depth">공지사항</td>
 									<td class="col-3depth">목록</td>
 									<td class="col-4depth"></td>
+									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
 									<td class="col-url"><router-link to="/NOTI_01" target="_blank">/views/dss/Customer/NOTI_01</router-link></td>
 									<td class="col-date"></td>
@@ -959,6 +1034,7 @@
 									<td class="col-2depth"></td>
 									<td class="col-3depth">검색결과</td>
 									<td class="col-4depth">결과 有</td>
+									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
 									<td class="col-url"><router-link to="/NOTI_02_01" target="_blank">/views/dss/Customer/NOTI_02_01</router-link></td>
 									<td class="col-date"></td>
@@ -971,6 +1047,7 @@
 									<td class="col-2depth"></td>
 									<td class="col-3depth"></td>
 									<td class="col-4depth">결과 無</td>
+									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
 									<td class="col-url"><router-link to="/NOTI_02_01_null" target="_blank">/views/dss/Customer/NOTI_02_01_null</router-link></td>
 									<td class="col-date"></td>
@@ -983,6 +1060,7 @@
 									<td class="col-2depth"></td>
 									<td class="col-3depth">상세</td>
 									<td class="col-4depth"></td>
+									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
 									<td class="col-url"><router-link to="/NOTI_00_01" target="_blank">/views/dss/Customer/NOTI_00_01</router-link></td>
 									<td class="col-date"></td>
@@ -995,6 +1073,7 @@
 									<td class="col-2depth">FAQ</td>
 									<td class="col-3depth">목록/상세</td>
 									<td class="col-4depth"></td>
+									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
 									<td class="col-url"><router-link to="/FAQS_01" target="_blank">/views/dss/Customer/FAQS_01</router-link></td>
 									<td class="col-date"></td>
@@ -1007,6 +1086,7 @@
 									<td class="col-2depth">고객문의</td>
 									<td class="col-3depth">목록</td>
 									<td class="col-4depth"></td>
+									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
 									<td class="col-url"><router-link to="/QNAS_01" target="_blank">/views/dss/Customer/QNAS_01</router-link></td>
 									<td class="col-date"></td>
@@ -1019,6 +1099,7 @@
 									<td class="col-2depth"></td>
 									<td class="col-3depth">검색결과</td>
 									<td class="col-4depth">결과 有</td>
+									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
 									<td class="col-url"><router-link to="/QNAS_02_01" target="_blank">/views/dss/Customer/QNAS_02_01</router-link></td>
 									<td class="col-date"></td>
@@ -1031,6 +1112,7 @@
 									<td class="col-2depth"></td>
 									<td class="col-3depth"></td>
 									<td class="col-4depth">결과 無</td>
+									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
 									<td class="col-url"><router-link to="/QNAS_02_01_null" target="_blank">/views/dss/Customer/QNAS_02_01_null</router-link></td>
 									<td class="col-date"></td>
@@ -1043,6 +1125,7 @@
 									<td class="col-2depth"></td>
 									<td class="col-3depth">상세</td>
 									<td class="col-4depth"></td>
+									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
 									<td class="col-url"><router-link to="/QNAS_00_01_r" target="_blank">/views/dss/Customer/QNAS_00_01_r</router-link></td>
 									<td class="col-date"></td>
@@ -1055,6 +1138,7 @@
 									<td class="col-2depth"></td>
 									<td class="col-3depth"></td>
 									<td class="col-4depth">수정</td>
+									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
 									<td class="col-url"><router-link to="/QNAS_00_01_u" target="_blank">/views/dss/Customer/QNAS_00_01_u</router-link></td>
 									<td class="col-date"></td>
@@ -1067,6 +1151,7 @@
 									<td class="col-2depth"></td>
 									<td class="col-3depth">등록</td>
 									<td class="col-4depth"></td>
+									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
 									<td class="col-url"><router-link to="/QNAS_01_01_c" target="_blank">/views/dss/Customer/QNAS_01_01_c</router-link></td>
 									<td class="col-date"></td>
@@ -1079,6 +1164,7 @@
 									<td class="col-2depth">활용장</td>
 									<td class="col-3depth">목록</td>
 									<td class="col-4depth"></td>
+									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
 									<td class="col-url"><router-link to="/COMU_01" target="_blank">/views/dss/Community/COMU_01</router-link></td>
 									<td class="col-date"></td>
@@ -1091,6 +1177,7 @@
 									<td class="col-2depth"></td>
 									<td class="col-3depth"></td>
 									<td class="col-4depth">상세</td>
+									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
 									<td class="col-url"><router-link to="/COMU_01_01_r" target="_blank">/views/dss/Community/COMU_01_01_r</router-link></td>
 									<td class="col-date"></td>
@@ -1103,6 +1190,7 @@
 									<td class="col-2depth">토론장</td>
 									<td class="col-3depth">목록</td>
 									<td class="col-4depth"></td>
+									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
 									<td class="col-url"><router-link to="/COMU_02" target="_blank">/views/dss/Community/COMU_02</router-link></td>
 									<td class="col-date"></td>
@@ -1115,6 +1203,7 @@
 									<td class="col-2depth"></td>
 									<td class="col-3depth">검색결과</td>
 									<td class="col-4depth">결과 有</td>
+									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
 									<td class="col-url"><router-link to="/COMU_02_01" target="_blank">/views/dss/Community/COMU_02_01</router-link></td>
 									<td class="col-date"></td>
@@ -1127,6 +1216,7 @@
 									<td class="col-2depth"></td>
 									<td class="col-3depth"></td>
 									<td class="col-4depth">결과 無</td>
+									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
 									<td class="col-url"><router-link to="/COMU_02_01_null" target="_blank">/views/dss/Community/COMU_02_01_null</router-link></td>
 									<td class="col-date"></td>
@@ -1139,6 +1229,7 @@
 									<td class="col-2depth"></td>
 									<td class="col-3depth">상세</td>
 									<td class="col-4depth"></td>
+									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
 									<td class="col-url"><router-link to="/COMU_02_02_r" target="_blank">/views/dss/Community/COMU_02_02_r</router-link></td>
 									<td class="col-date"></td>
@@ -1151,6 +1242,7 @@
 									<td class="col-2depth"></td>
 									<td class="col-3depth"></td>
 									<td class="col-4depth">수정</td>
+									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
 									<td class="col-url"><router-link to="/COMU_02_02_u" target="_blank">/views/dss/Community/COMU_02_02_u</router-link></td>
 									<td class="col-date"></td>
@@ -1163,6 +1255,7 @@
 									<td class="col-2depth"></td>
 									<td class="col-3depth">등록</td>
 									<td class="col-4depth"></td>
+									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
 									<td class="col-url"><router-link to="/COMU_02_02_c" target="_blank">/views/dss/Community/COMU_02_02_c</router-link></td>
 									<td class="col-date"></td>
@@ -1182,7 +1275,7 @@
 			<div class="ia-section-header">
 				<h2 class="ia-h2"><a href="#this" class="accordion-toggle">로그인/로그아웃/회원가입</a></h2>
 				<div class="ia-legend">
-					<span class="item"><em>총 페이지 : </em><em class="legend-total">43</em>,</span>
+					<span class="item"><em>총 페이지 : </em><em class="legend-total">64</em>,</span>
 					<span class="item c-done"><em>완료 : </em><em class="legend-complete">0</em>,</span>
 					<span class="item"><em>진척률 : </em><em class="legend-process">0%</em></span>
 				</div>
@@ -1203,6 +1296,7 @@
 									<th scope="col" class="col-2depth">2Depth</th>
 									<th scope="col" class="col-3depth">3Depth</th>
 									<th scope="col" class="col-4depth">4Depth</th>
+									<th scope="col" class="col-5depth">5Depth</th>
 									<th scope="col" class="col-point">구분</th>
 									<th scope="col" class="col-url">URL</th>
 									<th scope="col" class="col-date">퍼블완료일</th>
@@ -1217,6 +1311,7 @@
 									<td class="col-2depth"></td>
 									<td class="col-3depth"></td>
 									<td class="col-4depth"></td>
+									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
 									<td class="col-url"><router-link to="/LGIN_01" target="_blank">/views/dss/Login/LGIN_01</router-link></td>
 									<td class="col-date">2024-04-05</td>
@@ -1229,6 +1324,7 @@
 									<td class="col-2depth">휴면해제 안내</td>
 									<td class="col-3depth"></td>
 									<td class="col-4depth"></td>
+									<td class="col-5depth"></td>
 									<td class="col-point">popup</td>
 									<td class="col-url"><router-link to="/LGIN_02_p" target="_blank">/views/dss/Login/LGIN_02_p</router-link></td>
 									<td class="col-date"></td>
@@ -1241,6 +1337,7 @@
 									<td class="col-2depth"></td>
 									<td class="col-3depth">휴면해제 본인인증</td>
 									<td class="col-4depth"></td>
+									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
 									<td class="col-url"><router-link to="/LGIN_03" target="_blank">/views/dss/Login/LGIN_03</router-link></td>
 									<td class="col-date">2024-04-16</td>
@@ -1253,6 +1350,7 @@
 									<td class="col-2depth"></td>
 									<td class="col-3depth">휴면해제 완료</td>
 									<td class="col-4depth"></td>
+									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
 									<td class="col-url"><router-link to="/LGIN_04" target="_blank">/views/dss/Login/LGIN_04</router-link></td>
 									<td class="col-date">2024-04-16</td>
@@ -1265,6 +1363,7 @@
 									<td class="col-2depth">로그아웃 재확인 안내</td>
 									<td class="col-3depth"></td>
 									<td class="col-4depth"></td>
+									<td class="col-5depth"></td>
 									<td class="col-point">popup</td>
 									<td class="col-url"><router-link to="/LOUT_01_p" target="_blank">/views/dss/Login/LOUT_01_p</router-link></td>
 									<td class="col-date"></td>
@@ -1277,6 +1376,7 @@
 									<td class="col-2depth">로그아웃 예정 안내</td>
 									<td class="col-3depth"></td>
 									<td class="col-4depth"></td>
+									<td class="col-5depth"></td>
 									<td class="col-point">popup</td>
 									<td class="col-url"><router-link to="/LOUT_02_p" target="_blank">/views/dss/Login/LOUT_02_p</router-link></td>
 									<td class="col-date"></td>
@@ -1289,6 +1389,7 @@
 									<td class="col-2depth">로그아웃 완료 안내</td>
 									<td class="col-3depth"></td>
 									<td class="col-4depth"></td>
+									<td class="col-5depth"></td>
 									<td class="col-point">popup</td>
 									<td class="col-url"><router-link to="/LOUT_03_p" target="_blank">/views/dss/Login/LOUT_03_p</router-link></td>
 									<td class="col-date"></td>
@@ -1301,6 +1402,7 @@
 									<td class="col-2depth">강제 로그아웃 안내</td>
 									<td class="col-3depth"></td>
 									<td class="col-4depth"></td>
+									<td class="col-5depth"></td>
 									<td class="col-point">popup</td>
 									<td class="col-url"><router-link to="/LOUT_04_p" target="_blank">/views/dss/Login/LOUT_04_p</router-link></td>
 									<td class="col-date"></td>
@@ -1313,6 +1415,7 @@
 									<td class="col-2depth">본인인증</td>
 									<td class="col-3depth"></td>
 									<td class="col-4depth"></td>
+									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
 									<td class="col-url"><router-link to="/IDPW_01" target="_blank">/views/dss/FindID/IDPW_01</router-link></td>
 									<td class="col-date">2024-04-12</td>
@@ -1325,6 +1428,7 @@
 									<td class="col-2depth">아이디찾기 결과</td>
 									<td class="col-3depth">성공</td>
 									<td class="col-4depth"></td>
+									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
 									<td class="col-url"><router-link to="/IDPW_02" target="_blank">/views/dss/FindID/IDPW_02</router-link></td>
 									<td class="col-date">2024-04-12</td>
@@ -1337,7 +1441,8 @@
 									<td class="col-2depth"></td>
 									<td class="col-3depth">실패</td>
 									<td class="col-4depth"></td>
-									<td class="col-point">page</td>
+									<td class="col-5depth"></td>
+									<td class="col-point">popup</td>
 									<td class="col-url"><router-link to="/IDPW_02_fall" target="_blank">/views/dss/FindID/IDPW_02_fall</router-link></td>
 									<td class="col-date"></td>
 									<td class="col-complete"></td>
@@ -1349,6 +1454,7 @@
 									<td class="col-2depth">비밀번호 변경완료</td>
 									<td class="col-3depth"></td>
 									<td class="col-4depth"></td>
+									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
 									<td class="col-url"><router-link to="/IDPW_03" target="_blank">/views/dss/FindID/IDPW_03</router-link></td>
 									<td class="col-date">2024-04-12</td>
@@ -1361,6 +1467,7 @@
 									<td class="col-2depth"></td>
 									<td class="col-3depth"></td>
 									<td class="col-4depth"></td>
+									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
 									<td class="col-url"><router-link to="/JOIN_01" target="_blank">/views/dss/Member/JOIN_01</router-link></td>
 									<td class="col-date">2024-04-12</td>
@@ -1373,6 +1480,7 @@
 									<td class="col-2depth">(개인) 본인인증</td>
 									<td class="col-3depth"></td>
 									<td class="col-4depth"></td>
+									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
 									<td class="col-url"><router-link to="/JOIN_02_01" target="_blank">/views/dss/Member/JOIN_02_01</router-link></td>
 									<td class="col-date">2024-04-12</td>
@@ -1385,6 +1493,7 @@
 									<td class="col-2depth">(개인) 서비스이용동의</td>
 									<td class="col-3depth"></td>
 									<td class="col-4depth"></td>
+									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
 									<td class="col-url"><router-link to="/JOIN_02_02" target="_blank">/views/dss/Member/JOIN_02_02</router-link></td>
 									<td class="col-date">2024-04-12</td>
@@ -1397,6 +1506,7 @@
 									<td class="col-2depth"></td>
 									<td class="col-3depth">(필수) DataBlue 이용약관</td>
 									<td class="col-4depth"></td>
+									<td class="col-5depth"></td>
 									<td class="col-point">popup</td>
 									<td class="col-url"><router-link to="/JOIN_02_02_01_p" target="_blank">/views/dss/Member/JOIN_02_02_01_p</router-link></td>
 									<td class="col-date">2024-04-12</td>
@@ -1409,6 +1519,7 @@
 									<td class="col-2depth"></td>
 									<td class="col-3depth">(필수) 개인정보 수집 및 이용동의</td>
 									<td class="col-4depth"></td>
+									<td class="col-5depth"></td>
 									<td class="col-point">popup</td>
 									<td class="col-url"><router-link to="/JOIN_02_02_02_p" target="_blank">/views/dss/Member/JOIN_02_02_02_p</router-link></td>
 									<td class="col-date"></td>
@@ -1421,6 +1532,7 @@
 									<td class="col-2depth"></td>
 									<td class="col-3depth">(선택) 마케팅동의</td>
 									<td class="col-4depth"></td>
+									<td class="col-5depth"></td>
 									<td class="col-point">popup</td>
 									<td class="col-url"><router-link to="/JOIN_02_02_03_p" target="_blank">/views/dss/Member/JOIN_02_02_03_p</router-link></td>
 									<td class="col-date"></td>
@@ -1433,6 +1545,7 @@
 									<td class="col-2depth">(개인) 정보입력</td>
 									<td class="col-3depth"></td>
 									<td class="col-4depth"></td>
+									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
 									<td class="col-url"><router-link to="/JOIN_02_03" target="_blank">/views/dss/Member/JOIN_02_03</router-link></td>
 									<td class="col-date">2024-04-12</td>
@@ -1445,6 +1558,7 @@
 									<td class="col-2depth">(개인) 가입완료</td>
 									<td class="col-3depth"></td>
 									<td class="col-4depth"></td>
+									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
 									<td class="col-url"><router-link to="/JOIN_02_04" target="_blank">/views/dss/Member/JOIN_02_04</router-link></td>
 									<td class="col-date">2024-04-12</td>
@@ -1457,6 +1571,7 @@
 									<td class="col-2depth">(개인사업자) 본인인증</td>
 									<td class="col-3depth"></td>
 									<td class="col-4depth"></td>
+									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
 									<td class="col-url"><router-link to="/JOIN_03_01" target="_blank">/views/dss/Member/JOIN_03_01</router-link></td>
 									<td class="col-date">2024-04-15</td>
@@ -1469,6 +1584,7 @@
 									<td class="col-2depth">(개인사업자) 서비스이용동의</td>
 									<td class="col-3depth"></td>
 									<td class="col-4depth"></td>
+									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
 									<td class="col-url"><router-link to="/JOIN_03_02" target="_blank">/views/dss/Member/JOIN_03_02</router-link></td>
 									<td class="col-date">2024-04-15</td>
@@ -1481,6 +1597,7 @@
 									<td class="col-2depth"></td>
 									<td class="col-3depth">(필수) DataBlue 이용약관</td>
 									<td class="col-4depth"></td>
+									<td class="col-5depth"></td>
 									<td class="col-point">popup</td>
 									<td class="col-url"><router-link to="/JOIN_02_02_01_p" target="_blank">/views/dss/Member/JOIN_02_02_01_p</router-link></td>
 									<td class="col-date">2024-04-12</td>
@@ -1493,6 +1610,7 @@
 									<td class="col-2depth"></td>
 									<td class="col-3depth">(필수) 개인정보 수집 및 이용동의</td>
 									<td class="col-4depth"></td>
+									<td class="col-5depth"></td>
 									<td class="col-point">popup</td>
 									<td class="col-url"><router-link to="/JOIN_02_02_02_p" target="_blank">/views/dss/Member/JOIN_02_02_02_p</router-link></td>
 									<td class="col-date"></td>
@@ -1505,6 +1623,7 @@
 									<td class="col-2depth"></td>
 									<td class="col-3depth">(선택) 마케팅동의</td>
 									<td class="col-4depth"></td>
+									<td class="col-5depth"></td>
 									<td class="col-point">popup</td>
 									<td class="col-url"><router-link to="/JOIN_02_02_03_p" target="_blank">/views/dss/Member/JOIN_02_02_03_p</router-link></td>
 									<td class="col-date"></td>
@@ -1517,6 +1636,7 @@
 									<td class="col-2depth">(개인사업자) 정보입력</td>
 									<td class="col-3depth"></td>
 									<td class="col-4depth"></td>
+									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
 									<td class="col-url"><router-link to="/JOIN_03_03" target="_blank">/views/dss/Member/JOIN_03_03</router-link></td>
 									<td class="col-date">2024-04-15</td>
@@ -1526,9 +1646,10 @@
 								<tr>
 									<td class="col-num"></td>
 									<td class="col-1depth"></td>
-									<td class="col-2depth">(개인사업자) 가입완료</td>
+									<td class="col-2depth">(개인사업자) 가입신청완료</td>
 									<td class="col-3depth"></td>
 									<td class="col-4depth"></td>
+									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
 									<td class="col-url"><router-link to="/JOIN_03_04" target="_blank">/views/dss/Member/JOIN_03_04</router-link></td>
 									<td class="col-date">2024-04-15</td>
@@ -1541,6 +1662,7 @@
 									<td class="col-2depth">(법인사업자) 본인인증</td>
 									<td class="col-3depth"></td>
 									<td class="col-4depth"></td>
+									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
 									<td class="col-url"><router-link to="/JOIN_04_01" target="_blank">/views/dss/Member/JOIN_04_01</router-link></td>
 									<td class="col-date">2024-04-15</td>
@@ -1553,6 +1675,7 @@
 									<td class="col-2depth">(법인사업자) 서비스이용동의</td>
 									<td class="col-3depth"></td>
 									<td class="col-4depth"></td>
+									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
 									<td class="col-url"><router-link to="/JOIN_04_02" target="_blank">/views/dss/Member/JOIN_04_02</router-link></td>
 									<td class="col-date">2024-04-15</td>
@@ -1565,6 +1688,7 @@
 									<td class="col-2depth"></td>
 									<td class="col-3depth">(필수) DataBlue 이용약관</td>
 									<td class="col-4depth"></td>
+									<td class="col-5depth"></td>
 									<td class="col-point">popup</td>
 									<td class="col-url"><router-link to="/JOIN_02_02_01_p" target="_blank">/views/dss/Member/JOIN_02_02_01_p</router-link></td>
 									<td class="col-date">2024-04-12</td>
@@ -1577,6 +1701,7 @@
 									<td class="col-2depth"></td>
 									<td class="col-3depth">(필수) 개인정보 수집 및 이용동의</td>
 									<td class="col-4depth"></td>
+									<td class="col-5depth"></td>
 									<td class="col-point">popup</td>
 									<td class="col-url"><router-link to="/JOIN_02_02_02_p" target="_blank">/views/dss/Member/JOIN_02_02_02_p</router-link></td>
 									<td class="col-date"></td>
@@ -1589,6 +1714,7 @@
 									<td class="col-2depth"></td>
 									<td class="col-3depth">(선택) 마케팅동의</td>
 									<td class="col-4depth"></td>
+									<td class="col-5depth"></td>
 									<td class="col-point">popup</td>
 									<td class="col-url"><router-link to="/JOIN_02_02_03_p" target="_blank">/views/dss/Member/JOIN_02_02_03_p</router-link></td>
 									<td class="col-date"></td>
@@ -1601,6 +1727,7 @@
 									<td class="col-2depth">(법인사업자) 정보입력</td>
 									<td class="col-3depth"></td>
 									<td class="col-4depth"></td>
+									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
 									<td class="col-url"><router-link to="/JOIN_04_03" target="_blank">/views/dss/Member/JOIN_04_03</router-link></td>
 									<td class="col-date">2024-04-15</td>
@@ -1613,6 +1740,7 @@
 									<td class="col-2depth"></td>
 									<td class="col-3depth">기업찾기 팝업</td>
 									<td class="col-4depth"></td>
+									<td class="col-5depth"></td>
 									<td class="col-point">popup</td>
 									<td class="col-url"><router-link to="/JOIN_04_03_01_p" target="_blank">/views/dss/Member/JOIN_04_03_01_p</router-link></td>
 									<td class="col-date">2024-04-15</td>
@@ -1625,6 +1753,7 @@
 									<td class="col-2depth"></td>
 									<td class="col-3depth"></td>
 									<td class="col-4depth">성공</td>
+									<td class="col-5depth"></td>
 									<td class="col-point">popup</td>
 									<td class="col-url"><router-link to="/JOIN_04_03_02_p" target="_blank">/views/dss/Member/JOIN_04_03_02_p</router-link></td>
 									<td class="col-date"></td>
@@ -1637,6 +1766,7 @@
 									<td class="col-2depth"></td>
 									<td class="col-3depth"></td>
 									<td class="col-4depth">실패</td>
+									<td class="col-5depth"></td>
 									<td class="col-point">popup</td>
 									<td class="col-url"><router-link to="/JOIN_04_03_03_p" target="_blank">/views/dss/Member/JOIN_04_03_03_p</router-link></td>
 									<td class="col-date"></td>
@@ -1649,6 +1779,7 @@
 									<td class="col-2depth"></td>
 									<td class="col-3depth"></td>
 									<td class="col-4depth">기업등록요청 팝업</td>
+									<td class="col-5depth"></td>
 									<td class="col-point">popup</td>
 									<td class="col-url"><router-link to="/JOIN_04_03_04_p" target="_blank">/views/dss/Member/JOIN_04_03_04_p</router-link></td>
 									<td class="col-date">2024-04-15</td>
@@ -1658,9 +1789,10 @@
 								<tr>
 									<td class="col-num"></td>
 									<td class="col-1depth"></td>
-									<td class="col-2depth">(법인사업자) 가입완료</td>
+									<td class="col-2depth">(법인사업자) 가입신청완료</td>
 									<td class="col-3depth"></td>
 									<td class="col-4depth"></td>
+									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
 									<td class="col-url"><router-link to="/JOIN_04_04" target="_blank">/views/dss/Member/JOIN_04_04</router-link></td>
 									<td class="col-date">2024-04-15</td>
@@ -1672,10 +1804,24 @@
 									<td class="col-1depth"></td>
 									<td class="col-2depth">(공통) 약관보기 팝업</td>
 									<td class="col-3depth">휴대폰본인확인이용동의</td>
-									<td class="col-4depth"></td>
+									<td class="col-4depth">NICE평가정보</td>
+									<td class="col-5depth"></td>
 									<td class="col-point">popup</td>
-									<td class="col-url"><router-link to="/JOIN_05_01_p" target="_blank">/views/dss/Agreement/JOIN_05_01_p</router-link></td>
-									<td class="col-date">2024-04-15</td>
+									<td class="col-url"><router-link to="/JOIN_05_01_01_p" target="_blank">/views/dss/Agreement/JOIN_05_01_01_p</router-link></td>
+									<td class="col-date"></td>
+									<td class="col-complete"></td>
+									<td class="col-memo"></td>
+								</tr>
+								<tr>
+									<td class="col-num"></td>
+									<td class="col-1depth"></td>
+									<td class="col-2depth"></td>
+									<td class="col-3depth"></td>
+									<td class="col-4depth">KCB</td>
+									<td class="col-5depth"></td>
+									<td class="col-point">popup</td>
+									<td class="col-url"><router-link to="/JOIN_05_01_02_p" target="_blank">/views/dss/Agreement/JOIN_05_01_02_p</router-link></td>
+									<td class="col-date"></td>
 									<td class="col-complete"></td>
 									<td class="col-memo"></td>
 								</tr>
@@ -1684,9 +1830,75 @@
 									<td class="col-1depth"></td>
 									<td class="col-2depth"></td>
 									<td class="col-3depth">고유식별정보처리동의</td>
-									<td class="col-4depth"></td>
+									<td class="col-4depth">NICE평가정보</td>
+									<td class="col-5depth">SKT</td>
 									<td class="col-point">popup</td>
-									<td class="col-url"><router-link to="/JOIN_05_02_p" target="_blank">/views/dss/Agreement/JOIN_05_02_p</router-link></td>
+									<td class="col-url"><router-link to="/JOIN_05_02_01_01_p" target="_blank">/views/dss/Agreement/JOIN_05_02_01_01_p</router-link></td>
+									<td class="col-date"></td>
+									<td class="col-complete"></td>
+									<td class="col-memo"></td>
+								</tr>
+								<tr>
+									<td class="col-num"></td>
+									<td class="col-1depth"></td>
+									<td class="col-2depth"></td>
+									<td class="col-3depth"></td>
+									<td class="col-4depth"></td>
+									<td class="col-5depth">KT</td>
+									<td class="col-point">popup</td>
+									<td class="col-url"><router-link to="/JOIN_05_02_01_02_p" target="_blank">/views/dss/Agreement/JOIN_05_02_01_02_p</router-link></td>
+									<td class="col-date"></td>
+									<td class="col-complete"></td>
+									<td class="col-memo"></td>
+								</tr>
+								<tr>
+									<td class="col-num"></td>
+									<td class="col-1depth"></td>
+									<td class="col-2depth"></td>
+									<td class="col-3depth"></td>
+									<td class="col-4depth"></td>
+									<td class="col-5depth">LGU+</td>
+									<td class="col-point">popup</td>
+									<td class="col-url"><router-link to="/JOIN_05_02_01_03_p" target="_blank">/views/dss/Agreement/JOIN_05_02_01_03_p</router-link></td>
+									<td class="col-date"></td>
+									<td class="col-complete"></td>
+									<td class="col-memo"></td>
+								</tr>
+								<tr>
+									<td class="col-num"></td>
+									<td class="col-1depth"></td>
+									<td class="col-2depth"></td>
+									<td class="col-3depth"></td>
+									<td class="col-4depth">KCB</td>
+									<td class="col-5depth">SKT</td>
+									<td class="col-point">popup</td>
+									<td class="col-url"><router-link to="/JOIN_05_02_02_01_p" target="_blank">/views/dss/Agreement/JOIN_05_02_02_01_p</router-link></td>
+									<td class="col-date"></td>
+									<td class="col-complete"></td>
+									<td class="col-memo"></td>
+								</tr>
+								<tr>
+									<td class="col-num"></td>
+									<td class="col-1depth"></td>
+									<td class="col-2depth"></td>
+									<td class="col-3depth"></td>
+									<td class="col-4depth"></td>
+									<td class="col-5depth">KT</td>
+									<td class="col-point">popup</td>
+									<td class="col-url"><router-link to="/JOIN_05_02_02_02_p" target="_blank">/views/dss/Agreement/JOIN_05_02_02_02_p</router-link></td>
+									<td class="col-date"></td>
+									<td class="col-complete"></td>
+									<td class="col-memo"></td>
+								</tr>
+								<tr>
+									<td class="col-num"></td>
+									<td class="col-1depth"></td>
+									<td class="col-2depth"></td>
+									<td class="col-3depth"></td>
+									<td class="col-4depth"></td>
+									<td class="col-5depth">LGU+</td>
+									<td class="col-point">popup</td>
+									<td class="col-url"><router-link to="/JOIN_05_02_02_03_p" target="_blank">/views/dss/Agreement/JOIN_05_02_02_03_p</router-link></td>
 									<td class="col-date"></td>
 									<td class="col-complete"></td>
 									<td class="col-memo"></td>
@@ -1696,9 +1908,75 @@
 									<td class="col-1depth"></td>
 									<td class="col-2depth"></td>
 									<td class="col-3depth">통신사이용약관동의</td>
-									<td class="col-4depth"></td>
+									<td class="col-4depth">NICE평가정보</td>
+									<td class="col-5depth">SKT</td>
 									<td class="col-point">popup</td>
-									<td class="col-url"><router-link to="/JOIN_05_03_p" target="_blank">/views/dss/Agreement/JOIN_05_03_p</router-link></td>
+									<td class="col-url"><router-link to="/JOIN_05_03_01_01_p" target="_blank">/views/dss/Agreement/JOIN_05_03_01_01_p</router-link></td>
+									<td class="col-date"></td>
+									<td class="col-complete"></td>
+									<td class="col-memo"></td>
+								</tr>
+								<tr>
+									<td class="col-num"></td>
+									<td class="col-1depth"></td>
+									<td class="col-2depth"></td>
+									<td class="col-3depth"></td>
+									<td class="col-4depth"></td>
+									<td class="col-5depth">KT</td>
+									<td class="col-point">popup</td>
+									<td class="col-url"><router-link to="/JOIN_05_03_01_02_p" target="_blank">/views/dss/Agreement/JOIN_05_03_01_02_p</router-link></td>
+									<td class="col-date"></td>
+									<td class="col-complete"></td>
+									<td class="col-memo"></td>
+								</tr>
+								<tr>
+									<td class="col-num"></td>
+									<td class="col-1depth"></td>
+									<td class="col-2depth"></td>
+									<td class="col-3depth"></td>
+									<td class="col-4depth"></td>
+									<td class="col-5depth">LGU+</td>
+									<td class="col-point">popup</td>
+									<td class="col-url"><router-link to="/JOIN_05_03_01_03_p" target="_blank">/views/dss/Agreement/JOIN_05_03_01_03_p</router-link></td>
+									<td class="col-date"></td>
+									<td class="col-complete"></td>
+									<td class="col-memo"></td>
+								</tr>
+								<tr>
+									<td class="col-num"></td>
+									<td class="col-1depth"></td>
+									<td class="col-2depth"></td>
+									<td class="col-3depth"></td>
+									<td class="col-4depth">KCB</td>
+									<td class="col-5depth">SKT</td>
+									<td class="col-point">popup</td>
+									<td class="col-url"><router-link to="/JOIN_05_03_02_01_p" target="_blank">/views/dss/Agreement/JOIN_05_03_02_01_p</router-link></td>
+									<td class="col-date"></td>
+									<td class="col-complete"></td>
+									<td class="col-memo"></td>
+								</tr>
+								<tr>
+									<td class="col-num"></td>
+									<td class="col-1depth"></td>
+									<td class="col-2depth"></td>
+									<td class="col-3depth"></td>
+									<td class="col-4depth"></td>
+									<td class="col-5depth">KT</td>
+									<td class="col-point">popup</td>
+									<td class="col-url"><router-link to="/JOIN_05_03_02_02_p" target="_blank">/views/dss/Agreement/JOIN_05_03_02_02_p</router-link></td>
+									<td class="col-date"></td>
+									<td class="col-complete"></td>
+									<td class="col-memo"></td>
+								</tr>
+								<tr>
+									<td class="col-num"></td>
+									<td class="col-1depth"></td>
+									<td class="col-2depth"></td>
+									<td class="col-3depth"></td>
+									<td class="col-4depth"></td>
+									<td class="col-5depth">LGU+</td>
+									<td class="col-point">popup</td>
+									<td class="col-url"><router-link to="/JOIN_05_03_02_03_p" target="_blank">/views/dss/Agreement/JOIN_05_03_02_03_p</router-link></td>
 									<td class="col-date"></td>
 									<td class="col-complete"></td>
 									<td class="col-memo"></td>
@@ -1708,9 +1986,75 @@
 									<td class="col-1depth"></td>
 									<td class="col-2depth"></td>
 									<td class="col-3depth">개인정보수집및이용동의</td>
-									<td class="col-4depth"></td>
+									<td class="col-4depth">NICE평가정보</td>
+									<td class="col-5depth">SKT</td>
 									<td class="col-point">popup</td>
-									<td class="col-url"><router-link to="/JOIN_05_04_p" target="_blank">/views/dss/Agreement/JOIN_05_04_p</router-link></td>
+									<td class="col-url"><router-link to="/JOIN_05_04_01_01_p" target="_blank">/views/dss/Agreement/JOIN_05_04_01_01_p</router-link></td>
+									<td class="col-date"></td>
+									<td class="col-complete"></td>
+									<td class="col-memo"></td>
+								</tr>
+								<tr>
+									<td class="col-num"></td>
+									<td class="col-1depth"></td>
+									<td class="col-2depth"></td>
+									<td class="col-3depth"></td>
+									<td class="col-4depth"></td>
+									<td class="col-5depth">KT</td>
+									<td class="col-point">popup</td>
+									<td class="col-url"><router-link to="/JOIN_05_04_01_02_p" target="_blank">/views/dss/Agreement/JOIN_05_04_01_02_p</router-link></td>
+									<td class="col-date"></td>
+									<td class="col-complete"></td>
+									<td class="col-memo"></td>
+								</tr>
+								<tr>
+									<td class="col-num"></td>
+									<td class="col-1depth"></td>
+									<td class="col-2depth"></td>
+									<td class="col-3depth"></td>
+									<td class="col-4depth"></td>
+									<td class="col-5depth">LGU+</td>
+									<td class="col-point">popup</td>
+									<td class="col-url"><router-link to="/JOIN_05_04_01_03_p" target="_blank">/views/dss/Agreement/JOIN_05_04_01_03_p</router-link></td>
+									<td class="col-date"></td>
+									<td class="col-complete"></td>
+									<td class="col-memo"></td>
+								</tr>
+								<tr>
+									<td class="col-num"></td>
+									<td class="col-1depth"></td>
+									<td class="col-2depth"></td>
+									<td class="col-3depth"></td>
+									<td class="col-4depth">KCB</td>
+									<td class="col-5depth">SKT</td>
+									<td class="col-point">popup</td>
+									<td class="col-url"><router-link to="/JOIN_05_04_02_01_p" target="_blank">/views/dss/Agreement/JOIN_05_04_02_01_p</router-link></td>
+									<td class="col-date"></td>
+									<td class="col-complete"></td>
+									<td class="col-memo"></td>
+								</tr>
+								<tr>
+									<td class="col-num"></td>
+									<td class="col-1depth"></td>
+									<td class="col-2depth"></td>
+									<td class="col-3depth"></td>
+									<td class="col-4depth"></td>
+									<td class="col-5depth">KT</td>
+									<td class="col-point">popup</td>
+									<td class="col-url"><router-link to="/JOIN_05_04_02_02_p" target="_blank">/views/dss/Agreement/JOIN_05_04_02_02_p</router-link></td>
+									<td class="col-date"></td>
+									<td class="col-complete"></td>
+									<td class="col-memo"></td>
+								</tr>
+								<tr>
+									<td class="col-num"></td>
+									<td class="col-1depth"></td>
+									<td class="col-2depth"></td>
+									<td class="col-3depth"></td>
+									<td class="col-4depth"></td>
+									<td class="col-5depth">LGU+</td>
+									<td class="col-point">popup</td>
+									<td class="col-url"><router-link to="/JOIN_05_04_02_03_p" target="_blank">/views/dss/Agreement/JOIN_05_04_02_03_p</router-link></td>
 									<td class="col-date"></td>
 									<td class="col-complete"></td>
 									<td class="col-memo"></td>
@@ -1720,9 +2064,75 @@
 									<td class="col-1depth"></td>
 									<td class="col-2depth"></td>
 									<td class="col-3depth">개인정보제3자제공동의</td>
-									<td class="col-4depth"></td>
+									<td class="col-4depth">NICE평가정보</td>
+									<td class="col-5depth">SKT</td>
 									<td class="col-point">popup</td>
-									<td class="col-url"><router-link to="/JOIN_05_05_p" target="_blank">/views/dss/Agreement/JOIN_05_05_p</router-link></td>
+									<td class="col-url"><router-link to="/JOIN_05_05_01_01_p" target="_blank">/views/dss/Agreement/JOIN_05_05_01_01_p</router-link></td>
+									<td class="col-date"></td>
+									<td class="col-complete"></td>
+									<td class="col-memo"></td>
+								</tr>
+								<tr>
+									<td class="col-num"></td>
+									<td class="col-1depth"></td>
+									<td class="col-2depth"></td>
+									<td class="col-3depth"></td>
+									<td class="col-4depth"></td>
+									<td class="col-5depth">KT</td>
+									<td class="col-point">popup</td>
+									<td class="col-url"><router-link to="/JOIN_05_05_01_02_p" target="_blank">/views/dss/Agreement/JOIN_05_05_01_02_p</router-link></td>
+									<td class="col-date"></td>
+									<td class="col-complete"></td>
+									<td class="col-memo"></td>
+								</tr>
+								<tr>
+									<td class="col-num"></td>
+									<td class="col-1depth"></td>
+									<td class="col-2depth"></td>
+									<td class="col-3depth"></td>
+									<td class="col-4depth"></td>
+									<td class="col-5depth">LGU+</td>
+									<td class="col-point">popup</td>
+									<td class="col-url"><router-link to="/JOIN_05_05_01_03_p" target="_blank">/views/dss/Agreement/JOIN_05_05_01_03_p</router-link></td>
+									<td class="col-date"></td>
+									<td class="col-complete"></td>
+									<td class="col-memo"></td>
+								</tr>
+								<tr>
+									<td class="col-num"></td>
+									<td class="col-1depth"></td>
+									<td class="col-2depth"></td>
+									<td class="col-3depth"></td>
+									<td class="col-4depth">KCB</td>
+									<td class="col-5depth">SKT</td>
+									<td class="col-point">popup</td>
+									<td class="col-url"><router-link to="/JOIN_05_05_02_01_p" target="_blank">/views/dss/Agreement/JOIN_05_05_02_01_p</router-link></td>
+									<td class="col-date"></td>
+									<td class="col-complete"></td>
+									<td class="col-memo"></td>
+								</tr>
+								<tr>
+									<td class="col-num"></td>
+									<td class="col-1depth"></td>
+									<td class="col-2depth"></td>
+									<td class="col-3depth"></td>
+									<td class="col-4depth"></td>
+									<td class="col-5depth">KT</td>
+									<td class="col-point">popup</td>
+									<td class="col-url"><router-link to="/JOIN_05_05_02_02_p" target="_blank">/views/dss/Agreement/JOIN_05_05_02_02_p</router-link></td>
+									<td class="col-date"></td>
+									<td class="col-complete"></td>
+									<td class="col-memo"></td>
+								</tr>
+								<tr>
+									<td class="col-num"></td>
+									<td class="col-1depth"></td>
+									<td class="col-2depth"></td>
+									<td class="col-3depth"></td>
+									<td class="col-4depth"></td>
+									<td class="col-5depth">LGU+</td>
+									<td class="col-point">popup</td>
+									<td class="col-url"><router-link to="/JOIN_05_05_02_03_p" target="_blank">/views/dss/Agreement/JOIN_05_05_02_03_p</router-link></td>
 									<td class="col-date"></td>
 									<td class="col-complete"></td>
 									<td class="col-memo"></td>
@@ -1761,6 +2171,7 @@
 									<th scope="col" class="col-2depth">2Depth</th>
 									<th scope="col" class="col-3depth">3Depth</th>
 									<th scope="col" class="col-4depth">4Depth</th>
+									<th scope="col" class="col-5depth">5Depth</th>
 									<th scope="col" class="col-point">구분</th>
 									<th scope="col" class="col-url">URL</th>
 									<th scope="col" class="col-date">퍼블완료일</th>
@@ -1775,6 +2186,7 @@
 									<td class="col-2depth"></td>
 									<td class="col-3depth"></td>
 									<td class="col-4depth"></td>
+									<td class="col-5depth"></td>
 									<td class="col-point">popup</td>
 									<td class="col-url"><router-link to="/CFMM_01_p" target="_blank">/views/dss/Common/CFMM_01_p</router-link></td>
 									<td class="col-date"></td>
@@ -1787,6 +2199,7 @@
 									<td class="col-2depth"></td>
 									<td class="col-3depth"></td>
 									<td class="col-4depth"></td>
+									<td class="col-5depth"></td>
 									<td class="col-point">popup</td>
 									<td class="col-url"><router-link to="/CFMP_01_p" target="_blank">/views/dss/Common/CFMP_01_p</router-link></td>
 									<td class="col-date"></td>
@@ -1799,6 +2212,7 @@
 									<td class="col-2depth"></td>
 									<td class="col-3depth"></td>
 									<td class="col-4depth"></td>
+									<td class="col-5depth"></td>
 									<td class="col-point">popup</td>
 									<td class="col-url"><router-link to="/FILE_01_p" target="_blank">/views/dss/Common/FILE_01_p</router-link></td>
 									<td class="col-date"></td>
@@ -1811,6 +2225,7 @@
 									<td class="col-2depth">Alert 경고창</td>
 									<td class="col-3depth"></td>
 									<td class="col-4depth"></td>
+									<td class="col-5depth"></td>
 									<td class="col-point">popup</td>
 									<td class="col-url"><router-link to="/SYSA_p" target="_blank">/views/dss/Common/SYSA_p</router-link></td>
 									<td class="col-date"></td>
@@ -1823,6 +2238,7 @@
 									<td class="col-2depth">Confirm 경고창</td>
 									<td class="col-3depth"></td>
 									<td class="col-4depth"></td>
+									<td class="col-5depth"></td>
 									<td class="col-point">popup</td>
 									<td class="col-url"><router-link to="/SYSC_p" target="_blank">/views/dss/Common/SYSC_p</router-link></td>
 									<td class="col-date"></td>
@@ -1835,6 +2251,7 @@
 									<td class="col-2depth"></td>
 									<td class="col-3depth"></td>
 									<td class="col-4depth"></td>
+									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
 									<td class="col-url"><router-link to="/ETC_02" target="_blank">/views/dss/Common/ETC_02</router-link></td>
 									<td class="col-date"></td>
@@ -1847,6 +2264,7 @@
 									<td class="col-2depth"></td>
 									<td class="col-3depth"></td>
 									<td class="col-4depth"></td>
+									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
 									<td class="col-url"><router-link to="/ETC_03" target="_blank">/views/dss/Common/ETC_03</router-link></td>
 									<td class="col-date"></td>
@@ -1859,6 +2277,7 @@
 									<td class="col-2depth"></td>
 									<td class="col-3depth"></td>
 									<td class="col-4depth"></td>
+									<td class="col-5depth"></td>
 									<td class="col-point">popup</td>
 									<td class="col-url"><router-link to="/ETC_04_p" target="_blank">/views/dss/Common/ETC_04_p</router-link></td>
 									<td class="col-date"></td>
@@ -1967,7 +2386,8 @@
 .ia-tbl table .col-1depth,
 .ia-tbl table .col-2depth,
 .ia-tbl table .col-3depth,
-.ia-tbl table .col-4depth {width:10%;}
+.ia-tbl table .col-4depth,
+.ia-tbl table .col-5depth {width:10%;}
 .ia-tbl table .col-point {width:100px;}
 .ia-tbl table .col-url {width:20%;}
 .ia-tbl table .col-date {width:110px;}
