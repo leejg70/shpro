@@ -12,11 +12,11 @@
           <div class="visual-txt-area">
              <span class="visual-stit">Data + Blue</span>
             <p class="visual-title">
-              <pan>신한 Data Blue의</pan>
-              <pan>다양한 Data를 </pan>
-              <pan>탐험하세요.</pan>
+              <span>신한 Data Blue의</span><br>
+              <span>다양한 Data를 </span><br>
+              <span>탐험하세요.</span>
             </p>
-            <button href="" class="">Data Blue 바로가기</button>
+            <button class="visual-more">Data Blue 바로가기</button>
           </div>
           <div class="visual-img"><img src="../../../assets/images/main/visual_img1.png" alt="신한 Data Blue의 다양한 Data를 탐험하세요."></div>
         </div>
@@ -24,8 +24,8 @@
       <div class="my-login-wrap">
         <div class="outlogin-box login"> 
           <i class="main-login-photo"></i>
-          <p>로그인 후<br>나만의 맞춤 정보를 이용하세요.</p> 
-          <button>로그인</button>
+          <p class="login-txt">로그인 후<br>나만의 맞춤 정보를 이용하세요.</p> 
+          <button >로그인</button>
         </div>
         <div class="notice-box">          
           <div class="notice-banner"><img src=" " alt=""></div>
@@ -41,28 +41,36 @@
     <div class="main-search-wrap">검색</div> 
     <div class="main-card-wrap">
       <div class="main-card-inner">
-          <button class="card-box">
-          <span class="card-stit">다양한</span>
-          <strong class="card- title">Data 서비스</strong>
-          <i class="ico-main-data"></i>
+        <button class="card-box">
+          <div class="title-area">
+            <span class="card-stit">다양한</span>
+            <strong class="card-title">Data 서비스</strong>
+          </div>
+          <i class="card-icon ico-main-data"></i>
           <spoan class="card-txt">Data One-Stop Service</spoan>
         </button>
         <button class="card-box">
-          <span class="card-stit">폭발적인</span>
-          <strong class="card- title">솔루션서비스 </strong>
-          <i class="ico-main-solution"></i>
+          <div class="title-area">
+            <span class="card-stit">폭발적인</span>
+          <strong class="card-title">솔루션서비스 </strong>
+          </div>
+          <i class="card-icon ico-main-solution"></i>
           <spoan class="card-txt">상권분석, 시장 모니터링</spoan>
         </button> 
         <button class="card-box">
-          <span class="card-stit">스마트한</span>
-          <strong class="card-title">광고서비스 </strong>
-          <i class="ico-main-ad "></i>
+          <div class="title-area">
+            <span class="card-stit">스마트한</span>
+            <strong class="card-title">광고서비스 </strong>
+          </div>
+          <i class="card-icon ico-main-ad "></i>
           <spoan class="card-txt">최적의 고객 타겟팅</spoan>
         </button> 
         <button class="card-box">
-          <span class="card-stit">경이로운</span> 
-          <strong class="card- title">API서비스</strong>
-          <i class="ico-main-api"></i>
+          <div class="title-area">
+            <span class="card-stit">경이로운</span> 
+            <strong class="card-title">API서비스</strong>
+          </div>
+          <i class="card-icon ico-main-api"></i>
           <spoan class="card-txt">Data 실시간 활용</spoan>
         </button>    
       </div>      
