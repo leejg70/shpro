@@ -1,11 +1,12 @@
 import { createRouter, createWebHistory } from 'vue-router';
+import CommonRoutes from './dss/CommonRoutes';
+import DefaultRoutes from './dss/DefaultRoutes';
+import GuideRoutes from './dss/GuideRoutes';
+
 // import MainRoutes from './MainRoutes';
 // import AuthRoutes from './AuthRoutes';
 // import { useAuthStore } from '@/stores/auth';
 // import ComponentRoutes from './ComponentRoutes';
-import CommonRoutes from './dss/CommonRoutes';
-import GuideRoutes from './dss/GuideRoutes';
-
 // import { useUIStore } from '@/stores/ui';
 
 export const router = createRouter({
@@ -18,6 +19,7 @@ export const router = createRouter({
     // MainRoutes,
     // ComponentRoutes,
     CommonRoutes,
+    DefaultRoutes,
     GuideRoutes
     // AuthRoutes
   ]
