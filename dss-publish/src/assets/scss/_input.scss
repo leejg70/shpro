@@ -207,8 +207,8 @@
           position: absolute;
           top:0;
           left:0;
-          width: 3.2rem;
-          height:3.2rem;
+          width: 2.4rem;
+          height: 2.4rem;
           background-image: url('../images/icon/icon_radio_active.png');
           background-repeat: no-repeat;
           background-size: 100%;
@@ -222,8 +222,8 @@
           position: absolute;
           top:0;
           left:0;
-          width: 3.2rem;
-          height:3.2rem;
+          width: 2.4rem;
+          height: 2.4rem;
           background-image: url('../images/icon/icon_radio_default.png');
           background-repeat: no-repeat;
           background-size: 100%;
@@ -331,41 +331,6 @@
         border-radius: 0;
         .v-icon--size-default {
           font-size: 2.4rem;
-        }
-        .mdi-radiobox-marked {
-          padding: 0;
-          &::before {
-            content: "";
-            position: absolute;
-            top:0;
-            left:0;
-            width: 2.4rem;
-            height: 2.4rem;
-            background-image: url('../images/icon/icon_radio_active.png');
-            background-repeat: no-repeat;
-            background-size: 100%;
-            background-position: center;
-          }
-        }
-        .mdi-radiobox-blank {
-          &::before {
-            all: unset;
-            content: "";
-            position: absolute;
-            top:0;
-            left:0;
-            width: 2.4rem;
-            height: 2.4rem;
-            background-image: url('../images/icon/icon_radio_default.png');
-            background-repeat: no-repeat;
-            background-size: 100%;
-            background-position: center;
-          }
-        }
-        &::before {
-          content: "";
-          border-radius: 0 !important;
-          background-color: transparent !important;
         }
         input {
           opacity: 0;
