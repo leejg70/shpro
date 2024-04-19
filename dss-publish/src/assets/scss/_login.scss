@@ -133,8 +133,12 @@
     .form-checkbox {
       .v-checkbox .v-label {
         margin-top: -.1rem;
-        margin-left: .4rem;
         font-size: 1.4rem;
+      }
+      .check-all .v-selection-control__input,
+      .check-all .v-selection-control__wrapper {
+        width: 2.4rem;
+        height: 2.4rem;
       }
     }
     .v-btn--size-large {

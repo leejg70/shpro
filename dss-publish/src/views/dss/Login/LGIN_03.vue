@@ -21,7 +21,7 @@ const gender = ref('');
 const phone = ref('');
 const sms = ref('');
 const selected = ref('알뜰폰');
-const items = ['알뜰폰', 'SKT알뜰폰', 'KT알뜰폰', 'LG U+알뜰폰'];
+const items = ['알뜰폰', 'SKT 알뜰폰', 'KT 알뜰폰', 'LG U+ 알뜰폰'];
 </script>
 
 <template>

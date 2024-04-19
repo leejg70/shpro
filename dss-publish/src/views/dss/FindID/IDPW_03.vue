@@ -12,7 +12,7 @@
         class="icon-success"
       ></v-icon>
       <div class="complete-text">
-        <div><span>김신한</span>님</div>
+        <div>비밀번호 변경 완료</div>
         <p>비밀번호가 재설정 되었습니다.</p>
       </div>
     </div>

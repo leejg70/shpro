@@ -218,9 +218,9 @@ const DefaultRoutes = {
       component: () => import('@/views/dss/My/MY_07_01.vue')
     },
     {
-      name: 'MY_05',
-      path: '/MY_05',
-      component: () => import('@/views/dss/My/MY_05.vue')
+      name: 'MY_08',
+      path: '/MY_08',
+      component: () => import('@/views/dss/My/MY_08.vue')
     },
     {
       name: 'MY_06',

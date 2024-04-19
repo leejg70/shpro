@@ -6,14 +6,6 @@ const formTerms = ref({
   value: ['0', '1', '2'],
   allSelected: false,
 });
-const agreeOnOf = ref(true);
-const agreeClick = () => {
-  if(agreeOnOf.value == false){
-    agreeOnOf.value = true ;
-  } else {
-    agreeOnOf.value = false;
-  }
-};
 const dialog = ref(false);
 </script>
 
@@ -27,9 +19,9 @@ const dialog = ref(false);
       <div class="step-flow">
         <ul>
           <li class="complete"><i>1단계 본인인증</i></li>
-          <li class="current"><i>2단계 서비스이용동의</i></li>
+          <li class="current"><i>2단계 서비스이용약관</i></li>
           <li><i>3단계 정보입력</i></li>
-          <li><i>4단계 가입완료</i></li>
+          <li><i>4단계 신청완료</i></li>
         </ul>
         <span class="blind">현재 2단계 진행중</span>
       </div>
@@ -49,20 +41,13 @@ const dialog = ref(false);
                 <div class="form-checkbox">
                   <v-checkbox
                     v-model="formTerms.allSelected"
-                    label="서비스 이용약관 전체 동의"
+                    label="이용약관 전체 동의"
                     hide-details
                     class="check-all"
                   ></v-checkbox>
-                  <v-btn
-                    :class="agreeOnOf ? 'active' : ''"
-                    variant="text"
-                    icon="mdi-arrow-down"
-                    @click="agreeClick"
-                    class="btn-toggle"
-                  ></v-btn>
                 </div>
               </dt>
-              <dd v-show="agreeOnOf" class="terms-body">
+              <dd class="terms-body">
                 <div class="check-wrap">
                   <div class="form-checkbox">
                     <v-checkbox
@@ -91,6 +76,7 @@ const dialog = ref(false);
                     ></v-checkbox>
                   </div>
                   <v-btn
+                    :ripple="false"
                     append-icon="mdi-chevron-right"
                     variant="text"
                     class="btn-link"
@@ -144,7 +130,7 @@ const dialog = ref(false);
       block
       class="btn-popup-close"
     >
-      닫기
+      <span class="sr-only">닫기</span>
     </v-btn>
   </v-dialog>
 </template>

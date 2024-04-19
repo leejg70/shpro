@@ -21,7 +21,7 @@ const gender = ref('');
 const phone = ref('');
 const sms = ref('');
 const selected = ref('알뜰폰');
-const items = ['알뜰폰', 'SKT알뜰폰', 'KT알뜰폰', 'LG U+알뜰폰'];
+const items = ['알뜰폰', 'SKT 알뜰폰', 'KT 알뜰폰', 'LG U+ 알뜰폰'];
 </script>
 
 <template>
@@ -164,7 +164,6 @@ const items = ['알뜰폰', 'SKT알뜰폰', 'KT알뜰폰', 'LG U+알뜰폰'];
               density="comfortable"
               variant="outlined"
               color="primary"
-              rounded="md"
               hide-details="auto"
               clearable
               required
@@ -186,7 +185,6 @@ const items = ['알뜰폰', 'SKT알뜰폰', 'KT알뜰폰', 'LG U+알뜰폰'];
                   density="comfortable"
                   variant="outlined"
                   color="primary"
-                  rounded="md"
                   hide-details="auto"
                   clearable
                   required
@@ -203,7 +201,6 @@ const items = ['알뜰폰', 'SKT알뜰폰', 'KT알뜰폰', 'LG U+알뜰폰'];
                   density="comfortable"
                   variant="outlined"
                   color="primary"
-                  rounded="md"
                   hide-details="auto"
                   clearable
                   required
@@ -263,7 +260,6 @@ const items = ['알뜰폰', 'SKT알뜰폰', 'KT알뜰폰', 'LG U+알뜰폰'];
                 density="comfortable"
                 variant="outlined"
                 color="primary"
-                rounded="md"
                 hide-details="auto"
                 clearable
                 required
@@ -308,7 +304,6 @@ const items = ['알뜰폰', 'SKT알뜰폰', 'KT알뜰폰', 'LG U+알뜰폰'];
               density="comfortable"
               variant="outlined"
               color="primary"
-              rounded="md"
               hide-details="auto"
               required
             ></v-text-field>
@@ -356,7 +351,7 @@ const items = ['알뜰폰', 'SKT알뜰폰', 'KT알뜰폰', 'LG U+알뜰폰'];
       block
       class="btn-popup-close"
     >
-      닫기
+      <span class="sr-only">닫기</span>
     </v-btn>
   </v-dialog>
 </template>

@@ -30,11 +30,12 @@ const verifytpw = ref('');
       <div class="form-box change">
         <div class="form-group">
           <div class="ele-tit">
-            <v-label>비밀번호 재설정</v-label>
+            <v-label>새 비밀번호</v-label>
           </div>
           <div class="input-wrap">
             <v-text-field
-              aria-label="비밀번호 재설정"
+              :type="show ? 'text' : 'password'"
+              aria-label="새 비밀번호"
               v-model="resetpw"
               placeholder="새 비밀번호"
               density="comfortable"
@@ -45,18 +46,21 @@ const verifytpw = ref('');
               required
             ></v-text-field>
           </div>
-          <p class="text-tip success">숫자, 영문, 특수문자를 조합해 8~20자리로 생성해주세요.</p>
+          <p class="text-tip message">비밀번호는 숫자, 영문, 특수문자를 조합해 8~20자리로 생성해주세요.</p>
           <!--
-          <p class="text-tip error">인증번호가 전송되었습니다. 인증번호를 입력해주세요.</p>
+          <p class="text-tip error">비밀번호를 입력해주세요.</p>
+          <p class="text-tip error">이전 및 현재 비밀번호는 사용할 수 없습니다.</p>
+          <p class="text-tip error">비밀번호는 숫자, 영문, 특수문자를 조합해 8~20자리로 생성해주세요.</p>
           -->
         </div>
         <div class="form-group">
           <div class="ele-tit">
-            <v-label>비밀번호 확인</v-label>
+            <v-label>새 비밀번호 확인</v-label>
           </div>
           <div class="input-wrap">
             <v-text-field
-              aria-label="비밀번호 확인"
+              :type="show ? 'text' : 'password'"
+              aria-label="새 비밀번호 확인"
               v-model="verifytpw"
               placeholder="새 비밀번호 확인"
               density="comfortable"
@@ -67,7 +71,7 @@ const verifytpw = ref('');
               required
             ></v-text-field>
           </div>
-          <p class="text-tip error">비밀번호를 입력해주세요.</p>
+          <p class="text-tip error">비밀번호가 일치하지 않습니다. 입력하신 비밀번호와 동일하게 입력해주세요.</p>
         </div>
       </div>
       <div class="btn-wrap">

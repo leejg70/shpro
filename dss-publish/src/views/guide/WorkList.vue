@@ -850,7 +850,7 @@
 									<td class="col-4depth"></td>
 									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
-									<td class="col-url"><router-link to="/MY_05" target="_blank">/views/dss/My/MY_05</router-link></td>
+									<td class="col-url"><router-link to="/MY_05" target="_blank">/views/dss/My/MY_08</router-link></td>
 									<td class="col-date"></td>
 									<td class="col-complete"></td>
 									<td class="col-memo"></td>
@@ -1509,7 +1509,7 @@
 									<td class="col-5depth"></td>
 									<td class="col-point">popup</td>
 									<td class="col-url"><router-link to="/JOIN_02_02_01_p" target="_blank">/views/dss/Member/JOIN_02_02_01_p</router-link></td>
-									<td class="col-date">2024-04-12</td>
+									<td class="col-date"></td>
 									<td class="col-complete"></td>
 									<td class="col-memo"></td>
 								</tr>
@@ -1600,7 +1600,7 @@
 									<td class="col-5depth"></td>
 									<td class="col-point">popup</td>
 									<td class="col-url"><router-link to="/JOIN_02_02_01_p" target="_blank">/views/dss/Member/JOIN_02_02_01_p</router-link></td>
-									<td class="col-date">2024-04-12</td>
+									<td class="col-date"></td>
 									<td class="col-complete"></td>
 									<td class="col-memo"></td>
 								</tr>
@@ -1691,7 +1691,7 @@
 									<td class="col-5depth"></td>
 									<td class="col-point">popup</td>
 									<td class="col-url"><router-link to="/JOIN_02_02_01_p" target="_blank">/views/dss/Member/JOIN_02_02_01_p</router-link></td>
-									<td class="col-date">2024-04-12</td>
+									<td class="col-date"></td>
 									<td class="col-complete"></td>
 									<td class="col-memo"></td>
 								</tr>

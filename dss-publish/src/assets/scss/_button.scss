@@ -18,7 +18,7 @@
   }
   &.text-tertiary {
     color: #011b6a !important;
-    border: 1px solid #011b6a;
+    border: .1rem solid #011b6a;
   }
   &.text-info {
     background-color: #011b6a !important;
@@ -26,7 +26,7 @@
   &.text-Outlinded {
     color: #111518 !important;
     background-color: #fff;
-    border: 1px solid #ddd;
+    border: .1rem solid #ddd;
   }
 }
 
@@ -66,7 +66,7 @@
   pointer-events: none;
   color: #ccc !important;
   background-color: #fff;
-  border: 1px solid #eaeaea;
+  border: .1rem solid #eaeaea;
   opacity: 1;
 }
 .bg-tertiary.v-btn--disabled {
@@ -75,25 +75,22 @@
 .v-btn__overlay {
   background-color: transparent;
 }
-
 .v-btn.btn-search {
   all: unset;
-  position: absolute;
-  right: 1.6rem;
-  top: 50%;
-  transform: translateY(-50%);
+  overflow: hidden;
   display: block;
+  position: absolute;
+  top: 50%;
+  right: 1.6rem;
   width: 3.2rem;
   height: 3.2rem;
-  overflow: hidden;
-  background-image: url(../images/icon/icon_search_blue.png);
+  background-image: url('../images/icon/icon_search_blue.png');
   background-size: 3.2rem;
   background-position: center;
   background-repeat: no-repeat;
+  transform: translateY(-50%);
   cursor: pointer;
 }
-
-
 
 @media only screen and (max-width: 1280px) {
   .v-btn--size-x-large {
@@ -110,7 +107,7 @@
     --v-btn-size: 1.4rem;
     --v-btn-height: 4rem;
     font-size: var(--v-btn-size);
-    padding: 0 0.8rem;
+    padding: 0 .8rem;
     font-weight: 500;
   }
   .v-btn--size-x-small {
@@ -120,7 +117,6 @@
     padding: 0 1.6rem;
     font-weight: 500;
   }
-
   .v-btn.btn-search {
     width: 2.4rem;
     height: 2.4rem;
