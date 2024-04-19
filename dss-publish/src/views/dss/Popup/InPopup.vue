@@ -3,7 +3,7 @@ import { ref } from 'vue';
 </script>
 
 <template>
-  <div class="popup-wrap w36">
+  <div class="popup-wrap small">
     <div class="popup-head">
       <h3 class="title">기업추가</h3>
     </div>
