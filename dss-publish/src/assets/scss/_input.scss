@@ -22,7 +22,6 @@
         font-size: 2rem;
         font-weight: 500;
         color: #888;
-        line-height: 100%; 
         background-color: #fff;
         border-bottom: 1px solid #ddd;
       }
@@ -36,7 +35,8 @@
           height: .3rem;
           background-color:#111518;
         }
-        .v-label {  
+        .v-label {
+          font-weight: 700;
           color: #111518;
         }
       }      

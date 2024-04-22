@@ -1,6 +1,5 @@
 <script setup>
 import { ref } from 'vue';
-import Agreement from  '../Agreement/JOIN_05_01_01_p.vue';
 
 const formTerms = ref({
   value: ['0', '1', '2', '3', '4'],
@@ -82,7 +81,6 @@ const items = ['알뜰폰', 'SKT 알뜰폰', 'KT 알뜰폰', 'LG U+ 알뜰폰'];
                   <v-btn
                     append-icon="mdi-chevron-right"
                     variant="text"
-                    @click="dialog = true"
                     class="btn-link"
                   >
                     내용보기
@@ -98,7 +96,6 @@ const items = ['알뜰폰', 'SKT 알뜰폰', 'KT 알뜰폰', 'LG U+ 알뜰폰'];
                     ></v-checkbox>
                   </div>
                   <v-btn
-                    :ripple="false"
                     append-icon="mdi-chevron-right"
                     variant="text"
                     class="btn-link"
@@ -314,6 +311,7 @@ const items = ['알뜰폰', 'SKT 알뜰폰', 'KT 알뜰폰', 'LG U+ 알뜰폰'];
               variant="outlined"
               color="primary"
               hide-details="auto"
+              clearable
               required
             ></v-text-field>
             <span class="timer-box">
@@ -350,17 +348,4 @@ const items = ['알뜰폰', 'SKT 알뜰폰', 'KT 알뜰폰', 'LG U+ 알뜰폰'];
       </div>
     </Form>
   </div>
-  <v-dialog
-    v-model="dialog"
-    width="auto"
-  >
-    <Agreement></Agreement>
-    <v-btn
-      @click="dialog = false"
-      block
-      class="btn-popup-close"
-    >
-      <span class="sr-only">닫기</span>
-    </v-btn>
-  </v-dialog>
 </template>

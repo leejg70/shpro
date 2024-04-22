@@ -12,7 +12,6 @@ const radios = ref('1');
   <v-dialog
     v-model="company"
     width="auto"
-    persistent
   >
     <!-- 샘플 버튼 -->
     <template v-slot:activator="{ props: activatorProps }">
@@ -80,7 +79,7 @@ const radios = ref('1');
             </div>
             <div class="table-content">
               <v-radio-group hide-details="auto">
-                <ul class="table-list-body">
+                <ul class="table-list-body" v-if="radios ==1">
                   <!--
                   <li class="table-list-group">
                     <div class="tb-radio">
@@ -173,20 +172,108 @@ const radios = ref('1');
                     <p class="no-data-txt">검색된 결과가 없습니다.</p>
                   </li>
                   -->
-                 <ul v-if="radios ==1">
                   <li class="no-data" >
                     <p class="no-data-tit">기업명 검색</p>
                     <p class="no-data-txt">기업명 검색을 해주시기 바랍니다.</p>
                   </li>
                 </ul>
-                <ul v-if="radios ==2">
+                <ul class="table-list-body" v-if="radios ==2">
+                  <!--
+                  <li class="table-list-group">
+                    <div class="tb-radio">
+                      <v-radio
+                        label="기업선택"
+                        value="개인 회원1"
+                        class="default-type-radio"
+                      ></v-radio>
+                    </div>
+                    <ul class="table-list">                 
+                      <li class="bo-name">신한카드</li>
+                      <li class="bo-num">111-11-11111</li>
+                      <li class="bo-email">@samsung.com</li>
+                    </ul>
+                  </li>
+                  <li class="table-list-group">
+                    <div class="tb-radio">
+                      <v-radio
+                        label="기업선택"
+                        value="개인 회원2"
+                        class="default-type-radio"
+                      ></v-radio>
+                    </div>
+                    <ul class="table-list">
+                      <li class="bo-name">신한카드</li>
+                      <li class="bo-num">111-11-11111</li>
+                      <li class="bo-email">@naver.com</li>
+                    </ul>
+                  </li>
+                  <li class="table-list-group">
+                    <div class="tb-radio">
+                      <v-radio
+                        label="기업선택"
+                        value="개인 회원3"
+                        class="default-type-radio"
+                      ></v-radio>
+                    </div>
+                    <ul class="table-list">
+                      <li class="bo-name">신한카드</li>
+                      <li class="bo-num">111-11-11111</li>
+                      <li class="bo-email">@shinhancard.com</li>
+                    </ul>
+                  </li>
+                  <li class="table-list-group">
+                    <div class="tb-radio">
+                      <v-radio
+                        label="기업선택"
+                        value="개인 회원4"
+                        class="default-type-radio"
+                      ></v-radio>
+                    </div>
+                    <ul class="table-list">
+                      <li class="bo-name">신한카드</li>
+                      <li class="bo-num">111-11-11111</li>
+                      <li class="bo-email">@samsung.com</li>
+                    </ul>
+                  </li>
+                  <li class="table-list-group">
+                    <div class="tb-radio">
+                      <v-radio
+                        label="기업선택"
+                        value="개인 회원5"
+                        class="default-type-radio"
+                      ></v-radio>
+                    </div>
+                    <ul class="table-list">
+                      <li class="bo-name">신한카드</li>
+                      <li class="bo-num">111-11-11111</li>
+                      <li class="bo-email">@naver.com</li>
+                    </ul>
+                  </li>
+                  <li class="table-list-group">
+                    <div class="tb-radio">
+                      <v-radio
+                        label="기업선택"
+                        value="개인 회원6"
+                        class="default-type-radio"
+                      ></v-radio>
+                    </div>
+                    <ul class="table-list">
+                      <li class="bo-name">신한카드</li>
+                      <li class="bo-num">111-11-11111</li>
+                      <li class="bo-email">@shinhancard.com</li>
+                    </ul>
+                  </li>
+                  -->
+                  <!--
+                  <li class="no-data">
+                    <p class="no-data-tit">검색 결과</p>
+                    <p class="no-data-txt">검색된 결과가 없습니다.</p>
+                  </li>
+                  -->
                   <li class="no-data">
                     <p class="no-data-tit">사업자등록번호 검색</p>
                     <p class="no-data-txt">사업자등록번호 검색을 해주시기 바랍니다.</p>
                   </li>
-                </ul>
-                 
-
                 </ul>
               </v-radio-group>
             </div>

@@ -1,6 +1,5 @@
 <script setup>
 import { ref } from 'vue';
-import Agreement from  './JOIN_02_02_01_p.vue'
 
 const formTerms = ref({
   value: ['0', '1', '2'],
@@ -60,7 +59,6 @@ const dialog = ref(false);
                   <v-btn
                     append-icon="mdi-chevron-right"
                     variant="text"
-                    @click="dialog = true"
                     class="btn-link"
                   >
                     내용보기
@@ -76,7 +74,6 @@ const dialog = ref(false);
                     ></v-checkbox>
                   </div>
                   <v-btn
-                    :ripple="false"
                     append-icon="mdi-chevron-right"
                     variant="text"
                     class="btn-link"
@@ -120,17 +117,4 @@ const dialog = ref(false);
       </div>
     </Form>
   </div>
-  <v-dialog
-    v-model="dialog"
-    width="auto"
-  >
-    <Agreement></Agreement>
-    <v-btn
-      @click="dialog = false"
-      block
-      class="btn-popup-close"
-    >
-      <span class="sr-only">닫기</span>
-    </v-btn>
-  </v-dialog>
 </template>

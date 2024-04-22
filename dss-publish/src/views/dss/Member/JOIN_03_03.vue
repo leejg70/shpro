@@ -140,6 +140,7 @@ const verifytpw = ref('');
               variant="outlined"
               color="primary"
               hide-details="auto"
+              clearable
               required
             ></v-text-field>
             <span class="timer-box">

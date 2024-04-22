@@ -146,6 +146,9 @@
             margin-top: -0.3rem;
           }
         }
+        &.side-timer .v-field__clearable {
+          right: 6.8rem;
+        }
       }
       .jumin-wrap {
         overflow: hidden;
@@ -471,6 +474,9 @@
             .icon-timer {
               margin-top: 0;
             }
+          }
+          &.side-timer .v-field__clearable {
+            right: 5.8rem;
           }
         }
         .jumin-wrap {
