@@ -42,12 +42,19 @@
             <p class="name">김신한님!</p>
           </div> 
           <div class="logout-btn-area">
-            <a ref="" class="btn-mylink"><span class="icon-my-contract">나의계약</span></a>
-            <a ref="" class="btn-mylink"><span class="icon-my-qa">나의문의</span></a>
-            <a ref="" class="btn-mylink"><span class="icon-larm">알림</span></a>
-
-          </div>
-   
+            <v-btn class="btn-mylink">
+              <v-icon>icon-my-contract</v-icon>
+              <span class="ico-txt">나의계약</span>
+            </v-btn>
+            <v-btn class="btn-mylink">
+              <v-icon>icon-my-qa</v-icon>
+              <span class="ico-txt">나의문의</span>
+            </v-btn>
+            <v-btn class="btn-mylink">
+              <v-icon>icon-larm</v-icon>
+              <span class="ico-txt">알림</span>
+            </v-btn>
+          </div>   
         </div>
  
         <div class="notice-box">          

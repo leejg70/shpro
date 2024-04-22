@@ -114,10 +114,37 @@
           border-radius: 16px;
           background:  #F7F8FC; 
           .btn-mylink{
-            height: 8.4rem;
-            width: 100%;
-            border: 1px solid #eee;
-            span{}
+            all: unset;          
+            width: 33.3333%;
+            .v-btn__content{
+              all: unset;
+              padding: 1.2rem 0 1.6rem;
+              display: flex;
+              flex-direction: column;
+              justify-content: center;
+              align-items: center; 
+              width: 100%;
+              .ico-txt{
+                margin-top:1rem;
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 100%;
+              }
+              .v-icon{
+                width: 32px; height: 32px; 
+                background-size: 100%;                
+              }
+              .icon-my-contract{                
+                background-image: url(../images/icon/icon_my_contract.png);                 
+              }
+              .icon-my-qa{
+                background-image: url(../images/icon/icon_my_qa.png);
+              }
+              .icon-larm{
+                background-image: url(../images/icon/icon_larm.png);
+              }        
+            }
           }
         }
       }
