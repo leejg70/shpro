@@ -25,26 +25,6 @@
     padding-right: 8rem;
   }
 }
-/* 데이터 없음 */
-.no-data {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 4.8rem 3.2rem;
-  width: 100%;
-  .no-data-tit {
-    color: #111518;
-    font-size: 2.4rem;
-    font-weight: 500;
-    line-height: 150%;
-  }
-  .no-data-txt {
-    margin-top: 1.2rem; 
-    color: #666;
-    font-size: 1.6rem;
-    line-height: 150%;
-  }
-}
 /* 팝업 */
 .btn-wrap.popup {
   margin-top: .8rem;
@@ -54,24 +34,6 @@
 .popup-agree-wrap .popup-cont {
   overflow: hidden;
   max-height: max-content;
-}
-/* 설명글 */
-.info-area {
-  padding: 2.4rem 3.2rem 0 3.2rem;
-  .info-tip {      
-    color: #666;
-    font-size: 1.4rem;
-  }
-  .info-title {
-    display: flex;
-    align-items: center;
-    padding: 1.6rem 0;
-    font-size: 1.6rem;
-    color: #111518;
-    .info-txt {
-      margin-right: .8rem;
-    }
-  }
 }
 .popup-scroll-area .table-wrap {
   height: 30rem;
@@ -142,6 +104,43 @@
         padding: 0 1.6rem;
         text-align:left;
       }
+    }
+  }
+}
+/* 데이터 없음 */
+.no-data {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding: 4.8rem 3.2rem;
+  border-bottom: .1rem solid #e5e5e5;
+  .no-data-tit {
+    color: #111518;
+    font-size: 2.4rem;
+    font-weight: 500;
+  }
+  .no-data-txt {
+    margin-top: 1.2rem;
+    font-size: 1.6rem;
+    color: #666;
+  }
+}
+/* 설명글 */
+.info-area {
+  padding: 2.4rem 3.2rem 0 3.2rem;
+  .info-tip {      
+    color: #666;
+    font-size: 1.4rem;
+  }
+  .info-title {
+    display: flex;
+    align-items: center;
+    padding: 1.6rem 0;
+    font-size: 1.6rem;
+    color: #111518;
+    .info-txt {
+      margin-right: .8rem;
     }
   }
 }

@@ -62,6 +62,7 @@ const radios = ref('기업명을 동일하게 입력해주세요');
             <div class="table-content">
               <v-radio-group hide-details="auto">
                 <ul class="table-list-body">
+                  <!--
                   <li class="table-list-group">
                     <div class="tb-radio">
                       <v-radio
@@ -146,12 +147,23 @@ const radios = ref('기업명을 동일하게 입력해주세요');
                       <li class="bo-email">@shinhancard.com</li>
                     </ul>
                   </li>
+                  -->
                   <!--
                   <li class="no-data">
                     <p class="no-data-tit">검색 결과</p>
                     <p class="no-data-txt">검색된 결과가 없습니다.</p>
                   </li>
                   -->
+                  <!--
+                  <li class="no-data">
+                    <p class="no-data-tit">기업명 검색</p>
+                    <p class="no-data-txt">기업명 검색을 해주시기 바랍니다.</p>
+                  </li>
+                  -->
+                  <li class="no-data">
+                    <p class="no-data-tit">사업자등록번호 검색</p>
+                    <p class="no-data-txt">사업자등록번호 검색을 해주시기 바랍니다.</p>
+                  </li>
                 </ul>
               </v-radio-group>
             </div>
