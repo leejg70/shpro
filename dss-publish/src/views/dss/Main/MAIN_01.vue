@@ -22,57 +22,80 @@
         </div>
       </div>
       <div class="my-login-wrap">
-        <div class="outlogin-box login"> 
-          <i class="main-login-photo"></i>
+        <div class="outlogin-box">        
+          <v-icon class="main-login-photo"><img src="../../../assets/images/icon/icon_main_login.png" alt=""></v-icon>
           <p class="login-txt">로그인 후<br>나만의 맞춤 정보를 이용하세요.</p> 
-          <button >로그인</button>
+          <!-- <button >로그인</button> -->
+          <v-btn
+            :ripple="false"
+            variant="flat"
+            color="primary"
+            size="large"
+            rounded="lg"
+          >
+          로그인
+          </v-btn> 
         </div>
+        <div class="outlogin-box">          
+          <div class="logout-txt">
+            <p >안녕하세요.</p>
+            <p class="name">김신한님!</p>
+          </div> 
+          <div class="logout-btn-area">
+            <a ref="" class="btn-mylink"><span class="icon-my-contract">나의계약</span></a>
+            <a ref="" class="btn-mylink"><span class="icon-my-qa">나의문의</span></a>
+            <a ref="" class="btn-mylink"><span class="icon-larm">알림</span></a>
+
+          </div>
+   
+        </div>
+ 
         <div class="notice-box">          
           <div class="notice-banner"><img src=" " alt=""></div>
-          <div class="roll-notice">
+          <div class="report-roll-box">
             Trend Report
             ShinhanCard Data Market 신규 오픈(두줄)
             2024.08.08
              
           </div>
-        </div>       
+        </div>            
       </div>
     </div>
     <div class="main-search-wrap">검색</div> 
     <div class="main-card-wrap">
       <div class="main-card-inner">
-        <button class="card-box">
+        <v-btn class="card-box">
           <div class="title-area">
             <span class="card-stit">다양한</span>
             <strong class="card-title">Data 서비스</strong>
           </div>
-          <i class="card-icon ico-main-data"></i>
+          <v-icon class="card-icon ico-main-data"></v-icon>
           <spoan class="card-txt">Data One-Stop Service</spoan>
-        </button>
-        <button class="card-box">
+        </v-btn>
+        <v-btn class="card-box">
           <div class="title-area">
             <span class="card-stit">폭발적인</span>
           <strong class="card-title">솔루션서비스 </strong>
           </div>
-          <i class="card-icon ico-main-solution"></i>
+          <v-icon class="card-icon ico-main-solution"></v-icon>
           <spoan class="card-txt">상권분석, 시장 모니터링</spoan>
-        </button> 
-        <button class="card-box">
+        </v-btn> 
+        <v-btn class="card-box">
           <div class="title-area">
             <span class="card-stit">스마트한</span>
             <strong class="card-title">광고서비스 </strong>
           </div>
-          <i class="card-icon ico-main-ad "></i>
+          <v-icon class="card-icon ico-main-ad "></v-icon>
           <spoan class="card-txt">최적의 고객 타겟팅</spoan>
-        </button> 
-        <button class="card-box">
+        </v-btn> 
+        <v-btn class="card-box">
           <div class="title-area">
             <span class="card-stit">경이로운</span> 
             <strong class="card-title">API서비스</strong>
           </div>
-          <i class="card-icon ico-main-api"></i>
+          <v-icon class="card-icon ico-main-api"></v-icon>
           <spoan class="card-txt">Data 실시간 활용</spoan>
-        </button>    
+        </v-btn>    
       </div>      
     </div>
     <div class="main-services-wrap">
