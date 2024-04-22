@@ -2,7 +2,10 @@
 import { ref } from 'vue';
 
 const company = ref(false);
-const radios = ref('기업명을 동일하게 입력해주세요');
+const radios = ref('1');
+
+// radios = ref('기업명을 동일하게 입력해주세요');
+
 </script>
 
 <template>
@@ -27,17 +30,33 @@ const radios = ref('기업명을 동일하게 입력해주세요');
       <div class="popup-cont">
         <div class="radio-wrap radio-tap">
           <v-radio-group v-model="radios">
-            <v-radio label="기업명 검색" value="기업명을 동일하게 입력해주세요"></v-radio>
-            <v-radio label="사업자등록번호 검색" value="사업자등록번호를 동일하게 입력해주세요"></v-radio>
+            <v-radio label="기업명 검색" value="1"></v-radio>
+            <v-radio label="사업자등록번호 검색" value="2"></v-radio>
           </v-radio-group>
         </div>
-        <div class="search-area">
+        <div class="search-area" v-if="radios ==1">
           <div class="input-wrap">
             <v-text-field
               color="primary"
-              hide-details="auto"
-              persistent-placeholder
-              :placeholder="radios"
+              hide-details="auto"             
+              placeholder="기업명을 입력해주세요."
+              variant="outlined"
+              clearable
+            ></v-text-field>
+            <v-btn
+              block
+              class="btn-search"
+            >
+              <span class="sr-only">검색</span>
+            </v-btn>
+          </div>
+        </div>
+        <div class="search-area" v-if="radios ==2">
+          <div class="input-wrap">
+            <v-text-field
+              color="primary"
+              hide-details="auto"              
+              placeholder="사업자등록번호를 입력해주세요."
               variant="outlined"
               clearable
             ></v-text-field>
@@ -154,16 +173,20 @@ const radios = ref('기업명을 동일하게 입력해주세요');
                     <p class="no-data-txt">검색된 결과가 없습니다.</p>
                   </li>
                   -->
-                  <!--
-                  <li class="no-data">
+                 <ul v-if="radios ==1">
+                  <li class="no-data" >
                     <p class="no-data-tit">기업명 검색</p>
                     <p class="no-data-txt">기업명 검색을 해주시기 바랍니다.</p>
                   </li>
-                  -->
+                </ul>
+                <ul v-if="radios ==2">
                   <li class="no-data">
                     <p class="no-data-tit">사업자등록번호 검색</p>
                     <p class="no-data-txt">사업자등록번호 검색을 해주시기 바랍니다.</p>
                   </li>
+                </ul>
+                 
+
                 </ul>
               </v-radio-group>
             </div>
