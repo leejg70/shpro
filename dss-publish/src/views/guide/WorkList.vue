@@ -33,8 +33,8 @@
 		<!-- //Note -->
 		<br>
 		<div class="ia-total">
-			<p class="ia-msg">전체 페이지 : 150</p>
-			<p class="ia-version">IA 버전 : v0.97</p>
+			<p class="ia-msg">전체 페이지 : 152</p>
+			<p class="ia-version">IA 버전 : v0.98</p>
 		</div>
 		<!-- 00_Guide -->
 		<!-- wait:작업중, done:완료, del:삭제, except:보류
@@ -266,7 +266,7 @@
 			<div class="ia-section-header">
 				<h2 class="ia-h2"><a href="#this" class="accordion-toggle">GNB 메뉴</a></h2>
 				<div class="ia-legend">
-					<span class="item"><em>총 페이지 : </em><em class="legend-total">46</em>,</span>
+					<span class="item"><em>총 페이지 : </em><em class="legend-total">48</em>,</span>
 					<span class="item c-done"><em>완료 : </em><em class="legend-complete">0</em>,</span>
 					<span class="item"><em>진척률 : </em><em class="legend-process">0%</em></span>
 				</div>
@@ -638,7 +638,7 @@
 									<td class="col-num"></td>
 									<td class="col-1depth"></td>
 									<td class="col-2depth">API서비스 이용방법 안내</td>
-									<td class="col-3depth"></td>
+									<td class="col-3depth">이용절차</td>
 									<td class="col-4depth"></td>
 									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
@@ -649,8 +649,34 @@
 								</tr>
 								<tr>
 									<td class="col-num"></td>
+									<td class="col-1depth"></td>
+									<td class="col-2depth"></td>
+									<td class="col-3depth">개발자가이드</td>
+									<td class="col-4depth"></td>
+									<td class="col-5depth"></td>
+									<td class="col-point">page</td>
+									<td class="col-url"><router-link to="/PRDA_00_03" target="_blank">/views/dss/APIService/PRDA_00_03</router-link></td>
+									<td class="col-date"></td>
+									<td class="col-complete"></td>
+									<td class="col-memo"></td>
+								</tr>
+								<tr>
+									<td class="col-num"></td>
 									<td class="col-1depth">My</td>
 									<td class="col-2depth">계정전환</td>
+									<td class="col-3depth"></td>
+									<td class="col-4depth"></td>
+									<td class="col-5depth"></td>
+									<td class="col-point">page</td>
+									<td class="col-url"><router-link to="/MY_00" target="_blank">/views/dss/My/MY_00</router-link></td>
+									<td class="col-date"></td>
+									<td class="col-complete"></td>
+									<td class="col-memo"></td>
+								</tr>
+								<tr>
+									<td class="col-num"></td>
+									<td class="col-1depth"></td>
+									<td class="col-2depth"></td>
 									<td class="col-3depth">정보입력(개인사업자)</td>
 									<td class="col-4depth"></td>
 									<td class="col-5depth"></td>
@@ -1778,7 +1804,7 @@
 									<td class="col-1depth"></td>
 									<td class="col-2depth"></td>
 									<td class="col-3depth"></td>
-									<td class="col-4depth">기업등록요청 팝업</td>
+									<td class="col-4depth">기업추가요청 팝업</td>
 									<td class="col-5depth"></td>
 									<td class="col-point">popup</td>
 									<td class="col-url"><router-link to="/JOIN_04_03_04_p" target="_blank">/views/dss/Member/JOIN_04_03_04_p</router-link></td>

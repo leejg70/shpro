@@ -143,6 +143,16 @@ const DefaultRoutes = {
       component: () => import('@/views/dss/APIService/PRDA_00_02.vue')
     },
     {
+      name: 'PRDA_00_03',
+      path: '/PRDA_00_03',
+      component: () => import('@/views/dss/APIService/PRDA_00_03.vue')
+    },
+    {
+      name: 'MY_00',
+      path: '/MY_00',
+      component: () => import('@/views/dss/My/MY_00.vue')
+    },
+    {
       name: 'MY_01',
       path: '/MY_01',
       component: () => import('@/views/dss/My/MY_01.vue')
