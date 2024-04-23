@@ -158,6 +158,7 @@ const items = ['알뜰폰', 'SKT 알뜰폰', 'KT 알뜰폰', 'LG U+ 알뜰폰'];
               aria-label="이름"
               v-model="realNm"
               placeholder="이름 입력"
+              title="이름 입력해 주세요."
               density="comfortable"
               variant="outlined"
               color="primary"

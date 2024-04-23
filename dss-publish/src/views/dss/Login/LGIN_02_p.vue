@@ -1,27 +1,57 @@
 <script setup>
 import { ref } from 'vue';
 
-const company = ref(false);
+const dormant = ref(false);
 </script>
 
 <template>
   <v-dialog
-    v-model="company"
+    v-model="dormant"
     width="auto"
-    persistent
   >
     <!-- 샘플 버튼 -->
     <template v-slot:activator="{ props: activatorProps }">
       <v-btn v-bind="activatorProps">
-        기업찾기 팝업
+        휴면계정 알림 팝업
       </v-btn>
     </template>
     <!-- // 샘플 버튼 -->
 
-    <!-- 기업찾기 -->
-    <div class="popup-wrap large">
-
+    <!-- 휴면계정 알림 -->
+    <div class="popup-wrap small">
+      <div class="popup-head">
+        <h3 class="h-title">휴면계정 알림</h3>
+      </div>
+      <div class="popup-cont">
+        <p class="alarm">고객님의 계정이 오랜시간 동안 접속되지 않아 휴면 상태로 전환되었습니다.<br>계속해서 시비스를 이용하시려면 본인인증을 해주세요.</p>
+      </div>
+      <div class="btn-wrap">
+        <v-btn
+          variant="flat"
+          color="secondary"
+          size="large"
+          rounded="md"
+          class="btn-w8"
+        >
+          취소
+        </v-btn>
+        <v-btn
+          variant="flat"
+          color="primary"
+          size="large"
+          rounded="md"
+          class="btn-w14"
+        >
+          확인
+        </v-btn>
+      </div>
     </div>
-    <!-- // 기업찾기 -->
+    <!-- // 휴면계정 알림 -->
   </v-dialog>
 </template>
+
+<style scoped>
+.v-btn--size-default {
+  font-size: 1.4rem;
+}
+</style>

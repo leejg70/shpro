@@ -293,7 +293,7 @@ const radios = ref('1');
               color="Outlinded"
               size="x-small"
               rounded="md"
-              class="text-outlinded"
+              class="text-outlinded "
             >
               기업 추가
             </v-btn>

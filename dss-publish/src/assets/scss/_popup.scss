@@ -24,9 +24,9 @@
     width: 79.2rem;
   }
   &.small {
-    width: 58.8rem;
-    .btn-wrap {
-      margin-top: 0;
+    width: 42.4rem;
+    .popup-head {
+      padding: 4.8rem 3.2rem 1.6rem;
     }
   }
   .popup-head {
@@ -39,7 +39,13 @@
     }
   }
   .popup-cont {
-    padding: 0 3.2rem; 
+    padding: 0 3.2rem;
+    .alarm {
+      padding: 1.6rem 0 2.4rem;
+      font-size: 1.6rem;
+      color: #333;
+      word-break: keep-all;
+    }
   }
   .popup-scroll-area {
     overflow: auto;
@@ -67,14 +73,6 @@
     width: 100%;
     .btn-popwrap {
       padding-top: 2.4rem; 
-      padding-bottom: 2.4rem;
-    }
-  } 
-  .popup-foot.poup {
-    position: relative;
-    width: 100%;
-    .btn-popwrap{
-      padding-top: 1.6rem; 
       padding-bottom: 2.4rem;
     }
   }
@@ -176,14 +174,6 @@
       width: 100%;
       .btn-popwrap {
         padding-top: 2.4rem; 
-        padding-bottom: 2.4rem;
-      }
-    }
-    .popup-foot.poup {
-      position:relative;
-      width: 100%;
-      .btn-popwrap {
-        padding-top: 1.6rem;
         padding-bottom: 2.4rem;
       }
     }
