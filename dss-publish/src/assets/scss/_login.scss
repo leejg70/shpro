@@ -54,14 +54,50 @@
   }
   .form-checkbox {
     margin-bottom: 4rem;
+    .check-all {
+      display: block;
+      position: relative;
+      &.v-input--density-default:not(.v-autocomplete--multiple) {
+        --v-input-control-height: 2.4rem;
+      }
+      .v-selection-control {
+        width: 100%;
+      }
+      .v-selection-control__input {
+        width: 2.4rem;
+        height: 2.4rem;
+        &::before {
+          background-color: transparent;
+        }
+        > .v-icon {
+          width: 100%;
+          height: 100%;
+          opacity: 1;
+        }
+      }
+      .v-selection-control__wrapper {
+        width: 2.4rem;
+        height: 2.4rem;
+      }
+      .mdi-checkbox-blank-outline::before {
+        content: '';
+        width: 2.4rem;
+        height: 2.4rem;
+        background-image: url('../images/icon/icon_checkbox_off.svg');
+        background-size: 100%;
+      }
+      .mdi-checkbox-marked::before {
+        content: '';
+        width: 2.4rem;
+        height: 2.4rem;
+        background-image: url('../images/icon/icon_checkbox_on.svg');
+        background-size: 100%;
+      }
+    }
     .v-checkbox .v-label {
       margin: 0 0 0 .8rem;
       font-size: 1.6rem;
       font-weight: 400;
-    }
-    .check-all .v-selection-control__input {
-      width: 2.4rem;
-      height: 2.4rem;
     }
   }
   .v-btn--size-large {

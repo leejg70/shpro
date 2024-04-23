@@ -49,6 +49,17 @@
             width: 2rem;
             height: 2rem;
             vertical-align: top;
+            &::before {
+              content: '';
+              display: block;
+              position: absolute;
+              top: 0;
+              left: 0;
+              width: 2rem;
+              height: 2rem;
+              background-image: url('../images/icon/icon_step_check.png');
+              background-size: 100%;
+            }
           }
           &:last-child {
             width: auto;
@@ -60,6 +71,23 @@
             &::before {
               border-top: .1rem solid #356cff;
             }
+            i {
+              width: 2rem;
+              height: 2rem;
+              background-image: url('../images/icon/icon_step_on.png');
+              background-size: 100%;
+            }
+          }
+          i {
+            overflow: hidden;
+            display: inline-block;
+            position: relative;
+            width: 2rem;
+            height: 2rem;
+            background-image: url('../images/icon/icon_step_off.png');
+            background-size: 100%;
+            vertical-align: baseline;
+            text-indent: -999.9rem;
           }
         }
       }
@@ -143,7 +171,15 @@
           line-height: 2rem;
           box-sizing: border-box;
           .icon-timer {
+            width: 2rem;
+            height: 2rem;
             margin-top: -0.3rem;
+            background-image: url('../images/icon/icon_timer.png');
+            background-size: 100%;
+          }
+          span {
+            position: relative;
+            margin-left: .4rem;
           }
         }
         &.side-timer .v-field__clearable {
@@ -201,6 +237,22 @@
           position: relative;
           width: 100%;
           margin-top: 1.6rem;
+          .v-field--center-affix .v-field__append-inner {
+            align-items: flex-start;
+            margin: 1.2rem 1.6rem 1.2rem 0;
+          }
+          .v-select__menu-icon {
+            width: 2.4rem;
+            height: 2.4rem;
+            margin: 0;
+          }
+          .mdi-menu-down::before {
+            content: '';
+            width: 2.4rem;
+            height: 2.4rem;
+            background-image: url('../images/btn/btn_sel_arrow.png');
+            background-size: 100%;
+          }
           .v-select .v-field {
             font-size: 1.6rem;
           }
@@ -338,6 +390,54 @@
                   display: block;
                   position: relative;
                   width: 100%;
+                  .check-agree {
+                    display: block;
+                    position: relative;
+                    &.v-input--density-default:not(.v-autocomplete--multiple) {
+                      --v-input-control-height: 3.2rem;
+                    }
+                    .v-selection-control {
+                      width: 100%;
+                    }
+                    .v-selection-control__input {
+                      position: absolute;
+                      top: 0;
+                      left: 0;
+                      width: 3.2rem;
+                      height: 3.2rem;
+                      padding: .4rem;
+                      &::before {
+                        background-color: transparent;
+                      }
+                      > .v-icon {
+                        width: 100%;
+                        height: 100%;
+                        opacity: 1;
+                      }
+                    }
+                    .v-selection-control__wrapper {
+                      position: absolute;
+                      top: 0;
+                      left: 0;
+                      width: 3.2rem;
+                      height: 3.2rem;
+                      padding: .4rem;
+                    }
+                    .mdi-checkbox-blank-outline::before {
+                      content: '';
+                      width: 2.4rem;
+                      height: 2.4rem;
+                      background-image: url('../images/icon/icon_arrow_off.svg');
+                      background-size: 100%;
+                    }
+                    .mdi-checkbox-marked::before {
+                      content: '';
+                      width: 2.4rem;
+                      height: 2.4rem;
+                      background-image: url('../images/icon/icon_arrow_on.svg');
+                      background-size: 100%;
+                    }
+                  }
                   .v-checkbox .v-label {
                     display: block;
                     position: relative;
@@ -358,9 +458,17 @@
                   padding: 0;
                   font-size: 1.4rem;
                   color: #111518;
-                  line-height: 100%;
-                  .v-btn__append {
-                    margin: .2rem 0 0 .2rem;
+                  line-height: 2.4rem;
+                  z-index: 2;
+                  span {
+                    position: relative;
+                  }
+                  .icon-arrow-right {
+                    display: inline-block;
+                    width: 2rem;
+                    height: 2rem;
+                    background-image: url('../images/btn/btn_arrow.png');
+                    background-size: 100%;
                   }
                 }
               }
@@ -426,6 +534,8 @@
     .icon-success {
       width: 8rem;
       height: 8rem;
+      background-image: url('../images/icon/icon_success.png');
+      background-size: 100%;
     }
     .complete-text {
       margin-top: 3.2rem;
@@ -512,7 +622,7 @@
             padding: 0;
           }
           &.side-timer .v-field__input {
-            padding-right: 6.1rem;
+            padding-right: 6rem;
           }
           &.side-timer .timer-box {
             top: 1.1rem;
@@ -520,7 +630,7 @@
             width: 4.9rem;
             font-size: 1.2rem;
             .icon-timer {
-              margin-top: 0;
+              margin-top: -.1rem;
             }
           }
           &.side-timer .v-field__clearable {
@@ -548,6 +658,9 @@
         .phone-wrap {
           .select-wrap {
             margin-top: .8rem;
+            .v-field--center-affix .v-field__append-inner {
+              margin: .9rem 1.6rem .9rem 0;
+            }
             .v-select .v-field {
               font-size: 1.4rem;
             }
@@ -608,12 +721,9 @@
                   }
                   .btn-link {
                     font-size: 1.2rem;
-                    .v-btn__append {
-                      margin: 0 0 0 .2rem;
-                      .mdi-chevron-right::before {
-                        width: 1.6rem;
-                        height: 1.6rem;
-                      }
+                    .icon-arrow-right {
+                      width: 1.6rem;
+                      height: 1.6rem;
                     }
                   }
                 }
@@ -645,10 +755,6 @@
     .complete-box {
       padding: 4rem 0 3.2rem;
       .icon-success {
-        width: 7.2rem;
-        height: 7.2rem;
-      }
-      .mdi-check-circle-outline::before {
         width: 7.2rem;
         height: 7.2rem;
       }

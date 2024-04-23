@@ -7,10 +7,7 @@
       <div class="step-txt">해제 완료</div>
     </div>
     <div class="complete-box">
-      <v-icon
-        icon="mdi-check-circle-outline"
-        class="icon-success"
-      ></v-icon>
+      <v-icon>icon-success</v-icon>
       <div class="complete-text">
         <div>휴면계정 해제 완료</div>
         <p>다시 로그인해 주시기 바랍니다.</p>

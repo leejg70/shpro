@@ -21,6 +21,7 @@ const sms = ref('');
 const radioGroup = ref('');
 const selected = ref('알뜰폰');
 const items = ['알뜰폰', 'SKT 알뜰폰', 'KT 알뜰폰', 'LG U+ 알뜰폰'];
+const valid = ref(false);
 </script>
 
 <template>
@@ -75,8 +76,8 @@ const items = ['알뜰폰', 'SKT 알뜰폰', 'KT 알뜰폰', 'LG U+ 알뜰폰'];
                     variant="text"
                     class="btn-link"
                   >
+                    <span>내용보기</span>
                     <v-icon>icon-arrow-right</v-icon>
-                    <span class="">내용보기</span>
                   </v-btn>
                 </div>
                 <div class="check-wrap">
@@ -92,8 +93,8 @@ const items = ['알뜰폰', 'SKT 알뜰폰', 'KT 알뜰폰', 'LG U+ 알뜰폰'];
                     variant="text"
                     class="btn-link"
                   >
+                    <span>내용보기</span>
                     <v-icon>icon-arrow-right</v-icon>
-                    <span class="">내용보기</span>
                   </v-btn>
                 </div>
                 <div class="check-wrap">
@@ -106,11 +107,11 @@ const items = ['알뜰폰', 'SKT 알뜰폰', 'KT 알뜰폰', 'LG U+ 알뜰폰'];
                     ></v-checkbox>
                   </div>
                   <v-btn
-                    append-icon="mdi-chevron-right"
                     variant="text"
                     class="btn-link"
                   >
-                    내용보기
+                    <span>내용보기</span>
+                    <v-icon>icon-arrow-right</v-icon>
                   </v-btn>
                 </div>
                 <div class="check-wrap">
@@ -123,11 +124,11 @@ const items = ['알뜰폰', 'SKT 알뜰폰', 'KT 알뜰폰', 'LG U+ 알뜰폰'];
                     ></v-checkbox>
                   </div>
                   <v-btn
-                    append-icon="mdi-chevron-right"
                     variant="text"
                     class="btn-link"
                   >
-                    내용보기
+                    <span>내용보기</span>
+                    <v-icon>icon-arrow-right</v-icon>
                   </v-btn>
                 </div>
                 <div class="check-wrap">
@@ -140,11 +141,11 @@ const items = ['알뜰폰', 'SKT 알뜰폰', 'KT 알뜰폰', 'LG U+ 알뜰폰'];
                     ></v-checkbox>
                   </div>
                   <v-btn
-                    append-icon="mdi-chevron-right"
                     variant="text"
                     class="btn-link"
                   >
-                    내용보기
+                    <span>내용보기</span>
+                    <v-icon>icon-arrow-right</v-icon>
                   </v-btn>
                 </div>
               </dd>
@@ -314,11 +315,8 @@ const items = ['알뜰폰', 'SKT 알뜰폰', 'KT 알뜰폰', 'LG U+ 알뜰폰'];
               required
             ></v-text-field>
             <span class="timer-box">
-              <v-icon
-                icon="mdi-clock-outline"
-                class="icon-timer"
-              ></v-icon>
-              2:44
+              <v-icon>icon-timer</v-icon>
+              <span>2:44</span>
             </span>
             <v-btn
               variant="outlined"
@@ -335,12 +333,12 @@ const items = ['알뜰폰', 'SKT 알뜰폰', 'KT 알뜰폰', 'LG U+ 알뜰폰'];
       </div>
       <div class="btn-wrap">
         <v-btn
+          :disabled="valid"
           variant="flat"
           color="primary"
           size="x-large"
           rounded="lg"
           class="btn-w14"
-          disabled
         >
           다음
         </v-btn>

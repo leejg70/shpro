@@ -153,26 +153,7 @@ address span {display: inline-block; margin-right: 1.6rem;}
 .v-field {padding: 0;}
 .v-messages__message {line-height: 150%;}
 
-/* Checkbox */
-.check-agree.v-input--density-default:not(.v-autocomplete--multiple) {--v-input-control-height: 3.2rem;}
-.check-agree .v-selection-control {width: 100%;}
-.check-agree .v-selection-control__input,
-.check-agree .v-selection-control__wrapper {position: absolute; top: 0; left: 0; width: 3.2rem; height: 3.2rem; padding: .4rem;}
-.check-agree .v-selection-control__input::before {background-color: transparent;}
-.check-agree .v-selection-control__input > .v-icon {width: 100%; height: 100%; opacity: 1;}
-.check-agree .mdi-checkbox-blank-outline::before {content: ''; width: 2.4rem; height: 2.4rem; background-image: url('../images/icon/icon_arrow_off.svg'); background-size: 100%;}
-.check-agree .mdi-checkbox-marked::before {content: ''; width: 2.4rem; height: 2.4rem; background-image: url('../images/icon/icon_arrow_on.svg'); background-size: 100%;}
-
-/* Ico Arrow */
-.terms-wrap .mdi-chevron-right::before {content: ''; width: 2rem; height: 2rem; background-image: url('../images/btn/btn_arrow.png'); background-size: 100%;}
-
-.select-wrap .v-field--center-affix .v-field__append-inner {align-items: flex-start; margin: 1.2rem 1.6rem 1.2rem 0;}
-.select-wrap .v-select__menu-icon {width: 2.4rem; height: 2.4rem; margin: 0;}
-.select-wrap .mdi-menu-down::before {content: ''; width: 2.4rem; height: 2.4rem; background-image: url('../images/btn/btn_sel_arrow.png'); background-size: 100%;}
-
-.side-timer .mdi-clock-outline::before {content: ''; width: 2rem; height: 2rem; background-image: url('../images/icon/icon_timer.png'); background-size: 100%;}
-
-/* Select */
+/* Select Option */
 .v-overlay-container .v-menu > .v-overlay__content {background-color: transparent; border: none; border-radius: .8rem; box-shadow: none;}
 .v-overlay-container .v-menu > .v-overlay__content > .v-list {margin-top: .4rem; margin-bottom: .4rem; padding-top: .6rem; padding-bottom: .6rem; background-color: #fff; border: .1rem solid #356cff; border-radius: .8rem; box-shadow: none;}
 .v-overlay-container .v-list-item-title {font-size: 1.6rem; color: #111518;}
@@ -181,14 +162,6 @@ address span {display: inline-block; margin-right: 1.6rem;}
 .v-overlay-container .v-list-item--active > .v-list-item__overlay {opacity: 1;}
 .v-overlay-container .v-list-item__content {z-index: 1;}
 
-/* Success */
-.complete-box .mdi-check-circle-outline::before {content: ''; width: 8rem; height: 8rem; background-image: url('../images/icon/icon_success.png'); background-size: 100%;}
-
-/* Step */
-.step-flow ul li i {overflow: hidden; display: inline-block; position: relative; width: 2rem; height: 2rem; background-image: url('../images/icon/icon_step_off.png'); background-size: 100%; vertical-align: baseline; text-indent: -999.9rem;}
-.step-flow ul li.complete i {width: 2rem; height: 2rem; background-image: url('../images/icon/icon_step_on.png'); background-size: 100%;}
-.step-flow ul li.current i::before {content: ''; display: block; position: absolute; top: 0; left: 0; width: 2rem; height: 2rem; background-image: url('../images/icon/icon_step_check.png'); background-size: 100%;}
-
 /* Delete */
 .mdi-close-circle::before {color: #949494;}
 
@@ -196,23 +169,6 @@ address span {display: inline-block; margin-right: 1.6rem;}
 .btn-wrap {display: flex; justify-content: center; align-items: center; margin-top: 6.4rem;}
 .btn-wrap .btn-w14 {width: 22.4rem;}
 .btn-wrap .btn-w14 + .btn-w14 {margin-left: 1.6rem;}
-
-/* popup Button */
-// .btn-popwrap {
-//     display: flex;
-//     justify-content: center;
-//     align-items: flex-start;
-//     margin: 0 3.2rem;
-//     padding-top: 2.4rem;
-//     border-top: .1rem solid #e5e5e5;
-//     gap: .8rem;
-//     .btn-w14 {
-//         width: 22.4rem;    
-//     }
-//     .btn-w8 {
-//         width: 12.8rem;    
-//     }
-// }
 
 /* 360 미만일때 일괄적으로 축소*/
 @media only screen and (max-width: 360px) {
@@ -225,13 +181,6 @@ address span {display: inline-block; margin-right: 1.6rem;}
 @media (max-width:720px) and (min-width: 360px) {
 
 }
-
-// @media only screen and (max-width: 1280px) {
-//     .ico {
-//         width: 1.75rem;
-//         height: 1.75rem;
-//     }
-// }
 
 @media only screen and (max-width: 1280px) {
     .v-field__input {
@@ -281,9 +230,6 @@ address span {display: inline-block; margin-right: 1.6rem;}
                 }
             }
         }
-    }
-    .select-wrap .v-field--center-affix .v-field__append-inner {
-        margin: .9rem 1.6rem .9rem 0;
     }
     .v-overlay-container .v-list-item-title {
         font-size: 1.4rem;
