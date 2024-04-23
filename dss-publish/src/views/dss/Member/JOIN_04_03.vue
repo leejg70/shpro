@@ -77,7 +77,6 @@ const valid = ref(false);
                   variant="outlined"
                   color="primary"
                   hide-details="auto"
-                  clearable
                   required
                 ></v-text-field>
               </div>
