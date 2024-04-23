@@ -22,10 +22,10 @@
         </div>
       </div>
       <div class="my-login-wrap">
-        <div class="outlogin-box">        
+        <!-- 로그인 전 -->
+        <!-- <div class="outlogin-box">        
           <v-icon class="main-login-photo"><img src="../../../assets/images/icon/icon_main_login.png" alt=""></v-icon>
           <p class="login-txt">로그인 후<br>나만의 맞춤 정보를 이용하세요.</p> 
-          <!-- <button >로그인</button> -->
           <v-btn
             :ripple="false"
             variant="flat"
@@ -35,7 +35,8 @@
           >
           로그인
           </v-btn> 
-        </div>
+        </div> -->
+         <!-- 로그인 후 -->
         <div class="outlogin-box">          
           <div class="logout-txt">
             <p >안녕하세요.</p>
@@ -44,31 +45,52 @@
           <div class="logout-btn-area">
             <v-btn class="btn-mylink">
               <v-icon>icon-my-contract</v-icon>
-              <span class="ico-txt">나의계약</span>
+              <span class="text">나의계약</span>
             </v-btn>
             <v-btn class="btn-mylink">
               <v-icon>icon-my-qa</v-icon>
-              <span class="ico-txt">나의문의</span>
+              <span class="text">나의문의</span>
             </v-btn>
             <v-btn class="btn-mylink">
-              <v-icon>icon-larm</v-icon>
-              <span class="ico-txt">알림</span>
+              <v-icon>icon-larm on</v-icon><!-- 알림이 있을때 on 추가-->
+              <span class="text">알림</span>
             </v-btn>
           </div>   
-        </div>
- 
+        </div> 
         <div class="notice-box">          
           <div class="notice-banner"><img src=" " alt=""></div>
           <div class="report-roll-box">
-            Trend Report
-            ShinhanCard Data Market 신규 오픈(두줄)
-            2024.08.08
-             
+            <span class="flag">Trend Report</span> 
+            <p class="text">ShinhanCard Data Market 신규 오픈(두줄)</p>
+            <p class="date">2024.08.08 </p>            
           </div>
         </div>            
       </div>
     </div>
-    <div class="main-search-wrap">검색</div> 
+    <div class="main-search-wrap">
+      <div class="input-wrap">
+        <v-text-field
+          color="primary"
+          hide-details="auto"             
+          placeholder="기업명을 입력해주세요."
+          variant="outlined"
+          clearable
+        ></v-text-field>
+        <v-btn
+          block
+          class="btn-search"
+        >
+          <span class="sr-only">검색</span>
+        </v-btn>          
+      </div>      
+      <!-- 해시태그 목록 -->
+      <div class="hashtags">
+        <a href="javascript:;" class="hashtag">#Data서비</a>
+        <a href="javascript:;" class="hashtag">#계좌인증</a>
+        <a href="javascript:;" class="hashtag">#신한카드Data</a>
+        <a href="javascript:;" class="hashtag">#카드사용Data</a>
+      </div>
+    </div> 
     <div class="main-card-wrap">
       <div class="main-card-inner">
         <v-btn class="card-box">
@@ -109,15 +131,28 @@
 
       <h2 class="main-title"><span class="fw300">Most Popular</span><span class="fw700">Services</span></h2>
       <div class="main-services-inner">
-        <button class="services-box"></button>
-        <button class="services-box"></button>
-        <button class="services-box"></button>
-        <button class="services-box"></button>
-        <button class="services-box"></button>
-        <button class="services-box"></button>
-        <button class="services-box"></button>
-        <button class="services-box"></button>
-        <button class="services-box"></button>
+        <v-card  
+        v-for="n in 6"    
+        class="services-box"
+        > 
+          <strong class="services-title">Data 서비스/API서비스 <span>new</span><span>hot</span></strong>
+          <div class="prod-flag-wrap">
+            <span class="flag-blue">시장분석</span>
+            <span class="flag-violet">지역경제</span>
+            <span class="flag-green">대안신용</span>
+            <span class="flag-yellow">마이데이터</span>
+            <span class="flag-pink">카드데이터</span>
+          </div>
+          <strong class="title">상품명은 한줄로 제한 한줄 초과 시한줄 초과 시 말줄임</strong>
+          <p class="text">2024 전국 스타벅스 매장 연령별 결제 데이터 두줄일 경우 2024 전국 스타벅스 매장 연령별 결제 데이터 두줄일</p>
+          <div class="hashtags">
+            <a href="javascript:;" class="hashtag">#스타벅스</a>
+            <a href="javascript:;" class="hashtag">##전국</a>
+            <a href="javascript:;" class="hashtag">#시간대별결제데이터</a>
+            <a href="javascript:;" class="hashtag">#한줄까지</a>
+          </div>
+          <v-icon>frame</v-icon>        
+      </v-card>
         <div class="main-more-area">
           <button class="btn-more">더보기</button>
         </div>
