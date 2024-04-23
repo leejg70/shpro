@@ -2395,7 +2395,7 @@
 .ia-tbl table .col-memo {width:auto;}
 
 @media (max-width:1366px) {
-	.ia-tbl table .col-url {width:auto;}
+	// .ia-tbl table .col-url {width:auto;}
 	.ia-tbl table .col-date,
 	.ia-tbl table .col-memo {width:10%;}
 }
@@ -2433,4 +2433,19 @@ td.col-url a {border-bottom:1px solid #333;}
 .ia-iframe-list iframe {width:100%; height:100%;}
 .ia-iframe-list .item-tit {position:absolute; left:0; bottom:0; width:100%; height:40px; line-height:40px; background-color:#333;}
 .ia-iframe-list .item-link {display:block; color:#fff; padding:0 20px;}
+
+@media only screen and (max-width: 430px) {
+.ia-legend,
+.col-1depth,
+.col-2depth,
+.col-3depth,
+.col-4depth,
+.col-5depth,
+.col-point,
+.col-complete,
+.col-memo{display: none;}
+.ia-tbl table .col-num {width:10%;}
+.ia-tbl table .col-url {width:60%; overflow: hidden;}
+.ia-tbl table .col-date {width:30%;}
+}
 </style>
