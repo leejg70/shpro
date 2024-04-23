@@ -13,12 +13,12 @@ const agreeClick = () => {
     agreeOnOf.value = false;
   }
 };
-const dialog = ref(false);
 const realNm = ref('');
 const birthday = ref('');
 const gender = ref('');
 const phone = ref('');
 const sms = ref('');
+const radioGroup = ref('');
 const selected = ref('알뜰폰');
 const items = ['알뜰폰', 'SKT 알뜰폰', 'KT 알뜰폰', 'LG U+ 알뜰폰'];
 </script>
@@ -224,14 +224,14 @@ const items = ['알뜰폰', 'SKT 알뜰폰', 'KT 알뜰폰', 'LG U+ 알뜰폰'];
           </div>
           <div class="phone-wrap">
             <div class="input-wrap">
-              <v-radio-group class="v-btn-radio" inline>
+              <v-radio-group  v-model="radioGroup" class="v-btn-radio" inline>
                 <v-radio label="SKT" color="primary" value="SKT"></v-radio>
                 <v-radio label="KT" color="primary" value="KT"></v-radio>
                 <v-radio label="LG U+" color="primary" value="LG U+"></v-radio>
                 <v-radio label="알뜰폰" color="primary" value="알뜰폰"></v-radio>
               </v-radio-group>
             </div>
-            <div class="select-wrap">
+            <div v-if="radioGroup=='알뜰폰'" class="select-wrap">
               <v-select
                 aria-label="알뜰폰"
                 v-model="selected"
