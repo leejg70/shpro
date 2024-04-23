@@ -258,7 +258,7 @@ const valid = ref(false);
           <div class="input-wrap side-btn">
             <div class="input-wrap">
               <v-text-field
-                aria-label="휴대폰번호 숫자 최대 11자리"
+                aria-label="휴대폰번호"
                 v-model="phone"
                 placeholder="[-] 없이 숫자만 입력"
                 title="휴대폰번호 숫자 최대 11자리 입력"
@@ -275,7 +275,7 @@ const valid = ref(false);
               color="primary"
               size="large"
               rounded="md"
-              class="btn-w10"
+              class="line-blue"
             >
               인증번호전송
             </v-btn>
@@ -285,7 +285,7 @@ const valid = ref(false);
               color="primary"
               size="large"
               rounded="md"
-              class="btn-w10"
+              class="line-blue"
             >
               재전송
             </v-btn>
@@ -303,7 +303,7 @@ const valid = ref(false);
           </div>
           <div class="input-wrap side-btn side-timer">
             <v-text-field
-              aria-label="인증번호 숫자 6자리"
+              aria-label="인증번호"
               v-model="sms"
               placeholder="숫자 6자리 입력"
               title="인증번호 숫자 6자리 입력"
@@ -323,7 +323,7 @@ const valid = ref(false);
               color="primary"
               size="large"
               rounded="md"
-              class="btn-w10"
+              class="line-blue"
             >
               휴대폰인증
             </v-btn>
@@ -338,7 +338,7 @@ const valid = ref(false);
           color="primary"
           size="x-large"
           rounded="lg"
-          class="btn-w14"
+          class="default"
         >
           다음
         </v-btn>

@@ -13,14 +13,15 @@ const agreeClick = () => {
     agreeOnOf.value = false;
   }
 };
-const dialog = ref(false);
 const realNm = ref('');
 const birthday = ref('');
 const gender = ref('');
 const phone = ref('');
 const sms = ref('');
+const radioGroup = ref('');
 const selected = ref('알뜰폰');
 const items = ['알뜰폰', 'SKT 알뜰폰', 'KT 알뜰폰', 'LG U+ 알뜰폰'];
+const valid = ref(false);
 </script>
 
 <template>
@@ -47,7 +48,7 @@ const items = ['알뜰폰', 'SKT 알뜰폰', 'KT 알뜰폰', 'LG U+ 알뜰폰'];
       <div class="form-box">
         <div class="form-group agree-depth">
           <div class="ele-tit">
-            <v-label>약관 동의</v-label>
+            <v-label>약관동의</v-label>
           </div>
           <div class="terms-info">
             <dl class="terms-wrap">
@@ -63,10 +64,12 @@ const items = ['알뜰폰', 'SKT 알뜰폰', 'KT 알뜰폰', 'LG U+ 알뜰폰'];
                 <v-btn
                   :class="agreeOnOf ? 'active' : ''"
                   variant="text"
-                  icon="mdi-arrow-down"
                   @click="agreeClick"
                   class="btn-toggle"
-                ></v-btn>
+                >
+                  <v-icon>icon-arrow-down</v-icon>
+                  <span class="sr-only">전체보기</span>
+                </v-btn>
               </dt>
               <dd v-show="agreeOnOf" class="terms-body">
                 <div class="check-wrap">
@@ -79,11 +82,11 @@ const items = ['알뜰폰', 'SKT 알뜰폰', 'KT 알뜰폰', 'LG U+ 알뜰폰'];
                     ></v-checkbox>
                   </div>
                   <v-btn
-                    append-icon="mdi-chevron-right"
                     variant="text"
                     class="btn-link"
                   >
-                    내용보기
+                    <span>내용보기</span>
+                    <v-icon>icon-arrow-right</v-icon>
                   </v-btn>
                 </div>
                 <div class="check-wrap">
@@ -96,11 +99,11 @@ const items = ['알뜰폰', 'SKT 알뜰폰', 'KT 알뜰폰', 'LG U+ 알뜰폰'];
                     ></v-checkbox>
                   </div>
                   <v-btn
-                    append-icon="mdi-chevron-right"
                     variant="text"
                     class="btn-link"
                   >
-                    내용보기
+                    <span>내용보기</span>
+                    <v-icon>icon-arrow-right</v-icon>
                   </v-btn>
                 </div>
                 <div class="check-wrap">
@@ -113,11 +116,11 @@ const items = ['알뜰폰', 'SKT 알뜰폰', 'KT 알뜰폰', 'LG U+ 알뜰폰'];
                     ></v-checkbox>
                   </div>
                   <v-btn
-                    append-icon="mdi-chevron-right"
                     variant="text"
                     class="btn-link"
                   >
-                    내용보기
+                    <span>내용보기</span>
+                    <v-icon>icon-arrow-right</v-icon>
                   </v-btn>
                 </div>
                 <div class="check-wrap">
@@ -130,11 +133,11 @@ const items = ['알뜰폰', 'SKT 알뜰폰', 'KT 알뜰폰', 'LG U+ 알뜰폰'];
                     ></v-checkbox>
                   </div>
                   <v-btn
-                    append-icon="mdi-chevron-right"
                     variant="text"
                     class="btn-link"
                   >
-                    내용보기
+                    <span>내용보기</span>
+                    <v-icon>icon-arrow-right</v-icon>
                   </v-btn>
                 </div>
                 <div class="check-wrap">
@@ -147,11 +150,11 @@ const items = ['알뜰폰', 'SKT 알뜰폰', 'KT 알뜰폰', 'LG U+ 알뜰폰'];
                     ></v-checkbox>
                   </div>
                   <v-btn
-                    append-icon="mdi-chevron-right"
                     variant="text"
                     class="btn-link"
                   >
-                    내용보기
+                    <span>내용보기</span>
+                    <v-icon>icon-arrow-right</v-icon>
                   </v-btn>
                 </div>
               </dd>
@@ -167,6 +170,7 @@ const items = ['알뜰폰', 'SKT 알뜰폰', 'KT 알뜰폰', 'LG U+ 알뜰폰'];
               aria-label="이름"
               v-model="realNm"
               placeholder="이름 입력"
+              title="이름 입력"
               density="comfortable"
               variant="outlined"
               color="primary"
@@ -187,7 +191,8 @@ const items = ['알뜰폰', 'SKT 알뜰폰', 'KT 알뜰폰', 'LG U+ 알뜰폰'];
                 <v-text-field
                   aria-label="주민등록번호 숫자 앞 6자리"
                   v-model="birthday"
-                  placeholder="생년월일 6자리"
+                  placeholder="앞 6자리"
+                  title="주민등록번호 숫자 앞 6자리 입력"
                   density="comfortable"
                   variant="outlined"
                   color="primary"
@@ -204,6 +209,7 @@ const items = ['알뜰폰', 'SKT 알뜰폰', 'KT 알뜰폰', 'LG U+ 알뜰폰'];
                   aria-label="주민등록번호 숫자 뒤 1자리"
                   v-model="gender"
                   placeholder="뒤 1자리"
+                  title="주민등록번호 숫자 뒤 1자리 입력"
                   density="comfortable"
                   variant="outlined"
                   color="primary"
@@ -233,14 +239,14 @@ const items = ['알뜰폰', 'SKT 알뜰폰', 'KT 알뜰폰', 'LG U+ 알뜰폰'];
           </div>
           <div class="phone-wrap">
             <div class="input-wrap">
-              <v-radio-group class="v-btn-radio" inline>
+              <v-radio-group v-model="radioGroup" class="v-btn-radio" inline>
                 <v-radio label="SKT" color="primary" value="SKT"></v-radio>
                 <v-radio label="KT" color="primary" value="KT"></v-radio>
                 <v-radio label="LG U+" color="primary" value="LG U+"></v-radio>
                 <v-radio label="알뜰폰" color="primary" value="알뜰폰"></v-radio>
               </v-radio-group>
             </div>
-            <div class="select-wrap">
+            <div v-if="radioGroup=='알뜰폰'" class="select-wrap">
               <v-select
                 aria-label="알뜰폰"
                 v-model="selected"
@@ -248,6 +254,7 @@ const items = ['알뜰폰', 'SKT 알뜰폰', 'KT 알뜰폰', 'LG U+ 알뜰폰'];
                 variant="outlined"
                 color="primary"
                 hide-details="auto"
+                required
               ></v-select>
             </div>
           </div>
@@ -255,14 +262,15 @@ const items = ['알뜰폰', 'SKT 알뜰폰', 'KT 알뜰폰', 'LG U+ 알뜰폰'];
         </div>
         <div class="form-group">
           <div class="ele-tit">
-            <v-label>휴대폰 번호</v-label>
+            <v-label>휴대폰번호</v-label>
           </div>
           <div class="input-wrap side-btn">
             <div class="input-wrap">
               <v-text-field
-                aria-label="휴대폰번호 숫자 최대 11자리"
+                aria-label="휴대폰번호"
                 v-model="phone"
                 placeholder="[-] 없이 숫자만 입력"
+                title="휴대폰번호 숫자 최대 11자리 입력"
                 density="comfortable"
                 variant="outlined"
                 color="primary"
@@ -276,9 +284,9 @@ const items = ['알뜰폰', 'SKT 알뜰폰', 'KT 알뜰폰', 'LG U+ 알뜰폰'];
               color="primary"
               size="large"
               rounded="md"
-              class="btn-w10"
+              class="line-blue"
             >
-              인증번호 전송
+              인증번호전송
             </v-btn>
             <!--
             <v-btn
@@ -286,7 +294,7 @@ const items = ['알뜰폰', 'SKT 알뜰폰', 'KT 알뜰폰', 'LG U+ 알뜰폰'];
               color="primary"
               size="large"
               rounded="md"
-              class="btn-w10"
+              class="line-blue"
             >
               재전송
             </v-btn>
@@ -304,9 +312,10 @@ const items = ['알뜰폰', 'SKT 알뜰폰', 'KT 알뜰폰', 'LG U+ 알뜰폰'];
           </div>
           <div class="input-wrap side-btn side-timer">
             <v-text-field
-              aria-label="인증번호 숫자 6자리"
+              aria-label="인증번호"
               v-model="sms"
-              placeholder="인증번호 6자리 입력"
+              placeholder="숫자 6자리 입력"
+              title="인증번호 숫자 6자리 입력"
               density="comfortable"
               variant="outlined"
               color="primary"
@@ -315,20 +324,17 @@ const items = ['알뜰폰', 'SKT 알뜰폰', 'KT 알뜰폰', 'LG U+ 알뜰폰'];
               required
             ></v-text-field>
             <span class="timer-box">
-              <v-icon
-                icon="mdi-clock-outline"
-                class="icon-timer"
-              ></v-icon>
-              2:44
+              <v-icon>icon-timer</v-icon>
+              <span>2:44</span>
             </span>
             <v-btn
               variant="outlined"
               color="primary"
               size="large"
               rounded="md"
-              class="btn-w10"
+              class="line-blue"
             >
-              휴대폰 인증
+              휴대폰인증
             </v-btn>
           </div>
           <p class="text-tip error">입력시간을 초과하였습니다. 인증번호 재전송 후 다시 시도해주세요.</p>
@@ -336,12 +342,12 @@ const items = ['알뜰폰', 'SKT 알뜰폰', 'KT 알뜰폰', 'LG U+ 알뜰폰'];
       </div>
       <div class="btn-wrap">
         <v-btn
+          :disabled="valid"
           variant="flat"
           color="primary"
           size="x-large"
           rounded="lg"
-          class="btn-w14"
-          disabled
+          class="default"
         >
           다음
         </v-btn>

@@ -7,10 +7,7 @@
       <div class="step-txt">비밀번호 변경</div>
     </div>
     <div class="complete-box">
-      <v-icon
-        icon="mdi-check-circle-outline"
-        class="icon-success"
-      ></v-icon>
+      <v-icon>icon-success</v-icon>
       <div class="complete-text">
         <div>비밀번호 변경 완료</div>
         <p>비밀번호가 재설정 되었습니다.</p>
@@ -22,7 +19,7 @@
         color="secondary"
         size="x-large"
         rounded="lg"
-        class="btn-w14 complete"
+        class="default complete"
       >
         메인
       </v-btn>
@@ -31,7 +28,7 @@
         color="primary"
         size="x-large"
         rounded="lg"
-        class="btn-w14 complete"
+        class="default complete"
       >
         로그인
       </v-btn>

@@ -19,7 +19,7 @@
         color="secondary"
         size="x-large"
         rounded="lg"
-        class="btn-w14 complete"
+        class="default complete"
       >
         메인
       </v-btn>
@@ -28,7 +28,7 @@
         color="primary"
         size="x-large"
         rounded="lg"
-        class="btn-w14 complete"
+        class="default complete"
       >
         로그인
       </v-btn>

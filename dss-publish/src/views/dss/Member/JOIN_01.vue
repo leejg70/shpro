@@ -33,7 +33,7 @@
           value="법인사업자 회원"
           class="mb-type-radio"
         >         
-          <p class="mb-type-stit">법인 사업자 회원은 법인 이메일 주소가 필요하며 없으신 경우, 개인 계정으로 가입 후 고객센터로 문의해 주시기 바랍니다.</p>
+          <p class="mb-type-stit">법인사업자 회원은 법인 이메일 주소가 필요하며 없으신 경우, 개인 계정으로 가입 후 고객센터로 문의해 주시기 바랍니다.</p>
         </v-radio>
       </v-radio-group>
       <div class="btn-wrap">
@@ -42,7 +42,7 @@
           color="primary"
           size="x-large"
           rounded="lg"
-          class="btn-w14"
+          class="default"
         >
           다음
         </v-btn> 

@@ -17,7 +17,7 @@ const verifytpw = ref('');
         color="primary"
         size="x-large"
         rounded="lg"
-        class="btn-w14"
+        class="default"
       >
         로그인
       </v-btn>
@@ -38,6 +38,7 @@ const verifytpw = ref('');
               aria-label="새 비밀번호"
               v-model="resetpw"
               placeholder="새 비밀번호"
+              title="새 비밀번호 입력"
               density="comfortable"
               variant="outlined"
               color="primary"
@@ -63,6 +64,7 @@ const verifytpw = ref('');
               aria-label="새 비밀번호 확인"
               v-model="verifytpw"
               placeholder="새 비밀번호 확인"
+              title="새 비밀번호 재입력"
               density="comfortable"
               variant="outlined"
               color="primary"
@@ -80,7 +82,7 @@ const verifytpw = ref('');
           color="primary"
           size="x-large"
           rounded="lg"
-          class="btn-w14"
+          class="default"
           disabled
         >
           비밀번호 변경

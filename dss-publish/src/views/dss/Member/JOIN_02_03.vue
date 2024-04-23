@@ -5,6 +5,7 @@ const email = ref('');
 const sms = ref('');
 const resetpw = ref('');
 const verifytpw = ref('');
+const valid = ref(false);
 </script>
 
 <template>
@@ -31,14 +32,15 @@ const verifytpw = ref('');
       <div class="form-box">
         <div class="form-group">
           <div class="ele-tit">
-            <v-label>이메일 주소</v-label>
+            <v-label>이메일주소</v-label>
           </div>
           <div class="input-wrap side-btn">
             <div class="input-wrap">
               <v-text-field
-                aria-label="이메일 주소"
+                aria-label="이메일주소"
                 v-model="email"
                 placeholder="이메일주소 입력"
+                title="이메일주소 입력"
                 density="comfortable"
                 variant="outlined"
                 color="primary"
@@ -52,9 +54,9 @@ const verifytpw = ref('');
               color="primary"
               size="large"
               rounded="md"
-              class="btn-w10"
+              class="line-blue"
             >
-              인증번호 전송
+              인증번호전송
             </v-btn>
             <!--
             <v-btn
@@ -62,7 +64,7 @@ const verifytpw = ref('');
               color="primary"
               size="large"
               rounded="md"
-              class="btn-w10"
+              class="line-blue"
             >
               재전송
             </v-btn>
@@ -81,9 +83,10 @@ const verifytpw = ref('');
           </div>
           <div class="input-wrap side-btn side-timer">
             <v-text-field
-              aria-label="인증번호 숫자 6자리"
+              aria-label="인증번호"
               v-model="sms"
-              placeholder="인증번호 입력"
+              placeholder="숫자 5자리 입력"
+              title="인증번호 숫자 5자리 입력"
               density="comfortable"
               variant="outlined"
               color="primary"
@@ -92,20 +95,17 @@ const verifytpw = ref('');
               required
             ></v-text-field>
             <span class="timer-box">
-              <v-icon
-                icon="mdi-clock-outline"
-                class="icon-timer"
-              ></v-icon>
-              2:44
+              <v-icon>icon-timer</v-icon>
+              <span>2:44</span>
             </span>
             <v-btn
               variant="outlined"
               color="primary"
               size="large"
               rounded="md"
-              class="btn-w10"
+              class="line-blue"
             >
-              이메일 인증
+              이메일인증
             </v-btn>
           </div>
           <p class="text-tip error">입력시간을 초과하였습니다. 인증번호 재전송 후 다시 시도해주세요.</p>
@@ -120,6 +120,7 @@ const verifytpw = ref('');
               aria-label="비밀번호"
               v-model="resetpw"
               placeholder="비밀번호 입력"
+              title="비밀번호 입력"
               density="comfortable"
               variant="outlined"
               color="primary"
@@ -141,6 +142,7 @@ const verifytpw = ref('');
               aria-label="비밀번호 확인"
               v-model="verifytpw"
               placeholder="비밀번호 재입력"
+              title="비밀번호 재입력"
               density="comfortable"
               variant="outlined"
               color="primary"
@@ -154,12 +156,12 @@ const verifytpw = ref('');
       </div>
       <div class="btn-wrap">
         <v-btn
+          :disabled="valid"
           variant="flat"
           color="primary"
           size="x-large"
           rounded="lg"
-          class="btn-w14"
-          disabled
+          class="default"
         >
           다음
         </v-btn>

@@ -16,10 +16,7 @@
       </div>
     </div>
     <div class="complete-box">
-      <v-icon
-        icon="mdi-check-circle-outline"
-        class="icon-success"
-      ></v-icon>
+      <v-icon>icon-success</v-icon>
       <div class="complete-text">
         <div>회원가입 신청 완료</div>
         <p>환영합니다. 고객님.<br>관리자의 승인 후 자유로운 이용이 가능하며 로그인 후 기본 서비스는 이용 가능합니다.</p>
@@ -31,7 +28,7 @@
         color="primary"
         size="x-large"
         rounded="lg"
-        class="btn-w14"
+        class="default"
       >
         확인
       </v-btn>

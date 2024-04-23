@@ -167,8 +167,8 @@ address span {display: inline-block; margin-right: 1.6rem;}
 
 /* Bottom- */
 .btn-wrap {display: flex; justify-content: center; align-items: center; margin-top: 6.4rem;}
-.btn-wrap .btn-w14 {width: 22.4rem;}
-.btn-wrap .btn-w14 + .btn-w14 {margin-left: 1.6rem;}
+.btn-wrap .default {width: 22.4rem;}
+.btn-wrap .default + .default {margin-left: 1.6rem;}
 
 /* 360 미만일때 일괄적으로 축소*/
 @media only screen and (max-width: 360px) {
@@ -240,26 +240,26 @@ address span {display: inline-block; margin-right: 1.6rem;}
     }
     .btn-wrap {
         margin-top: 4rem;
-        .btn-w14 {
+        .default {
             width: 100%;
             &.complete {
                 width: calc(50% - .4rem);
             }
-            + .btn-w14 {
+            + .default {
                 margin-left: .8rem;
             }
         }
     }
-    .btn-popwrap{
-        .btn-w14{
-          width: 100%;    
-        }    
+    .btn-popwrap {
+        .default {
+          width: 100%;
+        }
     }
-    .btn-popwrap.popup{
-        .btn-w14{
+    .btn-popwrap.popup {
+        .default {
           width: 64.1025641025641%;
         }
-        .btn-w8{
+        .btn-w8 {
           width: 33.3333%;
         }
     }

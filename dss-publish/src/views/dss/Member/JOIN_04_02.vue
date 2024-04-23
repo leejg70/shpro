@@ -5,7 +5,7 @@ const formTerms = ref({
   value: ['0', '1', '2'],
   allSelected: false,
 });
-const dialog = ref(false);
+const valid = ref(false);
 </script>
 
 <template>
@@ -32,7 +32,7 @@ const dialog = ref(false);
       <div class="form-box service">
         <div class="form-group agree-depth">
           <div class="ele-tit">
-            <v-label>약관 동의</v-label>
+            <v-label>약관동의</v-label>
           </div>
           <div class="terms-info">
             <dl class="terms-wrap">
@@ -57,11 +57,11 @@ const dialog = ref(false);
                     ></v-checkbox>
                   </div>
                   <v-btn
-                    append-icon="mdi-chevron-right"
                     variant="text"
                     class="btn-link"
                   >
-                    내용보기
+                    <span>내용보기</span>
+                    <v-icon>icon-arrow-right</v-icon>
                   </v-btn>
                 </div>
                 <div class="check-wrap">
@@ -74,11 +74,11 @@ const dialog = ref(false);
                     ></v-checkbox>
                   </div>
                   <v-btn
-                    append-icon="mdi-chevron-right"
                     variant="text"
                     class="btn-link"
                   >
-                    내용보기
+                    <span>내용보기</span>
+                    <v-icon>icon-arrow-right</v-icon>
                   </v-btn>
                 </div>
                 <div class="check-wrap">
@@ -91,11 +91,11 @@ const dialog = ref(false);
                     ></v-checkbox>
                   </div>
                   <v-btn
-                    append-icon="mdi-chevron-right"
                     variant="text"
                     class="btn-link"
                   >
-                    내용보기
+                    <span>내용보기</span>
+                    <v-icon>icon-arrow-right</v-icon>
                   </v-btn>
                 </div>
               </dd>
@@ -105,12 +105,12 @@ const dialog = ref(false);
       </div>
       <div class="btn-wrap">
         <v-btn
+          :disabled="valid"
           variant="flat"
           color="primary"
           size="x-large"
           rounded="lg"
-          class="btn-w14"
-          disabled
+          class="default"
         >
           다음
         </v-btn>
