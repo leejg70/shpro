@@ -8,7 +8,6 @@ const alert= ref(false);
 <template>
   팝업테스트 
     <v-btn
-      :ripple="false"
       append-icon="mdi-chevron-right"
       variant="text"
       @click="dialog = true"
@@ -17,7 +16,6 @@ const alert= ref(false);
       내용보기
     </v-btn>
     <v-btn
-      :ripple="false"
       append-icon="mdi-chevron-right"
       variant="text"
       @click="alert = true"

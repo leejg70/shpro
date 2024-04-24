@@ -1,12 +1,12 @@
 <script setup>
 import { ref } from 'vue';
 
-const dormant = ref(false);
+const alarm = ref(false);
 </script>
 
 <template>
   <v-dialog
-    v-model="dormant"
+    v-model="alarm"
     width="auto"
   >
     <!-- 샘플 버튼 -->
@@ -20,10 +20,10 @@ const dormant = ref(false);
     <!-- 휴면계정 알림 -->
     <div class="popup-wrap small">
       <div class="popup-head">
-        <h3 class="h-title">휴면계정 알림</h3>
+        <h3 class="h-title">휴면계정알림</h3>
       </div>
       <div class="popup-cont">
-        <p class="alarm">고객님의 계정이 오랜시간 동안 접속되지 않아 휴면 상태로 전환되었습니다.<br>계속해서 시비스를 이용하시려면 본인인증을 해주세요.</p>
+        <p class="alarm">고객님의 계정이 오랜시간 동안 접속되지 않아 휴면 상태로 전환되었습니다.<br>계속해서 서비스를 이용하시려면 본인인증을 해주세요.</p>
       </div>
       <div class="popup-foot">
         <div class="btn-popwrap">

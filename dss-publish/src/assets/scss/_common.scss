@@ -172,14 +172,9 @@ address span {display: inline-block; margin-right: 1.6rem;}
 
 /* 360 미만일때 일괄적으로 축소*/
 @media only screen and (max-width: 360px) {
-    // html {
-    //     font-size: 4.4444vw !important;
-    // }
-}
-
-/* 720 미만일때 일괄적으로 축소*/
-@media (max-width:720px) and (min-width: 360px) {
-
+    html {
+        font-size: 2.7778vw !important;
+    }
 }
 
 @media only screen and (max-width: 1280px) {
@@ -248,19 +243,6 @@ address span {display: inline-block; margin-right: 1.6rem;}
             + .default {
                 margin-left: .8rem;
             }
-        }
-    }
-    .btn-popwrap {
-        .default {
-          width: 100%;
-        }
-    }
-    .btn-popwrap.popup {
-        .default {
-          width: 64.1025641025641%;
-        }
-        .cancel {
-          width: 33.3333%;
         }
     }
 }
