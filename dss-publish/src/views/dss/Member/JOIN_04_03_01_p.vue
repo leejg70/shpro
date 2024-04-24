@@ -305,7 +305,7 @@ const radios = ref('1');
             color="primary"
             size="large"
             rounded="md"
-            class="btn-w14"
+            class="default"
           >
             확인
           </v-btn>

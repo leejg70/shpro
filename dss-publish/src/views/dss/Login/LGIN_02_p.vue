@@ -25,25 +25,27 @@ const dormant = ref(false);
       <div class="popup-cont">
         <p class="alarm">고객님의 계정이 오랜시간 동안 접속되지 않아 휴면 상태로 전환되었습니다.<br>계속해서 시비스를 이용하시려면 본인인증을 해주세요.</p>
       </div>
-      <div class="btn-wrap">
-        <v-btn
-          variant="flat"
-          color="secondary"
-          size="large"
-          rounded="md"
-          class="btn-w8"
-        >
-          취소
-        </v-btn>
-        <v-btn
-          variant="flat"
-          color="primary"
-          size="large"
-          rounded="md"
-          class="btn-w14"
-        >
-          확인
-        </v-btn>
+      <div class="popup-foot">
+        <div class="btn-popwrap">
+          <v-btn
+            variant="flat"
+            color="secondary"
+            size="large"
+            rounded="md"
+            class="cancel"
+          >
+            취소
+          </v-btn>
+          <v-btn
+            variant="flat"
+            color="primary"
+            size="large"
+            rounded="md"
+            class="default"
+          >
+            확인
+          </v-btn>
+        </div>
       </div>
     </div>
     <!-- // 휴면계정 알림 -->

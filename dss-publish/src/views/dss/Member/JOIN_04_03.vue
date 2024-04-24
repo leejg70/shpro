@@ -42,7 +42,7 @@ const valid = ref(false);
               <v-text-field
                 aria-label="기업명"
                 v-model="company"
-                placeholder="기업찾기"
+                placeholder="기업명"
                 density="comfortable"
                 variant="outlined"
                 color="primary"

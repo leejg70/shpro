@@ -75,7 +75,7 @@ import { ref } from 'vue';
           color="Outlinded"
           size="large"
           rounded="lg"
-          class="btn-w8"
+          class="cancel"
         >
           취소
         </v-btn>
@@ -84,7 +84,7 @@ import { ref } from 'vue';
           color="primary"
           size="large"
           rounded="lg"
-          class="btn-w14"
+          class="default"
         >
           기업추가
         </v-btn>

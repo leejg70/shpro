@@ -168,7 +168,7 @@ const radios = ref('기업명을 동일하게 입력해주세요');
           color="primary"
           size="large"
           rounded="lg"
-          class="btn-w14"
+          class="default"
         >
           확인
         </v-btn>
