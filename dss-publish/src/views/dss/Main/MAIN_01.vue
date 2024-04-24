@@ -134,20 +134,18 @@
         <v-card  
         v-for="n in 6"    
         class="services-box"
-        > 
-      
-        <div class="category-wrap">
-          <strong class="category-title">Data 서비스/API서비스</strong>
-            <span class="icon-area">
-              <v-icon>icon-new<span class="sr-only">new</span></v-icon>
-              <v-icon>icon-hot<span class="sr-only">hot</span></v-icon>
-              <v-icon>icon-wishlist<span class="sr-only">관심상품</span></v-icon>
+        >      
+          <div class="category-wrap">
+            <strong class="category-title">Data 서비스/API서비스</strong>
+              <span class="icon-area">
+                <v-icon>icon-new<span class="sr-only">new</span></v-icon>
+                <v-icon>icon-hot<span class="sr-only">hot</span></v-icon>
+                <v-btn class="reset">
+                  <v-icon>icon-wishlist<span class="sr-only">관심상품</span></v-icon>
+                </v-btn> 
+              </span>
+          </div> 
 
-            </span>
-        </div>
-
-       
-          
           <div class="prod-flag-wrap">
             <span class="flag blue">시장분석</span>
             <span class="flag violet">지역경제</span>
@@ -158,34 +156,88 @@
           <strong class="title">상품명은 한줄로 제한 한줄 초과 시한줄 초과 시 말줄임 말줄임 말줄임 말줄임 말줄임</strong>
           <div class="text-area">
             <p class="text">2024 전국 스타벅스 매장 연령별 결제 데이터 두줄일 경우 2024 전국 스타벅스 매장 연령별 결제 데이터 두줄일 2024 전국 스타벅스 매장 연령별 결제 데이터 두줄일 경우</p>
-            <i class="icon">아이콘아이콘</i>
+            <v-icon class="icon-biz"><img src="../../../assets/images/icon/icon-biz.png" alt=""></v-icon>
           </div>
           
           <div class="hashtags">
-            <a href="javascript:;" class="hashtag">#스타벅스</a>
-            <a href="javascript:;" class="hashtag">##전국</a>
-            <a href="javascript:;" class="hashtag">#시간대별결제데이터</a>
-            <a href="javascript:;" class="hashtag">#한줄까지</a>
+            <span class="hashtag">#스타벅스</span>
+            <span class="hashtag">##전국</span>
+            <span class="hashtag">#시간대별결제데이터</span>
+            <span class="hashtag">#한줄까지</span>
           </div>
           <v-icon>frame</v-icon>        
         </v-card>
         <div class="main-more-area">
-          <button class="btn-more">더보기</button>
+          <v-btn class="btn-more">
+            <span>더보기</span>
+            <v-icon>btn-arrow</v-icon>
+          </v-btn>
         </div>
       </div>
     
     
     </div>
     <div class="main-special-wrap">
-      <h2 class="main-title"><span class="fw300">For Success</span><span class="fw700">Special Know-how</span></h2>     
-      
+      <h2 class="main-title">
+        <span>For Success</span>
+        <span class="fw700">Special Know-how</span>
+      </h2>     
+      <div class="main-special-inner">
+        <a href="">
+          <div class="banner">
+            <div class="category-title">Trend Report+Case Study</div>
+            <div class="title">신한카드 Data 200% 활용법</div>
+            <divn class="btn-area">
+              <span>커뮤니티</span>
+              <v-icon>btn-main-arrow</v-icon>
+            </divn>
+            <v-icon>icon-graph</v-icon>
+          </div>
+        </a>
+        <a href="">
+          <div class="banner">
+            <div class="category-title">Trend Report+Case Study</div>
+            <div class="title">신한카드 Data 200% 활용법</div>
+            <divn class="btn-area">
+              <span>커뮤니티</span>
+              <v-icon>btn-main-arrow</v-icon>
+            </divn>
+            <v-icon>icon-graph</v-icon>
+          </div>
+        </a> 
+      </div> 
+     
 
     </div>
     <div class="main-datable-wrap">
-      <h2 class="main-title"><span class="fw300">Value Together</span><span class="fw700">Shinhan Datable</span></h2>  
+      <h2 class="main-title">
+        <span class="fw300">Value Together</span>
+        <span class="fw700">Shinhan Datable</span>
+      </h2>
+      <div class="main-datable-inner">
+
+      </div>
     </div>
-    <div class="main-Customer-wrap">
-      <h2 class="main-title"><span class="fw300">Always Open</span><span class="fw700">Customer Center</span></h2>
+    <div class="main-customer-wrap">
+      <h2 class="main-title">
+        <span class="fw300">Always Open</span>
+        <span class="fw700">Customer Center</span>
+      </h2>
+      <div class="main-customer-inner">
+        <div class="banner">
+          <strong class="title">사업제휴</strong>
+          <div class="text">새로운 아이디어와<br>사업제안을 환영합니다.</div>
+          <divn class="btn-area">
+            <span>Datable 제휴신청</span>
+            <v-icon>btn-main-arrow</v-icon>
+          </divn>
+          <v-icon>icon-hand</v-icon>
+        </div>
+        <div class="notice">
+          <strong class="title">공지사항</strong>
+
+        </div>
+      </div>
     </div>
   </div> 
 </template> 
