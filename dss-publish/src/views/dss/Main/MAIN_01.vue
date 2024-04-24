@@ -99,7 +99,7 @@
             <strong class="card-title">Data 서비스</strong>
           </div>
           <v-icon class="card-icon ico-main-data"></v-icon>
-          <spoan class="card-txt">Data One-Stop Service</spoan>
+          <spoan class="card-text">Data One-Stop Service</spoan>
         </v-btn>
         <v-btn class="card-box">
           <div class="title-area">
@@ -107,7 +107,7 @@
           <strong class="card-title">솔루션서비스 </strong>
           </div>
           <v-icon class="card-icon ico-main-solution"></v-icon>
-          <spoan class="card-txt">상권분석, 시장 모니터링</spoan>
+          <spoan class="card-text">상권분석, 시장 모니터링</spoan>
         </v-btn> 
         <v-btn class="card-box">
           <div class="title-area">
@@ -115,7 +115,7 @@
             <strong class="card-title">광고서비스 </strong>
           </div>
           <v-icon class="card-icon ico-main-ad "></v-icon>
-          <spoan class="card-txt">최적의 고객 타겟팅</spoan>
+          <spoan class="card-text">최적의 고객 타겟팅</spoan>
         </v-btn> 
         <v-btn class="card-box">
           <div class="title-area">
@@ -123,7 +123,7 @@
             <strong class="card-title">API서비스</strong>
           </div>
           <v-icon class="card-icon ico-main-api"></v-icon>
-          <spoan class="card-txt">Data 실시간 활용</spoan>
+          <spoan class="card-text">Data 실시간 활용</spoan>
         </v-btn>    
       </div>      
     </div>
@@ -135,16 +135,32 @@
         v-for="n in 6"    
         class="services-box"
         > 
-          <strong class="services-title">Data 서비스/API서비스 <span>new</span><span>hot</span></strong>
+      
+        <div class="category-wrap">
+          <strong class="category-title">Data 서비스/API서비스</strong>
+            <span class="icon-area">
+              <v-icon>icon-new<span class="sr-only">new</span></v-icon>
+              <v-icon>icon-hot<span class="sr-only">hot</span></v-icon>
+              <v-icon>icon-wishlist<span class="sr-only">관심상품</span></v-icon>
+
+            </span>
+        </div>
+
+       
+          
           <div class="prod-flag-wrap">
-            <span class="flag-blue">시장분석</span>
-            <span class="flag-violet">지역경제</span>
-            <span class="flag-green">대안신용</span>
-            <span class="flag-yellow">마이데이터</span>
-            <span class="flag-pink">카드데이터</span>
+            <span class="flag blue">시장분석</span>
+            <span class="flag violet">지역경제</span>
+            <span class="flag green">대안신용</span>
+            <span class="flag yellow">마이데이터</span>
+            <span class="flag pink">카드데이터</span>
           </div>
-          <strong class="title">상품명은 한줄로 제한 한줄 초과 시한줄 초과 시 말줄임</strong>
-          <p class="text">2024 전국 스타벅스 매장 연령별 결제 데이터 두줄일 경우 2024 전국 스타벅스 매장 연령별 결제 데이터 두줄일</p>
+          <strong class="title">상품명은 한줄로 제한 한줄 초과 시한줄 초과 시 말줄임 말줄임 말줄임 말줄임 말줄임</strong>
+          <div class="text-area">
+            <p class="text">2024 전국 스타벅스 매장 연령별 결제 데이터 두줄일 경우 2024 전국 스타벅스 매장 연령별 결제 데이터 두줄일 2024 전국 스타벅스 매장 연령별 결제 데이터 두줄일 경우</p>
+            <i class="icon">아이콘아이콘</i>
+          </div>
+          
           <div class="hashtags">
             <a href="javascript:;" class="hashtag">#스타벅스</a>
             <a href="javascript:;" class="hashtag">##전국</a>
@@ -152,7 +168,7 @@
             <a href="javascript:;" class="hashtag">#한줄까지</a>
           </div>
           <v-icon>frame</v-icon>        
-      </v-card>
+        </v-card>
         <div class="main-more-area">
           <button class="btn-more">더보기</button>
         </div>
