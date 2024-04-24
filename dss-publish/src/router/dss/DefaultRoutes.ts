@@ -203,14 +203,14 @@ const DefaultRoutes = {
       component: () => import('@/views/dss/My/MY_05.vue')
     },
     {
-      name: 'MY_05_01',
-      path: '/MY_05_01',
-      component: () => import('@/views/dss/My/MY_05_01.vue')
-    },
-    {
       name: 'MY_03',
       path: '/MY_03',
       component: () => import('@/views/dss/My/MY_03.vue')
+    },
+    {
+      name: 'MY_03_01_p',
+      path: '/MY_03_01_p',
+      component: () => import('@/views/dss/My/MY_03_01_p.vue')
     },
     {
       name: 'MY_04',
@@ -669,6 +669,11 @@ const DefaultRoutes = {
       name: 'CFMM_01_p',
       path: '/CFMM_01_p',
       component: () => import('@/views/dss/Common/CFMM_01_p.vue')
+    },
+    {
+      name: 'CFMH_01_p',
+      path: '/CFMH_01_p',
+      component: () => import('@/views/dss/Common/CFMH_01_p.vue')
     },
     {
       name: 'CFMP_01_p',
