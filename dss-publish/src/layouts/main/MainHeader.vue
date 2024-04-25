@@ -22,7 +22,10 @@
                         <li><a href="javascript:;" class="">광고서비스</a></li>
                         <li><a href="javascript:;" class="">API서비스</a></li>
                         <li><a href="javascript:;" class="">MY</a></li>
-                    </ul>                         
+                    </ul>
+                    <!-- <div class="menu-over" style="position: fixed; left: 0; width: 100%; height: 200px; background-color: aqua; z-index: 99;">
+
+                    </div>                     -->
                 </nav>
                 <!-- // Menu --> 
                 <div class="util-wrap">
@@ -38,8 +41,18 @@
     <!-- //header-->
     <!--  전체메뉴 -->
     <v-dialog v-model="menu" width="auto">                          
-        <div class="allmenu" style="width: 500px; height:500px; border:2px solid #eee; background-color: #fff;">
-            메뉴테스트
+        <div class="allmenu" style="width:100vw; height:100vh; border:2px solid #eee; background-color: #fff;">
+            <div class="allmenu-inner">
+                <div class="allmenu-head">
+                    <div class="logo"></div>
+                </div>
+                <div class="allmenu-body">
+                    메뉴테스트
+                </div>
+            </div>
+ 
+
+            
             <v-btn color="" class="btn-close" block @click="menu = false">Close Dialog</v-btn>
         </div> 
     </v-dialog>  

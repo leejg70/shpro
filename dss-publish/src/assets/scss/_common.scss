@@ -119,6 +119,7 @@ input.v-field__input {background-color: transparent !important;}
 .v-main.container .ly-inner {max-width: 120rem; margin: 0 auto;}
 
 /* Hearder */
+.header{ position: fixed; width: 100%; left: 0; z-index: 99; background-color: #fff; }
 .gnb-wrap {display: flex; justify-content: space-between; align-items: center; margin-top: .4rem; padding: 0;}
 .out-login-wrap {display: flex; justify-content: flex-end; align-items: center; margin-top: 1.6rem; padding: .4rem 0;}
 .btn-daram {display: flex; padding: .5rem 1.2rem; font-weight: 500; font-size: 1.4rem; color: #fff; line-height: 150%; border-radius: 9.9rem; background-color: #356cff;}
@@ -133,7 +134,8 @@ input.v-field__input {background-color: transparent !important;}
 .header > .head-inner,
 .footer > .foot-inner,
 .v-main > .contents-box {max-width: 192rem; width: 100%; margin: 0 auto;}
-.v-main.container {flex: unset; margin: 0; padding: 6.4rem 0 16rem;}
+.v-main{flex: unset; padding-top:14rem ; margin: 0; padding: 6.4rem 0 16rem;}
+.v-main.container {padding-top:19.2rem ; }
 
 /* Footer */
 .v-footer.footer {flex: unset; height: auto; margin: 0; padding: 4rem 0; border-top: .1rem solid #e0e0e0;}
@@ -148,6 +150,9 @@ input.v-field__input {background-color: transparent !important;}
 .addr-wrap address {margin-top: 2rem; color: #111518; line-height: 1.5;}
 .addr-wrap .copyright {margin-top: 1.6rem; color: #666; line-height: 1.5;}
 address span {display: inline-block; margin-right: 1.6rem;}
+
+
+
 
 /* Input */
 .v-field {padding: 0;}
