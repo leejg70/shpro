@@ -11,6 +11,8 @@
   opacity: .7;
 }
 .popup-wrap {
+  display: flex;
+  flex-direction: column;
   position: relative;
   background-color: #fff;
   border-radius: 1.6rem;
@@ -38,6 +40,20 @@
         .default {
           width: 22.4rem;
           margin-left: .8rem;
+        }
+        &.end {
+          .cancel {
+            width: calc(50% - .4rem);
+          }
+          .default {
+            width: calc(50% - .4rem);
+          }
+        }
+        &.auto {
+          .default {
+            width: 100%;
+            margin-left: 0;
+          }
         }
       }
     }
@@ -224,11 +240,11 @@
       .popup-foot {
         .btn-popwrap {
           .cancel {
-            width: 33.3333%;
+            width: calc(40% - .4rem);
             height: 4.2rem;
           }
           .default {
-            width: 64.1025641025641%;
+            width: calc(60% - .4rem);
             height: 4.2rem;
           }
         }
