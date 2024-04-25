@@ -100,6 +100,7 @@
           </div>
           <v-icon class="card-icon ico-main-data"></v-icon>
           <spoan class="card-text">Data One-Stop Service</spoan>
+          <v-icon>icon-arrow-right</v-icon>
         </v-btn>
         <v-btn class="card-box">
           <div class="title-area">
@@ -108,6 +109,7 @@
           </div>
           <v-icon class="card-icon ico-main-solution"></v-icon>
           <spoan class="card-text">상권분석, 시장 모니터링</spoan>
+          <v-icon>icon-arrow-right</v-icon>
         </v-btn> 
         <v-btn class="card-box">
           <div class="title-area">
@@ -116,6 +118,7 @@
           </div>
           <v-icon class="card-icon ico-main-ad "></v-icon>
           <spoan class="card-text">최적의 고객 타겟팅</spoan>
+          <v-icon>icon-arrow-right</v-icon>
         </v-btn> 
         <v-btn class="card-box">
           <div class="title-area">
@@ -124,6 +127,7 @@
           </div>
           <v-icon class="card-icon ico-main-api"></v-icon>
           <spoan class="card-text">Data 실시간 활용</spoan>
+          <v-icon>icon-arrow-right</v-icon>
         </v-btn>    
       </div>      
     </div>
@@ -170,7 +174,7 @@
         <div class="main-more-area">
           <v-btn class="btn-more">
             <span>더보기</span>
-            <v-icon>btn-arrow</v-icon>
+            <v-icon>icon-arrow</v-icon>
           </v-btn>
         </div>
       </div>
@@ -206,7 +210,9 @@
           </div>
         </a> 
       </div> 
-     
+   
+      
+      
 
     </div>
     <div class="main-datable-wrap">
@@ -235,7 +241,17 @@
         </div>
         <div class="notice">
           <strong class="title">공지사항</strong>
-
+          <ul class="notice-list">
+            <li><p class="notice-title">Data Market 서비스 신규 오픈 제목 한줄 서비스 신규 오픈 제목 한줄</p><span class="notice-date">2024.08.08</span></li>
+            <li><p class="notice-title">Data Market 서비스 신규 오픈 제목 한줄 서비스 신규 오픈 제목 한줄</p><span class="notice-date">2024.08.08</span></li>
+            <li><p class="notice-title">Data Market 서비스 신규 오픈 제목 한줄 서비스 신규 오픈 제목 한줄</p><span class="notice-date">2024.08.08</span></li>            
+          </ul>
+          <v-btn
+          class="btn-right-more"
+          >
+            <span class="sr-only">더보기</span>
+            <v-icon>icon-arrow-right</v-icon>
+          </v-btn>
         </div>
       </div>
     </div>
