@@ -316,7 +316,7 @@ const valid = ref(false);
             ></v-text-field>
             <span class="timer-box">
               <v-icon>icon-timer</v-icon>
-              <span>2:44</span>
+              <span>99:99</span>
             </span>
             <v-btn
               variant="outlined"

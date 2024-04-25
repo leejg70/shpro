@@ -12,6 +12,7 @@ const radios = ref('1');
   <v-dialog
     v-model="company"
     width="auto"
+    persistent
   >
     <!-- 샘플 버튼 -->
     <template v-slot:activator="{ props: activatorProps }">
