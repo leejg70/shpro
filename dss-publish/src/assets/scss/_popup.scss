@@ -20,6 +20,7 @@
     width: 99.6rem;
     max-width: 100%;
     max-height: 75rem;
+    transition: all 0.3s ease;
   }
   &.medium {
     display: flex;
@@ -27,8 +28,20 @@
     width: 79.2rem;
     max-width: 100%;
     max-height: 75rem;
+    margin: 0 auto;
+    margin-top: 0 !important;
+    transition: all 0.3s ease;
+    .popup-head {
+      flex: none;
+      overflow: hidden;
+      position: relative;
+    }
     .popup-cont {
       margin-bottom: 2.4rem;
+      &::after {
+        content: '';
+        display: block;
+      }
     }
   }
   &.small {
@@ -91,15 +104,41 @@
       .t-title {
         font-size: 2.2rem;
         font-weight: 500;
+        &:nth-of-type(n+2) {
+          margin-top: 4.8rem;
+        }
       }
       .s-title {
         margin-top: 1.6rem;
         font-size: 1.8rem;
         font-weight: 500;
+        &:nth-of-type(n+2):nth-of-type(-n+4),
+        &:nth-of-type(n+6):nth-of-type(-n+7),
+        &:nth-of-type(n+9):nth-of-type(-n+12),
+        &:nth-of-type(n+14):nth-of-type(-n+16),
+        &:nth-of-type(n+18) {
+          margin-top: 4.8rem;
+        }
       }
       .terms-text {
         margin-top: 1.6rem;
         font-size: 1.6rem;
+      }
+      .terms-list {
+        margin-top: 1.6rem;
+        font-size: 1.6rem;
+        > li {
+          padding-left: 1.9rem;
+          text-indent: -1.9rem;
+          + li {
+            margin-top: 2.4rem;
+          }
+          > * {
+            margin-top: 2.4rem;
+            // padding-left: 1.9rem;
+            // text-indent: -1.9rem;
+          }
+        }
       }
     }
     .text-tip {
@@ -244,16 +283,21 @@
       // left: -3.2rem !important;
       // width: 100vw;
       // height: 100vh;
-      // width: 100%;
+      width: 100%;
       height: 100%;
-      // max-width: 100%;
+      max-width: 100%;
       max-height: 100%;
     }
     &.medium {
-      // width: 100%;
+      width: 100%;
       height: 100%;
-      // max-width: 100%;
+      max-width: 100%;
       max-height: 100%;
+      min-height: 0;
+      .popup-cont {
+        margin-bottom: 0;
+        padding-bottom: 2.4rem;
+      }
     }
     &.small {
       border-radius: 1.6rem;
