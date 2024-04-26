@@ -101,14 +101,14 @@
     .terms-cont {
       padding: .8rem 0;
       word-break: keep-all;
-      .t-title {
+      .t-tit0 {
         font-size: 2.2rem;
         font-weight: 500;
         &:nth-of-type(n+2) {
           margin-top: 4.8rem;
         }
       }
-      .s-title {
+      .t-tit1 {
         margin-top: 1.6rem;
         font-size: 1.8rem;
         font-weight: 500;
@@ -120,11 +120,11 @@
           margin-top: 4.8rem;
         }
       }
-      .terms-text {
+      p {
         margin-top: 1.6rem;
         font-size: 1.6rem;
       }
-      .terms-list {
+      ol {
         margin-top: 1.6rem;
         font-size: 1.6rem;
         > li {
@@ -135,8 +135,23 @@
           }
           > * {
             margin-top: 2.4rem;
-            // padding-left: 1.9rem;
-            // text-indent: -1.9rem;
+            margin-left: -1.9rem;
+            text-indent: 0;
+            li + li {
+              margin-top: 1.6rem;
+            }
+            li > * {
+              margin-top: 1.6rem;
+              margin-left: 0;
+              li {
+                margin-top: .8rem;
+                padding-left: 2.3rem;
+                text-indent: -2.3rem;
+                &:first-child {
+                  margin-top: 0;
+                }
+              }
+            }
           }
         }
       }
