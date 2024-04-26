@@ -13,7 +13,7 @@ const MainRoutes = {
       meta: {
         appearMenu : true,
         requiresAuth: false
-      },
+      }
     },
     {
       name: 'guide02',
@@ -22,7 +22,7 @@ const MainRoutes = {
       meta: {
         appearMenu : true,
         requiresAuth: false
-      },
+      }
     },
     {
       name: 'guide03',
@@ -31,7 +31,7 @@ const MainRoutes = {
       meta: {
         appearMenu : true,
         requiresAuth: false
-      },
+      }
     },
     {
       name: 'worklist',
@@ -40,7 +40,7 @@ const MainRoutes = {
       meta: {
         appearMenu : true,
         requiresAuth: false
-      },
+      }
     }
   ]
 };
