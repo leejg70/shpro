@@ -170,7 +170,7 @@
 									<td class="col-4depth"></td>
 									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
-									<td class="col-url"><router-link to="/MAIN_01" target="_blank">/views/dss/Main/MAIN_01</router-link></td>
+									<td class="col-url"><router-link to="/MAIN_01" target="_blank">/views/pub/Main/MAIN_01</router-link></td>
 									<td class="col-date"></td>
 									<td class="col-complete"></td>
 									<td class="col-memo"></td>
@@ -183,7 +183,7 @@
 									<td class="col-4depth"></td>
 									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
-									<td class="col-url"><router-link to="/MAIN_02" target="_blank">/views/dss/Main/MAIN_02</router-link></td>
+									<td class="col-url"><router-link to="/MAIN_02" target="_blank">/views/pub/Main/MAIN_02</router-link></td>
 									<td class="col-date"></td>
 									<td class="col-complete"></td>
 									<td class="col-memo"></td>
@@ -196,7 +196,7 @@
 									<td class="col-4depth"></td>
 									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
-									<td class="col-url"><router-link to="/MAIN_00_01" target="_blank">/views/dss/Main/MAIN_00_01</router-link></td>
+									<td class="col-url"><router-link to="/MAIN_00_01" target="_blank">/views/pub/Main/MAIN_00_01</router-link></td>
 									<td class="col-date"></td>
 									<td class="col-complete"></td>
 									<td class="col-memo"></td>
@@ -222,7 +222,7 @@
 									<td class="col-4depth"></td>
 									<td class="col-5depth"></td>
 									<td class="col-point">popup</td>
-									<td class="col-url"><router-link to="/MAIN_00_02_p" target="_blank">/views/dss/Main/MAIN_00_02_p</router-link></td>
+									<td class="col-url"><router-link to="/MAIN_00_02_p" target="_blank">/views/pub/Main/MAIN_00_02_p</router-link></td>
 									<td class="col-date"></td>
 									<td class="col-complete"></td>
 									<td class="col-memo"></td>
@@ -235,7 +235,7 @@
 									<td class="col-4depth"></td>
 									<td class="col-5depth"></td>
 									<td class="col-point">popup</td>
-									<td class="col-url"><router-link to="/MAIN_00_03_p" target="_blank">/views/dss/Main/MAIN_00_03_p</router-link></td>
+									<td class="col-url"><router-link to="/MAIN_00_03_p" target="_blank">/views/pub/Main/MAIN_00_03_p</router-link></td>
 									<td class="col-date"></td>
 									<td class="col-complete"></td>
 									<td class="col-memo"></td>
@@ -248,7 +248,7 @@
 									<td class="col-4depth"></td>
 									<td class="col-5depth"></td>
 									<td class="col-point">popup</td>
-									<td class="col-url"><router-link to="/MAIN_00_04_p" target="_blank">/views/dss/Main/MAIN_00_04_p</router-link></td>
+									<td class="col-url"><router-link to="/MAIN_00_04_p" target="_blank">/views/pub/Main/MAIN_00_04_p</router-link></td>
 									<td class="col-date"></td>
 									<td class="col-complete"></td>
 									<td class="col-memo"></td>
@@ -304,7 +304,7 @@
 									<td class="col-4depth"></td>
 									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
-									<td class="col-url"><router-link to="/PRDD_01" target="_blank">/views/dss/DataService/PRDD_01</router-link></td>
+									<td class="col-url"><router-link to="/PRDD_01" target="_blank">/views/pub/DataService/PRDD_01</router-link></td>
 									<td class="col-date"></td>
 									<td class="col-complete"></td>
 									<td class="col-memo"></td>
@@ -317,7 +317,7 @@
 									<td class="col-4depth">결과 有</td>
 									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
-									<td class="col-url"><router-link to="/PRDD_02_01" target="_blank">/views/dss/DataService/PRDD_02_01</router-link></td>
+									<td class="col-url"><router-link to="/PRDD_02_01" target="_blank">/views/pub/DataService/PRDD_02_01</router-link></td>
 									<td class="col-date"></td>
 									<td class="col-complete"></td>
 									<td class="col-memo"></td>
@@ -330,7 +330,7 @@
 									<td class="col-4depth">결과 無</td>
 									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
-									<td class="col-url"><router-link to="/PRDD_02_01_null" target="_blank">/views/dss/DataService/PRDD_02_01_null</router-link></td>
+									<td class="col-url"><router-link to="/PRDD_02_01_null" target="_blank">/views/pub/DataService/PRDD_02_01_null</router-link></td>
 									<td class="col-date"></td>
 									<td class="col-complete"></td>
 									<td class="col-memo"></td>
@@ -343,7 +343,7 @@
 									<td class="col-4depth">상세</td>
 									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
-									<td class="col-url"><router-link to="/PRDD_00_01" target="_blank">/views/dss/DataService/PRDD_00_01</router-link></td>
+									<td class="col-url"><router-link to="/PRDD_00_01" target="_blank">/views/pub/DataService/PRDD_00_01</router-link></td>
 									<td class="col-date"></td>
 									<td class="col-complete"></td>
 									<td class="col-memo"></td>
@@ -356,7 +356,7 @@
 									<td class="col-4depth"></td>
 									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
-									<td class="col-url"><router-link to="/PRDD_03" target="_blank">/views/dss/DataService/PRDD_03</router-link></td>
+									<td class="col-url"><router-link to="/PRDD_03" target="_blank">/views/pub/DataService/PRDD_03</router-link></td>
 									<td class="col-date"></td>
 									<td class="col-complete"></td>
 									<td class="col-memo"></td>
@@ -369,7 +369,7 @@
 									<td class="col-4depth"></td>
 									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
-									<td class="col-url"><router-link to="/PRDS_01" target="_blank">/views/dss/SolutionService/PRDS_01</router-link></td>
+									<td class="col-url"><router-link to="/PRDS_01" target="_blank">/views/pub/SolutionService/PRDS_01</router-link></td>
 									<td class="col-date"></td>
 									<td class="col-complete"></td>
 									<td class="col-memo"></td>
@@ -382,7 +382,7 @@
 									<td class="col-4depth"></td>
 									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
-									<td class="col-url"><router-link to="/PRDS_02_01" target="_blank">/views/dss/SolutionService/PRDS_02_01</router-link></td>
+									<td class="col-url"><router-link to="/PRDS_02_01" target="_blank">/views/pub/SolutionService/PRDS_02_01</router-link></td>
 									<td class="col-date"></td>
 									<td class="col-complete"></td>
 									<td class="col-memo"></td>
@@ -395,7 +395,7 @@
 									<td class="col-4depth"></td>
 									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
-									<td class="col-url"><router-link to="/PRDS_02_01_null" target="_blank">/views/dss/SolutionService/PRDS_02_01_null</router-link></td>
+									<td class="col-url"><router-link to="/PRDS_02_01_null" target="_blank">/views/pub/SolutionService/PRDS_02_01_null</router-link></td>
 									<td class="col-date"></td>
 									<td class="col-complete"></td>
 									<td class="col-memo"></td>
@@ -408,7 +408,7 @@
 									<td class="col-4depth"></td>
 									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
-									<td class="col-url"><router-link to="/PRDS_00_01" target="_blank">/views/dss/SolutionService/PRDS_00_01</router-link></td>
+									<td class="col-url"><router-link to="/PRDS_00_01" target="_blank">/views/pub/SolutionService/PRDS_00_01</router-link></td>
 									<td class="col-date"></td>
 									<td class="col-complete"></td>
 									<td class="col-memo"></td>
@@ -421,7 +421,7 @@
 									<td class="col-4depth"></td>
 									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
-									<td class="col-url"><router-link to="/PRDS_00_02" target="_blank">/views/dss/SolutionService/PRDS_00_02</router-link></td>
+									<td class="col-url"><router-link to="/PRDS_00_02" target="_blank">/views/pub/SolutionService/PRDS_00_02</router-link></td>
 									<td class="col-date"></td>
 									<td class="col-complete"></td>
 									<td class="col-memo"></td>
@@ -434,7 +434,7 @@
 									<td class="col-4depth"></td>
 									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
-									<td class="col-url"><router-link to="/PRDS_00_03" target="_blank">/views/dss/SolutionService/PRDS_00_03</router-link></td>
+									<td class="col-url"><router-link to="/PRDS_00_03" target="_blank">/views/pub/SolutionService/PRDS_00_03</router-link></td>
 									<td class="col-date"></td>
 									<td class="col-complete"></td>
 									<td class="col-memo"></td>
@@ -447,7 +447,7 @@
 									<td class="col-4depth"></td>
 									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
-									<td class="col-url"><router-link to="/PRDS_00_04" target="_blank">/views/dss/SolutionService/PRDS_00_04</router-link></td>
+									<td class="col-url"><router-link to="/PRDS_00_04" target="_blank">/views/pub/SolutionService/PRDS_00_04</router-link></td>
 									<td class="col-date"></td>
 									<td class="col-complete"></td>
 									<td class="col-memo"></td>
@@ -460,7 +460,7 @@
 									<td class="col-4depth"></td>
 									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
-									<td class="col-url"><router-link to="/PRDM_00" target="_blank">/views/dss/ADService/PRDM_00</router-link></td>
+									<td class="col-url"><router-link to="/PRDM_00" target="_blank">/views/pub/ADService/PRDM_00</router-link></td>
 									<td class="col-date"></td>
 									<td class="col-complete"></td>
 									<td class="col-memo"></td>
@@ -473,7 +473,7 @@
 									<td class="col-4depth"></td>
 									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
-									<td class="col-url"><router-link to="/PRDM_01" target="_blank">/views/dss/ADService/PRDM_01</router-link></td>
+									<td class="col-url"><router-link to="/PRDM_01" target="_blank">/views/pub/ADService/PRDM_01</router-link></td>
 									<td class="col-date"></td>
 									<td class="col-complete"></td>
 									<td class="col-memo"></td>
@@ -486,7 +486,7 @@
 									<td class="col-4depth"></td>
 									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
-									<td class="col-url"><router-link to="/PRDM_01_01" target="_blank">/views/dss/ADService/PRDM_01_01</router-link></td>
+									<td class="col-url"><router-link to="/PRDM_01_01" target="_blank">/views/pub/ADService/PRDM_01_01</router-link></td>
 									<td class="col-date"></td>
 									<td class="col-complete"></td>
 									<td class="col-memo"></td>
@@ -499,7 +499,7 @@
 									<td class="col-4depth">LMS</td>
 									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
-									<td class="col-url"><router-link to="/PRDM_01_02" target="_blank">/views/dss/ADService/PRDM_01_02</router-link></td>
+									<td class="col-url"><router-link to="/PRDM_01_02" target="_blank">/views/pub/ADService/PRDM_01_02</router-link></td>
 									<td class="col-date"></td>
 									<td class="col-complete"></td>
 									<td class="col-memo"></td>
@@ -512,7 +512,7 @@
 									<td class="col-4depth">RCS</td>
 									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
-									<td class="col-url"><router-link to="/PRDM_01_03" target="_blank">/views/dss/ADService/PRDM_01_03</router-link></td>
+									<td class="col-url"><router-link to="/PRDM_01_03" target="_blank">/views/pub/ADService/PRDM_01_03</router-link></td>
 									<td class="col-date"></td>
 									<td class="col-complete"></td>
 									<td class="col-memo"></td>
@@ -525,7 +525,7 @@
 									<td class="col-4depth">MMS</td>
 									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
-									<td class="col-url"><router-link to="/PRDM_01_04" target="_blank">/views/dss/ADService/PRDM_01_04</router-link></td>
+									<td class="col-url"><router-link to="/PRDM_01_04" target="_blank">/views/pub/ADService/PRDM_01_04</router-link></td>
 									<td class="col-date"></td>
 									<td class="col-complete"></td>
 									<td class="col-memo"></td>
@@ -538,7 +538,7 @@
 									<td class="col-4depth">APP PUSH</td>
 									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
-									<td class="col-url"><router-link to="/PRDM_01_05" target="_blank">/views/dss/ADService/PRDM_01_05</router-link></td>
+									<td class="col-url"><router-link to="/PRDM_01_05" target="_blank">/views/pub/ADService/PRDM_01_05</router-link></td>
 									<td class="col-date"></td>
 									<td class="col-complete"></td>
 									<td class="col-memo"></td>
@@ -551,7 +551,7 @@
 									<td class="col-4depth"></td>
 									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
-									<td class="col-url"><router-link to="/PRDM_01_06" target="_blank">/views/dss/ADService/PRDM_01_06</router-link></td>
+									<td class="col-url"><router-link to="/PRDM_01_06" target="_blank">/views/pub/ADService/PRDM_01_06</router-link></td>
 									<td class="col-date"></td>
 									<td class="col-complete"></td>
 									<td class="col-memo"></td>
@@ -564,7 +564,7 @@
 									<td class="col-4depth"></td>
 									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
-									<td class="col-url"><router-link to="/PRDM_02" target="_blank">/views/dss/ADService/PRDM_02</router-link></td>
+									<td class="col-url"><router-link to="/PRDM_02" target="_blank">/views/pub/ADService/PRDM_02</router-link></td>
 									<td class="col-date"></td>
 									<td class="col-complete"></td>
 									<td class="col-memo"></td>
@@ -577,7 +577,7 @@
 									<td class="col-4depth"></td>
 									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
-									<td class="col-url"><router-link to="/PRDM_03" target="_blank">/views/dss/ADService/PRDM_03</router-link></td>
+									<td class="col-url"><router-link to="/PRDM_03" target="_blank">/views/pub/ADService/PRDM_03</router-link></td>
 									<td class="col-date"></td>
 									<td class="col-complete"></td>
 									<td class="col-memo"></td>
@@ -590,7 +590,7 @@
 									<td class="col-4depth"></td>
 									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
-									<td class="col-url"><router-link to="/PRDA_01" target="_blank">/views/dss/APIService/PRDA_01</router-link></td>
+									<td class="col-url"><router-link to="/PRDA_01" target="_blank">/views/pub/APIService/PRDA_01</router-link></td>
 									<td class="col-date"></td>
 									<td class="col-complete"></td>
 									<td class="col-memo"></td>
@@ -603,7 +603,7 @@
 									<td class="col-4depth"></td>
 									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
-									<td class="col-url"><router-link to="/PRDA_02_01" target="_blank">/views/dss/APIService/PRDA_02_01</router-link></td>
+									<td class="col-url"><router-link to="/PRDA_02_01" target="_blank">/views/pub/APIService/PRDA_02_01</router-link></td>
 									<td class="col-date"></td>
 									<td class="col-complete"></td>
 									<td class="col-memo"></td>
@@ -616,7 +616,7 @@
 									<td class="col-4depth"></td>
 									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
-									<td class="col-url"><router-link to="/PRDA_02_01_null" target="_blank">/views/dss/APIService/PRDA_02_01_null</router-link></td>
+									<td class="col-url"><router-link to="/PRDA_02_01_null" target="_blank">/views/pub/APIService/PRDA_02_01_null</router-link></td>
 									<td class="col-date"></td>
 									<td class="col-complete"></td>
 									<td class="col-memo"></td>
@@ -629,7 +629,7 @@
 									<td class="col-4depth"></td>
 									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
-									<td class="col-url"><router-link to="/PRDA_00_01" target="_blank">/views/dss/APIService/PRDA_00_01</router-link></td>
+									<td class="col-url"><router-link to="/PRDA_00_01" target="_blank">/views/pub/APIService/PRDA_00_01</router-link></td>
 									<td class="col-date"></td>
 									<td class="col-complete"></td>
 									<td class="col-memo"></td>
@@ -642,7 +642,7 @@
 									<td class="col-4depth"></td>
 									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
-									<td class="col-url"><router-link to="/PRDA_00_02" target="_blank">/views/dss/APIService/PRDA_00_02</router-link></td>
+									<td class="col-url"><router-link to="/PRDA_00_02" target="_blank">/views/pub/APIService/PRDA_00_02</router-link></td>
 									<td class="col-date"></td>
 									<td class="col-complete"></td>
 									<td class="col-memo"></td>
@@ -655,7 +655,7 @@
 									<td class="col-4depth"></td>
 									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
-									<td class="col-url"><router-link to="/PRDA_00_03" target="_blank">/views/dss/APIService/PRDA_00_03</router-link></td>
+									<td class="col-url"><router-link to="/PRDA_00_03" target="_blank">/views/pub/APIService/PRDA_00_03</router-link></td>
 									<td class="col-date"></td>
 									<td class="col-complete"></td>
 									<td class="col-memo"></td>
@@ -668,7 +668,7 @@
 									<td class="col-4depth"></td>
 									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
-									<td class="col-url"><router-link to="/MY_00" target="_blank">/views/dss/My/MY_00</router-link></td>
+									<td class="col-url"><router-link to="/MY_00" target="_blank">/views/pub/My/MY_00</router-link></td>
 									<td class="col-date"></td>
 									<td class="col-complete"></td>
 									<td class="col-memo"></td>
@@ -681,7 +681,7 @@
 									<td class="col-4depth"></td>
 									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
-									<td class="col-url"><router-link to="/MY_01" target="_blank">/views/dss/My/MY_01</router-link></td>
+									<td class="col-url"><router-link to="/MY_01" target="_blank">/views/pub/My/MY_01</router-link></td>
 									<td class="col-date"></td>
 									<td class="col-complete"></td>
 									<td class="col-memo"></td>
@@ -694,7 +694,7 @@
 									<td class="col-4depth"></td>
 									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
-									<td class="col-url"><router-link to="/MY_02" target="_blank">/views/dss/My/MY_02</router-link></td>
+									<td class="col-url"><router-link to="/MY_02" target="_blank">/views/pub/My/MY_02</router-link></td>
 									<td class="col-date"></td>
 									<td class="col-complete"></td>
 									<td class="col-memo"></td>
@@ -707,7 +707,7 @@
 									<td class="col-4depth">전환신청완료 안내</td>
 									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
-									<td class="col-url"><router-link to="/MY_00_01" target="_blank">/views/dss/My/MY_00_01</router-link></td>
+									<td class="col-url"><router-link to="/MY_00_01" target="_blank">/views/pub/My/MY_00_01</router-link></td>
 									<td class="col-date"></td>
 									<td class="col-complete"></td>
 									<td class="col-memo"></td>
@@ -720,7 +720,7 @@
 									<td class="col-4depth"></td>
 									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
-									<td class="col-url"><router-link to="/MY_02_r" target="_blank">/views/dss/My/MY_02_r</router-link></td>
+									<td class="col-url"><router-link to="/MY_02_r" target="_blank">/views/pub/My/MY_02_r</router-link></td>
 									<td class="col-date"></td>
 									<td class="col-complete"></td>
 									<td class="col-memo"></td>
@@ -733,7 +733,7 @@
 									<td class="col-4depth">수정</td>
 									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
-									<td class="col-url"><router-link to="/MY_02_u" target="_blank">/views/dss/My/MY_02_u</router-link></td>
+									<td class="col-url"><router-link to="/MY_02_u" target="_blank">/views/pub/My/MY_02_u</router-link></td>
 									<td class="col-date"></td>
 									<td class="col-complete"></td>
 									<td class="col-memo"></td>
@@ -746,7 +746,7 @@
 									<td class="col-4depth"></td>
 									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
-									<td class="col-url"><router-link to="/MY_03_r" target="_blank">/views/dss/My/MY_03_r</router-link></td>
+									<td class="col-url"><router-link to="/MY_03_r" target="_blank">/views/pub/My/MY_03_r</router-link></td>
 									<td class="col-date"></td>
 									<td class="col-complete"></td>
 									<td class="col-memo"></td>
@@ -759,7 +759,7 @@
 									<td class="col-4depth">수정</td>
 									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
-									<td class="col-url"><router-link to="/MY_03_u" target="_blank">/views/dss/My/MY_03_u</router-link></td>
+									<td class="col-url"><router-link to="/MY_03_u" target="_blank">/views/pub/My/MY_03_u</router-link></td>
 									<td class="col-date"></td>
 									<td class="col-complete"></td>
 									<td class="col-memo"></td>
@@ -772,7 +772,7 @@
 									<td class="col-4depth"></td>
 									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
-									<td class="col-url"><router-link to="/MY_04_r" target="_blank">/views/dss/My/MY_04_r</router-link></td>
+									<td class="col-url"><router-link to="/MY_04_r" target="_blank">/views/pub/My/MY_04_r</router-link></td>
 									<td class="col-date"></td>
 									<td class="col-complete"></td>
 									<td class="col-memo"></td>
@@ -785,7 +785,7 @@
 									<td class="col-4depth">수정</td>
 									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
-									<td class="col-url"><router-link to="/MY_04_u" target="_blank">/views/dss/My/MY_04_u</router-link></td>
+									<td class="col-url"><router-link to="/MY_04_u" target="_blank">/views/pub/My/MY_04_u</router-link></td>
 									<td class="col-date"></td>
 									<td class="col-complete"></td>
 									<td class="col-memo"></td>
@@ -798,7 +798,7 @@
 									<td class="col-4depth"></td>
 									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
-									<td class="col-url"><router-link to="/MY_05" target="_blank">/views/dss/My/MY_05</router-link></td>
+									<td class="col-url"><router-link to="/MY_05" target="_blank">/views/pub/My/MY_05</router-link></td>
 									<td class="col-date"></td>
 									<td class="col-complete"></td>
 									<td class="col-memo"></td>
@@ -811,7 +811,7 @@
 									<td class="col-4depth"></td>
 									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
-									<td class="col-url"><router-link to="/MY_03" target="_blank">/views/dss/My/MY_03</router-link></td>
+									<td class="col-url"><router-link to="/MY_03" target="_blank">/views/pub/My/MY_03</router-link></td>
 									<td class="col-date"></td>
 									<td class="col-complete"></td>
 									<td class="col-memo"></td>
@@ -824,7 +824,7 @@
 									<td class="col-4depth">APP KEY 조회 팝업</td>
 									<td class="col-5depth"></td>
 									<td class="col-point">popup</td>
-									<td class="col-url"><router-link to="/MY_03_01_p" target="_blank">/views/dss/My/MY_03_01_p</router-link></td>
+									<td class="col-url"><router-link to="/MY_03_01_p" target="_blank">/views/pub/My/MY_03_01_p</router-link></td>
 									<td class="col-date"></td>
 									<td class="col-complete"></td>
 									<td class="col-memo"></td>
@@ -837,7 +837,7 @@
 									<td class="col-4depth"></td>
 									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
-									<td class="col-url"><router-link to="/MY_04" target="_blank">/views/dss/My/MY_04</router-link></td>
+									<td class="col-url"><router-link to="/MY_04" target="_blank">/views/pub/My/MY_04</router-link></td>
 									<td class="col-date"></td>
 									<td class="col-complete"></td>
 									<td class="col-memo"></td>
@@ -850,7 +850,7 @@
 									<td class="col-4depth"></td>
 									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
-									<td class="col-url"><router-link to="/MY_07" target="_blank">/views/dss/My/MY_07</router-link></td>
+									<td class="col-url"><router-link to="/MY_07" target="_blank">/views/pub/My/MY_07</router-link></td>
 									<td class="col-date"></td>
 									<td class="col-complete"></td>
 									<td class="col-memo"></td>
@@ -863,7 +863,7 @@
 									<td class="col-4depth"></td>
 									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
-									<td class="col-url"><router-link to="/MY_07_01" target="_blank">/views/dss/My/MY_07_01</router-link></td>
+									<td class="col-url"><router-link to="/MY_07_01" target="_blank">/views/pub/My/MY_07_01</router-link></td>
 									<td class="col-date"></td>
 									<td class="col-complete"></td>
 									<td class="col-memo"></td>
@@ -876,7 +876,7 @@
 									<td class="col-4depth"></td>
 									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
-									<td class="col-url"><router-link to="/MY_05" target="_blank">/views/dss/My/MY_08</router-link></td>
+									<td class="col-url"><router-link to="/MY_05" target="_blank">/views/pub/My/MY_08</router-link></td>
 									<td class="col-date"></td>
 									<td class="col-complete"></td>
 									<td class="col-memo"></td>
@@ -889,7 +889,7 @@
 									<td class="col-4depth"></td>
 									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
-									<td class="col-url"><router-link to="/MY_06" target="_blank">/views/dss/My/MY_06</router-link></td>
+									<td class="col-url"><router-link to="/MY_06" target="_blank">/views/pub/My/MY_06</router-link></td>
 									<td class="col-date"></td>
 									<td class="col-complete"></td>
 									<td class="col-memo"></td>
@@ -902,7 +902,7 @@
 									<td class="col-4depth"></td>
 									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
-									<td class="col-url"><router-link to="/MY_00_02_null" target="_blank">/views/dss/My/MY_00_02_null</router-link></td>
+									<td class="col-url"><router-link to="/MY_00_02_null" target="_blank">/views/pub/My/MY_00_02_null</router-link></td>
 									<td class="col-date"></td>
 									<td class="col-complete"></td>
 									<td class="col-memo"></td>
@@ -915,7 +915,7 @@
 									<td class="col-4depth"></td>
 									<td class="col-5depth"></td>
 									<td class="col-point">popup</td>
-									<td class="col-url"><router-link to="/MY_00_03_p" target="_blank">/views/dss/My/MY_00_03_p</router-link></td>
+									<td class="col-url"><router-link to="/MY_00_03_p" target="_blank">/views/pub/My/MY_00_03_p</router-link></td>
 									<td class="col-date"></td>
 									<td class="col-complete"></td>
 									<td class="col-memo"></td>
@@ -971,7 +971,7 @@
 									<td class="col-4depth"></td>
 									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
-									<td class="col-url"><router-link to="/BLUE_01" target="_blank">/views/dss/Databule/BLUE_01</router-link></td>
+									<td class="col-url"><router-link to="/BLUE_01" target="_blank">/views/pub/Databule/BLUE_01</router-link></td>
 									<td class="col-date"></td>
 									<td class="col-complete"></td>
 									<td class="col-memo"></td>
@@ -984,7 +984,7 @@
 									<td class="col-4depth"></td>
 									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
-									<td class="col-url"><router-link to="/BLUE_02_01" target="_blank">/views/dss/Databule/BLUE_02_01</router-link></td>
+									<td class="col-url"><router-link to="/BLUE_02_01" target="_blank">/views/pub/Databule/BLUE_02_01</router-link></td>
 									<td class="col-date"></td>
 									<td class="col-complete"></td>
 									<td class="col-memo"></td>
@@ -997,7 +997,7 @@
 									<td class="col-4depth"></td>
 									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
-									<td class="col-url"><router-link to="/BLUE_02_02" target="_blank">/views/dss/Databule/BLUE_02_02</router-link></td>
+									<td class="col-url"><router-link to="/BLUE_02_02" target="_blank">/views/pub/Databule/BLUE_02_02</router-link></td>
 									<td class="col-date"></td>
 									<td class="col-complete"></td>
 									<td class="col-memo"></td>
@@ -1010,7 +1010,7 @@
 									<td class="col-4depth"></td>
 									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
-									<td class="col-url"><router-link to="/BLUE_02_03" target="_blank">/views/dss/Databule/BLUE_02_03</router-link></td>
+									<td class="col-url"><router-link to="/BLUE_02_03" target="_blank">/views/pub/Databule/BLUE_02_03</router-link></td>
 									<td class="col-date"></td>
 									<td class="col-complete"></td>
 									<td class="col-memo"></td>
@@ -1023,7 +1023,7 @@
 									<td class="col-4depth"></td>
 									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
-									<td class="col-url"><router-link to="/BLUE_02_04" target="_blank">/views/dss/Databule/BLUE_02_04</router-link></td>
+									<td class="col-url"><router-link to="/BLUE_02_04" target="_blank">/views/pub/Databule/BLUE_02_04</router-link></td>
 									<td class="col-date"></td>
 									<td class="col-complete"></td>
 									<td class="col-memo"></td>
@@ -1036,7 +1036,7 @@
 									<td class="col-4depth"></td>
 									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
-									<td class="col-url"><router-link to="/BLUE_02_05" target="_blank">/views/dss/Databule/BLUE_02_05</router-link></td>
+									<td class="col-url"><router-link to="/BLUE_02_05" target="_blank">/views/pub/Databule/BLUE_02_05</router-link></td>
 									<td class="col-date"></td>
 									<td class="col-complete"></td>
 									<td class="col-memo"></td>
@@ -1049,7 +1049,7 @@
 									<td class="col-4depth"></td>
 									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
-									<td class="col-url"><router-link to="/NOTI_01" target="_blank">/views/dss/Customer/NOTI_01</router-link></td>
+									<td class="col-url"><router-link to="/NOTI_01" target="_blank">/views/pub/Customer/NOTI_01</router-link></td>
 									<td class="col-date"></td>
 									<td class="col-complete"></td>
 									<td class="col-memo"></td>
@@ -1062,7 +1062,7 @@
 									<td class="col-4depth">결과 有</td>
 									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
-									<td class="col-url"><router-link to="/NOTI_02_01" target="_blank">/views/dss/Customer/NOTI_02_01</router-link></td>
+									<td class="col-url"><router-link to="/NOTI_02_01" target="_blank">/views/pub/Customer/NOTI_02_01</router-link></td>
 									<td class="col-date"></td>
 									<td class="col-complete"></td>
 									<td class="col-memo"></td>
@@ -1075,7 +1075,7 @@
 									<td class="col-4depth">결과 無</td>
 									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
-									<td class="col-url"><router-link to="/NOTI_02_01_null" target="_blank">/views/dss/Customer/NOTI_02_01_null</router-link></td>
+									<td class="col-url"><router-link to="/NOTI_02_01_null" target="_blank">/views/pub/Customer/NOTI_02_01_null</router-link></td>
 									<td class="col-date"></td>
 									<td class="col-complete"></td>
 									<td class="col-memo"></td>
@@ -1088,7 +1088,7 @@
 									<td class="col-4depth"></td>
 									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
-									<td class="col-url"><router-link to="/NOTI_00_01" target="_blank">/views/dss/Customer/NOTI_00_01</router-link></td>
+									<td class="col-url"><router-link to="/NOTI_00_01" target="_blank">/views/pub/Customer/NOTI_00_01</router-link></td>
 									<td class="col-date"></td>
 									<td class="col-complete"></td>
 									<td class="col-memo"></td>
@@ -1101,7 +1101,7 @@
 									<td class="col-4depth"></td>
 									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
-									<td class="col-url"><router-link to="/FAQS_01" target="_blank">/views/dss/Customer/FAQS_01</router-link></td>
+									<td class="col-url"><router-link to="/FAQS_01" target="_blank">/views/pub/Customer/FAQS_01</router-link></td>
 									<td class="col-date"></td>
 									<td class="col-complete"></td>
 									<td class="col-memo"></td>
@@ -1114,7 +1114,7 @@
 									<td class="col-4depth"></td>
 									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
-									<td class="col-url"><router-link to="/QNAS_01" target="_blank">/views/dss/Customer/QNAS_01</router-link></td>
+									<td class="col-url"><router-link to="/QNAS_01" target="_blank">/views/pub/Customer/QNAS_01</router-link></td>
 									<td class="col-date"></td>
 									<td class="col-complete"></td>
 									<td class="col-memo"></td>
@@ -1127,7 +1127,7 @@
 									<td class="col-4depth">결과 有</td>
 									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
-									<td class="col-url"><router-link to="/QNAS_02_01" target="_blank">/views/dss/Customer/QNAS_02_01</router-link></td>
+									<td class="col-url"><router-link to="/QNAS_02_01" target="_blank">/views/pub/Customer/QNAS_02_01</router-link></td>
 									<td class="col-date"></td>
 									<td class="col-complete"></td>
 									<td class="col-memo"></td>
@@ -1140,7 +1140,7 @@
 									<td class="col-4depth">결과 無</td>
 									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
-									<td class="col-url"><router-link to="/QNAS_02_01_null" target="_blank">/views/dss/Customer/QNAS_02_01_null</router-link></td>
+									<td class="col-url"><router-link to="/QNAS_02_01_null" target="_blank">/views/pub/Customer/QNAS_02_01_null</router-link></td>
 									<td class="col-date"></td>
 									<td class="col-complete"></td>
 									<td class="col-memo"></td>
@@ -1153,7 +1153,7 @@
 									<td class="col-4depth"></td>
 									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
-									<td class="col-url"><router-link to="/QNAS_00_01_r" target="_blank">/views/dss/Customer/QNAS_00_01_r</router-link></td>
+									<td class="col-url"><router-link to="/QNAS_00_01_r" target="_blank">/views/pub/Customer/QNAS_00_01_r</router-link></td>
 									<td class="col-date"></td>
 									<td class="col-complete"></td>
 									<td class="col-memo"></td>
@@ -1166,7 +1166,7 @@
 									<td class="col-4depth">수정</td>
 									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
-									<td class="col-url"><router-link to="/QNAS_00_01_u" target="_blank">/views/dss/Customer/QNAS_00_01_u</router-link></td>
+									<td class="col-url"><router-link to="/QNAS_00_01_u" target="_blank">/views/pub/Customer/QNAS_00_01_u</router-link></td>
 									<td class="col-date"></td>
 									<td class="col-complete"></td>
 									<td class="col-memo"></td>
@@ -1179,7 +1179,7 @@
 									<td class="col-4depth"></td>
 									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
-									<td class="col-url"><router-link to="/QNAS_01_01_c" target="_blank">/views/dss/Customer/QNAS_01_01_c</router-link></td>
+									<td class="col-url"><router-link to="/QNAS_01_01_c" target="_blank">/views/pub/Customer/QNAS_01_01_c</router-link></td>
 									<td class="col-date"></td>
 									<td class="col-complete"></td>
 									<td class="col-memo"></td>
@@ -1192,7 +1192,7 @@
 									<td class="col-4depth"></td>
 									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
-									<td class="col-url"><router-link to="/COMU_01" target="_blank">/views/dss/Community/COMU_01</router-link></td>
+									<td class="col-url"><router-link to="/COMU_01" target="_blank">/views/pub/Community/COMU_01</router-link></td>
 									<td class="col-date"></td>
 									<td class="col-complete"></td>
 									<td class="col-memo"></td>
@@ -1205,7 +1205,7 @@
 									<td class="col-4depth">상세</td>
 									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
-									<td class="col-url"><router-link to="/COMU_01_01_r" target="_blank">/views/dss/Community/COMU_01_01_r</router-link></td>
+									<td class="col-url"><router-link to="/COMU_01_01_r" target="_blank">/views/pub/Community/COMU_01_01_r</router-link></td>
 									<td class="col-date"></td>
 									<td class="col-complete"></td>
 									<td class="col-memo"></td>
@@ -1218,7 +1218,7 @@
 									<td class="col-4depth"></td>
 									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
-									<td class="col-url"><router-link to="/COMU_02" target="_blank">/views/dss/Community/COMU_02</router-link></td>
+									<td class="col-url"><router-link to="/COMU_02" target="_blank">/views/pub/Community/COMU_02</router-link></td>
 									<td class="col-date"></td>
 									<td class="col-complete"></td>
 									<td class="col-memo"></td>
@@ -1231,7 +1231,7 @@
 									<td class="col-4depth">결과 有</td>
 									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
-									<td class="col-url"><router-link to="/COMU_02_01" target="_blank">/views/dss/Community/COMU_02_01</router-link></td>
+									<td class="col-url"><router-link to="/COMU_02_01" target="_blank">/views/pub/Community/COMU_02_01</router-link></td>
 									<td class="col-date"></td>
 									<td class="col-complete"></td>
 									<td class="col-memo"></td>
@@ -1244,7 +1244,7 @@
 									<td class="col-4depth">결과 無</td>
 									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
-									<td class="col-url"><router-link to="/COMU_02_01_null" target="_blank">/views/dss/Community/COMU_02_01_null</router-link></td>
+									<td class="col-url"><router-link to="/COMU_02_01_null" target="_blank">/views/pub/Community/COMU_02_01_null</router-link></td>
 									<td class="col-date"></td>
 									<td class="col-complete"></td>
 									<td class="col-memo"></td>
@@ -1257,7 +1257,7 @@
 									<td class="col-4depth"></td>
 									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
-									<td class="col-url"><router-link to="/COMU_02_02_r" target="_blank">/views/dss/Community/COMU_02_02_r</router-link></td>
+									<td class="col-url"><router-link to="/COMU_02_02_r" target="_blank">/views/pub/Community/COMU_02_02_r</router-link></td>
 									<td class="col-date"></td>
 									<td class="col-complete"></td>
 									<td class="col-memo"></td>
@@ -1270,7 +1270,7 @@
 									<td class="col-4depth">수정</td>
 									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
-									<td class="col-url"><router-link to="/COMU_02_02_u" target="_blank">/views/dss/Community/COMU_02_02_u</router-link></td>
+									<td class="col-url"><router-link to="/COMU_02_02_u" target="_blank">/views/pub/Community/COMU_02_02_u</router-link></td>
 									<td class="col-date"></td>
 									<td class="col-complete"></td>
 									<td class="col-memo"></td>
@@ -1283,7 +1283,7 @@
 									<td class="col-4depth"></td>
 									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
-									<td class="col-url"><router-link to="/COMU_02_02_c" target="_blank">/views/dss/Community/COMU_02_02_c</router-link></td>
+									<td class="col-url"><router-link to="/COMU_02_02_c" target="_blank">/views/pub/Community/COMU_02_02_c</router-link></td>
 									<td class="col-date"></td>
 									<td class="col-complete"></td>
 									<td class="col-memo"></td>
@@ -1339,7 +1339,7 @@
 									<td class="col-4depth"></td>
 									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
-									<td class="col-url"><router-link to="/LGIN_01" target="_blank">/views/dss/Login/LGIN_01</router-link></td>
+									<td class="col-url"><router-link to="/LGIN_01" target="_blank">/views/pub/Login/LGIN_01</router-link></td>
 									<td class="col-date">2024-04-05</td>
 									<td class="col-complete">2024-04-24</td>
 									<td class="col-memo"></td>
@@ -1352,7 +1352,7 @@
 									<td class="col-4depth"></td>
 									<td class="col-5depth"></td>
 									<td class="col-point">popup</td>
-									<td class="col-url"><router-link to="/LGIN_02_p" target="_blank">/views/dss/Login/LGIN_02_p</router-link></td>
+									<td class="col-url"><router-link to="/LGIN_02_p" target="_blank">/views/pub/Login/LGIN_02_p</router-link></td>
 									<td class="col-date">2024-04-24</td>
 									<td class="col-complete"></td>
 									<td class="col-memo"></td>
@@ -1365,7 +1365,7 @@
 									<td class="col-4depth"></td>
 									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
-									<td class="col-url"><router-link to="/LGIN_03" target="_blank">/views/dss/Login/LGIN_03</router-link></td>
+									<td class="col-url"><router-link to="/LGIN_03" target="_blank">/views/pub/Login/LGIN_03</router-link></td>
 									<td class="col-date">2024-04-16</td>
 									<td class="col-complete">2024-04-24</td>
 									<td class="col-memo"></td>
@@ -1378,7 +1378,7 @@
 									<td class="col-4depth"></td>
 									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
-									<td class="col-url"><router-link to="/LGIN_04" target="_blank">/views/dss/Login/LGIN_04</router-link></td>
+									<td class="col-url"><router-link to="/LGIN_04" target="_blank">/views/pub/Login/LGIN_04</router-link></td>
 									<td class="col-date">2024-04-16</td>
 									<td class="col-complete">2024-04-24</td>
 									<td class="col-memo"></td>
@@ -1391,7 +1391,7 @@
 									<td class="col-4depth"></td>
 									<td class="col-5depth"></td>
 									<td class="col-point">popup</td>
-									<td class="col-url"><router-link to="/LOUT_01_p" target="_blank">/views/dss/Login/LOUT_01_p</router-link></td>
+									<td class="col-url"><router-link to="/LOUT_01_p" target="_blank">/views/pub/Login/LOUT_01_p</router-link></td>
 									<td class="col-date">2024-04-24</td>
 									<td class="col-complete"></td>
 									<td class="col-memo"></td>
@@ -1404,7 +1404,7 @@
 									<td class="col-4depth"></td>
 									<td class="col-5depth"></td>
 									<td class="col-point">popup</td>
-									<td class="col-url"><router-link to="/LOUT_02_p" target="_blank">/views/dss/Login/LOUT_02_p</router-link></td>
+									<td class="col-url"><router-link to="/LOUT_02_p" target="_blank">/views/pub/Login/LOUT_02_p</router-link></td>
 									<td class="col-date">2024-04-24</td>
 									<td class="col-complete"></td>
 									<td class="col-memo"></td>
@@ -1417,7 +1417,7 @@
 									<td class="col-4depth"></td>
 									<td class="col-5depth"></td>
 									<td class="col-point">popup</td>
-									<td class="col-url"><router-link to="/LOUT_03_p" target="_blank">/views/dss/Login/LOUT_03_p</router-link></td>
+									<td class="col-url"><router-link to="/LOUT_03_p" target="_blank">/views/pub/Login/LOUT_03_p</router-link></td>
 									<td class="col-date">2024-04-24</td>
 									<td class="col-complete"></td>
 									<td class="col-memo"></td>
@@ -1430,7 +1430,7 @@
 									<td class="col-4depth"></td>
 									<td class="col-5depth"></td>
 									<td class="col-point">popup</td>
-									<td class="col-url"><router-link to="/LOUT_04_p" target="_blank">/views/dss/Login/LOUT_04_p</router-link></td>
+									<td class="col-url"><router-link to="/LOUT_04_p" target="_blank">/views/pub/Login/LOUT_04_p</router-link></td>
 									<td class="col-date">2024-04-24</td>
 									<td class="col-complete"></td>
 									<td class="col-memo"></td>
@@ -1443,7 +1443,7 @@
 									<td class="col-4depth"></td>
 									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
-									<td class="col-url"><router-link to="/IDPW_01" target="_blank">/views/dss/FindID/IDPW_01</router-link></td>
+									<td class="col-url"><router-link to="/IDPW_01" target="_blank">/views/pub/FindID/IDPW_01</router-link></td>
 									<td class="col-date">2024-04-12</td>
 									<td class="col-complete">2024-04-24</td>
 									<td class="col-memo"></td>
@@ -1456,7 +1456,7 @@
 									<td class="col-4depth"></td>
 									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
-									<td class="col-url"><router-link to="/IDPW_02" target="_blank">/views/dss/FindID/IDPW_02</router-link></td>
+									<td class="col-url"><router-link to="/IDPW_02" target="_blank">/views/pub/FindID/IDPW_02</router-link></td>
 									<td class="col-date">2024-04-12</td>
 									<td class="col-complete">2024-04-24</td>
 									<td class="col-memo"></td>
@@ -1469,7 +1469,7 @@
 									<td class="col-4depth"></td>
 									<td class="col-5depth"></td>
 									<td class="col-point">popup</td>
-									<td class="col-url"><router-link to="/IDPW_02_fall" target="_blank">/views/dss/FindID/IDPW_02_fall</router-link></td>
+									<td class="col-url"><router-link to="/IDPW_02_fall" target="_blank">/views/pub/FindID/IDPW_02_fall</router-link></td>
 									<td class="col-date"></td>
 									<td class="col-complete"></td>
 									<td class="col-memo"></td>
@@ -1482,7 +1482,7 @@
 									<td class="col-4depth"></td>
 									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
-									<td class="col-url"><router-link to="/IDPW_03" target="_blank">/views/dss/FindID/IDPW_03</router-link></td>
+									<td class="col-url"><router-link to="/IDPW_03" target="_blank">/views/pub/FindID/IDPW_03</router-link></td>
 									<td class="col-date">2024-04-12</td>
 									<td class="col-complete">2024-04-24</td>
 									<td class="col-memo"></td>
@@ -1495,7 +1495,7 @@
 									<td class="col-4depth"></td>
 									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
-									<td class="col-url"><router-link to="/JOIN_01" target="_blank">/views/dss/Member/JOIN_01</router-link></td>
+									<td class="col-url"><router-link to="/JOIN_01" target="_blank">/views/pub/Member/JOIN_01</router-link></td>
 									<td class="col-date">2024-04-12</td>
 									<td class="col-complete">2024-04-24</td>
 									<td class="col-memo"></td>
@@ -1508,7 +1508,7 @@
 									<td class="col-4depth"></td>
 									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
-									<td class="col-url"><router-link to="/JOIN_02_01" target="_blank">/views/dss/Member/JOIN_02_01</router-link></td>
+									<td class="col-url"><router-link to="/JOIN_02_01" target="_blank">/views/pub/Member/JOIN_02_01</router-link></td>
 									<td class="col-date">2024-04-12</td>
 									<td class="col-complete">2024-04-24</td>
 									<td class="col-memo"></td>
@@ -1521,7 +1521,7 @@
 									<td class="col-4depth"></td>
 									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
-									<td class="col-url"><router-link to="/JOIN_02_02" target="_blank">/views/dss/Member/JOIN_02_02</router-link></td>
+									<td class="col-url"><router-link to="/JOIN_02_02" target="_blank">/views/pub/Member/JOIN_02_02</router-link></td>
 									<td class="col-date">2024-04-12</td>
 									<td class="col-complete">2024-04-24</td>
 									<td class="col-memo"></td>
@@ -1534,7 +1534,7 @@
 									<td class="col-4depth"></td>
 									<td class="col-5depth"></td>
 									<td class="col-point">popup</td>
-									<td class="col-url"><router-link to="/JOIN_02_02_01_p" target="_blank">/views/dss/Member/JOIN_02_02_01_p</router-link></td>
+									<td class="col-url"><router-link to="/JOIN_02_02_01_p" target="_blank">/views/pub/Member/JOIN_02_02_01_p</router-link></td>
 									<td class="col-date"></td>
 									<td class="col-complete"></td>
 									<td class="col-memo"></td>
@@ -1547,7 +1547,7 @@
 									<td class="col-4depth"></td>
 									<td class="col-5depth"></td>
 									<td class="col-point">popup</td>
-									<td class="col-url"><router-link to="/JOIN_02_02_02_p" target="_blank">/views/dss/Member/JOIN_02_02_02_p</router-link></td>
+									<td class="col-url"><router-link to="/JOIN_02_02_02_p" target="_blank">/views/pub/Member/JOIN_02_02_02_p</router-link></td>
 									<td class="col-date"></td>
 									<td class="col-complete"></td>
 									<td class="col-memo"></td>
@@ -1560,7 +1560,7 @@
 									<td class="col-4depth"></td>
 									<td class="col-5depth"></td>
 									<td class="col-point">popup</td>
-									<td class="col-url"><router-link to="/JOIN_02_02_03_p" target="_blank">/views/dss/Member/JOIN_02_02_03_p</router-link></td>
+									<td class="col-url"><router-link to="/JOIN_02_02_03_p" target="_blank">/views/pub/Member/JOIN_02_02_03_p</router-link></td>
 									<td class="col-date"></td>
 									<td class="col-complete"></td>
 									<td class="col-memo"></td>
@@ -1573,7 +1573,7 @@
 									<td class="col-4depth"></td>
 									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
-									<td class="col-url"><router-link to="/JOIN_02_03" target="_blank">/views/dss/Member/JOIN_02_03</router-link></td>
+									<td class="col-url"><router-link to="/JOIN_02_03" target="_blank">/views/pub/Member/JOIN_02_03</router-link></td>
 									<td class="col-date">2024-04-12</td>
 									<td class="col-complete">2024-04-24</td>
 									<td class="col-memo"></td>
@@ -1586,7 +1586,7 @@
 									<td class="col-4depth"></td>
 									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
-									<td class="col-url"><router-link to="/JOIN_02_04" target="_blank">/views/dss/Member/JOIN_02_04</router-link></td>
+									<td class="col-url"><router-link to="/JOIN_02_04" target="_blank">/views/pub/Member/JOIN_02_04</router-link></td>
 									<td class="col-date">2024-04-12</td>
 									<td class="col-complete">2024-04-24</td>
 									<td class="col-memo"></td>
@@ -1599,7 +1599,7 @@
 									<td class="col-4depth"></td>
 									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
-									<td class="col-url"><router-link to="/JOIN_03_01" target="_blank">/views/dss/Member/JOIN_03_01</router-link></td>
+									<td class="col-url"><router-link to="/JOIN_03_01" target="_blank">/views/pub/Member/JOIN_03_01</router-link></td>
 									<td class="col-date">2024-04-15</td>
 									<td class="col-complete">2024-04-24</td>
 									<td class="col-memo"></td>
@@ -1612,7 +1612,7 @@
 									<td class="col-4depth"></td>
 									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
-									<td class="col-url"><router-link to="/JOIN_03_02" target="_blank">/views/dss/Member/JOIN_03_02</router-link></td>
+									<td class="col-url"><router-link to="/JOIN_03_02" target="_blank">/views/pub/Member/JOIN_03_02</router-link></td>
 									<td class="col-date">2024-04-15</td>
 									<td class="col-complete">2024-04-24</td>
 									<td class="col-memo"></td>
@@ -1625,7 +1625,7 @@
 									<td class="col-4depth"></td>
 									<td class="col-5depth"></td>
 									<td class="col-point">popup</td>
-									<td class="col-url"><router-link to="/JOIN_02_02_01_p" target="_blank">/views/dss/Member/JOIN_02_02_01_p</router-link></td>
+									<td class="col-url"><router-link to="/JOIN_02_02_01_p" target="_blank">/views/pub/Member/JOIN_02_02_01_p</router-link></td>
 									<td class="col-date"></td>
 									<td class="col-complete"></td>
 									<td class="col-memo"></td>
@@ -1638,7 +1638,7 @@
 									<td class="col-4depth"></td>
 									<td class="col-5depth"></td>
 									<td class="col-point">popup</td>
-									<td class="col-url"><router-link to="/JOIN_02_02_02_p" target="_blank">/views/dss/Member/JOIN_02_02_02_p</router-link></td>
+									<td class="col-url"><router-link to="/JOIN_02_02_02_p" target="_blank">/views/pub/Member/JOIN_02_02_02_p</router-link></td>
 									<td class="col-date"></td>
 									<td class="col-complete"></td>
 									<td class="col-memo"></td>
@@ -1651,7 +1651,7 @@
 									<td class="col-4depth"></td>
 									<td class="col-5depth"></td>
 									<td class="col-point">popup</td>
-									<td class="col-url"><router-link to="/JOIN_02_02_03_p" target="_blank">/views/dss/Member/JOIN_02_02_03_p</router-link></td>
+									<td class="col-url"><router-link to="/JOIN_02_02_03_p" target="_blank">/views/pub/Member/JOIN_02_02_03_p</router-link></td>
 									<td class="col-date"></td>
 									<td class="col-complete"></td>
 									<td class="col-memo"></td>
@@ -1664,7 +1664,7 @@
 									<td class="col-4depth"></td>
 									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
-									<td class="col-url"><router-link to="/JOIN_03_03" target="_blank">/views/dss/Member/JOIN_03_03</router-link></td>
+									<td class="col-url"><router-link to="/JOIN_03_03" target="_blank">/views/pub/Member/JOIN_03_03</router-link></td>
 									<td class="col-date">2024-04-15</td>
 									<td class="col-complete">2024-04-24</td>
 									<td class="col-memo"></td>
@@ -1677,7 +1677,7 @@
 									<td class="col-4depth"></td>
 									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
-									<td class="col-url"><router-link to="/JOIN_03_04" target="_blank">/views/dss/Member/JOIN_03_04</router-link></td>
+									<td class="col-url"><router-link to="/JOIN_03_04" target="_blank">/views/pub/Member/JOIN_03_04</router-link></td>
 									<td class="col-date">2024-04-15</td>
 									<td class="col-complete">2024-04-24</td>
 									<td class="col-memo"></td>
@@ -1690,7 +1690,7 @@
 									<td class="col-4depth"></td>
 									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
-									<td class="col-url"><router-link to="/JOIN_04_01" target="_blank">/views/dss/Member/JOIN_04_01</router-link></td>
+									<td class="col-url"><router-link to="/JOIN_04_01" target="_blank">/views/pub/Member/JOIN_04_01</router-link></td>
 									<td class="col-date">2024-04-15</td>
 									<td class="col-complete">2024-04-24</td>
 									<td class="col-memo"></td>
@@ -1703,7 +1703,7 @@
 									<td class="col-4depth"></td>
 									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
-									<td class="col-url"><router-link to="/JOIN_04_02" target="_blank">/views/dss/Member/JOIN_04_02</router-link></td>
+									<td class="col-url"><router-link to="/JOIN_04_02" target="_blank">/views/pub/Member/JOIN_04_02</router-link></td>
 									<td class="col-date">2024-04-15</td>
 									<td class="col-complete">2024-04-24</td>
 									<td class="col-memo"></td>
@@ -1716,7 +1716,7 @@
 									<td class="col-4depth"></td>
 									<td class="col-5depth"></td>
 									<td class="col-point">popup</td>
-									<td class="col-url"><router-link to="/JOIN_02_02_01_p" target="_blank">/views/dss/Member/JOIN_02_02_01_p</router-link></td>
+									<td class="col-url"><router-link to="/JOIN_02_02_01_p" target="_blank">/views/pub/Member/JOIN_02_02_01_p</router-link></td>
 									<td class="col-date"></td>
 									<td class="col-complete"></td>
 									<td class="col-memo"></td>
@@ -1729,7 +1729,7 @@
 									<td class="col-4depth"></td>
 									<td class="col-5depth"></td>
 									<td class="col-point">popup</td>
-									<td class="col-url"><router-link to="/JOIN_02_02_02_p" target="_blank">/views/dss/Member/JOIN_02_02_02_p</router-link></td>
+									<td class="col-url"><router-link to="/JOIN_02_02_02_p" target="_blank">/views/pub/Member/JOIN_02_02_02_p</router-link></td>
 									<td class="col-date"></td>
 									<td class="col-complete"></td>
 									<td class="col-memo"></td>
@@ -1742,7 +1742,7 @@
 									<td class="col-4depth"></td>
 									<td class="col-5depth"></td>
 									<td class="col-point">popup</td>
-									<td class="col-url"><router-link to="/JOIN_02_02_03_p" target="_blank">/views/dss/Member/JOIN_02_02_03_p</router-link></td>
+									<td class="col-url"><router-link to="/JOIN_02_02_03_p" target="_blank">/views/pub/Member/JOIN_02_02_03_p</router-link></td>
 									<td class="col-date"></td>
 									<td class="col-complete"></td>
 									<td class="col-memo"></td>
@@ -1755,7 +1755,7 @@
 									<td class="col-4depth"></td>
 									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
-									<td class="col-url"><router-link to="/JOIN_04_03" target="_blank">/views/dss/Member/JOIN_04_03</router-link></td>
+									<td class="col-url"><router-link to="/JOIN_04_03" target="_blank">/views/pub/Member/JOIN_04_03</router-link></td>
 									<td class="col-date">2024-04-15</td>
 									<td class="col-complete">2024-04-24</td>
 									<td class="col-memo"></td>
@@ -1768,7 +1768,7 @@
 									<td class="col-4depth"></td>
 									<td class="col-5depth"></td>
 									<td class="col-point">popup</td>
-									<td class="col-url"><router-link to="/JOIN_04_03_01_p" target="_blank">/views/dss/Member/JOIN_04_03_01_p</router-link></td>
+									<td class="col-url"><router-link to="/JOIN_04_03_01_p" target="_blank">/views/pub/Member/JOIN_04_03_01_p</router-link></td>
 									<td class="col-date"></td>
 									<td class="col-complete"></td>
 									<td class="col-memo"></td>
@@ -1781,7 +1781,7 @@
 									<td class="col-4depth">성공</td>
 									<td class="col-5depth"></td>
 									<td class="col-point">popup</td>
-									<td class="col-url"><router-link to="/JOIN_04_03_02_p" target="_blank">/views/dss/Member/JOIN_04_03_02_p</router-link></td>
+									<td class="col-url"><router-link to="/JOIN_04_03_02_p" target="_blank">/views/pub/Member/JOIN_04_03_02_p</router-link></td>
 									<td class="col-date"></td>
 									<td class="col-complete"></td>
 									<td class="col-memo"></td>
@@ -1794,7 +1794,7 @@
 									<td class="col-4depth">실패</td>
 									<td class="col-5depth"></td>
 									<td class="col-point">popup</td>
-									<td class="col-url"><router-link to="/JOIN_04_03_03_p" target="_blank">/views/dss/Member/JOIN_04_03_03_p</router-link></td>
+									<td class="col-url"><router-link to="/JOIN_04_03_03_p" target="_blank">/views/pub/Member/JOIN_04_03_03_p</router-link></td>
 									<td class="col-date"></td>
 									<td class="col-complete"></td>
 									<td class="col-memo"></td>
@@ -1807,7 +1807,7 @@
 									<td class="col-4depth">기업추가요청 팝업</td>
 									<td class="col-5depth"></td>
 									<td class="col-point">popup</td>
-									<td class="col-url"><router-link to="/JOIN_04_03_04_p" target="_blank">/views/dss/Member/JOIN_04_03_04_p</router-link></td>
+									<td class="col-url"><router-link to="/JOIN_04_03_04_p" target="_blank">/views/pub/Member/JOIN_04_03_04_p</router-link></td>
 									<td class="col-date"></td>
 									<td class="col-complete"></td>
 									<td class="col-memo"></td>
@@ -1820,7 +1820,7 @@
 									<td class="col-4depth"></td>
 									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
-									<td class="col-url"><router-link to="/JOIN_04_04" target="_blank">/views/dss/Member/JOIN_04_04</router-link></td>
+									<td class="col-url"><router-link to="/JOIN_04_04" target="_blank">/views/pub/Member/JOIN_04_04</router-link></td>
 									<td class="col-date">2024-04-15</td>
 									<td class="col-complete">2024-04-24</td>
 									<td class="col-memo"></td>
@@ -1833,7 +1833,7 @@
 									<td class="col-4depth">NICE평가정보</td>
 									<td class="col-5depth"></td>
 									<td class="col-point">popup</td>
-									<td class="col-url"><router-link to="/JOIN_05_01_01_p" target="_blank">/views/dss/Agreement/JOIN_05_01_01_p</router-link></td>
+									<td class="col-url"><router-link to="/JOIN_05_01_01_p" target="_blank">/views/pub/Agreement/JOIN_05_01_01_p</router-link></td>
 									<td class="col-date"></td>
 									<td class="col-complete"></td>
 									<td class="col-memo"></td>
@@ -1846,7 +1846,7 @@
 									<td class="col-4depth">KCB</td>
 									<td class="col-5depth"></td>
 									<td class="col-point">popup</td>
-									<td class="col-url"><router-link to="/JOIN_05_01_02_p" target="_blank">/views/dss/Agreement/JOIN_05_01_02_p</router-link></td>
+									<td class="col-url"><router-link to="/JOIN_05_01_02_p" target="_blank">/views/pub/Agreement/JOIN_05_01_02_p</router-link></td>
 									<td class="col-date"></td>
 									<td class="col-complete"></td>
 									<td class="col-memo"></td>
@@ -1859,7 +1859,7 @@
 									<td class="col-4depth">NICE평가정보</td>
 									<td class="col-5depth">SKT</td>
 									<td class="col-point">popup</td>
-									<td class="col-url"><router-link to="/JOIN_05_02_01_01_p" target="_blank">/views/dss/Agreement/JOIN_05_02_01_01_p</router-link></td>
+									<td class="col-url"><router-link to="/JOIN_05_02_01_01_p" target="_blank">/views/pub/Agreement/JOIN_05_02_01_01_p</router-link></td>
 									<td class="col-date"></td>
 									<td class="col-complete"></td>
 									<td class="col-memo"></td>
@@ -1872,7 +1872,7 @@
 									<td class="col-4depth"></td>
 									<td class="col-5depth">KT</td>
 									<td class="col-point">popup</td>
-									<td class="col-url"><router-link to="/JOIN_05_02_01_02_p" target="_blank">/views/dss/Agreement/JOIN_05_02_01_02_p</router-link></td>
+									<td class="col-url"><router-link to="/JOIN_05_02_01_02_p" target="_blank">/views/pub/Agreement/JOIN_05_02_01_02_p</router-link></td>
 									<td class="col-date"></td>
 									<td class="col-complete"></td>
 									<td class="col-memo"></td>
@@ -1885,7 +1885,7 @@
 									<td class="col-4depth"></td>
 									<td class="col-5depth">LGU+</td>
 									<td class="col-point">popup</td>
-									<td class="col-url"><router-link to="/JOIN_05_02_01_03_p" target="_blank">/views/dss/Agreement/JOIN_05_02_01_03_p</router-link></td>
+									<td class="col-url"><router-link to="/JOIN_05_02_01_03_p" target="_blank">/views/pub/Agreement/JOIN_05_02_01_03_p</router-link></td>
 									<td class="col-date"></td>
 									<td class="col-complete"></td>
 									<td class="col-memo"></td>
@@ -1898,7 +1898,7 @@
 									<td class="col-4depth">KCB</td>
 									<td class="col-5depth">SKT</td>
 									<td class="col-point">popup</td>
-									<td class="col-url"><router-link to="/JOIN_05_02_02_01_p" target="_blank">/views/dss/Agreement/JOIN_05_02_02_01_p</router-link></td>
+									<td class="col-url"><router-link to="/JOIN_05_02_02_01_p" target="_blank">/views/pub/Agreement/JOIN_05_02_02_01_p</router-link></td>
 									<td class="col-date"></td>
 									<td class="col-complete"></td>
 									<td class="col-memo"></td>
@@ -1911,7 +1911,7 @@
 									<td class="col-4depth"></td>
 									<td class="col-5depth">KT</td>
 									<td class="col-point">popup</td>
-									<td class="col-url"><router-link to="/JOIN_05_02_02_02_p" target="_blank">/views/dss/Agreement/JOIN_05_02_02_02_p</router-link></td>
+									<td class="col-url"><router-link to="/JOIN_05_02_02_02_p" target="_blank">/views/pub/Agreement/JOIN_05_02_02_02_p</router-link></td>
 									<td class="col-date"></td>
 									<td class="col-complete"></td>
 									<td class="col-memo"></td>
@@ -1924,7 +1924,7 @@
 									<td class="col-4depth"></td>
 									<td class="col-5depth">LGU+</td>
 									<td class="col-point">popup</td>
-									<td class="col-url"><router-link to="/JOIN_05_02_02_03_p" target="_blank">/views/dss/Agreement/JOIN_05_02_02_03_p</router-link></td>
+									<td class="col-url"><router-link to="/JOIN_05_02_02_03_p" target="_blank">/views/pub/Agreement/JOIN_05_02_02_03_p</router-link></td>
 									<td class="col-date"></td>
 									<td class="col-complete"></td>
 									<td class="col-memo"></td>
@@ -1937,7 +1937,7 @@
 									<td class="col-4depth">NICE평가정보</td>
 									<td class="col-5depth">SKT</td>
 									<td class="col-point">popup</td>
-									<td class="col-url"><router-link to="/JOIN_05_03_01_01_p" target="_blank">/views/dss/Agreement/JOIN_05_03_01_01_p</router-link></td>
+									<td class="col-url"><router-link to="/JOIN_05_03_01_01_p" target="_blank">/views/pub/Agreement/JOIN_05_03_01_01_p</router-link></td>
 									<td class="col-date"></td>
 									<td class="col-complete"></td>
 									<td class="col-memo"></td>
@@ -1950,7 +1950,7 @@
 									<td class="col-4depth"></td>
 									<td class="col-5depth">KT</td>
 									<td class="col-point">popup</td>
-									<td class="col-url"><router-link to="/JOIN_05_03_01_02_p" target="_blank">/views/dss/Agreement/JOIN_05_03_01_02_p</router-link></td>
+									<td class="col-url"><router-link to="/JOIN_05_03_01_02_p" target="_blank">/views/pub/Agreement/JOIN_05_03_01_02_p</router-link></td>
 									<td class="col-date"></td>
 									<td class="col-complete"></td>
 									<td class="col-memo"></td>
@@ -1963,7 +1963,7 @@
 									<td class="col-4depth"></td>
 									<td class="col-5depth">LGU+</td>
 									<td class="col-point">popup</td>
-									<td class="col-url"><router-link to="/JOIN_05_03_01_03_p" target="_blank">/views/dss/Agreement/JOIN_05_03_01_03_p</router-link></td>
+									<td class="col-url"><router-link to="/JOIN_05_03_01_03_p" target="_blank">/views/pub/Agreement/JOIN_05_03_01_03_p</router-link></td>
 									<td class="col-date"></td>
 									<td class="col-complete"></td>
 									<td class="col-memo"></td>
@@ -1976,7 +1976,7 @@
 									<td class="col-4depth">KCB</td>
 									<td class="col-5depth">SKT</td>
 									<td class="col-point">popup</td>
-									<td class="col-url"><router-link to="/JOIN_05_03_02_01_p" target="_blank">/views/dss/Agreement/JOIN_05_03_02_01_p</router-link></td>
+									<td class="col-url"><router-link to="/JOIN_05_03_02_01_p" target="_blank">/views/pub/Agreement/JOIN_05_03_02_01_p</router-link></td>
 									<td class="col-date"></td>
 									<td class="col-complete"></td>
 									<td class="col-memo"></td>
@@ -1989,7 +1989,7 @@
 									<td class="col-4depth"></td>
 									<td class="col-5depth">KT</td>
 									<td class="col-point">popup</td>
-									<td class="col-url"><router-link to="/JOIN_05_03_02_02_p" target="_blank">/views/dss/Agreement/JOIN_05_03_02_02_p</router-link></td>
+									<td class="col-url"><router-link to="/JOIN_05_03_02_02_p" target="_blank">/views/pub/Agreement/JOIN_05_03_02_02_p</router-link></td>
 									<td class="col-date"></td>
 									<td class="col-complete"></td>
 									<td class="col-memo"></td>
@@ -2002,7 +2002,7 @@
 									<td class="col-4depth"></td>
 									<td class="col-5depth">LGU+</td>
 									<td class="col-point">popup</td>
-									<td class="col-url"><router-link to="/JOIN_05_03_02_03_p" target="_blank">/views/dss/Agreement/JOIN_05_03_02_03_p</router-link></td>
+									<td class="col-url"><router-link to="/JOIN_05_03_02_03_p" target="_blank">/views/pub/Agreement/JOIN_05_03_02_03_p</router-link></td>
 									<td class="col-date"></td>
 									<td class="col-complete"></td>
 									<td class="col-memo"></td>
@@ -2015,7 +2015,7 @@
 									<td class="col-4depth">NICE평가정보</td>
 									<td class="col-5depth">SKT</td>
 									<td class="col-point">popup</td>
-									<td class="col-url"><router-link to="/JOIN_05_04_01_01_p" target="_blank">/views/dss/Agreement/JOIN_05_04_01_01_p</router-link></td>
+									<td class="col-url"><router-link to="/JOIN_05_04_01_01_p" target="_blank">/views/pub/Agreement/JOIN_05_04_01_01_p</router-link></td>
 									<td class="col-date"></td>
 									<td class="col-complete"></td>
 									<td class="col-memo"></td>
@@ -2028,7 +2028,7 @@
 									<td class="col-4depth"></td>
 									<td class="col-5depth">KT</td>
 									<td class="col-point">popup</td>
-									<td class="col-url"><router-link to="/JOIN_05_04_01_02_p" target="_blank">/views/dss/Agreement/JOIN_05_04_01_02_p</router-link></td>
+									<td class="col-url"><router-link to="/JOIN_05_04_01_02_p" target="_blank">/views/pub/Agreement/JOIN_05_04_01_02_p</router-link></td>
 									<td class="col-date"></td>
 									<td class="col-complete"></td>
 									<td class="col-memo"></td>
@@ -2041,7 +2041,7 @@
 									<td class="col-4depth"></td>
 									<td class="col-5depth">LGU+</td>
 									<td class="col-point">popup</td>
-									<td class="col-url"><router-link to="/JOIN_05_04_01_03_p" target="_blank">/views/dss/Agreement/JOIN_05_04_01_03_p</router-link></td>
+									<td class="col-url"><router-link to="/JOIN_05_04_01_03_p" target="_blank">/views/pub/Agreement/JOIN_05_04_01_03_p</router-link></td>
 									<td class="col-date"></td>
 									<td class="col-complete"></td>
 									<td class="col-memo"></td>
@@ -2054,7 +2054,7 @@
 									<td class="col-4depth">KCB</td>
 									<td class="col-5depth">SKT</td>
 									<td class="col-point">popup</td>
-									<td class="col-url"><router-link to="/JOIN_05_04_02_01_p" target="_blank">/views/dss/Agreement/JOIN_05_04_02_01_p</router-link></td>
+									<td class="col-url"><router-link to="/JOIN_05_04_02_01_p" target="_blank">/views/pub/Agreement/JOIN_05_04_02_01_p</router-link></td>
 									<td class="col-date"></td>
 									<td class="col-complete"></td>
 									<td class="col-memo"></td>
@@ -2067,7 +2067,7 @@
 									<td class="col-4depth"></td>
 									<td class="col-5depth">KT</td>
 									<td class="col-point">popup</td>
-									<td class="col-url"><router-link to="/JOIN_05_04_02_02_p" target="_blank">/views/dss/Agreement/JOIN_05_04_02_02_p</router-link></td>
+									<td class="col-url"><router-link to="/JOIN_05_04_02_02_p" target="_blank">/views/pub/Agreement/JOIN_05_04_02_02_p</router-link></td>
 									<td class="col-date"></td>
 									<td class="col-complete"></td>
 									<td class="col-memo"></td>
@@ -2080,7 +2080,7 @@
 									<td class="col-4depth"></td>
 									<td class="col-5depth">LGU+</td>
 									<td class="col-point">popup</td>
-									<td class="col-url"><router-link to="/JOIN_05_04_02_03_p" target="_blank">/views/dss/Agreement/JOIN_05_04_02_03_p</router-link></td>
+									<td class="col-url"><router-link to="/JOIN_05_04_02_03_p" target="_blank">/views/pub/Agreement/JOIN_05_04_02_03_p</router-link></td>
 									<td class="col-date"></td>
 									<td class="col-complete"></td>
 									<td class="col-memo"></td>
@@ -2093,7 +2093,7 @@
 									<td class="col-4depth">NICE평가정보</td>
 									<td class="col-5depth">SKT</td>
 									<td class="col-point">popup</td>
-									<td class="col-url"><router-link to="/JOIN_05_05_01_01_p" target="_blank">/views/dss/Agreement/JOIN_05_05_01_01_p</router-link></td>
+									<td class="col-url"><router-link to="/JOIN_05_05_01_01_p" target="_blank">/views/pub/Agreement/JOIN_05_05_01_01_p</router-link></td>
 									<td class="col-date"></td>
 									<td class="col-complete"></td>
 									<td class="col-memo"></td>
@@ -2106,7 +2106,7 @@
 									<td class="col-4depth"></td>
 									<td class="col-5depth">KT</td>
 									<td class="col-point">popup</td>
-									<td class="col-url"><router-link to="/JOIN_05_05_01_02_p" target="_blank">/views/dss/Agreement/JOIN_05_05_01_02_p</router-link></td>
+									<td class="col-url"><router-link to="/JOIN_05_05_01_02_p" target="_blank">/views/pub/Agreement/JOIN_05_05_01_02_p</router-link></td>
 									<td class="col-date"></td>
 									<td class="col-complete"></td>
 									<td class="col-memo"></td>
@@ -2119,7 +2119,7 @@
 									<td class="col-4depth"></td>
 									<td class="col-5depth">LGU+</td>
 									<td class="col-point">popup</td>
-									<td class="col-url"><router-link to="/JOIN_05_05_01_03_p" target="_blank">/views/dss/Agreement/JOIN_05_05_01_03_p</router-link></td>
+									<td class="col-url"><router-link to="/JOIN_05_05_01_03_p" target="_blank">/views/pub/Agreement/JOIN_05_05_01_03_p</router-link></td>
 									<td class="col-date"></td>
 									<td class="col-complete"></td>
 									<td class="col-memo"></td>
@@ -2132,7 +2132,7 @@
 									<td class="col-4depth">KCB</td>
 									<td class="col-5depth">SKT</td>
 									<td class="col-point">popup</td>
-									<td class="col-url"><router-link to="/JOIN_05_05_02_01_p" target="_blank">/views/dss/Agreement/JOIN_05_05_02_01_p</router-link></td>
+									<td class="col-url"><router-link to="/JOIN_05_05_02_01_p" target="_blank">/views/pub/Agreement/JOIN_05_05_02_01_p</router-link></td>
 									<td class="col-date"></td>
 									<td class="col-complete"></td>
 									<td class="col-memo"></td>
@@ -2145,7 +2145,7 @@
 									<td class="col-4depth"></td>
 									<td class="col-5depth">KT</td>
 									<td class="col-point">popup</td>
-									<td class="col-url"><router-link to="/JOIN_05_05_02_02_p" target="_blank">/views/dss/Agreement/JOIN_05_05_02_02_p</router-link></td>
+									<td class="col-url"><router-link to="/JOIN_05_05_02_02_p" target="_blank">/views/pub/Agreement/JOIN_05_05_02_02_p</router-link></td>
 									<td class="col-date"></td>
 									<td class="col-complete"></td>
 									<td class="col-memo"></td>
@@ -2158,7 +2158,7 @@
 									<td class="col-4depth"></td>
 									<td class="col-5depth">LGU+</td>
 									<td class="col-point">popup</td>
-									<td class="col-url"><router-link to="/JOIN_05_05_02_03_p" target="_blank">/views/dss/Agreement/JOIN_05_05_02_03_p</router-link></td>
+									<td class="col-url"><router-link to="/JOIN_05_05_02_03_p" target="_blank">/views/pub/Agreement/JOIN_05_05_02_03_p</router-link></td>
 									<td class="col-date"></td>
 									<td class="col-complete"></td>
 									<td class="col-memo"></td>
@@ -2214,7 +2214,7 @@
 									<td class="col-4depth"></td>
 									<td class="col-5depth"></td>
 									<td class="col-point">popup</td>
-									<td class="col-url"><router-link to="/CFMM_01_p" target="_blank">/views/dss/Common/CFMM_01_p</router-link></td>
+									<td class="col-url"><router-link to="/CFMM_01_p" target="_blank">/views/pub/Common/CFMM_01_p</router-link></td>
 									<td class="col-date"></td>
 									<td class="col-complete"></td>
 									<td class="col-memo"></td>
@@ -2227,7 +2227,7 @@
 									<td class="col-4depth"></td>
 									<td class="col-5depth"></td>
 									<td class="col-point">popup</td>
-									<td class="col-url"><router-link to="/CFMH_01_p" target="_blank">/views/dss/Common/CFMH_01_p</router-link></td>
+									<td class="col-url"><router-link to="/CFMH_01_p" target="_blank">/views/pub/Common/CFMH_01_p</router-link></td>
 									<td class="col-date"></td>
 									<td class="col-complete"></td>
 									<td class="col-memo"></td>
@@ -2240,7 +2240,7 @@
 									<td class="col-4depth"></td>
 									<td class="col-5depth"></td>
 									<td class="col-point">popup</td>
-									<td class="col-url"><router-link to="/CFMP_01_p" target="_blank">/views/dss/Common/CFMP_01_p</router-link></td>
+									<td class="col-url"><router-link to="/CFMP_01_p" target="_blank">/views/pub/Common/CFMP_01_p</router-link></td>
 									<td class="col-date"></td>
 									<td class="col-complete"></td>
 									<td class="col-memo"></td>
@@ -2253,7 +2253,7 @@
 									<td class="col-4depth"></td>
 									<td class="col-5depth"></td>
 									<td class="col-point">popup</td>
-									<td class="col-url"><router-link to="/FILE_01_p" target="_blank">/views/dss/Common/FILE_01_p</router-link></td>
+									<td class="col-url"><router-link to="/FILE_01_p" target="_blank">/views/pub/Common/FILE_01_p</router-link></td>
 									<td class="col-date"></td>
 									<td class="col-complete"></td>
 									<td class="col-memo"></td>
@@ -2266,7 +2266,7 @@
 									<td class="col-4depth"></td>
 									<td class="col-5depth"></td>
 									<td class="col-point">popup</td>
-									<td class="col-url"><router-link to="/SYSA_p" target="_blank">/views/dss/Common/SYSA_p</router-link></td>
+									<td class="col-url"><router-link to="/SYSA_p" target="_blank">/views/pub/Common/SYSA_p</router-link></td>
 									<td class="col-date">2024-04-24</td>
 									<td class="col-complete"></td>
 									<td class="col-memo"></td>
@@ -2279,7 +2279,7 @@
 									<td class="col-4depth"></td>
 									<td class="col-5depth"></td>
 									<td class="col-point">popup</td>
-									<td class="col-url"><router-link to="/SYSC_p" target="_blank">/views/dss/Common/SYSC_p</router-link></td>
+									<td class="col-url"><router-link to="/SYSC_p" target="_blank">/views/pub/Common/SYSC_p</router-link></td>
 									<td class="col-date">2024-04-24</td>
 									<td class="col-complete"></td>
 									<td class="col-memo"></td>
@@ -2292,7 +2292,7 @@
 									<td class="col-4depth"></td>
 									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
-									<td class="col-url"><router-link to="/ETC_02" target="_blank">/views/dss/Common/ETC_02</router-link></td>
+									<td class="col-url"><router-link to="/ETC_02" target="_blank">/views/pub/Common/ETC_02</router-link></td>
 									<td class="col-date"></td>
 									<td class="col-complete"></td>
 									<td class="col-memo"></td>
@@ -2305,7 +2305,7 @@
 									<td class="col-4depth"></td>
 									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
-									<td class="col-url"><router-link to="/ETC_03" target="_blank">/views/dss/Common/ETC_03</router-link></td>
+									<td class="col-url"><router-link to="/ETC_03" target="_blank">/views/pub/Common/ETC_03</router-link></td>
 									<td class="col-date"></td>
 									<td class="col-complete"></td>
 									<td class="col-memo"></td>
@@ -2318,7 +2318,7 @@
 									<td class="col-4depth"></td>
 									<td class="col-5depth"></td>
 									<td class="col-point">popup</td>
-									<td class="col-url"><router-link to="/ETC_04_p" target="_blank">/views/dss/Common/ETC_04_p</router-link></td>
+									<td class="col-url"><router-link to="/ETC_04_p" target="_blank">/views/pub/Common/ETC_04_p</router-link></td>
 									<td class="col-date"></td>
 									<td class="col-complete"></td>
 									<td class="col-memo"></td>
