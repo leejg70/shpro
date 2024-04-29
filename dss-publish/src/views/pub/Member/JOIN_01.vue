@@ -45,7 +45,7 @@
           class="default"
         >
           다음
-        </v-btn> 
+        </v-btn>
       </div> 
     </Form>
   </div>

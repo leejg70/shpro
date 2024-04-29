@@ -1561,7 +1561,7 @@
 									<td class="col-5depth"></td>
 									<td class="col-point">popup</td>
 									<td class="col-url"><router-link to="/JOIN_02_02_02_p" target="_blank">/views/pub/Member/JOIN_02_02_02_p</router-link></td>
-									<td class="col-date"></td>
+									<td class="col-date">2024-04-29</td>
 									<td class="col-complete"></td>
 									<td class="col-memo"></td>
 								</tr>
@@ -1574,7 +1574,7 @@
 									<td class="col-5depth"></td>
 									<td class="col-point">popup</td>
 									<td class="col-url"><router-link to="/JOIN_02_02_03_p" target="_blank">/views/pub/Member/JOIN_02_02_03_p</router-link></td>
-									<td class="col-date"></td>
+									<td class="col-date">2024-04-29</td>
 									<td class="col-complete"></td>
 									<td class="col-memo"></td>
 								</tr>
@@ -1652,7 +1652,7 @@
 									<td class="col-5depth"></td>
 									<td class="col-point">popup</td>
 									<td class="col-url"><router-link to="/JOIN_02_02_02_p" target="_blank">/views/pub/Member/JOIN_02_02_02_p</router-link></td>
-									<td class="col-date"></td>
+									<td class="col-date">2024-04-29</td>
 									<td class="col-complete"></td>
 									<td class="col-memo"></td>
 								</tr>
@@ -1665,7 +1665,7 @@
 									<td class="col-5depth"></td>
 									<td class="col-point">popup</td>
 									<td class="col-url"><router-link to="/JOIN_02_02_03_p" target="_blank">/views/pub/Member/JOIN_02_02_03_p</router-link></td>
-									<td class="col-date"></td>
+									<td class="col-date">2024-04-29</td>
 									<td class="col-complete"></td>
 									<td class="col-memo"></td>
 								</tr>
@@ -1743,7 +1743,7 @@
 									<td class="col-5depth"></td>
 									<td class="col-point">popup</td>
 									<td class="col-url"><router-link to="/JOIN_02_02_02_p" target="_blank">/views/pub/Member/JOIN_02_02_02_p</router-link></td>
-									<td class="col-date"></td>
+									<td class="col-date">2024-04-29</td>
 									<td class="col-complete"></td>
 									<td class="col-memo"></td>
 								</tr>
@@ -1756,7 +1756,7 @@
 									<td class="col-5depth"></td>
 									<td class="col-point">popup</td>
 									<td class="col-url"><router-link to="/JOIN_02_02_03_p" target="_blank">/views/pub/Member/JOIN_02_02_03_p</router-link></td>
-									<td class="col-date"></td>
+									<td class="col-date">2024-04-29</td>
 									<td class="col-complete"></td>
 									<td class="col-memo"></td>
 								</tr>
