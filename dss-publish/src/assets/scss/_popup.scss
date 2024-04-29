@@ -20,7 +20,21 @@
     width: 99.6rem;
     max-width: 100%;
     max-height: 75rem;
+    margin: 0 auto;
+    margin-top: 0 !important;
     transition: all 0.3s ease;
+    .popup-head {
+      flex: none;
+      overflow: hidden;
+      position: relative;
+    }
+    .popup-cont {
+      margin-bottom: 2.4rem;
+      &::after {
+        content: '';
+        display: block;
+      }
+    }
   }
   &.medium {
     display: flex;
@@ -319,13 +333,7 @@
 @media only screen and (max-width: 1280px) {
   .popup-wrap {
     border-radius: 0;
-    &.large {
-      width: 100%;
-      height: 100%;
-      max-width: 100%;
-      max-height: 100%;
-      min-height: 0;
-    }
+    &.large,
     &.medium {
       width: 100%;
       height: 100%;
@@ -462,16 +470,6 @@
         .default {
           width: 100%;
         }
-      }
-      &.m-fixed {
-        position: fixed;
-        width: 100%;
-        bottom: 0;
-        left: 0;
-        // .btn-popwrap {
-        //   margin-top: .8rem;
-        //   padding-top: 1.6rem;
-        // }
       }
     }
     // 본인 인증
