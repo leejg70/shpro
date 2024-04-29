@@ -20,7 +20,7 @@ const allmenu = ref(false);
                 </ul>
             </div>
             <div class="gnb-wrap">
-                <h1 class="title1"><img src="../../assets/images/common/logo.png" alt="" class="logo"></h1>
+                <h1 class="logo-title"><img src="../../assets/images/common/logo.png" alt="" class="logo"></h1>
                 <nav class="gnb-menu">
                     <ul class="menu-list">
                         <li><a href="javascript:;" class="">Data서비스</a></li>
@@ -38,7 +38,7 @@ const allmenu = ref(false);
                         <li><button  color="" @click="allmenu = true" class="btn-allmenu"><i class="ico ico_thumb_m ico-allmenu"><span class="sr-only">전체메뉴</span></i></button></li>
                     </ul>
                 </div>
-            </div>                     
+            </div>                      
         </div> 
         <div class="menu-over" style=""></div>  
     </header>
@@ -48,8 +48,34 @@ const allmenu = ref(false);
         <div class="allmenu">
             <div class="allmenu-inner">
                 <div class="allmenu-head">
-                    <div class="logo"></div>
+                    <div class="logo-title"><img src="../../assets/images/common/logo.png" alt="" class="logo"></div>
+                    <div class="allmenu-login-wrap">                 
+                        <ul class="login-txt-box">
+                            <li><a href="javascript:;" class="menu-login"><v-icon>icon-login</v-icon>로그인</a></li>
+                            <li><a href="javascript:;" class="menu-join"><v-icon>icon-join</v-icon>회원가입</a></li>              
+                        </ul>
+                        <!-- <div class="logout-txt-box">
+                            <div class="logout-txt">안녕하세요. <span class="name">김신한님!</span></div>
+                        </div> -->
+                    </div>
                 </div>
+                <div class="outlogin-box"> 
+                    <div class="logout-btn-area">
+                        <v-btn class="btn-mylink">
+                        <v-icon>icon-my-contract</v-icon>
+                        <span class="text">나의계약</span>
+                        </v-btn>
+                        <v-btn class="btn-mylink">
+                        <v-icon>icon-my-qa</v-icon>
+                        <span class="text">나의문의</span>
+                        </v-btn>
+                        <v-btn class="btn-mylink">
+                        <v-icon>icon-larm on</v-icon><!-- 알림이 있을때 on 추가-->
+                        <span class="text">알림</span>
+                        </v-btn>
+                    </div>
+                </div>
+
                 <div class="allmenu-list-wrap">
                     <div class="allmenu-list" >
                         <h2 class="title">Data서비스</h2>
@@ -109,8 +135,17 @@ const allmenu = ref(false);
                             <li class="item"><a href="javascript:;">FAQ</a></li>
                             <li class="item"><a href="javascript:;">고객문의</a></li>
                        </ul>
-                    </div>
+                    </div>                 
+                    <ul class="customer-box">
+                        <li><a href="javascript:;" class="notice">공지사항</a></li>
+                        <li><a href="javascript:;" class="faq">FAQ</a></li>
+                        <li><a href="javascript:;" class="customer-center">고객문의</a></li>
+                    </ul>
+                   
                 </div>
+
+
+
                 <v-btn
                 @click="allmenu = false"
                 block
