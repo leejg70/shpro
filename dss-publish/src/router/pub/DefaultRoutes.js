@@ -439,6 +439,15 @@ const DefaultRoutes = {
         requiresAuth: false
       }
     },
+    {
+      name: 'MY_00_04_p',
+      path: '/MY_00_04_p',
+      component: () => import('@/views/pub/My/MY_00_04_p.vue'),
+      meta: {
+        appearMenu : true,
+        requiresAuth: false
+      }
+    },
     // 그외 메뉴
     {
       name: 'BLUE_01',

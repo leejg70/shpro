@@ -33,8 +33,8 @@
 		<!-- //Note -->
 		<br>
 		<div class="ia-total">
-			<p class="ia-msg">전체 페이지 : 153</p>
-			<p class="ia-version">IA 버전 : v0.99</p>
+			<p class="ia-msg">전체 페이지 : 154</p>
+			<p class="ia-version">IA 버전 : v1.0</p>
 		</div>
 		<!-- 00_Guide -->
 		<!-- wait:작업중, done:완료, del:삭제, except:보류
@@ -266,7 +266,7 @@
 			<div class="ia-section-header">
 				<h2 class="ia-h2"><a href="#this" class="accordion-toggle">GNB 메뉴</a></h2>
 				<div class="ia-legend">
-					<span class="item"><em>총 페이지 : </em><em class="legend-total">48</em>,</span>
+					<span class="item"><em>총 페이지 : </em><em class="legend-total">49</em>,</span>
 					<span class="item c-done"><em>완료 : </em><em class="legend-complete">0</em>,</span>
 					<span class="item"><em>진척률 : </em><em class="legend-process">0%</em></span>
 				</div>
@@ -916,6 +916,19 @@
 									<td class="col-5depth"></td>
 									<td class="col-point">popup</td>
 									<td class="col-url"><router-link to="/MY_00_03_p" target="_blank">/views/pub/My/MY_00_03_p</router-link></td>
+									<td class="col-date"></td>
+									<td class="col-complete"></td>
+									<td class="col-memo"></td>
+								</tr>
+								<tr>
+									<td class="col-num"></td>
+									<td class="col-1depth"></td>
+									<td class="col-2depth">(공통)</td>
+									<td class="col-3depth">마이크레딧 조회 팝업</td>
+									<td class="col-4depth"></td>
+									<td class="col-5depth"></td>
+									<td class="col-point">popup</td>
+									<td class="col-url"><router-link to="/MY_00_04_p" target="_blank">/views/pub/My/MY_00_04_p</router-link></td>
 									<td class="col-date"></td>
 									<td class="col-complete"></td>
 									<td class="col-memo"></td>
