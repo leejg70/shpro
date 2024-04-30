@@ -21,8 +21,7 @@
           <div class="visual-img"><img src="../../../assets/images/main/visual_img1.png" alt="신한 Data Blue의 다양한 Data를 탐험하세요."></div>
         </div>
       </div>
-      <div class="my-login-wrap">
-        <!-- 로그인 전 -->
+      <div class="my-login-wrap">      
         <!-- <div class="outlogin-box">        
           <v-icon class="main-login-photo"><img src="../../../assets/images/icon/icon_main_login.png" alt=""></v-icon>
           <p class="login-txt">로그인 후<br>나만의 맞춤 정보를 이용하세요.</p> 
@@ -36,7 +35,6 @@
           로그인
           </v-btn> 
         </div> -->
-         <!-- 로그인 후 -->
         <div class="outlogin-box">          
           <div class="logout-txt">
             <p >안녕하세요.</p>
@@ -52,7 +50,7 @@
               <span class="text">나의문의</span>
             </v-btn>
             <v-btn class="btn-mylink">
-              <v-icon>icon-larm on</v-icon><!-- 알림이 있을때 on 추가-->
+              <v-icon>icon-larm on</v-icon>
               <span class="text">알림</span>
             </v-btn>
           </div>   
@@ -83,7 +81,7 @@
           <span class="sr-only">검색</span>
         </v-btn>          
       </div>      
-      <!-- 해시태그 목록 -->
+    
       <div class="hashtags">
         <a href="javascript:;" class="hashtag">#Data서비</a>
         <a href="javascript:;" class="hashtag">#계좌인증</a>
@@ -100,7 +98,7 @@
         
       </div>
     </div> 
-    <div class="main-card-wrap">
+    <!-- <div class="main-card-wrap">
       <div class="main-card-inner">
         <v-btn class="card-box">
           <div class="title-area">
@@ -139,8 +137,8 @@
           <v-icon>icon-arrow-right</v-icon>
         </v-btn>    
       </div>      
-    </div>
-    <div class="main-services-wrap">
+    </div> -->
+    <!-- <div class="main-services-wrap">
 
       <h2 class="main-title"><span class="fw300">Most Popular</span><span class="fw700">Services</span></h2>
       <div class="main-services-inner">
@@ -189,8 +187,8 @@
       </div>
     
     
-    </div>
-    <div class="main-special-wrap">
+    </div> -->
+    <!-- <div class="main-special-wrap">
       <h2 class="main-title">
         <span>For Success</span>
         <span class="fw700">Special Know-how</span>
@@ -218,13 +216,9 @@
             <v-icon>icon-graph</v-icon>
           </div>
         </a> 
-      </div> 
-   
-      
-      
-
-    </div>
-    <div class="main-datable-wrap">
+      </div>
+    </div>-->
+    <!-- <div class="main-datable-wrap">
       <h2 class="main-title">
         <span class="fw300">Value Together</span>
         <span class="fw700">Shinhan Datable</span>
@@ -232,8 +226,8 @@
       <div class="main-datable-inner">
 
       </div>
-    </div>
-    <div class="main-customer-wrap">
+    </div> -->
+    <!-- <div class="main-customer-wrap">
       <h2 class="main-title">
         <span class="fw300">Always Open</span>
         <span class="fw700">Customer Center</span>
@@ -263,6 +257,6 @@
           </v-btn>
         </div>
       </div>
-    </div>
+    </div> -->
   </div> 
 </template> 
