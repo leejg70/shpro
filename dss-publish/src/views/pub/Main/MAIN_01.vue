@@ -10,7 +10,7 @@
       <div class="main-visual-wrap">
         <div class="main-visual-list">  
           <div class="visual-txt-area">
-             <span class="visual-stit">Data + Blue</span>
+            <span class="visual-stit">Data + Blue</span>
             <p class="visual-title">
               <span>신한 Data Blue의</span><br>
               <span>다양한 Data를 </span><br>
@@ -62,10 +62,10 @@
             <p class="text">ShinhanCard Data Market 신규 오픈(두줄)</p>
             <p class="date">2024.08.08 </p>            
           </div>
-        </div>            
+        </div>             
       </div>
     </div>
-    <div class="main-search-wrap">
+    <!-- <div class="main-search-wrap">
       <div class="input-wrap">
         <v-text-field
           color="primary"
@@ -97,7 +97,7 @@
         <a href="javascript:;" class="hashtag">#카드사용Data</a>
         
       </div>
-    </div> 
+    </div>  -->
     <!-- <div class="main-card-wrap">
       <div class="main-card-inner">
         <v-btn class="card-box">
@@ -138,10 +138,9 @@
         </v-btn>    
       </div>      
     </div> -->
-    <!-- <div class="main-services-wrap">
-
+    <div class="main-services-wrap">
       <h2 class="main-title"><span class="fw300">Most Popular</span><span class="fw700">Services</span></h2>
-      <div class="main-services-inner">
+      <div class="services-inner">
         <v-card  
         v-for="n in 6"    
         class="services-box"
@@ -155,8 +154,7 @@
                   <v-icon>icon-wishlist<span class="sr-only">관심상품</span></v-icon>
                 </v-btn> 
               </span>
-          </div> 
-
+          </div>
           <div class="prod-flag-wrap">
             <span class="flag blue">시장분석</span>
             <span class="flag violet">지역경제</span>
@@ -175,19 +173,16 @@
             <span class="hashtag">##전국</span>
             <span class="hashtag">#시간대별결제데이터</span>
             <span class="hashtag">#한줄까지</span>
-          </div>
-          <v-icon>frame</v-icon>        
+          </div>               
         </v-card>
-        <div class="main-more-area">
+        <div class="services-more-area">
           <v-btn class="btn-more">
             <span>더보기</span>
             <v-icon>icon-arrow</v-icon>
           </v-btn>
         </div>
-      </div>
-    
-    
-    </div> -->
+      </div>  
+    </div>
     <!-- <div class="main-special-wrap">
       <h2 class="main-title">
         <span>For Success</span>
