@@ -137,19 +137,7 @@ input.v-field__input {background-color: transparent !important;}
 .v-main > .contents-box {max-width: 192rem; width: 100%; margin: 0 auto;}
 .v-main.main{flex: unset;  margin: 0; padding: 3.2rem 0 16rem;}
 .v-main.container {flex: unset;  margin: 0; padding:6.4rem 0 16rem; }
-.gnb-menu{ position: relative; cursor: pointer; }
-.menu-over {
-    position: absolute;
-    height: 0; 
-    width: 100%;   
-    background-color:#fff; 
-    overflow: hidden; 
-    opacity: 0; 
-    transition: all .3s ease-in-out;
-    border-top:1px solid #E5E5E5;
-    z-index: 99; 
-    cursor: pointer;
-    }
+
 
 // .header:has(.gnb-menu:hover)  .menu-over, .menu-over:hover {height: 35.7rem; display: block; cursor: pointer; opacity: 1;}
 /* Footer */

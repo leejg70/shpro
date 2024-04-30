@@ -964,6 +964,24 @@
   }
 }
 
+.gnb-menu-list{
+  position: absolute;
+  height: 100px; 
+  width: 100%;   
+  background-color:#fff; 
+  overflow: hidden; 
+  // opacity: 0; 
+  transition: all .3s ease-in-out;
+  border-top:1px solid #E5E5E5;
+  z-index: 99; 
+  cursor: pointer;
+}
+.gnb-menu{ position: relative; cursor: pointer; }
+
+
+
+
+
 @media only screen and (max-width: 1280px) {
   .main-wrap {
     .visual-layout-area {

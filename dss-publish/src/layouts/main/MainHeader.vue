@@ -1,6 +1,20 @@
 <script setup>
 import { ref } from 'vue';
 
+// reactive한 변수를 생성합니다.
+const isMouseOver = ref(false);
+
+// 마우스 오버 이벤트 핸들러를 정의합니다.
+const handleMouseOver = () => {
+  isMouseOver.value = true;
+};
+
+// 마우스 아웃 이벤트 핸들러를 정의합니다.
+const handleMouseOut = () => {
+  isMouseOver.value = false;
+};
+
+
 const allmenu = ref(false);
 </script>
 <template> 
@@ -19,7 +33,7 @@ const allmenu = ref(false);
                     <li><a href="javascript:;" class="">고객센터</a></li>
                 </ul>
             </div>
-            <div class="gnb-wrap">
+            <div class="gnb-wrap" @mouseover="handleMouseOver" @mouseout="handleMouseOut">
                 <h1 class="logo-title"><img src="../../assets/images/common/logo.png" alt="" class="logo"></h1>
                 <nav class="gnb-menu">
                     <ul class="menu-list">
@@ -38,7 +52,9 @@ const allmenu = ref(false);
                 </div>
             </div>                      
         </div> 
-        <!-- <div class="menu-over"></div>   -->
+        <div class="gnb-menu-list" v-if="isMouseOver=='true'">
+
+        </div>  
     </header>
  
     <!--  전체메뉴 -->
