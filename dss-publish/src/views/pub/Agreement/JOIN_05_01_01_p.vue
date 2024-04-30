@@ -24,9 +24,14 @@ const agree = ref(false);
         <h3 class="h-title">휴대폰 본인확인 이용 동의</h3>
       </div>
       <div class="popup-cont">
-        <v-card class="tab-cont">
+        <v-card
+          flat
+          rounded="0"
+          class="tab-cont"
+        >
           <v-tabs
             v-model="tab"
+            color="selected"
             bg-color="transparent"
           >
             <v-tab value="tab01_1">NICE평가정보</v-tab>
@@ -34,7 +39,11 @@ const agree = ref(false);
           </v-tabs>
           <v-card-text>
             <v-window v-model="tab">
-              <v-window-item value="tab01_1">
+              <v-window-item
+                :transition="false"
+                :reverse-transition="false"
+                value="tab01_1"
+              >
                 <!-- https://devprj2-www.shinhancard.com/pconts/html/agree/1217932_7911.html -->
                 제1조 (목적)<br>
                 본 약관은 NICE평가정보(주) (이하 "회사"라 한다)이 제공하는 본인확인서비스(이하 "서비스"라 한다)에 관한 이용조건 및 절차 등 기본적인 사항을 규정함을 목적으로 합니다.<br><br>
@@ -67,7 +76,11 @@ const agree = ref(false);
                 2. "이용자"는 자신의 접근매체를 제3자에게 누설 또는 노출하거나 방치하여서는 안되며, 접근 매체의 도용이나 위조 또는 변조를 방지하기 위하여 충분한 주의를 기울여야 합니다.<br>
                 3. "이용자"는 본 약관에서 규정하는 사항과 "서비스"에 대한 이용안내 또는 주의사항을 준수하여야 합니다.
               </v-window-item>
-              <v-window-item value="tab01_2">
+              <v-window-item
+                :transition="false"
+                :reverse-transition="false"
+                value="tab01_2"
+              >
                 <!-- https://devprj2-www.shinhancard.com/pconts/html/agree/1217919_7911.html -->
                 제1조 (목적)<br>
                 이 약관은 본인확인서비스 대행기관인 주식회사 코리아크레딧뷰로(이하 ''회사''라 합니다)와 본인확인서비스 이용자(이하 ''이용자''라 합니다) 간에 본인확인서비스 이용에 관한 회사와 이용자의 권리와 의무, 기타 제반 사항을 정함을 목적으로 합니다.<br><br>
