@@ -65,40 +65,40 @@
         </div>             
       </div>
     </div>
-    <!-- <div class="main-search-wrap">
-      <div class="input-wrap">
-        <v-text-field
-          color="primary"
-          hide-details="auto"             
-          placeholder="기업명을 입력해주세요."
-          variant="outlined"
-          clearable
-        ></v-text-field>
-        <v-btn
-          block
-          class="btn-search"
-        >
-          <span class="sr-only">검색</span>
-        </v-btn>          
-      </div>      
-    
-      <div class="hashtags">
-        <a href="javascript:;" class="hashtag">#Data서비</a>
-        <a href="javascript:;" class="hashtag">#계좌인증</a>
-        <a href="javascript:;" class="hashtag">#신한카드Data</a>
-        <a href="javascript:;" class="hashtag">#카드사용Data</a>
-        <a href="javascript:;" class="hashtag">#카드사용Data</a>
-        <a href="javascript:;" class="hashtag">#카드사용Data</a>
-        <a href="javascript:;" class="hashtag">#카드사용Data</a>
-        <a href="javascript:;" class="hashtag">#카드사용Data</a>
-        <a href="javascript:;" class="hashtag">#카드사용Data</a>
-        <a href="javascript:;" class="hashtag">#카드사용Data</a>
-        <a href="javascript:;" class="hashtag">#카드사용Data</a>
-        <a href="javascript:;" class="hashtag">#카드사용Data</a>
-        
-      </div>
-    </div>  -->
-    <!-- <div class="main-card-wrap">
+    <div class="main-search-wrap">
+      <div class="main-search-inner">
+        <div class="input-wrap">
+          <v-text-field
+            color="primary"
+            hide-details="auto"             
+            placeholder="기업명을 입력해주세요."
+            variant="outlined"
+            clearable
+          ></v-text-field>
+          <v-btn
+            block
+            class="btn-search"
+          >
+            <span class="sr-only">검색</span>
+          </v-btn>          
+        </div>
+        <div class="hashtags">
+          <a href="javascript:;" class="hashtag">#Data서비</a>
+          <a href="javascript:;" class="hashtag">#계좌인증</a>
+          <a href="javascript:;" class="hashtag">#신한카드Data</a>
+          <a href="javascript:;" class="hashtag">#카드사용Data</a>
+          <a href="javascript:;" class="hashtag">#카드사용Data</a>
+          <a href="javascript:;" class="hashtag">#카드사용Data</a>
+          <a href="javascript:;" class="hashtag">#카드사용Data</a>
+          <a href="javascript:;" class="hashtag">#카드사용Data</a>
+          <a href="javascript:;" class="hashtag">#카드사용Data</a>
+          <a href="javascript:;" class="hashtag">#카드사용Data</a>
+          <a href="javascript:;" class="hashtag">#카드사용Data</a>
+          <a href="javascript:;" class="hashtag">#카드사용Data</a>        
+        </div>
+      </div> 
+    </div> 
+    <div class="main-card-wrap">
       <div class="main-card-inner">
         <v-btn class="card-box">
           <div class="title-area">
@@ -137,7 +137,7 @@
           <v-icon>icon-arrow-right</v-icon>
         </v-btn>    
       </div>      
-    </div> -->
+    </div>
     <div class="main-services-wrap">
       <h2 class="main-title"><span class="fw300">Most Popular</span><span class="fw700">Services</span></h2>
       <div class="services-inner">
@@ -170,7 +170,7 @@
           
           <div class="hashtags">
             <span class="hashtag">#스타벅스</span>
-            <span class="hashtag">##전국</span>
+            <span class="hashtag">#전국</span>
             <span class="hashtag">#시간대별결제데이터</span>
             <span class="hashtag">#한줄까지</span>
           </div>               
@@ -183,13 +183,13 @@
         </div>
       </div>  
     </div>
-    <!-- <div class="main-special-wrap">
+    <div class="main-special-wrap">
       <h2 class="main-title">
         <span>For Success</span>
         <span class="fw700">Special Know-how</span>
       </h2>     
       <div class="main-special-inner">
-        <a href="">
+        <a href="" class="banner-link">
           <div class="banner">
             <div class="category-title">Trend Report+Case Study</div>
             <div class="title">신한카드 Data 200% 활용법</div>
@@ -200,7 +200,7 @@
             <v-icon>icon-graph</v-icon>
           </div>
         </a>
-        <a href="">
+        <a href="" class="banner-link">
           <div class="banner">
             <div class="category-title">Trend Report+Case Study</div>
             <div class="title">신한카드 Data 200% 활용법</div>
@@ -212,17 +212,16 @@
           </div>
         </a> 
       </div>
-    </div>-->
-    <!-- <div class="main-datable-wrap">
-      <h2 class="main-title">
-        <span class="fw300">Value Together</span>
-        <span class="fw700">Shinhan Datable</span>
-      </h2>
+    </div>
+    <div class="main-datable-wrap">
       <div class="main-datable-inner">
-
+        <h2 class="main-title">
+          <span class="fw300">Value Together</span>
+          <span class="fw700">Shinhan Datable</span>
+        </h2>
       </div>
-    </div> -->
-    <!-- <div class="main-customer-wrap">
+    </div>
+    <div class="main-customer-wrap">
       <h2 class="main-title">
         <span class="fw300">Always Open</span>
         <span class="fw700">Customer Center</span>
@@ -252,6 +251,6 @@
           </v-btn>
         </div>
       </div>
-    </div> -->
+    </div>
   </div> 
 </template> 
