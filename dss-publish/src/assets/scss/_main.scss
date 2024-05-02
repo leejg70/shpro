@@ -186,7 +186,8 @@
     /* 검색 */
     .input-wrap {
       position: relative;
-      width: 79.2em;
+      width: 100%;
+      max-width: 79.2em;
 
       .v-input,
       .v-input__control {
@@ -222,11 +223,14 @@
       font-size: 1.8rem;
     }
 
-    .hashtags {
-      padding: 1.6rem 10rem 0;
+    .hashtags {    
+      width: 100%;
+      max-width: 79.2em;
       display: flex;
       flex-direction: row;
       flex-wrap: wrap;
+      justify-content: center;
+
 
       a {
         font-size: 1.6rem;
@@ -384,7 +388,7 @@
         position: relative;
         padding: 3.2rem;
         width: 58.8rem;
-        height: 18.8rem;
+        // height: 18.8rem;
         background-color: #F7F8FC;
         border-radius: 2.4rem;
 
@@ -395,9 +399,12 @@
 
         .title {
           margin-top: .8rem;
+          padding-right: 4.8rem;
           font-size: 2.2rem;
           font-weight: 500;
           line-height: 150%;
+
+          letter-spacing: -0.036rem;
         }
 
         .btn-area {
@@ -724,10 +731,7 @@
       display: inline-flex;
       padding: .5rem .6rem;
       border-radius: .4rem;
-
-      &+.flag {
-        margin-left: .8rem;
-      }
+      margin-right: .8rem;    
     }
 
     .blue {
@@ -811,10 +815,11 @@
       color: #7F87A4;
       font-size: 1.6rem;
       line-height: 150%;
+      margin-right: 1.6rem;
 
-      &+.hashtag {
-        margin-left: 1.6rem;
-      }
+      // &+.hashtag {
+      //   margin-left: 1.6rem;
+      // }
     }
   }
 }
@@ -1009,8 +1014,8 @@
         .main-visual-list {
           .visual-txt-area {
             position: absolute;
-            top: 6.4rem;
-            left: 5.6rem;
+            top: 2.4rem;
+            left: 2.4rem;
             width: auto;
             // height: 28.2rem;
             z-index: 1;
@@ -1236,10 +1241,9 @@
             margin-top: .8rem;
           }
 
-          .icon-arrow-right {
-            position: absolute;
-            right: 3.2rem;
-            top: 3.2rem;
+          .icon-arrow-right {        
+            right: 1.6rem;
+            top: 1.6rem;
           }
 
           .v-btn__content {
@@ -1318,7 +1322,7 @@
           position: relative;
           padding: 2.4rem;
           width: 100%;
-          height: 14rem;   
+          // height: 14rem;   
           border-radius: 1.6rem;
 
           .category-title {
@@ -1344,7 +1348,7 @@
           .icon-graph {
             position: absolute;
             right: 2.4rem;
-            bottom: 2.4;
+            bottom: 2.4rem;
             width: 4.8rem;
             min-height: 4.8rem;
             background-image: url(../images/icon/icon_graph.png);
@@ -1547,10 +1551,7 @@
 
       .hashtag {
         font-size: 1.4rem;
-
-        &+.hashtag {
-          margin-left: .8rem;
-        }
+        margin-right: .8rem;   
       }
     }
   }
