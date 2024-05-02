@@ -2,8 +2,8 @@
 import { ref } from 'vue';
 
 const tab = ref(null);
-const tab01 = ref(null);
-const tab02 = ref(null);
+const tab02_1 = ref(null);
+const tab02_2 = ref(null);
 const agree = ref(false);
 </script>
 
@@ -46,7 +46,7 @@ const agree = ref(false);
               value="tab02_1"
             >
               <v-tabs
-                v-model="tab01"
+                v-model="tab02_1"
                 bg-color="transparent"
                 color="selected"
                 grow
@@ -56,7 +56,7 @@ const agree = ref(false);
                 <v-tab value="tab02_1_2">KT</v-tab>
                 <v-tab value="tab02_1_3">LGU+</v-tab>
               </v-tabs>
-              <v-window v-model="tab01">
+              <v-window v-model="tab02_1">
                 <v-window-item
                   :transition="false"
                   :reverse-transition="false"
@@ -174,7 +174,7 @@ const agree = ref(false);
               value="tab02_2"
             >
             <v-tabs
-                v-model="tab02"
+                v-model="tab02_2"
                 bg-color="transparent"
                 color="selected"
                 grow
@@ -184,7 +184,7 @@ const agree = ref(false);
                 <v-tab value="tab02_2_2">KT</v-tab>
                 <v-tab value="tab02_2_3">LGU+</v-tab>
               </v-tabs>
-              <v-window v-model="tab02">
+              <v-window v-model="tab02_2">
                 <v-window-item
                   :transition="false"
                   :reverse-transition="false"
