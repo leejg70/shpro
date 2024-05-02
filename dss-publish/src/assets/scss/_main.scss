@@ -223,7 +223,8 @@
       font-size: 1.8rem;
     }
 
-    .hashtags {    
+    .hashtags {
+      padding-top: 1.6rem;
       width: 100%;
       max-width: 79.2em;
       display: flex;
@@ -1198,7 +1199,7 @@
       }
 
       .hashtags {
-        padding: .8rem 0 0;
+        padding-top: .8rem;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
