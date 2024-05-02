@@ -242,6 +242,29 @@
           height: .3rem;
         }
       }
+      .tab-list {
+        .v-btn {
+          font-size: 1.6rem;
+          font-weight: 400;
+          background-color: #fff;
+          border: .1rem solid #ddd;
+          transition-duration: 0s;
+          + .v-btn {
+            margin-left: -.1rem;
+          }
+        }
+        .text-selected {
+          position: relative;
+          font-weight: 500;
+          color: #fff;
+          background-color: #011b6a;
+          border-color: #011b6a;
+          z-index: 1;
+        }
+        .v-tab__slider {
+          height: 0;
+        }
+      }
       .v-card-text {
         padding: .8rem 0;
         font-size: 1.6rem;
@@ -502,6 +525,18 @@
           }
           .v-tab__slider {
             height: .2rem;
+          }
+        }
+        .tab-list {
+          height: 4.2rem;
+          .v-btn {
+            font-size: 1.4rem;
+            + .v-btn {
+              margin-left: -.1rem;
+            }
+          }
+          .v-tab__slider {
+            height: 0;
           }
         }
       }
