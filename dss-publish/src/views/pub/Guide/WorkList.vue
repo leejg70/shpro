@@ -670,7 +670,7 @@
 									<td class="col-point">page</td>
 									<td class="col-url"><router-link to="/MY_00" target="_blank">/views/pub/My/MY_00</router-link></td>
 									<td class="col-date">2024-04-26</td>
-									<td class="col-complete"></td>
+									<td class="col-complete">2024-05-02</td>
 									<td class="col-memo"></td>
 								</tr>
 								<tr>
@@ -683,7 +683,7 @@
 									<td class="col-point">page</td>
 									<td class="col-url"><router-link to="/MY_01" target="_blank">/views/pub/My/MY_01</router-link></td>
 									<td class="col-date">2024-04-26</td>
-									<td class="col-complete"></td>
+									<td class="col-complete">2024-05-02</td>
 									<td class="col-memo"></td>
 								</tr>
 								<tr>
@@ -696,7 +696,7 @@
 									<td class="col-point">page</td>
 									<td class="col-url"><router-link to="/MY_02" target="_blank">/views/pub/My/MY_02</router-link></td>
 									<td class="col-date">2024-04-26</td>
-									<td class="col-complete"></td>
+									<td class="col-complete">2024-05-02</td>
 									<td class="col-memo"></td>
 								</tr>
 								<tr>
@@ -709,7 +709,7 @@
 									<td class="col-point">page</td>
 									<td class="col-url"><router-link to="/MY_00_01" target="_blank">/views/pub/My/MY_00_01</router-link></td>
 									<td class="col-date">2024-04-26</td>
-									<td class="col-complete"></td>
+									<td class="col-complete">2024-05-02</td>
 									<td class="col-memo"></td>
 								</tr>
 								<tr>
@@ -1367,7 +1367,7 @@
 									<td class="col-point">popup</td>
 									<td class="col-url"><router-link to="/LGIN_02_p" target="_blank">/views/pub/Login/LGIN_02_p</router-link></td>
 									<td class="col-date">2024-04-24</td>
-									<td class="col-complete"></td>
+									<td class="col-complete">2024-05-02</td>
 									<td class="col-memo"></td>
 								</tr>
 								<tr>
@@ -1406,7 +1406,7 @@
 									<td class="col-point">popup</td>
 									<td class="col-url"><router-link to="/LOUT_01_p" target="_blank">/views/pub/Login/LOUT_01_p</router-link></td>
 									<td class="col-date">2024-04-24</td>
-									<td class="col-complete"></td>
+									<td class="col-complete">2024-05-02</td>
 									<td class="col-memo"></td>
 								</tr>
 								<tr>
@@ -1419,7 +1419,7 @@
 									<td class="col-point">popup</td>
 									<td class="col-url"><router-link to="/LOUT_02_p" target="_blank">/views/pub/Login/LOUT_02_p</router-link></td>
 									<td class="col-date">2024-04-24</td>
-									<td class="col-complete"></td>
+									<td class="col-complete">2024-05-02</td>
 									<td class="col-memo"></td>
 								</tr>
 								<tr>
@@ -1432,7 +1432,7 @@
 									<td class="col-point">popup</td>
 									<td class="col-url"><router-link to="/LOUT_03_p" target="_blank">/views/pub/Login/LOUT_03_p</router-link></td>
 									<td class="col-date">2024-04-24</td>
-									<td class="col-complete"></td>
+									<td class="col-complete">2024-05-02</td>
 									<td class="col-memo"></td>
 								</tr>
 								<tr>
@@ -1445,7 +1445,7 @@
 									<td class="col-point">popup</td>
 									<td class="col-url"><router-link to="/LOUT_04_p" target="_blank">/views/pub/Login/LOUT_04_p</router-link></td>
 									<td class="col-date">2024-04-24</td>
-									<td class="col-complete"></td>
+									<td class="col-complete">2024-05-02</td>
 									<td class="col-memo"></td>
 								</tr>
 								<tr>
@@ -1483,7 +1483,7 @@
 									<td class="col-5depth"></td>
 									<td class="col-point">popup</td>
 									<td class="col-url"><router-link to="/IDPW_02_fall" target="_blank">/views/pub/FindID/IDPW_02_fall</router-link></td>
-									<td class="col-date"></td>
+									<td class="col-date">삭제</td>
 									<td class="col-complete"></td>
 									<td class="col-memo"></td>
 								</tr>
@@ -1549,7 +1549,7 @@
 									<td class="col-point">popup</td>
 									<td class="col-url"><router-link to="/JOIN_02_02_01_p" target="_blank">/views/pub/Member/JOIN_02_02_01_p</router-link></td>
 									<td class="col-date">2024-04-29</td>
-									<td class="col-complete"></td>
+									<td class="col-complete">2024-05-02</td>
 									<td class="col-memo"></td>
 								</tr>
 								<tr>
@@ -1562,7 +1562,7 @@
 									<td class="col-point">popup</td>
 									<td class="col-url"><router-link to="/JOIN_02_02_02_p" target="_blank">/views/pub/Member/JOIN_02_02_02_p</router-link></td>
 									<td class="col-date">2024-04-29</td>
-									<td class="col-complete"></td>
+									<td class="col-complete">2024-05-02</td>
 									<td class="col-memo"></td>
 								</tr>
 								<tr>
@@ -1575,7 +1575,7 @@
 									<td class="col-point">popup</td>
 									<td class="col-url"><router-link to="/JOIN_02_02_03_p" target="_blank">/views/pub/Member/JOIN_02_02_03_p</router-link></td>
 									<td class="col-date">2024-04-29</td>
-									<td class="col-complete"></td>
+									<td class="col-complete">2024-05-02</td>
 									<td class="col-memo"></td>
 								</tr>
 								<tr>
@@ -1640,7 +1640,7 @@
 									<td class="col-point">popup</td>
 									<td class="col-url"><router-link to="/JOIN_02_02_01_p" target="_blank">/views/pub/Member/JOIN_02_02_01_p</router-link></td>
 									<td class="col-date">2024-04-29</td>
-									<td class="col-complete"></td>
+									<td class="col-complete">2024-05-02</td>
 									<td class="col-memo"></td>
 								</tr>
 								<tr>
@@ -1653,7 +1653,7 @@
 									<td class="col-point">popup</td>
 									<td class="col-url"><router-link to="/JOIN_02_02_02_p" target="_blank">/views/pub/Member/JOIN_02_02_02_p</router-link></td>
 									<td class="col-date">2024-04-29</td>
-									<td class="col-complete"></td>
+									<td class="col-complete">2024-05-02</td>
 									<td class="col-memo"></td>
 								</tr>
 								<tr>
@@ -1666,7 +1666,7 @@
 									<td class="col-point">popup</td>
 									<td class="col-url"><router-link to="/JOIN_02_02_03_p" target="_blank">/views/pub/Member/JOIN_02_02_03_p</router-link></td>
 									<td class="col-date">2024-04-29</td>
-									<td class="col-complete"></td>
+									<td class="col-complete">2024-05-02</td>
 									<td class="col-memo"></td>
 								</tr>
 								<tr>
@@ -1731,7 +1731,7 @@
 									<td class="col-point">popup</td>
 									<td class="col-url"><router-link to="/JOIN_02_02_01_p" target="_blank">/views/pub/Member/JOIN_02_02_01_p</router-link></td>
 									<td class="col-date">2024-04-29</td>
-									<td class="col-complete"></td>
+									<td class="col-complete">2024-05-02</td>
 									<td class="col-memo"></td>
 								</tr>
 								<tr>
@@ -1744,7 +1744,7 @@
 									<td class="col-point">popup</td>
 									<td class="col-url"><router-link to="/JOIN_02_02_02_p" target="_blank">/views/pub/Member/JOIN_02_02_02_p</router-link></td>
 									<td class="col-date">2024-04-29</td>
-									<td class="col-complete"></td>
+									<td class="col-complete">2024-05-02</td>
 									<td class="col-memo"></td>
 								</tr>
 								<tr>
@@ -1757,7 +1757,7 @@
 									<td class="col-point">popup</td>
 									<td class="col-url"><router-link to="/JOIN_02_02_03_p" target="_blank">/views/pub/Member/JOIN_02_02_03_p</router-link></td>
 									<td class="col-date">2024-04-29</td>
-									<td class="col-complete"></td>
+									<td class="col-complete">2024-05-02</td>
 									<td class="col-memo"></td>
 								</tr>
 								<tr>
@@ -1796,7 +1796,7 @@
 									<td class="col-point">popup</td>
 									<td class="col-url"><router-link to="/JOIN_04_03_02_p" target="_blank">/views/pub/Member/JOIN_04_03_02_p</router-link></td>
 									<td class="col-date"></td>
-									<td class="col-complete"></td>
+									<td class="col-complete">상동</td>
 									<td class="col-memo"></td>
 								</tr>
 								<tr>
@@ -1809,7 +1809,7 @@
 									<td class="col-point">popup</td>
 									<td class="col-url"><router-link to="/JOIN_04_03_03_p" target="_blank">/views/pub/Member/JOIN_04_03_03_p</router-link></td>
 									<td class="col-date"></td>
-									<td class="col-complete"></td>
+									<td class="col-complete">상동</td>
 									<td class="col-memo"></td>
 								</tr>
 								<tr>
@@ -1848,7 +1848,7 @@
 									<td class="col-point">popup</td>
 									<td class="col-url"><router-link to="/JOIN_05_01_01_p" target="_blank">/views/pub/Agreement/JOIN_05_01_01_p</router-link></td>
 									<td class="col-date">2024-04-30</td>
-									<td class="col-complete"></td>
+									<td class="col-complete">2024-05-02</td>
 									<td class="col-memo"></td>
 								</tr>
 								<tr>
@@ -1861,7 +1861,7 @@
 									<td class="col-point">popup</td>
 									<td class="col-url"><router-link to="/JOIN_05_01_02_p" target="_blank">/views/pub/Agreement/JOIN_05_01_02_p</router-link></td>
 									<td class="col-date">2024-04-30</td>
-									<td class="col-complete"></td>
+									<td class="col-complete">상동</td>
 									<td class="col-memo"></td>
 								</tr>
 								<tr>
@@ -1874,7 +1874,7 @@
 									<td class="col-point">popup</td>
 									<td class="col-url"><router-link to="/JOIN_05_02_01_01_p" target="_blank">/views/pub/Agreement/JOIN_05_02_01_01_p</router-link></td>
 									<td class="col-date">2024-05-02</td>
-									<td class="col-complete"></td>
+									<td class="col-complete">2024-05-02</td>
 									<td class="col-memo"></td>
 								</tr>
 								<tr>
@@ -1887,7 +1887,7 @@
 									<td class="col-point">popup</td>
 									<td class="col-url"><router-link to="/JOIN_05_02_01_02_p" target="_blank">/views/pub/Agreement/JOIN_05_02_01_02_p</router-link></td>
 									<td class="col-date">2024-05-02</td>
-									<td class="col-complete"></td>
+									<td class="col-complete">상동</td>
 									<td class="col-memo"></td>
 								</tr>
 								<tr>
@@ -1900,7 +1900,7 @@
 									<td class="col-point">popup</td>
 									<td class="col-url"><router-link to="/JOIN_05_02_01_03_p" target="_blank">/views/pub/Agreement/JOIN_05_02_01_03_p</router-link></td>
 									<td class="col-date">2024-05-02</td>
-									<td class="col-complete"></td>
+									<td class="col-complete">상동</td>
 									<td class="col-memo"></td>
 								</tr>
 								<tr>
@@ -1913,7 +1913,7 @@
 									<td class="col-point">popup</td>
 									<td class="col-url"><router-link to="/JOIN_05_02_02_01_p" target="_blank">/views/pub/Agreement/JOIN_05_02_02_01_p</router-link></td>
 									<td class="col-date">2024-05-02</td>
-									<td class="col-complete"></td>
+									<td class="col-complete">상동</td>
 									<td class="col-memo"></td>
 								</tr>
 								<tr>
@@ -1926,7 +1926,7 @@
 									<td class="col-point">popup</td>
 									<td class="col-url"><router-link to="/JOIN_05_02_02_02_p" target="_blank">/views/pub/Agreement/JOIN_05_02_02_02_p</router-link></td>
 									<td class="col-date">2024-05-02</td>
-									<td class="col-complete"></td>
+									<td class="col-complete">상동</td>
 									<td class="col-memo"></td>
 								</tr>
 								<tr>
@@ -1939,7 +1939,7 @@
 									<td class="col-point">popup</td>
 									<td class="col-url"><router-link to="/JOIN_05_02_02_03_p" target="_blank">/views/pub/Agreement/JOIN_05_02_02_03_p</router-link></td>
 									<td class="col-date">2024-05-02</td>
-									<td class="col-complete"></td>
+									<td class="col-complete">상동</td>
 									<td class="col-memo"></td>
 								</tr>
 								<tr>
@@ -1952,7 +1952,7 @@
 									<td class="col-point">popup</td>
 									<td class="col-url"><router-link to="/JOIN_05_03_01_01_p" target="_blank">/views/pub/Agreement/JOIN_05_03_01_01_p</router-link></td>
 									<td class="col-date">2024-05-02</td>
-									<td class="col-complete"></td>
+									<td class="col-complete">2024-05-02</td>
 									<td class="col-memo"></td>
 								</tr>
 								<tr>
@@ -1965,7 +1965,7 @@
 									<td class="col-point">popup</td>
 									<td class="col-url"><router-link to="/JOIN_05_03_01_02_p" target="_blank">/views/pub/Agreement/JOIN_05_03_01_02_p</router-link></td>
 									<td class="col-date">2024-05-02</td>
-									<td class="col-complete"></td>
+									<td class="col-complete">상동</td>
 									<td class="col-memo"></td>
 								</tr>
 								<tr>
@@ -1978,7 +1978,7 @@
 									<td class="col-point">popup</td>
 									<td class="col-url"><router-link to="/JOIN_05_03_01_03_p" target="_blank">/views/pub/Agreement/JOIN_05_03_01_03_p</router-link></td>
 									<td class="col-date">2024-05-02</td>
-									<td class="col-complete"></td>
+									<td class="col-complete">상동</td>
 									<td class="col-memo"></td>
 								</tr>
 								<tr>
@@ -1991,7 +1991,7 @@
 									<td class="col-point">popup</td>
 									<td class="col-url"><router-link to="/JOIN_05_03_02_01_p" target="_blank">/views/pub/Agreement/JOIN_05_03_02_01_p</router-link></td>
 									<td class="col-date">2024-05-02</td>
-									<td class="col-complete"></td>
+									<td class="col-complete">상동</td>
 									<td class="col-memo"></td>
 								</tr>
 								<tr>
@@ -2004,7 +2004,7 @@
 									<td class="col-point">popup</td>
 									<td class="col-url"><router-link to="/JOIN_05_03_02_02_p" target="_blank">/views/pub/Agreement/JOIN_05_03_02_02_p</router-link></td>
 									<td class="col-date">2024-05-02</td>
-									<td class="col-complete"></td>
+									<td class="col-complete">상동</td>
 									<td class="col-memo"></td>
 								</tr>
 								<tr>
@@ -2017,7 +2017,7 @@
 									<td class="col-point">popup</td>
 									<td class="col-url"><router-link to="/JOIN_05_03_02_03_p" target="_blank">/views/pub/Agreement/JOIN_05_03_02_03_p</router-link></td>
 									<td class="col-date">2024-05-02</td>
-									<td class="col-complete"></td>
+									<td class="col-complete">상동</td>
 									<td class="col-memo"></td>
 								</tr>
 								<tr>
@@ -2030,7 +2030,7 @@
 									<td class="col-point">popup</td>
 									<td class="col-url"><router-link to="/JOIN_05_04_01_01_p" target="_blank">/views/pub/Agreement/JOIN_05_04_01_01_p</router-link></td>
 									<td class="col-date">2024-05-02</td>
-									<td class="col-complete"></td>
+									<td class="col-complete">2024-05-02</td>
 									<td class="col-memo"></td>
 								</tr>
 								<tr>
@@ -2043,7 +2043,7 @@
 									<td class="col-point">popup</td>
 									<td class="col-url"><router-link to="/JOIN_05_04_01_02_p" target="_blank">/views/pub/Agreement/JOIN_05_04_01_02_p</router-link></td>
 									<td class="col-date">2024-05-02</td>
-									<td class="col-complete"></td>
+									<td class="col-complete">상동</td>
 									<td class="col-memo"></td>
 								</tr>
 								<tr>
@@ -2056,7 +2056,7 @@
 									<td class="col-point">popup</td>
 									<td class="col-url"><router-link to="/JOIN_05_04_01_03_p" target="_blank">/views/pub/Agreement/JOIN_05_04_01_03_p</router-link></td>
 									<td class="col-date">2024-05-02</td>
-									<td class="col-complete"></td>
+									<td class="col-complete">상동</td>
 									<td class="col-memo"></td>
 								</tr>
 								<tr>
@@ -2069,7 +2069,7 @@
 									<td class="col-point">popup</td>
 									<td class="col-url"><router-link to="/JOIN_05_04_02_01_p" target="_blank">/views/pub/Agreement/JOIN_05_04_02_01_p</router-link></td>
 									<td class="col-date">2024-05-02</td>
-									<td class="col-complete"></td>
+									<td class="col-complete">상동</td>
 									<td class="col-memo"></td>
 								</tr>
 								<tr>
@@ -2082,7 +2082,7 @@
 									<td class="col-point">popup</td>
 									<td class="col-url"><router-link to="/JOIN_05_04_02_02_p" target="_blank">/views/pub/Agreement/JOIN_05_04_02_02_p</router-link></td>
 									<td class="col-date">2024-05-02</td>
-									<td class="col-complete"></td>
+									<td class="col-complete">상동</td>
 									<td class="col-memo"></td>
 								</tr>
 								<tr>
@@ -2095,7 +2095,7 @@
 									<td class="col-point">popup</td>
 									<td class="col-url"><router-link to="/JOIN_05_04_02_03_p" target="_blank">/views/pub/Agreement/JOIN_05_04_02_03_p</router-link></td>
 									<td class="col-date">2024-05-02</td>
-									<td class="col-complete"></td>
+									<td class="col-complete">상동</td>
 									<td class="col-memo"></td>
 								</tr>
 								<tr>
@@ -2108,7 +2108,7 @@
 									<td class="col-point">popup</td>
 									<td class="col-url"><router-link to="/JOIN_05_05_01_01_p" target="_blank">/views/pub/Agreement/JOIN_05_05_01_01_p</router-link></td>
 									<td class="col-date">2024-05-02</td>
-									<td class="col-complete"></td>
+									<td class="col-complete">2024-05-02</td>
 									<td class="col-memo"></td>
 								</tr>
 								<tr>
@@ -2121,7 +2121,7 @@
 									<td class="col-point">popup</td>
 									<td class="col-url"><router-link to="/JOIN_05_05_01_02_p" target="_blank">/views/pub/Agreement/JOIN_05_05_01_02_p</router-link></td>
 									<td class="col-date">2024-05-02</td>
-									<td class="col-complete"></td>
+									<td class="col-complete">상동</td>
 									<td class="col-memo"></td>
 								</tr>
 								<tr>
@@ -2134,7 +2134,7 @@
 									<td class="col-point">popup</td>
 									<td class="col-url"><router-link to="/JOIN_05_05_01_03_p" target="_blank">/views/pub/Agreement/JOIN_05_05_01_03_p</router-link></td>
 									<td class="col-date">2024-05-02</td>
-									<td class="col-complete"></td>
+									<td class="col-complete">상동</td>
 									<td class="col-memo"></td>
 								</tr>
 								<tr>
@@ -2147,7 +2147,7 @@
 									<td class="col-point">popup</td>
 									<td class="col-url"><router-link to="/JOIN_05_05_02_01_p" target="_blank">/views/pub/Agreement/JOIN_05_05_02_01_p</router-link></td>
 									<td class="col-date">2024-05-02</td>
-									<td class="col-complete"></td>
+									<td class="col-complete">상동</td>
 									<td class="col-memo"></td>
 								</tr>
 								<tr>
@@ -2160,7 +2160,7 @@
 									<td class="col-point">popup</td>
 									<td class="col-url"><router-link to="/JOIN_05_05_02_02_p" target="_blank">/views/pub/Agreement/JOIN_05_05_02_02_p</router-link></td>
 									<td class="col-date">2024-05-02</td>
-									<td class="col-complete"></td>
+									<td class="col-complete">상동</td>
 									<td class="col-memo"></td>
 								</tr>
 								<tr>
@@ -2173,7 +2173,7 @@
 									<td class="col-point">popup</td>
 									<td class="col-url"><router-link to="/JOIN_05_05_02_03_p" target="_blank">/views/pub/Agreement/JOIN_05_05_02_03_p</router-link></td>
 									<td class="col-date">2024-05-02</td>
-									<td class="col-complete"></td>
+									<td class="col-complete">상동</td>
 									<td class="col-memo"></td>
 								</tr>
 							</tbody>
@@ -2281,7 +2281,7 @@
 									<td class="col-point">popup</td>
 									<td class="col-url"><router-link to="/SYSA_p" target="_blank">/views/pub/Common/SYSA_p</router-link></td>
 									<td class="col-date">2024-04-24</td>
-									<td class="col-complete"></td>
+									<td class="col-complete">2024-05-02</td>
 									<td class="col-memo"></td>
 								</tr>
 								<tr>
@@ -2294,7 +2294,7 @@
 									<td class="col-point">popup</td>
 									<td class="col-url"><router-link to="/SYSC_p" target="_blank">/views/pub/Common/SYSC_p</router-link></td>
 									<td class="col-date">2024-04-24</td>
-									<td class="col-complete"></td>
+									<td class="col-complete">2024-05-02</td>
 									<td class="col-memo"></td>
 								</tr>
 								<tr>

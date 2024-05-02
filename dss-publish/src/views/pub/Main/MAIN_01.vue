@@ -18,7 +18,7 @@
             </p>
             <button class="visual-more">Data Blue 바로가기</button>
           </div>
-          <div class="visual-img"><img src="../../../assets/images/main/visual_img1.png" alt="신한 Data Blue의 다양한 Data를 탐험하세요."></div>
+          <div class="visual-img" aria-hidden="true"><img src="../../../assets/images/main/visual_img1.png" alt=""></div>
         </div>
       </div>
       <div class="my-login-wrap">      
@@ -59,8 +59,10 @@
           <div class="notice-banner"><img src=" " alt=""></div>
           <div class="report-roll-box">
             <span class="flag">Trend Report</span> 
-            <p class="text">ShinhanCard Data Market 신규 오픈(두줄)</p>
-            <p class="date">2024.08.08 </p>            
+            <a href="javascript:;">
+              <p class="text">ShinhanCard Data Market 신규 오픈(두줄)</p>
+              <p class="date">2024.08.08 </p>  
+            </a>           
           </div>
         </div>             
       </div>
@@ -151,7 +153,7 @@
                 <v-icon>icon-new<span class="sr-only">new</span></v-icon>
                 <v-icon>icon-hot<span class="sr-only">hot</span></v-icon>
                 <v-btn class="reset">
-                  <v-icon>icon-wishlist<span class="sr-only">관심상품</span></v-icon>
+                  <v-icon>icon-wishlist off<span class="sr-only">관심상품</span></v-icon>              
                 </v-btn> 
               </span>
           </div>
@@ -162,11 +164,14 @@
             <span class="flag yellow">마이데이터</span>
             <span class="flag pink">카드데이터</span>
           </div>
-          <strong class="title">상품명은 한줄로 제한 한줄 초과 시한줄 초과 시 말줄임 말줄임 말줄임 말줄임 말줄임</strong>
-          <div class="text-area">
-            <p class="text">2024 전국 스타벅스 매장 연령별 결제 데이터 두줄일 경우 2024 전국 스타벅스 매장 연령별 결제 데이터 두줄일 2024 전국 스타벅스 매장 연령별 결제 데이터 두줄일 경우</p>
-            <v-icon class="icon-biz"><img src="../../../assets/images/icon/icon-biz.png" alt=""></v-icon>
-          </div>
+          <a href="">
+            <strong class="title">상품명은 한줄로 제한 한줄 초과 시한줄 초과 시 말줄임 말줄임 말줄임 말줄임 말줄임</strong>
+            <div class="text-area">
+              <p class="text">2024 전국 스타벅스 매장 연령별 결제 데이터 두줄일 경우 2024 전국 스타벅스 매장 연령별 결제 데이터 두줄일 2024 전국 스타벅스 매장 연령별 결제 데이터 두줄일 경우</p>
+              <v-icon class="icon-biz"><img src="../../../assets/images/icon/icon-biz.png" alt=""></v-icon>
+            </div>
+          </a>
+
           
           <div class="hashtags">
             <span class="hashtag">#스타벅스</span>
@@ -202,13 +207,13 @@
         </a>
         <a href="" class="banner-link">
           <div class="banner">
-            <div class="category-title">Trend Report+Case Study</div>
-            <div class="title">신한카드 Data 200% 활용법</div>
+            <div class="category-title">Data+Data+Data</div>
+            <div class="title">나만의 Data 맞춤 서비스</div>
             <divn class="btn-area">
-              <span>커뮤니티</span>
+              <span>맞춤Data</span>
               <v-icon>btn-main-arrow</v-icon>
             </divn>
-            <v-icon>icon-graph</v-icon>
+            <v-icon>icon-sawlike</v-icon>
           </div>
         </a> 
       </div>
