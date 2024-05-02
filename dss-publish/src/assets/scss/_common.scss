@@ -255,3 +255,9 @@ address span {display: inline-block; margin-right: 1.6rem;}
         }
     }
 }
+
+@media (hover: none) {
+    .v-field__clearable {
+        opacity: 0;
+    }
+}

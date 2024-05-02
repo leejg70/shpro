@@ -5,10 +5,7 @@ const terms = ref(false);
 </script>
 
 <template>
-  <v-dialog
-    v-model="terms"
-    width="auto"
-  >
+  <v-dialog v-model="terms">
     <!-- 샘플 버튼 -->
     <template v-slot:activator="{ props: activatorProps }">
       <v-btn v-bind="activatorProps">

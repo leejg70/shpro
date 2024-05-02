@@ -8,10 +8,7 @@ const agree = ref(false);
 </script>
 
 <template>
-  <v-dialog
-    v-model="agree"
-    width="auto"
-  >
+  <v-dialog v-model="agree">
     <!-- 샘플 버튼 -->
     <template v-slot:activator="{ props: activatorProps }">
       <v-btn v-bind="activatorProps">
