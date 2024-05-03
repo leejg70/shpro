@@ -58,8 +58,9 @@ const agree = ref(false);
                   :reverse-transition="false"
                   value="tab05_1_1"
                 >
-                  <v-card
+                  <v-card 
                     flat
+                    rounded="0"
                   >
                     <v-card-text>
                       [개인정보 제3자 제공 동의]<br>
@@ -83,8 +84,9 @@ const agree = ref(false);
                   :reverse-transition="false"
                   value="tab05_1_2"
                 >
-                  <v-card
+                  <v-card 
                     flat
+                    rounded="0"
                   >
                     <v-card-text>
                       [개인정보 제3자 제공 동의]<br>
@@ -108,8 +110,9 @@ const agree = ref(false);
                   :reverse-transition="false"
                   value="tab05_1_3"
                 >
-                  <v-card
+                  <v-card 
                     flat
+                    rounded="0"
                   >
                     <v-card-text>
                       [개인정보 제3자 제공 동의]<br>
@@ -151,8 +154,9 @@ const agree = ref(false);
                   :reverse-transition="false"
                   value="tab05_2_1"
                 >
-                  <v-card
+                  <v-card 
                     flat
+                    rounded="0"
                   >
                     <v-card-text>
                       [SKT 알뜰폰 제3자 동의]<br>
@@ -176,8 +180,9 @@ const agree = ref(false);
                   :reverse-transition="false"
                   value="tab05_2_2"
                 >
-                  <v-card
+                  <v-card 
                     flat
+                    rounded="0"
                   >
                     <v-card-text>
                       [개인정보 제3자 제공 동의]<br>
@@ -201,8 +206,9 @@ const agree = ref(false);
                   :reverse-transition="false"
                   value="tab05_2_3"
                 >
-                  <v-card
+                  <v-card 
                     flat
+                    rounded="0"
                   >
                     <v-card-text>
                       [개인정보 제3자 제공 동의]<br>

@@ -44,9 +44,28 @@ const company = ref(false);
               :reverse-transition="false"
               value="tab01_1"
             >
-              <v-card flat>
-                <v-card-text>
-
+              <v-card 
+                flat
+                rounded="0"
+              >
+                <v-card-text class="pd0">
+                  <div class="search-area">
+                    <div class="input-wrap">
+                      <v-text-field
+                        color="primary"
+                        hide-details="auto"             
+                        placeholder="기업명을 입력해주세요."
+                        variant="outlined"
+                        clearable
+                      ></v-text-field>
+                      <v-btn
+                        block
+                        class="btn-search"
+                      >
+                        <span class="sr-only">검색</span>
+                      </v-btn>
+                    </div>
+                  </div>
                 </v-card-text>
               </v-card>
             </v-window-item>
@@ -55,9 +74,28 @@ const company = ref(false);
               :reverse-transition="false"
               value="tab01_2"
             >
-              <v-card flat>
-                <v-card-text>
-
+              <v-card 
+                flat
+                rounded="0"
+              >
+                <v-card-text class="pd0">
+                  <div class="search-area">
+                    <div class="input-wrap">
+                      <v-text-field
+                        color="primary"
+                        hide-details="auto"             
+                        placeholder="사업자등록번호를 입력해주세요."
+                        variant="outlined"
+                        clearable
+                      ></v-text-field>
+                      <v-btn
+                        block
+                        class="btn-search"
+                      >
+                        <span class="sr-only">검색</span>
+                      </v-btn>
+                    </div>
+                  </div>
                 </v-card-text>
               </v-card>
             </v-window-item>

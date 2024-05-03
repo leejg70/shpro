@@ -58,8 +58,9 @@ const agree = ref(false);
                   :reverse-transition="false"
                   value="tab03_1_1"
                 >
-                  <v-card
+                  <v-card 
                     flat
+                    rounded="0"
                   >
                     <v-card-text>
                       제1조 (목적)<br>
@@ -157,8 +158,9 @@ const agree = ref(false);
                   :reverse-transition="false"
                   value="tab03_1_2"
                 >
-                  <v-card
+                  <v-card 
                     flat
+                    rounded="0"
                   >
                     <v-card-text>
                       제1조 (목적)<br>
@@ -262,8 +264,9 @@ const agree = ref(false);
                   :reverse-transition="false"
                   value="tab03_1_3"
                 >
-                  <v-card
+                  <v-card 
                     flat
+                    rounded="0"
                   >
                     <v-card-text>
                       제1조 (목적)<br>
@@ -376,8 +379,9 @@ const agree = ref(false);
                   :reverse-transition="false"
                   value="tab03_2_1"
                 >
-                  <v-card
+                  <v-card 
                     flat
+                    rounded="0"
                   >
                     <v-card-text>
                       제1조 (목적)<br>
@@ -475,8 +479,9 @@ const agree = ref(false);
                   :reverse-transition="false"
                   value="tab03_2_2"
                 >
-                  <v-card
+                  <v-card 
                     flat
+                    rounded="0"
                   >
                     <v-card-text>
                       제1조 (목적)<br>
@@ -580,8 +585,9 @@ const agree = ref(false);
                   :reverse-transition="false"
                   value="tab03_2_3"
                 >
-                  <v-card
+                  <v-card 
                     flat
+                    rounded="0"
                   >
                     <v-card-text>
                       제 1조 (목적)<br>

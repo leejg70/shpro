@@ -58,8 +58,9 @@ const agree = ref(false);
                   :reverse-transition="false"
                   value="tab02_1_1"
                 >
-                  <v-card
+                  <v-card 
                     flat
+                    rounded="0"
                   >
                     <v-card-text>
                       [SK텔레콤 귀중]<br>
@@ -93,8 +94,9 @@ const agree = ref(false);
                   :reverse-transition="false"
                   value="tab02_1_2"
                 >
-                  <v-card
+                  <v-card 
                     flat
+                    rounded="0"
                   >
                     <v-card-text>
                       [(주)케이티 귀중]<br>
@@ -133,8 +135,9 @@ const agree = ref(false);
                   :reverse-transition="false"
                   value="tab02_1_3"
                 >
-                  <v-card
+                  <v-card 
                     flat
+                    rounded="0"
                   >
                     <v-card-text>
                       [LG유플러스(주) 귀중]<br>
@@ -185,8 +188,9 @@ const agree = ref(false);
                   :reverse-transition="false"
                   value="tab02_2_1"
                 >
-                  <v-card
+                  <v-card 
                     flat
+                    rounded="0"
                   >
                     <v-card-text>
                       [SK텔레콤 귀중]<br>
@@ -225,8 +229,9 @@ const agree = ref(false);
                   :reverse-transition="false"
                   value="tab02_2_2"
                 >
-                  <v-card
+                  <v-card 
                     flat
+                    rounded="0"
                   >
                     <v-card-text>
                       [(주)케이티 귀중]<br>
@@ -271,8 +276,9 @@ const agree = ref(false);
                   :reverse-transition="false"
                   value="tab02_2_3"
                 >
-                  <v-card
+                  <v-card 
                     flat
+                    rounded="0"
                   >
                     <v-card-text>
                       [LG유플러스(주) 귀중]<br>

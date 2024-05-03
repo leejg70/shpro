@@ -40,7 +40,10 @@ const agree = ref(false);
               :reverse-transition="false"
               value="tab01_1"
             >
-              <v-card flat>
+              <v-card 
+                flat
+                rounded="0"
+              >
                 <v-card-text>
                   <!-- https://devprj2-www.shinhancard.com/pconts/html/agree/1217932_7911.html -->
                   제1조 (목적)<br>
@@ -126,7 +129,10 @@ const agree = ref(false);
               :reverse-transition="false"
               value="tab01_2"
             >
-              <v-card flat>
+              <v-card 
+                flat
+                rounded="0"
+              >
                 <v-card-text>
                   <!-- https://devprj2-www.shinhancard.com/pconts/html/agree/1217919_7911.html -->
                   제1조 (목적)<br>

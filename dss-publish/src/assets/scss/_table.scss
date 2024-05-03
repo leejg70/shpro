@@ -3,11 +3,11 @@
 /* 검색 */
 .search-area {
   display: flex;
-  flex-direction: column;
+  justify-content: center;
   align-items: center;
-  margin-bottom: 2rem;
-  padding: 1.6rem 3.2rem;
-  background: #F7F8FC;
+  padding: 1.6rem;
+  background-color: #f7f8fc;
+  border-top: .1rem solid #ddd;
   .input-wrap {
     position: relative;
     width: 58.8rem;  
