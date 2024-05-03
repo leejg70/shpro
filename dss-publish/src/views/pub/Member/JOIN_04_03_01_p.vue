@@ -77,13 +77,12 @@ const company = ref(false);
                     </ul>
                     <v-radio-group hide-details="auto">
                       <ul class="table-body">
-                        <!-- 검색 안내
+                        <!-- 검색 안내 -->
                         <li class="no-data">
                           <p class="title">기업 검색</p>
                           <p class="text">기업 검색을 해주시기 바랍니다.</p>
                         </li>
-                        -->
-                        <!-- 검색 결과 -->
+                        <!-- 검색 결과
                         <li class="tb-list-group">
                           <div class="tb-radio">
                             <v-radio
@@ -126,6 +125,7 @@ const company = ref(false);
                             <li class="email">@shinhancard.com</li>
                           </ul>
                         </li>
+                        -->
                         <!-- 검색 결과 없을시
                         <li class="no-data">
                           <p class="title">검색 결과</p>
@@ -176,13 +176,12 @@ const company = ref(false);
                     </ul>
                     <v-radio-group hide-details="auto">
                       <ul class="table-body">
-                        <!-- 검색 안내
+                        <!-- 검색 안내 -->
                         <li class="no-data">
                           <p class="title">기업 검색</p>
                           <p class="text">기업 검색을 해주시기 바랍니다.</p>
                         </li>
-                        -->
-                        <!-- 검색 결과 -->
+                        <!-- 검색 결과
                         <li class="tb-list-group">
                           <div class="tb-radio">
                             <v-radio
@@ -225,6 +224,7 @@ const company = ref(false);
                             <li class="email">@shinhancard.com</li>
                           </ul>
                         </li>
+                        -->
                         <!-- 검색 결과 없을시
                         <li class="no-data">
                           <p class="title">검색 결과</p>
@@ -239,11 +239,9 @@ const company = ref(false);
             </v-window-item>
           </v-window>
           <v-card-text class="info-area">
-            <div class="info-tip">
-              <p>법인 사업자 계정으로 가입하시려면 법인 이메일 주소가 필요합니다.<br>법인 이메일이 없으신 경우, 개인 계정으로 가입 후 고객센터로 문의 해 주시기 바랍니다.</p>
-            </div>
+            <p class="info-tip">법인 사업자 계정으로 가입하시려면 법인 이메일 주소가 필요합니다.<br>법인 이메일이 없으신 경우, 개인 계정으로 가입 후 고객센터로 문의 해 주시기 바랍니다.</p>
             <div class="info-title">
-              <p class="info-txt">소속 기업이 등록되어있지 않다면?</p>
+              <p class="info-text">소속 기업이 등록되어있지 않다면?</p>
               <v-btn
                 variant="outlined"
                 color="Outlinded"
