@@ -6,6 +6,8 @@ const password = ref('');
 const show = ref(false);
 const checkbox = ref(false);
 const valid = ref(false);
+const emailRules = ref(['아이디를 입력해주세요.']);
+const passwordRules = ref(['비밀번호를 입력해주세요.']);
 </script>
 
 <template>
@@ -19,6 +21,7 @@ const valid = ref(false);
         <v-text-field
           aria-label="아이디"
           v-model="userid"
+          :rules="emailRules"
           placeholder="이메일 아이디 입력"
           title="이메일 아이디 입력"
           density="comfortable"
@@ -28,8 +31,8 @@ const valid = ref(false);
           clearable
           required
         ></v-text-field>
-        <p class="text-tip error">아이디를 입력해주세요.</p>
         <!--
+        <p class="text-tip error">아이디를 입력해주세요.</p>
         <p class="text-tip error">아이디는 필수 입력입니다.</p>
         <p class="text-tip error">이메일 형식으로 입력해주세요.</p>
         -->
@@ -40,6 +43,7 @@ const valid = ref(false);
           :type="show ? 'text' : 'password'"
           aria-label="비밀번호"
           v-model="password"
+          :rules="passwordRules"
           placeholder="비밀번호 입력"
           title="비밀번호 입력"
           density="comfortable"
@@ -49,7 +53,9 @@ const valid = ref(false);
           clearable
           required
         ></v-text-field>
+        <!--
         <p class="text-tip error">비밀번호를 입력해주세요.</p>
+        -->
       </div>
       <div class="form-checkbox">
         <v-checkbox

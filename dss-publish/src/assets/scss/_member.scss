@@ -128,6 +128,12 @@
       + .form-group {
         margin-top: 2.4rem;
       }
+      .v-input__details {
+        padding-top: .8rem;
+      }
+      .v-messages {
+        font-size: 1.4rem;
+      }
       .ele-tit {
         position: absolute;
         top: 0;
@@ -594,6 +600,9 @@
       padding-bottom: 2.4rem;
       .form-group {
         padding-left: 0 !important;
+        .v-messages {
+          font-size: 1.2rem;
+        }
         .ele-tit {
           display: block;
           position: static;

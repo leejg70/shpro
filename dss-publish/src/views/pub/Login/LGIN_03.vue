@@ -22,6 +22,7 @@ const radioGroup = ref('');
 const selected = ref('알뜰폰');
 const items = ['알뜰폰', 'SKT 알뜰폰', 'KT 알뜰폰', 'LG U+ 알뜰폰'];
 const valid = ref(false);
+const nameRules = ref(['이름은 필수 입력입니다.']);
 </script>
 
 <template>
@@ -160,6 +161,7 @@ const valid = ref(false);
             <v-text-field
               aria-label="이름"
               v-model="realNm"
+              :rules="nameRules"
               placeholder="이름 입력"
               title="이름 입력"
               density="comfortable"
@@ -170,7 +172,9 @@ const valid = ref(false);
               required
             ></v-text-field>
           </div>
+          <!--
           <p class="text-tip error">이름은 필수 입력입니다.</p>
+          -->
         </div>
         <div class="form-group">
           <div class="ele-tit">

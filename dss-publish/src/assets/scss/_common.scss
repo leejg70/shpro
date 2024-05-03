@@ -175,9 +175,6 @@ address span {display: inline-block; margin-right: 1.6rem;}
 .btn-wrap .default {width: 22.4rem;}
 .btn-wrap .default + .default {margin-left: 1.6rem;}
 
-/* Padding */
-.pd0 {padding: 0 !important;}
-
 /* 360 미만일때 일괄적으로 축소*/
 @media only screen and (max-width: 360px) {
     html {
