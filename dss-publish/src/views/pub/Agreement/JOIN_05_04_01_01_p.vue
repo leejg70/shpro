@@ -46,7 +46,6 @@ const agree = ref(false);
                 v-model="tab04_1"
                 bg-color="transparent"
                 color="selected"
-                grow
                 class="tab-list"
               >
                 <v-tab value="tab04_1_1">SKT</v-tab>
@@ -255,7 +254,6 @@ const agree = ref(false);
                 v-model="tab04_2"
                 bg-color="transparent"
                 color="selected"
-                grow
                 class="tab-list"
               >
                 <v-tab value="tab04_2_1">SKT</v-tab>

@@ -232,6 +232,7 @@
       }
       .tab-list {
         .v-btn {
+          width: calc(100% / 3);
           font-size: 1.6rem;
           font-weight: 400;
           background-color: #fff;
@@ -251,6 +252,15 @@
         }
         .v-tab__slider {
           height: 0;
+        }
+      }
+      .tab-search {
+        margin-bottom: 0;
+        .v-btn {
+          width: 50%;
+          + .v-btn {
+            margin-left: 0;
+          }
         }
       }
       .v-card-text {
