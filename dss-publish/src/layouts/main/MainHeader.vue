@@ -2,17 +2,8 @@
 import { ref } from 'vue';
 
 // reactive한 변수를 생성합니다.
-const isMouseOver = ref(false);
+const show = ref(false);
 
-// 마우스 오버 이벤트 핸들러를 정의합니다.
-const handleMouseOver = () => {
-  isMouseOver.value = true;
-};
-
-// 마우스 아웃 이벤트 핸들러를 정의합니다.
-const handleMouseOut = () => {
-  isMouseOver.value = false;
-};
 
 
 const allmenu = ref(false);
@@ -33,11 +24,13 @@ const allmenu = ref(false);
                     <li><a href="javascript:;" class="">고객센터</a></li>
                 </ul>
             </div>
-            <div class="gnb-wrap" @mouseover="handleMouseOver" @mouseout="handleMouseOut">
+            <div class="gnb-wrap">
                 <h1 class="logo-title"><img src="../../assets/images/common/logo.png" alt="" class="logo"></h1>
-                <nav class="gnb-menu">
-                    <ul class="menu-list">
-                        <li><a href="javascript:;" class="">Data서비스</a></li>
+                <nav class="gnb-menu"  @mouseover="show = true">
+                    <ul class="menu-list">                  
+                        <li>
+                            <a href="javascript:;" class="" >Data서비스</a>
+                        </li>
                         <li><a href="javascript:;" class="">솔루션서비스</a></li>
                         <li><a href="javascript:;" class="">광고서비스</a></li>
                         <li><a href="javascript:;" class="">API서비스</a></li>
@@ -52,9 +45,8 @@ const allmenu = ref(false);
                 </div>
             </div>                      
         </div> 
-        <div class="gnb-menu-list" v-if="isMouseOver=='true'">
-
-        </div>  
+        <!-- <div class="gnb-menu-list"  v-show="show">
+        </div>   -->
     </header>
  
     <!--  전체메뉴 -->
@@ -91,20 +83,20 @@ const allmenu = ref(false);
                 </div>
                 <div class="allmenu-list-wrap">
                     <div class="allmenu-list" >
-                        <h2 class="title">Data서비스</h2>
+                        <h2 class="title"><a href="javascript:;">Data서비스</a></h2>
                         <ul class="dep1_list">
                             <li class="item"><a href="javascript:;">Data상품</a></li>
                             <li class="item"><a href="javascript:;">맞춤Data</a></li>
                         </ul>
                     </div>
                     <div class="allmenu-list">
-                        <h2 class="title">솔루션서비스</h2>
+                        <h2 class="title"><a href="javascript:;">솔루션서비스</a></h2>
                         <ul class="dep1_list">
                             <li class="item"><a href="javascript:;">솔루션 상품</a></li>
                         </ul>
                     </div>
                     <div class="allmenu-list">
-                        <h2 class="title">광고서비스</h2>
+                        <h2 class="title"><a href="javascript:;">광고서비스</a></h2>
                         <ul class="dep1_list">
                             <li class="item"><a href="javascript:;">타겟마케팅</a></li>
                             <li class="item"><a href="javascript:;">서베이 대행서비스</a></li>
@@ -112,13 +104,13 @@ const allmenu = ref(false);
                         </ul>
                     </div>
                     <div class="allmenu-list">
-                        <h2 class="title">API서비스</h2>
+                        <h2 class="title"><a href="javascript:;">API서비스</a></h2>
                         <ul class="dep1_list">
                             <li class="item"><a href="javascript:;">API상품</a></li>
                         </ul>
                     </div>
                     <div class="allmenu-list">
-                        <h2 class="title">MY</h2>
+                        <h2 class="title"><a href="javascript:;">MY</a></h2>
                         <ul class="dep1_list">
                             <li class="item"><a href="javascript:;">나의 계약</a></li>
                             <li class="item"><a href="javascript:;">관심상품</a></li>
@@ -128,28 +120,28 @@ const allmenu = ref(false);
                         </ul>
                     </div>
                     <div class="allmenu-list">
-                        <h2 class="title">DataBlue</h2>
+                        <h2 class="title"><a href="javascript:;">DataBlue</a></h2>
                         <ul class="dep1_list">
                             <li class="item"><a href="javascript:;">DataBlue</a></li>
                             <li class="item"><a href="javascript:;">신한 DataUniverse</a></li>
                         </ul>
                     </div>
                     <div class="allmenu-list">
-                        <h2 class="title">커뮤니티</h2>
+                        <h2 class="title"><a href="javascript:;">커뮤니티</a></h2>
                         <ul class="dep1_list">
                             <li class="item"><a href="javascript:;">활용장</a></li>
                             <li class="item"><a href="javascript:;">토론장</a></li>               
                         </ul>
                     </div>
                     <div class="allmenu-list">
-                        <h2 class="title">고객센터</h2>
+                        <h2 class="title"><a href="javascript:;">고객센터</a></h2>
                         <ul class="dep1_list">
                             <li class="item"><a href="javascript:;">공지사항</a></li>
                             <li class="item"><a href="javascript:;">FAQ</a></li>
                             <li class="item"><a href="javascript:;">고객문의</a></li>
                        </ul>
                     </div>                 
-                    <ul class="customer-box">
+                    <ul class="customer-box ">
                         <li><a href="javascript:;" class="notice">공지사항</a></li>
                         <li><a href="javascript:;" class="faq">FAQ</a></li>
                         <li><a href="javascript:;" class="customer-center">고객문의</a></li>

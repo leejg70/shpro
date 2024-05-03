@@ -18,7 +18,10 @@
             </p>
             <button class="visual-more">Data Blue 바로가기</button>
           </div>
-          <div class="visual-img" aria-hidden="true"><img src="../../../assets/images/main/visual_img1.png" alt=""></div>
+          <div class="visual-img" aria-hidden="true">
+            <img src="../../../assets/images/main/visual_img1.png" class="pc-img" alt="">
+            <img src="../../../assets/images/main/visual_mo_img1.png" class="mobile-img" alt="">          
+          </div>          
         </div>
       </div>
       <div class="my-login-wrap">      

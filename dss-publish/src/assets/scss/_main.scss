@@ -61,6 +61,13 @@
           width: 100%;
           height: 100%;
 
+          .pc-img{
+            display: block;
+          }
+          .mobile-img{
+            display: none;
+          }
+
           img {
             width: 100%;
             height: 56.0rem;
@@ -1044,11 +1051,18 @@
           }
 
           .visual-img {
+
+            .pc-img{
+              display: none;
+            }
+            .mobile-img{
+              display: block;
+            }
+
             img {
               height: 26rem;
               object-fit: cover;
               background-color: #eee;
-
             }
           }
         }
