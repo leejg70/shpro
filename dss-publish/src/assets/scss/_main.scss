@@ -122,7 +122,7 @@
           text-align: center;
 
           .name {
-            color: var(--primary-blue100, #356CFF);
+            color: #356CFF;
             font-size: 2.2rem;
             font-weight: 700;
             line-height: 150%;
@@ -132,14 +132,11 @@
 
       .notice-box {
         margin-top: 2.4rem;
-
         .notice-banner {
           position: relative;
-          padding: 2.2rem 2.4rem;
-          width: 28.2rem;
-          height: 9.6rem;
+          padding: 2.2rem 2.4rem;  
           border-radius: 2.4rem 2.4rem 0 0;
-          background: #D9D9D9;
+          background: #CEE2FF;
           .category-title{  
             display: inline;
             border-top:1px solid rgba(176, 206, 253, 1);
@@ -1302,7 +1299,7 @@
             width: 100%;
             height: 9.6rem;
             border-radius: 1.6rem 1.6rem 0 0;
-            background: #D9D9D9;
+           
           }
 
           .report-roll-box {
