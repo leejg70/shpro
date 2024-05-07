@@ -134,10 +134,51 @@
         margin-top: 2.4rem;
 
         .notice-banner {
+          position: relative;
+          padding: 2.2rem 2.4rem;
           width: 28.2rem;
           height: 9.6rem;
           border-radius: 2.4rem 2.4rem 0 0;
           background: #D9D9D9;
+          .category-title{  
+            display: inline;
+            border-top:1px solid rgba(176, 206, 253, 1);
+            border-bottom:1px solid rgba(176, 206, 253, 1); 
+            padding: .2rem 0;
+            color: #4B7CC8;         
+            font-size: 1.2rem;    
+            line-height: 1.9rem; 
+            letter-spacing: -0.3px;     
+          }
+          .title{
+            margin-top: .8rem;
+            color:#383B5A;
+            font-size: 1.8rem;
+            font-weight: 700; 
+            line-height: 140%; 
+            letter-spacing: -0.45px;
+          }
+          .notice-graph{
+            position: absolute;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            top:50%;
+            transform: translateY(-50%);
+            right:2.4rem;
+            width: 5.6rem;
+            height: 5.6rem;
+            border-radius: 50%;
+            background-color: rgba(255, 255, 255, 0.4);
+            .icon-data-graph{
+              width: 4rem;
+              height: 4rem;
+              background-image: url(../images/icon/icon-data-graph.png);
+              background-size: 100%;
+
+            }
+          
+          }
         }
 
         .report-roll-box {
@@ -982,20 +1023,152 @@
   }
 }
 
-.gnb-menu-list{
+
+.gnb-menu{ position: relative; cursor: pointer; }
+
+.gnb-menu-wrap{
   position: absolute;
-  height: 100px; 
   width: 100%;   
   background-color:#fff; 
-  overflow: hidden; 
-  // opacity: 0; 
+  overflow: hidden;   
   transition: all .3s ease-in-out;
   border-top:1px solid #E5E5E5;
   z-index: 99; 
   cursor: pointer;
+  .gnb-menu-inner{
+    padding: 4rem 0; 
+    margin: 0 auto;
+    display: flex;
+    width: 120rem;
+  
+    .gnb-menu-list{
+      padding-right: 2.4rem;
+      width: 20.8rem;
+      border-right: 1px solid #e5e5e5;
+      &:not(:last-child){
+        margin-right: 4rem;   
+      } 
+      &:last-child{
+        border-right: 0;
+      }
+      .title{  
+        .title-link{
+          padding: 1.6rem 0;
+          font-family: 'OneShinhan';
+          font-size: 2rem;    
+          font-weight: 500;
+          line-height: 150%; 
+        }
+      }
+      .dep1-list{
+        .item{
+          padding: .8rem 0;
+          font-family: "Spoqa Han Sans Neo";
+          width: 20.8rem;
+          font-size: 1.8rem;
+          line-height: 150%; 
+        }
+      }
+    }
+   }
 }
-.gnb-menu{ position: relative; cursor: pointer; }
+.fade-enter-active,
+.fade-leave-active {
+  opacity: 1;
+}
 
+.fade-enter-from,
+.fade-leave-to {
+  transition: opacity 0.5s ease-out;
+  opacity: 1;
+}
+.main-top-banner{
+  background-color: #091850;
+  .top-banner-inner{
+    position: relative;
+    margin: 0 auto;
+    padding: 2.4rem 0;
+    display: flex;
+    width: 120rem;
+    height: 8rem;
+    .notice-title{
+      margin-right:1.6rem ;
+      padding: .6rem .75rem 0;
+      width: 4.8rem;
+      height: 3.2rem;
+      color: #356CFF;
+      font-size: 1.1rem;
+      font-weight: 700;  
+      letter-spacing: -0.275px;
+      background-image: url('../images/main/top_notice_bg.png');
+      background-size: 100%;     
+    }
+    .title{
+      color: #FFF;
+      font-size: 1.8rem;
+      line-height: 150%; 
+    } 
+    .v-btn.btn-popup-close {
+      top: 50%;
+      transform: translateY(-50%);
+      right: 0;
+      background-image: url('../images/icon/icon_banner_close_white.png');
+      cursor: pointer;
+    }
+    .top-banner-check {
+      position: absolute;
+      top:50%;
+      transform: translateY(-50%);
+      right:5.6rem;
+      display: block;
+      // &.v-input--density-default:not(.v-autocomplete--multiple) {
+      //   --v-input-control-height: 3.2rem;
+      // }
+      .v-selection-control {
+        width: 100%;
+        .v-selection-control__wrapper{
+          display: block;
+          width: 2.4rem;
+          height: 2.4rem;
+          .v-selection-control__input {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 2.4rem;
+            height: 2.4rem;
+            &::before {
+              background-color: transparent;
+            }
+            > .v-icon {
+              width: 100%;
+              height: 100%;
+              opacity: 1;
+            }
+          }
+        }
+        .v-label {
+          margin-left: .8rem;
+          font-size: 1.4rem;
+          color: #ccc;
+        }
+      }
+      .mdi-checkbox-blank-outline::before {
+        content: '';
+        width: 2.4rem;
+        height: 2.4rem;
+        background-image: url('../images/icon/icon_top_checkbox_off.png');
+        background-size: 100%;
+      }
+      .mdi-checkbox-marked::before {
+        content: '';
+        width: 2.4rem;
+        height: 2.4rem;
+        background-image: url('../images/icon/icon_top_checkbox_on.png');
+        background-size: 100%;
+      }
+    }
+  }
+}
 
 
 
@@ -1773,6 +1946,40 @@
           top: -6.4rem;
           background: transparent;
         }
+      }
+    }
+  }
+
+  .main-top-banner{ 
+    .top-banner-inner{
+      padding: 1.2rem 2.4rem;     
+      width: 100%;
+      height: 4.8rem;
+      .notice-title{
+        margin-right:1.6rem ;
+        padding: .6rem .5rem 0;
+        width: 3.4rem;
+        height: 2.5rem;      
+        font-size: .8rem;    
+        line-height: 100%; 
+        letter-spacing: -0.2px;        
+      }
+      .title{    
+        font-size: 1.4rem;
+        padding-right: 4rem;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+      } 
+      .v-btn.btn-popup-close {
+        top: 50%;
+        transform: translateY(-50%);
+        right: 2.6rem;
+        background-image: url('../images/icon/icon_banner_close_white.png');
+        cursor: pointer;
+      }
+      .top-banner-check{
+        display: none;
       }
     }
   }
