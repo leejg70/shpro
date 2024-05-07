@@ -37,11 +37,7 @@ const agree = ref(false);
             <v-tab value="tab03_2">KCB</v-tab>
           </v-tabs>
           <v-window v-model="tab">
-            <v-window-item
-              :transition="false"
-              :reverse-transition="false"
-              value="tab03_1"
-            >
+            <v-window-item value="tab03_1">
               <v-tabs
                 v-model="tab03_1"
                 bg-color="transparent"
@@ -53,11 +49,7 @@ const agree = ref(false);
                 <v-tab value="tab03_1_3">LGU+</v-tab>
               </v-tabs>
               <v-window v-model="tab03_1">
-                <v-window-item
-                  :transition="false"
-                  :reverse-transition="false"
-                  value="tab03_1_1"
-                >
+                <v-window-item value="tab03_1_1">
                   <v-card 
                     flat
                     rounded="0"
@@ -153,11 +145,7 @@ const agree = ref(false);
                     </v-card-text>
                   </v-card>
                 </v-window-item>
-                <v-window-item
-                  :transition="false"
-                  :reverse-transition="false"
-                  value="tab03_1_2"
-                >
+                <v-window-item value="tab03_1_2">
                   <v-card 
                     flat
                     rounded="0"
@@ -259,11 +247,7 @@ const agree = ref(false);
                     </v-card-text>
                   </v-card>
                 </v-window-item>
-                <v-window-item
-                  :transition="false"
-                  :reverse-transition="false"
-                  value="tab03_1_3"
-                >
+                <v-window-item value="tab03_1_3">
                   <v-card 
                     flat
                     rounded="0"
@@ -358,11 +342,7 @@ const agree = ref(false);
                 </v-window-item>
               </v-window>
             </v-window-item>
-            <v-window-item
-              :transition="false"
-              :reverse-transition="false"
-              value="tab03_2"
-            >
+            <v-window-item value="tab03_2">
             <v-tabs
                 v-model="tab03_2"
                 bg-color="transparent"
@@ -374,11 +354,7 @@ const agree = ref(false);
                 <v-tab value="tab03_2_3">LGU+</v-tab>
               </v-tabs>
               <v-window v-model="tab03_2">
-                <v-window-item
-                  :transition="false"
-                  :reverse-transition="false"
-                  value="tab03_2_1"
-                >
+                <v-window-item value="tab03_2_1">
                   <v-card 
                     flat
                     rounded="0"
@@ -474,11 +450,7 @@ const agree = ref(false);
                     </v-card-text>
                   </v-card>
                 </v-window-item>
-                <v-window-item
-                  :transition="false"
-                  :reverse-transition="false"
-                  value="tab03_2_2"
-                >
+                <v-window-item value="tab03_2_2">
                   <v-card 
                     flat
                     rounded="0"
@@ -580,11 +552,7 @@ const agree = ref(false);
                     </v-card-text>
                   </v-card>
                 </v-window-item>
-                <v-window-item
-                  :transition="false"
-                  :reverse-transition="false"
-                  value="tab03_2_3"
-                >
+                <v-window-item value="tab03_2_3">
                   <v-card 
                     flat
                     rounded="0"

@@ -107,6 +107,8 @@
       .btn-popwrap {
         .default {
           height: 4.8rem;
+          font-weight: 500;
+          font-size: 1.6rem;
         }
       }
     }
@@ -403,6 +405,9 @@
         }
       }
     }
+    .v-window-item {
+      transition: none;
+    }
   }
   .popup-foot {
     position: relative;
@@ -574,6 +579,7 @@
         .btn-popwrap {
           .default {
             height: 5rem;
+            font-weight: 700;
             border-radius: 1.2rem !important;
           }
         }

@@ -39,11 +39,7 @@ const company = ref(false);
             <v-tab value="tab01_2">사업자등록번호 검색</v-tab>
           </v-tabs>
           <v-window v-model="tab">
-            <v-window-item
-              :transition="false"
-              :reverse-transition="false"
-              value="tab01_1"
-            >
+            <v-window-item value="tab01_1">
               <v-card 
                 flat
                 rounded="0"
@@ -138,11 +134,7 @@ const company = ref(false);
                 </v-card-text>
               </v-card>
             </v-window-item>
-            <v-window-item
-              :transition="false"
-              :reverse-transition="false"
-              value="tab01_2"
-            >
+            <v-window-item value="tab01_2">
               <v-card 
                 flat
                 rounded="0"
