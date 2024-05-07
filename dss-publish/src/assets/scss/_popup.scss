@@ -194,20 +194,6 @@
         }
       }
     }
-    .text-tip {
-      position: relative;
-      margin-top: .8rem;
-      font-size: 1.4rem;
-      &.error {
-        color: #ff3636;
-      }
-      &.success {
-        color: #356cff;
-      }
-      &.message {
-        color: #888;
-      }
-    }
     .tab-cont {
       .v-tabs {
         height: 4.8rem;
@@ -405,6 +391,65 @@
         }
       }
     }
+    .form-box {
+      padding: .8rem 0;
+      .form-group {
+        position: relative;
+        padding-left: 16rem !important;
+        + .form-group {
+          margin-top: 2.4rem;
+        }
+        .v-input__details {
+          padding-top: .8rem;
+        }
+        .v-messages {
+          font-size: 1.4rem;
+        }
+        .ele-tit {
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 16rem;
+          padding-top: 1.2rem;
+          .v-label {
+            font-size: 1.6rem;
+          }
+        }
+        .input-wrap {
+          position: relative;
+          width: 100%;
+          box-sizing: border-box;
+          .v-input--density-comfortable {
+            --v-input-control-height: 4.8rem;
+            --v-input-padding-top: 1.2rem;
+          }
+          &.side-btn .v-input {
+            width: calc(100% - 16.8rem);
+          }
+          &.side-btn .line-blue {
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 16rem;
+            min-width: 16rem;
+          }
+        }
+        .text-tip {
+          position: relative;
+          margin-top: .8rem;
+          font-size: 1.4rem;
+          &.error {
+            color: #ff3636;
+          }
+          &.success {
+            color: #356cff;
+          }
+          &.message {
+            color: #888;
+          }
+        }
+      }
+    }
     .v-window-item {
       transition: none;
     }
@@ -422,25 +467,6 @@
       .default {
         width: 22.4rem;
       }
-    }
-  }
-  .busi-add {
-    .form-box {
-      display: flex;
-      flex-direction: column; 
-      height: 40rem;
-      .form-group {
-        position: relative;
-        padding-left: 0 !important;  
-        + .form-group {
-          margin-top: 2.4rem;
-        }
-        .ele-tit {     
-          width: 100%;
-          padding-bottom: 0.8rem;
-          .v-label{font-size: 1.6rem;}
-        }       
-      }      
     }
   }
   .v-input--density-default .v-field__input {
@@ -646,12 +672,6 @@
           }
         }
       }
-      .form-group + .form-group {
-        margin-top: 2.4rem;
-      }
-      .text-tip {
-        font-size: 1.2rem;
-      }
       .tab-cont {
         .v-tabs {
           .v-btn {
@@ -762,6 +782,45 @@
           }
         }
       }
+      .form-box {
+        .form-group {
+          padding-left: 0 !important;
+          .v-messages {
+            font-size: 1.2rem;
+          }
+          .ele-tit {
+            display: block;
+            position: static;
+            width: auto;
+            padding: 0 0 .8rem 0;
+            .v-label {
+              font-size: 1.4rem;
+            }
+          }
+          .input-wrap {
+            .v-text-field input {
+              min-height: auto;
+              height: 4.2rem;
+              font-size: 1.4rem;
+            }
+            .v-field__input::placeholder {
+              font-size: 1.4rem;
+            }
+            &.side-btn .v-input {
+              width: calc(100% - 11.2rem);
+            }
+            &.side-btn .line-blue {
+              width: 10.4rem;
+              min-width: 10.4rem;
+              height: 4.2rem;
+              padding: 0;
+            }
+          }
+          .text-tip {
+            font-size: 1.2rem;
+          }
+        }
+      }
     }
     .popup-foot {
       padding: 0 2.4rem;
@@ -769,24 +828,6 @@
         padding: 1.6rem 0 2.4rem;
         .default {
           width: 100%;
-        }
-      }
-    }
-    // 본인 인증
-    .busi-add {
-      .form-box {
-        display: flex;
-        flex-direction: column;
-        height: 25rem;
-        .form-group {
-          position: relative;
-          padding-left: 0 !important;
-          .ele-tit {
-            width: 100%;
-            padding: 1.2rem 0 0.8rem;
-            .v-label{font-size: 1.4rem;}
-          }
-          + .form-group {margin-top: 1.6rem;}
         }
       }
     }
