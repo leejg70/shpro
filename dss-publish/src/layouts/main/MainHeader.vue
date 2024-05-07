@@ -10,9 +10,7 @@ const allmenu = ref(false);
     <div class="main-top-banner" v-show="notice">
       <div class="top-banner-inner">
         <div class="notice-title">Notice</div>
-        <div class="title">밴드공지 영역밴드공지 영역밴드공지 영역밴드공지 영역밴드공지 영역밴드공지 영역 </div>               
-        
-        
+        <div class="title">밴드공지 영역밴드공지 영역밴드공지 영역밴드공지 영역밴드공지 영역밴드공지 영역 </div>        
         <v-checkbox     
           label="오늘 그만보기"
           hide-details
@@ -34,10 +32,11 @@ const allmenu = ref(false);
                 <ul>
                     <li><a href="javascript:;" class="">로그인</a></li>
                     <li><a href="javascript:;" class="">회원가입</a></li>
-                    <li><a href="javascript:;" class="">고객센터</a></li>
-                </ul>
-                <ul style="display: none;">
+                    <!-- 로그인 후 -->
+                    <!--
+                    <li><a href="javascript:;" class="name">김신한님</a></li>
                     <li><a href="javascript:;" class="">로그아웃</a></li>
+                    -->
                     <li><a href="javascript:;" class="">고객센터</a></li>
                 </ul>
             </div>
@@ -61,8 +60,8 @@ const allmenu = ref(false);
             </div>
         </div>
         <transition name="fade" mode="out-in">
-          <div class="gnb-menu-wrap"  v-show="show" @mouseover="show = true" @mouseout="show = false">
-            <div class="gnb-menu-inner">
+          <div class="gnb-menu-wrap"  v-show="show" >
+            <div class="gnb-menu-inner" @mouseover="show = true" @mouseout="show = false">
               <div class="gnb-menu-list">
                 <h2 class="title"><a href="javascript:;" class="title-link">Data서비스</a></h2>
                 <ul class="dep1-list">
