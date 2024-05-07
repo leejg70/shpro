@@ -1,4 +1,4 @@
-.sub-header-wrap {
+.sub-header-area {
     margin-bottom: 4rem;
 }
 // 검색영역
@@ -507,6 +507,12 @@
     height: 2.4rem;
     background-image: url('../images/btn/btn_sel_arrow.png');
     background-size: 100%;
+}
+
+.btn-search-blue {
+    width: 3.2rem;
+    height: 3.2rem;
+    background: url('../images/icon/icon_search_blue.png') 0 0 / cover;
 }
 
 // flag

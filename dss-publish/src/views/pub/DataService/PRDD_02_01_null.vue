@@ -12,7 +12,7 @@ const items3 = ['전체', '공공기관', '민간기관', '금융기관', '마�
 
 <template>
     <div class="data-service">
-        <div class="sub-header-wrap">
+        <div class="sub-header-area">
             <h4 class="sub-header">Data 상품</h4>
         </div>
 
