@@ -35,11 +35,7 @@ const agree = ref(false);
             <v-tab value="tab01_2">KCB</v-tab>
           </v-tabs>
           <v-window v-model="tab">
-            <v-window-item
-              :transition="false"
-              :reverse-transition="false"
-              value="tab01_1"
-            >
+            <v-window-item value="tab01_1">
               <v-card 
                 flat
                 rounded="0"
@@ -124,11 +120,7 @@ const agree = ref(false);
                 </v-card-text>
               </v-card>
             </v-window-item>
-            <v-window-item
-              :transition="false"
-              :reverse-transition="false"
-              value="tab01_2"
-            >
+            <v-window-item value="tab01_2">
               <v-card 
                 flat
                 rounded="0"
