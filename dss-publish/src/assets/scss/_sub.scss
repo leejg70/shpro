@@ -68,6 +68,27 @@
 
 
 
+
+// checkbox
+.inp-checkbox {
+    .mdi-checkbox-blank-outline::before {
+        content: '';
+        width: 2.4rem;
+        height: 2.4rem;
+        background-image: url('../images/icon/icon_checkbox_off.svg');
+        background-size: 100%;
+    }
+    .mdi-checkbox-marked::before {
+        content: '';
+        width: 2.4rem;
+        height: 2.4rem;
+        background-image: url('../images/icon/icon_checkbox_on.svg');
+        background-size: 100%;
+    }
+}
+
+
+
 @media only screen and (max-width: 1280px) {
     // 임시
     .inner-wrapper {
