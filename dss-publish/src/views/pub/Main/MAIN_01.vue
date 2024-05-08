@@ -1,27 +1,79 @@
 <script setup>
-// import { Swiper, SwiperSlide } from 'swiper/vue';
-// import 'swiper/swiper.scss';
+import { ref } from 'vue';
+import { reactive } from 'vue';
+import { Swiper, SwiperSlide } from 'swiper/vue';
+import { EffectFade, Pagination, Navigation } from 'swiper/modules';
+import 'swiper/css';
+import 'swiper/css/effect-fade';
 
-
+const paginationRef = ref(null);
+const pagination = reactive({
+  type: 'custom',
+  clickable: true,
+  el : paginationRef,
+  renderCustom: (swiper, current, total) => {
+    return `<span class="swiper-pagination-current">${String(current).padStart(2,'')}</span> / <span class="swiper-pagination-total">${String(total).padStart(2,'')}</span>`
+  },
+});
+const prevEl = ref(null);
+const nextEl = ref(null);
+const navigation = reactive({
+  prevEl: prevEl,
+  nextEl: nextEl,
+})
 </script>
+
 <template>
   <div class="main-wrap">
     <div class="visual-layout-area">
       <div class="main-visual-wrap">
-        <div class="main-visual-list">
-          <div class="visual-txt-area">
-            <span class="visual-stit">Data + Blue</span>
-            <p class="visual-title">
-              <span>신한 Data Blue의</span><br>
-              <span>다양한 Data를 </span><br>
-              <span>탐험하세요.</span>
-            </p>
-            <button class="visual-more">Data Blue 바로가기</button>
-          </div>
-          <div class="visual-img" aria-hidden="true">
-            <img src="../../../assets/images/main/visual_img1.png" class="pc-img" alt="">
-            <img src="../../../assets/images/main/visual_mo_img1.png" class="mobile-img" alt="">
-          </div>
+        <swiper
+          :loop="true"
+          :effect="'fade'"
+          :allowTouchMove="false"
+          :pagination="pagination"
+          :navigation="navigation"
+          :modules="[EffectFade, Pagination, Navigation]"
+        >
+          <swiper-slide>
+            <div class="main-visual-list">
+              <div class="visual-txt-area">
+                <span class="visual-stit">Data + Blue</span>
+                <p class="visual-title">
+                  <span>신한 Data Blue의</span><br>
+                  <span>다양한 Data를</span><br>
+                  <span>탐험하세요.</span>
+                </p>
+                <button class="visual-more">Data Blue 바로가기</button>
+              </div>
+              <div class="visual-img">
+                <img src="../../../assets/images/main/visual_img1.png" class="pc-img" alt="">
+                <img src="../../../assets/images/main/visual_mo_img1.png" class="mobile-img" alt="">
+              </div>
+            </div>
+          </swiper-slide>
+          <swiper-slide>
+            <div class="main-visual-list">
+              <div class="visual-txt-area">
+                <span class="visual-stit">Data + Blue</span>
+                <p class="visual-title">
+                  <span>A World beyond</span><br>
+                  <span>Imagination</span><br>
+                  <span>that Makes Data.</span>
+                </p>
+                <button class="visual-more">Data Blue 바로가기</button>
+              </div>
+              <div class="visual-img">
+                <img src="../../../assets/images/main/visual_img1.png" class="pc-img" alt="">
+                <img src="../../../assets/images/main/visual_mo_img1.png" class="mobile-img" alt="">
+              </div>
+            </div>
+          </swiper-slide>
+        </swiper>
+        <div class="indicator-wrap">
+          <div class="slide-pagination type-num" ref="paginationRef"></div>
+          <a type="button" class="btn-main-prev" ref="prevEl"><span class="sr-only">이전</span></a>
+          <a type="button" class="btn-main-next" ref="nextEl"><span class="sr-only">다음</span></a>
         </div>
       </div>
       <div class="my-login-wrap">
@@ -264,3 +316,14 @@
     </div>
   </div>
 </template>
+
+<style scoped>
+.swiper {width: 100%; height: 100%;}
+.indicator-wrap { display: flex; position: absolute; bottom: 4.8rem; left: 5.6rem; z-index: 1; }
+.btn-main-prev,
+.btn-main-next { position: relative; width: 3.2rem; height: 3.2rem; margin-left: .8rem; border-radius: 1.6rem; background-color: rgba(17, 21, 24, 0.30); background-repeat: no-repeat; background-position: center; background-size: contain; cursor: pointer; }
+.btn-main-prev { background-image: url(../images/icon/ico_arrow_back.png); }
+.btn-main-next { background-image: url(../images/icon/ico_arrow_next.png); }
+.slide-pagination.type-num { width: auto; height: 3.2rem; padding: .8rem 2.4rem; font-size: 1.6rem; line-height: 100%; color: #fff; border-radius: 1.6rem; background-color: rgba(17, 21, 24, 0.30); text-align: center; }
+.slide-pagination.type-num > span { font-weight: 700 !important; }
+</style>

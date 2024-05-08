@@ -98,6 +98,29 @@ const valid = ref(false);
                     <v-icon>icon-arrow-right</v-icon>
                   </v-btn>
                 </div>
+                <!-- 2024.05.08 추가 -->
+                <div class="check-wrap">
+                  <v-checkbox
+                    label="전부 동의"
+                    hide-details
+                    class="top-banner-check"
+                  ></v-checkbox>
+                </div>
+                <div class="check-wrap">
+                  <v-checkbox
+                    label="이메일"
+                    hide-details
+                    class="top-banner-check"
+                  ></v-checkbox>
+                </div>
+                <div class="check-wrap">
+                  <v-checkbox
+                    label="휴대폰메시지(카카오톡 등 모바일 메시지 포함)"
+                    hide-details
+                    class="top-banner-check"
+                  ></v-checkbox>
+                </div>
+                <!-- // 2024.05.08 추가 -->
               </dd>
             </dl>
           </div>

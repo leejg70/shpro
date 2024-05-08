@@ -35,7 +35,7 @@ import '@/assets/scss/style.scss';
 // import print from 'vue3-print-nb';
 // Table
 // import Vue3EasyDataTable from 'vue3-easy-data-table';
-//i18
+// i18
 // import { createI18n } from 'vue-i18n';
 // import messages from '@/utils/locales/messages';
 // const i18n = createI18n({
