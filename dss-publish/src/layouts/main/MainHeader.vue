@@ -59,8 +59,8 @@ const allmenu = ref(false);
                 </div>
             </div>
         </div>    
-        <div class="gnb-menu-wrap"  v-show="show">
-            <div class="gnb-menu-inner" @mouseover="show = true" @mouseout="show = false">
+        <div class="gnb-menu-wrap"  v-show="show"  @mouseover="show = true" @mouseout="show = false">
+            <div class="gnb-menu-inner">
                 <div class="gnb-menu-list">
                     <h2 class="title"><a href="javascript:;" class="title-link">Data서비스</a></h2>
                     <ul class="dep1-list">
