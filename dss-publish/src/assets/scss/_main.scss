@@ -93,11 +93,6 @@
         border-radius: 2.4rem;
         border: 1px solid #E5E5E5;
         background: #FFF;
-
-        .v-btn {
-          width: 100%;
-        }
-
         .main-login-photo {
           width: 4.6rem;
           height: 4.6rem;
@@ -627,9 +622,10 @@
     top: 3.2rem;
     right: 3.2rem;
     cursor: pointer;
-    .icon-card-arrow{
-      top:0;
-      right:0;
+
+    .icon-card-arrow {
+      top: 0;
+      right: 0;
     }
 
     &::after {
@@ -667,8 +663,20 @@
   border-radius: 1.6rem;
   background: #F7F8FC;
 
+  .v-btn {
+    width: 33.3%;
+  }
+
+  .v-btn--variant-elevated {
+    box-shadow: none;
+  }
+
+  .v-btn--variant-elevated {
+    background-color: transparent;
+  }
+
   .btn-mylink {
-    all: unset;
+    // all: unset;
     width: 33.3333%;
 
     .v-btn__content {
@@ -943,8 +951,8 @@
 
 .icon-card-arrow {
   position: absolute;
-  top:3.2rem;
-  right:3.2rem;
+  top: 3.2rem;
+  right: 3.2rem;
   width: 2.4rem;
   height: 2.4rem;
   background-image: url(../images/btn/btn_toggle_arrow.png);
@@ -961,9 +969,10 @@
 
 .allmenu {
   padding: 4.8rem 0;
-  width: 100vw;
+  width: 100%;
   height: 100vh;
   background-color: #fff;
+  overflow-x: hidden;
 
   .customer-box,
   .outlogin-box,
@@ -1049,6 +1058,7 @@
   // border-top:1px solid #E5E5E5;
   z-index: 99;
   cursor: pointer;
+
   &::before {
     content: '';
     position: absolute;
@@ -1058,6 +1068,7 @@
     height: 1px;
     background-color: #E5E5E5;
   }
+
   .gnb-menu-inner {
     padding: 4rem 0;
     margin: 0 auto;
@@ -1298,10 +1309,6 @@
           border-radius: 2.4rem;
           border: 1px solid #E5E5E5;
           background: #FFF;
-
-          .v-btn {
-            width: 100%;
-          }
 
           .main-login-photo {
             width: 4.6rem;
@@ -1890,6 +1897,14 @@
 
     .logout-btn-area {
       margin-top: 0;
+
+      .v-btn--variant-elevated {
+        box-shadow: 0;
+      }
+
+      .v-btn::after {
+        border: 0;
+      }
     }
 
     .outlogin-box {
@@ -1915,7 +1930,7 @@
         left: 0;
         display: flex;
         align-items: center;
-        width: 100vw;
+        width: 100%;
         height: 5.6rem;
         padding: 1.4rem 2.4rem;
         background-color: #fff;
@@ -1949,7 +1964,7 @@
       }
 
       .allmenu-list-wrap {
-        padding: 2.4rem;
+        padding: 2.4rem 2.4rem 0;
         display: flex;
         flex-wrap: wrap;
         flex-direction: column;
