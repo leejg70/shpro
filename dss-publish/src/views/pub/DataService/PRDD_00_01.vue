@@ -7,8 +7,8 @@ const expandRow = ref(false);
 
 <template>
     <div class="data-service">
-        <div class="sub-header-area">
-            <h4 class="sub-header">Data 상품</h4>
+        <div class="sub-title-area">
+            <h4 class="sub-title">Data 상품</h4>
         </div>
 
         <!-- 상품 카드 영역 -->
