@@ -58,50 +58,48 @@ const allmenu = ref(false);
                     </ul>
                 </div>
             </div>
-        </div>
-        <transition name="fade" mode="out-in">
-          <div class="gnb-menu-wrap"  v-show="show" >
-            <div class="gnb-menu-inner" @mouseover="show = true" @mouseout="show = false">
-              <div class="gnb-menu-list">
-                <h2 class="title"><a href="javascript:;" class="title-link">Data서비스</a></h2>
-                <ul class="dep1-list">
-                  <li class="item"><a href="javascript:;">Data상품</a></li>
-                  <li class="item"><a href="javascript:;">맞춤Data</a></li>
-                </ul>
-              </div>
-              <div class="gnb-menu-list">
-                <h2 class="title"><a href="javascript:;" class="title-link">솔루션서비스</a></h2>
-                <ul class="dep1-list">
-                  <li class="item"><a href="javascript:;">솔루션 상품</a></li>
-                </ul>
-              </div>
-              <div class="gnb-menu-list">
-                <h2 class="title"><a href="javascript:;" class="title-link">광고서비스</a></h2>
-                <ul class="dep1-list">
-                  <li class="item"><a href="javascript:;">타겟마케팅</a></li>
-                  <li class="item"><a href="javascript:;">서베이 대행서비스</a></li>
-                  <li class="item"><a href="javascript:;">Sol-Pay 배너광고</a></li>
-                </ul>
-              </div>
-              <div class="gnb-menu-list">
-                <h2 class="title"><a href="javascript:;" class="title-link">API서비스</a></h2>
-                <ul class="dep1-list">
-                  <li class="item"><a href="javascript:;">API상품</a></li>
-                </ul>
-              </div>
-              <div class="gnb-menu-list">
-                <h2 class="title"><a href="javascript:;" class="title-link">MY</a></h2>
-                <ul class="dep1-list">
-                  <li class="item"><a href="javascript:;">나의 계약</a></li>
-                  <li class="item"><a href="javascript:;">관심상품</a></li>
-                  <li class="item"><a href="javascript:;">타겟마케팅 신청내역</a></li>
-                  <li class="item"><a href="javascript:;">나의문의</a></li>
-                  <li class="item"><a href="javascript:;">알림</a></li>
-                </ul>
-              </div>
+        </div>    
+        <div class="gnb-menu-wrap"  v-show="show"  @mouseover="show = true" @mouseout="show = false">
+            <div class="gnb-menu-inner">
+                <div class="gnb-menu-list">
+                    <h2 class="title"><a href="javascript:;" class="title-link">Data서비스</a></h2>
+                    <ul class="dep1-list">
+                        <li class="item"><a href="javascript:;">Data상품</a></li>
+                        <li class="item"><a href="javascript:;">맞춤Data</a></li>
+                    </ul>
+                </div>
+                <div class="gnb-menu-list">
+                    <h2 class="title"><a href="javascript:;" class="title-link">솔루션서비스</a></h2>
+                    <ul class="dep1-list">
+                        <li class="item"><a href="javascript:;">솔루션 상품</a></li>
+                    </ul>
+                </div>
+                <div class="gnb-menu-list">
+                    <h2 class="title"><a href="javascript:;" class="title-link">광고서비스</a></h2>
+                    <ul class="dep1-list">
+                        <li class="item"><a href="javascript:;">타겟마케팅</a></li>
+                        <li class="item"><a href="javascript:;">서베이 대행서비스</a></li>
+                        <li class="item"><a href="javascript:;">Sol-Pay 배너광고</a></li>
+                    </ul>
+                </div>
+                <div class="gnb-menu-list">
+                    <h2 class="title"><a href="javascript:;" class="title-link">API서비스</a></h2>
+                    <ul class="dep1-list">
+                        <li class="item"><a href="javascript:;">API상품</a></li>
+                    </ul>
+                </div>
+                <div class="gnb-menu-list">
+                    <h2 class="title"><a href="javascript:;" class="title-link">MY</a></h2>
+                    <ul class="dep1-list">
+                        <li class="item"><a href="javascript:;">나의 계약</a></li>
+                        <li class="item"><a href="javascript:;">관심상품</a></li>
+                        <li class="item"><a href="javascript:;">타겟마케팅 신청내역</a></li>
+                        <li class="item"><a href="javascript:;">나의문의</a></li>
+                        <li class="item"><a href="javascript:;">알림</a></li>
+                    </ul>
+                </div>
             </div>
-          </div>
-        </transition>
+        </div>   
     </header>
  
     <!--  전체메뉴 -->

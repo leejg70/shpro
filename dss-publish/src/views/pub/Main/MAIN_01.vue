@@ -116,7 +116,7 @@
           </div>
           <v-icon class="card-icon ico-main-data"></v-icon>
           <spoan class="card-text">Data One-Stop Service</spoan>
-          <v-icon>icon-arrow-right</v-icon>
+          <v-icon>icon-card-arrow</v-icon>
         </v-btn>
         <v-btn class="card-box">
           <div class="title-area">
@@ -125,7 +125,7 @@
           </div>
           <v-icon class="card-icon ico-main-solution"></v-icon>
           <spoan class="card-text">상권분석, 시장 모니터링</spoan>
-          <v-icon>icon-arrow-right</v-icon>
+          <v-icon>icon-card-arrow</v-icon>
         </v-btn>
         <v-btn class="card-box">
           <div class="title-area">
@@ -134,7 +134,7 @@
           </div>
           <v-icon class="card-icon ico-main-ad"></v-icon>
           <spoan class="card-text">최적의 고객 타겟팅</spoan>
-          <v-icon>icon-arrow-right</v-icon>
+          <v-icon>icon-card-arrow</v-icon>
         </v-btn>
         <v-btn class="card-box">
           <div class="title-area">
@@ -143,7 +143,7 @@
           </div>
           <v-icon class="card-icon ico-main-api"></v-icon>
           <spoan class="card-text">Data 실시간 활용</spoan>
-          <v-icon>icon-arrow-right</v-icon>
+          <v-icon>icon-card-arrow</v-icon>
         </v-btn>
       </div>
     </div>
@@ -257,7 +257,7 @@
           class="btn-right-more"
           >
             <span class="sr-only">더보기</span>
-            <v-icon>icon-arrow-right</v-icon>
+            <v-icon>icon-card-arrow</v-icon>
           </v-btn>
         </div>
       </div>
