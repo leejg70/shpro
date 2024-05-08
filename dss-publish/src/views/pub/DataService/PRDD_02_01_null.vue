@@ -79,6 +79,8 @@ const items3 = ['전체', '공공기관', '민간기관', '금융기관', '마�
         </div>
         <!--// search -->
 
+        <v-divider class="svc-divide" />
+
         <!-- 검색결과 -->
         <div class="search-result">
             <div class="text">검색 결과</div>

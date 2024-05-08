@@ -78,6 +78,8 @@ const active = ref(true);
         </div>
         <!--// search -->
 
+        <v-divider class="svc-divide" />
+
         <!-- 상품리스트 -->
         <div class="service-list-area">
             <v-row>
