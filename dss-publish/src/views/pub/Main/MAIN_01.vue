@@ -2,10 +2,13 @@
 import { ref } from 'vue';
 import { reactive } from 'vue';
 import { Swiper, SwiperSlide } from 'swiper/vue';
-import { EffectFade, Pagination, Navigation } from 'swiper/modules';
+import { Autoplay, EffectFade, Pagination, Navigation } from 'swiper/modules';
 import 'swiper/css';
+import 'swiper/css/pagination';
+import "swiper/css/navigation";
 import 'swiper/css/effect-fade';
 
+const pager = ref(null);
 const paginationRef = ref(null);
 const pagination = reactive({
   type: 'custom',
@@ -30,50 +33,59 @@ const navigation = reactive({
         <swiper
           :loop="true"
           :effect="'fade'"
-          :allowTouchMove="false"
+          :fadeEffect="{
+            crossFade: true
+          }"
+          :autoplay="{
+            delay: 2500,
+            disableOnInteraction: false,
+          }"
+          :speed="1000"
           :pagination="pagination"
           :navigation="navigation"
-          :modules="[EffectFade, Pagination, Navigation]"
+          :modules="[Autoplay, EffectFade, Pagination, Navigation]"
         >
           <swiper-slide>
-            <div class="main-visual-list">
-              <div class="visual-txt-area">
-                <span class="visual-stit">Data + Blue</span>
-                <p class="visual-title">
-                  <span>신한 Data Blue의</span><br>
-                  <span>다양한 Data를</span><br>
-                  <span>탐험하세요.</span>
-                </p>
-                <button class="visual-more">Data Blue 바로가기</button>
+            <a href="javascript:;" class="block-all">
+              <div class="main-visual-list" style="background-color: #eee;">
+                <div class="visual-txt-area">
+                  <span class="visual-stit">Data + Blue</span>
+                  <p class="visual-title">
+                    <span>신한 Data Blue의</span><br>
+                    <span>다양한 Data를</span><br>
+                    <span>탐험하세요.</span>
+                  </p>
+                  <button class="visual-more">Data Blue 바로가기</button>
+                </div>
+                <div class="visual-img">
+                  <img src="../../../assets/images/main/visual_img1.png" alt="">
+                </div>
               </div>
-              <div class="visual-img">
-                <img src="../../../assets/images/main/visual_img1.png" class="pc-img" alt="">
-                <img src="../../../assets/images/main/visual_mo_img1.png" class="mobile-img" alt="">
-              </div>
-            </div>
+            </a>
           </swiper-slide>
           <swiper-slide>
-            <div class="main-visual-list">
-              <div class="visual-txt-area">
-                <span class="visual-stit">Data + Blue</span>
-                <p class="visual-title">
-                  <span>A World beyond</span><br>
-                  <span>Imagination</span><br>
-                  <span>that Makes Data.</span>
-                </p>
-                <button class="visual-more">Data Blue 바로가기</button>
+            <a href="javascript:;" class="block-all">
+              <div class="main-visual-list" style="background-color: #eee;">
+                <div class="visual-txt-area">
+                  <span class="visual-stit">Data + Blue</span>
+                  <p class="visual-title">
+                    <span>A World beyond</span><br>
+                    <span>Imagination</span><br>
+                    <span>that Makes Data.</span>
+                  </p>
+                  <button class="visual-more">Data Blue 바로가기</button>
+                </div>
+                <div class="visual-img">
+                  <img src="../../../assets/images/main/visual_img2.png" alt="">
+                </div>
               </div>
-              <div class="visual-img">
-                <img src="../../../assets/images/main/visual_img1.png" class="pc-img" alt="">
-                <img src="../../../assets/images/main/visual_mo_img1.png" class="mobile-img" alt="">
-              </div>
-            </div>
+            </a>
           </swiper-slide>
         </swiper>
         <div class="indicator-wrap">
           <div class="slide-pagination type-num" ref="paginationRef"></div>
-          <a type="button" class="btn-main-prev" ref="prevEl"><span class="sr-only">이전</span></a>
-          <a type="button" class="btn-main-next" ref="nextEl"><span class="sr-only">다음</span></a>
+          <button type="button" class="btn-main-prev" ref="prevEl"><span class="sr-only">이전</span></button>
+          <button type="button" class="btn-main-next" ref="nextEl"><span class="sr-only">다음</span></button>
         </div>
       </div>
       <div class="my-login-wrap">
@@ -117,11 +129,34 @@ const navigation = reactive({
             <div class="notice-graph"><v-icon>icon-data-graph</v-icon></div>
           </div>
           <div class="report-roll-box">
-            <span class="flag">Trend Report</span>
-            <a href="javascript:;">
-              <p class="text">ShinhanCard Data Market 신규 오픈(두줄)</p>
-              <p class="date">2024.08.08</p>
-            </a>
+            <swiper
+              :loop="true"
+              :spaceBetween="24"
+              :autoplay="{
+                delay: 2500,
+                disableOnInteraction: false,
+              }"
+              :speed="1000"
+              :pagination="{
+                clickable: true,
+              }"
+              :modules="[Autoplay, Pagination]"
+            >
+              <swiper-slide>
+                <span class="flag">Trend Report</span>
+                  <a href="javascript:;">
+                    <p class="text">ShinhanCard Data Market 신규 오픈 ShinhanCard Data Market 신규 오픈 ShinhanCard Data Market 신규 오픈 ShinhanCard Data Market 신규 오픈</p>
+                    <p class="date">2024.08.08</p>
+                  </a>
+              </swiper-slide>
+              <swiper-slide>
+                <span class="flag">Trend Report</span>
+                  <a href="javascript:;">
+                    <p class="text">ShinhanCard Data Market 신규 오픈(두줄)</p>
+                    <p class="date">2024.08.08</p>
+                  </a>
+              </swiper-slide>
+            </swiper>
           </div>
         </div>
       </div>
@@ -316,14 +351,3 @@ const navigation = reactive({
     </div>
   </div>
 </template>
-
-<style scoped>
-.swiper {width: 100%; height: 100%;}
-.indicator-wrap { display: flex; position: absolute; bottom: 4.8rem; left: 5.6rem; z-index: 1; }
-.btn-main-prev,
-.btn-main-next { position: relative; width: 3.2rem; height: 3.2rem; margin-left: .8rem; border-radius: 1.6rem; background-color: rgba(17, 21, 24, 0.30); background-repeat: no-repeat; background-position: center; background-size: contain; cursor: pointer; }
-.btn-main-prev { background-image: url(../images/icon/ico_arrow_back.png); }
-.btn-main-next { background-image: url(../images/icon/ico_arrow_next.png); }
-.slide-pagination.type-num { width: auto; height: 3.2rem; padding: .8rem 2.4rem; font-size: 1.6rem; line-height: 100%; color: #fff; border-radius: 1.6rem; background-color: rgba(17, 21, 24, 0.30); text-align: center; }
-.slide-pagination.type-num > span { font-weight: 700 !important; }
-</style>
