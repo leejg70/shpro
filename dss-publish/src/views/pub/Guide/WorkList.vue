@@ -1105,9 +1105,9 @@
 									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
 									<td class="col-url"><router-link to="/NOTI_01" target="_blank">/views/pub/Customer/NOTI_01</router-link></td>
-									<td class="col-date"></td>
+									<td class="col-date">2024-05-09</td>
 									<td class="col-complete"></td>
-									<td class="col-memo"></td>
+									<td class="col-memo text-error">모바일 css 적용예정</td>
 								</tr>
 								<tr>
 									<td class="col-num"></td>
@@ -1117,8 +1117,11 @@
 									<td class="col-4depth">결과 有</td>
 									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
-									<td class="col-url"><router-link to="/NOTI_02_01" target="_blank">/views/pub/Customer/NOTI_02_01</router-link></td>
-									<td class="col-date"></td>
+									<td class="col-url">
+										<!-- <router-link to="/NOTI_02_01" target="_blank">/views/pub/Customer/NOTI_02_01</router-link> -->
+										목록화면에 취합
+									</td>
+									<td class="col-date">-</td>
 									<td class="col-complete"></td>
 									<td class="col-memo"></td>
 								</tr>
@@ -1130,8 +1133,11 @@
 									<td class="col-4depth">결과 無</td>
 									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
-									<td class="col-url"><router-link to="/NOTI_02_01_null" target="_blank">/views/pub/Customer/NOTI_02_01_null</router-link></td>
-									<td class="col-date"></td>
+									<td class="col-url">
+										<!-- <router-link to="/NOTI_02_01_null" target="_blank">/views/pub/Customer/NOTI_02_01_null</router-link> -->
+										목록화면에 취합
+									</td>
+									<td class="col-date">-</td>
 									<td class="col-complete"></td>
 									<td class="col-memo"></td>
 								</tr>
@@ -1144,9 +1150,9 @@
 									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
 									<td class="col-url"><router-link to="/NOTI_00_01" target="_blank">/views/pub/Customer/NOTI_00_01</router-link></td>
-									<td class="col-date"></td>
+									<td class="col-date">2024-05-09</td>
 									<td class="col-complete"></td>
-									<td class="col-memo"></td>
+									<td class="col-memo text-error">모바일 css 적용예정</td>
 								</tr>
 								<tr>
 									<td class="col-num"></td>
