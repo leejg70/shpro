@@ -1,6 +1,4 @@
-.sub-title-area {
-    margin-bottom: 4rem;
-}
+
 // 검색영역
 .service-search-area {
     display: flex;
@@ -193,7 +191,7 @@
             width: 3.2rem;
             height: 3.2rem;
             margin-right: 0.8rem;
-            background: url(../images/icon/icon_inquire_32.png) no-repeat 0 0/cover;
+            background: url('../images/icon/icon_inquire_32.png') no-repeat 0 0/cover;
         }
     }
     .inquiry-box {
@@ -345,7 +343,7 @@
         .group-download {
             .box-title {
                 &::before {
-                    background-image: url(../images/icon/icon_adddata_32.png);
+                    background-image: url('../images/icon/icon_adddata_32.png');
                 }
             }
             .download-list {
@@ -370,7 +368,7 @@
         .group-setting-info {
             .box-title {
                 &::before {
-                    background-image: url(../images/icon/icon_setting_info_32.png);
+                    background-image: url('../images/icon/icon_setting_info_32.png');
                 }
             }
             .info-list {
@@ -538,12 +536,21 @@
     width: 3rem;
     height: 3rem;
     background-image: url('../images/icon/icon_wishlist_off.png');
+    background-repeat: no-repeat;
     background-size: 100%;
 }
+
+.icon-download {
+    width: 2.4rem;
+    height: 2.4rem;
+    background: url('../images/icon/icon_download.png') 0 0 / cover;
+}
+
 .btn-arrow-down {
     width: 2.4rem;
     height: 2.4rem;
     background-image: url('../images/btn/btn_sel_arrow.png');
+    background-repeat: no-repeat;
     background-size: 100%;
 }
 
@@ -552,6 +559,7 @@
     height: 3.2rem;
     background: url('../images/icon/icon_search_blue.png') 0 0 / cover;
 }
+
 
 // flag
 .flag {

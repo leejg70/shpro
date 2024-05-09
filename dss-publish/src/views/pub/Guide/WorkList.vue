@@ -1209,9 +1209,9 @@
 									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
 									<td class="col-url"><router-link to="/COMU_01" target="_blank">/views/pub/Community/COMU_01</router-link></td>
-									<td class="col-date"></td>
+									<td class="col-date">2024-05-09</td>
 									<td class="col-complete"></td>
-									<td class="col-memo"></td>
+									<td class="col-memo text-error">모바일 css 적용예정</td>
 								</tr>
 								<tr>
 									<td class="col-num"></td>
@@ -1222,9 +1222,9 @@
 									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
 									<td class="col-url"><router-link to="/COMU_01_01_r" target="_blank">/views/pub/Community/COMU_01_01_r</router-link></td>
-									<td class="col-date"></td>
+									<td class="col-date">2024-05-09</td>
 									<td class="col-complete"></td>
-									<td class="col-memo"></td>
+									<td class="col-memo text-error">모바일 css 적용예정</td>
 								</tr>
 								<tr>
 									<td class="col-num"></td>

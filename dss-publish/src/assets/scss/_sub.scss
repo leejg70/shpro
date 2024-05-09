@@ -8,6 +8,10 @@
     }
 }
 
+.sub-title-area {
+    margin-bottom: 4rem;
+}
+
 // 검색결과
 .search-wrap {
     margin-bottom: 4rem;
@@ -66,24 +70,133 @@
     }
 }
 
+.contents-list-area {
+    margin-top: 1.6rem;
+    padding-top: 2.4rem;
+    border-top: 1px solid #111518;
+    .v-card {
+        border-color: #E5E5E5;
+        border-radius: 2.4rem !important;
+        .cell {
+            .thumbnail {
+                --max-height: 38.2rem;
+                img {
+                    width: 100%;
+                    max-height: var(--max-height);
+                }
+            }
+            .text {
+                padding: 3.2rem;
+                .category {
+                    margin-bottom: 0.8rem;
+                    color: #333;
+                }
+                .text-twolines {
+                    min-height: 5.4rem;
+                    &.text-18 {
+                        color: #111518;
+                    }
+                }
+                .date {
+                    margin-top: 1.6rem;
+                    color: #666;
+                }
+            }
+        }
+    }
+    .services-more-area {
+        padding-top: 6.4rem;
+    }
+}
 
+.contents-detail {
+    border-top: 1px solid #111518;
+    .article {
+        padding: 2.4rem 0;
+        border-bottom: 1px solid #E5E5E5;
+    }
+    .summary-info {
+        .text-row {
+            display: flex;
+            .v-divider--vertical {
+                margin: .2rem 1.6rem;
+                color: #e5e5e5;
+                opacity: 1;
+            }
+            .category {
+                color: #356CFF;
+            }
+            .date {
+                color: #666;
+            }
+        }
+    }
+    .download-list {
+        >li {
+            padding: .8rem 0;
+            .icon-download {
+                margin-right: 0.8rem;
+            }
+        }
+    }
+    .detail-info {
+        padding: 1.6rem 0;
+        .text-16 {
+            margin-bottom: 1.6rem;
+            color: #000;
+        }
+        .img {
+            margin-bottom: 4rem;
+        }
+    }
+}
 
 
 // checkbox
 .inp-checkbox {
+    display: flex;
+    .v-selection-control--density-comfortable {
+        --v-selection-control-size: 2.4rem;
+        .v-selection-control__wrapper {
+            margin-right: 0.8rem;
+        }
+    }
+    .v-input--density-comfortable {
+        --v-input-control-height: 2.4rem;
+    }
+    .v-selection-control__input > .v-icon {
+        width: var(--v-selection-control-size);
+        height: var(--v-selection-control-size);
+        opacity: 1;
+    }
     .mdi-checkbox-blank-outline::before {
         content: '';
-        width: 2.4rem;
-        height: 2.4rem;
-        background-image: url('../images/icon/icon_checkbox_off.svg');
-        background-size: 100%;
+        width: var(--v-selection-control-size);
+        height: var(--v-selection-control-size);
+        background: url('../images/icon/icon_checkbox_off.svg') 0 0 / cover;
     }
     .mdi-checkbox-marked::before {
         content: '';
-        width: 2.4rem;
-        height: 2.4rem;
-        background-image: url('../images/icon/icon_checkbox_on.svg');
-        background-size: 100%;
+        width: var(--v-selection-control-size);
+        height: var(--v-selection-control-size);
+        background: url('../images/icon/icon_checkbox_on.svg') 0 0 / cover;
+    }
+    .v-label {
+        color: #111518;
+        font-size: 1.6rem;
+        font-weight: 400;
+    }
+    .v-selection-control--disabled {
+        opacity: 1;
+        .mdi-checkbox-blank-outline::before {
+            background-image: url('../images/icon/icon_checkbox_off_disabled.png');
+        }
+        .mdi-checkbox-marked::before {
+            background-image: url('../images/icon/icon_checkbox_on_disabled.png');
+        }
+        .v-label {
+            color: #888;
+        }
     }
 }
 
