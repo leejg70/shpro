@@ -666,7 +666,7 @@
 								<tr>
 									<td class="col-num"></td>
 									<td class="col-1depth">My</td>
-									<td class="col-2depth">계정전환</td>
+									<td class="col-2depth">사업자계정전환</td>
 									<td class="col-3depth"></td>
 									<td class="col-4depth"></td>
 									<td class="col-5depth"></td>
@@ -707,13 +707,26 @@
 									<td class="col-1depth"></td>
 									<td class="col-2depth"></td>
 									<td class="col-3depth"></td>
-									<td class="col-4depth">전환신청완료 안내</td>
+									<td class="col-4depth">신청완료</td>
 									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
 									<td class="col-url"><router-link to="/MY_00_01" target="_blank">/views/pub/My/MY_00_01</router-link></td>
 									<td class="col-date">2024-04-26</td>
 									<td class="col-complete">2024-05-02</td>
 									<td class="col-memo"></td>
+								</tr>
+								<tr>
+									<td class="col-num"></td>
+									<td class="col-1depth"></td>
+									<td class="col-2depth"></td>
+									<td class="col-3depth"></td>
+									<td class="col-4depth">전환완료</td>
+									<td class="col-5depth"></td>
+									<td class="col-point">page</td>
+									<td class="col-url"><router-link to="/MY_00_02" target="_blank">/views/pub/My/MY_00_02</router-link></td>
+									<td class="col-date"></td>
+									<td class="col-complete"></td>
+									<td class="col-memo">신규</td>
 								</tr>
 								<tr>
 									<td class="col-num"></td>
@@ -809,7 +822,7 @@
 								<tr>
 									<td class="col-num"></td>
 									<td class="col-1depth"></td>
-									<td class="col-2depth">나의계약</td>
+									<td class="col-2depth">나의계약(초기화면)</td>
 									<td class="col-3depth">목록</td>
 									<td class="col-4depth"></td>
 									<td class="col-5depth"></td>
@@ -835,6 +848,32 @@
 								<tr>
 									<td class="col-num"></td>
 									<td class="col-1depth"></td>
+									<td class="col-2depth"></td>
+									<td class="col-3depth"></td>
+									<td class="col-4depth">Data 다운로드</td>
+									<td class="col-5depth">1단계 휴대폰인증</td>
+									<td class="col-point">popup</td>
+									<td class="col-url"><router-link to="/MY_03_02_01_p" target="_blank">/views/pub/My/MY_03_02_01_p</router-link></td>
+									<td class="col-date"></td>
+									<td class="col-complete"></td>
+									<td class="col-memo">모바일 비제공</td>
+								</tr>
+								<tr>
+									<td class="col-num"></td>
+									<td class="col-1depth"></td>
+									<td class="col-2depth"></td>
+									<td class="col-3depth"></td>
+									<td class="col-4depth">Data 다운로드</td>
+									<td class="col-5depth">2단계 상품다운로드</td>
+									<td class="col-point">popup</td>
+									<td class="col-url"><router-link to="/MY_03_02_02_p" target="_blank">/views/pub/My/MY_03_02_02_p</router-link></td>
+									<td class="col-date"></td>
+									<td class="col-complete"></td>
+									<td class="col-memo">모바일 비제공</td>
+								</tr>
+								<tr>
+									<td class="col-num"></td>
+									<td class="col-1depth"></td>
 									<td class="col-2depth">관심상품</td>
 									<td class="col-3depth">목록</td>
 									<td class="col-4depth"></td>
@@ -845,7 +884,7 @@
 									<td class="col-complete"></td>
 									<td class="col-memo"></td>
 								</tr>
-								<tr>
+								<tr class="del">
 									<td class="col-num"></td>
 									<td class="col-1depth"></td>
 									<td class="col-2depth">타겟마케팅 신청내역</td>
@@ -855,10 +894,10 @@
 									<td class="col-point">page</td>
 									<td class="col-url"><router-link to="/MY_07" target="_blank">/views/pub/My/MY_07</router-link></td>
 									<td class="col-date"></td>
-									<td class="col-complete"></td>
-									<td class="col-memo"></td>
+									<td class="col-complete" data-complete="del"></td>
+									<td class="col-memo"></td>								
 								</tr>
-								<tr>
+								<tr class="del">
 									<td class="col-num"></td>
 									<td class="col-1depth"></td>
 									<td class="col-2depth"></td>
@@ -868,7 +907,7 @@
 									<td class="col-point">page</td>
 									<td class="col-url"><router-link to="/MY_07_01" target="_blank">/views/pub/My/MY_07_01</router-link></td>
 									<td class="col-date"></td>
-									<td class="col-complete"></td>
+									<td class="col-complete" data-complete="del"></td>
 									<td class="col-memo"></td>
 								</tr>
 								<tr>
@@ -1066,9 +1105,9 @@
 									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
 									<td class="col-url"><router-link to="/NOTI_01" target="_blank">/views/pub/Customer/NOTI_01</router-link></td>
-									<td class="col-date">2024-05-09</td>
+									<td class="col-date"></td>
 									<td class="col-complete"></td>
-									<td class="col-memo text-error">모바일 css 적용예정</td>
+									<td class="col-memo"></td>
 								</tr>
 								<tr>
 									<td class="col-num"></td>
@@ -1078,11 +1117,8 @@
 									<td class="col-4depth">결과 有</td>
 									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
-									<td class="col-url">
-										<!-- <router-link to="/NOTI_02_01" target="_blank">/views/pub/Customer/NOTI_02_01</router-link> -->
-										목록화면에 내용 취합
-									</td>
-									<td class="col-date">-</td>
+									<td class="col-url"><router-link to="/NOTI_02_01" target="_blank">/views/pub/Customer/NOTI_02_01</router-link></td>
+									<td class="col-date"></td>
 									<td class="col-complete"></td>
 									<td class="col-memo"></td>
 								</tr>
@@ -1094,11 +1130,8 @@
 									<td class="col-4depth">결과 無</td>
 									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
-									<td class="col-url">
-										<!-- <router-link to="/NOTI_02_01_null" target="_blank">/views/pub/Customer/NOTI_02_01_null</router-link> -->
-										목록화면에 내용 취합
-									</td>
-									<td class="col-date">-</td>
+									<td class="col-url"><router-link to="/NOTI_02_01_null" target="_blank">/views/pub/Customer/NOTI_02_01_null</router-link></td>
+									<td class="col-date"></td>
 									<td class="col-complete"></td>
 									<td class="col-memo"></td>
 								</tr>
@@ -1111,9 +1144,9 @@
 									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
 									<td class="col-url"><router-link to="/NOTI_00_01" target="_blank">/views/pub/Customer/NOTI_00_01</router-link></td>
-									<td class="col-date">2024-05-09</td>
+									<td class="col-date"></td>
 									<td class="col-complete"></td>
-									<td class="col-memo text-error">목록화면에 내용 취합</td>
+									<td class="col-memo"></td>
 								</tr>
 								<tr>
 									<td class="col-num"></td>
@@ -1483,7 +1516,7 @@
 									<td class="col-complete">2024-04-24</td>
 									<td class="col-memo"></td>
 								</tr>
-								<tr>
+								<tr class="del">
 									<td class="col-num"></td>
 									<td class="col-1depth"></td>
 									<td class="col-2depth"></td>
@@ -2228,7 +2261,7 @@
 								</tr>
 							</thead>
 							<tbody>
-								<tr>
+								<tr class="del">
 									<td class="col-num"></td>
 									<td class="col-1depth">이메인인증 팝업</td>
 									<td class="col-2depth"></td>
@@ -2238,7 +2271,7 @@
 									<td class="col-point">popup</td>
 									<td class="col-url"><router-link to="/CFMM_01_p" target="_blank">/views/pub/Common/CFMM_01_p</router-link></td>
 									<td class="col-date"></td>
-									<td class="col-complete"></td>
+									<td class="col-complete">삭제</td>
 									<td class="col-memo"></td>
 								</tr>
 								<tr>
@@ -2251,7 +2284,6 @@
 									<td class="col-point">popup</td>
 									<td class="col-url"><router-link to="/CFMH_01_p" target="_blank">/views/pub/Common/CFMH_01_p</router-link></td>
 									<td class="col-date"></td>
-									<td class="col-complete"></td>
 									<td class="col-memo"></td>
 								</tr>
 								<tr>
@@ -2267,7 +2299,7 @@
 									<td class="col-complete"></td>
 									<td class="col-memo"></td>
 								</tr>
-								<tr>
+								<tr class="del">
 									<td class="col-num"></td>
 									<td class="col-1depth">다운로드 파일 팝업</td>
 									<td class="col-2depth"></td>
@@ -2277,7 +2309,7 @@
 									<td class="col-point">popup</td>
 									<td class="col-url"><router-link to="/FILE_01_p" target="_blank">/views/pub/Common/FILE_01_p</router-link></td>
 									<td class="col-date"></td>
-									<td class="col-complete"></td>
+									<td class="col-complete">삭제</td>
 									<td class="col-memo"></td>
 								</tr>
 								<tr>
@@ -2392,6 +2424,8 @@
 .ia-h4 {color:#278df5; font-weight:bold;}
 .ia-h3 + .ia-h4 {margin-top:10px;}
 .ia-h4:before {content:''; display:inline-block; position:relative; top:-1px; width:3px; height:13px; margin-right:5px; background-color:#278df5; vertical-align:middle;}
+
+.del{background-color: rgba(0,0,0,0.2);}
 @media screen and (max-width:639px) {
     .ia-content-header > .ia-in-sec {padding-top:10px; padding-bottom:10px;}
     .ia-content-body {padding-top:30px;}
