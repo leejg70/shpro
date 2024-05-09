@@ -55,7 +55,7 @@ const navigation = reactive({
                     <span>다양한 Data를</span><br>
                     <span>탐험하세요.</span>
                   </p>
-                  <button class="visual-more">Data Blue 바로가기</button>
+                  <span class="visual-more"><span>Data Blue 바로가기 </span><v-icon>icon-card-arrow</v-icon></span>
                 </div>
                 <div class="visual-img">
                   <img src="../../../assets/images/main/visual_img1.png" alt="">
@@ -73,7 +73,7 @@ const navigation = reactive({
                     <span>Imagination</span><br>
                     <span>that Makes Data.</span>
                   </p>
-                  <button class="visual-more">Data Blue 바로가기</button>
+                  <span class="visual-more"><span>Data Blue 바로가기 </span><v-icon>icon-card-arrow</v-icon></span>
                 </div>
                 <div class="visual-img">
                   <img src="../../../assets/images/main/visual_img2.png" alt="">
@@ -117,7 +117,7 @@ const navigation = reactive({
               <span class="text">나의문의</span>
             </v-btn>
             <v-btn class="btn-mylink">
-              <v-icon>icon-larm on</v-icon>
+              <v-icon>icon-larm on</v-icon><!-- on 알람시 처리 -->
               <span class="text">알림</span>
             </v-btn>
           </div>
@@ -167,7 +167,7 @@ const navigation = reactive({
           <v-text-field
             color="primary"
             hide-details="auto"
-            placeholder="기업명을 입력해주세요."
+            placeholder="상품명, 해시태그"
             variant="outlined"
             clearable
           ></v-text-field>
@@ -325,20 +325,22 @@ const navigation = reactive({
       </h2>
       <div class="main-customer-inner">
         <div class="banner">
-          <strong class="title">사업제휴</strong>
-          <div class="text">새로운 아이디어와<br>사업제안을 환영합니다.</div>
-          <divn class="btn-area">
-            <span>Datable 제휴신청</span>
-            <v-icon>btn-main-arrow</v-icon>
-          </divn>
-          <v-icon>icon-hand</v-icon>
+          <a href="" class="banner-link">
+            <strong class="title">사업제휴</strong>
+            <div class="text">새로운 아이디어와<br>사업제안을 환영합니다.</div>
+            <divn class="btn-area">
+              <span>Datable 제휴신청</span>
+              <v-icon>btn-main-arrow</v-icon>
+            </divn>
+            <v-icon>icon-hand</v-icon>
+          </a>
         </div>
         <div class="notice">
           <strong class="title">공지사항</strong>
           <ul class="notice-list">
-            <li><p class="notice-title">Data Market 서비스 신규 오픈 제목 한줄 서비스 신규 오픈 제목 한줄</p><span class="notice-date">2024.08.08</span></li>
-            <li><p class="notice-title">Data Market 서비스 신규 오픈 제목 한줄 서비스 신규 오픈 제목 한줄</p><span class="notice-date">2024.08.08</span></li>
-            <li><p class="notice-title">Data Market 서비스 신규 오픈 제목 한줄 서비스 신규 오픈 제목 한줄</p><span class="notice-date">2024.08.08</span></li>            
+            <li><a href="javascript:;" class="link"><p class="notice-title">Data Market 서비스 신규 오픈 제목 한줄 서비스 신규 오픈 제목 한줄</p><span class="notice-date">2024.08.08</span></a></li>
+            <li><a href="javascript:;" class="link"><p class="notice-title">Data Market 서비스 신규 오픈 제목 한줄 서비스 신규 오픈 제목 한줄</p><span class="notice-date">2024.08.08</span></a></li>
+            <li><a href="javascript:;" class="link"><p class="notice-title">Data Market 서비스 신규 오픈 제목 한줄 서비스 신규 오픈 제목 한줄</p><span class="notice-date">2024.08.08</span></a></li>            
           </ul>
           <v-btn
           class="btn-right-more"

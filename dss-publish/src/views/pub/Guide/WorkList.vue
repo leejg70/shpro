@@ -33,8 +33,8 @@
 		<!-- //Note -->
 		<br>
 		<div class="ia-total">
-			<p class="ia-msg">전체 페이지 : 154</p>
-			<p class="ia-version">IA 버전 : v1.0</p>
+			<p class="ia-msg">전체 페이지 : 157</p>
+			<p class="ia-version">IA 버전 : v1.1</p>
 		</div>
 		<!-- 00_Guide -->
 		<!-- wait:작업중, done:완료, del:삭제, except:보류
@@ -481,7 +481,7 @@
 									<td class="col-complete"></td>
 									<td class="col-memo"></td>
 								</tr>
-								<tr>
+								<tr class="del">
 									<td class="col-num"></td>
 									<td class="col-1depth"></td>
 									<td class="col-2depth"></td>
@@ -491,10 +491,10 @@
 									<td class="col-point">page</td>
 									<td class="col-url"><router-link to="/PRDM_01_01" target="_blank">/views/pub/ADService/PRDM_01_01</router-link></td>
 									<td class="col-date"></td>
-									<td class="col-complete"></td>
+									<td class="col-complete">삭제</td>
 									<td class="col-memo"></td>
 								</tr>
-								<tr>
+								<tr class="del">
 									<td class="col-num"></td>
 									<td class="col-1depth"></td>
 									<td class="col-2depth"></td>
@@ -504,10 +504,10 @@
 									<td class="col-point">page</td>
 									<td class="col-url"><router-link to="/PRDM_01_02" target="_blank">/views/pub/ADService/PRDM_01_02</router-link></td>
 									<td class="col-date"></td>
-									<td class="col-complete"></td>
+									<td class="col-complete">삭제</td>
 									<td class="col-memo"></td>
 								</tr>
-								<tr>
+								<tr class="del">
 									<td class="col-num"></td>
 									<td class="col-1depth"></td>
 									<td class="col-2depth"></td>
@@ -517,10 +517,10 @@
 									<td class="col-point">page</td>
 									<td class="col-url"><router-link to="/PRDM_01_03" target="_blank">/views/pub/ADService/PRDM_01_03</router-link></td>
 									<td class="col-date"></td>
-									<td class="col-complete"></td>
+									<td class="col-complete">삭제</td>
 									<td class="col-memo"></td>
 								</tr>
-								<tr>
+								<tr class="del">
 									<td class="col-num"></td>
 									<td class="col-1depth"></td>
 									<td class="col-2depth"></td>
@@ -530,10 +530,10 @@
 									<td class="col-point">page</td>
 									<td class="col-url"><router-link to="/PRDM_01_04" target="_blank">/views/pub/ADService/PRDM_01_04</router-link></td>
 									<td class="col-date"></td>
-									<td class="col-complete"></td>
+									<td class="col-complete">삭제</td>
 									<td class="col-memo"></td>
 								</tr>
-								<tr>
+								<tr class="del">
 									<td class="col-num"></td>
 									<td class="col-1depth"></td>
 									<td class="col-2depth"></td>
@@ -543,10 +543,10 @@
 									<td class="col-point">page</td>
 									<td class="col-url"><router-link to="/PRDM_01_05" target="_blank">/views/pub/ADService/PRDM_01_05</router-link></td>
 									<td class="col-date"></td>
-									<td class="col-complete"></td>
+									<td class="col-complete">삭제</td>
 									<td class="col-memo"></td>
 								</tr>
-								<tr>
+								<tr class="del">
 									<td class="col-num"></td>
 									<td class="col-1depth"></td>
 									<td class="col-2depth"></td>
@@ -556,7 +556,7 @@
 									<td class="col-point">page</td>
 									<td class="col-url"><router-link to="/PRDM_01_06" target="_blank">/views/pub/ADService/PRDM_01_06</router-link></td>
 									<td class="col-date"></td>
-									<td class="col-complete"></td>
+									<td class="col-complete">삭제</td>
 									<td class="col-memo"></td>
 								</tr>
 								<tr>
