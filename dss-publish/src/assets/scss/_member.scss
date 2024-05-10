@@ -477,6 +477,69 @@
                     background-size: 100%;
                   }
                 }
+                .media-area {
+                  position: relative;
+                  width: 100%;
+                  margin-top: 1.6rem;
+                  padding-left: 4rem;
+                  .title {
+                    font-size: 1.6rem;
+                  }
+                  .check-media {
+                    display: block;
+                    position: relative;
+                    margin-top: .8rem;
+                    &.v-input--density-default:not(.v-autocomplete--multiple) {
+                      --v-input-control-height: 2.4rem;
+                    }
+                    .v-selection-control {
+                      width: 100%;
+                    }
+                    .v-selection-control__input {
+                      position: absolute;
+                      top: 0;
+                      left: 0;
+                      width: 2.4rem;
+                      height: 2.4rem;
+                      &::before {
+                        background-color: transparent;
+                      }
+                      > .v-icon {
+                        width: 100%;
+                        height: 100%;
+                        opacity: 1;
+                      }
+                    }
+                    .v-selection-control__wrapper {
+                      position: absolute;
+                      top: 0;
+                      left: 0;
+                      width: 2.4rem;
+                      height: 2.4rem;
+                    }
+                    .mdi-checkbox-blank-outline::before {
+                      content: '';
+                      width: 2.4rem;
+                      height: 2.4rem;
+                      background-image: url('../images/icon/icon_top_checkbox_off.png');
+                      background-size: 100%;
+                    }
+                    .mdi-checkbox-marked::before {
+                      content: '';
+                      width: 2.4rem;
+                      height: 2.4rem;
+                      background-image: url('../images/icon/icon_top_checkbox_on.png');
+                      background-size: 100%;
+                    }
+                  }
+                  .v-label {
+                    position: relative;
+                    padding-left: 3.2rem;
+                    font-size: 1.6rem;
+                    font-weight: 400;
+                    color: #333;
+                  }
+                }
               }
             }
           }
@@ -735,6 +798,14 @@
                     .icon-arrow-right {
                       width: 1.6rem;
                       height: 1.6rem;
+                    }
+                  }
+                  .media-area {
+                    .title {
+                      font-size: 1.4rem;
+                    }
+                    .v-label {
+                      font-size: 1.4rem;
                     }
                   }
                 }
