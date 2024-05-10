@@ -23,13 +23,13 @@ const emailurlRules = ref(['법인 도메인이 올바르지 않습니다. 확�
     <!-- // 샘플 버튼 -->
 
     <!-- 기업 추가 -->
-    <div class="popup-wrap member medium fixed">
+    <div class="popup-wrap member medium fixed"><!-- 2024.05.10 'member' class 추가 -->
       <div class="popup-head">
         <h3 class="h-title">기업 추가</h3>
       </div>
       <div class="popup-cont">
         <Form class="form-wrap">
-          <div class="form-box">
+          <div class="form-box form-type"><!-- 2024.05.10 'form-type' class 추가 -->
             <div class="form-group">
               <div class="ele-tit">
                 <v-label>기업명</v-label>
