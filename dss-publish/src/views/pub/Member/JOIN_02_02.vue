@@ -51,7 +51,7 @@ const valid = ref(false);
                   <div class="form-checkbox">
                     <v-checkbox
                       :value="formTerms.value[0]"
-                      label="[필수] DataBlue 이용약관"
+                      label="[필수] 서비스 이용약관"
                       hide-details
                       class="check-agree"
                     ></v-checkbox>
@@ -97,30 +97,22 @@ const valid = ref(false);
                     <span>내용보기</span>
                     <v-icon>icon-arrow-right</v-icon>
                   </v-btn>
+                  <!-- 2024.05.10 추가 -->
+                  <div class="media-area">
+                    <p class="title">전자적 전송매체를 통한 광고성 정보의 수신을 동의하시겠습니까?</p>
+                    <v-checkbox
+                      label="이메일"
+                      hide-details
+                      class="check-media"
+                    ></v-checkbox>
+                    <v-checkbox
+                      label="휴대폰메시지(카카오톡 등 모바일 메시지 포함)"
+                      hide-details
+                      class="check-media"
+                    ></v-checkbox>
+                  </div>
+                  <!-- // 2024.05.10 추가 -->
                 </div>
-                <!-- 2024.05.08 추가 -->
-                <div class="check-wrap">
-                  <v-checkbox
-                    label="전부 동의"
-                    hide-details
-                    class="top-banner-check"
-                  ></v-checkbox>
-                </div>
-                <div class="check-wrap">
-                  <v-checkbox
-                    label="이메일"
-                    hide-details
-                    class="top-banner-check"
-                  ></v-checkbox>
-                </div>
-                <div class="check-wrap">
-                  <v-checkbox
-                    label="휴대폰메시지(카카오톡 등 모바일 메시지 포함)"
-                    hide-details
-                    class="top-banner-check"
-                  ></v-checkbox>
-                </div>
-                <!-- // 2024.05.08 추가 -->
               </dd>
             </dl>
           </div>

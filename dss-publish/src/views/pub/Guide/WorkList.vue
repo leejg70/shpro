@@ -1585,13 +1585,13 @@
 									<td class="col-url"><router-link to="/JOIN_02_02" target="_blank">/views/pub/Member/JOIN_02_02</router-link></td>
 									<td class="col-date">2024-04-12</td>
 									<td class="col-complete">2024-04-24</td>
-									<td class="col-memo"></td>
+									<td class="col-memo">[2024.05.10] 매체선택 영역 추가</td>
 								</tr>
 								<tr>
 									<td class="col-num"></td>
 									<td class="col-1depth"></td>
 									<td class="col-2depth"></td>
-									<td class="col-3depth">(필수) DataBlue 이용약관</td>
+									<td class="col-3depth">(필수) 서비스 이용약관</td>
 									<td class="col-4depth"></td>
 									<td class="col-5depth"></td>
 									<td class="col-point">popup</td>
@@ -1676,13 +1676,13 @@
 									<td class="col-url"><router-link to="/JOIN_03_02" target="_blank">/views/pub/Member/JOIN_03_02</router-link></td>
 									<td class="col-date">2024-04-15</td>
 									<td class="col-complete">2024-04-24</td>
-									<td class="col-memo"></td>
+									<td class="col-memo">[2024.05.10] 매체선택 영역 추가</td>
 								</tr>
 								<tr>
 									<td class="col-num"></td>
 									<td class="col-1depth"></td>
 									<td class="col-2depth"></td>
-									<td class="col-3depth">(필수) DataBlue 이용약관</td>
+									<td class="col-3depth">(필수) 서비스 이용약관</td>
 									<td class="col-4depth"></td>
 									<td class="col-5depth"></td>
 									<td class="col-point">popup</td>
@@ -1767,13 +1767,13 @@
 									<td class="col-url"><router-link to="/JOIN_04_02" target="_blank">/views/pub/Member/JOIN_04_02</router-link></td>
 									<td class="col-date">2024-04-15</td>
 									<td class="col-complete">2024-04-24</td>
-									<td class="col-memo"></td>
+									<td class="col-memo">[2024.05.10] 매체선택 영역 추가</td>
 								</tr>
 								<tr>
 									<td class="col-num"></td>
 									<td class="col-1depth"></td>
 									<td class="col-2depth"></td>
-									<td class="col-3depth">(필수) DataBlue 이용약관</td>
+									<td class="col-3depth">(필수) 서비스 이용약관</td>
 									<td class="col-4depth"></td>
 									<td class="col-5depth"></td>
 									<td class="col-point">popup</td>
