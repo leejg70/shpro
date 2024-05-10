@@ -266,7 +266,7 @@
 			<div class="ia-section-header">
 				<h2 class="ia-h2"><a href="#this" class="accordion-toggle">GNB 메뉴</a></h2>
 				<div class="ia-legend">
-					<span class="item"><em>총 페이지 : </em><em class="legend-total">49</em>,</span>
+					<span class="item"><em>총 페이지 : </em><em class="legend-total">52</em>,</span>
 					<span class="item c-done"><em>완료 : </em><em class="legend-complete">0</em>,</span>
 					<span class="item"><em>진척률 : </em><em class="legend-process">0%</em></span>
 				</div>
