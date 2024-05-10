@@ -223,9 +223,9 @@
 									<td class="col-5depth"></td>
 									<td class="col-point">popup</td>
 									<td class="col-url"><router-link to="/MAIN_00_02_p" target="_blank">/views/pub/Main/MAIN_00_02_p</router-link></td>
-									<td class="col-date"></td>
+									<td class="col-date">2024-05-10</td>
 									<td class="col-complete"></td>
-									<td class="col-memo"></td>
+									<td class="col-memo">main_01 참조</td>
 								</tr>
 								<tr>
 									<td class="col-num"></td>
@@ -236,9 +236,9 @@
 									<td class="col-5depth"></td>
 									<td class="col-point">popup</td>
 									<td class="col-url"><router-link to="/MAIN_00_03_p" target="_blank">/views/pub/Main/MAIN_00_03_p</router-link></td>
-									<td class="col-date"></td>
+									<td class="col-date">2024-05-10</td>
 									<td class="col-complete"></td>
-									<td class="col-memo"></td>
+									<td class="col-memo">main_01 참조</td>
 								</tr>
 								<tr>
 									<td class="col-num"></td>
@@ -725,7 +725,7 @@
 									<td class="col-point">page</td>
 									<td class="col-url"><router-link to="/MY_00_02" target="_blank">/views/pub/My/MY_00_02</router-link></td>
 									<td class="col-date">2024-05-10</td>
-									<td class="col-complete"></td>
+									<td class="col-complete">2024-05-10</td>
 									<td class="col-memo">신규</td>
 								</tr>
 								<tr>
@@ -959,7 +959,7 @@
 									<td class="col-point">popup</td>
 									<td class="col-url"><router-link to="/MY_00_03_p" target="_blank">/views/pub/My/MY_00_03_p</router-link></td>
 									<td class="col-date">2024-05-10</td>
-									<td class="col-complete"></td>
+									<td class="col-complete">2024-05-10</td>
 									<td class="col-memo"></td>
 								</tr>
 								<tr>
@@ -1831,7 +1831,7 @@
 									<td class="col-point">popup</td>
 									<td class="col-url"><router-link to="/JOIN_04_03_01_p" target="_blank">/views/pub/Member/JOIN_04_03_01_p</router-link></td>
 									<td class="col-date">2024-05-03</td>
-									<td class="col-complete"></td>
+									<td class="col-complete">2024-05-10</td>
 									<td class="col-memo"></td>
 								</tr>
 								<tr>
@@ -1870,7 +1870,7 @@
 									<td class="col-point">popup</td>
 									<td class="col-url"><router-link to="/JOIN_04_03_04_p" target="_blank">/views/pub/Member/JOIN_04_03_04_p</router-link></td>
 									<td class="col-date">2024-05-07</td>
-									<td class="col-complete"></td>
+									<td class="col-complete">2024-05-10</td>
 									<td class="col-memo">[2024.05.10] class 추가 : member, form-type</td>
 								</tr>
 								<tr>
@@ -2091,7 +2091,7 @@
 									<td class="col-point">popup</td>
 									<td class="col-url"><router-link to="/JOIN_05_04_01_02_p" target="_blank">/views/pub/Agreement/JOIN_05_04_01_02_p</router-link></td>
 									<td class="col-date">2024-05-02</td>
-									<td class="col-complete">상동</td>
+									<td class="col-complete"></td>
 									<td class="col-memo"></td>
 								</tr>
 								<tr>
@@ -2290,6 +2290,7 @@
 									<td class="col-point">popup</td>
 									<td class="col-url"><router-link to="/CFMH_01_p" target="_blank">/views/pub/Common/CFMH_01_p</router-link></td>
 									<td class="col-date">2024-05-10</td>
+									<td class="col-complete">2024-05-10</td>
 									<td class="col-memo"></td>
 								</tr>
 								<tr>
@@ -2302,7 +2303,7 @@
 									<td class="col-point">popup</td>
 									<td class="col-url"><router-link to="/CFMP_01_p" target="_blank">/views/pub/Common/CFMP_01_p</router-link></td>
 									<td class="col-date">2024-05-10</td>
-									<td class="col-complete"></td>
+									<td class="col-complete">2024-05-10</td>
 									<td class="col-memo"></td>
 								</tr>
 								<tr class="del">
