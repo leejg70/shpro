@@ -70,6 +70,28 @@
     }
 }
 
+// slide-btn
+.slide-btn {
+    max-width: 120rem;
+    margin-bottom: 5.6rem;
+    .v-slide-group {
+        .v-btn {
+            padding: 1rem 1.6rem;
+            border-color: #ddd;
+            color: #666;
+            font-weight: 400;
+            line-height: 100%;
+            // &.v-btn--active {
+            //     color: #fff;
+            //     background-color: #091850;
+            // }
+            + .v-btn {
+                margin-left: 1.6rem;
+            }
+        }
+    }
+}
+
 .contents-list-area {
     margin-top: 1.6rem;
     padding-top: 2.4rem;
@@ -138,6 +160,9 @@
     .download-list {
         >li {
             padding: .8rem 0;
+            .text-16 {
+                color: #333;
+            }
             .icon-download {
                 margin-right: 0.8rem;
             }
@@ -145,18 +170,37 @@
     }
     .detail-info {
         padding: 1.6rem 0;
-        .text-16 {
-            margin-bottom: 1.6rem;
-            color: #000;
+        .text-16 + .img {
+            margin-top: 1.6rem;
         }
-        .img {
-            margin-bottom: 4rem;
+        .img + .text-16 {
+            margin-top: 4rem;
         }
     }
 }
 
 // 고객센터
 .customer-list {
+    .v-list {
+        padding: 0;
+        border-top: 1px solid #111518;
+        .v-list-item {
+            border-bottom: 1px solid #e5e5e5;
+            padding: 1.6rem 0;
+            &.v-list-item--density-default:not(.v-list-item--nav).v-list-item--one-line {
+                padding-inline: 0;
+            }
+            .v-list-item__prepend {
+                min-width: 4.8rem;
+                margin-right: 2.4rem;
+            }
+            .v-list-item__append {
+                justify-content: flex-end;
+                min-width: 8.8rem;
+                margin-left: 2.4rem;
+            }
+        }
+    }
     .title {
         .pc {
             display: flex;
@@ -172,6 +216,9 @@
         .mo {
             display: none;
         }
+    }
+    .date {
+        color: #666;
     }
     .services-more-area {
         padding-top: 6.4rem;
@@ -224,33 +271,6 @@
         }
         .v-label {
             color: #888;
-        }
-    }
-}
-
-
-// list
-.v-list {
-    padding: 0;
-    border-top: 1px solid #111518;
-    .v-list-item {
-        border-bottom: 1px solid #e5e5e5;
-        padding: 1.6rem 0;
-        &.v-list-item--density-default:not(.v-list-item--nav).v-list-item--one-line {
-            padding-inline: 0;
-        }
-        .v-list-item__prepend {
-            min-width: 4.8rem;
-            margin-right: 2.4rem;
-        }
-        // .v-list-item-title {
-        //     display: flex;
-        //     align-items: center;
-        // }
-        .v-list-item__append {
-            justify-content: flex-end;
-            min-width: 8.8rem;
-            margin-left: 2.4rem;
         }
     }
 }

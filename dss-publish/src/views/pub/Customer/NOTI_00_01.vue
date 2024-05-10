@@ -9,10 +9,6 @@
             <div class="article summary-info">
                 <div class="text subtitle-24">이메일 인증 지연 관련 안내 메일이 발송되었습니다.</div>
                 <div class="date text-16">2024.02.05</div>
-                <!-- <div class="text-row text-16">
-                    <div class="category">DataNews</div>
-                    <v-divider vertical />
-                </div> -->
             </div>
             <div class="article">
                 <ul class="download-list">
