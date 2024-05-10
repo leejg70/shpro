@@ -92,8 +92,7 @@ const allmenu = ref(false);
                     <h2 class="title"><a href="javascript:;" class="title-link">MY</a></h2>
                     <ul class="dep1-list">
                         <li class="item"><a href="javascript:;">나의 계약</a></li>
-                        <li class="item"><a href="javascript:;">관심상품</a></li>
-                        <li class="item"><a href="javascript:;">타겟마케팅 신청내역</a></li>
+                        <li class="item"><a href="javascript:;">관심상품</a></li>                  
                         <li class="item"><a href="javascript:;">나의문의</a></li>
                         <li class="item"><a href="javascript:;">알림</a></li>
                     </ul>
@@ -166,8 +165,7 @@ const allmenu = ref(false);
                         <h2 class="title"><a href="javascript:;">MY</a></h2>
                         <ul class="dep1_list">
                             <li class="item"><a href="javascript:;">나의 계약</a></li>
-                            <li class="item"><a href="javascript:;">관심상품</a></li>
-                            <li class="item"><a href="javascript:;">타겟마케팅 신청내역</a></li>
+                            <li class="item"><a href="javascript:;">관심상품</a></li>                        
                             <li class="item"><a href="javascript:;">나의문의</a></li>
                             <li class="item"><a href="javascript:;">알림</a></li>
                         </ul>
