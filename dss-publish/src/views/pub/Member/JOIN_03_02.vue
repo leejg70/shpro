@@ -97,7 +97,7 @@ const valid = ref(false);
                     <span>내용보기</span>
                     <v-icon>icon-arrow-right</v-icon>
                   </v-btn>
-                  <!-- 2024.05.10 추가 -->
+                  <!-- 2024.05.10 매체선택 추가 -->
                   <div class="media-area">
                     <p class="title">전자적 전송매체를 통한 광고성 정보의 수신을 동의하시겠습니까?</p>
                     <v-checkbox
@@ -111,7 +111,7 @@ const valid = ref(false);
                       class="check-media"
                     ></v-checkbox>
                   </div>
-                  <!-- // 2024.05.10 추가 -->
+                  <!-- // 2024.05.10 매체선택 추가 -->
                 </div>
               </dd>
             </dl>
