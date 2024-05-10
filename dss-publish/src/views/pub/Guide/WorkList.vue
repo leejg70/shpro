@@ -1871,7 +1871,7 @@
 									<td class="col-url"><router-link to="/JOIN_04_03_04_p" target="_blank">/views/pub/Member/JOIN_04_03_04_p</router-link></td>
 									<td class="col-date">2024-05-07</td>
 									<td class="col-complete"></td>
-									<td class="col-memo">[2024.05.10] class 추가 : 기존 class="popup-wrap medium fixed" => 수정 class="popup-wrap member medium fixed"</td>
+									<td class="col-memo">[2024.05.10] class 추가 : 기존 class="popup-wrap medium fixed" => class="popup-wrap member medium fixed"</td>
 								</tr>
 								<tr>
 									<td class="col-num"></td>
@@ -2289,7 +2289,7 @@
 									<td class="col-5depth"></td>
 									<td class="col-point">popup</td>
 									<td class="col-url"><router-link to="/CFMH_01_p" target="_blank">/views/pub/Common/CFMH_01_p</router-link></td>
-									<td class="col-date"></td>
+									<td class="col-date">2024-05-10</td>
 									<td class="col-memo"></td>
 								</tr>
 								<tr>

@@ -439,6 +439,11 @@
     .form-box {
       padding: .8rem 0;
       border: none;
+      &.form-type {
+        margin-top: .8rem;
+        padding-top: 2.4rem;
+        border-top: .1rem solid #111518;
+      }
       .form-group {
         padding-left: 14rem !important;
         .ele-tit {
@@ -810,7 +815,7 @@
         }
       }
       .form-box {
-        padding-bottom: 0;
+        padding-bottom: .8rem;
         .form-group {
           padding-left: 0 !important;
         }

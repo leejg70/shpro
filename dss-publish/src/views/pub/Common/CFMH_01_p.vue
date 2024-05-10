@@ -46,7 +46,7 @@ const nameRules = ref(['이름은 필수 입력입니다.']);
       </div>
       <div class="popup-cont">
         <Form class="form-wrap">
-          <div class="form-box">
+          <div class="form-box form-type">
             <div class="form-group agree-depth">
               <div class="ele-tit">
                 <v-label>약관동의</v-label>
