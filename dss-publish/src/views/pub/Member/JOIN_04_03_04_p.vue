@@ -23,7 +23,7 @@ const emailurlRules = ref(['법인 도메인이 올바르지 않습니다. 확�
     <!-- // 샘플 버튼 -->
 
     <!-- 기업 추가 -->
-    <div class="popup-wrap medium fixed">
+    <div class="popup-wrap member medium fixed">
       <div class="popup-head">
         <h3 class="h-title">기업 추가</h3>
       </div>
