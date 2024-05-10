@@ -88,8 +88,9 @@ const navigation = reactive({
           <button type="button" class="btn-main-next" ref="nextEl"><span class="sr-only">다음</span></button>
         </div>
       </div>
-      <div class="my-login-wrap">
-        <!-- <div class="outlogin-box">        
+      <!-- PC전용 로그인 -->
+      <div class="my-login-wrap pc-wrap">
+        <div class="outlogin-box">        
           <v-icon class="main-login-photo"><img src="../../../assets/images/icon/icon_main_login.png" alt=""></v-icon>
           <p class="login-txt">로그인 후<br>나만의 맞춤 정보를 이용하세요.</p> 
           <v-btn
@@ -101,8 +102,8 @@ const navigation = reactive({
           >
           로그인
           </v-btn> 
-        </div> -->
-        <div class="outlogin-box">
+        </div>
+        <!-- <div class="outlogin-box">
           <div class="logout-txt">
             <p>안녕하세요.</p>
             <p class="name">김신한님!</p>
@@ -117,11 +118,11 @@ const navigation = reactive({
               <span class="text">나의문의</span>
             </v-btn>
             <v-btn class="btn-mylink">
-              <v-icon>icon-larm on</v-icon><!-- on 알람시 처리 -->
+              <v-icon>icon-larm on</v-icon>
               <span class="text">알림</span>
             </v-btn>
           </div>
-        </div>
+        </div> -->
         <div class="notice-box">
           <div class="notice-banner">
             <div class="category-title">데이터블루 활용장</div>
@@ -194,6 +195,81 @@ const navigation = reactive({
         </div>
       </div>
     </div>
+
+    <div class="visual-layout-area mobile-wrap">
+      <div class="my-login-wrap">
+        <div class="outlogin-box">        
+          <v-icon class="main-login-photo"><img src="../../../assets/images/icon/icon_main_login.png" alt=""></v-icon>
+          <p class="login-txt">로그인 후<br>나만의 맞춤 정보를 이용하세요.</p> 
+          <v-btn
+            :ripple="false"
+            variant="flat"
+            color="primary"
+            size="large"
+            rounded="lg"
+          >
+          로그인
+          </v-btn> 
+        </div>
+        <!-- <div class="outlogin-box">
+          <div class="logout-txt">
+            <p>안녕하세요.</p>
+            <p class="name">김신한님!</p>
+          </div>
+          <div class="logout-btn-area">
+            <v-btn  class="btn-mylink">
+              <v-icon>icon-my-contract</v-icon>
+              <span class="text">나의계약</span>
+            </v-btn>
+            <v-btn class="btn-mylink">
+              <v-icon>icon-my-qa</v-icon>
+              <span class="text">나의문의</span>
+            </v-btn>
+            <v-btn class="btn-mylink">
+              <v-icon>icon-larm on</v-icon>
+              <span class="text">알림</span>
+            </v-btn>
+          </div>
+        </div> -->
+        <div class="notice-box">
+          <div class="notice-banner">
+            <div class="category-title">데이터블루 활용장</div>
+            <div class="title">데이터 활용 성공 노하우</div>
+            <div class="notice-graph"><v-icon>icon-data-graph</v-icon></div>
+          </div>
+          <div class="report-roll-box">
+            <swiper
+              :loop="true"
+              :spaceBetween="24"
+              :autoplay="{
+                delay: 2500,
+                disableOnInteraction: false,
+              }"
+              :speed="1000"
+              :pagination="{
+                clickable: true,
+              }"
+              :modules="[Autoplay, Pagination]"
+            >
+              <swiper-slide>
+                <span class="flag">Trend Report</span>
+                  <a href="javascript:;">
+                    <p class="text">ShinhanCard Data Market 신규 오픈 ShinhanCard Data Market 신규 오픈 ShinhanCard Data Market 신규 오픈 ShinhanCard Data Market 신규 오픈</p>
+                    <p class="date">2024.08.08</p>
+                  </a>
+              </swiper-slide>
+              <swiper-slide>
+                <span class="flag">Trend Report</span>
+                  <a href="javascript:;">
+                    <p class="text">ShinhanCard Data Market 신규 오픈(두줄)</p>
+                    <p class="date">2024.08.08</p>
+                  </a>
+              </swiper-slide>
+            </swiper>
+          </div>
+        </div>
+      </div>
+    </div>
     <div class="main-card-wrap">
       <div class="main-card-inner">
         <v-btn class="card-box">
@@ -237,47 +313,50 @@ const navigation = reactive({
     <div class="main-services-wrap">
       <h2 class="main-title"><span class="fw300">Most Popular</span><span class="fw700">Services</span></h2>
       <div class="services-inner">
-        <v-card  
-        v-for="n in 6"    
-        class="services-box"
-        >
-          <div class="category-wrap">
-            <strong class="category-title">Data 서비스/API서비스</strong>
-              <span class="icon-area">
-                <v-icon>icon-new<span class="sr-only">new</span></v-icon>
-                <v-icon>icon-hot<span class="sr-only">hot</span></v-icon>
-                <v-btn class="reset">
-                  <v-icon>icon-wishlist off<span class="sr-only">관심상품</span></v-icon>
-                </v-btn>
-              </span>
-          </div>
-          <div class="prod-flag-wrap">
-            <span class="flag blue">시장분석</span>
-            <span class="flag violet">지역경제</span>
-            <span class="flag green">대안신용</span>
-            <span class="flag yellow">마이데이터</span>
-            <span class="flag pink">카드데이터</span>
-          </div>
-          <a href="">
-            <strong class="title">상품명은 한줄로 제한 한줄 초과 시한줄 초과 시 말줄임 말줄임 말줄임 말줄임 말줄임</strong>
-            <div class="text-area">
-              <p class="text">2024 전국 스타벅스 매장 연령별 결제 데이터 두줄일 경우 2024 전국 스타벅스 매장 연령별 결제 데이터 두줄일 2024 전국 스타벅스 매장 연령별 결제 데이터 두줄일 경우</p>
-              <v-icon class="icon-biz"><img src="../../../assets/images/icon/icon-biz.png" alt=""></v-icon>
-            </div>
-          </a>
-          <div class="hashtags">
-            <span class="hashtag">#스타벅스</span>
-            <span class="hashtag">#전국</span>
-            <span class="hashtag">#시간대별결제데이터</span>
-            <span class="hashtag">#한줄까지</span>
-          </div>
-        </v-card>
-        <div class="services-more-area">
-          <v-btn class="btn-more">
-            <span>더보기</span>
-            <v-icon>icon-arrow</v-icon>
-          </v-btn>
-        </div>
+        <div class="service-list-area">
+                <v-row>
+                    <v-col cols="12" md="6" v-for="item in 6">
+                        <v-card role="button" variant="outlined" class="service-list">
+                            <div class="top-area">
+                                <div class="category-title">Data/API서비스</div>
+                                <div class="icon-area">
+                                    <div class="badge">
+                                        <v-icon class="icon-new" />
+                                        <v-icon class="icon-hot" />
+                                    </div>
+                                    <div class="favorites">
+                                        <v-btn @click.stop="active = !active" variant="flat" min-width="auto" height="auto" class="pa-0">
+                                            <v-icon :icon="active ? 'icon-wishlist' : 'icon-wishlist-off'" />
+                                        </v-btn>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="middle-area">
+                                <div class="prod-flag-wrap">
+                                    <span class="flag blue">시장분석</span>
+                                    <span class="flag violet">지역경제</span>
+                                    <span class="flag green">대안신용</span>
+                                    <span class="flag yellow">마이데이터</span>
+                                    <span class="flag pink">카드데이터</span>
+                                </div>
+                                <div class="title text-truncate" title="상품명은 한줄로 제한 한줄 초과 시 말줄임처리 말줄임처리 말줄임처리 말줄임처리">상품명은 한줄로 제한 한줄 초과 시 말줄임처리 말줄임처리 말줄임처리 말줄임처리</div>
+                                <div class="text-area">
+                                    <div class="text text-twolines" title="2024 전국 ~~">2024 전국 스타벅스 매장 연령별 결제 데이터 두줄일 경우 2024 전국 스타벅스 매장 연령별 결제 데이터 두줄일 2024 전국 스타벅스 매장 연령별 결제 데이터 두줄일 경우</div>
+                                    <div class="flex-shrink-0 ml-auto">
+                                        <div class="d-flex align-center justify-center" style="width:6.4rem; height:6.4rem; background:#eee;">썸네일이미지</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="bottom-area text-truncate">
+                                <span v-for="n in ['스타벅스', '전국', '시간대별결제데이터', '해시태그 한줄까지']" class="hashtag">#{{  n  }}</span>
+                            </div>
+                        </v-card>
+                    </v-col>
+                </v-row>
+                <div class="services-more-area">
+                    <v-btn variant="outlined" rounded="xl" class="btn-more">더보기<v-icon class="icon-arrow" /></v-btn>
+                </div>
+            </div> 
       </div>
     </div>
     <div class="main-special-wrap">
