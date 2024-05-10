@@ -674,7 +674,7 @@
 									<td class="col-url"><router-link to="/MY_00" target="_blank">/views/pub/My/MY_00</router-link></td>
 									<td class="col-date">2024-04-26</td>
 									<td class="col-complete">2024-05-02</td>
-									<td class="col-memo"></td>
+									<td class="col-memo">[2024.05.10] Rework 작업</td>
 								</tr>
 								<tr>
 									<td class="col-num"></td>
@@ -687,7 +687,7 @@
 									<td class="col-url"><router-link to="/MY_01" target="_blank">/views/pub/My/MY_01</router-link></td>
 									<td class="col-date">2024-04-26</td>
 									<td class="col-complete">2024-05-02</td>
-									<td class="col-memo"></td>
+									<td class="col-memo">[2024.05.10] Rework 작업</td>
 								</tr>
 								<tr>
 									<td class="col-num"></td>
@@ -700,7 +700,7 @@
 									<td class="col-url"><router-link to="/MY_02" target="_blank">/views/pub/My/MY_02</router-link></td>
 									<td class="col-date">2024-04-26</td>
 									<td class="col-complete">2024-05-02</td>
-									<td class="col-memo"></td>
+									<td class="col-memo">[2024.05.10] Rework 작업</td>
 								</tr>
 								<tr>
 									<td class="col-num"></td>
@@ -713,7 +713,7 @@
 									<td class="col-url"><router-link to="/MY_00_01" target="_blank">/views/pub/My/MY_00_01</router-link></td>
 									<td class="col-date">2024-04-26</td>
 									<td class="col-complete">2024-05-02</td>
-									<td class="col-memo"></td>
+									<td class="col-memo">[2024.05.10] Rework 작업</td>
 								</tr>
 								<tr>
 									<td class="col-num"></td>
@@ -724,7 +724,7 @@
 									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
 									<td class="col-url"><router-link to="/MY_00_02" target="_blank">/views/pub/My/MY_00_02</router-link></td>
-									<td class="col-date"></td>
+									<td class="col-date">2024-05-10</td>
 									<td class="col-complete"></td>
 									<td class="col-memo">신규</td>
 								</tr>
@@ -1559,7 +1559,7 @@
 									<td class="col-url"><router-link to="/JOIN_01" target="_blank">/views/pub/Member/JOIN_01</router-link></td>
 									<td class="col-date">2024-04-12</td>
 									<td class="col-complete">2024-04-24</td>
-									<td class="col-memo"></td>
+									<td class="col-memo">[2024.05.10] class추가 : mgb12</td>
 								</tr>
 								<tr>
 									<td class="col-num"></td>

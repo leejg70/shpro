@@ -114,6 +114,31 @@
       color: #111518;
     }
   }
+  .member-guide {
+    padding: 3.2rem 0 1.6rem;
+    > li {
+      display: block;
+      position: relative;
+      margin: 0;
+      padding: 0 0 0 2rem;
+      font-size: 1.6rem;
+      color: #111518;
+      &::before {
+        content: '';
+        display: block;
+        position: absolute;
+        left: .6rem;
+        top: 1rem;
+        width: .3rem;
+        height: .3rem;
+        border-radius: 50%;
+        background-color: #666;
+      }
+      + li {
+        margin-top: .8rem;
+      }
+    }
+  }
   // 본인 인증
   .form-box {
     padding: 2.4rem 0 3.2rem;
@@ -559,6 +584,24 @@
           color: #888;
         }
       }
+      .data-wrap {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        position: relative;
+        width: 100%;
+        height: 4.8rem;
+        box-sizing: border-box;
+        .data {
+          font-size: 1.6rem;
+          color: #333;
+        }
+        .description {
+          margin-left: .8rem;
+          font-size: 1.6rem;
+          color: #666;
+        }
+      }
     }
     &.service {
       padding-bottom: 0;
@@ -656,6 +699,17 @@
       margin-bottom: 3.2rem;
       .text {
         font-size: 1.6rem;
+      }
+    }
+    .member-guide {
+      padding-top: .8rem;
+      > li {
+        padding-left: 1.8rem;
+        font-size: 1.4rem;
+        &::before {
+          left: .5rem;
+          top: .9rem;
+        }
       }
     }
     // 본인 인증
@@ -815,6 +869,21 @@
         }
         .text-tip {
           font-size: 1.2rem;
+        }
+        .data-wrap {
+          height: auto;
+          .data {
+            display: block;
+            width: 100%;
+            font-size: 1.4rem;
+          }
+          .description {
+            display: block;
+            width: 100%;
+            margin-top: .4rem;
+            margin-left: 0;
+            font-size: 1.4rem;
+          }
         }
       }
     }

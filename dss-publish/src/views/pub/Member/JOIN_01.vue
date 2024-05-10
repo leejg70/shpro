@@ -3,7 +3,7 @@
     <div class="member-header">
       <h3 class="h-title">회원가입</h3>
     </div>
-    <div class="member-step">
+    <div class="member-step mgb12"><!-- 2024.05.10 'mgb12' class 추가 -->
       <div class="step-txt">회원 유형 선택</div>
     </div>
     <div class="member-text">

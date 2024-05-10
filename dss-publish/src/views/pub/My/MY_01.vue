@@ -6,12 +6,13 @@ const companynumber = ref('');
 const email = ref('');
 const sms = ref('');
 const valid = ref(false);
+const companyRules = ref(['기업명은 필수 입력입니다.']);
 </script>
 
 <template>
   <div class="member">
     <div class="member-header">
-      <h3 class="h-title">계정전환 (개인사업자)</h3>
+      <h3 class="h-title">사업자계정전환 (개인사업자)</h3>
     </div>
     <div class="member-step">
       <div class="step-txt">정보 입력</div>
@@ -23,11 +24,21 @@ const valid = ref(false);
         <span class="blind">현재 1단계 진행중</span>
       </div>
     </div>
-    <div class="member-text">
-      <p class="text">계정전환을 위한 정보를 입력해주세요.</p>
-    </div>
+    <ul class="member-guide">
+      <li>개인사업자로 전환을 신청하시면 관리자의 승인 이후 전환이 완료됩니다.</li>
+      <li>신청 시, 수신 받으실 이메일주소의 변경이 가능합니다. (로그인아이디는 유지)</li>
+    </ul>
     <Form class="form-wrap">
       <div class="form-box">
+        <div class="form-group">
+          <div class="ele-tit">
+            <v-label>로그인아이디</v-label>
+          </div>
+          <div class="data-wrap">
+            <span class="data">youfri@gmail.com</span>
+            <span class="description">(로그인을 위한 이메일주소)</span>
+          </div>
+        </div>
         <div class="form-group">
           <div class="ele-tit">
             <v-label>기업명</v-label>
@@ -36,6 +47,7 @@ const valid = ref(false);
             <v-text-field
               aria-label="기업명"
               v-model="company"
+              :rules="companyRules"
               placeholder="기업명 입력"
               title="기업명 입력"
               density="comfortable"
@@ -46,7 +58,6 @@ const valid = ref(false);
               required
             ></v-text-field>
           </div>
-          <p class="text-tip error">기업명은 필수 입력입니다.</p>
         </div>
         <div class="form-group">
           <div class="ele-tit">
@@ -82,15 +93,15 @@ const valid = ref(false);
         </div>
         <div class="form-group">
           <div class="ele-tit">
-            <v-label>이메일주소</v-label>
+            <v-label>수신 이메일주소</v-label>
           </div>
           <div class="input-wrap side-btn">
             <div class="input-wrap">
               <v-text-field
-                aria-label="이메일주소"
+                aria-label="수신 이메일주소"
                 v-model="email"
                 placeholder="이메일주소 입력"
-                title="이메일주소 입력"
+                title="수신 이메일주소 입력"
                 density="comfortable"
                 variant="outlined"
                 color="primary"

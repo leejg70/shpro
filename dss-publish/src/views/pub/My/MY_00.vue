@@ -1,9 +1,9 @@
 <template>
   <div class="member">
     <div class="member-header">
-      <h3 class="h-title">계정전환</h3>
+      <h3 class="h-title">사업자계정전환</h3>
     </div>
-    <div class="member-step">
+    <div class="member-step mgb12">
       <div class="step-txt">회원 유형 선택</div>
     </div>
     <div class="member-text">

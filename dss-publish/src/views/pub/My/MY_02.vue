@@ -12,7 +12,7 @@ const valid = ref(false);
 <template>
   <div class="member">
     <div class="member-header">
-      <h3 class="h-title">계정전환 (법인사업자)</h3>
+      <h3 class="h-title">사업자계정전환 (법인사업자)</h3>
     </div>
     <div class="member-step">
       <div class="step-txt">정보 입력</div>
@@ -24,11 +24,21 @@ const valid = ref(false);
         <span class="blind">현재 1단계 진행중</span>
       </div>
     </div>
-    <div class="member-text">
-      <p class="text">계정전환을 위한 정보를 입력해주세요.</p>
-    </div>
+    <ul class="member-guide">
+      <li>법인사업자로 전환을 신청해주세요. 이미 등록된 법인 기업이면 즉시 전환이 완료되고 신규 기업인 경우에는 관리자의 승인 이후 전환이 완료됩니다.</li>
+      <li>기업의 도메인을 수신 받으실 이메일주소로 변경해주세요. 단, 로그인 시에는 기존 이메일주소로 로그인하셔야 합니다.</li>
+    </ul>
     <Form class="form-wrap">
       <div class="form-box">
+        <div class="form-group">
+          <div class="ele-tit">
+            <v-label>로그인아이디</v-label>
+          </div>
+          <div class="data-wrap">
+            <span class="data">youfri@gmail.com</span>
+            <span class="description">(로그인을 위한 이메일주소)</span>
+          </div>
+        </div>
         <div class="form-group">
           <div class="ele-tit">
             <v-label>기업명</v-label>
@@ -59,16 +69,16 @@ const valid = ref(false);
         </div>
         <div class="form-group">
           <div class="ele-tit">
-            <v-label>이메일주소</v-label>
+            <v-label>수신 이메일주소</v-label>
           </div>
           <div class="email-wrap">
             <div class="first">
               <div class="input-wrap">
                 <v-text-field
-                  aria-label="이메일주소"
+                  aria-label="수신 이메일주소"
                   v-model="email"
                   placeholder="이메일주소 입력"
-                  title="이메일주소 입력"
+                  title="수신 이메일주소 입력"
                   density="comfortable"
                   variant="outlined"
                   color="primary"

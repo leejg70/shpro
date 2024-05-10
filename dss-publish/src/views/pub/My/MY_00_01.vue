@@ -1,7 +1,7 @@
 <template>
   <div class="member">
     <div class="member-header">
-      <h3 class="h-title">계정전환</h3>
+      <h3 class="h-title">사업자계정전환</h3>
     </div>
     <div class="member-step">
       <div class="step-txt">신청 완료</div>
@@ -16,8 +16,8 @@
     <div class="complete-box">
       <v-icon>icon-success</v-icon>
       <div class="complete-text">
-        <div>계정전환 신청 완료</div>
-        <p>환영합니다. 고객님.<br>신청해주신 계정전환 서비스는 관리자 승인 후 이용 가능하며 로그인 후 기존 서비스는 이용 가능합니다.</p>
+        <div>사업자계정 전환 신청 완료</div>
+        <p>신청이 완료되었습니다.<br>관리자 승인 후 전환이 완료됩니다.</p>
       </div>
     </div>
     <div class="btn-wrap">
