@@ -296,6 +296,15 @@ const DefaultRoutes = {
       }
     },
     {
+      name: 'MY_00_02',
+      path: '/MY_00_02',
+      component: () => import('@/views/pub/My/MY_00_02.vue'),
+      meta: {
+        appearMenu : true,
+        requiresAuth: false
+      }
+    },
+    {
       name: 'MY_02_r',
       path: '/MY_02_r',
       component: () => import('@/views/pub/My/MY_02_r.vue'),
@@ -376,6 +385,25 @@ const DefaultRoutes = {
         requiresAuth: false
       }
     },
+    {
+      name: 'MY_03_02_01_p',
+      path: '/MY_03_02_01_p',
+      component: () => import('@/views/pub/My/MY_03_02_01_p.vue'),
+      meta: {
+        appearMenu : true,
+        requiresAuth: false
+      }
+    },
+    {
+      name: 'MY_03_02_02_p',
+      path: '/MY_03_02_02_p',
+      component: () => import('@/views/pub/My/MY_03_02_02_p.vue'),
+      meta: {
+        appearMenu : true,
+        requiresAuth: false
+      }
+    },
+
     {
       name: 'MY_04',
       path: '/MY_04',
