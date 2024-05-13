@@ -1,7 +1,6 @@
 <script setup>
 import { ref } from 'vue';
 
-// const items = ['나의계약', '관심상품', '나의문의', '알림'];
 const myLink = ref([
   {
     title: '나의계약',
@@ -42,8 +41,8 @@ const active = ref(true);
     <div class="menu-list">
       <v-row>
         <v-col cols="12" md="3" v-for="(item, i) in myLink">
-          <a :href="item.link" class="v-list-item">
-            {{ item.title }}
+          <a :href="item.link" class="my-contract">
+            <em><span>{{ item.title }}</span></em>
           </a>
         </v-col>
       </v-row>
