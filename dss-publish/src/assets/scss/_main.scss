@@ -209,7 +209,7 @@
             .icon-data-graph {
               width: 4rem;
               height: 4rem;
-              background-image: url(../images/icon/icon-data-graph.png);
+              background-image: url('../images/icon/icon-data-graph.png');
               background-size: 100%;
 
             }
@@ -423,19 +423,19 @@
         }
 
         .ico-main-data {
-          background-image: url(../images/icon/icon_main_data.png);
+          background-image: url('../images/icon/icon_main_data.png');
         }
 
         .ico-main-solution {
-          background-image: url(../images/icon/icon_main_solution.png);
+          background-image: url('../images/icon/icon_main_solution.png');
         }
 
         .ico-main-ad {
-          background-image: url(../images/icon/icon_main_ad.png);
+          background-image: url('../images/icon/icon_main_ad.png');
         }
 
         .ico-main-api {
-          background-image: url(../images/icon/icon_main_api.png);
+          background-image: url('../images/icon/icon_main_api.png');
         }
 
         .card-text {
@@ -525,7 +525,7 @@
             margin-left: .8rem;
             width: 3.2rem;
             min-height: 3.2rem;
-            background-image: url(../images/btn/btn_main_arrow.png);
+            background-image: url('../images/btn/btn_main_arrow.png');
             background-size: 100%;
           }
         }
@@ -540,11 +540,11 @@
         }
 
         .icon-graph {
-          background-image: url(../images/icon/icon_graph.png);
+          background-image: url('../images/icon/icon_graph.png');
         }
 
         .icon-sawlike {
-          background-image: url(../images/icon/icon_sawlike.png);
+          background-image: url('../images/icon/icon_sawlike.png');
         }
       }
     }
@@ -601,7 +601,7 @@
             margin-left: .8rem;
             width: 3.2rem;
             min-height: 3.2rem;
-            background-image: url(../images/btn/btn_main_arrow.png);
+            background-image: url('../images/btn/btn_main_arrow.png');
             background-size: 100%;
           }
         }
@@ -612,7 +612,7 @@
           bottom: 3.2rem;
           width: 7.2rem;
           min-height: 7.2rem;
-          background-image: url(../images/icon/icon_haed.png);
+          background-image: url('../images/icon/icon_haed.png');
           background-size: 100%;
         }
       }
@@ -761,16 +761,16 @@
       }
 
       .icon-my-contract {
-        background-image: url(../images/icon/icon_my_contract.png);
+        background-image: url('../images/icon/icon_my_contract.png');
       }
 
       .icon-my-qa {
-        background-image: url(../images/icon/icon_my_qa.png);
+        background-image: url('../images/icon/icon_my_qa.png');
       }
 
       .icon-larm {
         position: relative;
-        background-image: url(../images/icon/icon_larm.png);
+        background-image: url('../images/icon/icon_alarm.png');
 
         &.on::before {
           content: '';
@@ -787,11 +787,7 @@
   }
 }
 
-
 /* 별도 처리 */
-.service-list-area{
-
-}
 .services-more-area {
   display: flex;
   justify-content: center;
@@ -814,7 +810,7 @@
       margin-left: .4rem;
       width: 2.4rem;
       height: 2.4rem;
-      background-image: url(../images/btn/btn_toggle_arrow.png);
+      background-image: url('../images/btn/btn_toggle_arrow.png');
       background-size: 100%;
     }
   }
@@ -823,25 +819,25 @@
 .icon-new {
   width: 3rem;
   height: 3rem;
-  background-image: url(../images/icon/icon_new.png);
+  background-image: url('../images/icon/icon_new.png');
   background-size: 100%;
 }
 
 .icon-hot {
   width: 3rem;
   height: 3rem;
-  background-image: url(../images/icon/icon_hot.png);
+  background-image: url('../images/icon/icon_hot.png');
   background-size: 100%;
 }
 
 .icon-wishlist {
   width: 3rem;
   height: 3rem;
-  background-image: url(../images/icon/icon-wishlist.png);
+  background-image: url('../images/icon/icon-wishlist.png');
   background-size: 100%;
 
   & .off {
-    background-image: url(../images/icon/icon_wishlist_off.png);
+    background-image: url('../images/icon/icon_wishlist_off.png');
   }
 }
 
@@ -851,7 +847,7 @@
   // right: 3.2rem;
   width: 2.4rem;
   height: 2.4rem;
-  background-image: url(../images/btn/btn_toggle_arrow.png);
+  background-image: url('../images/btn/btn_toggle_arrow.png');
   background-size: 100%;
   transform: rotate(-90deg);
 }
@@ -1716,14 +1712,14 @@
     .icon-login {
       width: 1.6rem;
       height: 1.6rem;
-      background-image: url(../images/icon/icon_login.png);
+      background-image: url('../images/icon/icon_login.png');
       background-size: 1.6rem;
     }
 
     .icon-join {
       width: 1.6rem;
       height: 1.6rem;
-      background-image: url(../images/icon/icon_join.png);
+      background-image: url('../images/icon/icon_join.png');
       background-size: 1.6rem;
     }
 
