@@ -4,19 +4,23 @@ import { ref } from 'vue';
 const myLink = ref([
   {
     title: '나의계약',
-    link: 'javascript:;'
+    link: 'javascript:;',
+    icon: 'my-contract'
   },
   {
     title: '관심상품',
-    link: 'javascript:;'
+    link: 'javascript:;',
+    icon: 'my-wishlist'
   },
   {
     title: '나의문의',
-    link: 'javascript:;'
+    link: 'javascript:;',
+    icon: 'my-qa'
   },
   {
     title: '알림',
-    link: 'javascript:;'
+    link: 'javascript:;',
+    icon: 'my-alarm'
   }
 ]);
 const active = ref(true);
@@ -41,7 +45,7 @@ const active = ref(true);
     <div class="menu-list">
       <v-row>
         <v-col cols="12" md="3" v-for="(item, i) in myLink">
-          <a :href="item.link" class="my-contract">
+          <a :href="item.link" :class="item.icon">
             <em><span>{{ item.title }}</span></em>
           </a>
         </v-col>

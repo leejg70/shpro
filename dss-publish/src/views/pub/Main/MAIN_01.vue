@@ -90,7 +90,7 @@ const navigation = reactive({
       </div>
       <!-- PC전용 로그인 -->
       <div class="my-login-wrap pc-wrap">
-        <div class="outlogin-box">        
+        <!-- <div class="outlogin-box">        
           <v-icon class="main-login-photo"><img src="../../../assets/images/icon/icon_main_login.png" alt=""></v-icon>
           <p class="login-txt">로그인 후<br>나만의 맞춤 정보를 이용하세요.</p> 
           <v-btn
@@ -102,8 +102,8 @@ const navigation = reactive({
           >
           로그인
           </v-btn> 
-        </div>
-        <!-- <div class="outlogin-box">
+        </div> -->
+        <div class="outlogin-box">
           <div class="logout-txt">
             <p>안녕하세요.</p>
             <p class="name">김신한님!</p>
@@ -118,11 +118,11 @@ const navigation = reactive({
               <span class="text">나의문의</span>
             </v-btn>
             <v-btn class="btn-mylink">
-              <v-icon>icon-alarm on</v-icon>
+              <v-icon>icon-my-alarm on</v-icon>
               <span class="text">알림</span>
             </v-btn>
           </div>
-        </div> -->
+        </div>
         <div class="notice-box">
           <div class="notice-banner">
             <div class="category-title">데이터블루 활용장</div>
@@ -226,7 +226,7 @@ const navigation = reactive({
               <span class="text">나의문의</span>
             </v-btn>
             <v-btn class="btn-mylink">
-              <v-icon>icon-alarm on</v-icon>
+              <v-icon>icon-my-alarm on</v-icon>
               <span class="text">알림</span>
             </v-btn>
           </div>

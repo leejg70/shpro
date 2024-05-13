@@ -117,7 +117,7 @@ const navigation = reactive({
               <span class="text">나의문의</span>
             </v-btn>
             <v-btn class="btn-mylink">
-              <v-icon>icon-alarm on</v-icon><!-- on 알람시 처리 -->
+              <v-icon>icon-my-alarm on</v-icon><!-- on 알람시 처리 -->
               <span class="text">알림</span>
             </v-btn>
           </div>
@@ -225,7 +225,7 @@ const navigation = reactive({
               <span class="text">나의문의</span>
             </v-btn>
             <v-btn class="btn-mylink">
-              <v-icon>icon-alarm on</v-icon><!-- on 알람시 처리 -->
+              <v-icon>icon-my-alarm on</v-icon><!-- on 알람시 처리 -->
               <span class="text">알림</span>
             </v-btn>
           </div>

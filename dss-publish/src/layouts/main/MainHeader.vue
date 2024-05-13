@@ -128,7 +128,7 @@ const allmenu = ref(false);
                         <span class="text">나의문의</span>
                         </v-btn>
                         <v-btn class="btn-mylink">
-                        <v-icon>icon-alarm on</v-icon>
+                        <v-icon>icon-my-alarm on</v-icon>
                         <span class="text">알림</span>
                         </v-btn>
                     </div>

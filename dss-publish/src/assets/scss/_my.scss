@@ -38,6 +38,21 @@
         bottom: 1.6rem;
         background-image: url('../images/icon/icon_my_contract.png');
       }
+      &.my-wishlist::after {
+        right: 2.4rem;
+        bottom: 1.6rem;
+        background-image: url('../images/icon/icon-wishlist.png');
+      }
+      &.my-qa::after {
+        right: 2.4rem;
+        bottom: 1.6rem;
+        background-image: url('../images/icon/icon_my_qa.png');
+      }
+      &.my-alarm::after {
+        right: 2.4rem;
+        bottom: 1.6rem;
+        background-image: url('../images/icon/icon_my_alarm.png');
+      }
     }
   }
 }

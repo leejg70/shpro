@@ -768,15 +768,15 @@
         background-image: url('../images/icon/icon_my_qa.png');
       }
 
-      .icon-alarm {
+      .icon-my-alarm {
         position: relative;
-        background-image: url('../images/icon/icon_alarm.png');
+        background-image: url('../images/icon/icon_my_alarm.png');
 
         &.on::before {
           content: '';
           position: absolute;
           right: 0;
-          top: -.4rem;
+          top: 0;
           width: .4rem;
           height: .4rem;
           background-color: #FF405B;
