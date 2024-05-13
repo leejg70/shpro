@@ -117,6 +117,9 @@
                         font-size: 1.8rem;
                         line-height: 150%;
                     }
+                    .img-biz{
+                        img{width: 6.4rem;}
+                    } 
                 }
             }
             .bottom-area {
@@ -127,9 +130,7 @@
                     color: #7F87A4;
                     font-size: 1.6rem;
                     line-height: 150%;
-                    +.hashtag {
-                        margin-left: 1.6rem;
-                    }
+                    margin-right: 1.6rem;            
                 }
             }
         }
@@ -575,29 +576,30 @@
     font-size: 1.2rem;
     font-weight: 500;
     line-height: 100%;
+    border: 1px solid;
+    background-color: #fff;
     +.flag {
         margin-left: .8rem;
     }
     &.blue {
         color: #1CBCE7;
-        background: #E2F9FF;
+        border-color:#1CBCE7;  
     }
     &.violet {
         color: #8C6AD4;
-        background: #F4EFFF;
+        border-color:#8C6AD4;
     }
     &.green {
         color: #72BB13;
-        background: #EFFFDA;
+        border-color:#72BB13;
     }
     &.yellow {
         color: #FF9E08;
-        background: #FFF9E5;
+        border-color:#FF9E08;
     }
     &.pink {
-        // margin-top: 1.2rem;
         color: #FF66AF;
-        background: #FFF1F8;
+        border-color: #FF66AF;
     }
 }
 
@@ -656,9 +658,59 @@
             margin-left: 0 !important;
         }
     }
-    .service-list-area{
+
+    // 상품리스트
+    .service-list-area {
+        margin-top: 1.6rem;
+        .v-card {          
+            &.service-list {
+                padding: 2.4rem;
+                border-radius: 1.6rem !important;
+                .top-area {               
+                    .icon-area {
+                        .favorites {
+                            margin-left: .8rem;
+                        }
+                    }
+                }
+                .middle-area {
+                    margin: 2.4rem 0;
+                    .prod-flag-wrap {
+                        display: block;
+                        margin-top: 2.8rem;                        
+                    }
+                    .title {
+                        margin: 1.2rem 0;                     
+                        font-size: 1.6rem;         
+                    }
+                    .text-area {
+                        display: flex;
+                        .text {
+                            margin-right: .8rem;
+                            margin-bottom: .9rem;                     
+                            font-size: 1.4rem;                       
+                        }
+                        .img-biz{
+                            img{width: 4.8rem;}
+                        } 
+                    }
+                }
+                .bottom-area {
+                    margin-top: 1.6rem;
+                    padding-top: 1.6rem;                  
+                    .hashtag {                     
+                        font-size: 1.4rem;
+                        margin-right: .8rem;  
+                    }
+                }
+            }
+        }
         .services-more-area {
             padding-top: 4rem;
         }
-    } 
+    }
+    // flag
+    .flag {   
+        font-size: 1rem;
+    }
 }

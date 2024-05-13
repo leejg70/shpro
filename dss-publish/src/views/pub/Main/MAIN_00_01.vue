@@ -1,10 +1,19 @@
 <script setup>
 import { ref } from 'vue';
 
-const select = ref('0');
-const items = ref([
-    { name: '전체', num: 11 },
+const slide = ref([
+    { name: '전체', num: 111, },
     { name: 'Data 상품', num: 0 },
+    { name: '솔루션서비스', num: 5 },
+    { name: 'API서비스', num: 4 },
+    { name: '솔루션서비스', num: 5 },
+    { name: 'API서비스', num: 4 },
+    { name: '솔루션서비스', num: 5 },
+    { name: 'API서비스', num: 4 },
+    { name: '솔루션서비스', num: 5 },
+    { name: 'API서비스', num: 4 },
+    { name: '솔루션서비스', num: 5 },
+    { name: 'API서비스', num: 4 },
     { name: '솔루션서비스', num: 5 },
     { name: 'API서비스', num: 4 },
 ]);
@@ -36,22 +45,31 @@ function onClick() {
                         />
                     </div>
                 </div>
-                <div class="hashtag-area">
+                <!-- <div class="hashtag-area">
                     <span v-for="n in ['스타벅스', '전국', '시간대별결제데이터', '해시태그 한줄까지']" class="hashtag">#{{  n  }}</span>
-                </div>
+                </div> -->
             </div>
             <!--// search -->
-            <div class="tab-area">
-                <v-btn-toggle v-model="select" mandatory class="tabs">
-                    <v-btn
-                        v-for="item in items"
-                        min-width="auto"
-                        rounded="xl"
-                        :disabled="item.num === 0"
+
+            <div class="slide-btn">
+                <v-slide-group show-arrows mandatory>
+                    <v-slide-group-item
+                        v-for="n in slide"
+                        :key="n"
+                        v-slot="{ isSelected, toggle }"
                     >
-                        {{  item.name }} ({{ item.num }})
-                    </v-btn>
-                </v-btn-toggle>
+                        <v-btn
+                            min-width="auto"
+                            rounded="xl"
+                            variant="outlined"
+                            size="large"
+                            :class="isSelected ? 'bg-primary-darkblue': ''"
+                            @click="toggle"
+                        >
+                            {{ n.name }} ({{ n.num }})
+                        </v-btn>
+                    </v-slide-group-item>
+                </v-slide-group>
             </div>
 
             <v-divider class="svc-divide" />
