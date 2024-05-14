@@ -100,10 +100,17 @@
         border-radius: 2.4rem !important;
         .cell {
             .thumbnail {
-                --max-height: 38.2rem;
+                // --max-height: 38.4rem;
+                // --size: 38.2rem;
+                display: flex;
+                align-items: flex-start;
+                width: 100%;
+                height: 38.2rem;
+                overflow: hidden;
                 img {
                     width: 100%;
-                    max-height: var(--max-height);
+                    max-width: 100%;
+                    height: 100%;
                 }
             }
             .text {
@@ -114,9 +121,6 @@
                 }
                 .text-twolines {
                     min-height: 5.4rem;
-                    &.text-18 {
-                        color: #111518;
-                    }
                 }
                 .date {
                     margin-top: 1.6rem;
@@ -127,6 +131,10 @@
     }
     .services-more-area {
         padding-top: 6.4rem;
+        .btn-more {
+            height: 5.6rem;
+            box-sizing: border-box;
+        }
     }
 }
 
@@ -163,12 +171,19 @@
                 color: #333;
             }
             .icon-download {
+                flex-shrink: 0;
                 margin-right: 0.8rem;
             }
         }
     }
     .detail-info {
         padding: 1.6rem 0;
+        .img {
+            img {
+                max-width: 100%;
+                height: auto;
+            }
+        }
         .text-16 + .img {
             margin-top: 1.6rem;
         }
@@ -221,10 +236,18 @@
     }
     .services-more-area {
         padding-top: 6.4rem;
+        .btn-more {
+            height: 5.6rem;
+            box-sizing: border-box;
+        }
     }
 }
 
 
+// img
+img {
+    display: block;
+}
 
 // checkbox
 .inp-checkbox {
@@ -285,11 +308,88 @@
     .tab-area {
         max-width: 100vw;
     }
+
+    // 모바일 전체 마진
+    .sub-group {
+        padding: 0 2.4rem;
+    }
+    .sub-title-area {
+        margin-bottom: 2.4rem;
+    }
+
+    // 검색결과
+    .search-wrap {
+        margin-bottom: 3.2rem;
+        .search-box {
+            border-radius: .8rem;
+            .inp .v-text-field .v-field .v-field__append-inner {
+                padding-right: 1.2rem;
+            }
+        }
+    }
+
+    // 컨텐츠 리스트
+    .contents-list-area {
+        .v-row {
+            margin: -.8rem;
+            [class^='v-col-'] {
+                padding: .8rem;
+            }
+        }
+        .v-card {
+            border-radius: 1.6rem !important;
+            .cell {
+                .thumbnail {
+                    height: 100%;
+                }
+                .text {
+                    padding: 1.6rem;
+                    .text-twolines {
+                        min-height: 4.8rem;
+                    }
+                }
+            }
+        }
+        // .services-more-area {
+        //     padding-top: 4rem;
+        //     .btn-more {
+        //         width: 16rem;
+        //         height: 4rem;
+        //         padding: 1rem 1.6rem;
+        //         font-size: 1.4rem;
+        //         .icon-arrow {
+        //             width: 2rem;
+        //             height: 2rem;
+        //         }
+        //     }
+        // }
+    }
+    // 컨텐츠 상세
+    .contents-detail {
+        .article {
+            padding: 1.6rem 0;
+        }
+        .summary-info {
+            .subtitle-24 {
+                font-size: 1.8rem;
+            }
+            .text-row .v-divider--vertical {
+                margin: .25rem .8rem;
+            }
+        }
+        .detail-info {
+            .img + .text-16 {
+                margin-top: 3.2rem;
+            }
+        }
+    }
+
     // v-list
     .customer-list {
         .v-list .v-list-item {
             display: flex;
             flex-direction: column;
+            padding: 1.2rem 0;
             .v-list-item__prepend {
                 display: none;
             }
@@ -306,14 +406,55 @@
                     .icon-clip {
                         width: 2rem;
                         height: 2rem;
+                        margin-left: .4rem;
                         vertical-align: text-bottom;
                     }
                 }
             }
             .v-list-item__append {
                 justify-content: flex-start;
+                margin-top: 0.4rem;
                 margin-left: 0;
             }
+        }
+    }
+
+    .contents-list-area,
+    .customer-list {
+        .services-more-area {
+            padding-top: 4rem;
+            .btn-more {
+                width: 16rem;
+                height: 4rem;
+                padding: 1rem 1.6rem;
+                font-size: 1.4rem;
+                .icon-arrow {
+                    width: 2rem;
+                    height: 2rem;
+                }
+            }
+        }
+    }
+
+
+
+
+    // 공통
+    // checkbox
+    .inp-checkbox {
+        .v-label {
+            font-size: 1.4rem;
+        }
+    }
+    // input-text-field
+    .inp {
+        // .v-text-field input {
+        //     font-size: 1.4rem;
+        // }
+        .v-text-field {
+            .v-field__input::placeholder {
+                font-size: 1.4rem;
+            }          
         }
     }
 }

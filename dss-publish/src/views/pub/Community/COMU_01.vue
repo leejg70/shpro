@@ -15,11 +15,11 @@
         <!-- 컨텐츠 리스트 -->
         <div class="contents-list-area">
             <v-row>
-                <v-col cols="6" md="4" v-for="item in 9">
+                <v-col cols="6" md="4" v-for="item in 6">
                     <v-card role="button" to="/COMU_01_01_r" variant="outlined" class="item">
                         <div class="cell">
                             <div class="thumbnail">
-                                <img src="@/assets/images/img_dummy.png" alt="샘플이미지" />
+                                <img src="@/assets/images/img02.jpg" alt="img" />
                             </div>
                             <div class="text">
                                 <div class="category text-16">DataNews</div>

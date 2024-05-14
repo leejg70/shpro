@@ -45,7 +45,7 @@ function onClick() {
                             <v-icon class="icon-clip" />
                         </div>
                         <!-- mobile -->
-                        <div class="mo text-14">
+                        <div class="mo text-16">
                             우리은행, 광주은행 시스템 점검으로 인한 서비스 일시 중단 안내
                             <v-icon class="icon-clip" />
                         </div>

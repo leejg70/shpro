@@ -31,7 +31,7 @@
                         또한 해당 데이터는 k-익명성에 따라 3건 이상 결제 데이터만 제공하고 있습니다.
                     </div>
                     <div class="img">
-                        <div class="d-flex align-center justify-center" style="max-width: 120rem; min-height: 30rem; background: #eee;">이미지영역</div>
+                        <img src="@/assets/images/img01.jpg" alt="샘플이미지" />
                     </div>
                     <div class="text-16">
                         해당 데이터는 23년 9월 기준 전국 행정동 단위 신한카드 배달 산업 가맹점 결제 트랜드 데이터를 제공합니다.<br />
@@ -39,7 +39,7 @@
                         또한 해당 데이터는 k-익명성에 따라 3건 이상 결제 데이터만 제공하고 있습니다.
                     </div>
                     <div class="img">
-                        <div class="d-flex align-center justify-center" style="max-width: 120rem; min-height: 30rem; background: #eee;">이미지영역</div>
+                        <img src="@/assets/images/img01.jpg" alt="샘플이미지" />
                     </div>
                 </div>
             </div>

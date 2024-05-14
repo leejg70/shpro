@@ -24,14 +24,6 @@
             flex: 1;
             padding: 0 2.4rem;
             border-left: 1px solid #E5E5E5;
-            // .v-text-field input {
-            //   min-height: auto;
-            //   height: 4.2rem;
-            //   font-size: 1.4rem;
-            // }
-            // .v-field__input::placeholder {
-            //   font-size: 1.4rem;
-            // }
         }
         .btn-group {
             flex-wrap: wrap;
@@ -47,9 +39,6 @@
                     color: #fff;
                     background-color: #383B5A;
                 }
-                // +.v-btn {
-                //     margin-left: .8rem;
-                // }
             }
         }
     }
@@ -247,13 +236,17 @@
         }
         .img-area {
             padding-left: 3.2rem;
+            img {
+                width: 6.4rem;
+                height: 6.4rem;
+            }
         }
     }
     .btn-area {
         display: flex;
         justify-content: center;
         margin-top: 2.4rem;
-        padding-top: 2.4rem;
+        padding-top: 4rem;
         border-top: 1px solid #E5E5E5;
         .v-btn {
             min-width: 22.4rem;
@@ -316,6 +309,10 @@
         }
         .img {
             margin-bottom: 4rem;
+            img {
+                max-width: 120rem;
+                min-height: 30rem;
+            }
         }
         [class^='group-'] {
             margin: 4rem 0;
@@ -610,42 +607,6 @@
 }
 
 
-// margin
-// .mt-1 { margin-top: .4rem; }
-// .mt-2 { margin-top: .8rem; }
-// .mt-3 { margin-top: 1.2rem; }
-// .mt-4 { margin-top: 1.6rem; }
-// .mt-5 { margin-top: 2.0rem; }
-// .mt-6 { margin-top: 2.4rem; }
-// .mt-7 { margin-top: 2.8rem; }
-// .mt-8 { margin-top: 3.2rem; }
-// .mt-9 { margin-top: 3.6rem; } 
-// .mt-10 { margin-top: 4.0rem; }
-// .mt-11 { margin-top: 4.4rem; }
-// .mt-12 { margin-top: 4.8rem; }
-// .mt-13 { margin-top: 5.2rem; }
-// .mt-14 { margin-top: 5.6rem; }
-// .mt-15 { margin-top: 6.0rem; }
-// .mt-16 { margin-top: 6.4rem; }
-
-// .mb-1 { margin-bottom: .4rem; }
-// .mb-2 { margin-bottom: .8rem; }
-// .mb-3 { margin-bottom: 1.2rem; }
-// .mb-4 { margin-bottom: 1.6rem; }
-// .mb-5 { margin-bottom: 2.0rem; }
-// .mb-6 { margin-bottom: 2.4rem; }
-// .mb-7 { margin-bottom: 2.8rem; }
-// .mb-8 { margin-bottom: 3.2rem; }
-// .mb-9 { margin-bottom: 3.6rem; }
-// .mb-10 { margin-bottom: 4.0rem; }
-// .mb-11 { margin-bottom: 4.4rem; }
-// .mb-12 { margin-bottom: 4.8rem; }
-// .mb-13 { margin-bottom: 5.2rem; }
-// .mb-14 { margin-bottom: 5.6rem; }
-// .mb-15 { margin-bottom: 6.0rem; }
-// .mb-16 { margin-bottom: 6.4rem; }
-
-
 @media only screen and (max-width: 1280px) {
     .icon-wishlist-off {
         width: 2rem;
@@ -709,8 +670,35 @@
             padding-top: 4rem;
         }
     }
+
+    // 검색결과 - noData
+    .search-result {
+        padding: 4.8rem 0 3.2rem;
+        .text {
+            font-size: 1.8rem;
+        }
+        .desc {
+            margin-top: 0.4rem;
+            font-size: 1.4rem;
+        }
+    }
+    
     // flag
     .flag {   
         font-size: 1rem;
+    }
+    
+    .btn-list {
+        margin-top: 4rem;
+        .v-btn {
+            min-width: 100%;
+        }
+    }
+
+
+    // icon
+    .btn-search-blue {
+        width: 2.4rem;
+        height: 2.4rem;
     }
 }
