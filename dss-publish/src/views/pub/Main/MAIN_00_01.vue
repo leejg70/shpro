@@ -87,7 +87,7 @@ function onClick() {
                                         <v-icon class="icon-hot" />
                                     </div>
                                     <div class="favorites">
-                                        <v-btn @click.stop="active = !active" variant="flat" min-width="auto" height="auto" class="pa-0">
+                                        <v-btn @click.prevent="active = !active" variant="flat" min-width="auto" height="auto" class="pa-0">
                                             <v-icon :icon="active ? 'icon-wishlist' : 'icon-wishlist-off'" />
                                         </v-btn>
                                     </div>

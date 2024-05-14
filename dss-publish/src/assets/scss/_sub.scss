@@ -44,6 +44,9 @@
             }
         }
     }
+    &.search-mo {
+        display: none;
+    }
 }
 
 // slide-btn
@@ -327,6 +330,9 @@ img {
             .inp .v-text-field .v-field .v-field__append-inner {
                 padding-right: 1.2rem;
             }
+        }
+        &.search-mo {
+            display: block;
         }
     }
 

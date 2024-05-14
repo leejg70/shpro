@@ -8,15 +8,17 @@ const items1 = ['전체', '시장분석', '상권분석', '고객분석', '관�
 const items2 = ['전체', '개인사업자', '카드데이터', '마이데이터', '가맹결합'];
 const items3 = ['전체', '공공기관', '민간기관', '금융기관', '마케팅대행사'];
 const active = ref(true);
+function onClick() {
+};
 </script>
 
 <template>
-    <div class="data-service">
+    <div class="sub-group data-service">
         <div class="sub-title-area">
             <h4 class="sub-title">Data 상품</h4>
         </div>
 
-        <!-- search -->
+        <!-- search - pc -->
         <div class="service-search-area">
             <div class="search-row">
                 <div class="search-title">분석 목적</div>
@@ -78,13 +80,30 @@ const active = ref(true);
         </div>
         <!--// search -->
 
+        <!-- search - mobile -->
+        <div class="search-wrap search-mo">
+            <div class="search-box">
+                <div class="inp">
+                    <v-text-field
+                        hide-details clearable
+                        variant="outlined"
+                        color="primary"
+                        append-inner-icon="btn-search-blue"
+                        placeholder="검색어 입력"
+                        @click:append-inner="onClick"
+                    />
+                </div>
+            </div>
+        </div>
+        <!--// search - mobile -->
+
         <v-divider class="svc-divide" />
 
         <!-- 상품리스트 -->
         <div class="service-list-area">
             <v-row>
                 <v-col cols="12" md="6" v-for="item in 6">
-                    <v-card role="button" variant="outlined" class="service-list">
+                    <v-card role="button" to="/PRDD_00_01" variant="outlined" class="service-list">
                         <div class="top-area">
                             <div class="category-title">Data/API서비스</div>
                             <div class="icon-area">
@@ -93,7 +112,7 @@ const active = ref(true);
                                     <v-icon class="icon-hot" />
                                 </div>
                                 <div class="favorites">
-                                    <v-btn @click.stop="active = !active" variant="flat" min-width="auto" height="auto" class="pa-0">
+                                    <v-btn @click.prevent="active = !active" variant="flat" min-width="auto" height="auto" class="pa-0">
                                         <v-icon :icon="active ? 'icon-wishlist' : 'icon-wishlist-off'" />
                                     </v-btn>
                                 </div>
@@ -110,8 +129,8 @@ const active = ref(true);
                             <div class="title text-truncate" title="상품명은 한줄로 제한 한줄 초과 시 말줄임처리 말줄임처리 말줄임처리 말줄임처리">상품명은 한줄로 제한 한줄 초과 시 말줄임처리 말줄임처리 말줄임처리 말줄임처리</div>
                             <div class="text-area">
                                 <div class="text text-twolines" title="2024 전국 ~~">2024 전국 스타벅스 매장 연령별 결제 데이터 두줄일 경우 2024 전국 스타벅스 매장 연령별 결제 데이터 두줄일 2024 전국 스타벅스 매장 연령별 결제 데이터 두줄일 경우</div>
-                                <div class="flex-shrink-0 ml-auto">
-                                    <div class="d-flex align-center justify-center" style="width:6.4rem; height:6.4rem; background:#eee;">썸네일이미지</div>
+                                <div class="img-biz flex-shrink-0 ml-auto">
+                                    <img src="@/assets/images/icon/icon-biz.png" alt="샘플이미지" />
                                 </div>
                             </div>
                         </div>
