@@ -3,56 +3,74 @@
 .my {
   position: relative;
   padding: 0;
-  .menu-list {
-    // overflow: hidden;
-    // position: relative;
-    // display: flex;
-    // flex-wrap: wrap;
-    // margin: 0 -1.2rem;
-    a {
-      position: relative;
-      display: block;
-      padding: 1.6rem 2.4rem;
+  .submenu-list {
+    position: relative;
+    padding: 2.4rem 0 6.4rem;
+    .v-list {
+      padding: 0;
+      color: #111518;
       border: .1rem solid #e5e5e5;
       border-radius: 1.6rem;
-      em {
-        display: flex;
-        align-items: center;
-        position: relative;
-        height: 3rem;
-        font-size: 1.6rem;
-        color: #111518;
+      &.selected {
+        border: .1rem solid #356cff;
+        box-shadow: 0 1.6rem 1.6rem 0 rgba(19, 38, 89, .06);
       }
-      &::after {
-        content: "";
-        display: block;
-        position: absolute;
-        width: 3.2rem;
-        height: 3.2rem;
-        background-repeat: no-repeat;
-        background-position: right bottom;
+      .v-list-item {
+        padding: 1.5rem 2.4rem;
+        min-height: 6.4rem;
+        // border: .1rem solid #e5e5e5;
+        // border-radius: 1.6rem;
+        // &.v-list-item--active {
+        //   border: .1rem solid #356cff;
+        // }
+        &:hover > .v-list-item__overlay,
+        &.v-list-item--active > .v-list-item__overlay {
+          opacity: 0;
+        }
+      }
+    }
+    .v-avatar {
+      width: 3.2rem;
+      height: 3.2rem;
+      border-radius: 0;
+      .my-contract {
+        width: 100%;
+        height: 100%;
+        background-image: url('../images/icon/icon_my_contract.png');
         background-size: 100%;
       }
-      &.my-contract::after {
-        right: 2.4rem;
-        bottom: 1.6rem;
-        background-image: url('../images/icon/icon_my_contract.png');
-      }
-      &.my-wishlist::after {
-        right: 2.4rem;
-        bottom: 1.6rem;
+      .my-wishlist {
+        width: 100%;
+        height: 100%;
         background-image: url('../images/icon/icon-wishlist.png');
+        background-size: 100%;
       }
-      &.my-qa::after {
-        right: 2.4rem;
-        bottom: 1.6rem;
+      .my-qa {
+        width: 100%;
+        height: 100%;
         background-image: url('../images/icon/icon_my_qa.png');
+        background-size: 100%;
       }
-      &.my-alarm::after {
-        right: 2.4rem;
-        bottom: 1.6rem;
+      .my-alarm {
+        width: 100%;
+        height: 100%;
         background-image: url('../images/icon/icon_my_alarm.png');
+        background-size: 100%;
+        &::after {
+          content: '';
+          display: block;
+          position: absolute;
+          right: 0;
+          top: 0;
+          width: .4rem;
+          height: .4rem;
+          background-color: #FF405B;
+          border-radius: 50%;
+        }
       }
+    }
+    .v-list-item-title {
+      font-size: 1.6rem;
     }
   }
 }
@@ -61,5 +79,11 @@
   .my {
     width: 100%;
     padding: 0 2.4rem;
+    .submenu-list {
+      .v-col-md-3 {
+        flex: 0 0 25%;
+        max-width: 25%;
+      }
+    }
   }
 }

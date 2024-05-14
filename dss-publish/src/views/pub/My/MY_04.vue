@@ -1,26 +1,31 @@
 <script setup>
 import { ref } from 'vue';
 
-const myLink = ref([
+const selected = ref('')
+const items = ref([
   {
-    title: '나의계약',
-    link: 'javascript:;',
-    icon: 'my-contract'
+    link: '/MY_03',
+    icon: 'my-contract',
+    text: '나의계약',
+    
   },
   {
-    title: '관심상품',
-    link: 'javascript:;',
-    icon: 'my-wishlist'
+    link: 'MY_04',
+    icon: 'my-wishlist',
+    text: '관심상품',
+    select: 'selected'
   },
   {
-    title: '나의문의',
-    link: 'javascript:;',
-    icon: 'my-qa'
+    link: 'MY_08',
+    icon: 'my-qa',
+    text: '나의문의',
+    
   },
   {
-    title: '알림',
-    link: 'javascript:;',
-    icon: 'my-alarm'
+    link: 'MY_06',
+    icon: 'my-alarm',
+    text: '알림',
+    
   }
 ]);
 const active = ref(true);
@@ -42,29 +47,31 @@ const active = ref(true);
 
       </div>
     </div>
-    <div class="menu-list">
+    <div class="submenu-list">
       <v-row>
-        <v-col cols="12" md="3" v-for="(item, i) in myLink">
-          <a :href="item.link" :class="item.icon">
-            <em><span>{{ item.title }}</span></em>
-          </a>
+        <v-col cols="12" md="3" v-for="(item, i) in items">
+          <v-list
+            :class="item.select"
+            v-model:selected="selected"
+            density="compact"
+          >
+            <v-list-item
+              :value="item"
+              :to="item.link"
+              link
+            >
+              <template v-slot:append>
+                <v-avatar>
+                  <v-icon :icon="item.icon" />
+                </v-avatar>
+              </template>
+              <v-list-item-title v-text="item.text" />
+            </v-list-item>
+          </v-list>
         </v-col>
       </v-row>
     </div>
-    <!-- <div class="menu-list">
-      <a href="javascript:;" class="my-contract">
-        <em><span>나의계약</span></em>
-      </a>
-      <a href="javascript:;" class="my-goods selected">
-        <em><span>관심상품</span></em>
-      </a>
-      <a href="javascript:;" class="my-inquiry">
-        <em><span>나의문의</span></em>
-      </a>
-      <a href="javascript:;" class="my-alarm">
-        <em><span>알림</span></em>
-      </a>
-    </div> -->
+    <div class="">총 <span>10건</span></div>
     <v-divider class="svc-divide" />
     <!-- 상품리스트 -->
     <div class="service-list-area">
