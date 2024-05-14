@@ -130,7 +130,9 @@
         border-radius: 2.4rem;
         border: 1px solid #E5E5E5;
         background: #FFF;
-
+        button{
+          width: 100%;
+        }
         .main-login-photo {
           width: 4.6rem;
           height: 4.6rem;
@@ -1576,6 +1578,10 @@
     width: 2rem;
     height: 2rem;
   }
+  .services-box .prod-flag-wrap .text-twolines{
+    height: 6.4rem;
+  }
+
   // .services-box {
   //   margin-top: 1.6rem;
   //   width: 100%;
