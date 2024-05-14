@@ -9,5 +9,9 @@ export const router = createRouter({
     CommonRoutes,
     DefaultRoutes,
     GuideRoutes
-  ]
+  ],
+  // 페이지 이동 시 스크롤 최상단 설정
+  scrollBehavior () {
+    return { top: 0 }
+  },
 });
