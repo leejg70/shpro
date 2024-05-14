@@ -90,18 +90,18 @@ const navigation = reactive({
       </div>
       <!-- PC전용 로그인 -->
       <div class="my-login-wrap pc-wrap">
-        <div class="outlogin-box">        
-          <v-icon class="main-login-photo"><img src="../../../assets/images/icon/icon_main_login.png" alt=""></v-icon>
-          <p class="login-txt">로그인 후<br>나만의 맞춤 정보를 이용하세요.</p> 
-          <v-btn
-            :ripple="false"
-            variant="flat"
-            color="primary"
-            size="large"
-            rounded="lg"
-          >
-          로그인
-          </v-btn> 
+        <div class="outlogin-box login-box">        
+            <span class="main-login-photo"><img src="../../../assets/images/icon/icon_main_login.png" alt=""></span>
+            <p class="login-txt">로그인 후<br>나만의 맞춤 정보를 이용하세요.</p> 
+            <v-btn
+              :ripple="false"
+              variant="flat"
+              color="primary"
+              size="large"
+              rounded="lg"
+            >
+            로그인
+            </v-btn>   
         </div>
         <!-- <div class="outlogin-box">
           <div class="logout-txt">
@@ -196,6 +196,80 @@ const navigation = reactive({
       </div>
     </div>
 
+    <div class="visual-layout-area mobile-wrap">
+      <div class="my-login-wrap">
+        <div class="outlogin-box  login-box">
+          <span class="main-login-photo"><img src="../../../assets/images/icon/icon_main_login.png" alt=""></span>
+          <p class="login-txt">로그인 후<br>나만의 맞춤 정보를 이용하세요.</p> 
+          <v-btn
+            :ripple="false"
+            variant="flat"
+            color="primary"
+            size="large"
+            rounded="lg"
+          >
+          로그인
+          </v-btn>         
+        </div>
+        <!-- <div class="outlogin-box">
+          <div class="logout-txt">
+            <p>안녕하세요.</p>
+            <p class="name">김신한님!</p>
+          </div>
+          <div class="logout-btn-area">
+            <v-btn  class="btn-mylink">
+              <v-icon>icon-my-contract</v-icon>
+              <span class="text">나의계약</span>
+            </v-btn>
+            <v-btn class="btn-mylink">
+              <v-icon>icon-my-qa</v-icon>
+              <span class="text">나의문의</span>
+            </v-btn>
+            <v-btn class="btn-mylink">
+              <v-icon>icon-my-alarm on</v-icon>
+              <span class="text">알림</span>
+            </v-btn>
+          </div>
+        </div> -->
+        <div class="notice-box">
+          <div class="notice-banner">
+            <div class="category-title">데이터블루 활용장</div>
+            <div class="title">데이터 활용 성공 노하우</div>
+            <div class="notice-graph"><v-icon>icon-data-graph</v-icon></div>
+          </div>
+          <div class="report-roll-box">
+            <swiper
+              :loop="true"
+              :spaceBetween="24"
+              :autoplay="{
+                delay: 2500,
+                disableOnInteraction: false,
+              }"
+              :speed="1000"
+              :pagination="{
+                clickable: true,
+              }"
+              :modules="[Autoplay, Pagination]"
+            >
+              <swiper-slide>
+                <span class="flag">Trend Report</span>
+                  <a href="javascript:;">
+                    <p class="text">ShinhanCard Data Market 신규 오픈 ShinhanCard Data Market 신규 오픈 ShinhanCard Data Market 신규 오픈 ShinhanCard Data Market 신규 오픈</p>
+                    <p class="date">2024.08.08</p>
+                  </a>
+              </swiper-slide>
+              <swiper-slide>
+                <span class="flag">Trend Report</span>
+                  <a href="javascript:;">
+                    <p class="text">ShinhanCard Data Market 신규 오픈(두줄)</p>
+                    <p class="date">2024.08.08</p>
+                  </a>
+              </swiper-slide>
+            </swiper>
+          </div>
+        </div>
+      </div>
+    </div>
     <div class="main-card-wrap">
       <div class="main-card-inner">
         <v-btn class="card-box">
@@ -204,7 +278,7 @@ const navigation = reactive({
             <strong class="card-title">Data서비스</strong>
           </div>
           <v-icon class="card-icon ico-main-data"></v-icon>
-          <spoan class="card-text">Data One-Stop Service</spoan>
+          <span class="card-text">Data One-Stop Service</span>
           <v-icon>icon-card-arrow</v-icon>
         </v-btn>
         <v-btn class="card-box">
@@ -213,7 +287,7 @@ const navigation = reactive({
           <strong class="card-title">솔루션서비스 </strong>
           </div>
           <v-icon class="card-icon ico-main-solution"></v-icon>
-          <spoan class="card-text">상권분석, 시장 모니터링</spoan>
+          <span class="card-text">상권분석, 시장 모니터링</span>
           <v-icon>icon-card-arrow</v-icon>
         </v-btn>
         <v-btn class="card-box">
@@ -222,7 +296,7 @@ const navigation = reactive({
             <strong class="card-title">광고서비스 </strong>
           </div>
           <v-icon class="card-icon ico-main-ad"></v-icon>
-          <spoan class="card-text">최적의 고객 타겟팅</spoan>
+          <span class="card-text">최적의 고객 타겟팅</span>
           <v-icon>icon-card-arrow</v-icon>
         </v-btn>
         <v-btn class="card-box">
@@ -231,7 +305,7 @@ const navigation = reactive({
             <strong class="card-title">API서비스</strong>
           </div>
           <v-icon class="card-icon ico-main-api"></v-icon>
-          <spoan class="card-text">Data 실시간 활용</spoan>
+          <span class="card-text">Data 실시간 활용</span>
           <v-icon>icon-card-arrow</v-icon>
         </v-btn>
       </div>
@@ -295,10 +369,10 @@ const navigation = reactive({
           <div class="banner">
             <div class="category-title">Trend Report+Case Study</div>
             <div class="title">신한카드 Data 200% 활용법</div>
-            <divn class="btn-area">
+            <div class="btn-area">
               <span>커뮤니티</span>
               <v-icon>btn-main-arrow</v-icon>
-            </divn>
+            </div>
             <v-icon>icon-graph</v-icon>
           </div>
         </a>
@@ -306,10 +380,10 @@ const navigation = reactive({
           <div class="banner">
             <div class="category-title">Data+Data+Data</div>
             <div class="title">나만의 Data 맞춤 서비스</div>
-            <divn class="btn-area">
+            <div class="btn-area">
               <span>맞춤Data</span>
               <v-icon>btn-main-arrow</v-icon>
-            </divn>
+            </div>
             <v-icon>icon-sawlike</v-icon>
           </div>
         </a>
@@ -320,8 +394,63 @@ const navigation = reactive({
         <h2 class="main-title">
           <span class="fw300">Value Together</span>
           <span class="fw700">Shinhan Datable</span>
-        </h2>
+         </h2>
+      </div>      
+      <div class="datable-slide">
+        <div class="slide-inner">
+          <div class="slider">
+            <ul>                     
+              <li><img src="../../../assets/images/main/banner01.png" alt=""></li>
+              <li><img src="../../../assets/images/main/banner02.png" alt=""></li>
+              <li><img src="../../../assets/images/main/banner03.png" alt=""></li>
+              <li><img src="../../../assets/images/main/banner04.png" alt=""></li>
+              <li><img src="../../../assets/images/main/banner05.png" alt=""></li>
+              <li><img src="../../../assets/images/main/banner06.png" alt=""></li>
+              <li><img src="../../../assets/images/main/banner07.png" alt=""></li>
+              <li><img src="../../../assets/images/main/banner08.png" alt=""></li>
+              <li><img src="../../../assets/images/main/banner09.png" alt=""></li>            
+            </ul>    
+            <ul>                     
+              <li><img src="../../../assets/images/main/banner01.png" alt=""></li>
+              <li><img src="../../../assets/images/main/banner02.png" alt=""></li>
+              <li><img src="../../../assets/images/main/banner03.png" alt=""></li>
+              <li><img src="../../../assets/images/main/banner04.png" alt=""></li>
+              <li><img src="../../../assets/images/main/banner05.png" alt=""></li>
+              <li><img src="../../../assets/images/main/banner06.png" alt=""></li>
+              <li><img src="../../../assets/images/main/banner07.png" alt=""></li>
+              <li><img src="../../../assets/images/main/banner08.png" alt=""></li>
+              <li><img src="../../../assets/images/main/banner09.png" alt=""></li>            
+            </ul>
+          </div>
+        </div>
+        <div class="slide-inner">
+          <div class="slider slider2">
+            <ul>                     
+              <li><img src="../../../assets/images/main/banner01.png" alt=""></li>
+              <li><img src="../../../assets/images/main/banner02.png" alt=""></li>
+              <li><img src="../../../assets/images/main/banner03.png" alt=""></li>
+              <li><img src="../../../assets/images/main/banner04.png" alt=""></li>
+              <li><img src="../../../assets/images/main/banner05.png" alt=""></li>
+              <li><img src="../../../assets/images/main/banner06.png" alt=""></li>
+              <li><img src="../../../assets/images/main/banner07.png" alt=""></li>
+              <li><img src="../../../assets/images/main/banner08.png" alt=""></li>
+              <li><img src="../../../assets/images/main/banner09.png" alt=""></li>            
+            </ul>    
+            <ul>                     
+              <li><img src="../../../assets/images/main/banner01.png" alt=""></li>
+              <li><img src="../../../assets/images/main/banner02.png" alt=""></li>
+              <li><img src="../../../assets/images/main/banner03.png" alt=""></li>
+              <li><img src="../../../assets/images/main/banner04.png" alt=""></li>
+              <li><img src="../../../assets/images/main/banner05.png" alt=""></li>
+              <li><img src="../../../assets/images/main/banner06.png" alt=""></li>
+              <li><img src="../../../assets/images/main/banner07.png" alt=""></li>
+              <li><img src="../../../assets/images/main/banner08.png" alt=""></li>
+              <li><img src="../../../assets/images/main/banner09.png" alt=""></li>            
+            </ul>                 
+          </div>
+        </div>
       </div>
+     
     </div>
     <div class="main-customer-wrap">
       <h2 class="main-title">
@@ -333,10 +462,10 @@ const navigation = reactive({
           <a href="" class="banner-link">
             <strong class="title">사업제휴</strong>
             <div class="text">새로운 아이디어와<br>사업제안을 환영합니다.</div>
-            <divn class="btn-area">
+            <div class="btn-area">
               <span>Datable 제휴신청</span>
               <v-icon>btn-main-arrow</v-icon>
-            </divn>
+            </div>
             <v-icon>icon-hand</v-icon>
           </a>
         </div>

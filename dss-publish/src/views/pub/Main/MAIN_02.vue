@@ -341,8 +341,8 @@ const navigation = reactive({
                                 <div class="title text-truncate" title="상품명은 한줄로 제한 한줄 초과 시 말줄임처리 말줄임처리 말줄임처리 말줄임처리">상품명은 한줄로 제한 한줄 초과 시 말줄임처리 말줄임처리 말줄임처리 말줄임처리</div>
                                 <div class="text-area">
                                     <div class="text text-twolines" title="2024 전국 ~~">2024 전국 스타벅스 매장 연령별 결제 데이터 두줄일 경우 2024 전국 스타벅스 매장 연령별 결제 데이터 두줄일 2024 전국 스타벅스 매장 연령별 결제 데이터 두줄일 경우</div>
-                                    <div class="flex-shrink-0 ml-auto">
-                                        <div class="d-flex align-center justify-center" style="width:6.4rem; height:6.4rem; background:#eee;">썸네일이미지</div>
+                                    <div class="img-biz flex-shrink-0 ml-auto">
+                                        <img src="../../../assets/images/icon/icon-biz.png" alt="">                                       
                                     </div>
                                 </div>
                             </div>
@@ -393,8 +393,63 @@ const navigation = reactive({
         <h2 class="main-title">
           <span class="fw300">Value Together</span>
           <span class="fw700">Shinhan Datable</span>
-        </h2>
+         </h2>
+      </div>      
+      <div class="datable-slide">
+        <div class="slide-inner">
+          <div class="slider">
+            <ul>                     
+              <li><img src="../../../assets/images/main/banner01.png" alt=""></li>
+              <li><img src="../../../assets/images/main/banner02.png" alt=""></li>
+              <li><img src="../../../assets/images/main/banner03.png" alt=""></li>
+              <li><img src="../../../assets/images/main/banner04.png" alt=""></li>
+              <li><img src="../../../assets/images/main/banner05.png" alt=""></li>
+              <li><img src="../../../assets/images/main/banner06.png" alt=""></li>
+              <li><img src="../../../assets/images/main/banner07.png" alt=""></li>
+              <li><img src="../../../assets/images/main/banner08.png" alt=""></li>
+              <li><img src="../../../assets/images/main/banner09.png" alt=""></li>            
+            </ul>    
+            <ul>                     
+              <li><img src="../../../assets/images/main/banner01.png" alt=""></li>
+              <li><img src="../../../assets/images/main/banner02.png" alt=""></li>
+              <li><img src="../../../assets/images/main/banner03.png" alt=""></li>
+              <li><img src="../../../assets/images/main/banner04.png" alt=""></li>
+              <li><img src="../../../assets/images/main/banner05.png" alt=""></li>
+              <li><img src="../../../assets/images/main/banner06.png" alt=""></li>
+              <li><img src="../../../assets/images/main/banner07.png" alt=""></li>
+              <li><img src="../../../assets/images/main/banner08.png" alt=""></li>
+              <li><img src="../../../assets/images/main/banner09.png" alt=""></li>            
+            </ul>
+          </div>
+        </div>
+        <div class="slide-inner">
+          <div class="slider slider2">
+            <ul>                     
+              <li><img src="../../../assets/images/main/banner01.png" alt=""></li>
+              <li><img src="../../../assets/images/main/banner02.png" alt=""></li>
+              <li><img src="../../../assets/images/main/banner03.png" alt=""></li>
+              <li><img src="../../../assets/images/main/banner04.png" alt=""></li>
+              <li><img src="../../../assets/images/main/banner05.png" alt=""></li>
+              <li><img src="../../../assets/images/main/banner06.png" alt=""></li>
+              <li><img src="../../../assets/images/main/banner07.png" alt=""></li>
+              <li><img src="../../../assets/images/main/banner08.png" alt=""></li>
+              <li><img src="../../../assets/images/main/banner09.png" alt=""></li>            
+            </ul>    
+            <ul>                     
+              <li><img src="../../../assets/images/main/banner01.png" alt=""></li>
+              <li><img src="../../../assets/images/main/banner02.png" alt=""></li>
+              <li><img src="../../../assets/images/main/banner03.png" alt=""></li>
+              <li><img src="../../../assets/images/main/banner04.png" alt=""></li>
+              <li><img src="../../../assets/images/main/banner05.png" alt=""></li>
+              <li><img src="../../../assets/images/main/banner06.png" alt=""></li>
+              <li><img src="../../../assets/images/main/banner07.png" alt=""></li>
+              <li><img src="../../../assets/images/main/banner08.png" alt=""></li>
+              <li><img src="../../../assets/images/main/banner09.png" alt=""></li>            
+            </ul>                 
+          </div>
+        </div>
       </div>
+     
     </div>
     <div class="main-customer-wrap">
       <h2 class="main-title">
