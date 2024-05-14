@@ -90,7 +90,7 @@ const navigation = reactive({
       </div>
       <!-- PC전용 로그인 -->
       <div class="my-login-wrap pc-wrap">
-        <!-- <div class="outlogin-box">        
+        <div class="outlogin-box">        
           <v-icon class="main-login-photo"><img src="../../../assets/images/icon/icon_main_login.png" alt=""></v-icon>
           <p class="login-txt">로그인 후<br>나만의 맞춤 정보를 이용하세요.</p> 
           <v-btn
@@ -102,8 +102,8 @@ const navigation = reactive({
           >
           로그인
           </v-btn> 
-        </div> -->
-        <div class="outlogin-box">
+        </div>
+        <!-- <div class="outlogin-box">
           <div class="logout-txt">
             <p>안녕하세요.</p>
             <p class="name">김신한님!</p>
@@ -122,7 +122,7 @@ const navigation = reactive({
               <span class="text">알림</span>
             </v-btn>
           </div>
-        </div>
+        </div> -->
         <div class="notice-box">
           <div class="notice-banner">
             <div class="category-title">데이터블루 활용장</div>
@@ -196,80 +196,6 @@ const navigation = reactive({
       </div>
     </div>
 
-    <div class="visual-layout-area mobile-wrap">
-      <div class="my-login-wrap">
-        <div class="outlogin-box">        
-          <v-icon class="main-login-photo"><img src="../../../assets/images/icon/icon_main_login.png" alt=""></v-icon>
-          <p class="login-txt">로그인 후<br>나만의 맞춤 정보를 이용하세요.</p> 
-          <v-btn
-            :ripple="false"
-            variant="flat"
-            color="primary"
-            size="large"
-            rounded="lg"
-          >
-          로그인
-          </v-btn> 
-        </div>
-        <!-- <div class="outlogin-box">
-          <div class="logout-txt">
-            <p>안녕하세요.</p>
-            <p class="name">김신한님!</p>
-          </div>
-          <div class="logout-btn-area">
-            <v-btn  class="btn-mylink">
-              <v-icon>icon-my-contract</v-icon>
-              <span class="text">나의계약</span>
-            </v-btn>
-            <v-btn class="btn-mylink">
-              <v-icon>icon-my-qa</v-icon>
-              <span class="text">나의문의</span>
-            </v-btn>
-            <v-btn class="btn-mylink">
-              <v-icon>icon-my-alarm on</v-icon>
-              <span class="text">알림</span>
-            </v-btn>
-          </div>
-        </div> -->
-        <div class="notice-box">
-          <div class="notice-banner">
-            <div class="category-title">데이터블루 활용장</div>
-            <div class="title">데이터 활용 성공 노하우</div>
-            <div class="notice-graph"><v-icon>icon-data-graph</v-icon></div>
-          </div>
-          <div class="report-roll-box">
-            <swiper
-              :loop="true"
-              :spaceBetween="24"
-              :autoplay="{
-                delay: 2500,
-                disableOnInteraction: false,
-              }"
-              :speed="1000"
-              :pagination="{
-                clickable: true,
-              }"
-              :modules="[Autoplay, Pagination]"
-            >
-              <swiper-slide>
-                <span class="flag">Trend Report</span>
-                  <a href="javascript:;">
-                    <p class="text">ShinhanCard Data Market 신규 오픈 ShinhanCard Data Market 신규 오픈 ShinhanCard Data Market 신규 오픈 ShinhanCard Data Market 신규 오픈</p>
-                    <p class="date">2024.08.08</p>
-                  </a>
-              </swiper-slide>
-              <swiper-slide>
-                <span class="flag">Trend Report</span>
-                  <a href="javascript:;">
-                    <p class="text">ShinhanCard Data Market 신규 오픈(두줄)</p>
-                    <p class="date">2024.08.08</p>
-                  </a>
-              </swiper-slide>
-            </swiper>
-          </div>
-        </div>
-      </div>
-    </div>
     <div class="main-card-wrap">
       <div class="main-card-inner">
         <v-btn class="card-box">
