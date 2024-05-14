@@ -1107,7 +1107,7 @@
 									<td class="col-url"><router-link to="/NOTI_01" target="_blank">/views/pub/Customer/NOTI_01</router-link></td>
 									<td class="col-date">2024-05-09</td>
 									<td class="col-complete"></td>
-									<td class="col-memo text-error">모바일 css 적용예정</td>
+									<td class="col-memo text-error">5/14 모바일 css반영완료</td>
 								</tr>
 								<tr>
 									<td class="col-num"></td>
@@ -1152,7 +1152,7 @@
 									<td class="col-url"><router-link to="/NOTI_00_01" target="_blank">/views/pub/Customer/NOTI_00_01</router-link></td>
 									<td class="col-date">2024-05-09</td>
 									<td class="col-complete"></td>
-									<td class="col-memo text-error">모바일 css 적용예정</td>
+									<td class="col-memo text-error">5/14 모바일 css반영완료</td>
 								</tr>
 								<tr>
 									<td class="col-num"></td>
@@ -1256,7 +1256,7 @@
 									<td class="col-url"><router-link to="/COMU_01" target="_blank">/views/pub/Community/COMU_01</router-link></td>
 									<td class="col-date">2024-05-09</td>
 									<td class="col-complete"></td>
-									<td class="col-memo text-error">모바일 css 적용예정</td>
+									<td class="col-memo text-error">5/14 모바일 css반영완료</td>
 								</tr>
 								<tr>
 									<td class="col-num"></td>
@@ -1269,7 +1269,7 @@
 									<td class="col-url"><router-link to="/COMU_01_01_r" target="_blank">/views/pub/Community/COMU_01_01_r</router-link></td>
 									<td class="col-date">2024-05-09</td>
 									<td class="col-complete"></td>
-									<td class="col-memo text-error">모바일 css 적용예정</td>
+									<td class="col-memo text-error">5/14 모바일 css반영완료</td>
 								</tr>
 								<tr>
 									<td class="col-num"></td>
