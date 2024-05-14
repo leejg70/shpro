@@ -65,6 +65,8 @@
                 align-items: center;
                 .category-title {
                     flex: 1 0 0;
+                    padding-right: 1.6rem;
+                    color: #333;
                     font-size: 1.6rem;
                     line-height: 150%;
                     white-space: normal;
@@ -87,7 +89,6 @@
                 margin: 2.4rem 0;
                 .prod-flag-wrap {
                     display: block;
-                    margin-top: 2.8rem;
                     
                 }
                 .title {
@@ -95,7 +96,7 @@
                     color: #111518;
                     font-size: 2.2rem;
                     font-weight: 500;
-                    line-height: 100%;
+                    line-height: 150%;
                 }
                 .text-area {
                     display: flex;
@@ -112,7 +113,6 @@
                 }
             }
             .bottom-area {
-                margin-top: 2.4rem;
                 padding-top: 2.4rem;
                 border-top: 1px solid #E5E5E5;
                 .hashtag {
@@ -126,6 +126,11 @@
     }
     .services-more-area {
         padding-top: 6.4rem;
+        .btn-more {
+            height: 5.6rem;
+            color: #111518;
+            box-sizing: border-box;
+        }
     }
 }
 
@@ -192,6 +197,7 @@
         background-color: #fff;
         .text {
             margin-right: 2.4rem;
+            color: #111518;
             font-size: 1.6rem;
             line-height: 150%;
         }
@@ -612,22 +618,25 @@
         width: 2rem;
         height: 2rem;
     }
-    .inquiry-box {
-        flex-direction: column;
-        align-items: flex-start !important;
-        .ml-auto {
-            margin-left: 0 !important;
-        }
-    }
 
     // 상품리스트
     .service-list-area {
         margin-top: 1.6rem;
+        .v-row {
+            margin: -.8rem;
+            [class^='v-col-'] {
+                padding: .8rem;
+            }
+        }
         .v-card {          
             &.service-list {
                 padding: 2.4rem;
                 border-radius: 1.6rem !important;
-                .top-area {               
+                .top-area {             
+                    .category-title {
+                        padding-right: 0.8rem;
+                        font-size: 1.4rem;
+                    }  
                     .icon-area {
                         .favorites {
                             margin-left: .8rem;
@@ -635,30 +644,33 @@
                     }
                 }
                 .middle-area {
-                    margin: 2.4rem 0;
+                    margin: 1.6rem 0;
                     .prod-flag-wrap {
-                        display: block;
-                        margin-top: 2.8rem;                        
+                        .flag:not(:nth-child(-n+3)) {
+                            display: none;
+                        }
                     }
                     .title {
                         margin: 1.2rem 0;                     
-                        font-size: 1.6rem;         
+                        font-size: 1.6rem;
                     }
                     .text-area {
-                        display: flex;
                         .text {
                             margin-right: .8rem;
-                            margin-bottom: .9rem;                     
+                            margin-bottom: .6rem;                     
                             font-size: 1.4rem;                       
                         }
-                        .img-biz{
+                        .img-biz {
                             img{width: 4.8rem;}
                         } 
                     }
                 }
                 .bottom-area {
                     margin-top: 1.6rem;
-                    padding-top: 1.6rem;                  
+                    padding-top: 1.6rem;
+                    white-space: normal !important;
+                    overflow: visible !important;
+                    text-overflow: inherit !important;
                     .hashtag {                     
                         font-size: 1.4rem;
                         margin-right: .8rem;  
@@ -668,6 +680,9 @@
         }
         .services-more-area {
             padding-top: 4rem;
+            .btn-more {
+                height: 4rem;
+            }
         }
     }
 
@@ -682,7 +697,42 @@
             font-size: 1.4rem;
         }
     }
+
+    .inquiry-area {
+        margin-top: 4rem;
+        padding: 1.6rem;
+        .title {
+            margin-bottom: 1.6rem;
+            font-size: 1.5rem;
+            &::before {
+                width: 2.4rem;
+                height: 2.4rem;
+            }
+        }
+        .inquiry-box {
+            flex-direction: column;
+            align-items: flex-start !important;
+            padding: 1.6rem;
+            .text {
+                margin-right: 0;
+                font-size: 1.4rem;
+            }
+            .ml-auto {
+                margin-top: 1.6rem;
+                margin-left: 0 !important;
+                .v-btn.v-btn--size-large {
+                    min-width: 6.8rem;
+                    height: 4.2rem;
+                    padding: 0 .8rem;
+                }
+            }
+        }
+    }
     
+
+
+
+
     // flag
     .flag {   
         font-size: 1rem;

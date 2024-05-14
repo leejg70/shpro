@@ -104,8 +104,8 @@ function onClick() {
                                 <div class="title text-truncate" title="상품명은 한줄로 제한 한줄 초과 시 말줄임처리 말줄임처리 말줄임처리 말줄임처리">상품명은 한줄로 제한 한줄 초과 시 말줄임처리 말줄임처리 말줄임처리 말줄임처리</div>
                                 <div class="text-area">
                                     <div class="text text-twolines" title="2024 전국 ~~">2024 전국 스타벅스 매장 연령별 결제 데이터 두줄일 경우 2024 전국 스타벅스 매장 연령별 결제 데이터 두줄일 2024 전국 스타벅스 매장 연령별 결제 데이터 두줄일 경우</div>
-                                    <div class="flex-shrink-0 ml-auto">
-                                        <div class="d-flex align-center justify-center" style="width:6.4rem; height:6.4rem; background:#eee;">썸네일이미지</div>
+                                    <div class="img-biz flex-shrink-0 ml-auto">
+                                        <img src="@/assets/images/icon/icon-biz.png" alt="샘플이미지" />
                                     </div>
                                 </div>
                             </div>
