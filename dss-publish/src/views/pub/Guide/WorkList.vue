@@ -192,16 +192,16 @@
 									<td class="col-num"></td>
 									<td class="col-1depth"></td>
 									<td class="col-2depth">검색결과</td>
-									<td class="col-3depth">결과 有</td>
+									<td class="col-3depth">결과 有/無</td>
 									<td class="col-4depth"></td>
 									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
 									<td class="col-url"><router-link to="/MAIN_00_01" target="_blank">/views/pub/Main/MAIN_00_01</router-link></td>
 									<td class="col-date">2024-05-08</td>
 									<td class="col-complete"></td>
-									<td class="col-memo text-error">모바일 css 적용예정</td>
+									<td class="col-memo text-error">5/14 모바일 css 반영완료</td>
 								</tr>
-								<tr>
+								<!-- <tr>
 									<td class="col-num"></td>
 									<td class="col-1depth"></td>
 									<td class="col-2depth"></td>
@@ -213,7 +213,7 @@
 									<td class="col-date"></td>
 									<td class="col-complete"></td>
 									<td class="col-memo"></td>
-								</tr>
+								</tr> -->
 								<tr>
 									<td class="col-num"></td>
 									<td class="col-1depth"></td>
