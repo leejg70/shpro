@@ -759,23 +759,16 @@
 .btn-right-more {
   all: unset;
   position: absolute;
-  top: 3.2rem;
-  right: 3.2rem;
+  top: 2rem;
+  right: 2rem;
+  width: 4.8rem !important;
+  height: 4.8rem !important;
   cursor: pointer;
 
   .icon-card-arrow {
-    top: 0;
-    right: 0;
-  }
-
-  &::after {
-    content: '';
-    position: absolute;
-    left: 50%;
     top: 50%;
+    left: 50%;
     transform: translate(-50%, -50%);
-    width: 4.8rem;
-    height: 4.8rem;
   }
 
   .v-btn--variant-elevated {
@@ -1239,7 +1232,7 @@
 
           .visual-img {
             display: flex;
-            justify-content:flex-end; 
+            justify-content: flex-end;
 
             img {
               width: auto;
@@ -1281,13 +1274,14 @@
 
         .outlogin-box {
           border-radius: 1.6rem;
+
           .login-txt {
             font-size: 1.6rem;
           }
-  
+
           .logout-txt {
             font-size: 1.6rem;
-  
+
             .name {
               font-size: 2rem;
             }
@@ -1582,7 +1576,7 @@
         height: auto;
 
         .title {
-          padding: .6rem .8rem .4rem;
+          padding: .6rem .8rem;
           font-size: 1.4rem;
           border-radius: .4rem;
         }
@@ -1685,8 +1679,8 @@
   }
 
   .main-wrap .btn-right-more {
-    top: 2.4rem;
-    right: 2.4rem;
+    top: 1.2rem;
+    right: 1.2rem;
   }
 
   .login-txt-box {
@@ -1715,7 +1709,6 @@
       background-size: 1.6rem;
     }
   }
-
 
   .allmenu {
     padding: 5.6rem 0 4.8rem;
@@ -1843,7 +1836,6 @@
             padding-left: 0;
             border-left: 0;
           }
-
 
           .title {
             font-size: 1.8rem;

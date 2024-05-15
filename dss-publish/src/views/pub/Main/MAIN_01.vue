@@ -1,6 +1,7 @@
 <script setup>
 import { ref } from 'vue';
 import { reactive } from 'vue';
+
 import { Swiper, SwiperSlide } from 'swiper/vue';
 import { Autoplay, EffectFade, Pagination, Navigation } from 'swiper/modules';
 import 'swiper/css';
@@ -23,7 +24,8 @@ const nextEl = ref(null);
 const navigation = reactive({
   prevEl: prevEl,
   nextEl: nextEl,
-})
+});
+const active = ref(true);
 </script>
 
 <template>
@@ -90,18 +92,18 @@ const navigation = reactive({
       </div>
       <!-- PC전용 로그인 -->
       <div class="my-login-wrap pc-wrap">
-        <div class="outlogin-box login-box">        
-            <span class="main-login-photo"><img src="../../../assets/images/icon/icon_main_login.png" alt=""></span>
-            <p class="login-txt">로그인 후<br>나만의 맞춤 정보를 이용하세요.</p> 
-            <v-btn
-              :ripple="false"
-              variant="flat"
-              color="primary"
-              size="large"
-              rounded="lg"
-            >
-            로그인
-            </v-btn>   
+        <div class="outlogin-box login-box">
+          <span class="main-login-photo"><img src="../../../assets/images/icon/icon_main_login.png" alt=""></span>
+          <p class="login-txt">로그인 후<br>나만의 맞춤 정보를 이용하세요.</p>
+          <v-btn
+            :ripple="false"
+            variant="flat"
+            color="primary"
+            size="large"
+            rounded="lg"
+          >
+          로그인
+          </v-btn>
         </div>
         <!-- <div class="outlogin-box">
           <div class="logout-txt">
@@ -145,17 +147,17 @@ const navigation = reactive({
             >
               <swiper-slide>
                 <span class="flag">Trend Report</span>
-                  <a href="javascript:;">
-                    <p class="text">ShinhanCard Data Market 신규 오픈 ShinhanCard Data Market 신규 오픈 ShinhanCard Data Market 신규 오픈 ShinhanCard Data Market 신규 오픈</p>
-                    <p class="date">2024.08.08</p>
-                  </a>
+                <a href="javascript:;">
+                  <p class="text">ShinhanCard Data Market 신규 오픈 ShinhanCard Data Market 신규 오픈 ShinhanCard Data Market 신규 오픈 ShinhanCard Data Market 신규 오픈</p>
+                  <p class="date">2024.08.08</p>
+                </a>
               </swiper-slide>
               <swiper-slide>
                 <span class="flag">Trend Report</span>
-                  <a href="javascript:;">
-                    <p class="text">ShinhanCard Data Market 신규 오픈(두줄)</p>
-                    <p class="date">2024.08.08</p>
-                  </a>
+                <a href="javascript:;">
+                  <p class="text">ShinhanCard Data Market 신규 오픈(두줄)</p>
+                  <p class="date">2024.08.08</p>
+                </a>
               </swiper-slide>
             </swiper>
           </div>
@@ -198,9 +200,9 @@ const navigation = reactive({
 
     <div class="visual-layout-area mobile-wrap">
       <div class="my-login-wrap">
-        <div class="outlogin-box  login-box">
+        <div class="outlogin-box login-box">
           <span class="main-login-photo"><img src="../../../assets/images/icon/icon_main_login.png" alt=""></span>
-          <p class="login-txt">로그인 후<br>나만의 맞춤 정보를 이용하세요.</p> 
+          <p class="login-txt">로그인 후<br>나만의 맞춤 정보를 이용하세요.</p>
           <v-btn
             :ripple="false"
             variant="flat"
@@ -209,7 +211,7 @@ const navigation = reactive({
             rounded="lg"
           >
           로그인
-          </v-btn>         
+          </v-btn>
         </div>
         <!-- <div class="outlogin-box">
           <div class="logout-txt">
@@ -253,17 +255,17 @@ const navigation = reactive({
             >
               <swiper-slide>
                 <span class="flag">Trend Report</span>
-                  <a href="javascript:;">
-                    <p class="text">ShinhanCard Data Market 신규 오픈 ShinhanCard Data Market 신규 오픈 ShinhanCard Data Market 신규 오픈 ShinhanCard Data Market 신규 오픈</p>
-                    <p class="date">2024.08.08</p>
-                  </a>
+                <a href="javascript:;">
+                  <p class="text">ShinhanCard Data Market 신규 오픈 ShinhanCard Data Market 신규 오픈 ShinhanCard Data Market 신규 오픈 ShinhanCard Data Market 신규 오픈</p>
+                  <p class="date">2024.08.08</p>
+                </a>
               </swiper-slide>
               <swiper-slide>
                 <span class="flag">Trend Report</span>
-                  <a href="javascript:;">
-                    <p class="text">ShinhanCard Data Market 신규 오픈(두줄)</p>
-                    <p class="date">2024.08.08</p>
-                  </a>
+                <a href="javascript:;">
+                  <p class="text">ShinhanCard Data Market 신규 오픈(두줄)</p>
+                  <p class="date">2024.08.08</p>
+                </a>
               </swiper-slide>
             </swiper>
           </div>
@@ -284,7 +286,7 @@ const navigation = reactive({
         <v-btn class="card-box">
           <div class="title-area">
             <span class="card-stit">폭발적인</span>
-          <strong class="card-title">솔루션서비스 </strong>
+            <strong class="card-title">솔루션서비스 </strong>
           </div>
           <v-icon class="card-icon ico-main-solution"></v-icon>
           <span class="card-text">상권분석, 시장 모니터링</span>
@@ -314,49 +316,49 @@ const navigation = reactive({
       <h2 class="main-title"><span class="fw300">Most Popular</span><span class="fw700">Services</span></h2>
       <div class="services-inner">
         <div class="service-list-area">
-                <v-row>
-                    <v-col cols="12" md="6" v-for="item in 6">
-                        <v-card role="button" variant="outlined" class="service-list">
-                            <div class="top-area">
-                                <div class="category-title">Data/API서비스</div>
-                                <div class="icon-area">
-                                    <div class="badge">
-                                        <v-icon class="icon-new" />
-                                        <v-icon class="icon-hot" />
-                                    </div>
-                                    <div class="favorites">
-                                        <v-btn @click.stop="active = !active" variant="flat" min-width="auto" height="auto" class="pa-0">
-                                            <v-icon :icon="active ? 'icon-wishlist' : 'icon-wishlist-off'" />
-                                        </v-btn>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="middle-area">
-                                <div class="prod-flag-wrap">
-                                    <span class="flag blue">시장분석</span>
-                                    <span class="flag violet">지역경제</span>
-                                    <span class="flag green">대안신용</span>
-                                    <span class="flag yellow">마이데이터</span>
-                                    <span class="flag pink">카드데이터</span>
-                                </div>
-                                <div class="title text-truncate" title="상품명은 한줄로 제한 한줄 초과 시 말줄임처리 말줄임처리 말줄임처리 말줄임처리">상품명은 한줄로 제한 한줄 초과 시 말줄임처리 말줄임처리 말줄임처리 말줄임처리</div>
-                                <div class="text-area">
-                                    <div class="text text-twolines" title="2024 전국 ~~">2024 전국 스타벅스 매장 연령별 결제 데이터 두줄일 경우 2024 전국 스타벅스 매장 연령별 결제 데이터 두줄일 2024 전국 스타벅스 매장 연령별 결제 데이터 두줄일 경우</div>
-                                    <div class="img-biz flex-shrink-0 ml-auto">
-                                        <img src="../../../assets/images/icon/icon-biz.png" alt="">                                       
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="bottom-area text-truncate">
-                                <span v-for="n in ['스타벅스', '전국', '시간대별결제데이터', '해시태그 한줄까지']" class="hashtag">#{{  n  }}</span>
-                            </div>
-                        </v-card>
-                    </v-col>
-                </v-row>
-                <div class="services-more-area">
-                    <v-btn variant="outlined" rounded="xl" class="btn-more">더보기<v-icon class="icon-arrow" /></v-btn>
+          <v-row>
+            <v-col cols="12" md="6" v-for="item in 6">
+              <v-card role="button" variant="outlined" class="service-list">
+                <div class="top-area">
+                    <div class="category-title">Data/API서비스</div>
+                    <div class="icon-area">
+                        <div class="badge">
+                            <v-icon class="icon-new" />
+                            <v-icon class="icon-hot" />
+                        </div>
+                        <div class="favorites">
+                            <v-btn @click.stop="active = !active" variant="flat" min-width="auto" height="auto" class="pa-0">
+                                <v-icon :icon="active ? 'icon-wishlist' : 'icon-wishlist-off'" />
+                            </v-btn>
+                        </div>
+                    </div>
                 </div>
-            </div> 
+                <div class="middle-area">
+                    <div class="prod-flag-wrap">
+                        <span class="flag blue">시장분석</span>
+                        <span class="flag violet">지역경제</span>
+                        <span class="flag green">대안신용</span>
+                        <span class="flag yellow">마이데이터</span>
+                        <span class="flag pink">카드데이터</span>
+                    </div>
+                    <div class="title text-truncate" title="상품명은 한줄로 제한 한줄 초과 시 말줄임처리 말줄임처리 말줄임처리 말줄임처리">상품명은 한줄로 제한 한줄 초과 시 말줄임처리 말줄임처리 말줄임처리 말줄임처리</div>
+                    <div class="text-area">
+                        <div class="text text-twolines" title="2024 전국 ~~">2024 전국 스타벅스 매장 연령별 결제 데이터 두줄일 경우 2024 전국 스타벅스 매장 연령별 결제 데이터 두줄일 2024 전국 스타벅스 매장 연령별 결제 데이터 두줄일 경우</div>
+                        <div class="img-biz flex-shrink-0 ml-auto">
+                            <img src="../../../assets/images/icon/icon-biz.png" alt="">                                       
+                        </div>
+                    </div>
+                </div>
+                <div class="bottom-area text-truncate">
+                  <span v-for="n in ['스타벅스', '전국', '시간대별결제데이터', '해시태그 한줄까지']" class="hashtag">#{{  n  }}</span>
+                </div>
+              </v-card>
+            </v-col>
+          </v-row>
+          <div class="services-more-area">
+            <v-btn variant="outlined" rounded="xl" class="btn-more">더보기<v-icon class="icon-arrow" /></v-btn>
+          </div>
+        </div>
       </div>
     </div>
     <div class="main-special-wrap">
@@ -394,12 +396,12 @@ const navigation = reactive({
         <h2 class="main-title">
           <span class="fw300">Value Together</span>
           <span class="fw700">Shinhan Datable</span>
-         </h2>
-      </div>      
+        </h2>
+      </div>
       <div class="datable-slide">
         <div class="slide-inner">
           <div class="slider">
-            <ul>                     
+            <ul>
               <li><img src="../../../assets/images/main/banner01.png" alt=""></li>
               <li><img src="../../../assets/images/main/banner02.png" alt=""></li>
               <li><img src="../../../assets/images/main/banner03.png" alt=""></li>
@@ -408,9 +410,9 @@ const navigation = reactive({
               <li><img src="../../../assets/images/main/banner06.png" alt=""></li>
               <li><img src="../../../assets/images/main/banner07.png" alt=""></li>
               <li><img src="../../../assets/images/main/banner08.png" alt=""></li>
-              <li><img src="../../../assets/images/main/banner09.png" alt=""></li>            
-            </ul>    
-            <ul>                     
+              <li><img src="../../../assets/images/main/banner09.png" alt=""></li>
+            </ul>
+            <ul>
               <li><img src="../../../assets/images/main/banner01.png" alt=""></li>
               <li><img src="../../../assets/images/main/banner02.png" alt=""></li>
               <li><img src="../../../assets/images/main/banner03.png" alt=""></li>
@@ -419,13 +421,13 @@ const navigation = reactive({
               <li><img src="../../../assets/images/main/banner06.png" alt=""></li>
               <li><img src="../../../assets/images/main/banner07.png" alt=""></li>
               <li><img src="../../../assets/images/main/banner08.png" alt=""></li>
-              <li><img src="../../../assets/images/main/banner09.png" alt=""></li>            
+              <li><img src="../../../assets/images/main/banner09.png" alt=""></li>
             </ul>
           </div>
         </div>
         <div class="slide-inner">
           <div class="slider slider2">
-            <ul>                     
+            <ul>
               <li><img src="../../../assets/images/main/banner01.png" alt=""></li>
               <li><img src="../../../assets/images/main/banner02.png" alt=""></li>
               <li><img src="../../../assets/images/main/banner03.png" alt=""></li>
@@ -434,9 +436,9 @@ const navigation = reactive({
               <li><img src="../../../assets/images/main/banner06.png" alt=""></li>
               <li><img src="../../../assets/images/main/banner07.png" alt=""></li>
               <li><img src="../../../assets/images/main/banner08.png" alt=""></li>
-              <li><img src="../../../assets/images/main/banner09.png" alt=""></li>            
-            </ul>    
-            <ul>                     
+              <li><img src="../../../assets/images/main/banner09.png" alt=""></li>
+            </ul>
+            <ul>
               <li><img src="../../../assets/images/main/banner01.png" alt=""></li>
               <li><img src="../../../assets/images/main/banner02.png" alt=""></li>
               <li><img src="../../../assets/images/main/banner03.png" alt=""></li>
@@ -445,12 +447,11 @@ const navigation = reactive({
               <li><img src="../../../assets/images/main/banner06.png" alt=""></li>
               <li><img src="../../../assets/images/main/banner07.png" alt=""></li>
               <li><img src="../../../assets/images/main/banner08.png" alt=""></li>
-              <li><img src="../../../assets/images/main/banner09.png" alt=""></li>            
-            </ul>                 
+              <li><img src="../../../assets/images/main/banner09.png" alt=""></li>
+            </ul>
           </div>
         </div>
       </div>
-     
     </div>
     <div class="main-customer-wrap">
       <h2 class="main-title">
@@ -472,13 +473,26 @@ const navigation = reactive({
         <div class="notice">
           <strong class="title">공지사항</strong>
           <ul class="notice-list">
-            <li><a href="javascript:;" class="link"><p class="notice-title">Data Market 서비스 신규 오픈 제목 한줄 서비스 신규 오픈 제목 한줄</p><span class="notice-date">2024.08.08</span></a></li>
-            <li><a href="javascript:;" class="link"><p class="notice-title">Data Market 서비스 신규 오픈 제목 한줄 서비스 신규 오픈 제목 한줄</p><span class="notice-date">2024.08.08</span></a></li>
-            <li><a href="javascript:;" class="link"><p class="notice-title">Data Market 서비스 신규 오픈 제목 한줄 서비스 신규 오픈 제목 한줄</p><span class="notice-date">2024.08.08</span></a></li>            
+            <li>
+              <a href="javascript:;" class="link">
+                <p class="notice-title">Data Market 서비스 신규 오픈 제목 한줄 서비스 신규 오픈 제목 한줄</p>
+                <span class="notice-date">2024.08.08</span>
+              </a>
+            </li>
+            <li>
+              <a href="javascript:;" class="link">
+                <p class="notice-title">Data Market 서비스 신규 오픈 제목 한줄 서비스 신규 오픈 제목 한줄</p>
+                <span class="notice-date">2024.08.08</span>
+              </a>
+            </li>
+            <li>
+              <a href="javascript:;" class="link">
+                <p class="notice-title">Data Market 서비스 신규 오픈 제목 한줄 서비스 신규 오픈 제목 한줄</p>
+                <span class="notice-date">2024.08.08</span>
+              </a>
+            </li>
           </ul>
-          <v-btn
-          class="btn-right-more"
-          >
+          <v-btn variant="flat" class="btn-right-more">
             <span class="sr-only">더보기</span>
             <v-icon>icon-card-arrow</v-icon>
           </v-btn>
