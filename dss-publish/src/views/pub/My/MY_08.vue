@@ -30,21 +30,94 @@ const items = ref([
 </script>
 
 <template>
-  <div class="my data-service">
+  <div class="sub-group data-service">
     <div class="sub-title-area">
       <h4 class="sub-title">My</h4>
     </div>
-    <div class="">
-      <div class="">
-        <p class=""><span>김신한</span>님 안녕하세요!</p>
-        <div class="">
-          <p class="">사업자회원으로의 승인이 대기중입니다.</p>
-        </div>
+    <!-- CASE) 개인
+    <div class="my-case-info">
+      <div class="case-member">
+        <p class="member-title"><span>김신한</span>님 안녕하세요!</p>
       </div>
-      <div class="">
-
+      <div class="case-btn">
+        <v-btn variant="text">
+          정보변경<v-icon class="btn-arrow" />
+        </v-btn>
+        <v-btn variant="text">
+          사업자계정전환<v-icon class="btn-arrow" />
+        </v-btn>
       </div>
     </div>
+    -->
+    <!-- CASE) 개인 : 승인 대기중
+    <div class="my-case-info">
+      <div class="case-member">
+        <p class="member-title"><span>김신한</span>님 안녕하세요!</p>
+        <p class="member-text">사업자회원으로의 승인이 대기중입니다.</p>
+      </div>
+      <div class="case-btn">
+        <v-btn variant="text">
+          정보변경<v-icon class="btn-arrow" />
+        </v-btn>
+      </div>
+    </div>
+    -->
+    <!-- CASE) 개인사업자, 미동의 상태
+    <div class="my-case-info">
+      <div class="case-member">
+        <p class="member-title"><span>김신한</span>님 안녕하세요!</p>
+        <dl class="member-buisness">
+          <dt>개인사업자</dt>
+          <dd>SH상사</dd>
+        </dl>
+      </div>
+      <div class="case-btn">
+        <v-btn variant="text">
+          <v-icon class="btn-mycredit" />
+        </v-btn>
+        <v-btn variant="text">
+          정보변경<v-icon class="btn-arrow" />
+        </v-btn>
+      </div>
+    </div>
+    -->
+    <!-- CASE) 법인사업자 -->
+    <div class="my-case-info">
+      <div class="case-member">
+        <p class="member-title"><span>김신한</span>님 안녕하세요!</p>
+        <dl class="member-buisness">
+          <dt>법인사업자</dt>
+          <dd>(주)신한카드</dd>
+        </dl>
+      </div>
+      <div class="case-btn">
+        <v-btn variant="text">
+          <v-icon class="btn-mycredit" />
+        </v-btn>
+        <v-btn variant="text">
+          정보변경<v-icon class="btn-arrow" />
+        </v-btn>
+      </div>
+    </div>
+    <!-- CASE) 동의 상태
+    <div class="my-case-info">
+      <div class="case-member">
+        <p class="member-title"><span>김신한</span>님 안녕하세요!</p>
+        <dl class="member-buisness">
+          <dt>법인사업자</dt>
+          <dd>(주)신한카드 <span>1등급</span></dd>
+        </dl>
+      </div>
+      <div class="case-btn">
+        <v-btn variant="text">
+          <v-icon class="btn-mycredit" />
+        </v-btn>
+        <v-btn variant="text">
+          정보변경<v-icon class="btn-arrow" />
+        </v-btn>
+      </div>
+    </div>
+    -->
     <div class="submenu-list">
       <v-row>
         <v-col cols="12" md="3" v-for="(item, i) in items">
@@ -68,7 +141,7 @@ const items = ref([
         </v-col>
       </v-row>
     </div>
-    <div class="submenu-case">
+    <div class="total-area">
       <div class="total">총&nbsp; <span>10건</span></div>
     </div>
     <v-divider class="svc-divide" />
