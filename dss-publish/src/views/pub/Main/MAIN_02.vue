@@ -107,7 +107,7 @@ const navigation = reactive({
             <p>안녕하세요.</p>
             <p class="name">김신한님!</p>
           </div>
-          <div class="logout-btn-area">      
+          <div class="logout-btn-area">
             <v-btn  class="btn-mylink">
               <v-icon>icon-my-contract</v-icon>
               <span class="text">나의계약</span>

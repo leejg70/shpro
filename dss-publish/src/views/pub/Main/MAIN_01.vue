@@ -83,6 +83,42 @@ const active = ref(true);
               </div>
             </a>
           </swiper-slide>
+          <swiper-slide>
+            <a href="javascript:;" class="block-all">
+              <div class="main-visual-list" style="background-color: #eee;">
+                <div class="visual-txt-area">
+                  <span class="visual-stit">Data + Blue</span>
+                  <p class="visual-title">
+                    <span>신한 Data Blue의</span><br>
+                    <span>다양한 Data를</span><br>
+                    <span>탐험하세요.</span>
+                  </p>
+                  <span class="visual-more"><span>Data Blue 바로가기 </span><v-icon>icon-card-arrow</v-icon></span>
+                </div>
+                <div class="visual-img">
+                  <img src="../../../assets/images/main/visual_img1.png" alt="">
+                </div>
+              </div>
+            </a>
+          </swiper-slide>
+          <swiper-slide>
+            <a href="javascript:;" class="block-all">
+              <div class="main-visual-list" style="background-color: #eee;">
+                <div class="visual-txt-area">
+                  <span class="visual-stit">Data + Blue</span>
+                  <p class="visual-title">
+                    <span>A World beyond</span><br>
+                    <span>Imagination</span><br>
+                    <span>that Makes Data.</span>
+                  </p>
+                  <span class="visual-more"><span>Data Blue 바로가기 </span><v-icon>icon-card-arrow</v-icon></span>
+                </div>
+                <div class="visual-img">
+                  <img src="../../../assets/images/main/visual_img2.png" alt="">
+                </div>
+              </div>
+            </a>
+          </swiper-slide>
         </swiper>
         <div class="indicator-wrap">
           <div class="slide-pagination type-num" ref="paginationRef"></div>
@@ -147,13 +183,33 @@ const active = ref(true);
             >
               <swiper-slide>
                 <span class="flag">Trend Report</span>
+                <!-- flag 종류 
+                <span class="flag">Trend Report</span>
+                <span class="flag">StudyCase</span>
+                <span class="flag">DataNews</span>
+                <span class="flag">광고</span>               
+              -->                
                 <a href="javascript:;">
                   <p class="text">ShinhanCard Data Market 신규 오픈 ShinhanCard Data Market 신규 오픈 ShinhanCard Data Market 신규 오픈 ShinhanCard Data Market 신규 오픈</p>
                   <p class="date">2024.08.08</p>
                 </a>
               </swiper-slide>
               <swiper-slide>
-                <span class="flag">Trend Report</span>
+                <span class="flag">StudyCase</span>
+                <a href="javascript:;">
+                  <p class="text">ShinhanCard Data Market 신규 오픈(두줄1)</p>
+                  <p class="date">2024.08.08</p>
+                </a>
+              </swiper-slide>
+              <swiper-slide>
+                <span class="flag">DataNews</span>
+                <a href="javascript:;">
+                  <p class="text">ShinhanCard Data Market 신규 오픈(두줄2)</p>
+                  <p class="date">2024.08.08</p>
+                </a>
+              </swiper-slide>
+              <swiper-slide>
+                <span class="flag">광고</span>
                 <a href="javascript:;">
                   <p class="text">ShinhanCard Data Market 신규 오픈(두줄)</p>
                   <p class="date">2024.08.08</p>
@@ -253,15 +309,35 @@ const active = ref(true);
               }"
               :modules="[Autoplay, Pagination]"
             >
-              <swiper-slide>
+            <swiper-slide>
                 <span class="flag">Trend Report</span>
+                <!-- flag 종류 
+                <span class="flag">Trend Report</span>
+                <span class="flag">StudyCase</span>
+                <span class="flag">DataNews</span>
+                <span class="flag">광고</span>               
+              -->                
                 <a href="javascript:;">
                   <p class="text">ShinhanCard Data Market 신규 오픈 ShinhanCard Data Market 신규 오픈 ShinhanCard Data Market 신규 오픈 ShinhanCard Data Market 신규 오픈</p>
                   <p class="date">2024.08.08</p>
                 </a>
               </swiper-slide>
               <swiper-slide>
-                <span class="flag">Trend Report</span>
+                <span class="flag">StudyCase</span>
+                <a href="javascript:;">
+                  <p class="text">ShinhanCard Data Market 신규 오픈(두줄1)</p>
+                  <p class="date">2024.08.08</p>
+                </a>
+              </swiper-slide>
+              <swiper-slide>
+                <span class="flag">DataNews</span>
+                <a href="javascript:;">
+                  <p class="text">ShinhanCard Data Market 신규 오픈(두줄2)</p>
+                  <p class="date">2024.08.08</p>
+                </a>
+              </swiper-slide>
+              <swiper-slide>
+                <span class="flag">광고</span>
                 <a href="javascript:;">
                   <p class="text">ShinhanCard Data Market 신규 오픈(두줄)</p>
                   <p class="date">2024.08.08</p>
