@@ -9,19 +9,19 @@ const items = ref([
     select: ''
   },
   {
-    link: 'MY_04',
+    link: '/MY_04',
     icon: 'my-wishlist',
     text: '관심상품',
     select: ''
   },
   {
-    link: 'MY_08',
+    link: '/MY_08',
     icon: 'my-qa',
     text: '나의문의',
     select: 'selected'
   },
   {
-    link: 'MY_06',
+    link: '/MY_06',
     icon: 'my-alarm',
     text: '알림',
     select: ''

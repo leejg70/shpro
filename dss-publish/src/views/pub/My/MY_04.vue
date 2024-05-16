@@ -9,19 +9,19 @@ const items = ref([
     select: ''
   },
   {
-    link: 'MY_04',
+    link: '/MY_04',
     icon: 'my-wishlist',
     text: '관심상품',
     select: 'selected'
   },
   {
-    link: 'MY_08',
+    link: '/MY_08',
     icon: 'my-qa',
     text: '나의문의',
     select: ''
   },
   {
-    link: 'MY_06',
+    link: '/MY_06',
     icon: 'my-alarm',
     text: '알림',
     select: ''
@@ -36,6 +36,14 @@ const active = ref(true);
       <h4 class="sub-title">My</h4>
     </div>
     <div class="">
+      <!-- 개인 -->
+      <div class="">
+        <p class=""><span>김신한</span>님 안녕하세요!</p>
+      </div>
+      <div class="">
+
+      </div>
+      <!-- 개인 : 승인 대기중
       <div class="">
         <p class=""><span>김신한</span>님 안녕하세요!</p>
         <div class="">
@@ -45,6 +53,7 @@ const active = ref(true);
       <div class="">
 
       </div>
+      -->
     </div>
     <div class="submenu-list">
       <v-row>
