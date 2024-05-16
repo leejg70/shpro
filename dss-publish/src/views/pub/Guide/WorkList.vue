@@ -307,7 +307,7 @@
 									<td class="col-url"><router-link to="/PRDD_01" target="_blank">/views/pub/DataService/PRDD_01</router-link></td>
 									<td class="col-date">2024-05-07</td>
 									<td class="col-complete"></td>
-									<td class="col-memo text-error">모바일 css 적용예정</td>
+									<td class="col-memo text-error">모바일 작업중</td>
 								</tr>
 								<tr>
 									<td class="col-num"></td>
@@ -333,10 +333,13 @@
 									<td class="col-4depth">결과 無</td>
 									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
-									<td class="col-url"><router-link to="/PRDD_02_01_null" target="_blank">/views/pub/DataService/PRDD_02_01_null</router-link></td>
-									<td class="col-date">2024-05-07</td>
+									<td class="col-url">
+										<!-- <router-link to="/PRDD_02_01_null" target="_blank">/views/pub/DataService/PRDD_02_01_null</router-link> -->
+										목록화면에 취합
+									</td>
+									<td class="col-date">-</td>
 									<td class="col-complete"></td>
-									<td class="col-memo text-error">모바일 css 적용예정</td>
+									<td class="col-memo">-</td>
 								</tr>
 								<tr>
 									<td class="col-num"></td>
@@ -349,7 +352,7 @@
 									<td class="col-url"><router-link to="/PRDD_00_01" target="_blank">/views/pub/DataService/PRDD_00_01</router-link></td>
 									<td class="col-date">2024-05-07</td>
 									<td class="col-complete"></td>
-									<td class="col-memo text-error">모바일 css 적용예정</td>
+									<td class="col-memo text-error">모바일 작업중</td>
 								</tr>
 								<tr>
 									<td class="col-num"></td>
