@@ -1,13 +1,12 @@
 <script setup>
 import { ref } from 'vue';
 
-const selected = ref('')
 const items = ref([
   {
     link: '/MY_03',
     icon: 'my-contract',
     text: '나의계약',
-    
+    select: ''
   },
   {
     link: 'MY_04',
@@ -19,13 +18,13 @@ const items = ref([
     link: 'MY_08',
     icon: 'my-qa',
     text: '나의문의',
-    
+    select: ''
   },
   {
     link: 'MY_06',
     icon: 'my-alarm',
     text: '알림',
-    
+    select: ''
   }
 ]);
 const active = ref(true);
@@ -51,9 +50,8 @@ const active = ref(true);
       <v-row>
         <v-col cols="12" md="3" v-for="(item, i) in items">
           <v-list
-            :class="item.select"
-            v-model:selected="selected"
             density="compact"
+            :class="item.select"
           >
             <v-list-item
               :value="item"
@@ -71,12 +69,14 @@ const active = ref(true);
         </v-col>
       </v-row>
     </div>
-    <div class="">총 <span>10건</span></div>
+    <div class="submenu-case">
+      <div class="total">총&nbsp; <span>10건</span></div>
+    </div>
     <v-divider class="svc-divide" />
     <!-- 상품리스트 -->
     <div class="service-list-area">
       <v-row>
-        <v-col cols="12" md="6" v-for="item in 6">
+        <v-col cols="12" md="6" v-for="item in 10">
           <v-card role="button" variant="outlined" class="service-list">
             <div class="top-area">
               <div class="category-title">Data/API서비스</div>

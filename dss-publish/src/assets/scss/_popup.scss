@@ -412,7 +412,7 @@
         &.appkey {
           height: auto;
         }
-        span {
+        > span {
           word-break: break-all;
         }
       }
@@ -431,7 +431,7 @@
       .key-text {
         margin-top: 2.4rem;
         font-size: 1.6rem;
-        span {
+        > span {
           color: #356cff;
         }
       }
