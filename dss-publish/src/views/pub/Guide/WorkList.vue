@@ -1166,7 +1166,7 @@
 									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
 									<td class="col-url"><router-link to="/FAQS_01" target="_blank">/views/pub/Customer/FAQS_01</router-link></td>
-									<td class="col-date"></td>
+									<td class="col-date">2024-05-16</td>
 									<td class="col-complete"></td>
 									<td class="col-memo"></td>
 								</tr>

@@ -244,6 +244,79 @@
     }
 }
 
+// faq
+.contents-faq {
+    .faq-list {
+        .v-expansion-panel {
+            border: 1px solid #e5e5e5;
+            &.rounded-lg {
+                border-radius: 1.6rem !important;
+            }
+            &+.v-expansion-panel {
+                margin-top: 1.6rem;
+            }
+            .v-expansion-panel-title {
+                padding: 2.2rem 3.2rem;
+                .v-expansion-panel-title__overlay {
+                    background-color: #fff;
+                }
+                .text-16 {
+                    padding: .2rem 0;
+                }
+                .v-expansion-panel-title__icon {
+                    margin-left: 2.4rem;
+                }
+            }
+            .v-expansion-panel-text {
+                border-top: 1px solid #e5e5e5;
+                border-radius: 0 0 1.6rem 1.6rem;
+                background-color: #f8f8f8;
+                .v-expansion-panel-text__wrapper {
+                    padding: 3.2rem;
+                    .text-16 {
+                        color: #333;
+                    }
+                }
+            }
+            .icon-q, .icon-a {
+                flex-shrink: 0;
+                margin-right: 2.4rem;
+            }
+        }
+    }
+    .faq-list:not(.v-expansion-panels--variant-accordion) 
+    > :first-child:not(:last-child):not(.v-expansion-panel--active):not(.v-expansion-panel--before-active) {
+        border-bottom-left-radius: 1.6rem !important;
+        border-bottom-right-radius: 1.6rem !important;
+    }
+    .faq-list:not(.v-expansion-panels--variant-accordion) 
+    > :not(:first-child):not(:last-child):not(.v-expansion-panel--active):not(.v-expansion-panel--after-active) {
+        border-top-left-radius: 1.6rem !important;
+        border-top-right-radius: 1.6rem !important;
+    }
+    .faq-list:not(.v-expansion-panels--variant-accordion) 
+    > :not(:first-child):not(:last-child):not(.v-expansion-panel--active):not(.v-expansion-panel--before-active) {
+        border-bottom-left-radius: 1.6rem !important;
+        border-bottom-right-radius: 1.6rem !important;
+    }
+    .faq-list:not(.v-expansion-panels--variant-accordion) 
+    > :last-child:not(:first-child):not(.v-expansion-panel--active):not(.v-expansion-panel--after-active) {
+        border-top-left-radius: 1.6rem !important;
+        border-top-right-radius: 1.6rem !important;
+    }
+    
+}
+[class^='contents-'] {
+    .services-more-area {
+        padding-top: 6.4rem;
+        .btn-more {
+            height: 5.6rem;
+            color: #111518;
+            box-sizing: border-box;
+        }
+    }
+}
+
 
 
 
@@ -430,7 +503,7 @@ img {
         }
     }
 
-    .contents-list-area,
+    [class^='contents-'],
     .customer-list {
         .services-more-area {
             padding-top: 4rem;
@@ -444,6 +517,58 @@ img {
                     height: 2rem;
                 }
             }
+        }
+    }
+
+    // faq
+    .contents-faq {
+        .faq-list {
+            .v-expansion-panel {
+                &.rounded-lg {
+                    border-radius: .8rem !important;
+                }
+                .v-expansion-panel-title {
+                    padding: 1.6rem;
+                    .v-expansion-panel-title__icon {
+                        margin-left: 0.8rem;
+                        .v-icon {
+                            margin: .2rem;
+                        }
+                    }
+                }
+                .v-expansion-panel-text {
+                    border-radius: 0 0 .8rem .8rem;
+                    .v-expansion-panel-text__wrapper {
+                        padding: 1.6rem;
+                    }
+                }
+                .icon-q, .icon-a {
+                    margin-right: 1.6rem;
+                }
+                + .v-expansion-panel {
+                    margin-top: 0.8rem;
+                }
+            }
+        }
+        .faq-list:not(.v-expansion-panels--variant-accordion) 
+        > :first-child:not(:last-child):not(.v-expansion-panel--active):not(.v-expansion-panel--before-active) {
+            border-bottom-left-radius: .8rem !important;
+            border-bottom-right-radius: .8rem !important;
+        }
+        .faq-list:not(.v-expansion-panels--variant-accordion) 
+        > :not(:first-child):not(:last-child):not(.v-expansion-panel--active):not(.v-expansion-panel--after-active) {
+            border-top-left-radius: .8rem !important;
+            border-top-right-radius: .8rem !important;
+        }
+        .faq-list:not(.v-expansion-panels--variant-accordion) 
+        > :not(:first-child):not(:last-child):not(.v-expansion-panel--active):not(.v-expansion-panel--before-active) {
+            border-bottom-left-radius: .8rem !important;
+            border-bottom-right-radius: .8rem !important;
+        }
+        .faq-list:not(.v-expansion-panels--variant-accordion) 
+        > :last-child:not(:first-child):not(.v-expansion-panel--active):not(.v-expansion-panel--after-active) {
+            border-top-left-radius: .8rem !important;
+            border-top-right-radius: .8rem !important;
         }
     }
 

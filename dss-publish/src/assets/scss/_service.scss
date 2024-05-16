@@ -538,6 +538,9 @@
 }
 
 // icon
+[class*='icon-'] {
+    --v-icon-size: 2.4rem;
+}
 .icon-wishlist-off {
     width: 3rem;
     height: 3rem;
@@ -547,20 +550,44 @@
 }
 
 .icon-download {
-    width: 2.4rem;
-    height: 2.4rem;
+    width: var(--v-icon-size);
+    height: var(--v-icon-size);
     background: url('../images/icon/icon_download.png') 0 0 / cover;
 }
 
 .icon-clip {
-    width: 2.4rem;
-    height: 2.4rem;
+    width: var(--v-icon-size);
+    height: var(--v-icon-size);
     background: url('../images/icon/icon_clip.png') 0 0 / cover;
 }
 
+.icon-minus {
+    width: var(--v-icon-size);
+    height: var(--v-icon-size);
+    background: url('../images/icon/icon_minus.png') 0 0 / cover;
+}
+
+.icon-plus {
+    width: var(--v-icon-size);
+    height: var(--v-icon-size);
+    background: url('../images/icon/icon_plus.png') 0 0 / cover;
+}
+
+.icon-q {
+    width: 2.8rem;
+    height: 2.8rem;
+    background: url('../images/icon/icon_qna_q.png') 0 0 / cover;
+}
+
+.icon-a {
+    width: 2.8rem;
+    height: 2.8rem;
+    background: url('../images/icon/icon_qna_a.png') 0 0 / cover;
+}
+
 .btn-arrow-down {
-    width: 2.4rem;
-    height: 2.4rem;
+    width: var(--v-icon-size);
+    height: var(--v-icon-size);
     background-image: url('../images/btn/btn_sel_arrow.png');
     background-repeat: no-repeat;
     background-size: 100%;
@@ -930,5 +957,13 @@
     .btn-search-blue {
         width: 2.4rem;
         height: 2.4rem;
+    }
+    .icon-q, .icon-a {
+        width: var(--v-icon-size);
+        height: var(--v-icon-size);
+    }
+    .icon-minus, .icon-plus {
+        width: 2rem;
+        height: 2rem;
     }
 }
