@@ -145,5 +145,31 @@ function onClick() {
             </div>
         </div>
         <!--// 상품리스트 -->
+
+        <!-- 검색결과 없음 -->
+        <div class="search-result">
+            <div class="text">검색 결과</div>
+            <div class="desc">검색된 결과가 없습니다.</div>
+        </div>
+        <div class="btn-list">
+            <v-btn variant="flat" rounded="lg" size="x-large" color="primary">목록보기</v-btn>
+        </div>
+        <!--// 검색결과 없음 -->
+
+        <!-- 검색결과 없을 경우에만 노출 -->
+        <div class="inquiry-area">
+            <div class="title">원하시는 데이터 상품이 없으신가요?</div>
+            <div class="inquiry-box">
+                <div class="text">
+                    Datablue의 데이터 전문가가 해결해 드립니다.<br />
+                    궁금하신점은 데이터 전문가에게 문의해주세요.
+                </div>
+                <div class="ml-auto">
+                    <v-btn variant="flat" rounded="md" size="large" color="Tertiary">맞춤Data 서비스란?</v-btn>
+                    <v-btn variant="flat" rounded="md" size="large" color="Tertiary">문의하기</v-btn>
+                </div>
+            </div>
+        </div>
+        <!--// 검색결과 없을 경우에만 노출 -->
     </div>
 </template>

@@ -6,7 +6,7 @@ const expandRow = ref(false);
 </script>
 
 <template>
-    <div class="data-service">
+    <div class="sub-group data-service">
         <div class="sub-title-area">
             <h4 class="sub-title">Data 상품</h4>
         </div>
@@ -22,7 +22,7 @@ const expandRow = ref(false);
                     <span class="flag pink">카드데이터</span>
                 </div>
                 <div class="favorites">
-                    <v-btn @click.stop="active = !active" variant="flat" min-width="auto" height="auto" class="pa-0">
+                    <v-btn @click="active = !active" variant="flat" min-width="auto" height="auto" class="pa-0">
                         <v-icon :icon="active ? 'icon-wishlist' : 'icon-wishlist-off'" />
                     </v-btn>
                 </div>
@@ -34,7 +34,7 @@ const expandRow = ref(false);
                     <span v-for="n in ['스타벅스', '전국', '시간대별결제데이터', '해시태그 한줄까지']" class="hashtag">#{{  n  }}</span>
                 </div>
                 <div class="img-area ml-auto">
-                    <div class="d-flex align-center justify-center" style="width:6.4rem; height:6.4rem; background-color: #eee;">썸네일이미지</div>
+                    <img src="@/assets/images/icon/icon-biz.png" alt="샘플이미지" />
                 </div>
             </div>
             <div class="btn-area">
@@ -57,7 +57,7 @@ const expandRow = ref(false);
                     또한 해당 데이터는 k-익명성에 따라 3건 이상 결제 데이터만 제공하고 있습니다.
                 </div>
                 <div class="img">
-                    <div class="d-flex align-center justify-center" style="max-width: 120rem; min-height: 30rem; background: #eee;">이미지영역</div>
+                    <img src="@/assets/images/img_dummy.png" alt="이미지샘플" />
                 </div>
                 <div class="group-download">
                     <div class="box-title">추가자료 다운로드</div>
@@ -120,20 +120,28 @@ const expandRow = ref(false);
                     <v-icon size="md" class="icon-data" />데이터 정보
                 </div>
                 <div class="desc mb-2">23년 9월 기준 전국 행정동 단위 배달 산업 결제 트랜드</div>
-                <v-table>
-                    <thead>
-                        <tr>
-                            <th v-for="title in ['데이터 컬럼', '데이터 컬럼 설명', '데이터 예시']">{{ title }}</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr v-for="item in 5">
-                            <td>Crym</td>
-                            <td>기준년월</td>
-                            <td>부산광역시</td>
-                        </tr>
-                    </tbody>
-                </v-table>
+
+                <div class="table-overflow-x">
+                    <v-table>
+                        <colgroup>
+                            <col width="140px" />
+                            <col width="140px" />
+                            <col width="140px" />
+                        </colgroup>
+                        <thead>
+                            <tr>
+                                <th v-for="title in ['데이터 컬럼', '데이터 컬럼 설명', '데이터 예시']">{{ title }}</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr v-for="item in 5">
+                                <td>Crym</td>
+                                <td>기준년월</td>
+                                <td>부산광역시</td>
+                            </tr>
+                        </tbody>
+                    </v-table>
+                </div>
                 <div class="table-btn-more">
                     <v-btn variant="text">
                         더보기<v-icon class="btn-arrow-down" />
@@ -170,7 +178,7 @@ const expandRow = ref(false);
                 </div>
                 <div class="desc">텍스트영역 텍스트영역 텍스트영역 텍스트영역 텍스트영역 텍스트영역 텍스트영역 텍스트영역 텍스트영역 텍스트영역 텍스트영역</div>
                 <div class="img">
-                    <div class="d-flex align-center justify-center" style="max-width: 120rem; min-height: 30rem; background: #eee;">이미지영역</div>
+                    <img src="@/assets/images/img_dummy.png" alt="이미지샘플" />
                 </div>
             </div>
 
@@ -207,7 +215,7 @@ const expandRow = ref(false);
                                             <v-icon class="icon-hot" />
                                         </div>
                                         <div class="favorites">
-                                            <v-btn @click.stop="active = !active" variant="flat" min-width="auto" height="auto" class="pa-0">
+                                            <v-btn @click.prevent="active = !active" variant="flat" min-width="auto" height="auto" class="pa-0">
                                                 <v-icon :icon="active ? 'icon-wishlist' : 'icon-wishlist-off'" />
                                             </v-btn>
                                         </div>
@@ -224,8 +232,8 @@ const expandRow = ref(false);
                                     <div class="title text-truncate" title="상품명은 한줄로 제한 한줄 초과 시 말줄임처리 말줄임처리 말줄임처리 말줄임처리">상품명은 한줄로 제한 한줄 초과 시 말줄임처리 말줄임처리 말줄임처리 말줄임처리</div>
                                     <div class="text-area">
                                         <div class="text text-twolines" title="2024 전국 ~~">2024 전국 스타벅스 매장 연령별 결제 데이터 두줄일 경우 2024 전국 스타벅스 매장 연령별 결제 데이터 두줄일 2024 전국 스타벅스 매장 연령별 결제 데이터 두줄일 경우</div>
-                                        <div class="flex-shrink-0 ml-auto">
-                                            <div class="d-flex align-center justify-center" style="width:6.4rem; height:6.4rem; background:#eee;">썸네일이미지</div>
+                                        <div class="img-biz flex-shrink-0 ml-auto">
+                                            <img src="@/assets/images/icon/icon-biz.png" alt="샘플이미지" />
                                         </div>
                                     </div>
                                 </div>
@@ -241,7 +249,7 @@ const expandRow = ref(false);
         <!--// 상품 상세 -->
 
         <div class="btn-list">
-            <v-btn variant="flat" rounded="lg" size="x-large" color="primary">목록보기</v-btn>
+            <v-btn variant="flat" rounded="lg" size="x-large" color="primary">목록</v-btn>
         </div>
     </div>
 </template>
