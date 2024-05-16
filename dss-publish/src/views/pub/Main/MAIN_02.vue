@@ -476,6 +476,7 @@ const navigation = reactive({
             <li><a href="javascript:;" class="link"><p class="notice-title">Data Market 서비스 신규 오픈 제목 한줄 서비스 신규 오픈 제목 한줄</p><span class="notice-date">2024.08.08</span></a></li>            
           </ul>
           <v-btn
+          variant="flat"
           class="btn-right-more"
           >
             <span class="sr-only">더보기</span>

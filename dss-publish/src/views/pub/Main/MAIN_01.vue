@@ -492,7 +492,10 @@ const active = ref(true);
               </a>
             </li>
           </ul>
-          <v-btn variant="flat" class="btn-right-more">
+          <v-btn 
+          variant="flat" 
+          class="btn-right-more"
+          >
             <span class="sr-only">더보기</span>
             <v-icon>icon-card-arrow</v-icon>
           </v-btn>
