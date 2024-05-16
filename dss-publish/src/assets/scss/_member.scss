@@ -207,7 +207,7 @@
             background-image: url('../images/icon/icon_timer.png');
             background-size: 100%;
           }
-          span {
+          > span {
             position: relative;
             margin-left: .4rem;
             font-size: 1.4rem;
@@ -249,7 +249,7 @@
             height: 4.8rem;
             padding: 2.1rem .8rem;
             line-height: 4.8rem;
-            span {
+            > span {
               display: inline-block;
               width: .6rem;
               height: .6rem;
@@ -491,7 +491,7 @@
                   color: #111518;
                   line-height: 2.4rem;
                   z-index: 2;
-                  span {
+                  > span {
                     position: relative;
                   }
                   .icon-arrow-right {
@@ -630,7 +630,7 @@
     .title {
       font-size: 2.4rem;   
       font-weight: 500;
-      span {
+      > span {
         color: #356cff;
       }
     }
@@ -757,7 +757,7 @@
             .icon-timer {
               margin-top: -.2rem;
             }
-            span {
+            > span {
               font-size: 1.2rem;
             }
           }

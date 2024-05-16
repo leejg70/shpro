@@ -1,31 +1,30 @@
 <script setup>
 import { ref } from 'vue';
 
-const selected = ref('')
 const items = ref([
   {
     link: '/MY_03',
     icon: 'my-contract',
     text: '나의계약',
-    
+    select: ''
   },
   {
-    link: 'MY_04',
+    link: '/MY_04',
     icon: 'my-wishlist',
     text: '관심상품',
     select: 'selected'
   },
   {
-    link: 'MY_08',
+    link: '/MY_08',
     icon: 'my-qa',
     text: '나의문의',
-    
+    select: ''
   },
   {
-    link: 'MY_06',
+    link: '/MY_06',
     icon: 'my-alarm',
     text: '알림',
-    
+    select: ''
   }
 ]);
 const active = ref(true);
@@ -37,6 +36,14 @@ const active = ref(true);
       <h4 class="sub-title">My</h4>
     </div>
     <div class="">
+      <!-- 개인 -->
+      <div class="">
+        <p class=""><span>김신한</span>님 안녕하세요!</p>
+      </div>
+      <div class="">
+
+      </div>
+      <!-- 개인 : 승인 대기중
       <div class="">
         <p class=""><span>김신한</span>님 안녕하세요!</p>
         <div class="">
@@ -46,14 +53,14 @@ const active = ref(true);
       <div class="">
 
       </div>
+      -->
     </div>
     <div class="submenu-list">
       <v-row>
         <v-col cols="12" md="3" v-for="(item, i) in items">
           <v-list
-            :class="item.select"
-            v-model:selected="selected"
             density="compact"
+            :class="item.select"
           >
             <v-list-item
               :value="item"
@@ -71,12 +78,14 @@ const active = ref(true);
         </v-col>
       </v-row>
     </div>
-    <div class="">총 <span>10건</span></div>
+    <div class="submenu-case">
+      <div class="total">총&nbsp; <span>10건</span></div>
+    </div>
     <v-divider class="svc-divide" />
     <!-- 상품리스트 -->
     <div class="service-list-area">
       <v-row>
-        <v-col cols="12" md="6" v-for="item in 6">
+        <v-col cols="12" md="6" v-for="item in 10">
           <v-card role="button" variant="outlined" class="service-list">
             <div class="top-area">
               <div class="category-title">Data/API서비스</div>

@@ -768,7 +768,7 @@
   .icon-card-arrow {
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%) rotate(-90deg);
   }
 
   .v-btn--variant-elevated {
@@ -910,8 +910,6 @@
 
 .icon-card-arrow {
   position: absolute;
-  // top: 3.2rem;
-  // right: 3.2rem;
   width: 2.4rem;
   height: 2.4rem;
   background-image: url('../images/btn/btn_toggle_arrow.png');

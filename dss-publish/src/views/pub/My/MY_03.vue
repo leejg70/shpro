@@ -1,27 +1,30 @@
 <script setup>
 import { ref } from 'vue';
 
-const selected = ref('')
 const items = ref([
   {
     link: '/MY_03',
     icon: 'my-contract',
-    text: '나의계약'
+    text: '나의계약',
+    select: 'selected'
   },
   {
-    link: 'MY_04',
+    link: '/MY_04',
     icon: 'my-wishlist',
-    text: '관심상품'
+    text: '관심상품',
+    select: ''
   },
   {
-    link: 'MY_08',
+    link: '/MY_08',
     icon: 'my-qa',
-    text: '나의문의'
+    text: '나의문의',
+    select: ''
   },
   {
-    link: 'MY_06',
+    link: '/MY_06',
     icon: 'my-alarm',
-    text: '알림'
+    text: '알림',
+    select: ''
   }
 ]);
 </script>
@@ -46,8 +49,8 @@ const items = ref([
       <v-row>
         <v-col cols="12" md="3" v-for="(item, i) in items">
           <v-list
-            v-model:selected="selected"
             density="compact"
+            :class="item.select"
           >
             <v-list-item
               :value="item"
@@ -64,6 +67,9 @@ const items = ref([
           </v-list>
         </v-col>
       </v-row>
+    </div>
+    <div class="submenu-case">
+      <div class="total">총&nbsp; <span>10건</span></div>
     </div>
     <v-divider class="svc-divide" />
     <!-- 상품리스트 -->

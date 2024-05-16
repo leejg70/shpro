@@ -167,6 +167,19 @@ const terms = ref(false);
           <p>1. 본 약관은 2024년 7월 1일부터 시행합니다.</p>
         </div>
       </div>
+      <div class="popup-foot">
+        <div class="btn-popwrap">
+          <v-btn
+            variant="flat"
+            color="primary"
+            size="x-large"
+            rounded="md"
+            class="default"
+          >
+            확인
+          </v-btn>
+        </div>
+      </div>
       <v-btn
         @click="terms = false"
         variant="text"
