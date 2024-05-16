@@ -927,7 +927,7 @@
 .allmenu {
   padding: 4.8rem 0;
   width: 100%;
-  height: 100vh;
+  height: 100%;
   background-color: #fff;
   overflow-x: hidden;
 
@@ -961,27 +961,26 @@
         position: relative;
         margin-top: 6.4rem;
         margin-bottom: 6.4rem;
-        padding-right: 2.4rem;
-        width: 20%;
+        margin-right: 2.4rem;
+        width: 18.4rem;
 
         &:not(:nth-child(5n + 1)) {
-          padding-left: 40px;
+          padding-left: 4rem;
+          width: 22.4rem;
           border-left: 1px solid #E5E5E5;
         }
 
-
         .title {
-          padding: 1.6rem 0;
+          padding: 1.6rem 0;       
           color: #111518;
-          font-size: 2.4rem;
-          font-style: normal;
+          font-size: 2.4rem;      
           font-weight: 500;
           line-height: 150%;
         }
 
-        .dep1_list {
+        .dep1_list {     
           .item {
-            padding: 8px 0;
+            padding: .8rem 0;
             font-size: 1.8rem;
             line-height: 150%;
           }
@@ -1055,6 +1054,7 @@
 
       .title {
         .title-link {
+          display: block;
           padding: 1.6rem 0;
           font-family: 'OneShinhan';
           font-size: 2rem;
@@ -1114,7 +1114,11 @@
     .title {
       color: #FFF;
       font-size: 1.8rem;
+      max-width: 63.3rem;
       line-height: 150%;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      overflow: hidden; 
     }
 
     .v-btn.btn-popup-close {
@@ -1125,63 +1129,78 @@
       cursor: pointer;
     }
 
-    .top-banner-check {
+    .v-btn.btn-top-banner{
       position: absolute;
+      padding: 0 2.6rem;
       top: 50%;
       transform: translateY(-50%);
-      right: 5.6rem;
+      right: 3.6rem;
       display: block;
-
-      .v-selection-control {
-        width: 100%;
-
-        .v-selection-control__wrapper {
-          display: block;
-          width: 2.4rem;
-          height: 2.4rem;
-
-          .v-selection-control__input {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 2.4rem;
-            height: 2.4rem;
-
-            &::before {
-              background-color: transparent;
-            }
-
-            >.v-icon {
-              width: 100%;
-              height: 100%;
-              opacity: 1;
-            }
-          }
-        }
-
-        .v-label {
-          margin-left: .8rem;
-          font-size: 1.4rem;
-          color: #ccc;
-        }
-      }
-
-      .mdi-checkbox-blank-outline::before {
-        content: '';
-        width: 2.4rem;
-        height: 2.4rem;
-        background-image: url('../images/icon/icon_top_checkbox_off.png');
-        background-size: 100%;
-      }
-
-      .mdi-checkbox-marked::before {
-        content: '';
-        width: 2.4rem;
-        height: 2.4rem;
-        background-image: url('../images/icon/icon_top_checkbox_on.png');
-        background-size: 100%;
+      .v-btn__content{
+        font-size: 14px;
+        text-decoration-line: underline;
+        color: #fff;
       }
     }
+
+
+    // .top-banner-check {
+    //   position: absolute;
+    //   top: 50%;
+    //   transform: translateY(-50%);
+    //   right: 5.6rem;
+    //   display: block;
+
+    //   .v-selection-control {
+    //     width: 100%;
+
+    //     .v-selection-control__wrapper {
+    //       display: block;
+    //       width: 2.4rem;
+    //       height: 2.4rem;
+
+    //       .v-selection-control__input {
+    //         position: absolute;
+    //         top: 0;
+    //         left: 0;
+    //         width: 2.4rem;
+    //         height: 2.4rem;
+
+    //         &::before {
+    //           background-color: transparent;
+    //         }
+
+    //         >.v-icon {
+    //           width: 100%;
+    //           height: 100%;
+    //           opacity: 1;
+    //         }
+    //       }
+    //     }
+
+    //     .v-label {
+    //       margin-left: .8rem;
+    //       font-size: 1.4rem;
+    //       color: #ccc;
+    //     }
+    //   }
+
+    //   .mdi-checkbox-blank-outline::before {
+    //     content: '';
+    //     width: 2.4rem;
+    //     height: 2.4rem;
+    //     background-image: url('../images/icon/icon_top_checkbox_off.png');
+    //     background-size: 100%;
+    //   }
+
+    //   .mdi-checkbox-marked::before {
+    //     content: '';
+    //     width: 2.4rem;
+    //     height: 2.4rem;
+    //     background-image: url('../images/icon/icon_top_checkbox_on.png');
+    //     background-size: 100%;
+    //   }
+    // }
   }
 }
 
@@ -1831,6 +1850,7 @@
           border-bottom: 1px solid #E5E5E5;
 
           &:not(:nth-child(5n + 1)) {
+            width: 100%;
             padding-left: 0;
             border-left: 0;
           }
@@ -1880,6 +1900,7 @@
       .title {
         font-size: 1.4rem;
         padding-right: 4rem;
+        max-width: 23rem;
         white-space: nowrap;
         overflow: hidden;
         text-overflow: ellipsis;
@@ -1893,7 +1914,7 @@
         cursor: pointer;
       }
 
-      .top-banner-check {
+      .v-btn.btn-top-banner{
         display: none;
       }
     }

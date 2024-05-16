@@ -8,14 +8,17 @@ const allmenu = ref(false);
 </script>
 <template>
     <div class="main-top-banner" v-show="notice">
-      <div class="top-banner-inner">
+      <div class="top-banner-inner">       
         <div class="notice-title">Notice</div>
-        <div class="title">밴드공지 영역밴드공지 영역밴드공지 영역밴드공지 영역밴드공지 영역밴드공지 영역 </div>        
-        <v-checkbox     
-          label="오늘 그만보기"
-          hide-details
-          class="top-banner-check"
-       ></v-checkbox>
+        <a href="javascript:;" class="">
+            <div class="title">밴드공지 영역밴드공지 영역밴드공지 영역밴드공지 영역밴드공지 영역밴드공지 영역 </div> 
+        </a>               
+        <v-btn
+            variant="text"
+            class="btn-top-banner"
+        >
+            오늘 그만보기
+        </v-btn>
         <v-btn
         @click="notice = false" 
         block
@@ -62,14 +65,14 @@ const allmenu = ref(false);
         <div class="gnb-menu-wrap"  v-show="show"  @mouseover="show = true" @mouseout="show = false">
             <div class="gnb-menu-inner">
                 <div class="gnb-menu-list">
-                    <h2 class="title"><a href="javascript:;" class="title-link">Data서비스</a></h2>
+                    <h2 class="title"><span class="title-link">Data서비스</span></h2><!--2024.05.16 링크없는것 span처리-->
                     <ul class="dep1-list">
                         <li class="item"><a href="javascript:;">Data상품</a></li>
                         <li class="item"><a href="javascript:;">맞춤Data</a></li>
                     </ul>
                 </div>
                 <div class="gnb-menu-list">
-                    <h2 class="title"><a href="javascript:;" class="title-link">솔루션서비스</a></h2>
+                    <h2 class="title"><span class="title-link">솔루션서비스</span></h2><!--2024.05.16 링크없는것 span처리-->
                     <ul class="dep1-list">
                         <li class="item"><a href="javascript:;">솔루션 상품</a></li>
                     </ul>
@@ -83,13 +86,13 @@ const allmenu = ref(false);
                     </ul>
                 </div>
                 <div class="gnb-menu-list">
-                    <h2 class="title"><a href="javascript:;" class="title-link">API서비스</a></h2>
+                    <h2 class="title"><span class="title-link">API서비스</span></h2><!--2024.05.16 링크없는것 span처리-->
                     <ul class="dep1-list">
                         <li class="item"><a href="javascript:;">API상품</a></li>
                     </ul>
                 </div>
                 <div class="gnb-menu-list">
-                    <h2 class="title"><a href="javascript:;" class="title-link">MY</a></h2>
+                    <h2 class="title"><span class="title-link">MY</span></h2><!--2024.05.16 링크없는것 span처리-->
                     <ul class="dep1-list">
                         <li class="item"><a href="javascript:;">나의 계약</a></li>
                         <li class="item"><a href="javascript:;">관심상품</a></li>                  
