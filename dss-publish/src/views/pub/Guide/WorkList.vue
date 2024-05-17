@@ -171,7 +171,7 @@
 									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
 									<td class="col-url"><router-link to="/MAIN_01" target="_blank">/views/pub/Main/MAIN_01</router-link></td>
-									<td class="col-date"></td>
+									<td class="col-date">2024-05-17</td>
 									<td class="col-complete"></td>
 									<td class="col-memo"></td>
 								</tr>
@@ -198,7 +198,7 @@
 									<td class="col-point">page</td>
 									<td class="col-url"><router-link to="/MAIN_00_01" target="_blank">/views/pub/Main/MAIN_00_01</router-link></td>
 									<td class="col-date">2024-05-08</td>
-									<td class="col-complete"></td>
+									<td class="col-complete">2002-05-17</td>
 									<td class="col-memo text-error">5/14 모바일 css 반영완료</td>
 								</tr>
 								<!-- <tr>
@@ -884,7 +884,7 @@
 									<td class="col-point">page</td>
 									<td class="col-url"><router-link to="/MY_04" target="_blank">/views/pub/My/MY_04</router-link></td>
 									<td class="col-date">2024-05-16</td>
-									<td class="col-complete"></td>
+									<td class="col-complete">2002-05-17</td>
 									<td class="col-memo"></td>
 								</tr>
 								<tr class="del">
@@ -1109,7 +1109,7 @@
 									<td class="col-point">page</td>
 									<td class="col-url"><router-link to="/NOTI_01" target="_blank">/views/pub/Customer/NOTI_01</router-link></td>
 									<td class="col-date">2024-05-09</td>
-									<td class="col-complete"></td>
+									<td class="col-complete">2002-05-17</td>
 									<td class="col-memo text-error">5/14 모바일 css반영완료</td>
 								</tr>
 								<tr>
@@ -1154,7 +1154,7 @@
 									<td class="col-point">page</td>
 									<td class="col-url"><router-link to="/NOTI_00_01" target="_blank">/views/pub/Customer/NOTI_00_01</router-link></td>
 									<td class="col-date">2024-05-09</td>
-									<td class="col-complete"></td>
+									<td class="col-complete">2002-05-17</td>
 									<td class="col-memo text-error">5/14 모바일 css반영완료</td>
 								</tr>
 								<tr>
@@ -1167,7 +1167,7 @@
 									<td class="col-point">page</td>
 									<td class="col-url"><router-link to="/FAQS_01" target="_blank">/views/pub/Customer/FAQS_01</router-link></td>
 									<td class="col-date">2024-05-16</td>
-									<td class="col-complete"></td>
+									<td class="col-complete">2002-05-17</td>
 									<td class="col-memo"></td>
 								</tr>
 								<tr>
@@ -1258,7 +1258,7 @@
 									<td class="col-point">page</td>
 									<td class="col-url"><router-link to="/COMU_01" target="_blank">/views/pub/Community/COMU_01</router-link></td>
 									<td class="col-date">2024-05-09</td>
-									<td class="col-complete"></td>
+									<td class="col-complete">2002-05-17</td>
 									<td class="col-memo text-error">5/14 모바일 css반영완료</td>
 								</tr>
 								<tr>
@@ -1271,7 +1271,7 @@
 									<td class="col-point">page</td>
 									<td class="col-url"><router-link to="/COMU_01_01_r" target="_blank">/views/pub/Community/COMU_01_01_r</router-link></td>
 									<td class="col-date">2024-05-09</td>
-									<td class="col-complete"></td>
+									<td class="col-complete">2002-05-17</td>
 									<td class="col-memo text-error">5/14 모바일 css반영완료</td>
 								</tr>
 								<tr>

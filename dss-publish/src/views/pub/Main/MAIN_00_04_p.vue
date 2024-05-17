@@ -1,12 +1,20 @@
 <script setup>
 import { ref } from 'vue';
+import { reactive } from 'vue';
 
-const noticePopup = ref(false);
 import { Swiper, SwiperSlide } from 'swiper/vue';
-import { Autoplay, Pagination} from 'swiper/modules';
+import { Autoplay, Pagination, Navigation} from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/pagination';
 import "swiper/css/navigation";
+
+const noticePopup = ref(true);
+const prevEl = ref(null);
+const nextEl = ref(null);
+const navigation = reactive({
+  prevEl: prevEl,
+  nextEl: nextEl,
+});
 </script>
 
 <template>
@@ -22,8 +30,8 @@ import "swiper/css/navigation";
     </template>
     <!-- // 샘플 버튼 -->
 
-    <!-- 비밀번호 확인 -->
-    <div class="popup-wrap x-medium">
+    <!-- 메인공지 팝업  -->
+    <div class="popup-wrap x-medium main-notice-popup">
       <div class="popup-head">
         <h3 class="h-title">메인공지 팝업</h3>
       </div>
@@ -38,17 +46,12 @@ import "swiper/css/navigation";
               :speed="1000"
               :pagination="{
                 clickable: true,
-              }"
-              :modules="[Autoplay, Pagination]"
+              }"         
+              :navigation="navigation"
+              :modules="[Autoplay, Pagination, Navigation]"
             >
             <swiper-slide>
-                <span class="flag">Trend Report</span>
-                <!-- flag 종류 
-                <span class="flag">Trend Report</span>
-                <span class="flag">StudyCase</span>
-                <span class="flag">DataNews</span>
-                <span class="flag">광고</span>               
-              -->                
+                <span class="flag">Trend Report</span>               
                 <a href="javascript:;">
                   <p class="text">ShinhanCard Data Market 신규 오픈 ShinhanCard Data Market 신규 오픈 ShinhanCard Data Market 신규 오픈 ShinhanCard Data Market 신규 오픈</p>
                   <p class="date">2024.08.08</p>
@@ -76,27 +79,26 @@ import "swiper/css/navigation";
                 </a>
               </swiper-slide>
             </swiper>
+            <div class="indicator-wrap">             
+              <button type="button" class="btn-main-prev" ref="prevEl"><span class="sr-only">이전</span></button>
+              <button type="button" class="btn-main-next" ref="nextEl"><span class="sr-only">다음</span></button>
+            </div>
       </div>
       <div class="popup-foot">
-        <div class="btn-popwrap">
-          <v-btn
-            variant="flat"
-            color="primary"
-            size="x-large"
-            rounded="md"
-            class="default"
-          >
-            확인
-          </v-btn>
-        </div>
+        <v-btn
+          variant="text"
+          class="cancel"
+        >
+         오늘하루 안뜸
+        </v-btn>
+        <v-btn
+          @click="noticePopup = false"
+          variant="text"
+          class="default"
+        >
+         닫기
+        </v-btn>        
       </div>
-      <v-btn
-        @click="noticePopup = false"
-        variant="text"
-        class="btn-popup-close"
-      >
-        <span class="sr-only">닫기</span>
-      </v-btn>
     </div>
     <!-- // 비밀번호 확인 -->
   </v-dialog>
