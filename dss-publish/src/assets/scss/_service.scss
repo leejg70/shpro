@@ -224,6 +224,9 @@
             .subtitle-22 {
                 margin-bottom: 0.8rem;
             }
+            .text-18 {
+                color: #333;
+            }
         }
         .img {
             flex-shrink: 0;
@@ -341,7 +344,7 @@
         }
         .desc {
             margin-bottom: 1.6rem;
-            color: #000;
+            color: #111518;
             font-size: 1.6rem;
             line-height: 150%;
             &.mb-2 {
@@ -656,7 +659,7 @@
         .v-card {          
             &.service-list {
                 padding: 2.4rem;
-                // border-radius: 1.6rem !important;
+                border-radius: 1.6rem !important;
                 .top-area {             
                     .category-title {
                         padding-right: 0.8rem;
@@ -908,6 +911,7 @@
                 border-radius: .8rem;
                 .btn-row {
                     flex-direction: column;
+                    align-items: flex-start;
                     padding: 1.6rem;
                     border-radius: .8rem .8rem 0 0;
                     &.btn-up {

@@ -2,6 +2,7 @@
 import { ref } from 'vue';
 import ProductList from '../Components/ProductList.vue';
 
+const selected = ref(0);
 function onClick() {
 };
 
@@ -24,7 +25,6 @@ function onClick() {
                             color="primary"
                             append-inner-icon="btn-search-blue"
                             placeholder="검색어 입력"
-                            value="스타벅스"
                             @click:append-inner="onClick"
                         />
                     </div>
@@ -36,7 +36,7 @@ function onClick() {
             <!--// search -->
 
             <div class="slide-btn">
-                <v-slide-group show-arrows mandatory>
+                <v-slide-group v-model="selected" show-arrows mandatory>
                     <v-slide-group-item
                         v-for="item in [ '전체', 'Data 상품', '솔루션서비스', 'API서비스' ]"
                         :key="item"
