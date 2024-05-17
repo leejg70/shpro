@@ -1,0 +1,76 @@
+// icon
+[class*='icon-'] {
+    --v-icon-size: 2.4rem;
+    background-repeat: no-repeat;
+    background-position-x: 0;
+    background-position-y: 0;
+    background-size: cover;
+}
+
+.icon-download {
+    width: var(--v-icon-size);
+    height: var(--v-icon-size);
+    background-image: url('../images/icon/icon_download.png');
+}
+
+.icon-clip {
+    width: var(--v-icon-size);
+    height: var(--v-icon-size);
+    background-image: url('../images/icon/icon_clip.png');
+}
+
+.icon-minus {
+    width: var(--v-icon-size);
+    height: var(--v-icon-size);
+    background-image: url('../images/icon/icon_minus.png');
+}
+
+.icon-plus {
+    width: var(--v-icon-size);
+    height: var(--v-icon-size);
+    background-image: url('../images/icon/icon_plus.png');
+}
+
+.icon-lock {
+    width: var(--v-icon-size);
+    height: var(--v-icon-size);
+    background-image: url('../images/icon/icon_lock.png');
+}
+
+.icon-q {
+    width: 2.8rem;
+    height: 2.8rem;
+    background-image: url('../images/icon/icon_qna_q.png');
+}
+
+.icon-a {
+    width: 2.8rem;
+    height: 2.8rem;
+    background-image: url('../images/icon/icon_qna_a.png');
+}
+
+[class*='icon-pick-'] {
+    width: 3.2rem;
+    height: 3.2rem;
+}
+.icon-pick-on {
+    background-image: url('../images/icon/icon-wishlist.png');
+}
+.icon-pick-off {
+    background-image: url('../images/icon/icon_wishlist_off.png');
+}
+
+
+
+
+@media only screen and (max-width: 1280px) {
+    .icon-minus, .icon-plus {
+        width: 2rem;
+        height: 2rem;
+    }
+    
+    .icon-q, .icon-a {
+        width: var(--v-icon-size);
+        height: var(--v-icon-size);
+    }
+}

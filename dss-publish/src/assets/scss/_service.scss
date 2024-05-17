@@ -66,9 +66,7 @@
                 .category-title {
                     flex: 1 0 0;
                     padding-right: 1.6rem;
-                    color: #333;
-                    font-size: 1.6rem;
-                    line-height: 150%;
+                    color: #666;
                     white-space: normal;
                 }
                 .icon-area {
@@ -88,28 +86,32 @@
             .middle-area {
                 margin: 2.4rem 0;
                 .prod-flag-wrap {
-                    display: block;
+                    display: flex;
                     
                 }
-                .title {
+                .subtitle-22 {
                     margin: 1.2rem 0 1.6rem;
-                    color: #111518;
-                    font-size: 2.2rem;
-                    font-weight: 500;
-                    line-height: 150%;
                 }
                 .text-area {
                     display: flex;
                     .text {
                         margin-right: 2.4rem;
-                        margin-bottom: .9rem;
-                        color: #111518;
+                        margin-bottom: 1rem;
+                        color: #333;
                         font-size: 1.8rem;
                         line-height: 150%;
                     }
-                    .img-biz{
-                        img{width: 6.4rem;}
-                    } 
+                    .img-thumbnail {
+                        flex-shrink: 0;
+                        width: 6.4rem;
+                        height: 6.4rem;
+                        margin-left: auto;
+                        border-radius: 1.6rem;
+                        background-color: #EBF1FF;
+                        img {
+                            width: 100%;
+                        }
+                    }
                 }
             }
             .bottom-area {
@@ -117,9 +119,7 @@
                 border-top: 1px solid #E5E5E5;
                 .hashtag {
                     color: #7F87A4;
-                    font-size: 1.6rem;
-                    line-height: 150%;
-                    margin-right: 1.6rem;            
+                    margin-right: 1.6rem;
                 }
             }
         }
@@ -210,45 +210,78 @@
 .product-area {
     padding-top: 3.2rem;
     border-top: 1px solid #111518;
-    .flag-area {
+    .top-info {
         display: flex;
         .favorites {
             margin-left: auto;
         }
     }
-    .title {
-        margin-top: 1.6rem;
-        margin-bottom: 0.8rem;
-        color: #111518;
-        font-size: 2.2rem;
-        font-weight: 500;
-        line-height: 150%;
-    }
-    .detail-area {
+    .middle-info {
         display: flex;
-        align-items: flex-end;
+        margin: 1.6rem 0 2.4rem;
         .text {
-            margin-bottom: 1.6rem;
-            color: #000;
-            font-size: 1.8rem;
-            line-height: 150%;
-        }
-        .hashtag {
-            color: #7F87A4;
-            font-size: 1.6rem;
-            line-height: 150%;
-            +.hashtag {
-                margin-left: 1.6rem;
+            margin-right: 4rem;
+            .subtitle-22 {
+                margin-bottom: 0.8rem;
             }
         }
-        .img-area {
-            padding-left: 3.2rem;
+        .img {
+            flex-shrink: 0;
+            width: 10.4rem;
+            height: 10.4rem;
+            margin-left: auto;
+            border-radius: 2.4rem;
+            background-color: #EBF1FF;
             img {
-                width: 6.4rem;
-                height: 6.4rem;
+                width: 100%;
             }
         }
     }
+
+    .bottom-info {
+        display: flex;
+        flex-wrap: wrap;
+        margin: -.4rem 0;
+        .hashtag {
+            padding: .4rem 0;
+            margin-right: 1.6rem;
+            color: #7F87A4;
+        }
+    }
+
+    // .title {
+    //     margin-top: 1.6rem;
+    //     margin-bottom: 0.8rem;
+    //     color: #111518;
+    //     font-size: 2.2rem;
+    //     font-weight: 500;
+    //     line-height: 150%;
+    // }
+    // .detail-area {
+    //     display: flex;
+    //     align-items: flex-end;
+    //     .text {
+    //         margin-bottom: 1.6rem;
+    //         color: #000;
+    //         font-size: 1.8rem;
+    //         line-height: 150%;
+    //     }
+    //     .hashtag {
+    //         color: #7F87A4;
+    //         font-size: 1.6rem;
+    //         line-height: 150%;
+    //         +.hashtag {
+    //             margin-left: 1.6rem;
+    //         }
+    //     }
+    //     .img-area {
+    //         padding-left: 3.2rem;
+    //         img {
+    //             width: 6.4rem;
+    //             height: 6.4rem;
+    //         }
+    //     }
+    // }
     .btn-area {
         display: flex;
         justify-content: center;
@@ -538,51 +571,10 @@
 }
 
 // icon
-[class*='icon-'] {
-    --v-icon-size: 2.4rem;
-}
 .icon-wishlist-off {
     width: 3rem;
     height: 3rem;
     background-image: url('../images/icon/icon_wishlist_off.png');
-    background-repeat: no-repeat;
-    background-size: 100%;
-}
-
-.icon-download {
-    width: var(--v-icon-size);
-    height: var(--v-icon-size);
-    background: url('../images/icon/icon_download.png') 0 0 / cover;
-}
-
-.icon-clip {
-    width: var(--v-icon-size);
-    height: var(--v-icon-size);
-    background: url('../images/icon/icon_clip.png') 0 0 / cover;
-}
-
-.icon-minus {
-    width: var(--v-icon-size);
-    height: var(--v-icon-size);
-    background: url('../images/icon/icon_minus.png') 0 0 / cover;
-}
-
-.icon-plus {
-    width: var(--v-icon-size);
-    height: var(--v-icon-size);
-    background: url('../images/icon/icon_plus.png') 0 0 / cover;
-}
-
-.icon-q {
-    width: 2.8rem;
-    height: 2.8rem;
-    background: url('../images/icon/icon_qna_q.png') 0 0 / cover;
-}
-
-.icon-a {
-    width: 2.8rem;
-    height: 2.8rem;
-    background: url('../images/icon/icon_qna_a.png') 0 0 / cover;
 }
 
 .btn-arrow-down {
@@ -664,7 +656,7 @@
         .v-card {          
             &.service-list {
                 padding: 2.4rem;
-                border-radius: 1.6rem !important;
+                // border-radius: 1.6rem !important;
                 .top-area {             
                     .category-title {
                         padding-right: 0.8rem;
@@ -690,19 +682,21 @@
                             display: none;
                         }
                     }
-                    .title {
-                        margin: 1.2rem 0;                     
-                        font-size: 1.6rem;
+                    .subtitle-22 {
+                        margin: 1.2rem 0;
+                        font-size: 1.6rem; 
                     }
                     .text-area {
                         .text {
-                            margin-right: .8rem;
+                            margin-right: 1.6rem;
                             margin-bottom: .6rem;                     
                             font-size: 1.4rem;                       
                         }
-                        .img-biz {
-                            img{width: 4.8rem;}
-                        } 
+                        .img-thumbnail {
+                            width: 4.8rem;
+                            height: 4.8rem;
+                            border-radius: 1.2rem;
+                        }
                     }
                 }
                 .bottom-area {
@@ -785,12 +779,26 @@
                 height: 2.4rem;
             }
         }
-        .title {
-            font-size: 1.6rem;
+        .middle-info {
+            margin: 1.2rem 0 1.6rem;
+            .text {
+                margin-right: 0;
+                .subtitle-22 {
+                    font-size: 1.6rem;
+                }
+                .title-18 {
+                    font-size: 1.4rem;
+                }
+            }
+            .img {
+                display: none;
+            }
         }
-        .detail-area {
-            .text, .hashtag {
-                font-size: 1.4rem;
+        .bottom-info {
+            margin: -.2rem 0;
+            .hashtag {
+                margin-right: 0.8rem;
+                padding: .2rem 0;
             }
         }
         .btn-area {
@@ -958,12 +966,12 @@
         width: 2.4rem;
         height: 2.4rem;
     }
-    .icon-q, .icon-a {
-        width: var(--v-icon-size);
-        height: var(--v-icon-size);
-    }
-    .icon-minus, .icon-plus {
-        width: 2rem;
-        height: 2rem;
-    }
+    // .icon-q, .icon-a {
+    //     width: var(--v-icon-size);
+    //     height: var(--v-icon-size);
+    // }
+    // .icon-minus, .icon-plus {
+    //     width: 2rem;
+    //     height: 2rem;
+    // }
 }

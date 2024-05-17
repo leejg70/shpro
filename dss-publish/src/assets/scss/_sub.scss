@@ -306,6 +306,35 @@
     }
     
 }
+
+// 고객문의
+.customer-list {
+    .prepend-area {
+        .category {
+            color: #356CFF;
+        }
+        .title {
+            display: flex;
+            align-items: center;
+            margin: .8rem 0;
+
+        }
+        .text-row {
+            display: flex;
+            align-items: center;
+            color: #666;
+            .v-divider--vertical {
+                margin: 0.35rem 1.6rem;
+                color: #e5e5e5;
+                opacity: 1;
+            }
+        }
+    }
+}
+
+
+
+// 서브 하단 '더보기'버튼
 [class^='contents-'] {
     .services-more-area {
         padding-top: 6.4rem;
@@ -373,6 +402,24 @@ img {
         .v-label {
             color: #888;
         }
+    }
+}
+
+// badge
+.badge-txt {
+    display: inline-flex;
+    line-height: normal;
+    .v-badge__badge {
+        position: static;
+        min-width: 3.6rem;
+        height: auto;
+        padding: .4rem .5rem;
+        font-size: 1.1rem;
+        font-weight: 700;
+        line-height: 100%;
+    }
+    + .badge-txt {
+        margin-left: 0.8rem;
     }
 }
 
@@ -588,6 +635,19 @@ img {
             .v-field__input::placeholder {
                 font-size: 1.4rem;
             }          
+        }
+    }
+
+    // badge
+    .badge-txt {
+        .v-badge__badge {
+            min-width: 3.4rem;
+            height: auto;
+            padding: .4rem .5rem;
+            font-size: 1rem;
+        }
+        + .badge-txt {
+            margin-left: 0.4rem;
         }
     }
 

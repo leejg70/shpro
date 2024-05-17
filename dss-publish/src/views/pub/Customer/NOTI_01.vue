@@ -30,7 +30,7 @@ function onClick() {
         <div class="customer-list">
             <v-list>
                 <v-list-item
-                    v-for="(item, i) in 10" :value="item"
+                    v-for="(item, i) in 10" :value="i"
                     link
                     to="/NOTI_00_01"
                     class="text-16"

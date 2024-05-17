@@ -1,5 +1,6 @@
 <script setup>
 import { ref } from 'vue';
+import ProductList from '../Components/ProductList.vue';
 
 const items = ref([
   {
@@ -27,7 +28,6 @@ const items = ref([
     select: ''
   }
 ]);
-const active = ref(true);
 </script>
 
 <template>
@@ -150,41 +150,7 @@ const active = ref(true);
     <div class="service-list-area">
       <v-row>
         <v-col cols="12" md="6" v-for="item in 10">
-          <v-card role="button" to="/PRDD_00_01" variant="outlined" class="service-list">
-            <div class="top-area">
-              <div class="category-title">Data/API서비스</div>
-              <div class="icon-area">
-                <div class="badge">
-                  <v-icon class="icon-new" />
-                  <v-icon class="icon-hot" />
-                </div>
-                <div class="favorites">
-                  <v-btn @click.prevent="active = !active" variant="flat" min-width="auto" height="auto" class="pa-0">
-                    <v-icon :icon="active ? 'icon-wishlist' : 'icon-wishlist-off'" />
-                  </v-btn>
-                </div>
-              </div>
-            </div>
-            <div class="middle-area">
-              <div class="prod-flag-wrap">
-                <span class="flag blue">시장분석</span>
-                <span class="flag violet">지역경제</span>
-                <span class="flag green">대안신용</span>
-                <span class="flag yellow">마이데이터</span>
-                <span class="flag pink">카드데이터</span>
-              </div>
-              <div class="title text-truncate" title="상품명은 한줄로 제한 한줄 초과 시 말줄임처리 말줄임처리 말줄임처리 말줄임처리">상품명은 한줄로 제한 한줄 초과 시 말줄임처리 말줄임처리 말줄임처리 말줄임처리</div>
-              <div class="text-area">
-                <div class="text text-twolines" title="2024 전국 ~~">2024 전국 스타벅스 매장 연령별 결제 데이터 두줄일 경우 2024 전국 스타벅스 매장 연령별 결제 데이터 두줄일 2024 전국 스타벅스 매장 연령별 결제 데이터 두줄일 경우</div>
-                <div class="img-biz flex-shrink-0 ml-auto">
-                  <img src="@/assets/images/icon/icon-biz.png" alt="샘플이미지" />
-                </div>
-              </div>
-            </div>
-            <div class="bottom-area text-truncate">
-              <span v-for="n in ['스타벅스', '전국', '시간대별결제데이터', '해시태그 한줄까지']" class="hashtag">#{{  n  }}</span>
-            </div>
-          </v-card>
+          <ProductList />
         </v-col>
       </v-row>
       <div class="services-more-area">
