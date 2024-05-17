@@ -108,19 +108,21 @@ const allmenu = ref(false);
     <v-dialog v-model="allmenu" fullscreen  class="menu-full-popup">
         <div class="allmenu">
             <div class="allmenu-inner">
-                <div class="allmenu-head">
+                <div class="allmenu-head"><!--  모바일만 보임 -->
                     <div class="logo-title"><img src="../../assets/images/common/logo.png" alt="" class="logo"></div>
                     <div class="allmenu-login-wrap">
+                        <!-- 로그인 전 -->
                         <!-- <ul class="login-txt-box">
                             <li><a href="javascript:;" class="menu-login"><v-icon>icon-login</v-icon>로그인</a></li>
                             <li><a href="javascript:;" class="menu-join"><v-icon>icon-join</v-icon>회원가입</a></li>              
                         </ul> -->
+                        <!-- 로그인 후 -->
                         <div class="logout-txt-box">
                             <div class="logout-txt">안녕하세요. <span class="name">김신한님!</span></div>
                         </div>
                     </div>
                 </div>
-                <div class="outlogin-box">
+                <div class="outlogin-box"><!--  모바일만 보임 -->
                     <div class="logout-btn-area">
                         <v-btn class="btn-mylink">
                         <v-icon>icon-my-contract</v-icon>
@@ -138,14 +140,14 @@ const allmenu = ref(false);
                 </div>
                 <div class="allmenu-list-wrap">
                     <div class="allmenu-list">
-                        <h2 class="title"><a href="javascript:;">Data서비스</a></h2>
+                        <h2 class="title"><span>Data서비스</span></h2>
                         <ul class="dep1_list">
                             <li class="item"><a href="javascript:;">Data상품</a></li>
                             <li class="item"><a href="javascript:;">맞춤Data</a></li>
                         </ul>
                     </div>
                     <div class="allmenu-list">
-                        <h2 class="title"><a href="javascript:;">솔루션서비스</a></h2>
+                        <h2 class="title"><span>솔루션서비스</span></h2>
                         <ul class="dep1_list">
                             <li class="item"><a href="javascript:;">솔루션 상품</a></li>
                         </ul>
@@ -159,13 +161,13 @@ const allmenu = ref(false);
                         </ul>
                     </div>
                     <div class="allmenu-list">
-                        <h2 class="title"><a href="javascript:;">API서비스</a></h2>
+                        <h2 class="title"><span>API서비스</span></h2>           
                         <ul class="dep1_list">
                             <li class="item"><a href="javascript:;">API상품</a></li>
                         </ul>
                     </div>
                     <div class="allmenu-list">
-                        <h2 class="title"><a href="javascript:;">MY</a></h2>
+                        <h2 class="title"><span>MY</span></h2>                                          
                         <ul class="dep1_list">
                             <li class="item"><a href="javascript:;">나의 계약</a></li>
                             <li class="item"><a href="javascript:;">관심상품</a></li>                        
@@ -173,29 +175,29 @@ const allmenu = ref(false);
                             <li class="item"><a href="javascript:;">알림</a></li>
                         </ul>
                     </div>
-                    <div class="allmenu-list">
-                        <h2 class="title"><a href="javascript:;">DataBlue</a></h2>
+                    <div class="allmenu-list">                    
+                        <h2 class="title"><span>DataBlue</span></h2> 
                         <ul class="dep1_list">
                             <li class="item"><a href="javascript:;">DataBlue</a></li>
                             <li class="item"><a href="javascript:;">신한 DataUniverse</a></li>
                         </ul>
                     </div>
-                    <div class="allmenu-list">
-                        <h2 class="title"><a href="javascript:;">커뮤니티</a></h2>
+                    <div class="allmenu-list">                
+                        <h2 class="title"><span>커뮤니티</span></h2>
                         <ul class="dep1_list">
                             <li class="item"><a href="javascript:;">활용장</a></li>
                             <li class="item"><a href="javascript:;">토론장</a></li>
                         </ul>
                     </div>
-                    <div class="allmenu-list">
-                        <h2 class="title"><a href="javascript:;">고객센터</a></h2>
+                    <div class="allmenu-list mo-customer"><!--  모바일경우 none 처리 -->                     
+                        <h2 class="title"><span>고객센터</span></h2>
                         <ul class="dep1_list">
                             <li class="item"><a href="javascript:;">공지사항</a></li>
                             <li class="item"><a href="javascript:;">FAQ</a></li>
                             <li class="item"><a href="javascript:;">고객문의</a></li>
                        </ul>
                     </div>                 
-                    <ul class="customer-box ">
+                    <ul class="customer-box"><!--  모바일만 보임 -->
                         <li><a href="javascript:;" class="notice">공지사항</a></li>
                         <li><a href="javascript:;" class="faq">FAQ</a></li>
                         <li><a href="javascript:;" class="customer-center">고객문의</a></li>
