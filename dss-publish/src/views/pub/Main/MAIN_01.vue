@@ -226,7 +226,7 @@ const navigation = reactive({
           <v-text-field
             color="primary"
             hide-details="auto"
-            placeholder="상품명, 해시태그"
+            placeholder="상품명, 해시태그"   
             variant="outlined"
             clearable
           ></v-text-field>
@@ -415,7 +415,7 @@ const navigation = reactive({
             <div class="category-title">Trend Report+Case Study</div>
             <div class="title">신한카드 Data 200% 활용법</div>
             <div class="btn-area">
-              <span>커뮤니티</span>
+              <span>활용장</span>
               <v-icon>btn-main-arrow</v-icon>
             </div>
             <v-icon>icon-graph</v-icon>
@@ -507,7 +507,7 @@ const navigation = reactive({
             <strong class="title">사업제휴</strong>
             <div class="text">새로운 아이디어와<br>사업제안을 환영합니다.</div>
             <div class="btn-area">
-              <span>Datable 제휴신청</span>
+              <span>제휴문의</span>
               <v-icon>btn-main-arrow</v-icon>
             </div>
             <v-icon>icon-hand</v-icon>
