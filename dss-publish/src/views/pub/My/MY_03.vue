@@ -15,7 +15,7 @@ const items = ref([
     select: ''
   },
   {
-    link: '/MY_08',
+    link: '/MY_05',
     icon: 'my-qa',
     text: '나의문의',
     select: ''
@@ -145,8 +145,8 @@ const items = ref([
       <div class="total">총&nbsp; <span>10건</span></div>
     </div>
     <v-divider class="svc-divide" />
-    <!-- 상품리스트 -->
+    <!-- 나의계약 리스트 -->
     
-    <!--// 상품리스트 -->
+    <!--// 나의계약 리스트 -->
   </div>
 </template>

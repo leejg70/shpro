@@ -16,7 +16,7 @@ const items = ref([
     select: 'selected'
   },
   {
-    link: '/MY_08',
+    link: '/MY_05',
     icon: 'my-qa',
     text: '나의문의',
     select: ''
@@ -146,7 +146,7 @@ const items = ref([
       <div class="total">총&nbsp; <span>10건</span></div>
     </div>
     <v-divider class="svc-divide" />
-    <!-- 상품리스트 -->
+    <!-- 관심상품 리스트 -->
     <div class="service-list-area">
       <v-row>
         <v-col cols="12" md="6" v-for="item in 10">
@@ -157,7 +157,7 @@ const items = ref([
         <v-btn variant="outlined" rounded="xl" class="btn-more">더보기<v-icon class="icon-arrow" /></v-btn>
       </div>
     </div>
-    <!--// 상품리스트 -->
+    <!--// 관심상품 리스트 -->
     <!-- 나의내역 없음 -->
     <div class="search-result">
       <div class="text">나의 내역</div>
