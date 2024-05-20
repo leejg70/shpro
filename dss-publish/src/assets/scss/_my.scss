@@ -58,10 +58,9 @@
     .btn-arrow {
       width: 2.4rem;
       height: 2.4rem;
-      background-image: url('../images/btn/btn_sel_arrow.png');
+      background-image: url('../images/btn/btn_accordion_arrow.png');
       background-repeat: no-repeat;
       background-size: 100%;
-      transform: rotate( -90deg );
     }
     .btn-mycredit {
       width: 10.4rem;
@@ -145,6 +144,7 @@
 }
 .total-area {
   display: flex;
+  align-items: flex-end;
   justify-content: space-between;
   margin-bottom: .8rem;
   .total {
@@ -154,6 +154,70 @@
       font-weight: 700;
       color: #111518;
     }
+    .alarm-text {
+      margin-left: 2.4rem;
+      font-size: 1.4rem;
+      font-weight: 400;
+      color: #666;
+    }
+  }
+}
+.alarm-list-area {
+  margin-top: 2.4rem;
+  .v-list {
+    overflow: hidden;
+    padding: 0;
+    .v-list-item {
+      margin-bottom: 1.6rem;
+      padding: 2.2rem 3.2rem;
+      border: .1rem solid #e5e5e5;
+      border-radius: 1.6rem;
+      &:hover > .v-list-item__overlay {
+        opacity: 0;
+      }
+      &:last-child {
+        margin-bottom: 0;
+      }
+      .date {
+        margin-bottom: .8rem;
+        color: #666;
+        .alarm {
+          position: relative;
+          &::after {
+            content: '';
+            display: block;
+            position: absolute;
+            top: 0;
+            right: -1.4rem;
+            width: .6rem;
+            height: .6rem;
+            background-color: #ff405b;
+            border-radius: 50%;
+          }
+        }
+      }
+      .register {
+        margin-top: .8rem;
+        color: #7f87a4;
+      }
+      .v-btn {
+        height: 2.4rem;
+        min-width: 2.4rem;
+        margin-left: 2.4rem;
+        padding: 0;
+        border-radius: 0;
+      }
+      .btn-arrow {
+        width: 2.4rem;
+        height: 2.4rem;
+        background-image: url('../images/btn/btn_accordion_arrow.png');
+        background-repeat: no-repeat;
+        background-size: 100%;
+      }
+    }
+  }
+  .services-more-area {
+    padding-top: 6.4rem;
   }
 }
 
@@ -234,8 +298,44 @@
     }
   }
   .total-area {
+    display: block;
+    margin-bottom: 1.6rem;
     .total {
+      margin-bottom: 1.6rem;
       font-size: 1.4rem;
+      .alarm-text {
+        margin-left: 1.6rem;
+        font-size: 1.2rem;
+      }
+    }
+  }
+  .alarm-list-area {
+    margin-top: 1.6rem;
+    .v-list {
+      .v-list-item {
+        padding: 1.6rem 2.4rem;
+        .text-truncate {
+          white-space: normal !important;
+          word-break: keep-all;
+        }
+        .v-btn {
+          margin-left: 1.6rem;
+        }
+      }
+    }
+    .services-more-area {
+      padding-top: 4rem;
+      .btn-more {
+        width: 16rem;
+        height: 4rem;
+        padding: 1rem 0;
+        font-size: 1.4rem;
+        box-sizing: border-box;
+        .icon-arrow {
+          width: 2rem;
+          height: 2rem;
+        }
+      }
     }
   }
 }

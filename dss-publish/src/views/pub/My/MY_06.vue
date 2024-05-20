@@ -142,11 +142,56 @@ const items = ref([
       </v-row>
     </div>
     <div class="total-area">
-      <div class="total">총&nbsp; <span>10건</span></div>
+      <div class="total">총&nbsp; <span>10건</span><span class="alarm-text">최근 1년간의 알림 내역만 출력됩니다.</span></div>
+      <div class="inp-checkbox justify-end mgb8">
+        <v-checkbox
+          hide-details
+          density="comfortable"
+          label="읽지 않은 알림만 보기"
+        />
+        </div>
     </div>
     <v-divider class="svc-divide" />
-    <!-- 상품리스트 -->
-    
-    <!--// 상품리스트 -->
+    <!-- 알림리스트 -->
+    <div class="alarm-list-area">
+      <v-list>
+        <v-list-item
+          v-for="(item, i) in 10"
+          link
+          to=""
+        >
+          <div class="text">
+            <!-- 읽지 않은 알림 -->
+            <div class="date text-14"><span class="alarm">2024.02.01 15:30</span></div>
+            <!-- 이미 읽은 알림
+            <div class="date text-14"><span>2024.02.01 15:30</span></div>
+            -->
+            <div class="text-truncate text-16">올리브영 성별 판매데이터</div>
+            <!-- 이벤트별 메시지 -->
+            <div class="register text-16">계약이 등록되었습니다.</div>
+            <!-- 이벤트별 메시지
+            <div class="register text-16">상품의 다운로드 파일이 등록되었습니다.</div>
+            <div class="register text-16">Data 상품이 메일로 발송되었습니다.</div>
+            <div class="register text-16">문의에 답변이 등록되었습니다.</div>
+            -->
+          </div>
+          <template v-slot:append>
+            <v-btn variant="text">
+              <v-icon class="btn-arrow" />
+            </v-btn>
+          </template>
+        </v-list-item>
+      </v-list>
+      <div class="services-more-area">
+          <v-btn variant="outlined" rounded="xl" class="btn-more">더보기<v-icon class="icon-arrow" /></v-btn>
+      </div>
+    </div>
+    <!--// 알림리스트 -->
+    <!-- 나의내역 없음 -->
+    <div class="search-result">
+      <div class="text">나의 내역</div>
+      <div class="desc">내역이 없습니다.</div>
+    </div>
+    <!--// 나의내역 없음 -->
   </div>
 </template>
