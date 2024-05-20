@@ -161,6 +161,30 @@
       color: #666;
     }
   }
+  .select-wrap {
+    position: relative;
+    width: 24rem;
+    .v-field--center-affix .v-field__append-inner {
+      align-items: flex-start;
+      margin: 1.2rem 1.6rem 1.2rem 0;
+    }
+    .v-select__menu-icon {
+      width: 2.4rem;
+      height: 2.4rem;
+      margin: 0;
+    }
+    .mdi-menu-down::before {
+      content: '';
+      width: 2.4rem;
+      height: 2.4rem;
+      background-image: url('../images/btn/btn_sel_arrow.png');
+      background-size: 100%;
+    }
+    .v-select .v-field {
+      font-size: 1.6rem;
+      color: #111518;
+    }
+  }
 }
 .alarm-list-area {
   margin-top: 2.4rem;
@@ -298,14 +322,31 @@
     }
   }
   .total-area {
-    display: block;
-    margin-bottom: 1.6rem;
     .total {
-      margin-bottom: 1.6rem;
       font-size: 1.4rem;
       .text {
         margin-left: 1.6rem;
         font-size: 1.2rem;
+      }
+    }
+    &.alarm {
+      display: block;
+      margin-bottom: 1.6rem;
+      .total {
+        margin-bottom: 1.6rem;
+      }
+    }
+    .select-wrap {
+      width: 18rem;
+      .v-field--center-affix .v-field__append-inner {
+        margin: .9rem 1.6rem .9rem 0;
+      }
+      .v-field__input {
+        padding-left: 1.6rem;
+        padding-right: .8rem;
+      }
+      .v-select .v-field {
+        font-size: 1.4rem;
       }
     }
   }

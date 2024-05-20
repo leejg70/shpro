@@ -141,7 +141,7 @@ const items = ref([
         </v-col>
       </v-row>
     </div>
-    <div class="total-area">
+    <div class="total-area alarm">
       <div class="total">총&nbsp; <span>10건</span><span class="text">최근 1년간의 알림 내역만 출력됩니다.</span></div>
       <div class="inp-checkbox justify-end mgb8">
         <v-checkbox

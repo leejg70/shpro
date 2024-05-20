@@ -27,6 +27,8 @@ const items = ref([
     select: ''
   }
 ]);
+const selected = ref('전체 문의');
+const qna = ['이용문의', '제휴문의', '기술문의', 'Data서비스 문의', '솔루션서비스 문의', 'API서비스 문의', '광고서비스 문의'];
 </script>
 
 <template>
@@ -143,10 +145,27 @@ const items = ref([
     </div>
     <div class="total-area">
       <div class="total">총&nbsp; <span>10건</span></div>
+      <div class="select-wrap">
+        <v-select
+          aria-label="전체 문의"
+          v-model="selected"
+          :items="qna"
+          variant="outlined"
+          color="primary"
+          hide-details="auto"
+          required
+        ></v-select>
+      </div>
     </div>
     <v-divider class="svc-divide" />
     <!-- 나의문의 리스트 -->
-    
+
     <!--// 나의문의 리스트 -->
+    <!-- 나의내역 없음 -->
+    <div class="search-result">
+      <div class="text">나의 내역</div>
+      <div class="desc">내역이 없습니다.</div>
+    </div>
+    <!--// 나의내역 없음 -->
   </div>
 </template>
