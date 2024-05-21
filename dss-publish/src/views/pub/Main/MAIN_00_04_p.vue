@@ -32,9 +32,6 @@ const navigation = reactive({
 
     <!-- 메인공지 팝업  -->
     <div class="popup-wrap x-medium main-notice-popup">
-      <div class="popup-head">
-        <h3 class="h-title">메인공지 팝업</h3>
-      </div>
       <div class="popup-cont">
         <swiper
               :loop="true"
@@ -50,32 +47,44 @@ const navigation = reactive({
               :navigation="navigation"
               :modules="[Autoplay, Pagination, Navigation]"
             >
-            <swiper-slide>
-                <span class="flag">Trend Report</span>               
+              <swiper-slide>
+                <!--이미지 배너 케이스-->                             
                 <a href="javascript:;">
-                  <p class="text">ShinhanCard Data Market 신규 오픈 ShinhanCard Data Market 신규 오픈 ShinhanCard Data Market 신규 오픈 ShinhanCard Data Market 신규 오픈</p>
-                  <p class="date">2024.08.08</p>
+                  <div class="pop-bg-notice"><img src="../../../assets/images/main/banner_notice01.png" alt=""></div>        
                 </a>
               </swiper-slide>
-              <swiper-slide>
-                <span class="flag">StudyCase</span>
+              <swiper-slide>               
                 <a href="javascript:;">
-                  <p class="text">ShinhanCard Data Market 신규 오픈(두줄1)</p>
-                  <p class="date">2024.08.08</p>
+                  <!--배경이미지+텍스트 케이스-->                
+                  <div class="pop-bg-notice"><img src="../../../assets/images/main/bg-notice-type2.png" alt=""></div>
+                  <div class="pop-notice-text">
+                    <strong class="pop-notice-title">제목크기 40px 한줄 제한</strong>
+                    <p class="pop-notice-cont">
+                      컨텐츠 텍스트는 관리자에서 등록<br>
+                      글자수 제한 있으나, 본 텍스트 영역 이상의 줄바꿈 또는 글자수가 초과될 시 영역밖의 내용은 보이지 않음.<br>
+                      글자 영역의 높이깂은 반드시 지켜져야 합니다.<br>
+                      그래야 모바일 팝업에서도 동일한 양의 글자가 노출될 수 있습니다.<br>
+                      일이삼사오육칠팔구십일이삼사오육<br>
+                      칠팔구십일이삼사오육칠팔구십일이삼사오육칠팔구
+                    </p>
+                  </div>                
                 </a>
               </swiper-slide>
-              <swiper-slide>
-                <span class="flag">DataNews</span>
+              <swiper-slide>               
                 <a href="javascript:;">
-                  <p class="text">ShinhanCard Data Market 신규 오픈(두줄2)</p>
-                  <p class="date">2024.08.08</p>
-                </a>
-              </swiper-slide>
-              <swiper-slide>
-                <span class="flag">광고</span>
-                <a href="javascript:;">
-                  <p class="text">ShinhanCard Data Market 신규 오픈(두줄)</p>
-                  <p class="date">2024.08.08</p>
+                  <!--배경이미지+텍스트 케이스-->                
+                  <div class="pop-bg-notice"><img src="../../../assets/images/main/bg-notice-type1.png" alt=""></div>
+                  <div class="pop-notice-text">
+                    <strong class="pop-notice-title">제목크기 40px 한줄 제한</strong>
+                    <p class="pop-notice-cont">
+                      컨텐츠 텍스트는 관리자에서 등록<br>
+                      글자수 제한 있으나, 본 텍스트 영역 이상의 줄바꿈 또는 글자수가 초과될 시 영역밖의 내용은 보이지 않음.<br>
+                      글자 영역의 높이깂은 반드시 지켜져야 합니다.<br>
+                      그래야 모바일 팝업에서도 동일한 양의 글자가 노출될 수 있습니다.<br>
+                      일이삼사오육칠팔구십일이삼사오육<br>
+                      칠팔구십일이삼사오육칠팔구십일이삼사오육칠팔구
+                    </p>
+                  </div>                
                 </a>
               </swiper-slide>
             </swiper>
@@ -84,17 +93,17 @@ const navigation = reactive({
               <button type="button" class="btn-main-next" ref="nextEl"><span class="sr-only">다음</span></button>
             </div>
       </div>
-      <div class="popup-foot">
+      <div class="popup-foot">        
         <v-btn
           variant="text"
-          class="cancel"
+          class="pop-1day-close"
         >
-         오늘하루 안뜸
+        오늘 그만보기
         </v-btn>
         <v-btn
           @click="noticePopup = false"
           variant="text"
-          class="default"
+          class="pop-notice-close"
         >
          닫기
         </v-btn>        
