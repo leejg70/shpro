@@ -74,7 +74,7 @@ const allmenu = ref(false);
                 <div class="gnb-menu-list">
                     <h2 class="title"><span class="title-link">솔루션서비스</span></h2><!--2024.05.16 링크없는것 span처리-->
                     <ul class="dep1-list">
-                        <li class="item"><a href="javascript:;">솔루션 상품</a></li>
+                        <li class="item"><a href="javascript:;">솔루션상품</a></li>
                     </ul>
                 </div>
                 <div class="gnb-menu-list">
@@ -94,7 +94,7 @@ const allmenu = ref(false);
                 <div class="gnb-menu-list">
                     <h2 class="title"><span class="title-link">MY</span></h2><!--2024.05.16 링크없는것 span처리-->
                     <ul class="dep1-list">
-                        <li class="item"><a href="javascript:;">나의 계약</a></li>
+                        <li class="item"><a href="javascript:;">나의계약</a></li>
                         <li class="item"><a href="javascript:;">관심상품</a></li>                  
                         <li class="item"><a href="javascript:;">나의문의</a></li>
                         <li class="item"><a href="javascript:;">알림</a></li>
@@ -149,7 +149,7 @@ const allmenu = ref(false);
                     <div class="allmenu-list">
                         <h2 class="title"><span>솔루션서비스</span></h2>
                         <ul class="dep1_list">
-                            <li class="item"><a href="javascript:;">솔루션 상품</a></li>
+                            <li class="item"><a href="javascript:;">솔루션상품</a></li>
                         </ul>
                     </div>
                     <div class="allmenu-list">
@@ -167,9 +167,9 @@ const allmenu = ref(false);
                         </ul>
                     </div>
                     <div class="allmenu-list">
-                        <h2 class="title"><span>MY</span></h2>                                          
+                        <h2 class="title"><span>MY</span></h2>
                         <ul class="dep1_list">
-                            <li class="item"><a href="javascript:;">나의 계약</a></li>
+                            <li class="item"><a href="javascript:;">나의계약</a></li>
                             <li class="item"><a href="javascript:;">관심상품</a></li>                        
                             <li class="item"><a href="javascript:;">나의문의</a></li>
                             <li class="item"><a href="javascript:;">알림</a></li>
