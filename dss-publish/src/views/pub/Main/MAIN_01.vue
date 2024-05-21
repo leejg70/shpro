@@ -468,32 +468,6 @@ const navigation = reactive({
             </ul>
           </div>
         </div>
-        <div class="slide-inner">
-          <div class="slider slider2">
-            <ul>
-              <li><img src="../../../assets/images/main/banner01.png" alt=""></li>
-              <li><img src="../../../assets/images/main/banner02.png" alt=""></li>
-              <li><img src="../../../assets/images/main/banner03.png" alt=""></li>
-              <li><img src="../../../assets/images/main/banner04.png" alt=""></li>
-              <li><img src="../../../assets/images/main/banner05.png" alt=""></li>
-              <li><img src="../../../assets/images/main/banner06.png" alt=""></li>
-              <li><img src="../../../assets/images/main/banner07.png" alt=""></li>
-              <li><img src="../../../assets/images/main/banner08.png" alt=""></li>
-              <li><img src="../../../assets/images/main/banner09.png" alt=""></li>
-            </ul>
-            <ul>
-              <li><img src="../../../assets/images/main/banner01.png" alt=""></li>
-              <li><img src="../../../assets/images/main/banner02.png" alt=""></li>
-              <li><img src="../../../assets/images/main/banner03.png" alt=""></li>
-              <li><img src="../../../assets/images/main/banner04.png" alt=""></li>
-              <li><img src="../../../assets/images/main/banner05.png" alt=""></li>
-              <li><img src="../../../assets/images/main/banner06.png" alt=""></li>
-              <li><img src="../../../assets/images/main/banner07.png" alt=""></li>
-              <li><img src="../../../assets/images/main/banner08.png" alt=""></li>
-              <li><img src="../../../assets/images/main/banner09.png" alt=""></li>
-            </ul>
-          </div>
-        </div>
       </div>
     </div>
     <div class="main-customer-wrap">
