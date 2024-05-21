@@ -1432,7 +1432,7 @@
 									<td class="col-url"><router-link to="/LGIN_03" target="_blank">/views/pub/Login/LGIN_03</router-link></td>
 									<td class="col-date">2024-04-16</td>
 									<td class="col-complete">2024-04-24</td>
-									<td class="col-memo"></td>
+									<td class="col-memo">[2024.05.21] 알뜰폰 기존 방식 삭제</td>
 								</tr>
 								<tr>
 									<td class="col-num"></td>
@@ -1510,7 +1510,7 @@
 									<td class="col-url"><router-link to="/IDPW_01" target="_blank">/views/pub/FindID/IDPW_01</router-link></td>
 									<td class="col-date">2024-04-12</td>
 									<td class="col-complete">2024-04-24</td>
-									<td class="col-memo"></td>
+									<td class="col-memo">[2024.05.21] 알뜰폰 기존 방식 삭제</td>
 								</tr>
 								<tr>
 									<td class="col-num"></td>
@@ -1575,7 +1575,7 @@
 									<td class="col-url"><router-link to="/JOIN_02_01" target="_blank">/views/pub/Member/JOIN_02_01</router-link></td>
 									<td class="col-date">2024-04-12</td>
 									<td class="col-complete">2024-04-24</td>
-									<td class="col-memo"></td>
+									<td class="col-memo">[2024.05.21] 알뜰폰 기존 방식 삭제</td>
 								</tr>
 								<tr>
 									<td class="col-num"></td>
@@ -1653,7 +1653,7 @@
 									<td class="col-url"><router-link to="/JOIN_02_04" target="_blank">/views/pub/Member/JOIN_02_04</router-link></td>
 									<td class="col-date">2024-04-12</td>
 									<td class="col-complete">2024-04-24</td>
-									<td class="col-memo"></td>
+									<td class="col-memo">[2024.05.21] 메세지 수정</td>
 								</tr>
 								<tr>
 									<td class="col-num"></td>
@@ -1666,7 +1666,7 @@
 									<td class="col-url"><router-link to="/JOIN_03_01" target="_blank">/views/pub/Member/JOIN_03_01</router-link></td>
 									<td class="col-date">2024-04-15</td>
 									<td class="col-complete">2024-04-24</td>
-									<td class="col-memo"></td>
+									<td class="col-memo">[2024.05.21] 알뜰폰 기존 방식 삭제</td>
 								</tr>
 								<tr>
 									<td class="col-num"></td>
@@ -1744,7 +1744,7 @@
 									<td class="col-url"><router-link to="/JOIN_03_04" target="_blank">/views/pub/Member/JOIN_03_04</router-link></td>
 									<td class="col-date">2024-04-15</td>
 									<td class="col-complete">2024-04-24</td>
-									<td class="col-memo"></td>
+									<td class="col-memo">[2024.05.21] 메세지 수정</td>
 								</tr>
 								<tr>
 									<td class="col-num"></td>
@@ -1757,7 +1757,7 @@
 									<td class="col-url"><router-link to="/JOIN_04_01" target="_blank">/views/pub/Member/JOIN_04_01</router-link></td>
 									<td class="col-date">2024-04-15</td>
 									<td class="col-complete">2024-04-24</td>
-									<td class="col-memo"></td>
+									<td class="col-memo">[2024.05.21] 알뜰폰 기존 방식 삭제</td>
 								</tr>
 								<tr>
 									<td class="col-num"></td>
@@ -1835,7 +1835,7 @@
 									<td class="col-url"><router-link to="/JOIN_04_03_01_p" target="_blank">/views/pub/Member/JOIN_04_03_01_p</router-link></td>
 									<td class="col-date">2024-05-03</td>
 									<td class="col-complete">2024-05-10</td>
-									<td class="col-memo"></td>
+									<td class="col-memo">[2024.05.21] 컬럼명 수정</td>
 								</tr>
 								<tr>
 									<td class="col-num"></td>
@@ -1874,7 +1874,7 @@
 									<td class="col-url"><router-link to="/JOIN_04_03_04_p" target="_blank">/views/pub/Member/JOIN_04_03_04_p</router-link></td>
 									<td class="col-date">2024-05-07</td>
 									<td class="col-complete">2024-05-10</td>
-									<td class="col-memo">[2024.05.10] class 추가 : member, form-type</td>
+									<td class="col-memo">[2024.05.10] class 추가 : member, form-type<br>[2024.05.21] 안내문구 추가</td>
 								</tr>
 								<tr>
 									<td class="col-num"></td>
@@ -1887,7 +1887,7 @@
 									<td class="col-url"><router-link to="/JOIN_04_04" target="_blank">/views/pub/Member/JOIN_04_04</router-link></td>
 									<td class="col-date">2024-04-15</td>
 									<td class="col-complete">2024-04-24</td>
-									<td class="col-memo"></td>
+									<td class="col-memo">[2024.05.21] 메세지 수정</td>
 								</tr>
 								<tr>
 									<td class="col-num"></td>
@@ -2294,7 +2294,7 @@
 									<td class="col-url"><router-link to="/CFMH_01_p" target="_blank">/views/pub/Common/CFMH_01_p</router-link></td>
 									<td class="col-date">2024-05-10</td>
 									<td class="col-complete">2024-05-10</td>
-									<td class="col-memo"></td>
+									<td class="col-memo">[2024.05.21] 알뜰폰 기존 방식 삭제</td>
 								</tr>
 								<tr>
 									<td class="col-num"></td>

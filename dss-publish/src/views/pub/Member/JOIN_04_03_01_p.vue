@@ -68,8 +68,8 @@ const company = ref(false);
                     <ul class="table-head">
                       <li class="bo-select">선택</li>
                       <li class="bo-name">기업명</li>
-                      <li class="bo-num">사업자 번호</li>
-                      <li class="bo-email">사용 가능 이메일</li>
+                      <li class="bo-num">사업자등록번호</li><!-- 2024.05.21 컬럼명 수정 -->
+                      <li class="bo-email">법인도메인</li><!-- 2024.05.21 컬럼명 수정 -->
                     </ul>
                     <v-radio-group hide-details="auto">
                       <ul class="table-body">
@@ -163,8 +163,8 @@ const company = ref(false);
                     <ul class="table-head">
                       <li class="bo-select">선택</li>
                       <li class="bo-name">기업명</li>
-                      <li class="bo-num">사업자 번호</li>
-                      <li class="bo-email">사용 가능 이메일</li>
+                      <li class="bo-num">사업자등록번호</li><!-- 2024.05.21 컬럼명 수정 -->
+                      <li class="bo-email">법인도메인</li><!-- 2024.05.21 컬럼명 수정 -->
                     </ul>
                     <v-radio-group hide-details="auto">
                       <ul class="table-body">

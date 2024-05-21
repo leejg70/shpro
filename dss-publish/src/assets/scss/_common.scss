@@ -191,6 +191,15 @@ address span {display: inline-block; margin-right: 1.6rem;}
         padding-left: 1.2rem;
         padding-right: 1.2rem;
     }
+    .v-select__selection {
+        padding-left: .4rem;
+    }
+    .v-select .v-field .v-field__input > input {
+        height: 100%;
+        padding-left: .4rem;
+        padding-bottom: 0.125rem;
+        font-size: 1.4rem;
+    }
     .header {
         padding: 1.4rem 2.4rem;
     }

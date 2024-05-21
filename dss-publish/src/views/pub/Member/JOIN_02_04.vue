@@ -19,7 +19,7 @@
       <v-icon>icon-success</v-icon>
       <div class="complete-text">
         <div>회원가입 완료</div>
-        <p>환영합니다. 고객님.<br>만족을 드리는 서비스로 보답하겠습니다.</p>
+        <p>회원가입이 완료되었습니다.<br>DataBlue의 멋진 기능들을 경험해보세요.</p><!-- 2024.05.21 메세지 수정 -->
       </div>
     </div>
     <div class="btn-wrap">

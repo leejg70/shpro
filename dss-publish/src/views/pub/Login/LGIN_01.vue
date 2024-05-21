@@ -64,6 +64,12 @@ const passwordRules = ref(['비밀번호를 입력해주세요.']);
           hide-details
           class="check-all"
         ></v-checkbox>
+        <v-checkbox
+          v-model="keypad"
+          label="보안키패드"
+          hide-details
+          class="check-all"
+        ></v-checkbox>
       </div>
       <v-btn
         :disabled="valid"

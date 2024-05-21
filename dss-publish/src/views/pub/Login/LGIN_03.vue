@@ -19,8 +19,8 @@ const gender = ref('');
 const phone = ref('');
 const sms = ref('');
 const radioGroup = ref('');
-const selected = ref('알뜰폰');
-const items = ['알뜰폰', 'SKT 알뜰폰', 'KT 알뜰폰', 'LG U+ 알뜰폰'];
+// const selected = ref('알뜰폰');
+const items = ['SKT 알뜰폰', 'KT 알뜰폰', 'LG U+ 알뜰폰'];
 const valid = ref(false);
 const nameRules = ref(['이름은 필수 입력입니다.']);
 </script>
@@ -242,6 +242,7 @@ const nameRules = ref(['이름은 필수 입력입니다.']);
               </v-radio-group>
             </div>
             <div v-if="radioGroup=='알뜰폰'" class="select-wrap">
+              <!-- 2024.05.21 기존 방식 삭제
               <v-select
                 aria-label="알뜰폰"
                 v-model="selected"
@@ -250,6 +251,14 @@ const nameRules = ref(['이름은 필수 입력입니다.']);
                 color="primary"
                 hide-details="auto"
                 required
+              ></v-select>
+              -->
+              <v-select
+                :items="items"
+                placeholder="선택"
+                variant="outlined"
+                color="primary"
+                hide-details="auto"
               ></v-select>
             </div>
           </div>
