@@ -161,6 +161,9 @@
       color: #666;
     }
   }
+  .inp-checkbox {
+    padding-bottom: .8rem;
+  }
   .select-wrap {
     position: relative;
     width: 24rem;
@@ -331,7 +334,6 @@
     }
     &.alarm {
       display: block;
-      margin-bottom: 1.6rem;
       .total {
         margin-bottom: 1.6rem;
       }
