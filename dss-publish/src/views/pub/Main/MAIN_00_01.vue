@@ -3,6 +3,10 @@ import { ref } from 'vue';
 import ProductList from '../Components/ProductList.vue';
 
 const selected = ref(0);
+const search = ref('');
+const onClear = () => {
+    search.value = ''
+};
 function onClick() {
 };
 
@@ -20,12 +24,14 @@ function onClick() {
                 <div class="search-box">
                     <div class="inp">
                         <v-text-field
+                            v-model="search"
                             hide-details clearable
                             variant="outlined"
                             color="primary"
                             append-inner-icon="btn-search-blue"
-                            placeholder="검색어 입력"
+                            placeholder="제목 검색"
                             @click:append-inner="onClick"
+                            @click:clear="onClear()"
                         />
                     </div>
                 </div>

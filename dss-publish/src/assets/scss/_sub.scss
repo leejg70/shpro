@@ -589,6 +589,9 @@ img {
         padding: 0 .8rem 0 0;
         font-size: 1.6rem;
     }
+    textarea.v-field__input::placeholder {
+        color: #aaa;
+    }
     .v-input__details {
         flex-direction: column-reverse;
         margin-top: -46px;

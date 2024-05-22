@@ -12,6 +12,10 @@ const slide = ref([
     { name: '광고서비스', num: 4 }
 ]);
 const selected = ref(0);
+const search = ref('');
+const onClear = () => {
+    search.value = ''
+};
 function onClick() {};
 </script>
 
@@ -27,12 +31,14 @@ function onClick() {};
                 <div class="search-box">
                     <div class="inp">
                         <v-text-field
+                            v-model="search"
                             hide-details clearable
                             variant="outlined"
                             color="primary"
                             append-inner-icon="btn-search-blue"
                             placeholder="제목 검색"
                             @click:append-inner="onClick"
+                            @click:clear="onClear()"
                         />
                     </div>
                 </div>
@@ -70,7 +76,7 @@ function onClick() {};
             <div class="customer-list">
                 <v-list>
                     <v-list-item
-                        v-for="item in 10" :value="item"
+                        v-for="item in 10" :key="item"
                         link
                         to="/QNAS_00_01_r"
                     >

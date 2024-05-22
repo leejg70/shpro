@@ -1,4 +1,10 @@
 <script setup>
+import { ref } from 'vue';
+
+const search = ref('');
+const onClear = () => {
+    search.value = ''
+};
 function onClick() {
 };
 </script>
@@ -14,12 +20,14 @@ function onClick() {
             <div class="search-box">
                 <div class="inp">
                     <v-text-field
+                        v-model="search"
                         hide-details clearable
                         variant="outlined"
                         color="primary"
                         append-inner-icon="btn-search-blue"
                         placeholder="제목 검색"
                         @click:append-inner="onClick"
+                        @click:clear="onClear()"
                     />
                 </div>
             </div>
