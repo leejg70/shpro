@@ -142,11 +142,11 @@ const items = ref([
       </v-row>
     </div>
     <v-divider class="svc-divide" />
+    <!-- 회원정보 -->
     <div class="my-info">
       <div class="title">
         <v-icon size="md" class="icon-member" />회원정보
       </div>
-      <!-- 회원정보 -->
       <div class="member">
         <Form class="form-wrap">
           <div class="form-box">
@@ -179,15 +179,15 @@ const items = ref([
                 <v-label>마케팅 동의</v-label>
               </div>
               <div class="data-wrap">
-                <span class="data">동의 (이메일, 휴대폰메시지)</span>
-                <!-- <span class="data">비동의</span> -->
+                <span class="data">비동의</span>
+                <!-- <span class="data">동의 (이메일, 휴대폰메시지)</span> -->
               </div>
             </div>
           </div>
         </Form>
       </div>
-      <!--// 회원정보 -->
     </div>
+    <!--// 회원정보 -->
     <div class="btn-wrap">
       <v-btn
         variant="flat"
@@ -206,6 +206,11 @@ const items = ref([
         class="default complete"
       >
         정보 변경
+      </v-btn>
+    </div>
+    <div class="withdrawal-btn">
+      <v-btn variant="text">
+        회원탈퇴<v-icon class="btn-arrow" />
       </v-btn>
     </div>
   </div>

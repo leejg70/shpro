@@ -31,7 +31,7 @@ const qna = ['전체 문의', '이용문의', '제휴문의', '기술문의', 'D
 </script>
 
 <template>
-  <div class="sub-group">
+  <div class="sub-group my-page">
     <div class="sub-title-area">
       <h4 class="sub-title">My</h4>
     </div>

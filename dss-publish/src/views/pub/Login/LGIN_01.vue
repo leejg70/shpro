@@ -39,7 +39,13 @@ const passwordRules = ref(['비밀번호를 입력해주세요.']);
         -->
       </div>
       <div class="form-group">
-        <v-label>비밀번호</v-label>
+        <div class="ele_tit">
+          <label for="keypad_pwd">비밀번호</label>
+        </div>
+        <div class="input_wrap">
+					<input type="password" id="keypad_pwd" placeholder="비밀번호 입력" title="비밀번호 입력" class="inca_keypad">
+				</div>
+        <!-- <v-label>비밀번호</v-label>
         <v-text-field
           :type="show ? 'text' : 'password'"
           aria-label="비밀번호"
@@ -53,7 +59,7 @@ const passwordRules = ref(['비밀번호를 입력해주세요.']);
           hide-details="auto"
           clearable
           required
-        ></v-text-field>
+        ></v-text-field> -->
         <!--
         <p class="text-tip error">비밀번호를 입력해주세요.</p>
         -->

@@ -52,23 +52,23 @@
         color: #111518;
         font-size: 1.6rem;
         line-height: 100%;
+        .btn-arrow {
+          width: 2.4rem;
+          height: 2.4rem;
+          background-image: url('../images/btn/btn_accordion_arrow.png');
+          background-repeat: no-repeat;
+          background-size: 100%;
+        }
+        .btn-mycredit {
+          width: 10.4rem;
+          height: 2.4rem;
+          background-image: url('../images/btn/btn_mycredit.png');
+          background-repeat: no-repeat;
+          background-size: 100%;
+        }
         + .v-btn {
           margin-left: 1.6rem;
         }
-      }
-      .btn-arrow {
-        width: 2.4rem;
-        height: 2.4rem;
-        background-image: url('../images/btn/btn_accordion_arrow.png');
-        background-repeat: no-repeat;
-        background-size: 100%;
-      }
-      .btn-mycredit {
-        width: 10.4rem;
-        height: 2.4rem;
-        background-image: url('../images/btn/btn_mycredit.png');
-        background-repeat: no-repeat;
-        background-size: 100%;
       }
     }
   }
@@ -234,13 +234,13 @@
           margin-left: 2.4rem;
           padding: 0;
           border-radius: 0;
-        }
-        .btn-arrow {
-          width: 2.4rem;
-          height: 2.4rem;
-          background-image: url('../images/btn/btn_accordion_arrow.png');
-          background-repeat: no-repeat;
-          background-size: 100%;
+          .btn-arrow {
+            width: 2.4rem;
+            height: 2.4rem;
+            background-image: url('../images/btn/btn_accordion_arrow.png');
+            background-repeat: no-repeat;
+            background-size: 100%;
+          }
         }
       }
     }
@@ -250,6 +250,9 @@
   }
   .my-info {
     border-bottom: .1rem solid #e5e5e5;
+    &:last-of-type {
+      margin-top: 5.6rem;
+    }
     > .title {
       display: flex;
       align-items: center;
@@ -277,6 +280,23 @@
       .form-box {
         padding: 2.4rem 0;
         border: none;
+      }
+    }
+  }
+  .withdrawal-btn {
+    margin-top: 2.4rem;
+    .v-btn {
+      height: 2.4rem;
+      padding: 0;
+      color: #111518;
+      font-size: 1.6rem;
+      line-height: 100%;
+      .btn-arrow {
+        width: 2.4rem;
+        height: 2.4rem;
+        background-image: url('../images/btn/btn_accordion_arrow.png');
+        background-repeat: no-repeat;
+        background-size: 100%;
       }
     }
   }
@@ -311,10 +331,14 @@
       .case-btn {
         .v-btn {
           font-size: 1.4rem;
-        }
-        .btn-mycredit {
-          width: 8.7rem;
-          height: 2rem;
+          .btn-arrow {
+            width: 2rem;
+            height: 2rem;
+          }
+          .btn-mycredit {
+            width: 8.7rem;
+            height: 2rem;
+          }
         }
       }
     }
@@ -425,6 +449,15 @@
       }
       .member {
         padding: 0;
+      }
+    }
+    .withdrawal-btn {
+      .v-btn {
+        font-size: 1.4rem;
+        .btn-arrow {
+          width: 2rem;
+          height: 2rem;
+        }
       }
     }
   }

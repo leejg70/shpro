@@ -31,7 +31,7 @@ const items = ref([
 </script>
 
 <template>
-  <div class="sub-group">
+  <div class="sub-group my-page">
     <div class="sub-title-area">
       <h4 class="sub-title">My</h4>
     </div>
