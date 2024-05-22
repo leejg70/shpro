@@ -39,16 +39,8 @@ function onClick() {
                         <div class="num">{{ i + 1 }}</div>
                     </template>
                     <div class="title">
-                        <!-- pc -->
-                        <div class="pc">
-                            <div class="text-16 text-truncate">우리은행, 광주은행 시스템 점검으로 인한 서비스 일시 중단 안내</div>
-                            <v-icon class="icon-clip" />
-                        </div>
-                        <!-- mobile -->
-                        <div class="mo text-16">
-                            우리은행, 광주은행 시스템 점검으로 인한 서비스 일시 중단 안내
-                            <v-icon class="icon-clip" />
-                        </div>
+                        <div class="text-16 text-truncate">우리은행, 광주은행 시스템 점검으로 인한 서비스 일시 중단 안내</div>
+                        <v-icon class="icon-clip" />
                     </div>
                     <template v-slot:append>
                         <div class="date">2024.05.05</div>

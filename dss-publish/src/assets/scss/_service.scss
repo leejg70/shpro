@@ -123,6 +123,9 @@
                 }
             }
         }
+        // &:hover > .v-card__overlay {
+        //     opacity: 0;
+        // }
     }
     .services-more-area {
         padding-top: 6.4rem;
@@ -252,39 +255,6 @@
         }
     }
 
-    // .title {
-    //     margin-top: 1.6rem;
-    //     margin-bottom: 0.8rem;
-    //     color: #111518;
-    //     font-size: 2.2rem;
-    //     font-weight: 500;
-    //     line-height: 150%;
-    // }
-    // .detail-area {
-    //     display: flex;
-    //     align-items: flex-end;
-    //     .text {
-    //         margin-bottom: 1.6rem;
-    //         color: #000;
-    //         font-size: 1.8rem;
-    //         line-height: 150%;
-    //     }
-    //     .hashtag {
-    //         color: #7F87A4;
-    //         font-size: 1.6rem;
-    //         line-height: 150%;
-    //         +.hashtag {
-    //             margin-left: 1.6rem;
-    //         }
-    //     }
-    //     .img-area {
-    //         padding-left: 3.2rem;
-    //         img {
-    //             width: 6.4rem;
-    //             height: 6.4rem;
-    //         }
-    //     }
-    // }
     .btn-area {
         display: flex;
         justify-content: center;
@@ -323,8 +293,8 @@
                 width: 3.2rem;
                 height: 3.2rem;
                 margin-right: 1.6rem;
-                background-repeat: no-repeat;
-                background-size: 100%;
+                // background-repeat: no-repeat;
+                // background-size: 100%;
                 &.icon-prod {
                     background-image: url('../images/icon/icon_prod.png');
                 }
@@ -343,7 +313,7 @@
             }
         }
         .desc {
-            margin-bottom: 1.6rem;
+            // margin-bottom: 1.6rem;
             color: #111518;
             font-size: 1.6rem;
             line-height: 150%;
@@ -352,11 +322,17 @@
             }
         }
         .img {
-            margin-bottom: 4rem;
+            // margin-bottom: 4rem;
             img {
                 max-width: 120rem;
                 min-height: 30rem;
             }
+        }
+        .desc + .desc,
+        .desc + .img,
+        .img + .img,
+        .img + .desc {
+            margin-top: 3.2rem;
         }
         [class^='group-'] {
             margin: 4rem 0;
@@ -402,7 +378,7 @@
                         margin: .4rem 0;
                         color: #111518;
                         font-size: 1.6rem;
-                        line-height: 100%;
+                        line-height: 130%;
                         text-decoration: underline !important;
                     }
                 }
@@ -561,6 +537,11 @@
         background-color: #F8F8F8;
         opacity: 1;
     }
+}
+
+// v-card:hover 효과 일괄 삭제
+.v-card:hover > .v-card__overlay {
+    opacity: 0;
 }
 
 

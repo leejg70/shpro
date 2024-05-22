@@ -60,6 +60,11 @@
     background-image: url('../images/icon/icon_wishlist_off.png');
 }
 
+.icon-prod {
+    width: 3.2rem;
+    height: 3.2rem;
+    background-image: url('../images/icon/icon_prod.png');
+}
 
 
 
@@ -69,7 +74,8 @@
         height: 2rem;
     }
     
-    .icon-q, .icon-a {
+    .icon-q, .icon-a,
+    .icon-prod {
         width: var(--v-icon-size);
         height: var(--v-icon-size);
     }
