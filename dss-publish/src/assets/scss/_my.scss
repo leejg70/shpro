@@ -1,238 +1,60 @@
 @charset "UTF-8";
 
-.my-case-info {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  .case-member {
-    display: flex;
-    flex-direction: column;
-    .member-title {
-      font-size: 3.2rem;
-      font-weight: 500;
-      color: #111518;
-      > span {
-        color: #356cff;
-      }
-    }
-    .member-text {
-      margin-top: .8rem;
-      font-size: 1.8rem;
-      color: #111518;
-    }
-    .member-buisness {
-      display: flex;
-      align-items: center;
-      margin-top: .8rem;
-      font-size: 1.8rem;
-      color: #111518;
-      > dd {
-        position: relative;
-        padding-left: 3.2rem;
-        &::after {
-          content: '';
-          position: absolute;
-          top: .4rem;
-          left: 1.6rem;
-          width: .1rem;
-          height: 2rem;
-          background-color: #ccc;
-        }
-      }
-    }
-  }
-  .case-btn {
+.my-page {
+  .my-case-info {
     display: flex;
     align-items: center;
-    align-self: end;
-    .v-btn {
-      height: 2.4rem;
-      padding: 0;
-      color: #111518;
-      font-size: 1.6rem;
-      line-height: 100%;
-      + .v-btn {
-        margin-left: 1.6rem;
+    justify-content: space-between;
+    .case-member {
+      display: flex;
+      flex-direction: column;
+      .member-title {
+        font-size: 3.2rem;
+        font-weight: 500;
+        color: #111518;
+        > span {
+          color: #356cff;
+        }
       }
-    }
-    .btn-arrow {
-      width: 2.4rem;
-      height: 2.4rem;
-      background-image: url('../images/btn/btn_accordion_arrow.png');
-      background-repeat: no-repeat;
-      background-size: 100%;
-    }
-    .btn-mycredit {
-      width: 10.4rem;
-      height: 2.4rem;
-      background-image: url('../images/btn/btn_mycredit.png');
-      background-repeat: no-repeat;
-      background-size: 100%;
-    }
-  }
-}
-.submenu-list {
-  position: relative;
-  padding: 2.4rem 0 6.4rem;
-  .v-row {
-    margin: -1.2rem;
-  }
-  .v-list {
-    overflow: hidden;
-    height: 6.4rem;
-    padding: 0;
-    color: #111518;
-    border: .1rem solid #e5e5e5;
-    border-radius: 1.6rem;
-    &.selected {
-      border: .1rem solid #356cff;
-      box-shadow: 0 1.6rem 1.6rem 0 rgba(19, 38, 89, .06);
-    }
-    .v-list-item {
-      padding: 1.6rem 2.4rem;
-      min-height: 6.4rem;
-      &:hover > .v-list-item__overlay,
-      &.v-list-item--active > .v-list-item__overlay {
-        opacity: 0;
+      .member-text {
+        margin-top: .8rem;
+        font-size: 1.8rem;
+        color: #111518;
       }
-    }
-  }
-  .v-avatar {
-    width: 3.2rem;
-    height: 3.2rem;
-    border-radius: 0;
-    .my-contract {
-      width: 100%;
-      height: 100%;
-      background-image: url('../images/icon/icon_my_contract.png');
-      background-size: 100%;
-    }
-    .my-wishlist {
-      width: 100%;
-      height: 100%;
-      background-image: url('../images/icon/icon-wishlist.png');
-      background-size: 100%;
-    }
-    .my-qa {
-      width: 100%;
-      height: 100%;
-      background-image: url('../images/icon/icon_my_qa.png');
-      background-size: 100%;
-    }
-    .my-alarm {
-      width: 100%;
-      height: 100%;
-      background-image: url('../images/icon/icon_my_alarm.png');
-      background-size: 100%;
-      &::after {
-        content: '';
-        display: block;
-        position: absolute;
-        right: 0;
-        top: 0;
-        width: .4rem;
-        height: .4rem;
-        background-color: #FF405B;
-        border-radius: 50%;
-      }
-    }
-  }
-  .v-list-item-title {
-    font-size: 1.6rem;
-    line-height: 100%;
-  }
-}
-.total-area {
-  display: flex;
-  align-items: flex-end;
-  justify-content: space-between;
-  margin-bottom: .8rem;
-  .total {
-    font-size: 1.6rem;
-    color: #333;
-    > span {
-      font-weight: 700;
-      color: #111518;
-    }
-    .text {
-      margin-left: 2.4rem;
-      font-size: 1.4rem;
-      font-weight: 400;
-      color: #666;
-    }
-  }
-  .inp-checkbox {
-    padding-bottom: .8rem;
-  }
-  .select-wrap {
-    position: relative;
-    width: 24rem;
-    .v-field--center-affix .v-field__append-inner {
-      align-items: flex-start;
-      margin: 1.2rem 1.6rem 1.2rem 0;
-    }
-    .v-select__menu-icon {
-      width: 2.4rem;
-      height: 2.4rem;
-      margin: 0;
-    }
-    .mdi-menu-down::before {
-      content: '';
-      width: 2.4rem;
-      height: 2.4rem;
-      background-image: url('../images/btn/btn_sel_arrow.png');
-      background-size: 100%;
-    }
-    .v-select .v-field {
-      font-size: 1.6rem;
-      color: #111518;
-    }
-  }
-}
-.alarm-list-area {
-  margin-top: 2.4rem;
-  .v-list {
-    overflow: hidden;
-    padding: 0;
-    .v-list-item {
-      margin-bottom: 1.6rem;
-      padding: 2.2rem 3.2rem;
-      border: .1rem solid #e5e5e5;
-      border-radius: 1.6rem;
-      &:hover > .v-list-item__overlay {
-        opacity: 0;
-      }
-      &:last-child {
-        margin-bottom: 0;
-      }
-      .date {
-        margin-bottom: .8rem;
-        color: #666;
-        .alarm {
+      .member-buisness {
+        display: flex;
+        align-items: center;
+        margin-top: .8rem;
+        font-size: 1.8rem;
+        color: #111518;
+        > dd {
           position: relative;
+          padding-left: 3.2rem;
           &::after {
             content: '';
-            display: block;
             position: absolute;
-            top: 0;
-            right: -1.4rem;
-            width: .6rem;
-            height: .6rem;
-            background-color: #ff405b;
-            border-radius: 50%;
+            top: .4rem;
+            left: 1.6rem;
+            width: .1rem;
+            height: 2rem;
+            background-color: #ccc;
           }
         }
       }
-      .register {
-        margin-top: .8rem;
-        color: #7f87a4;
-      }
+    }
+    .case-btn {
+      display: flex;
+      align-items: center;
+      align-self: end;
       .v-btn {
         height: 2.4rem;
-        min-width: 2.4rem;
-        margin-left: 2.4rem;
         padding: 0;
-        border-radius: 0;
+        color: #111518;
+        font-size: 1.6rem;
+        line-height: 100%;
+        + .v-btn {
+          margin-left: 1.6rem;
+        }
       }
       .btn-arrow {
         width: 2.4rem;
@@ -241,140 +63,368 @@
         background-repeat: no-repeat;
         background-size: 100%;
       }
-    }
-  }
-  .services-more-area {
-    padding-top: 6.4rem;
-  }
-}
-.member .form-box {}
-
-@media only screen and (max-width: 1280px) {
-  .my-case-info {
-    display: block;
-    .case-member {
-      display: block;
-      margin-bottom: 1.6rem;
-      .member-title {
-        font-size: 2rem;
-      }
-      .member-text {
-        font-size: 1.6rem;
-      }
-      .member-buisness {
-        font-size: 1.6rem;
-        > dd {
-          padding-left: 1.6rem;
-          &::after {
-            top: .3rem;
-            left: .8rem;
-            height: 1.8rem;
-          }
-        }
-      }
-    }
-    .case-btn {
-      .v-btn {
-        font-size: 1.4rem;
-      }
       .btn-mycredit {
-        width: 8.7rem;
-        height: 2rem;
+        width: 10.4rem;
+        height: 2.4rem;
+        background-image: url('../images/btn/btn_mycredit.png');
+        background-repeat: no-repeat;
+        background-size: 100%;
       }
     }
   }
   .submenu-list {
-    padding: 1.6rem 0 3.2rem;
+    position: relative;
+    padding: 2.4rem 0 6.4rem;
     .v-row {
-      margin: -.4rem;
-    }
-    .v-col-12 {
-      flex: 0 0 25%;
-      max-width: 25%;
-      padding: .4rem;
+      margin: -1.2rem;
     }
     .v-list {
-      height: 7.2rem;
-      border-radius: .8rem;
+      overflow: hidden;
+      height: 6.4rem;
+      padding: 0;
+      color: #111518;
+      border: .1rem solid #e5e5e5;
+      border-radius: 1.6rem;
       &.selected {
-        box-shadow: 0 .8rem .8rem 0 rgba(19, 38, 89, .06);
+        border: .1rem solid #356cff;
+        box-shadow: 0 1.6rem 1.6rem 0 rgba(19, 38, 89, .06);
       }
       .v-list-item {
-        display: block;
-        padding: 1.2rem .8rem;
-        min-height: 7.2rem;
-        .v-list-item__content {
-          position: absolute;
-          bottom: 1.2rem;
-          left: 50%;
-          transform: translateX(-50%);
-        }
-        .v-list-item__append {
-          justify-content: center;
-          > .v-avatar ~ .v-list-item__spacer {
-            width: 0;
-          }
+        padding: 1.6rem 2.4rem;
+        min-height: 6.4rem;
+        &:hover > .v-list-item__overlay,
+        &.v-list-item--active > .v-list-item__overlay {
+          opacity: 0;
         }
       }
     }
     .v-avatar {
-      width: 2.4rem;
-      height: 2.4rem;
+      width: 3.2rem;
+      height: 3.2rem;
+      border-radius: 0;
+      .my-contract {
+        width: 100%;
+        height: 100%;
+        background-image: url('../images/icon/icon_my_contract.png');
+        background-size: 100%;
+      }
+      .my-wishlist {
+        width: 100%;
+        height: 100%;
+        background-image: url('../images/icon/icon-wishlist.png');
+        background-size: 100%;
+      }
+      .my-qa {
+        width: 100%;
+        height: 100%;
+        background-image: url('../images/icon/icon_my_qa.png');
+        background-size: 100%;
+      }
+      .my-alarm {
+        width: 100%;
+        height: 100%;
+        background-image: url('../images/icon/icon_my_alarm.png');
+        background-size: 100%;
+        &::after {
+          content: '';
+          display: block;
+          position: absolute;
+          right: 0;
+          top: 0;
+          width: .4rem;
+          height: .4rem;
+          background-color: #FF405B;
+          border-radius: 50%;
+        }
+      }
     }
     .v-list-item-title {
-      font-size: 1.4rem;
+      font-size: 1.6rem;
+      line-height: 100%;
     }
   }
   .total-area {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    margin-bottom: .8rem;
     .total {
-      font-size: 1.4rem;
+      font-size: 1.6rem;
+      color: #333;
+      > span {
+        font-weight: 700;
+        color: #111518;
+      }
       .text {
-        margin-left: 1.6rem;
-        font-size: 1.2rem;
+        margin-left: 2.4rem;
+        font-size: 1.4rem;
+        font-weight: 400;
+        color: #666;
       }
     }
-    &.alarm {
-      display: block;
-      .total {
-        margin-bottom: 1.6rem;
-      }
+    .inp-checkbox {
+      padding-bottom: .8rem;
     }
     .select-wrap {
-      width: 18rem;
+      position: relative;
+      width: 24rem;
       .v-field--center-affix .v-field__append-inner {
-        margin: .9rem 1.6rem .9rem 0;
+        align-items: flex-start;
+        margin: 1.2rem 1.6rem 1.2rem 0;
+      }
+      .v-select__menu-icon {
+        width: 2.4rem;
+        height: 2.4rem;
+        margin: 0;
+      }
+      .mdi-menu-down::before {
+        content: '';
+        width: 2.4rem;
+        height: 2.4rem;
+        background-image: url('../images/btn/btn_sel_arrow.png');
+        background-size: 100%;
       }
       .v-select .v-field {
-        font-size: 1.4rem;
+        font-size: 1.6rem;
+        color: #111518;
       }
     }
   }
   .alarm-list-area {
-    margin-top: 1.6rem;
+    margin-top: 2.4rem;
     .v-list {
+      overflow: hidden;
+      padding: 0;
       .v-list-item {
-        padding: 1.6rem 2.4rem;
-        .text-truncate {
-          white-space: normal !important;
-          word-break: keep-all;
+        margin-bottom: 1.6rem;
+        padding: 2.2rem 3.2rem;
+        border: .1rem solid #e5e5e5;
+        border-radius: 1.6rem;
+        &:hover > .v-list-item__overlay {
+          opacity: 0;
+        }
+        &:last-child {
+          margin-bottom: 0;
+        }
+        .date {
+          margin-bottom: .8rem;
+          color: #666;
+          .alarm {
+            position: relative;
+            &::after {
+              content: '';
+              display: block;
+              position: absolute;
+              top: 0;
+              right: -1.4rem;
+              width: .6rem;
+              height: .6rem;
+              background-color: #ff405b;
+              border-radius: 50%;
+            }
+          }
+        }
+        .register {
+          margin-top: .8rem;
+          color: #7f87a4;
         }
         .v-btn {
-          margin-left: 1.6rem;
+          height: 2.4rem;
+          min-width: 2.4rem;
+          margin-left: 2.4rem;
+          padding: 0;
+          border-radius: 0;
+        }
+        .btn-arrow {
+          width: 2.4rem;
+          height: 2.4rem;
+          background-image: url('../images/btn/btn_accordion_arrow.png');
+          background-repeat: no-repeat;
+          background-size: 100%;
         }
       }
     }
     .services-more-area {
-      padding-top: 4rem;
-      .btn-more {
-        width: 16rem;
-        height: 4rem;
-        padding: 1rem 0;
-        font-size: 1.4rem;
-        box-sizing: border-box;
-        .icon-arrow {
-          width: 2rem;
+      padding-top: 6.4rem;
+    }
+  }
+  .my-info {
+    border-bottom: .1rem solid #e5e5e5;
+    > .title {
+      display: flex;
+      align-items: center;
+      padding: 2.4rem 0;
+      color: #111518;
+      font-size: 2.4rem;
+      font-weight: 500;
+      line-height: 150%;
+      border-bottom: .1rem solid #e5e5e5;
+      .v-icon {
+        width: 3.2rem;
+        height: 3.2rem;
+        margin-right: 1.6rem;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        &.icon-member {
+          background-image: url('../images/icon/icon_member.png');
+        }
+        &.icon-business {
+          background-image: url('../images/icon/icon_business.png');
+        }
+      }
+    }
+    .member {
+      .form-box {
+        padding: 2.4rem 0;
+        border: none;
+      }
+    }
+  }
+}
+
+
+@media only screen and (max-width: 1280px) {
+  .my-page {
+    .my-case-info {
+      display: block;
+      .case-member {
+        display: block;
+        margin-bottom: 1.6rem;
+        .member-title {
+          font-size: 2rem;
+        }
+        .member-text {
+          font-size: 1.6rem;
+        }
+        .member-buisness {
+          font-size: 1.6rem;
+          > dd {
+            padding-left: 1.6rem;
+            &::after {
+              top: .3rem;
+              left: .8rem;
+              height: 1.8rem;
+            }
+          }
+        }
+      }
+      .case-btn {
+        .v-btn {
+          font-size: 1.4rem;
+        }
+        .btn-mycredit {
+          width: 8.7rem;
           height: 2rem;
         }
+      }
+    }
+    .submenu-list {
+      padding: 1.6rem 0 3.2rem;
+      .v-row {
+        margin: -.4rem;
+      }
+      .v-col-12 {
+        flex: 0 0 25%;
+        max-width: 25%;
+        padding: .4rem;
+      }
+      .v-list {
+        height: 7.2rem;
+        border-radius: .8rem;
+        &.selected {
+          box-shadow: 0 .8rem .8rem 0 rgba(19, 38, 89, .06);
+        }
+        .v-list-item {
+          display: block;
+          padding: 1.2rem .8rem;
+          min-height: 7.2rem;
+          .v-list-item__content {
+            position: absolute;
+            bottom: 1.2rem;
+            left: 50%;
+            transform: translateX(-50%);
+          }
+          .v-list-item__append {
+            justify-content: center;
+            > .v-avatar ~ .v-list-item__spacer {
+              width: 0;
+            }
+          }
+        }
+      }
+      .v-avatar {
+        width: 2.4rem;
+        height: 2.4rem;
+      }
+      .v-list-item-title {
+        font-size: 1.4rem;
+      }
+    }
+    .total-area {
+      .total {
+        font-size: 1.4rem;
+        .text {
+          margin-left: 1.6rem;
+          font-size: 1.2rem;
+        }
+      }
+      &.alarm {
+        display: block;
+        .total {
+          margin-bottom: 1.6rem;
+        }
+      }
+      .select-wrap {
+        width: 18rem;
+        .v-field--center-affix .v-field__append-inner {
+          margin: .9rem 1.6rem .9rem 0;
+        }
+        .v-select .v-field {
+          font-size: 1.4rem;
+        }
+      }
+    }
+    .alarm-list-area {
+      margin-top: 1.6rem;
+      .v-list {
+        .v-list-item {
+          padding: 1.6rem 2.4rem;
+          .text-truncate {
+            white-space: normal !important;
+            word-break: keep-all;
+          }
+          .v-btn {
+            margin-left: 1.6rem;
+          }
+        }
+      }
+      .services-more-area {
+        padding-top: 4rem;
+        .btn-more {
+          width: 16rem;
+          height: 4rem;
+          padding: 1rem 0;
+          font-size: 1.4rem;
+          box-sizing: border-box;
+          .icon-arrow {
+            width: 2rem;
+            height: 2rem;
+          }
+        }
+      }
+    }
+    .my-info {
+      >.title {
+        padding: 1.6rem 0;
+        font-size: 1.8rem;
+        .v-icon {
+          width: 2.4rem;
+          height: 2.4rem;
+          margin-right: .8rem;
+        }
+      }
+      .member {
+        padding: 0;
       }
     }
   }
