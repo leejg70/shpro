@@ -143,7 +143,7 @@ const items = ref([
     </div>
     <v-divider class="svc-divide" />
     <!-- 회원정보 -->
-    <div class="my-info">
+    <div class="my-info mgb56">
       <div class="title">
         <v-icon size="md" class="icon-member" />회원정보
       </div>

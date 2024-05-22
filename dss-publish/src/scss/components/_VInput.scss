@@ -90,7 +90,7 @@ textarea.v-field__input {
 
 .v-field__input::placeholder {
   font-size: 1.6rem;
-  color: #888 !important;
+  color: #aaa !important;
   opacity: 1 !important;
 }
 
@@ -99,6 +99,9 @@ textarea.v-field__input {
   background-color: #f3f3f3;
   color: #666;
   pointer-events: none;
+  .v-field__input::placeholder {
+    color: #ccc !important;
+  }
   .v-field__outline {
     color: #ddd !important;
   }
