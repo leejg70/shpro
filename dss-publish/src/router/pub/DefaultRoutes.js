@@ -992,6 +992,15 @@ const DefaultRoutes = {
       }
     },
     {
+      name: 'JOIN_04_05',
+      path: '/JOIN_04_05',
+      component: () => import('@/views/pub/Member/JOIN_04_05.vue'),
+      meta: {
+        appearMenu : true,
+        requiresAuth: false
+      }
+    },
+    {
       name: 'JOIN_05_01_01_p',
       path: '/JOIN_05_01_01_p',
       component: () => import('@/views/pub/Agreement/JOIN_05_01_01_p.vue'),
