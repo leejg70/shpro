@@ -5,6 +5,7 @@ const userid = ref('');
 const password = ref('');
 const show = ref(false);
 const checkbox = ref(false);
+const keypad = ref(false);
 const valid = ref(false);
 const emailRules = ref(['아이디를 입력해주세요.']);
 const passwordRules = ref(['비밀번호를 입력해주세요.']);
@@ -64,12 +65,14 @@ const passwordRules = ref(['비밀번호를 입력해주세요.']);
           hide-details
           class="check-all"
         ></v-checkbox>
+        <!-- 2024.05.21 보안키패드 추가 -->
         <v-checkbox
           v-model="keypad"
           label="보안키패드"
           hide-details
           class="check-all"
         ></v-checkbox>
+        <!-- // 2024.05.21 보안키패드 추가 -->
       </div>
       <v-btn
         :disabled="valid"

@@ -59,6 +59,8 @@
     }
   }
   .form-checkbox {
+    display: flex;
+    align-items: center;
     margin-bottom: 4rem;
     .check-all {
       display: block;
@@ -98,6 +100,9 @@
         height: 2.4rem;
         background-image: url('../images/icon/icon_checkbox_on.svg');
         background-size: 100%;
+      }
+      + .check-all {
+        margin-left: 2.4rem;
       }
     }
     .v-checkbox .v-label {
@@ -176,14 +181,20 @@
       }
     }
     .form-checkbox {
+      .check-all {
+        .v-selection-control__input,
+        .v-selection-control__wrapper {
+          width: 2.4rem;
+          height: 2.4rem;
+        }
+        + .check-all {
+          margin-left: 1.6rem;
+        }
+      }
       .v-checkbox .v-label {
         margin-top: -.1rem;
+        margin-left: .4rem;
         font-size: 1.4rem;
-      }
-      .check-all .v-selection-control__input,
-      .check-all .v-selection-control__wrapper {
-        width: 2.4rem;
-        height: 2.4rem;
       }
     }
     .v-btn--size-large {
