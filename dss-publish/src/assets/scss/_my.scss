@@ -248,11 +248,13 @@
       padding-top: 6.4rem;
     }
   }
+  .my-info:nth-child(1) {margin-bottom: 5.6rem;}
   .my-info {
     border-bottom: .1rem solid #e5e5e5;
-    &:last-of-type {
-      margin-top: 5.6rem;
-    }
+    // &:first-of-type {
+    //   margin-bottom: 5.6rem;
+    // }
+    // margin-bottom: 5.6rem;
     > .title {
       display: flex;
       align-items: center;
