@@ -1415,7 +1415,7 @@
 									<td class="col-url"><router-link to="/LGIN_01" target="_blank">/views/pub/Login/LGIN_01</router-link></td>
 									<td class="col-date">2024-04-05</td>
 									<td class="col-complete">2024-04-24</td>
-									<td class="col-memo">[2024.05.21] 보안키패드 옵션버튼 추가</td>
+									<td class="col-memo">[2024.05.21] 보안키패드 옵션버튼 추가<br>[2024.05.22] 비밀번호 입력폼 수정</td>
 								</tr>
 								<tr>
 									<td class="col-num"></td>
