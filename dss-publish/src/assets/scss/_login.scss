@@ -89,6 +89,9 @@
           border: .1rem solid #356cff;
           outline: none;
         }
+        &.error {
+          border: .1rem solid #ff3636;
+        }
       }
     }
     .text-tip {

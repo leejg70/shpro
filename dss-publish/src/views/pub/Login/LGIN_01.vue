@@ -60,7 +60,7 @@ const passwordRules = ref(['비밀번호를 입력해주세요.']);
           <label for="keypad_pwd">비밀번호</label>
         </div>
         <div class="input_wrap">
-					<input type="password" id="keypad_pwd" placeholder="비밀번호 입력" title="비밀번호 입력" class="input">
+					<input type="password" id="keypad_pwd" placeholder="비밀번호 입력" title="비밀번호 입력" class="input"><!-- 에러일 경우 : class="input error" -->
 				</div>
         <!--
         <p class="text-tip error">비밀번호를 입력해주세요.</p>
