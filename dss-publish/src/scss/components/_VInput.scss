@@ -107,6 +107,11 @@ textarea.v-field__input {
   }
 }
 
+.v-select .v-field .v-field__input > input::placeholder {
+  color: #888;
+  opacity: 1;
+}
+
 .v-field__clearable {
   position: absolute;
   top:0; right:.5rem;
