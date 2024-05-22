@@ -1899,7 +1899,7 @@
 									<td class="col-point">page</td>
 									<td class="col-url"><router-link to="/JOIN_04_05" target="_blank">/views/pub/Member/JOIN_04_05</router-link></td>
 									<td class="col-date">2024-05-21</td>
-									<td class="col-complete"></td>
+									<td class="col-complete">2024-05-21</td>
 									<td class="col-memo">신규</td>
 								</tr>
 								<tr>

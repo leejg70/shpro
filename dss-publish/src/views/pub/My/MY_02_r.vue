@@ -143,7 +143,65 @@ const items = ref([
     </div>
     <v-divider class="svc-divide" />
     <!-- 회원정보 -->
-    
+    <div class="member">
+      <Form class="form-wrap">
+      <div class="form-box">
+        <div class="form-group">
+          <div class="ele-tit">
+            <v-label>로그인아이디</v-label>
+          </div>
+          <div class="data-wrap">
+            <span class="data">kim@gmail.com</span>
+          </div>
+        </div>
+        <div class="form-group">
+          <div class="ele-tit">
+            <v-label>이름</v-label>
+          </div>
+          <div class="data-wrap">
+            <span class="data">김신한</span>
+          </div>
+        </div>
+        <div class="form-group">
+          <div class="ele-tit">
+            <v-label>휴대폰번호</v-label>
+          </div>
+          <div class="data-wrap">
+            <span class="data">010-2222-3333</span>
+          </div>
+        </div>
+        <div class="form-group">
+          <div class="ele-tit">
+            <v-label>마케팅 동의</v-label>
+          </div>
+          <div class="data-wrap">
+            <span class="data">동의 (이메일, 휴대폰메시지)</span>
+            <!-- <span class="data">비동의</span> -->
+          </div>
+        </div>
+      </div>
+    </Form>
+    </div>
     <!--// 회원정보 -->
+    <div class="btn-wrap">
+      <v-btn
+        variant="flat"
+        color="secondary"
+        size="x-large"
+        rounded="lg"
+        class="default complete"
+      >
+        비밀번호 변경
+      </v-btn>
+      <v-btn
+        variant="flat"
+        color="primary"
+        size="x-large"
+        rounded="lg"
+        class="default complete"
+      >
+        정보 변경
+      </v-btn>
+    </div>
   </div>
 </template>
