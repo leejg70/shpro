@@ -14,7 +14,7 @@
   }
 }
 
-.v-text-field.v-input--density-default {
+.v-input--density-default:not(.v-textarea) {
   .v-field__input {
     min-height: 4.8rem;
   }
