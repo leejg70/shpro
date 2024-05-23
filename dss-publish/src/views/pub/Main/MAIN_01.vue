@@ -226,7 +226,7 @@ const navigation = reactive({
           <v-text-field
             color="primary"
             hide-details="auto"
-            placeholder="상품명, 해시태그"   
+            placeholder="상품명, 해시태그로 검색"   
             variant="outlined"
             clearable
           ></v-text-field>
@@ -241,14 +241,6 @@ const navigation = reactive({
           <a href="javascript:;" class="hashtag">#Data서비</a>
           <a href="javascript:;" class="hashtag">#계좌인증</a>
           <a href="javascript:;" class="hashtag">#신한카드Data</a>
-          <a href="javascript:;" class="hashtag">#카드사용Data</a>
-          <a href="javascript:;" class="hashtag">#카드사용Data</a>
-          <a href="javascript:;" class="hashtag">#카드사용Data</a>
-          <a href="javascript:;" class="hashtag">#카드사용Data</a>
-          <a href="javascript:;" class="hashtag">#카드사용Data</a>
-          <a href="javascript:;" class="hashtag">#카드사용Data</a>
-          <a href="javascript:;" class="hashtag">#카드사용Data</a>
-          <a href="javascript:;" class="hashtag">#카드사용Data</a>
           <a href="javascript:;" class="hashtag">#카드사용Data</a>
         </div>
       </div>

@@ -174,7 +174,7 @@
         .login-txt {
           padding: 1rem 0;
           text-align: center;
-          font-size: 1.8rem;
+          font-size: 1.8rem;      
           line-height: 150%;
         }
 
@@ -362,9 +362,8 @@
       padding-top: 1.6rem;
       width: 100%;
       max-width: 79.2em;
-      white-space: nowrap !important;
-      overflow: hidden !important;
-      text-overflow: ellipsis !important;
+      text-align: center;
+      word-break:keep-all;
       color: #D7E2FF;
 
       .hashtag {
@@ -372,11 +371,10 @@
         font-size: 1.6rem;
         color: #D7E2FF;
         line-height: 150%;
-      }
-
-      .hashtag+.hashtag {
-        margin-left: 1.6rem;
-      }
+        &+.hashtag{
+          margin-left: 1.6rem;
+        }
+      }  
     }
   }
 
@@ -444,6 +442,7 @@
 
           .card-title {
             display: block;
+            font-family: OneShinhan;
             font-size: 2.4rem;
             line-height: 150%;
           }
@@ -1437,16 +1436,12 @@
 
       .hashtags {
         padding-top: .8rem;
-
-        a {
-          font-size: 1.6rem;
-          color: #D7E2FF;
-          line-height: 150%;
-        }
-
-        a+a {
-          margin-left: 1.6rem;
-        }
+        .hashtag {
+          font-size: 1.4rem; 
+          &+.hashtag{
+            margin-left: .8rem;
+          }
+        }     
       }
     }
 
@@ -1647,7 +1642,7 @@
             font-size: 1.4rem;
 
             .btn-main-arrow {
-              margin-left: .4;
+              margin-left: .4rem;
               width: 2.4rem;
               min-height: 2.4rem;
             }
@@ -1723,7 +1718,7 @@
       }
     }
   }
-  
+
   .main-wrap .btn-right-more {
     top: 1.2rem;
     right: 1.2rem;
