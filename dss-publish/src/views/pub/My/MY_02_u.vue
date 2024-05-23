@@ -235,7 +235,7 @@ const items = ref([
         color="primary"
         size="x-large"
         rounded="lg"
-        class="default complete"
+        class="default"
       >
         저장
       </v-btn>

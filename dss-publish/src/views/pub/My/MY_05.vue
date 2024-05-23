@@ -178,7 +178,7 @@ const items = ref([
         color="primary"
         size="x-large"
         rounded="lg"
-        class="default"
+        class="default next"
       >
         확인
       </v-btn>

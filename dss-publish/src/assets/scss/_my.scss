@@ -741,9 +741,11 @@
     }
     .btn-wrap {
       .default {
-        width: calc(65% - .4rem);
         &.prev {
           width: calc(35% - .4rem);
+        }
+        &.next {
+          width: calc(65% - .4rem);
         }
       }
     }

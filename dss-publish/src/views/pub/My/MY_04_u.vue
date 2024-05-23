@@ -303,7 +303,7 @@ const departmentRules = ref(['부서명을 입력해주세요.']);
         color="primary"
         size="x-large"
         rounded="lg"
-        class="default complete"
+        class="default"
       >
         저장
       </v-btn>
