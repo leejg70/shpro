@@ -169,7 +169,7 @@ const items = ref([
         color="secondary"
         size="x-large"
         rounded="lg"
-        class="default complete"
+        class="default prev"
       >
         이전
       </v-btn>
@@ -178,7 +178,7 @@ const items = ref([
         color="primary"
         size="x-large"
         rounded="lg"
-        class="default complete"
+        class="default"
       >
         확인
       </v-btn>

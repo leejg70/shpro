@@ -528,6 +528,11 @@
       }
     }
   }
+  .btn-wrap {
+    .prev {
+      width: 12.8rem;
+    }
+  }
 }
 
 @media only screen and (max-width: 1280px) {
@@ -731,6 +736,14 @@
         .btn-arrow {
           width: 2rem;
           height: 2rem;
+        }
+      }
+    }
+    .btn-wrap {
+      .default {
+        width: calc(65% - .4rem);
+        &.prev {
+          width: calc(35% - .4rem);
         }
       }
     }
