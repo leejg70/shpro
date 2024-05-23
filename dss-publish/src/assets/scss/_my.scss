@@ -244,12 +244,13 @@
         }
       }
     }
-    .services-more-area {
-      padding-top: 6.4rem;
-    }
   }
   .my-info {
     border-bottom: .1rem solid #e5e5e5;
+    &.first {
+      margin-bottom: 5.6rem;
+      border: none;
+    }
     > .title {
       display: flex;
       align-items: center;
@@ -271,16 +272,246 @@
         &.icon-business {
           background-image: url('../images/icon/icon_business.png');
         }
+        &.icon-quit {
+          background-image: url('../images/icon/icon_quit.png');
+        }
       }
     }
     .member {
       .form-box {
         padding: 2.4rem 0;
         border: none;
+        .check-wrap {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          padding: .8rem 0;
+          .form-checkbox {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            .check-all {
+              display: block;
+              position: relative;
+              &.v-input--density-default:not(.v-autocomplete--multiple) {
+                --v-input-control-height: 3.2rem;
+              }
+              .v-selection-control {
+                width: 100%;
+              }
+              .v-selection-control__input {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 3.2rem;
+                height: 3.2rem;
+                padding: .4rem;
+                &::before {
+                  background-color: transparent;
+                }
+                > .v-icon {
+                  width: 100%;
+                  height: 100%;
+                  opacity: 1;
+                }
+              }
+              .v-selection-control__wrapper {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 3.2rem;
+                height: 3.2rem;
+                padding: .4rem;
+              }
+              .mdi-checkbox-blank-outline::before {
+                content: '';
+                width: 2.4rem;
+                height: 2.4rem;
+                background-image: url('../images/icon/icon_arrow_off.svg');
+                background-size: 100%;
+              }
+              .mdi-checkbox-marked::before {
+                content: '';
+                width: 2.4rem;
+                height: 2.4rem;
+                background-image: url('../images/icon/icon_arrow_on.svg');
+                background-size: 100%;
+              }
+              .v-label {
+                position: relative;
+                padding-left: 4rem;
+                font-size: 1.6rem;
+                font-weight: 400;
+                color: #333;
+              }
+            }
+            .check-media {
+              display: block;
+              position: relative;
+              &.v-input--density-default:not(.v-autocomplete--multiple) {
+                --v-input-control-height: 2.4rem;
+              }
+              .v-selection-control {
+                width: 100%;
+              }
+              .v-selection-control__input {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 2.4rem;
+                height: 2.4rem;
+                &::before {
+                  background-color: transparent;
+                }
+                > .v-icon {
+                  width: 100%;
+                  height: 100%;
+                  opacity: 1;
+                }
+              }
+              .v-selection-control__wrapper {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 2.4rem;
+                height: 2.4rem;
+              }
+              .mdi-checkbox-blank-outline::before {
+                content: '';
+                width: 2.4rem;
+                height: 2.4rem;
+                background-image: url('../images/icon/icon_top_checkbox_off.png');
+                background-size: 100%;
+              }
+              .mdi-checkbox-marked::before {
+                content: '';
+                width: 2.4rem;
+                height: 2.4rem;
+                background-image: url('../images/icon/icon_top_checkbox_on.png');
+                background-size: 100%;
+              }
+              .v-label {
+                position: relative;
+                padding-left: 3.2rem;
+                font-size: 1.6rem;
+                font-weight: 400;
+                color: #333;
+              }
+              + .check-media {
+                margin-left: 2.4rem;
+              }
+            }
+            .v-divider--vertical {
+              margin: .6rem 3rem;
+              color: #e5e5e5;
+              opacity: 1;
+            }
+          }
+          .agree-btn {
+            .v-btn {
+              height: 2rem;
+              padding: 0;
+              color: #111518;
+              font-size: 1.4rem;
+              line-height: 100%;
+              .btn-arrow {
+                width: 2rem;
+                height: 2rem;
+                background-image: url('../images/btn/btn_accordion_arrow.png');
+                background-repeat: no-repeat;
+                background-size: 100%;
+              }
+            }
+          }
+        }
+      }
+    }
+    .quit-guide {
+      padding: 4rem 0;
+      > li {
+        position: relative;
+        margin-bottom: .8rem;
+        padding-left: 2rem;
+        font-size: 1.6rem;
+        color: #111518;
+        &::after {
+          content: '';
+          display: block;
+          position: absolute;
+          top: 1.1rem;
+          left: .7rem;
+          width: .3rem;
+          height: .3rem;
+          background-color: #666;
+          border-radius: 50%;
+        }
       }
     }
   }
-  .withdrawal-btn {
+  .my-quit {
+    margin-top: 3.2rem;
+    .title {
+      margin-bottom: 1.6rem;
+      font-size: 1.8rem;
+      font-weight: 500;
+    }
+    .check-quit {
+      display: block;
+      position: relative;
+      &.v-input--density-default:not(.v-autocomplete--multiple) {
+        --v-input-control-height: 3.2rem;
+      }
+      .v-selection-control {
+        width: 100%;
+      }
+      .v-selection-control__input {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 3.2rem;
+        height: 3.2rem;
+        padding: .4rem;
+        &::before {
+          background-color: transparent;
+        }
+        > .v-icon {
+          width: 100%;
+          height: 100%;
+          opacity: 1;
+        }
+      }
+      .v-selection-control__wrapper {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 3.2rem;
+        height: 3.2rem;
+        padding: .4rem;
+      }
+      .mdi-checkbox-blank-outline::before {
+        content: '';
+        width: 2.4rem;
+        height: 2.4rem;
+        background-image: url('../images/icon/icon_checkbox_off.svg');
+        background-size: 100%;
+      }
+      .mdi-checkbox-marked::before {
+        content: '';
+        width: 2.4rem;
+        height: 2.4rem;
+        background-image: url('../images/icon/icon_checkbox_on.svg');
+        background-size: 100%;
+      }
+      .v-label {
+        position: relative;
+        padding-left: 4rem;
+        font-size: 1.6rem;
+        font-weight: 400;
+        color: #111518;
+      }
+    }
+  }
+  .bottom-btn {
     margin-top: 2.4rem;
     .v-btn {
       height: 2.4rem;
@@ -298,7 +529,6 @@
     }
   }
 }
-
 
 @media only screen and (max-width: 1280px) {
   .my-page {
@@ -419,22 +649,11 @@
           }
         }
       }
-      .services-more-area {
-        padding-top: 4rem;
-        .btn-more {
-          width: 16rem;
-          height: 4rem;
-          padding: 1rem 0;
-          font-size: 1.4rem;
-          box-sizing: border-box;
-          .icon-arrow {
-            width: 2rem;
-            height: 2rem;
-          }
-        }
-      }
     }
     .my-info {
+      &.first {
+        margin-bottom: 3.2rem;
+      }
       >.title {
         padding: 1.6rem 0;
         font-size: 1.8rem;
@@ -446,9 +665,67 @@
       }
       .member {
         padding: 0;
+        .form-box {
+          .check-wrap {
+            display: block;
+            padding: 0;
+            .form-checkbox {
+              justify-content: flex-start;
+              .check-all {
+                .v-label {
+                  font-size: 1.4rem;
+                }
+              }
+              .check-media {
+                .v-label {
+                  font-size: 1.4rem;
+                }
+              }
+              .v-divider--vertical {
+                margin: .6rem 1.4rem;
+              }
+            }
+            .agree-btn {
+              display: flex;
+              justify-content: flex-end;
+              margin-top: .8rem;
+              .v-btn {
+                height: 2.4rem;
+                font-size: 1.2rem;
+                .btn-arrow {
+                  width: 1.6rem;
+                  height: 1.6rem;
+                }
+              }
+            }
+          }
+        }
+      }
+      .quit-guide {
+        padding: 3.2rem 0;
+        > li {
+          padding-left: 1.8rem;
+          font-size: 1.4rem;
+          &::after {
+            top: 1rem;
+            left: .6rem;
+          }
+        }
       }
     }
-    .withdrawal-btn {
+    .my-quit {
+      margin-top: 2.4rem;
+      .title {
+        margin-bottom: 1.2rem;
+        font-size: 1.5rem;
+      }
+      .check-quit {
+        .v-label {
+          font-size: 1.4rem;
+        }
+      }
+    }
+    .bottom-btn {
       .v-btn {
         font-size: 1.4rem;
         .btn-arrow {

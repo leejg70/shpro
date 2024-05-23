@@ -15,7 +15,7 @@ const items = ref([
     select: ''
   },
   {
-    link: '/MY_05',
+    link: '/MY_08',
     icon: 'my-qa',
     text: '나의문의',
     select: ''
@@ -143,7 +143,7 @@ const items = ref([
     </div>
     <v-divider class="svc-divide" />
     <!-- 회원정보 -->
-    <div class="my-info mgb56">
+    <div class="my-info first">
       <div class="title">
         <v-icon size="md" class="icon-member" />회원정보
       </div>
@@ -184,7 +184,7 @@ const items = ref([
             </div>
             <div class="form-group">
               <div class="ele-tit">
-                <v-label>마케팅 동의</v-label>
+                <v-label>마케팅동의</v-label>
               </div>
               <div class="data-wrap">
                 <span class="data">비동의</span>
@@ -246,7 +246,7 @@ const items = ref([
         정보 변경
       </v-btn>
     </div>
-    <div class="withdrawal-btn">
+    <div class="bottom-btn">
       <v-btn variant="text">
         회원탈퇴<v-icon class="btn-arrow" />
       </v-btn>

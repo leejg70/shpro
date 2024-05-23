@@ -15,7 +15,7 @@ const items = ref([
     select: ''
   },
   {
-    link: '/MY_05',
+    link: '/MY_08',
     icon: 'my-qa',
     text: '나의문의',
     select: ''

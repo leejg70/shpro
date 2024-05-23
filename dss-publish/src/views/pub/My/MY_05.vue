@@ -18,7 +18,7 @@ const items = ref([
     link: '/MY_08',
     icon: 'my-qa',
     text: '나의문의',
-    select: 'selected'
+    select: ''
   },
   {
     link: '/MY_06',
@@ -27,7 +27,6 @@ const items = ref([
     select: ''
   }
 ]);
-const qna = ['전체 문의', '이용문의', '제휴문의', '기술문의', 'Data서비스 문의', '솔루션서비스 문의', 'API서비스 문의', '광고서비스 문의'];
 </script>
 
 <template>
@@ -142,27 +141,47 @@ const qna = ['전체 문의', '이용문의', '제휴문의', '기술문의', 'D
         </v-col>
       </v-row>
     </div>
-    <div class="total-area">
-      <div class="total">총&nbsp; <span>10건</span></div>
-      <div class="select-wrap">
-        <v-select
-          :items="qna"
-          placeholder="선택"
-          variant="outlined"
-          color="primary"
-          hide-details="auto"
-        ></v-select>
+    <v-divider class="svc-divide" />
+    <!-- 회원탈퇴 -->
+    <div class="my-info">
+      <div class="title">
+        <v-icon size="md" class="icon-quit" />회원탈퇴
+      </div>
+      <ul class="quit-guide">
+        <li>탈퇴 시 Data Blue 홈페이지에서 이용하신 서비스와 관련된 사항 (문의내역, 계약정보, 데이터 다운로드 등)은 더 이상 이용이 불가능함을 알려드립니다.</li>
+        <li>계약과 관련된 정보는 소속 기업과의 계약으로 Data Blue에 보관되며 향후 소속 기업의 요청 시 새로운 담당자에게 이관되며 확인이 가능합니다.</li>
+      </ul>
+    </div>
+    <div class="my-quit">
+      <p class="title">회원탈퇴를 진행하시겠습니까?</p>
+      <div class="form-checkbox">
+        <v-checkbox
+          label="안내사항을 모두 확인하였으며, 이에 동의합니다."
+          hide-details
+          class="check-quit"
+        ></v-checkbox>
       </div>
     </div>
-    <v-divider class="svc-divide" />
-    <!-- 나의문의 리스트 -->
-
-    <!--// 나의문의 리스트 -->
-    <!-- 나의내역 없음 -->
-    <div class="search-result">
-      <div class="text">나의 내역</div>
-      <div class="desc">내역이 없습니다.</div>
+    <!--// 회원탈퇴 -->
+    <div class="btn-wrap">
+      <v-btn
+        variant="flat"
+        color="secondary"
+        size="x-large"
+        rounded="lg"
+        class="default complete"
+      >
+        이전
+      </v-btn>
+      <v-btn
+        variant="flat"
+        color="primary"
+        size="x-large"
+        rounded="lg"
+        class="default complete"
+      >
+        확인
+      </v-btn>
     </div>
-    <!--// 나의내역 없음 -->
   </div>
 </template>
