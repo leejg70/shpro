@@ -975,6 +975,7 @@
 
 /* services-more */
 .services-more-area {
+  padding-top: 6.4rem;
   display: flex;
   justify-content: center;
   width: 100%;
@@ -987,9 +988,12 @@
     justify-content: center;
     align-items: center;
     width: 20rem;
+    height: 5.6rem;
     font-size: 1.6rem;
+    color: #111518;
     border-radius: 99.9rem;
     border: 1px solid #E5E5E5;
+    box-sizing: border-box;
     cursor: pointer;
 
     // gap: 4px;
@@ -1706,25 +1710,20 @@
     height: 6.4rem;
   }
 
-  .service-list-area {
-    .services-more-area {
-      display: flex;
-      justify-content: center;
-      width: 100%;
-
-      .btn-more {
-        padding: 1rem 0;
-        width: 16rem;
-        font-size: 1.4rem;
-
-        .icon-arrow {
-          width: 2rem;
-          height: 2rem;
-        }
+  .services-more-area {
+    padding-top: 4rem;
+    .btn-more {
+      padding: 1rem 0;
+      width: 16rem;
+      height: 4rem;
+      font-size: 1.4rem;
+      .icon-arrow {
+        width: 2rem;
+        height: 2rem;
       }
     }
   }
-
+  
   .main-wrap .btn-right-more {
     top: 1.2rem;
     right: 1.2rem;
