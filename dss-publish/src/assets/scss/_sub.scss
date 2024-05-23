@@ -133,13 +133,13 @@
             }
         }
     }
-    .services-more-area {
-        padding-top: 6.4rem;
-        .btn-more {
-            height: 5.6rem;
-            box-sizing: border-box;
-        }
-    }
+    // .services-more-area {
+    //     padding-top: 6.4rem;
+    //     .btn-more {
+    //         height: 5.6rem;
+    //         box-sizing: border-box;
+    //     }
+    // }
 }
 
 .contents-detail {
@@ -284,13 +284,13 @@
     .date {
         color: #666;
     }
-    .services-more-area {
-        padding-top: 6.4rem;
-        .btn-more {
-            height: 5.6rem;
-            box-sizing: border-box;
-        }
-    }
+    // .services-more-area {
+    //     padding-top: 6.4rem;
+    //     .btn-more {
+    //         height: 5.6rem;
+    //         box-sizing: border-box;
+    //     }
+    // }
 }
 
 // faq
@@ -368,15 +368,22 @@
             margin: .8rem 0;
 
         }
-        .text-row {
-            display: flex;
-            align-items: center;
+    }
+    .text-row {
+        display: flex;
+        align-items: center;
+        color: #666;
+        .v-divider--vertical {
+            margin: 0.35rem 1.6rem;
+            color: #e5e5e5;
+            opacity: 1;
+        }
+        .re-title {
             color: #666;
-            .v-divider--vertical {
-                margin: 0.35rem 1.6rem;
-                color: #e5e5e5;
-                opacity: 1;
-            }
+        }
+        .re-num {
+            width: 3.2rem;
+            word-wrap: break-word;
         }
     }
 }
@@ -423,16 +430,16 @@
 }
 
 // 서브 하단 '더보기'버튼
-[class^='contents-'] {
-    .services-more-area {
-        padding-top: 6.4rem;
-        .btn-more {
-            height: 5.6rem;
-            color: #111518;
-            box-sizing: border-box;
-        }
-    }
-}
+// [class^='contents-'] {
+//     .services-more-area {
+//         padding-top: 6.4rem;
+//         .btn-more {
+//             height: 5.6rem;
+//             color: #111518;
+//             box-sizing: border-box;
+//         }
+//     }
+// }
 
 
 
@@ -836,6 +843,11 @@ img {
             overflow: visible !important;
             text-overflow: inherit !important;
         }
+        .text-row {
+            .v-divider--vertical {
+                margin: .2rem .8rem;
+            }
+        }
     }
 
     // 고객문의
@@ -847,22 +859,22 @@ img {
         }
     }
 
-    [class^='contents-'],
-    .customer-list {
-        .services-more-area {
-            padding-top: 4rem;
-            .btn-more {
-                width: 16rem;
-                height: 4rem;
-                padding: 1rem 1.6rem;
-                font-size: 1.4rem;
-                .icon-arrow {
-                    width: 2rem;
-                    height: 2rem;
-                }
-            }
-        }
-    }
+    // [class^='contents-'],
+    // .customer-list {
+    //     .services-more-area {
+    //         padding-top: 4rem;
+    //         .btn-more {
+    //             width: 16rem;
+    //             height: 4rem;
+    //             padding: 1rem 1.6rem;
+    //             font-size: 1.4rem;
+    //             .icon-arrow {
+    //                 width: 2rem;
+    //                 height: 2rem;
+    //             }
+    //         }
+    //     }
+    // }
 
     // faq
     .contents-faq {
