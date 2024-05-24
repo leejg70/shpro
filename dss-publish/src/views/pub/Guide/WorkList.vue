@@ -1292,7 +1292,7 @@
 									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
 									<td class="col-url"><router-link to="/COMU_02" target="_blank">/views/pub/Community/COMU_02</router-link></td>
-									<td class="col-date"></td>
+									<td class="col-date">2024-05-24</td>
 									<td class="col-complete"></td>
 									<td class="col-memo"></td>
 								</tr>
@@ -1304,8 +1304,11 @@
 									<td class="col-4depth">결과 有</td>
 									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
-									<td class="col-url"><router-link to="/COMU_02_01" target="_blank">/views/pub/Community/COMU_02_01</router-link></td>
-									<td class="col-date"></td>
+									<td class="col-url">
+										<!-- <router-link to="/COMU_02_01" target="_blank">/views/pub/Community/COMU_02_01</router-link> -->
+										목록화면에 취합
+									</td>
+									<td class="col-date">-</td>
 									<td class="col-complete"></td>
 									<td class="col-memo"></td>
 								</tr>
@@ -1317,8 +1320,11 @@
 									<td class="col-4depth">결과 無</td>
 									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
-									<td class="col-url"><router-link to="/COMU_02_01_null" target="_blank">/views/pub/Community/COMU_02_01_null</router-link></td>
-									<td class="col-date"></td>
+									<td class="col-url">
+										<!-- <router-link to="/COMU_02_01_null" target="_blank">/views/pub/Community/COMU_02_01_null</router-link> -->
+										목록화면에 취합
+									</td>
+									<td class="col-date">-</td>
 									<td class="col-complete"></td>
 									<td class="col-memo"></td>
 								</tr>
@@ -1331,7 +1337,7 @@
 									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
 									<td class="col-url"><router-link to="/COMU_02_02_r" target="_blank">/views/pub/Community/COMU_02_02_r</router-link></td>
-									<td class="col-date"></td>
+									<td class="col-date">작업중</td>
 									<td class="col-complete"></td>
 									<td class="col-memo"></td>
 								</tr>
