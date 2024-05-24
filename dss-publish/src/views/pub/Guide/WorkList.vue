@@ -1350,9 +1350,9 @@
 									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
 									<td class="col-url"><router-link to="/COMU_02_02_r" target="_blank">/views/pub/Community/COMU_02_02_r</router-link></td>
-									<td class="col-date">작업중</td>
+									<td class="col-date">2024-05-24</td>
 									<td class="col-complete"></td>
-									<td class="col-memo"></td>
+									<td class="col-memo error-text">PC화면 완료</td>
 								</tr>
 								<tr>
 									<td class="col-num"></td>
@@ -1362,8 +1362,11 @@
 									<td class="col-4depth">수정</td>
 									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
-									<td class="col-url"><router-link to="/COMU_02_02_u" target="_blank">/views/pub/Community/COMU_02_02_u</router-link></td>
-									<td class="col-date"></td>
+									<td class="col-url">
+										<!-- <router-link to="/COMU_02_02_u" target="_blank">/views/pub/Community/COMU_02_02_u</router-link> -->
+										등록화면과 동일
+									</td>
+									<td class="col-date">-</td>
 									<td class="col-complete"></td>
 									<td class="col-memo"></td>
 								</tr>
@@ -1376,7 +1379,7 @@
 									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
 									<td class="col-url"><router-link to="/COMU_02_02_c" target="_blank">/views/pub/Community/COMU_02_02_c</router-link></td>
-									<td class="col-date"></td>
+									<td class="col-date">2024-05-24</td>
 									<td class="col-complete"></td>
 									<td class="col-memo"></td>
 								</tr>

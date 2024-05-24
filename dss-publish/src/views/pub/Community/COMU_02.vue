@@ -58,7 +58,6 @@ function onClick() {};
                             </div>
                         </div>
                         <template v-slot:append>
-                            <v-spacer />
                             <div class="text-row text-16">
                                 <div class="re-title">댓글</div>
                                 <v-divider vertical />

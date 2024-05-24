@@ -2,6 +2,7 @@
 import { ref } from 'vue';
 
 const edit = ref(false);
+const isFocused = ref(false);
 
 </script>
 
@@ -18,7 +19,7 @@ const edit = ref(false);
                 <div class="text-row text-16">
                     <div class="date">2024.05.05</div>
                     <v-divider vertical />
-                    <div class="id">shinhan****card</div>
+                    <div class="id">shin****card</div>
                 </div>
             </div>
             <div class="article question">
@@ -43,19 +44,22 @@ const edit = ref(false);
                 </div>
 
                 <!-- 댓글작성 -->
-                <div class="comment-area write py-6">
+                <div class="comment-area write">
                     <div class="text-row text-14">
-                        <div class="id">shinhan****card</div>
+                        <div class="id">shin****card</div>
                     </div>
                     <div class="text-box">
                         <div class="ele-inp">
-                            <v-textarea
-                                hide-details
-                                variant="outlined"
-                                color="primary"
-                                auto-grow
-                                placeholder="500자까지 작성할 수 있으며 비속어, 혐오 문구를 포함한 글은 등록하실 수 없습니다."
-                            />
+                            <div class="inp" :class="{ 'primary-border' : isFocused }">
+                                <v-textarea
+                                    hide-details auto-grow
+                                    variant="outlined"
+                                    rows="4"
+                                    placeholder="500자까지 작성할 수 있으며 비속어, 혐오 문구를 포함한 글은 등록하실 수 없습니다."
+                                    @focus="isFocused = true"
+                                    @blur="isFocused = false"
+                                />
+                            </div>
                         </div>
                     </div>
                     <div class="comment-tool">
@@ -65,9 +69,9 @@ const edit = ref(false);
                 <!--// 댓글작성 -->
 
                 <!-- 내 글 수정 -->
-                <div class="comment-area mine py-8">
+                <div class="comment-area mine">
                     <div class="text-row text-14">
-                        <div class="id" :style="edit ? 'color: #111518' : ''">shinhan****card</div>
+                        <div class="id" :style="edit ? 'color: #111518' : ''">shin****card</div>
                         <v-divider v-if="!edit" vertical />
                         <div v-if="!edit" class="date">2024.05.05</div>
                     </div>
@@ -80,56 +84,35 @@ const edit = ref(false);
                     </div>
                     <div v-if="edit" class="text-box">
                         <div class="ele-inp">
-                            <v-textarea
-                                hide-details
-                                variant="outlined"
-                                color="primary"
-                                auto-grow
-                                placeholder="500자까지 작성할 수 있으며 비속어, 혐오 문구를 포함한 글은 등록하실 수 없습니다."
-                            />
+                            <div class="inp" :class="{ 'primary-border' : isFocused }">
+                                <v-textarea
+                                    hide-details auto-grow
+                                    variant="outlined"
+                                    rows="4"
+                                    placeholder="500자까지 작성할 수 있으며 비속어, 혐오 문구를 포함한 글은 등록하실 수 없습니다."
+                                    @focus="isFocused = true"
+                                    @blur="isFocused = false"
+                                />
+                            </div>
                         </div>
                     </div>
                     <div class="comment-tool">
-                        <v-btn v-if="!edit" variant="text">
-                            <v-icon class="icon-trash" />삭제
-                        </v-btn>
-                        <v-btn v-if="!edit" @click="edit = !edit" variant="text">
-                            <v-icon class="icon-pencil" />수정
-                        </v-btn>
-                        <v-btn
-                            v-if="edit"
-                            @click="edit = !edit"
-                            variant="flat"
-                            rounded="md"
-                            color="secondary"
-                        >
-                            취소
-                        </v-btn>
-                        <v-btn
-                            v-if="edit"
-                            @click="edit = !edit"
-                            variant="flat"
-                            rounded="md"
-                            color="primary"
-                        >
-                            저장
-                        </v-btn>
+                        <v-btn v-if="!edit" variant="text"><v-icon class="icon-trash" />삭제</v-btn>
+                        <v-btn v-if="!edit" @click="edit = !edit" variant="text"><v-icon class="icon-pencil" />수정</v-btn>
+                        <v-btn v-if="edit" @click="edit = !edit" variant="flat" rounded="md" color="secondary">취소</v-btn>
+                        <v-btn v-if="edit" @click="edit = !edit" variant="flat" rounded="md" color="primary">저장</v-btn>
                     </div>
                 </div>
                 <!--// 내 글 수정 -->
 
                 <!-- 일반댓글 -->
-                <div class="comment-area mine py-8">
+                <div class="comment-area">
                     <div class="text-row text-14">
-                        <div class="id">shinhan****card</div>
+                        <div class="id">shin****card</div>
                         <v-divider vertical />
                         <div class="date">2024.05.05</div>
                     </div>
                     <div class="text-box text-16">
-                        본인이 작성한 댓글에는 수정/삭제 버튼이 보입니다.
-                        본인이 작성한 댓글에는 수정/삭제 버튼이 보입니다.
-                        본인이 작성한 댓글에는 수정/삭제 버튼이 보입니다. 
-                        본인이 작성한 댓글에는 수정/삭제 버튼이 보입니다.
                         본인이 작성한 댓글에는 수정/삭제 버튼이 보입니다.
                     </div>
                 </div>
