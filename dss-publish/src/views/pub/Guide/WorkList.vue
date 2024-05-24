@@ -306,7 +306,7 @@
 									<td class="col-point">page</td>
 									<td class="col-url"><router-link to="/PRDD_01" target="_blank">/views/pub/DataService/PRDD_01</router-link></td>
 									<td class="col-date">2024-05-07</td>
-									<td class="col-complete"></td>
+									<td class="col-complete">2024-05-22</td>
 									<td class="col-memo text-error">5/22 모바일 css 반영완료</td>
 								</tr>
 								<tr>
@@ -351,7 +351,7 @@
 									<td class="col-point">page</td>
 									<td class="col-url"><router-link to="/PRDD_00_01" target="_blank">/views/pub/DataService/PRDD_00_01</router-link></td>
 									<td class="col-date">2024-05-07</td>
-									<td class="col-complete"></td>
+									<td class="col-complete">2024-05-22</td>
 									<td class="col-memo text-error">5/22 모바일 css 반영완료</td>
 								</tr>
 								<tr>
@@ -375,9 +375,9 @@
 									<td class="col-4depth"></td>
 									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
-									<td class="col-url"><router-link to="/PRDS_01" target="_blank">/views/pub/SolutionService/PRDS_01</router-link></td>
+									<td class="col-url">PRDD_01 동일</td>
 									<td class="col-date"></td>
-									<td class="col-complete"></td>
+									<td class="col-complete">2024-05-22</td>
 									<td class="col-memo"></td>
 								</tr>
 								<tr>
@@ -388,9 +388,9 @@
 									<td class="col-4depth"></td>
 									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
-									<td class="col-url"><router-link to="/PRDS_02_01" target="_blank">/views/pub/SolutionService/PRDS_02_01</router-link></td>
+									<td class="col-url">PRDD_01 동일</td>
 									<td class="col-date"></td>
-									<td class="col-complete"></td>
+									<td class="col-complete">2024-05-22</td>
 									<td class="col-memo"></td>
 								</tr>
 								<tr>
@@ -401,9 +401,9 @@
 									<td class="col-4depth"></td>
 									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
-									<td class="col-url"><router-link to="/PRDS_02_01_null" target="_blank">/views/pub/SolutionService/PRDS_02_01_null</router-link></td>
+									<td class="col-url">PRDD_01 동일</td>
 									<td class="col-date"></td>
-									<td class="col-complete"></td>
+									<td class="col-complete">2024-05-22</td>
 									<td class="col-memo"></td>
 								</tr>
 								<tr>
@@ -609,9 +609,9 @@
 									<td class="col-4depth"></td>
 									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
-									<td class="col-url"><router-link to="/PRDA_01" target="_blank">/views/pub/APIService/PRDA_01</router-link></td>
+									<td class="col-url">PRDD_01 동일</td>
 									<td class="col-date"></td>
-									<td class="col-complete"></td>
+									<td class="col-complete">2024-05-22</td>
 									<td class="col-memo"></td>
 								</tr>
 								<tr>
@@ -622,9 +622,9 @@
 									<td class="col-4depth"></td>
 									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
-									<td class="col-url"><router-link to="/PRDA_02_01" target="_blank">/views/pub/APIService/PRDA_02_01</router-link></td>
+									<td class="col-url">PRDD_01 동일</td>
 									<td class="col-date"></td>
-									<td class="col-complete"></td>
+									<td class="col-complete">2024-05-22</td>
 									<td class="col-memo"></td>
 								</tr>
 								<tr>
@@ -635,9 +635,9 @@
 									<td class="col-4depth"></td>
 									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
-									<td class="col-url"><router-link to="/PRDA_02_01_null" target="_blank">/views/pub/APIService/PRDA_02_01_null</router-link></td>
+									<td class="col-url">PRDD_01 동일</td>
 									<td class="col-date"></td>
-									<td class="col-complete"></td>
+									<td class="col-complete">2024-05-22</td>
 									<td class="col-memo"></td>
 								</tr>
 								<tr>
@@ -648,9 +648,9 @@
 									<td class="col-4depth"></td>
 									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
-									<td class="col-url"><router-link to="/PRDA_00_01" target="_blank">/views/pub/APIService/PRDA_00_01</router-link></td>
+									<td class="col-url">PRDD_00_01 동일</td>
 									<td class="col-date"></td>
-									<td class="col-complete"></td>
+									<td class="col-complete">2024-05-22</td>
 									<td class="col-memo"></td>
 								</tr>
 								<tr>
