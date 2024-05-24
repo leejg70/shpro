@@ -250,7 +250,7 @@
 									<td class="col-point">popup</td>
 									<td class="col-url"><router-link to="/MAIN_00_04_p" target="_blank">/views/pub/Main/MAIN_00_04_p</router-link></td>
 									<td class="col-date">2024-05-22</td>
-									<td class="col-complete"></td>
+									<td class="col-complete">2024-05-23</td>
 									<td class="col-memo"></td>
 								</tr>
 							</tbody>
@@ -1254,7 +1254,7 @@
 									<td class="col-point">page</td>
 									<td class="col-url"><router-link to="/QNAS_01_01_c" target="_blank">/views/pub/Customer/QNAS_01_01_c</router-link></td>
 									<td class="col-date">2024-05-22</td>
-									<td class="col-complete"></td>
+									<td class="col-complete">2024-05-23</td>
 									<td class="col-memo"></td>
 								</tr>
 								<tr>
