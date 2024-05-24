@@ -7,6 +7,18 @@
     background-size: cover;
 }
 
+// icon 20px
+.icon-trash {
+    width: 2rem;
+    height: 2rem;
+    background-image: url('../images/icon/icon_trash.png');
+}
+.icon-pencil {
+    width: 2rem;
+    height: 2rem;
+    background-image: url('../images/icon/icon_pencil.png');
+}
+
 .icon-download {
     width: var(--v-icon-size);
     height: var(--v-icon-size);
