@@ -71,7 +71,6 @@ const edit = ref(false);
                         <v-divider v-if="!edit" vertical />
                         <div v-if="!edit" class="date">2024.05.05</div>
                     </div>
-                    
                     <div v-if="!edit" class="text-box text-16">
                         본인이 작성한 댓글에는 수정/삭제 버튼이 보입니다.
                         본인이 작성한 댓글에는 수정/삭제 버튼이 보입니다.
@@ -126,7 +125,6 @@ const edit = ref(false);
                         <v-divider vertical />
                         <div class="date">2024.05.05</div>
                     </div>
-                    
                     <div class="text-box text-16">
                         본인이 작성한 댓글에는 수정/삭제 버튼이 보입니다.
                         본인이 작성한 댓글에는 수정/삭제 버튼이 보입니다.
@@ -134,46 +132,8 @@ const edit = ref(false);
                         본인이 작성한 댓글에는 수정/삭제 버튼이 보입니다.
                         본인이 작성한 댓글에는 수정/삭제 버튼이 보입니다.
                     </div>
-                    <!-- <div v-if="edit" class="text-box">
-                        <div class="ele-inp">
-                            <v-textarea
-                                hide-details
-                                variant="outlined"
-                                color="primary"
-                                auto-grow
-                                placeholder="500자까지 작성할 수 있으며 비속어, 혐오 문구를 포함한 글은 등록하실 수 없습니다."
-                            />
-                        </div>
-                    </div>
-                    <div class="comment-tool">
-                        <v-btn v-if="!edit" variant="text">
-                            <v-icon class="icon-trash" />삭제
-                        </v-btn>
-                        <v-btn v-if="!edit" @click="edit = !edit" variant="text">
-                            <v-icon class="icon-pencil" />수정
-                        </v-btn>
-                        <v-btn
-                            v-if="edit"
-                            @click="edit = !edit"
-                            variant="flat"
-                            rounded="md"
-                            color="secondary"
-                        >
-                            취소
-                        </v-btn>
-                        <v-btn
-                            v-if="edit"
-                            @click="edit = !edit"
-                            variant="flat"
-                            rounded="md"
-                            color="primary"
-                        >
-                            저장
-                        </v-btn>
-                    </div> -->
                 </div>
                 <!--// 일반댓글 -->
-
             </div>
             <!--// 댓글 -->
 
