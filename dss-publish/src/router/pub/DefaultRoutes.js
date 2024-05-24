@@ -116,6 +116,15 @@ const DefaultRoutes = {
       }
     },
     {
+      name: 'PRDS_00_05',
+      path: '/PRDS_00_05',
+      component: () => import('@/views/pub/SolutionService/PRDS_00_05.vue'),
+      meta: {
+        appearMenu : true,
+        requiresAuth: false
+      }
+    },
+    {
       name: 'PRDM_00',
       path: '/PRDM_00',
       component: () => import('@/views/pub/ADService/PRDM_00.vue'),

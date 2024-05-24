@@ -34,7 +34,7 @@
 		<br>
 		<div class="ia-total">
 			<p class="ia-msg">전체 페이지 : 157</p>
-			<p class="ia-version">IA 버전 : v1.1</p>
+			<p class="ia-version">IA 버전 : v1.3</p>
 		</div>
 		<!-- 00_Guide -->
 		<!-- wait:작업중, done:완료, del:삭제, except:보류
@@ -132,7 +132,7 @@
 			<div class="ia-section-header">
 				<h2 class="ia-h2"><a href="#this" class="accordion-toggle">메인</a></h2>
 				<div class="ia-legend">
-					<span class="item"><em>총 페이지 : </em><em class="legend-total">7</em>,</span>
+					<span class="item"><em>총 페이지 : </em><em class="legend-total">6</em>,</span>
 					<span class="item c-done"><em>완료 : </em><em class="legend-complete">0</em>,</span>
 					<span class="item"><em>진척률 : </em><em class="legend-process">0%</em></span>
 				</div>
@@ -454,6 +454,19 @@
 									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
 									<td class="col-url"><router-link to="/PRDS_00_04" target="_blank">/views/pub/SolutionService/PRDS_00_04</router-link></td>
+									<td class="col-date"></td>
+									<td class="col-complete"></td>
+									<td class="col-memo"></td>
+								</tr>
+								<tr>
+									<td class="col-num"></td>
+									<td class="col-1depth"></td>
+									<td class="col-2depth">상세5</td>
+									<td class="col-3depth"></td>
+									<td class="col-4depth"></td>
+									<td class="col-5depth"></td>
+									<td class="col-point">page</td>
+									<td class="col-url"><router-link to="/PRDS_00_05" target="_blank">/views/pub/SolutionService/PRDS_00_05</router-link></td>
 									<td class="col-date"></td>
 									<td class="col-complete"></td>
 									<td class="col-memo"></td>
@@ -965,7 +978,7 @@
 									<td class="col-complete">2024-05-10</td>
 									<td class="col-memo"></td>
 								</tr>
-								<tr>
+								<tr class="del">
 									<td class="col-num"></td>
 									<td class="col-1depth"></td>
 									<td class="col-2depth">(공통)</td>
@@ -975,7 +988,7 @@
 									<td class="col-point">popup</td>
 									<td class="col-url"><router-link to="/MY_00_04_p" target="_blank">/views/pub/My/MY_00_04_p</router-link></td>
 									<td class="col-date"></td>
-									<td class="col-complete"></td>
+									<td class="col-complete" data-complete="del"></td>
 									<td class="col-memo"></td>
 								</tr>
 							</tbody>
@@ -1086,7 +1099,7 @@
 									<td class="col-complete"></td>
 									<td class="col-memo"></td>
 								</tr>
-								<tr>
+								<tr class="del">
 									<td class="col-num"></td>
 									<td class="col-1depth"></td>
 									<td class="col-2depth"></td>
@@ -1096,7 +1109,7 @@
 									<td class="col-point">page</td>
 									<td class="col-url"><router-link to="/BLUE_02_05" target="_blank">/views/pub/Databule/BLUE_02_05</router-link></td>
 									<td class="col-date"></td>
-									<td class="col-complete"></td>
+									<td class="col-complete" data-complete="del"></td>
 									<td class="col-memo"></td>
 								</tr>
 								<tr>
@@ -1380,7 +1393,7 @@
 			<div class="ia-section-header">
 				<h2 class="ia-h2"><a href="#this" class="accordion-toggle">로그인/로그아웃/회원가입</a></h2>
 				<div class="ia-legend">
-					<span class="item"><em>총 페이지 : </em><em class="legend-total">64</em>,</span>
+					<span class="item"><em>총 페이지 : </em><em class="legend-total">65</em>,</span>
 					<span class="item c-done"><em>완료 : </em><em class="legend-complete">0</em>,</span>
 					<span class="item"><em>진척률 : </em><em class="legend-process">0%</em></span>
 				</div>
