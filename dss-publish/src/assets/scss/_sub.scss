@@ -838,9 +838,9 @@ img {
                     .txt {
                         margin-left: 0.4rem;
                     }
-                }
-                .v-divider--vertical:first-of-type {
-                    display: none;
+                    + .v-divider--vertical {
+                        display: none;
+                    }
                 }
                 .v-divider--vertical {
                     margin: .25rem .8rem;
@@ -878,7 +878,8 @@ img {
                     min-width: 20rem !important;
                 }
                 &.v-btn--size-large {
-                    flex: 1; 
+                    flex-grow: 1;
+                    flex-basis: calc(50% - .4rem); 
                     height: 4.2rem;
                 }
 
@@ -959,6 +960,38 @@ img {
                         margin-top: 1.2rem;
                     }
 
+                }
+            }
+        }
+    }
+    .comment-box {
+        margin-top: 5.6rem;
+        .comment-title {
+            font-size: 1.5rem;
+        }
+        .v-divider--vertical {
+            margin: .25rem .8rem;
+        }
+        .comment-area {
+            padding: 2.4rem 0 !important;
+            .text-row {
+                margin-bottom: 1.2rem;
+            }
+            .text-box {
+                .v-textarea {
+                    max-height: 20rem;
+                    .v-field {
+                        textarea.v-field__input {
+                            padding: 1.6rem;
+                        }
+                    }
+                }
+            }
+            .comment-tool {
+                margin-top: 1.2rem;
+                .v-btn.v-btn--variant-text {
+                    height: 2rem;
+                    font-size: 1.4rem;
                 }
             }
         }
@@ -1118,6 +1151,16 @@ img {
             }
         }
 
+    }
+
+    // button default - fs:1.2rem, h: 3.2rem
+    .v-btn.v-btn--size-default {
+        --v-btn-size: 1.2rem;
+        --v-btn-height: 3.2rem;
+        padding: 0 .8rem;
+        &.v-btn--variant-flat {
+            min-width: 5.6rem;
+        }
     }
 
     // badge

@@ -1352,7 +1352,7 @@
 									<td class="col-url"><router-link to="/COMU_02_02_r" target="_blank">/views/pub/Community/COMU_02_02_r</router-link></td>
 									<td class="col-date">2024-05-24</td>
 									<td class="col-complete"></td>
-									<td class="col-memo error-text">PC화면 완료</td>
+									<td class="col-memo text-error">5/27 모바일 css 반영완료</td>
 								</tr>
 								<tr>
 									<td class="col-num"></td>
