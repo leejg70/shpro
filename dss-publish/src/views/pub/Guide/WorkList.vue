@@ -857,7 +857,7 @@
 									<td class="col-5depth"></td>
 									<td class="col-point">popup</td>
 									<td class="col-url"><router-link to="/MY_03_01_p" target="_blank">/views/pub/My/MY_03_01_p</router-link></td>
-									<td class="col-date"></td>
+									<td class="col-date">2024-05-27</td>
 									<td class="col-complete"></td>
 									<td class="col-memo"></td>
 								</tr>
