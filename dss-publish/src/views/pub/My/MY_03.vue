@@ -142,11 +142,238 @@ const items = ref([
       </v-row>
     </div>
     <div class="total-area">
-      <div class="total">총&nbsp; <span>10건</span></div>
+      <div class="total">총&nbsp; <span>5건</span></div>
     </div>
     <v-divider class="svc-divide" />
     <!-- 나의계약 리스트 -->
-    
+    <div class="contract-list-area">
+      <v-list>
+        <!-- CASE) 카드 하단에 버튼 2개 모두 표시 -->
+        <v-list-item>
+          <div class="contract-group">
+            <div class="contract-title"><span class="number">C240405001</span>올리브영 성별 판매데이터 올리브영 성별 판매데이터 올리브영 성별 판매데이터 올리브영 성별 판매데이터 올리브영 성별 판매데이터</div>
+            <div class="contract-box">
+              <dl class="period-area">
+                <dt class="title">계약기간</dt>
+                <dd class="date">2024.01.01~2024.01.02</dd>
+              </dl>
+              <div class="text-right"><span>4개</span>의 상품이 있습니다.</div>
+            </div>
+            <ul class="product-list">
+              <li>
+                <router-link to="" class="list-item">
+                  <div class="list-item-content">
+                    <div class="text-row">
+                      <div class="category">Data 서비스</div>
+                      <div class="title">서울시 상권분석 데이터를 상반기와 후반기로 분류해서 제공하는 상품 서울시 상권분석 데이터를 상반기와 후반기로 분류해서 제공하는 상품 서울시 상권분석 데이터를 상반기와 후반기로 분류해서 제공하는 상품</div>
+                    </div>
+                    <div class="method">이메일</div>
+                  </div>
+                  <div class="list-item-append">
+                    <v-btn variant="text">
+                      <v-icon class="btn-arrow" />
+                    </v-btn>
+                  </div>
+                </router-link>
+              </li>
+              <li>
+                <router-link to="" class="list-item">
+                  <div class="list-item-content">
+                    <div class="text-row">
+                      <div class="category">솔루션서비스</div>
+                      <div class="title">기획팀 : 세부 상품명 글자수 제한 여부 알려주세요. 피씨는 한줄+말줄임 권합니다.</div>
+                    </div>
+                    <div class="method">파일 다운로드</div>
+                  </div>
+                  <div class="list-item-append">
+                    <v-btn variant="text">
+                      <v-icon class="btn-arrow" />
+                    </v-btn>
+                  </div>
+                </router-link>
+              </li>
+              <li>
+                <router-link to="" class="list-item disabled">
+                  <div class="list-item-content">
+                    <div class="text-row">
+                      <div class="category">API서비스</div>
+                      <div class="title">기획팀 : 세부 상품명 글자수 제한 여부 알려주세요. 피씨는 한줄+말줄임 권합니다.</div>
+                    </div>
+                    <div class="method">API</div>
+                  </div>
+                  <div class="list-item-append">
+                    <v-btn variant="text">
+                      <v-icon class="btn-arrow" />
+                    </v-btn>
+                  </div>
+                </router-link>
+              </li>
+              <li>
+                <router-link to="" class="list-item">
+                  <div class="list-item-content">
+                    <div class="text-row">
+                      <div class="category">솔루션서비스</div>
+                      <div class="title">2024 전국 스타벅스 매장 연령별 결제 데이터 글자수 제한 여부 필요 (제목이 길어지면 말줄임 사용해주세요)</div>
+                    </div>
+                    <div class="method">담당자 전달</div>
+                  </div>
+                  <div class="list-item-append">
+                    <v-btn variant="text">
+                      <v-icon class="btn-arrow" />
+                    </v-btn>
+                  </div>
+                </router-link>
+              </li>
+            </ul>
+          </div>
+          <div class="contract-btn-area">
+            <v-btn variant="flat" rounded="md" size="large" color="primary" class="btn-download">Data 다운로드</v-btn>
+            <v-btn variant="flat" rounded="md" size="large" color="primary">APP Key</v-btn>
+          </div>
+        </v-list-item>
+        <!-- // 카드 하단에 버튼 2개 모두 표시 -->
+        <!-- CASE) 카드 하단에 버튼 1개만 표시 -->
+        <v-list-item>
+          <div class="contract-group">
+            <div class="contract-title"><span class="number">C240405001</span>올리브영 성별 판매데이터</div>
+            <div class="contract-box">
+              <dl class="period-area">
+                <dt class="title">계약기간</dt>
+                <dd class="date">2024.01.01~2024.01.02</dd>
+              </dl>
+              <div class="text-right"><span>1개</span>의 상품이 있습니다.</div>
+            </div>
+            <ul class="product-list">
+              <li>
+                <router-link to="" class="list-item">
+                  <div class="list-item-content">
+                    <div class="text-row">
+                      <div class="category">Data 서비스</div>
+                      <div class="title">2024 전국 스타벅스 매장 연령별 결제 데이터 글자수 제한 여부 필요 (제목이 길어지면 말줄임 사용해주세요)</div>
+                    </div>
+                    <div class="method">담당자 전달</div>
+                  </div>
+                  <div class="list-item-append">
+                    <v-btn variant="text">
+                      <v-icon class="btn-arrow" />
+                    </v-btn>
+                  </div>
+                </router-link>
+              </li>
+            </ul>
+          </div>
+          <div class="contract-btn-area download">
+            <v-btn variant="flat" rounded="md" size="large" color="primary" class="btn-download">Data 다운로드</v-btn>
+          </div>
+        </v-list-item>
+        <!-- // 카드 하단에 버튼 1개만 표시 -->
+        <!-- CASE) 카드 하단에 버튼도 메시지도 없음 -->
+        <v-list-item>
+          <div class="contract-group">
+            <div class="contract-title"><span class="number">C240405001</span>올리브영 성별 판매데이터</div>
+            <div class="contract-box">
+              <dl class="period-area">
+                <dt class="title">계약기간</dt>
+                <dd class="date">2024.01.01~2024.01.02</dd>
+              </dl>
+              <div class="text-right"><span>1개</span>의 상품이 있습니다.</div>
+            </div>
+            <ul class="product-list">
+              <li>
+                <router-link to="" class="list-item">
+                  <div class="list-item-content">
+                    <div class="text-row">
+                      <div class="category">Data 서비스</div>
+                      <div class="title">2024 전국 스타벅스 매장 연령별 결제 데이터 글자수 제한 여부 필요 (제목이 길어지면 말줄임 사용해주세요)</div>
+                    </div>
+                    <div class="method">담당자 전달</div>
+                  </div>
+                  <div class="list-item-append">
+                    <v-btn variant="text">
+                      <v-icon class="btn-arrow" />
+                    </v-btn>
+                  </div>
+                </router-link>
+              </li>
+            </ul>
+          </div>
+        </v-list-item>
+        <!-- // 카드 하단에 버튼도 메시지도 없음 -->
+        <!-- CASE) 계약 종료 + 버튼 살아있는 한달 -->
+        <v-list-item>
+          <div class="contract-group disabled">
+            <div class="contract-title"><span class="number">C240405001</span>올리브영 성별 판매데이터</div>
+            <div class="contract-box">
+              <dl class="period-area">
+                <dt class="title">계약기간</dt>
+                <dd class="date">2024.01.01~2024.01.02</dd>
+              </dl>
+              <div class="text-right"><span>1개</span>의 상품이 있습니다.</div>
+            </div>
+            <ul class="product-list">
+              <li>
+                <router-link to="" class="list-item">
+                  <div class="list-item-content">
+                    <div class="text-row">
+                      <div class="category">Data 서비스</div>
+                      <div class="title">2024 전국 스타벅스 매장 연령별 결제 데이터 글자수 제한 여부 필요 (제목이 길어지면 말줄임 사용해주세요)</div>
+                    </div>
+                    <div class="method">담당자 전달</div>
+                  </div>
+                  <div class="list-item-append">
+                    <v-btn variant="text">
+                      <v-icon class="btn-arrow" />
+                    </v-btn>
+                  </div>
+                </router-link>
+              </li>
+            </ul>
+          </div>
+          <div class="contract-btn-area">
+            <v-btn variant="flat" rounded="md" size="large" color="primary">APP Key</v-btn>
+          </div>
+        </v-list-item>
+        <!-- // 계약 종료 + 버튼 살아있는 한달 -->
+        <!-- CASE) 계약 종료 + 버튼도 히든되는 한달 후 카드 -->
+        <v-list-item>
+          <div class="contract-group disabled">
+            <div class="contract-title"><span class="number">C240405001</span>올리브영 성별 판매데이터</div>
+            <div class="contract-box">
+              <dl class="period-area">
+                <dt class="title">계약기간</dt>
+                <dd class="date">2024.01.01~2024.01.02</dd>
+              </dl>
+              <div class="text-right"><span>1개</span>의 상품이 있습니다.</div>
+            </div>
+            <ul class="product-list">
+              <li>
+                <router-link to="" class="list-item">
+                  <div class="list-item-content">
+                    <div class="text-row">
+                      <div class="category">Data 서비스</div>
+                      <div class="title">2024 전국 스타벅스 매장 연령별 결제 데이터 글자수 제한 여부 필요 (제목이 길어지면 말줄임 사용해주세요)</div>
+                    </div>
+                    <div class="method">담당자 전달</div>
+                  </div>
+                  <div class="list-item-append">
+                    <v-btn variant="text">
+                      <v-icon class="btn-arrow" />
+                    </v-btn>
+                  </div>
+                </router-link>
+              </li>
+            </ul>
+          </div>
+          <div class="contract-btn-area">
+            <p class="text">계약기간이 종료된 계약입니다.</p>
+          </div>
+        </v-list-item>
+        <!-- // 계약 종료 + 버튼도 히든되는 한달 후 카드 -->
+      </v-list>
+      <div class="services-more-area">
+        <v-btn variant="outlined" rounded="xl" class="btn-more">더보기<v-icon class="icon-arrow" /></v-btn>
+      </div>
+    </div>
     <!--// 나의계약 리스트 -->
     <!-- 나의내역 없음 -->
     <div class="search-result">

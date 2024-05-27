@@ -844,7 +844,7 @@
 									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
 									<td class="col-url"><router-link to="/MY_03" target="_blank">/views/pub/My/MY_03</router-link></td>
-									<td class="col-date"></td>
+									<td class="col-date">2024-05-27</td>
 									<td class="col-complete"></td>
 									<td class="col-memo"></td>
 								</tr>
@@ -896,7 +896,7 @@
 									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
 									<td class="col-url"><router-link to="/MY_04" target="_blank">/views/pub/My/MY_04</router-link></td>
-									<td class="col-date"></td>
+									<td class="col-date">2024-05-27</td>
 									<td class="col-complete"></td>
 									<td class="col-memo"></td>
 								</tr>
@@ -935,7 +935,7 @@
 									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
 									<td class="col-url"><router-link to="/MY_08" target="_blank">/views/pub/My/MY_08</router-link></td>
-									<td class="col-date"></td>
+									<td class="col-date">2024-05-27</td>
 									<td class="col-complete"></td>
 									<td class="col-memo"></td>
 								</tr>
@@ -948,7 +948,7 @@
 									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
 									<td class="col-url"><router-link to="/MY_06" target="_blank">/views/pub/My/MY_06</router-link></td>
-									<td class="col-date"></td>
+									<td class="col-date">2024-05-27</td>
 									<td class="col-complete"></td>
 									<td class="col-memo"></td>
 								</tr>
