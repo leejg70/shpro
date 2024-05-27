@@ -171,8 +171,6 @@ const qna = ['전체 문의', '이용문의', '제휴문의', '기술문의', 'D
             </div>
             <div class="text-row text-14">
               <div class="date">2024.05.05</div>
-              <v-divider vertical />
-              <div class="id">shinhan****card</div>
             </div>
           </div>
           <template v-slot:append>

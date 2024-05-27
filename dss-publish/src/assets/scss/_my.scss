@@ -190,6 +190,207 @@
       }
     }
   }
+  .contract-list-area {
+    margin-top: 2.4rem;
+    .v-list {
+      overflow: hidden;
+      padding: 0;
+      .v-list-item {
+        margin-bottom: 4.8rem;
+        padding: 3.2rem;
+        border: .1rem solid #e5e5e5;
+        border-radius: 2.4rem;
+        &:hover > .v-list-item__overlay {
+          opacity: 0;
+        }
+        &:last-child {
+          margin-bottom: 0;
+        }
+      }
+    }
+    .contract-group {
+      position: relative;
+      .contract-title {
+        overflow: hidden;
+        margin-bottom: .8rem;
+        font-size: 2.2rem;
+        font-weight: 500;
+        color: #111518;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        word-break: break-all;
+        .number {
+          margin-right: 2.4rem;
+          font-weight: 400;
+          color: #333;
+        }
+      }
+      .contract-box {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 3.2rem;
+        .period-area {
+          display: flex;
+          align-items: center;
+          .title {
+            font-size: 1.6rem;
+            color: #111518;
+          }
+          .date {
+            position: relative;
+            padding-left: 3.2rem;
+            font-size: 1.6rem;
+            color: #356cff;
+            &::after {
+              content: '';
+              position: absolute;
+              top: .4rem;
+              left: 1.6rem;
+              width: .1rem;
+              height: 1.8rem;
+              background-color: #e5e5e5;
+            }
+          }
+        }
+        .text-right {
+          font-size: 1.6rem;
+          color: #666;
+          > span {
+            font-weight: 500;
+            color: #111518;
+          }
+        }
+      }
+      .product-list {
+        overflow: hidden;
+        > li {
+          position: relative;
+          margin-bottom: 0.8rem;
+          &:last-child {
+            margin-bottom: 0;
+          }
+        }
+        .list-item {
+          display: grid;
+          align-items: center;
+          grid-template-areas: "prepend content append";
+          grid-template-columns: max-content 1fr auto;
+          position: relative;
+          max-width: 100%;
+          padding: 2.4rem;
+          background-color: #f7f8fc;
+          border-radius: 1.6rem;
+          .list-item-content {
+            overflow: hidden;
+            align-self: center;
+            grid-area: content;
+            display: grid;
+            align-items: center;
+            grid-template-areas: "prepend content append";
+            grid-template-columns: max-content 1fr auto;
+            position: relative;
+            .text-row {
+              overflow: hidden;
+              align-self: center;
+              grid-area: content;
+              .category {
+                margin-bottom: .8rem;
+                font-size: 1.4rem;
+                color: #666;
+              }
+              .title {
+                overflow: hidden;
+                font-size: 1.6rem;
+                color: #333;
+                white-space: nowrap;
+                text-overflow: ellipsis;
+                word-break: break-all;
+              }
+            }
+            .method {
+              grid-area: append;
+              width: 10.4rem;
+              margin-left: 2.4rem;
+              font-size: 1.6rem;
+              color: #7f87a4;
+              text-align: right;
+            }
+          }
+          .list-item-append {
+            display: flex;
+            align-self: center;
+            align-items: center;
+            grid-area: append;
+            .v-btn {
+              height: 2.4rem;
+              min-width: 2.4rem;
+              margin-left: 2.4rem;
+              padding: 0;
+              border-radius: 0;
+              .btn-arrow {
+                width: 2.4rem;
+                height: 2.4rem;
+                background-image: url('../images/btn/btn_accordion_arrow.png');
+                background-repeat: no-repeat;
+                background-size: 100%;
+              }
+            }
+          }
+          &.disabled {
+            pointer-events: none;
+            user-select: none;
+            .list-item-append {
+              .v-btn {
+                .btn-arrow {
+                  background-image: url('../images/btn/btn_disabled_arrow.png');
+                }
+              }
+            }
+          }
+        }
+      }
+      &.disabled {
+        pointer-events: none;
+        user-select: none;
+        * {
+          color: #aaa !important;
+        }
+        .product-list {
+          .list-item {
+            .list-item-append {
+              .v-btn {
+                .btn-arrow {
+                  background-image: url('../images/btn/btn_disabled_arrow.png');
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    .contract-btn-area {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 3.2rem;
+      .v-btn {
+        width: 13rem;
+        min-width: 13rem;
+        margin: 0 .4rem;
+      }
+      .text {
+        font-size: 1.8rem;
+        font-weight: 500;
+        color: #333;
+      }
+    }
+  }
+  .customer-list {
+    .v-list {
+      border-top: none;
+    }
+  }
   .alarm-list-area {
     margin-top: 2.4rem;
     .v-list {
@@ -640,6 +841,98 @@
         }
       }
     }
+    .contract-list-area {
+      margin-top: 1.6rem;
+      .v-list {
+        .v-list-item {
+          margin-bottom: 4rem;
+          padding: 2.4rem;
+          border-radius: 1.6rem;
+        }
+      }
+      .contract-group {
+        .contract-title {
+          font-size: 1.6rem;
+          white-space: normal;
+          .number {
+            display: block;
+            margin-right: 0;
+            margin-bottom: .4rem;
+          }
+        }
+        .contract-box {
+          display: block;
+          margin-bottom: 2.4rem;
+          .period-area {
+            margin-bottom: .8rem;
+            .title {
+              font-size: 1.4rem;
+            }
+            .date {
+              padding-left: 1.6rem;
+              font-size: 1.4rem;
+              &::after {
+                top: .3rem;
+                left: .8rem;
+                height: 1.6rem;
+              }
+            }
+          }
+          .text-right {
+            font-size: 1.4rem;
+            text-align: left !important;
+          }
+        }
+        .product-list {
+          .list-item {
+            padding: 1.6rem;
+            border-radius: .8rem;
+            .list-item-content {
+              display: block;
+              .text-row {
+                margin-bottom: 1.6rem;
+                .category {
+                  font-size: 1.2rem;
+                }
+                .title {
+                  font-size: 1.4rem;
+                  white-space: normal;
+                }
+              }
+              .method {
+                width: auto;
+                margin-left: 0;
+                font-size: 1.4rem;
+                text-align: left;
+              }
+            }
+            .list-item-append {
+              .v-btn {
+                margin-left: 1.6rem;
+              }
+            }
+          }
+        }
+      }
+      .contract-btn-area {
+        margin-top: 2.4rem;
+        &.download {
+          display: none;
+        }
+        .btn-download {
+          display: none;
+        }
+        .v-btn {
+          width: 100%;
+          min-width: 100%;
+          height: 4.2rem;
+          margin: 0;
+        }
+        .text {
+          font-size: 1.5rem;
+        }
+      }
+    }
     .alarm-list-area {
       margin-top: 1.6rem;
       .v-list {
@@ -647,7 +940,7 @@
           padding: 1.6rem 2.4rem;
           .text-truncate {
             white-space: normal !important;
-            word-break: keep-all;
+            word-break: break-all;
           }
           .v-btn {
             margin-left: 1.6rem;
