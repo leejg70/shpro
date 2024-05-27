@@ -24,8 +24,8 @@ const appkey = ref(false);
       </div>
       <div class="popup-cont">
         <div class="my-cont">
-          <div class="my-bg appkey"><span>해당계약의 APP Key 노출texttexttexttexttexttextexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttext</span></div>
-          <p class="key-text">현재 표시된 <span>APP Key</span>는 중요한 자산입니다.<br>무단 공유나 유출 되지 않게 관리해 주시기 바랍니다.</p>
+          <div class="my-bg">APP Keytexttexttexttexttexttextexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttext</div>
+          <p class="key-text">표시된 <span>APP Key</span>는 신한카드의 소중한 자산입니다.<br>무단 공유 및 유출되지 않도록 안전하게 관리해 주시길 바랍니다.</p>
         </div>
       </div>
       <div class="popup-foot">
