@@ -1,6 +1,8 @@
 <script setup>
 import { ref } from 'vue';
 
+const items = [ '이용문의', '제휴문의', '기술문의', 'Data서비스 문의', '솔루션서비스 문의', 'API서비스 문의', '광고서비스 문의' ];
+const selected = ref();
 const radioGroup = ref('비공개');
 const text = ref('');
 const rules1 = (v) => {
@@ -33,7 +35,8 @@ const rules2 = (v) => {
                         <div class="ele-inp">
                             <div class="inp-select" style="max-width:38.4rem;">
                                 <v-select
-                                    :items="[ '이용문의', '제휴문의', '기술문의', 'Data서비스 문의', '솔루션서비스 문의', 'API서비스 문의', '광고서비스 문의' ]"
+                                    v-model="selected"
+                                    :items="items"
                                     hide-details
                                     variant="outlined"
                                     color="primary"
@@ -80,12 +83,8 @@ const rules2 = (v) => {
                                     inline
                                     density="compact"
                                 >
-                                    <v-radio
-                                        v-for="item in [ '공개', '비공개' ]"
-                                        :key="item"
-                                        :label="item"
-                                        :value="item"
-                                    />
+                                    <v-radio label="공개" value="공개" />
+                                    <v-radio label="비공개" value="비공개" />
                                 </v-radio-group>
                             </div>
                         </div>
