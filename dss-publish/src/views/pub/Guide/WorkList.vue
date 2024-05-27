@@ -957,12 +957,12 @@
 									<td class="col-1depth"></td>
 									<td class="col-2depth">(공통)</td>
 									<td class="col-3depth">목록</td>
-									<td class="col-4depth"></td>
+									<td class="col-4depth">나의문의/관심상품/알림/나의계약 null</td>
 									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
 									<td class="col-url"><router-link to="/MY_00_02_null" target="_blank">/views/pub/My/MY_00_02_null</router-link></td>
-									<td class="col-date"></td>
-									<td class="col-complete"></td>
+									<td class="col-date">각 목록페이지 반영</td>
+									<td class="col-complete">-</td>
 									<td class="col-memo"></td>
 								</tr>
 								<tr>
