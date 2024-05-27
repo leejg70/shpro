@@ -161,9 +161,14 @@ const items = ref([
           to=""
         >
           <div class="text">
-            <div class="date text-14"><span class="alarm">2024.02.01 15:30</span></div><!-- <div class="date text-14"><span>2024.02.01 15:30</span></div> => 이미 읽은 알림일 경우 class="alarm" 삭제 -->
+            <div class="date text-14"><span class="alarm">2024.02.01 15:30</span></div><!-- 이미 읽은 알림일 경우 : <span>2024.02.01 15:30</span> => class="alarm" 삭제 -->
             <div class="text-truncate text-16">올리브영 성별 판매데이터 올리브영 성별 판매데이터 올리브영 성별 판매데이터 올리브영 성별 판매데이터 올리브영 성별 판매데이터 올리브영 성별 판매데이터 올리브영 성별 판매데이터</div>
-            <div class="register text-16">계약이 등록되었습니다.</div><!-- <div class="register text-16">상품의 다운로드 파일이 등록되었습니다.</div>, <div class="register text-16">Data 상품이 메일로 발송되었습니다.</div>, <div class="register text-16">문의에 답변이 등록되었습니다.</div> => 이벤트별 메시지 -->
+            <div class="register text-16">계약이 등록되었습니다.</div>
+            <!-- 이벤트별 메시지
+            <div class="register text-16">상품의 다운로드 파일이 등록되었습니다.</div>
+            <div class="register text-16">Data 상품이 메일로 발송되었습니다.</div>
+            <div class="register text-16">문의에 답변이 등록되었습니다.</div>
+            -->
           </div>
           <template v-slot:append>
             <v-btn variant="text">
