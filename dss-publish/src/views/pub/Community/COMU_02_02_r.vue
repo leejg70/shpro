@@ -54,7 +54,7 @@ const isFocused = ref(false);
                                 <v-textarea
                                     hide-details auto-grow
                                     variant="outlined"
-                                    rows="4"
+                                    rows="3"
                                     placeholder="500자까지 작성할 수 있으며 비속어, 혐오 문구를 포함한 글은 등록하실 수 없습니다."
                                     @focus="isFocused = true"
                                     @blur="isFocused = false"
@@ -88,7 +88,7 @@ const isFocused = ref(false);
                                 <v-textarea
                                     hide-details auto-grow
                                     variant="outlined"
-                                    rows="4"
+                                    rows="3"
                                     placeholder="500자까지 작성할 수 있으며 비속어, 혐오 문구를 포함한 글은 등록하실 수 없습니다."
                                     @focus="isFocused = true"
                                     @blur="isFocused = false"

@@ -409,6 +409,8 @@
         .text-box {
             // textarea
             .inp {
+                padding: 2.4rem 0 2.4rem 2.4rem;
+                padding-right: 0;
                 border: 1px solid #e5e5e5;
                 border-radius: 8px;
                 .v-textarea {
@@ -416,7 +418,9 @@
                     overflow-y: auto;
                     .v-field {
                         textarea.v-field__input {
-                            padding: 2.4rem 2.4rem 0;
+                            padding: 0;
+                            padding-right: 2.4rem;
+                            // overflow-y: hidden;
                         }
                     }
                     .v-field__outline {
@@ -993,11 +997,12 @@ img {
             }
             .text-box {
                 .inp {
+                    padding: 1.6rem 0 1.6rem 1.6rem;
                     .v-textarea {
                         max-height: 20rem;
                         .v-field {
                             textarea.v-field__input {
-                                padding: 1.6rem;
+                                padding-right: 1.6rem;
                             }
                         }
                     }

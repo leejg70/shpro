@@ -1,7 +1,15 @@
 <script setup>
 import { ref } from 'vue';
 
-const items = [ '이용문의', '제휴문의', '기술문의', 'Data서비스 문의', '솔루션서비스 문의', 'API서비스 문의', '광고서비스 문의' ];
+const items = [
+    { name: '이용문의', value: '01' },
+    { name: '제휴문의', value: '02' },
+    { name: '기술문의', value: '03' },
+    { name: 'Data서비스 문의', value: '04' },
+    { name: '솔루션서비스 문의', value: '05' },
+    { name: 'API서비스 문의', value: '06' },
+    { name: '광고서비스 문의', value: '07' },
+]
 const selected = ref();
 const radioGroup = ref('비공개');
 const text = ref('');
@@ -37,6 +45,8 @@ const rules2 = (v) => {
                                 <v-select
                                     v-model="selected"
                                     :items="items"
+                                    item-title="name"
+                                    item-value="value"
                                     hide-details
                                     variant="outlined"
                                     color="primary"
@@ -99,7 +109,6 @@ const rules2 = (v) => {
                                 :rules="[rules2]"
                                 persistent-counter
                                 no-resize
-                                clearable
                                 variant="outlined"
                                 color="primary"
                                 rows="13"

@@ -50,7 +50,6 @@ const rules2 = (v) => {
                                 :rules="[rules2]"
                                 persistent-counter
                                 no-resize
-                                clearable
                                 variant="outlined"
                                 color="primary"
                                 rows="13"
