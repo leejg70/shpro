@@ -451,6 +451,82 @@
     .v-window-item {
       transition: none;
     }
+    .download-area {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: .8rem 0 1.6rem;
+      padding: 1.6rem 2.4rem;
+      background-color: #f7f8fc;
+      border-radius: 1.6rem;
+      .title {
+        font-size: 1.6rem;
+        color: #111518;
+      }
+      .number {
+        position: relative;
+        padding-left: 3.2rem;
+        font-size: 1.6rem;
+        color: #356cff;
+        &::after {
+          content: "";
+          position: absolute;
+          top: .4rem;
+          left: 1.6rem;
+          width: .1rem;
+          height: 1.8rem;
+          background-color: #e5e5e5;
+        }
+      }
+    }
+    .table-download {
+      padding: .8rem 0;
+      .v-table > .v-table__wrapper > table > tbody > tr > td a {
+        color: #333;
+        text-align: left;
+        text-decoration: underline !important;
+      }
+      .v-table > .v-table__wrapper > table > tbody > tr.disabled {
+        pointer-events: none;
+        user-select: none;
+        > td {
+          background-color: #f3f3f3;
+          color: #aaa;
+          a {
+            color: #aaa;
+            text-decoration: none !important;
+          }
+        }
+      }
+    }
+    .download-guide {
+      margin-top: 2.4rem;
+      > li {
+        display: block;
+        position: relative;
+        margin: 0 0 .8rem 0;
+        padding: 0 0 0 2rem;
+        font-size: 1.6rem;
+        color: #111518;
+        &::before {
+          content: '';
+          display: block;
+          position: absolute;
+          left: .6rem;
+          top: 1.1rem;
+          width: .3rem;
+          height: .3rem;
+          border-radius: 50%;
+          background-color: #666;
+        }
+        &.accent {
+          color: #356cff;
+        }
+      }
+    }
+    .timer-box {
+      right: 1.6rem !important;
+    }
   }
   .popup-foot {
     position: relative;
@@ -811,6 +887,34 @@
         .form-group {
           padding-left: 0 !important;
         }
+      }
+      .download-area {
+        padding: 1.6rem;
+        border-radius: .8rem;
+        .title {
+          font-size: 1.4rem;
+        }
+        .number {
+          font-size: 1.4rem;
+          &::after {
+            top: .3rem;
+            height: 1.6rem;
+          }
+        }
+      }
+      .download-guide {
+        margin-top: 2.4rem;
+        > li {
+          padding-left: 1.8rem;
+          font-size: 1.4rem;
+          &::before {
+            top: .9rem;
+            left: .5rem;
+          }
+        }
+      }
+      .timer-box {
+        right: 1.2rem !important;
       }
     }
     .popup-foot {
