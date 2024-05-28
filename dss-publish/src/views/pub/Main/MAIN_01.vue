@@ -238,7 +238,7 @@ const navigation = reactive({
           </v-btn>
         </div>
         <div class="hashtags">
-          <a href="javascript:;" class="hashtag">#Data서비</a>
+          <a href="javascript:;" class="hashtag">#Data서비스</a>
           <a href="javascript:;" class="hashtag">#계좌인증</a>
           <a href="javascript:;" class="hashtag">#신한카드Data</a>
           <a href="javascript:;" class="hashtag">#카드사용Data</a>

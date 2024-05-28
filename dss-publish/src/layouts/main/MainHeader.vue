@@ -11,7 +11,7 @@ const allmenu = ref(false);
       <div class="top-banner-inner">       
         <div class="notice-title">Notice</div>
         <a href="javascript:;" class="">
-            <div class="title">밴드공지 영역밴드공지 영역밴드공지 영역밴드공지 영역밴드공지 영역밴드공지 영역 </div> 
+            <div class="title">밴드공지 영역밴드공지 영역밴드공지 영역밴드공지 영역밴드공지  영역밴드공지  영역밴드공지  영역밴드공지  영역밴드공지 영역밴드공지 영역 </div> 
         </a>               
         <v-btn
             variant="text"
@@ -81,8 +81,8 @@ const allmenu = ref(false);
                     <h2 class="title"><a href="javascript:;" class="title-link">광고서비스</a></h2>
                     <ul class="dep1-list">
                         <li class="item"><a href="javascript:;">타겟마케팅</a></li>
-                        <li class="item"><a href="javascript:;">서베이 대행서비스</a></li>
-                        <li class="item"><a href="javascript:;">Sol-Pay 배너광고</a></li>
+                        <li class="item"><a href="javascript:;">모바일서베이</a></li>
+                        <li class="item"><a href="javascript:;">Sol-Pay배너광고</a></li>
                     </ul>
                 </div>
                 <div class="gnb-menu-list">
@@ -125,16 +125,16 @@ const allmenu = ref(false);
                 <div class="outlogin-box"><!--  모바일만 보임 -->
                     <div class="logout-btn-area">
                         <v-btn class="btn-mylink">
-                        <v-icon>icon-my-contract</v-icon>
-                        <span class="text">나의계약</span>
+                            <v-icon>icon-my-contract</v-icon>
+                            <span class="text">나의계약</span>
                         </v-btn>
                         <v-btn class="btn-mylink">
-                        <v-icon>icon-my-qa</v-icon>
-                        <span class="text">나의문의</span>
+                            <v-icon>icon-my-qa</v-icon>
+                            <span class="text">나의문의</span>
                         </v-btn>
                         <v-btn class="btn-mylink">
-                        <v-icon>icon-my-alarm on</v-icon>
-                        <span class="text">알림</span>
+                            <v-icon>icon-my-alarm on</v-icon>
+                            <span class="text">알림</span>
                         </v-btn>
                     </div>
                 </div>
@@ -156,8 +156,8 @@ const allmenu = ref(false);
                         <h2 class="title"><a href="javascript:;">광고서비스</a></h2>
                         <ul class="dep1_list">
                             <li class="item"><a href="javascript:;">타겟마케팅</a></li>
-                            <li class="item"><a href="javascript:;">서베이 대행서비스</a></li>
-                            <li class="item"><a href="javascript:;">Sol-Pay 배너광고</a></li>
+                            <li class="item"><a href="javascript:;">모바일서베이</a></li>
+                            <li class="item"><a href="javascript:;">Sol-Pay배너광고</a></li>
                         </ul>
                     </div>
                     <div class="allmenu-list">

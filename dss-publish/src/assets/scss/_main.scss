@@ -550,7 +550,8 @@
         }
 
         .btn-area {
-          display: block;
+          display: flex;
+          align-items: center;
           margin-top: 2.4rem;
           font-size: 1.6rem;
           line-height: 100%;
@@ -677,7 +678,8 @@
         }
 
         .btn-area {
-          display: block;
+          display: flex;
+          align-items: center;
           margin-top: 2.8rem;
           font-size: 1.6rem;
           line-height: 100%;
@@ -1201,15 +1203,18 @@
       background-image: url('../images/main/top_notice_bg.png');
       background-size: 100%;
     }
-
-    .title {
-      color: #FFF;
-      font-size: 1.8rem;
-      max-width: 63.3rem;
-      line-height: 150%;
-      text-overflow: ellipsis;
-      white-space: nowrap;
-      overflow: hidden;
+    a{
+      max-width: 97.5rem;
+      display: flex;
+      align-items: center;
+      .title {
+        color: #FFF;
+        font-size: 1.8rem;        
+        line-height: 150%;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+      }
     }
 
     .v-btn.btn-popup-close {
@@ -1925,15 +1930,16 @@
         line-height: 100%;
         letter-spacing: -0.2px;
       }
-
+     a{
+      max-width: calc(100% - 3.4rem);
       .title {
         font-size: 1.4rem;
-        padding-right: 4rem;
-        max-width: 23rem;
+        padding-right: 6.4rem;        
         white-space: nowrap;
         overflow: hidden;
         text-overflow: ellipsis;
       }
+     }
 
       .v-btn.btn-popup-close {
         top: 50%;
