@@ -870,7 +870,7 @@
 									<td class="col-5depth">1단계 휴대폰인증</td>
 									<td class="col-point">popup</td>
 									<td class="col-url"><router-link to="/MY_03_02_01_p" target="_blank">/views/pub/My/MY_03_02_01_p</router-link></td>
-									<td class="col-date"></td>
+									<td class="col-date">2024-05-28</td>
 									<td class="col-complete"></td>
 									<td class="col-memo">모바일 비제공</td>
 								</tr>
@@ -883,7 +883,7 @@
 									<td class="col-5depth">2단계 상품다운로드</td>
 									<td class="col-point">popup</td>
 									<td class="col-url"><router-link to="/MY_03_02_02_p" target="_blank">/views/pub/My/MY_03_02_02_p</router-link></td>
-									<td class="col-date"></td>
+									<td class="col-date">2024-05-28</td>
 									<td class="col-complete"></td>
 									<td class="col-memo">모바일 비제공</td>
 								</tr>
