@@ -16,10 +16,10 @@ import PageFooter from '@/layouts/main/MainFooter.vue'
   </v-app>
 </template>
 
-<style scoped>
+<!-- <style scoped>
 @media only screen and (max-width: 1280px) {
   .v-footer.footer {
     display: none !important;
   }
 }
-</style>
+</style> -->
