@@ -845,7 +845,7 @@
 									<td class="col-point">page</td>
 									<td class="col-url"><router-link to="/MY_03" target="_blank">/views/pub/My/MY_03</router-link></td>
 									<td class="col-date">2024-05-27</td>
-									<td class="col-complete"></td>
+									<td class="col-complete">2024-05-28</td>
 									<td class="col-memo"></td>
 								</tr>
 								<tr>
@@ -858,7 +858,7 @@
 									<td class="col-point">popup</td>
 									<td class="col-url"><router-link to="/MY_03_01_p" target="_blank">/views/pub/My/MY_03_01_p</router-link></td>
 									<td class="col-date">2024-05-27</td>
-									<td class="col-complete"></td>
+									<td class="col-complete">2024-05-28</td>
 									<td class="col-memo"></td>
 								</tr>
 								<tr>
@@ -871,7 +871,7 @@
 									<td class="col-point">popup</td>
 									<td class="col-url"><router-link to="/MY_03_02_01_p" target="_blank">/views/pub/My/MY_03_02_01_p</router-link></td>
 									<td class="col-date">2024-05-28</td>
-									<td class="col-complete"></td>
+									<td class="col-date">2024-05-29</td>
 									<td class="col-memo">모바일 비제공</td>
 								</tr>
 								<tr>
@@ -884,7 +884,7 @@
 									<td class="col-point">popup</td>
 									<td class="col-url"><router-link to="/MY_03_02_02_p" target="_blank">/views/pub/My/MY_03_02_02_p</router-link></td>
 									<td class="col-date">2024-05-28</td>
-									<td class="col-complete"></td>
+									<td class="col-date">2024-05-29</td>
 									<td class="col-memo">모바일 비제공</td>
 								</tr>
 								<tr>
@@ -897,7 +897,7 @@
 									<td class="col-point">page</td>
 									<td class="col-url"><router-link to="/MY_04" target="_blank">/views/pub/My/MY_04</router-link></td>
 									<td class="col-date">2024-05-27</td>
-									<td class="col-complete"></td>
+									<td class="col-complete">2024-05-28</td>
 									<td class="col-memo"></td>
 								</tr>
 								<tr class="del">
@@ -936,7 +936,7 @@
 									<td class="col-point">page</td>
 									<td class="col-url"><router-link to="/MY_08" target="_blank">/views/pub/My/MY_08</router-link></td>
 									<td class="col-date">2024-05-27</td>
-									<td class="col-complete"></td>
+									<td class="col-complete">2024-05-28</td>
 									<td class="col-memo"></td>
 								</tr>
 								<tr>
@@ -949,7 +949,7 @@
 									<td class="col-point">page</td>
 									<td class="col-url"><router-link to="/MY_06" target="_blank">/views/pub/My/MY_06</router-link></td>
 									<td class="col-date">2024-05-27</td>
-									<td class="col-complete"></td>
+									<td class="col-complete">2024-05-28</td>
 									<td class="col-memo"></td>
 								</tr>
 								<tr>
@@ -1306,7 +1306,7 @@
 									<td class="col-point">page</td>
 									<td class="col-url"><router-link to="/COMU_02" target="_blank">/views/pub/Community/COMU_02</router-link></td>
 									<td class="col-date">2024-05-24</td>
-									<td class="col-complete"></td>
+									<td class="col-complete">2024-05-28</td>
 									<td class="col-memo"></td>
 								</tr>
 								<tr>
@@ -1351,7 +1351,7 @@
 									<td class="col-point">page</td>
 									<td class="col-url"><router-link to="/COMU_02_02_r" target="_blank">/views/pub/Community/COMU_02_02_r</router-link></td>
 									<td class="col-date">2024-05-24</td>
-									<td class="col-complete"></td>
+									<td class="col-complete">2024-05-28</td>
 									<td class="col-memo text-error">5/27 모바일 css 반영완료</td>
 								</tr>
 								<tr>
@@ -1380,7 +1380,7 @@
 									<td class="col-point">page</td>
 									<td class="col-url"><router-link to="/COMU_02_02_c" target="_blank">/views/pub/Community/COMU_02_02_c</router-link></td>
 									<td class="col-date">2024-05-24</td>
-									<td class="col-complete"></td>
+									<td class="col-complete">2024-05-28</td>
 									<td class="col-memo"></td>
 								</tr>
 							</tbody>
