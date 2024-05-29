@@ -709,7 +709,7 @@
 									<td class="col-url"><router-link to="/MY_01" target="_blank">/views/pub/My/MY_01</router-link></td>
 									<td class="col-date">2024-04-26</td>
 									<td class="col-complete">2024-05-02</td>
-									<td class="col-memo">[2024.05.10] Rework 작업</td>
+									<td class="col-memo">[2024.05.10] Rework 작업<br>[2024.05.30] 이메일주소 입력부분 수정</td>
 								</tr>
 								<tr>
 									<td class="col-num"></td>

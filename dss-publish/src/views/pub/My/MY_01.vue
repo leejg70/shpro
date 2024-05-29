@@ -4,6 +4,7 @@ import { ref } from 'vue';
 const company = ref('');
 const companynumber = ref('');
 const email = ref('');
+const emailurl = ref('');
 const sms = ref('');
 const valid = ref(false);
 const companyRules = ref(['기업명은 필수 입력입니다.']);
@@ -95,20 +96,37 @@ const companyRules = ref(['기업명은 필수 입력입니다.']);
           <div class="ele-tit">
             <v-label>수신 이메일주소</v-label>
           </div>
-          <div class="input-wrap side-btn">
-            <div class="input-wrap">
-              <v-text-field
-                aria-label="수신 이메일주소"
-                v-model="email"
-                placeholder="이메일주소 입력"
-                title="수신 이메일주소 입력"
-                density="comfortable"
-                variant="outlined"
-                color="primary"
-                hide-details="auto"
-                clearable
-                required
-              ></v-text-field>
+          <div class="email-wrap"><!-- 2024.05.30 이메일주소 입력부분 수정 -->
+            <div class="first">
+              <div class="input-wrap">
+                <v-text-field
+                  aria-label="수신 이메일주소"
+                  v-model="email"
+                  placeholder="이메일주소 입력"
+                  title="수신 이메일주소 입력"
+                  density="comfortable"
+                  variant="outlined"
+                  color="primary"
+                  hide-details="auto"
+                  required
+                ></v-text-field>
+              </div>
+            </div>
+            <span class="space">@</span>
+            <div class="last">
+              <div class="input-wrap">
+                <v-text-field
+                  aria-label="도메인명"
+                  v-model="emailurl"
+                  placeholder="도메인명"
+                  title="도메인명 입력"
+                  density="comfortable"
+                  variant="outlined"
+                  color="primary"
+                  hide-details="auto"
+                  required
+                ></v-text-field>
+              </div>
             </div>
             <v-btn
               variant="outlined"
