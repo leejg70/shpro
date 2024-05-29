@@ -199,7 +199,10 @@
 									<td class="col-url"><router-link to="/MAIN_00_01" target="_blank">/views/pub/Main/MAIN_00_01</router-link></td>
 									<td class="col-date">2024-05-08</td>
 									<td class="col-complete">2024-05-17</td>
-									<td class="col-memo text-error">5/14 모바일 css 반영완료</td>
+									<td class="col-memo">
+										<div>5/14 모바일 css 반영완료</div>
+										<div class="text-error">5/29 검색영역에 해시태그 추가 routerLink로 변경</div>
+									</td>
 								</tr>
 								<!-- <tr>
 									<td class="col-num"></td>
@@ -307,7 +310,10 @@
 									<td class="col-url"><router-link to="/PRDD_01" target="_blank">/views/pub/DataService/PRDD_01</router-link></td>
 									<td class="col-date">2024-05-07</td>
 									<td class="col-complete">2024-05-22</td>
-									<td class="col-memo text-error">5/22 모바일 css 반영완료</td>
+									<td class="col-memo">
+										<div>5/22 모바일 css 반영완료</div>
+										<div class="text-error">5/29 - 리스트 상단 'API이용방법안내' 버튼 추가</div>
+									</td>
 								</tr>
 								<tr>
 									<td class="col-num"></td>
@@ -352,7 +358,7 @@
 									<td class="col-url"><router-link to="/PRDD_00_01" target="_blank">/views/pub/DataService/PRDD_00_01</router-link></td>
 									<td class="col-date">2024-05-07</td>
 									<td class="col-complete">2024-05-22</td>
-									<td class="col-memo text-error">5/22 모바일 css 반영완료</td>
+									<td class="col-memo">5/22 모바일 css 반영완료</td>
 								</tr>
 								<tr>
 									<td class="col-num"></td>
@@ -1123,7 +1129,7 @@
 									<td class="col-url"><router-link to="/NOTI_01" target="_blank">/views/pub/Customer/NOTI_01</router-link></td>
 									<td class="col-date">2024-05-09</td>
 									<td class="col-complete">2024-05-17</td>
-									<td class="col-memo text-error">5/14 모바일 css반영완료</td>
+									<td class="col-memo">5/14 모바일 css반영완료</td>
 								</tr>
 								<tr>
 									<td class="col-num"></td>
@@ -1168,7 +1174,7 @@
 									<td class="col-url"><router-link to="/NOTI_00_01" target="_blank">/views/pub/Customer/NOTI_00_01</router-link></td>
 									<td class="col-date">2024-05-09</td>
 									<td class="col-complete">2024-05-17</td>
-									<td class="col-memo text-error">5/14 모바일 css반영완료</td>
+									<td class="col-memo">5/14 모바일 css반영완료</td>
 								</tr>
 								<tr>
 									<td class="col-num"></td>
@@ -1281,7 +1287,7 @@
 									<td class="col-url"><router-link to="/COMU_01" target="_blank">/views/pub/Community/COMU_01</router-link></td>
 									<td class="col-date">2024-05-09</td>
 									<td class="col-complete">2024-05-17</td>
-									<td class="col-memo text-error">5/14 모바일 css반영완료</td>
+									<td class="col-memo">5/14 모바일 css반영완료</td>
 								</tr>
 								<tr>
 									<td class="col-num"></td>
@@ -1294,7 +1300,7 @@
 									<td class="col-url"><router-link to="/COMU_01_01_r" target="_blank">/views/pub/Community/COMU_01_01_r</router-link></td>
 									<td class="col-date">2024-05-09</td>
 									<td class="col-complete">2024-05-17</td>
-									<td class="col-memo text-error">5/14 모바일 css반영완료</td>
+									<td class="col-memo">5/14 모바일 css반영완료</td>
 								</tr>
 								<tr>
 									<td class="col-num"></td>
@@ -1352,7 +1358,7 @@
 									<td class="col-url"><router-link to="/COMU_02_02_r" target="_blank">/views/pub/Community/COMU_02_02_r</router-link></td>
 									<td class="col-date">2024-05-24</td>
 									<td class="col-complete">2024-05-28</td>
-									<td class="col-memo text-error">5/27 모바일 css 반영완료</td>
+									<td class="col-memo">5/27 모바일 css 반영완료</td>
 								</tr>
 								<tr>
 									<td class="col-num"></td>
@@ -2440,9 +2446,9 @@
 									<td class="col-5depth"></td>
 									<td class="col-point">popup</td>
 									<td class="col-url"><router-link to="/ETC_04_p" target="_blank">/views/pub/Common/ETC_04_p</router-link></td>
-									<td class="col-date"></td>
+									<td class="col-date">2024-05-29</td>
 									<td class="col-complete"></td>
-									<td class="col-memo"></td>
+									<td class="col-memo text-error">로딩화면 완료</td>
 								</tr>
 							</tbody>
 						</table>

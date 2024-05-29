@@ -97,6 +97,12 @@ function onClick() {
         </div>
         <!--// search - mobile -->
 
+        <!-- API서비스 카테고리에서만 노출 -->
+        <div class="text-right mb-2">
+            <v-btn variant="flat" rounded="md" color="Tertiary">API이용 방법 안내</v-btn>
+        </div>
+        <!--// API서비스 카테고리에서만 노출 -->
+
         <v-divider class="svc-divide" />
 
         <!-- 상품리스트 -->
