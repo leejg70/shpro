@@ -1517,7 +1517,7 @@
 									<td class="col-complete">2024-05-02</td>
 									<td class="col-memo"></td>
 								</tr>
-								<tr>
+								<tr class="del">
 									<td class="col-num"></td>
 									<td class="col-1depth"></td>
 									<td class="col-2depth">강제 로그아웃 안내</td>
@@ -1528,7 +1528,20 @@
 									<td class="col-url"><router-link to="/LOUT_04_p" target="_blank">/views/pub/Login/LOUT_04_p</router-link></td>
 									<td class="col-date">2024-04-24</td>
 									<td class="col-complete">2024-05-02</td>
-									<td class="col-memo"></td>
+									<td class="col-memo">[2024.05.29] 삭제</td>
+								</tr>
+								<tr>
+									<td class="col-num"></td>
+									<td class="col-1depth"></td>
+									<td class="col-2depth">강제 로그아웃 안내</td>
+									<td class="col-3depth"></td>
+									<td class="col-4depth"></td>
+									<td class="col-5depth"></td>
+									<td class="col-point">popup</td>
+									<td class="col-url"><router-link to="/LOUT_04" target="_blank">/views/pub/Login/LOUT_04</router-link></td>
+									<td class="col-date"></td>
+									<td class="col-complete"></td>
+									<td class="col-memo">신규</td>
 								</tr>
 								<tr>
 									<td class="col-num"></td>

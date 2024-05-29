@@ -785,6 +785,15 @@ const DefaultRoutes = {
       }
     },
     {
+      name: 'LOUT_04',
+      path: '/LOUT_04',
+      component: () => import('@/views/pub/Login/LOUT_04.vue'),
+      meta: {
+        appearMenu : true,
+        requiresAuth: false
+      }
+    },
+    {
       name: 'IDPW_01',
       path: '/IDPW_01',
       component: () => import('@/views/pub/FindID/IDPW_01.vue'),
