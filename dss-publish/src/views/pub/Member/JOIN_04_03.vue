@@ -105,6 +105,17 @@ const valid = ref(false);
             >
               인증번호전송
             </v-btn>
+            <!--
+            <v-btn
+              variant="outlined"
+              color="primary"
+              size="large"
+              rounded="md"
+              class="line-blue"
+            >
+              재전송
+            </v-btn>
+            -->
           </div>
           <p class="text-tip message">이메일 인증에 사용하신 이메일 주소는 로그인 ID로 사용됩니다.<br>추후 서비스 이용을 위해 해당 이메일을 기억해 주시기 바랍니다.</p>
           <!--

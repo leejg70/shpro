@@ -1671,7 +1671,7 @@
 									<td class="col-url"><router-link to="/JOIN_02_03" target="_blank">/views/pub/Member/JOIN_02_03</router-link></td>
 									<td class="col-date">2024-04-12</td>
 									<td class="col-complete">2024-04-24</td>
-									<td class="col-memo"></td>
+									<td class="col-memo">[2024.05.29] 이메일주소 입력부분 수정</td>
 								</tr>
 								<tr>
 									<td class="col-num"></td>
@@ -1762,7 +1762,7 @@
 									<td class="col-url"><router-link to="/JOIN_03_03" target="_blank">/views/pub/Member/JOIN_03_03</router-link></td>
 									<td class="col-date">2024-04-15</td>
 									<td class="col-complete">2024-04-24</td>
-									<td class="col-memo"></td>
+									<td class="col-memo">[2024.05.29] 이메일주소 입력부분 수정</td>
 								</tr>
 								<tr>
 									<td class="col-num"></td>
