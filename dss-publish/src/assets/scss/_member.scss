@@ -657,6 +657,12 @@
       background-image: url('../images/icon/icon_success.png');
       background-size: 100%;
     }
+    .icon-logout {
+      width: 8rem;
+      height: 8rem;
+      background-image: url('../images/icon/icon_logout.png');
+      background-size: 100%;
+    }
     .complete-text {
       margin-top: 3.2rem;
       color: #111518;
@@ -920,6 +926,10 @@
     .complete-box {
       padding: 4rem 0 3.2rem;
       .icon-success {
+        width: 7.2rem;
+        height: 7.2rem;
+      }
+      .icon-logout {
         width: 7.2rem;
         height: 7.2rem;
       }

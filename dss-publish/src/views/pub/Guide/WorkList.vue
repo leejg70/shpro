@@ -1545,7 +1545,7 @@
 									<td class="col-5depth"></td>
 									<td class="col-point">popup</td>
 									<td class="col-url"><router-link to="/LOUT_04" target="_blank">/views/pub/Login/LOUT_04</router-link></td>
-									<td class="col-date"></td>
+									<td class="col-date">2024-05-30</td>
 									<td class="col-complete"></td>
 									<td class="col-memo">신규</td>
 								</tr>
