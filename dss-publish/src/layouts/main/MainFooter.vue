@@ -8,7 +8,7 @@ const footerLink = shallowRef([
   },
   {
     title: '개인정보처리방침',
-    link: 'javascript:;'
+    link: 'https://www.shinhancard.com/pconts/html/helpdesk/personProtect/MOBFM170/1226665_2386.html'
   }
 ]);
 </script>
