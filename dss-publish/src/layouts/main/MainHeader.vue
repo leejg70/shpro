@@ -44,66 +44,69 @@ const allmenu = ref(false);
                 </ul>
             </div>
             <div class="gnb-wrap">
-                <h1 class="logo-title"><img src="../../assets/images/common/logo.png" alt="" class="logo"></h1>
-                <nav class="gnb-menu" @mouseover="show = true" @mouseout="show = false">
+                <h1 class="logo-title"><img src="../../assets/images/common/logo.png" alt="" class="logo"></h1>                
+                <nav class="gnb-menu"  :class="show ? 'active': ''"   @mouseover="show = true" @mouseout="show = false"><!--2024.05.31  class추가 -->
                     <ul class="menu-list">
                         <li><a href="javascript:;" class="">Data서비스</a></li>
                         <li><a href="javascript:;" class="">솔루션서비스</a></li>
                         <li><a href="javascript:;" class="">광고서비스</a></li>
                         <li><a href="javascript:;" class="">API서비스</a></li>
                         <li><a href="javascript:;" class="">MY</a></li>
-                    </ul>
+                    </ul> 
+                    <!--2024.05.31 위치이동-->  
+                    <!--2024.05.31 v-show="show"  @mouseover="show = true" @mouseout="show = false" 삭제처리-->  
+                    <div class="gnb-menu-wrap" >
+                        <div class="gnb-menu-inner">
+                            <div class="gnb-menu-list">
+                                <h2 class="title"><span class="title-link">Data서비스</span></h2><!--2024.05.16 링크없는것 span처리-->
+                                <ul class="dep1-list">
+                                    <li class="item"><a href="javascript:;">Data상품</a></li>
+                                    <li class="item"><a href="javascript:;">맞춤Data</a></li>
+                                </ul>
+                            </div>
+                            <div class="gnb-menu-list">
+                                <h2 class="title"><span class="title-link">솔루션서비스</span></h2><!--2024.05.16 링크없는것 span처리-->
+                                <ul class="dep1-list">
+                                    <li class="item"><a href="javascript:;">솔루션상품</a></li>
+                                </ul>
+                            </div>
+                            <div class="gnb-menu-list">
+                                <h2 class="title"><a href="javascript:;" class="title-link">광고서비스</a></h2>
+                                <ul class="dep1-list">
+                                    <li class="item"><a href="javascript:;">타겟마케팅</a></li>
+                                    <li class="item"><a href="javascript:;">모바일서베이</a></li>
+                                    <li class="item"><a href="javascript:;">Sol-Pay배너광고</a></li>
+                                </ul>
+                            </div>
+                            <div class="gnb-menu-list">
+                                <h2 class="title"><span class="title-link">API서비스</span></h2><!--2024.05.16 링크없는것 span처리-->
+                                <ul class="dep1-list">
+                                    <li class="item"><a href="javascript:;">API상품</a></li>
+                                </ul>
+                            </div>
+                            <div class="gnb-menu-list">
+                                <h2 class="title"><span class="title-link">MY</span></h2><!--2024.05.16 링크없는것 span처리-->
+                                <ul class="dep1-list">
+                                    <li class="item"><a href="javascript:;">나의계약</a></li>
+                                    <li class="item"><a href="javascript:;">관심상품</a></li>                  
+                                    <li class="item"><a href="javascript:;">나의문의</a></li>
+                                    <li class="item"><a href="javascript:;">알림</a></li>
+                                </ul>
+                            </div>
+                        </div>                                          
+                    </div>                               
                 </nav>
                 <div class="util-wrap">
                     <ul class="util-list">
                         <li><button class="btn-community"><i class="ico ico_thumb_m ico-community"></i>커뮤니티</button></li>                       
                         <li><button  color="" @click="allmenu = true" class="btn-allmenu"><i class="ico ico_thumb_m ico-allmenu"><span class="sr-only">전체메뉴</span></i></button></li>
                     </ul>
-                </div>
-            </div>
-        </div>    
-        <div class="gnb-menu-wrap"  v-show="show"  @mouseover="show = true" @mouseout="show = false">
-            <div class="gnb-menu-inner">
-                <div class="gnb-menu-list">
-                    <h2 class="title"><span class="title-link">Data서비스</span></h2><!--2024.05.16 링크없는것 span처리-->
-                    <ul class="dep1-list">
-                        <li class="item"><a href="javascript:;">Data상품</a></li>
-                        <li class="item"><a href="javascript:;">맞춤Data</a></li>
-                    </ul>
-                </div>
-                <div class="gnb-menu-list">
-                    <h2 class="title"><span class="title-link">솔루션서비스</span></h2><!--2024.05.16 링크없는것 span처리-->
-                    <ul class="dep1-list">
-                        <li class="item"><a href="javascript:;">솔루션상품</a></li>
-                    </ul>
-                </div>
-                <div class="gnb-menu-list">
-                    <h2 class="title"><a href="javascript:;" class="title-link">광고서비스</a></h2>
-                    <ul class="dep1-list">
-                        <li class="item"><a href="javascript:;">타겟마케팅</a></li>
-                        <li class="item"><a href="javascript:;">모바일서베이</a></li>
-                        <li class="item"><a href="javascript:;">Sol-Pay배너광고</a></li>
-                    </ul>
-                </div>
-                <div class="gnb-menu-list">
-                    <h2 class="title"><span class="title-link">API서비스</span></h2><!--2024.05.16 링크없는것 span처리-->
-                    <ul class="dep1-list">
-                        <li class="item"><a href="javascript:;">API상품</a></li>
-                    </ul>
-                </div>
-                <div class="gnb-menu-list">
-                    <h2 class="title"><span class="title-link">MY</span></h2><!--2024.05.16 링크없는것 span처리-->
-                    <ul class="dep1-list">
-                        <li class="item"><a href="javascript:;">나의계약</a></li>
-                        <li class="item"><a href="javascript:;">관심상품</a></li>                  
-                        <li class="item"><a href="javascript:;">나의문의</a></li>
-                        <li class="item"><a href="javascript:;">알림</a></li>
-                    </ul>
-                </div>
+                </div>                
             </div>
         </div>   
     </header>
- 
+    <div class="menu-dim" :class="show ? 'active': ''"></div><!--2024.05.31 추가 -->
+    
     <!--  전체메뉴 -->
     <v-dialog v-model="allmenu" fullscreen  class="menu-full-popup">
         <div class="allmenu">
@@ -214,3 +217,28 @@ const allmenu = ref(false);
         </div>
     </v-dialog>
 </template>
+<style>
+/* .slide-up {
+    transition: all 0.25s ease;
+    height: auto;
+    z-index: 9999;
+}
+.slide-up-enter-active {
+  transition: all 0.25s ease;
+  opacity: 1;
+  height: 1px;
+  z-index: 9999;
+
+} */
+
+/* .slide-up-leave-active {
+  transition: all 0.25s cubic-bezier(1, 0.5, 0.8, 1);
+} */
+
+/* .slide-up-enter,
+.slide-up-leave-active {
+    opacity: 0;
+    height: 1px;
+    overflow: hidden;
+}  */
+</style>

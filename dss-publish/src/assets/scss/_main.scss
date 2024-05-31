@@ -1102,87 +1102,103 @@
 }
 
 .gnb-menu {
-  position: relative;
   cursor: pointer;
-}
-
-/* gnb menu */
-.gnb-menu-wrap {
-  position: absolute;
-  width: 100%;
-  background-color: #fff;
-  overflow: hidden;
-  transition: all .3s ease-in-out;
-  z-index: 99;
-  cursor: pointer;
-
-  &::before {
-    content: '';
+  .gnb-menu-wrap {
     position: absolute;
-    top: 0;
+    visibility: hidden;
     left: 0;
     width: 100%;
-    height: 1px;
-    background-color: #E5E5E5;
-  }
+    max-height: 0;
+    transition: all .2s ease-in;
+    background-color: #fff;
+    overflow: hidden;
+    z-index: 99;  
 
-  &::after {
-    content: '';
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 1px;
-    background-color: #E5E5E5;
-  }
+    &::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 1px;
+      background-color: #E5E5E5;
+    }
 
-  .gnb-menu-inner {
-    padding: 4rem 0;
-    margin: 0 auto;
-    display: flex;
-    width: 120rem;
+    &::after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 1px;
+      background-color: #E5E5E5;
+    }
 
-    .gnb-menu-list {
-      padding-right: 2.4rem;
-      width: 20.8rem;
-      border-right: 1px solid #e5e5e5;
-
-      &:not(:last-child) {
-        margin-right: 4rem;
-      }
-
-      &:last-child {
-        border-right: 0;
-      }
-
-      .title {
-        .title-link {
-          display: block;
-          padding: 1.6rem 0;
-          font-family: 'OneShinhan';
-          font-size: 2rem;
-          font-weight: 500;
-          line-height: 150%;
+    .gnb-menu-inner {   
+      padding: 4rem 0;
+      margin: 0 auto;
+      display: flex;
+      width: 120rem;
+      .gnb-menu-list {
+        padding-right: 2.4rem;
+        width: 20.8rem;
+        border-right: 1px solid #e5e5e5;
+        &:not(:last-child) {
+          margin-right: 4rem;
         }
-      }
-
-      .dep1-list {
-        .item {
-          padding: .8rem 0;
-          font-family: "Spoqa Han Sans Neo";
-          width: 20.8rem;
-          font-size: 1.8rem;
-          line-height: 150%;
+        &:last-child {
+          border-right: 0;
+        }
+        .title {
+          .title-link {
+            display: block;
+            padding: 1.6rem 0;
+            font-family: 'OneShinhan';
+            font-size: 2rem;
+            font-weight: 500;
+            line-height: 150%;
+          }
+        }
+        .dep1-list {
+          .item {
+            padding: .8rem 0;
+            font-family: "Spoqa Han Sans Neo";
+            width: 20.8rem;
+            font-size: 1.8rem;
+            line-height: 150%;
+          }
         }
       }
     }
   }
+
+  &.active{
+    .gnb-menu-wrap{
+      visibility: visible;
+      max-height:35rem;
+    }
+  }
 }
+
+.menu-dim.active{
+ display:block;
+}
+
+.menu-dim{
+  display:none;
+  position: fixed;
+  left:0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(17, 21, 24, 0.70);
+  z-index: 90;
+}
+
 
 /* top banner */
 .main-top-banner {
   background-color: #091850;
-
+  z-index: 100;
   .top-banner-inner {
     position: relative;
     margin: 0 auto;
