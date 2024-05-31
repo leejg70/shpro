@@ -327,8 +327,8 @@
 										<!-- <router-link to="/PRDD_02_01" target="_blank">/views/pub/DataService/PRDD_02_01</router-link> -->
 										목록화면과 동일
 									</td>
-									<td class="col-date">-</td>
-									<td class="col-complete"></td>
+									<td class="col-date">2024-05-07</td>
+									<td class="col-complete">2024-05-22</td>
 									<td class="col-memo">-</td>
 								</tr>
 								<tr>
@@ -343,8 +343,8 @@
 										<!-- <router-link to="/PRDD_02_01_null" target="_blank">/views/pub/DataService/PRDD_02_01_null</router-link> -->
 										목록화면에 취합
 									</td>
-									<td class="col-date">-</td>
-									<td class="col-complete"></td>
+									<td class="col-date">2024-05-07</td>
+									<td class="col-complete">2024-05-22</td>
 									<td class="col-memo">-</td>
 								</tr>
 								<tr>
@@ -382,7 +382,7 @@
 									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
 									<td class="col-url">PRDD_01 동일</td>
-									<td class="col-date"></td>
+									<td class="col-date">2024-05-07</td>
 									<td class="col-complete">2024-05-22</td>
 									<td class="col-memo"></td>
 								</tr>
@@ -395,7 +395,7 @@
 									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
 									<td class="col-url">PRDD_01 동일</td>
-									<td class="col-date"></td>
+									<td class="col-date">2024-05-07</td>
 									<td class="col-complete">2024-05-22</td>
 									<td class="col-memo"></td>
 								</tr>
@@ -408,7 +408,7 @@
 									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
 									<td class="col-url">PRDD_01 동일</td>
-									<td class="col-date"></td>
+									<td class="col-date">2024-05-07</td>
 									<td class="col-complete">2024-05-22</td>
 									<td class="col-memo"></td>
 								</tr>
@@ -616,7 +616,7 @@
 									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
 									<td class="col-url">PRDD_01 동일</td>
-									<td class="col-date"></td>
+									<td class="col-date">2024-05-07</td>
 									<td class="col-complete">2024-05-22</td>
 									<td class="col-memo"></td>
 								</tr>
@@ -629,7 +629,7 @@
 									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
 									<td class="col-url">PRDD_01 동일</td>
-									<td class="col-date"></td>
+									<td class="col-date">2024-05-07</td>
 									<td class="col-complete">2024-05-22</td>
 									<td class="col-memo"></td>
 								</tr>
@@ -642,7 +642,7 @@
 									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
 									<td class="col-url">PRDD_01 동일</td>
-									<td class="col-date"></td>
+									<td class="col-date">2024-05-07</td>
 									<td class="col-complete">2024-05-22</td>
 									<td class="col-memo"></td>
 								</tr>
@@ -655,7 +655,7 @@
 									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
 									<td class="col-url">PRDD_00_01 동일</td>
-									<td class="col-date"></td>
+									<td class="col-date">2024-05-07</td>
 									<td class="col-complete">2024-05-22</td>
 									<td class="col-memo"></td>
 								</tr>
@@ -966,9 +966,9 @@
 									<td class="col-4depth">나의문의/관심상품/알림/나의계약 null</td>
 									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
-									<td class="col-url"><router-link to="/MY_00_02_null" target="_blank">/views/pub/My/MY_00_02_null</router-link></td>
-									<td class="col-date">각 목록페이지 반영</td>
-									<td class="col-complete">-</td>
+									<td class="col-url">각 목록페이지 반영</td>
+									<td class="col-date">2024-05-07</td>
+									<td class="col-complete">2024-05-22</td>
 									<td class="col-memo"></td>
 								</tr>
 								<tr>
@@ -1143,8 +1143,8 @@
 										<!-- <router-link to="/NOTI_02_01" target="_blank">/views/pub/Customer/NOTI_02_01</router-link> -->
 										목록화면에 취합
 									</td>
-									<td class="col-date">-</td>
-									<td class="col-complete"></td>
+									<td class="col-date">2024-05-09</td>
+									<td class="col-complete">2024-05-17</td>
 									<td class="col-memo"></td>
 								</tr>
 								<tr>
@@ -1159,8 +1159,8 @@
 										<!-- <router-link to="/NOTI_02_01_null" target="_blank">/views/pub/Customer/NOTI_02_01_null</router-link> -->
 										목록화면에 취합
 									</td>
-									<td class="col-date">-</td>
-									<td class="col-complete"></td>
+									<td class="col-date">2024-05-09</td>
+									<td class="col-complete">2024-05-17</td>
 									<td class="col-memo"></td>
 								</tr>
 								<tr>
@@ -1214,8 +1214,8 @@
 										<!-- <router-link to="/QNAS_02_01" target="_blank">/views/pub/Customer/QNAS_02_01</router-link> -->
 										목록화면에 취합
 									</td>
-									<td class="col-date">-</td>
-									<td class="col-complete"></td>
+									<td class="col-date">2024-05-22</td>
+									<td class="col-complete">2024-05-23</td>
 									<td class="col-memo"></td>
 								</tr>
 								<tr>
@@ -1230,8 +1230,8 @@
 										<!-- <router-link to="/QNAS_02_01_null" target="_blank">/views/pub/Customer/QNAS_02_01_null</router-link> -->
 										목록화면에 취합
 									</td>
-									<td class="col-date">-</td>
-									<td class="col-complete"></td>
+									<td class="col-date">2024-05-22</td>
+									<td class="col-complete">2024-05-23</td>
 									<td class="col-memo"></td>
 								</tr>
 								<tr>
@@ -1259,8 +1259,8 @@
 										<!-- <router-link to="/QNAS_00_01_u" target="_blank">/views/pub/Customer/QNAS_00_01_u</router-link> -->
 										등록화면과 동일함
 									</td>
-									<td class="col-date">-</td>
-									<td class="col-complete"></td>
+									<td class="col-date">2024-05-22</td>
+									<td class="col-complete">2024-05-23</td>
 									<td class="col-memo"></td>
 								</tr>
 								<tr>
@@ -1327,8 +1327,8 @@
 										<!-- <router-link to="/COMU_02_01" target="_blank">/views/pub/Community/COMU_02_01</router-link> -->
 										목록화면에 취합
 									</td>
-									<td class="col-date">-</td>
-									<td class="col-complete"></td>
+									<td class="col-date">2024-05-24</td>
+									<td class="col-complete">2024-05-28</td>
 									<td class="col-memo"></td>
 								</tr>
 								<tr>
@@ -1343,8 +1343,8 @@
 										<!-- <router-link to="/COMU_02_01_null" target="_blank">/views/pub/Community/COMU_02_01_null</router-link> -->
 										목록화면에 취합
 									</td>
-									<td class="col-date">-</td>
-									<td class="col-complete"></td>
+									<td class="col-date">2024-05-24</td>
+									<td class="col-complete">2024-05-28</td>
 									<td class="col-memo"></td>
 								</tr>
 								<tr>
@@ -1372,8 +1372,8 @@
 										<!-- <router-link to="/COMU_02_02_u" target="_blank">/views/pub/Community/COMU_02_02_u</router-link> -->
 										등록화면과 동일
 									</td>
-									<td class="col-date">-</td>
-									<td class="col-complete"></td>
+									<td class="col-date">2024-05-24</td>
+									<td class="col-complete">2024-05-28</td>
 									<td class="col-memo"></td>
 								</tr>
 								<tr>
@@ -1546,7 +1546,7 @@
 									<td class="col-point">popup</td>
 									<td class="col-url"><router-link to="/LOUT_04" target="_blank">/views/pub/Login/LOUT_04</router-link></td>
 									<td class="col-date">2024-05-30</td>
-									<td class="col-complete"></td>
+									<td class="col-complete">2024-05-31</td>
 									<td class="col-memo">신규</td>
 								</tr>
 								<tr>
@@ -2435,7 +2435,7 @@
 									<td class="col-url"><router-link to="/ETC_03" target="_blank">/views/pub/Common/ETC_03</router-link></td>
 									<td class="col-date"></td>
 									<td class="col-complete"></td>
-									<td class="col-memo"></td>
+									<td class="col-memo">신한카드로 링크처리</td>
 								</tr>
 								<tr>
 									<td class="col-num"></td>
@@ -2447,7 +2447,7 @@
 									<td class="col-point">popup</td>
 									<td class="col-url"><router-link to="/ETC_04_p" target="_blank">/views/pub/Common/ETC_04_p</router-link></td>
 									<td class="col-date">2024-05-29</td>
-									<td class="col-complete"></td>
+									<td class="col-complete">2024-05-30</td>
 									<td class="col-memo text-error">로딩화면 완료</td>
 								</tr>
 							</tbody>
