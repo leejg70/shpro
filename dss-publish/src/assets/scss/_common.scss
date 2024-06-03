@@ -178,9 +178,6 @@ address span {display: inline-block; margin-right: 1.6rem;}
 .mgb12 {
     margin-bottom: 1.2rem !important;
 }
-.mgr16 {
-    right: 1.6rem !important;
-}
 
 /* 360 미만일때 일괄적으로 축소*/
 @media only screen and (max-width: 360px) {
@@ -268,9 +265,6 @@ address span {display: inline-block; margin-right: 1.6rem;}
                 margin-left: .8rem;
             }
         }
-    }
-    .mgr16 {
-        right: 1.2rem !important;
     }
 }
 

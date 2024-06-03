@@ -878,7 +878,7 @@
 									<td class="col-url"><router-link to="/MY_03_02_01_p" target="_blank">/views/pub/My/MY_03_02_01_p</router-link></td>
 									<td class="col-date">2024-05-28</td>
 									<td class="col-date">2024-05-29</td>
-									<td class="col-memo">모바일 비제공<br>[2024.06.03] class 추가 => mgr16</td>
+									<td class="col-memo">모바일 비제공<br>[2024.06.03] class 추가 => sms-timer</td>
 								</tr>
 								<tr>
 									<td class="col-num"></td>

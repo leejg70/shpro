@@ -70,7 +70,7 @@ const certify = ref(false);
                   clearable
                   required
                 ></v-text-field>
-                <span class="timer-box mgr16"><!-- 2024.06.03 class 추가 => mgr16 -->
+                <span class="timer-box sms-timer"><!-- 2024.06.03 class 추가 => sms-timer -->
                   <v-icon>icon-timer</v-icon>
                   <span>99:99</span>
                 </span>

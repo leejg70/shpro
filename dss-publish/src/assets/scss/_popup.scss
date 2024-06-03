@@ -446,6 +446,9 @@
             width: auto;
           }
         }
+        .sms-timer {
+          right: 1.6rem !important;
+        }
       }
     }
     .v-window-item {
@@ -884,6 +887,9 @@
         padding-bottom: .8rem;
         .form-group {
           padding-left: 0 !important;
+          .sms-timer {
+            right: 1.2rem !important;
+          }
         }
       }
       .download-area {
