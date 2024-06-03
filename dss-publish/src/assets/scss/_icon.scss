@@ -1,6 +1,8 @@
 // icon
 [class*='icon-'] {
     --v-icon-size: 2.4rem;
+    --v-icon-size-medium: 2.8rem;
+    --v-icon-size-large: 3.2rem;
     background-repeat: no-repeat;
     background-position-x: 0;
     background-position-y: 0;
@@ -78,6 +80,12 @@
     background-image: url('../images/icon/icon_prod.png');
 }
 
+.icon-flow-arrow {
+    width: var(--v-icon-size-large);
+    height: var(--v-icon-size-large);
+    background-image: url('../images/icon/icon_flow_arrow.png');
+}
+
 
 
 @media only screen and (max-width: 1280px) {
@@ -87,6 +95,7 @@
     }
     
     .icon-q, .icon-a,
+    .icon-flow-arrow,
     .icon-prod {
         width: var(--v-icon-size);
         height: var(--v-icon-size);

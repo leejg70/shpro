@@ -141,6 +141,8 @@
     .article {
         padding: 2.4rem 0;
         border-bottom: 1px solid #E5E5E5;
+        word-break: break-all;
+        white-space: pre-wrap;
         .v-icon {
             flex-shrink: 0;
             margin-right: 1.6rem;
@@ -298,6 +300,7 @@
                 }
                 .text-16 {
                     padding: .2rem 0;
+                    word-break: break-all;
                 }
                 .v-expansion-panel-title__icon {
                     margin-left: 2.4rem;
@@ -311,6 +314,7 @@
                     padding: 3.2rem;
                     .text-16 {
                         color: #333;
+                        word-break: break-all;
                     }
                 }
             }
@@ -408,6 +412,8 @@
             color: #666;
         }
         .text-box {
+            word-break: break-all;
+            white-space: pre-wrap;
             // textarea
             .inp {
                 padding: 2.4rem 0 2.4rem 2.4rem;
@@ -758,6 +764,7 @@ img {
 .list-dot {
     > li {
         position: relative;
+        padding-bottom: 0.8rem;
         padding-left: 2rem;
         &::before {
             content: '';
@@ -966,9 +973,10 @@ img {
         }
         .text-truncate {
             display: inline;
-            white-space: normal !important;
+            white-space: pre-wrap !important;
             overflow: visible !important;
             text-overflow: inherit !important;
+            word-break: break-all;
         }
         .text-row {
             .v-divider--vertical {
@@ -1217,6 +1225,17 @@ img {
         }
         + .badge-txt {
             margin-left: 0.4rem;
+        }
+    }
+
+    // list-dot
+    .list-dot {
+        > li {
+            padding-left: 1.8rem;
+            &::before {
+                top: .85rem;
+                left: .55rem;
+            }
         }
     }
 

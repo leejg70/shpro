@@ -526,6 +526,125 @@
     }
 }
 
+// API서비스
+.static-content {
+    .line-tabs {
+        margin-bottom: 5.6rem;
+        &.active {
+            color: #111518;
+        }
+        .v-tab.v-btn {
+            min-width: auto;
+            padding: 0;
+            color: #888;
+            font-size: 2rem;
+            font-weight: 500;
+            + .v-tab {
+                margin-left: 3.2rem;
+            }
+            &.v-tab--selected {
+                color: #111518;
+                font-weight: 700;
+            }
+        }
+    }
+    .cnt-group {
+        + .cnt-group {
+            margin-top: 8rem;
+        }
+        .cnt-title {
+            .num {
+                color: #356CFF;
+            }
+            .v-divider--vertical {
+                margin: .7rem 1.6rem;
+            }
+        }
+        .cnt-text {
+            .process {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                .v-card.v-card--variant-flat {
+                    .v-card-text {
+                        min-width: 26rem;
+                        padding: 1.2rem;
+                        text-align: center;
+                        font-size: 1.8rem;
+                        font-weight: 500;
+                        line-height: 150%;
+                    }
+                    &:nth-of-type(1) {
+                        color: #344988 !important;
+                    }
+                    &:nth-of-type(2) {
+                        color: #FF66AF !important;
+                    }
+                    &:nth-of-type(3) {
+                        color: #8C6AD4 !important;
+                    }
+                    &:nth-of-type(4) {
+                        color: #356CFF !important;
+                    }
+                }
+            }
+            .specs-group {
+                margin-top: 6.4rem;
+                .title {
+                    margin-bottom: 1.6rem;
+                }
+                .v-card.v-card--variant-outlined {
+                    padding: 2.4rem;
+                    border: 1px solid #D7E2FF;
+                    background-color: #F7F8FC;
+                    color: #333;
+                    word-break: break-all;
+                }
+            }
+        }
+        .step-area {
+            .step-group {
+                margin-top: 6.4rem;
+                .step-title {
+                    .num {
+                        flex-shrink: 0;
+                        font-weight: 300;
+                    }
+                    .v-divider--vertical {
+                        margin: .55rem 1.6rem;
+                    }
+                }
+                .list-dot {
+                    .txt {
+                        display: flex;
+                        margin-top: 0.8rem;
+                        color: #666;
+                        > span {
+                            margin: 0 .4rem;
+                        }
+                    }
+                }
+            }
+            .desc {
+                display: flex;
+                margin: 8rem 0 .8rem;
+                .character {
+                    margin-right: 0.4rem;
+                }
+            }
+        }
+        [class*='-title'] {
+            display: flex;
+            margin-bottom: 1.6rem;
+        }
+        .v-divider--vertical {
+            color: #ccc;
+            opacity: 1;
+        }
+    }
+}
+
+
 // v-card:hover 효과 일괄 삭제
 .v-card:hover > .v-card__overlay {
     opacity: 0;
@@ -596,6 +715,11 @@
         color: #FF66AF;
         border-color: #FF66AF;
     }
+}
+
+// color
+.primary--text {
+    color: #356CFF;
 }
 
 // v-divider
@@ -907,6 +1031,84 @@
             margin: 4rem -2.4rem;
         }
     }
+
+    // API서비스
+    .static-content {
+        .line-tabs {
+            margin-bottom: 4rem;
+            .v-tab.v-btn {
+                font-size: 1.6rem;
+                + .v-tab {
+                    margin-left: 2.4rem;
+                }
+            }
+        }
+        .cnt-group {
+            + .cnt-group {
+                margin-top: 5.6rem;
+            }
+            .cnt-title {
+                font-size: 1.8rem;
+                .v-divider--vertical {
+                    margin: .45rem .8rem;
+                }
+            }
+            .cnt-text {
+                .process {
+                    flex-direction: column;
+                    align-items: stretch;
+                    .v-card.v-card--variant-flat {
+                        .v-card-text {
+                            padding: 1rem;
+                            font-size: 1.6rem;
+                        }
+                    }
+                    .icon-flow-arrow {
+                        align-self: center;
+                        margin: .4rem 0;
+                        transform: rotate(90deg);
+                    }
+                }
+                .specs-group {
+                    margin-top: 4.8rem;
+                    .title { 
+                        margin-bottom: 1.2rem;
+                        font-size: 1.6rem;
+                    }
+                    .v-card.v-card--variant-outlined {
+                        padding: 1.6rem;
+                        border-radius: .8rem !important;
+                    }
+                }
+            }
+            .step-area {
+                .step-group {
+                    margin-top: 4.8rem;
+                    .step-title {
+                        font-size: 1.6rem;
+                        .v-divider--vertical {
+                            max-height: 1.8rem;
+                            margin: .3rem .8rem;
+                        }
+                    }
+                    .list-dot {
+                        .txt {
+                            margin-top: 0.8rem;
+                            > span {
+                                margin: 0 .4rem;
+                            }
+                        }
+                    }
+                }
+                .desc {
+                    margin-top: 5.6rem;
+                }
+            }
+            [class*='-title'] {
+                margin-bottom: 1.2rem;
+            }
+        }
+    }
     
 
 
@@ -933,12 +1135,4 @@
         width: 2.4rem;
         height: 2.4rem;
     }
-    // .icon-q, .icon-a {
-    //     width: var(--v-icon-size);
-    //     height: var(--v-icon-size);
-    // }
-    // .icon-minus, .icon-plus {
-    //     width: 2rem;
-    //     height: 2rem;
-    // }
 }
