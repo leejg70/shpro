@@ -9,7 +9,7 @@ const tabs = ref('');
 <template>
     <div class="sub-group">
         <div class="sub-title-area">
-            <div class="sub-title">API상품</div>
+            <h4 class="sub-title">API상품</h4>
         </div>
 
         <!--  -->
