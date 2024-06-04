@@ -1543,7 +1543,7 @@
 									<td class="col-3depth"></td>
 									<td class="col-4depth"></td>
 									<td class="col-5depth"></td>
-									<td class="col-point">popup</td>
+									<td class="col-point">page</td>
 									<td class="col-url"><router-link to="/LOUT_04" target="_blank">/views/pub/Login/LOUT_04</router-link></td>
 									<td class="col-date">2024-05-30</td>
 									<td class="col-complete">2024-05-31</td>
