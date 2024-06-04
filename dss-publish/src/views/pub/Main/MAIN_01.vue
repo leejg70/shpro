@@ -60,7 +60,8 @@ const navigation = reactive({
                   <span class="visual-more"><span>Data Blue 바로가기 </span><v-icon>icon-card-arrow</v-icon></span>
                 </div>
                 <div class="visual-img">
-                  <img src="../../../assets/images/main/visual_img1.png" alt="">
+                  <img src="../../../assets/images/main/visual_img1.png" class="pc-img" alt="">
+                  <img src="../../../assets/images/main/visual_img1.png" class="mo-img" alt="">
                 </div>
               </div>
             </a>
@@ -78,7 +79,8 @@ const navigation = reactive({
                   <span class="visual-more"><span>Data Blue 바로가기 </span><v-icon>icon-card-arrow</v-icon></span>
                 </div>
                 <div class="visual-img">
-                  <img src="../../../assets/images/main/visual_img2.png" alt="">
+                  <img src="../../../assets/images/main/visual_img2.png" class="pc-img" alt="">
+                  <img src="../../../assets/images/main/visual_img2.png" class="mo-img" alt="">
                 </div>
               </div>
             </a>
@@ -96,7 +98,8 @@ const navigation = reactive({
                   <span class="visual-more"><span>Data Blue 바로가기 </span><v-icon>icon-card-arrow</v-icon></span>
                 </div>
                 <div class="visual-img">
-                  <img src="../../../assets/images/main/visual_img1.png" alt="">
+                  <img src="../../../assets/images/main/visual_img1.png" class="pc-img" alt="">
+                  <img src="../../../assets/images/main/visual_img1.png" class="mo-img" alt="">
                 </div>
               </div>
             </a>
@@ -114,7 +117,8 @@ const navigation = reactive({
                   <span class="visual-more"><span>Data Blue 바로가기 </span><v-icon>icon-card-arrow</v-icon></span>
                 </div>
                 <div class="visual-img">
-                  <img src="../../../assets/images/main/visual_img2.png" alt="">
+                  <img src="../../../assets/images/main/visual_img2.png" class="pc-img" alt="">
+                  <img src="../../../assets/images/main/visual_img2.png" class="mo-img" alt="">
                 </div>
               </div>
             </a>

@@ -1,6 +1,12 @@
 .main-wrap {
 
   /* mo PX 전환 */
+  img.pc-img{
+    display: block;
+  }
+  img.mo-img{
+    display: none;
+  }
   .my-login-wrap.pc-wrap {
     display: block;
   }
@@ -1260,14 +1266,18 @@
 
 @media only screen and (max-width: 1280px) {
   .main-wrap {
+    img.pc-img{
+      display: none;
+    }
+    img.mo-img{
+      display: block;
+    }
     .my-login-wrap.pc-wrap {
       display: none;
     }
-
     .visual-layout-area.mobile-wrap {
-      display: block;
+      display: flex;
     }
-
     .visual-layout-area {
       padding: 0 2.4rem
     }
