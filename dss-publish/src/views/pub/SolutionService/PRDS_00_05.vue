@@ -53,6 +53,9 @@ const active = ref(true);
           <v-divider vertical />
           <div class="title">데이터, 이제 결합하세요.</div>
         </div>
+        <div class="cnt-text">
+          <div class="text-16">서로 다른 기관이 보유한 개인정보를 가명처리한 후 결합하여 가치 있는 새로운 정보를 얻는 것을 말합니다.<br />신용정보가 포함된 가명정보 결합은, 관련 법률에 따라 데이터전문기관만이 수행할 수 있습니다.<br />신한카드에가명정보 결합을 요청하시면 최상의 결과물을 제공해드리겠습니다.</div>
+        </div>
       </div>
       <!-- 02 -->
       <div class="cnt-group">
@@ -61,6 +64,9 @@ const active = ref(true);
           <v-divider vertical />
           <div class="title">신한카드 데이터전문기관에 맡겨주세요.</div>
         </div>
+        <div class="cnt-text">
+          <div class="text-16">신한카드 데이터전문기관은 민간 기관 중에서 최초로 지정되어, 최초로 결합업무를 수행한 곳입니다.<br />최다 회원수, 최다 가맹점수를 자랑하는 신한카드의 우수한 빅데이터 능력을 기초로 하여,<br />가명정보 결합에 있어 고객님께서 느끼시는 어려운 점들을 빠르게 해결하여드립니다.</div>
+        </div>
       </div>
       <!-- 03 -->
       <div class="cnt-group">
@@ -68,6 +74,9 @@ const active = ref(true);
           <div class="num">03</div>
           <v-divider vertical />
           <div class="title">편하게 문의해주세요.</div>
+        </div>
+        <div class="cnt-text">
+          <div class="text-16">결합에 대해서 아직 궁금하신 게 많으시죠?<br />문의하기를 통해 요청해 주세요.<br />신한카드 데이터전문기관에서 직접 연락드려 고객님께 답변해 드리겠습니다.</div>
         </div>
       </div>
       <div class="btn-list">

@@ -52,7 +52,7 @@ const active = ref(true);
         </div>
         <div class="cnt-text">
           <div class="text-16">바쁜 셀러를 위한 스마트스토어 판매 상품 분석 서비스입니다.</div>
-          <div class="img">
+          <div class="img-box">
             <img src="@/assets/images/content/img_memopro.png" alt="" />
           </div>
         </div>
@@ -65,14 +65,13 @@ const active = ref(true);
           <div class="title">매모판Pro 주요기능</div>
         </div>
         <div class="cnt-text">
-          <div class="text-16">네이버 쇼핑,스마트스토어의 공식 정보(API)와 자체 수집 실시간 데이터를 활용하여 분석,제공해 스마트스토어 사업자의 사업활동을 촉진 함으로써 신규 진입 허들을 낮추고 기존 사업자의 더 큰 성공을 지원합니다.</div>
-          <div class="text-16">상품 등록정보 및 판매지표 분석, 상위 노출 상품 분석, 키워드/카테고리/리뷰 상품 통합 분석 뿐만 아니라 온라인 쇼핑 시장 현황을 전망할 수 있는 키워드/카테고리 시장분석과 비즈니스 매거진 등의 주요 기능이 있습니다.</div>
+          <div class="text-16 mgb64">네이버 쇼핑,스마트스토어의 공식 정보(API)와 자체 수집 실시간 데이터를 활용하여 분석,제공해 스마트스토어 사업자의 사업활동을 촉진 함으로써 신규 진입 허들을 낮추고 기존 사업자의 더 큰 성공을 지원합니다.<br /><br />상품 등록정보 및 판매지표 분석, 상위 노출 상품 분석, 키워드/카테고리/리뷰 상품 통합 분석 뿐만 아니라 온라인 쇼핑 시장 현황을 전망할 수 있는 키워드/카테고리 시장분석과 비즈니스 매거진 등의 주요 기능이 있습니다.</div>
           <div class="goods-list-area">
             <v-row>
               <v-col cols="12" md="6">
                 <v-card variant="text" class="goods-list">
                   <div class="title subtitle-22">순위 및 판매지표 분석 : 인기지표</div>
-                  <div class="img">
+                  <div class="img memo">
                     <img src="@/assets/images/content/img_memopro_01.png" alt="" />
                   </div>
                 </v-card>
@@ -80,7 +79,7 @@ const active = ref(true);
               <v-col cols="12" md="6">
                 <v-card variant="text" class="goods-list">
                   <div class="title subtitle-22">순위 및 판매지표 분석 : 상품 키워드 통합분석</div>
-                  <div class="img">
+                  <div class="img memo">
                     <img src="@/assets/images/content/img_memopro_02.png" alt="" />
                   </div>
                 </v-card>
@@ -88,7 +87,7 @@ const active = ref(true);
               <v-col cols="12" md="6">
                 <v-card variant="text" class="goods-list">
                   <div class="title subtitle-22">등록정보 분석</div>
-                  <div class="img">
+                  <div class="img memo">
                     <img src="@/assets/images/content/img_memopro_03.png" alt="" />
                   </div>
                 </v-card>
@@ -96,7 +95,7 @@ const active = ref(true);
               <v-col cols="12" md="6">
                 <v-card variant="text" class="goods-list">
                   <div class="title subtitle-22">시장분석</div>
-                  <div class="img">
+                  <div class="img memo">
                     <img src="@/assets/images/content/img_memopro_04.png" alt="" />
                   </div>
                 </v-card>
@@ -128,13 +127,13 @@ const active = ref(true);
           <div class="title">솔루션 구매 프로세스</div>
         </div>
         <div class="cnt-text">
-          <div class="img">
+          <div class="img-box mgt0">
             <img src="@/assets/images/content/img_process.png" alt="" />
           </div>
         </div>
       </div>
       <div class="">
-        <router-link to="">MyBIZMAP_Introduction_V.1.37.pdf</router-link>
+        <router-link to="">매모판Pro소개서_v1.0.pdf</router-link>
       </div>
       <div class="btn-list">
         <v-btn variant="flat" rounded="lg" size="x-large" color="primary">목록</v-btn>

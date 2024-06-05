@@ -50,6 +50,9 @@ const active = ref(true);
           <v-divider vertical />
           <div class="title">GPS 란?</div>
         </div>
+        <div class="cnt-text">
+          <div class="text-16">수요기업에서 개인 고객의 동의에 따라 KCB를 통해 GranData(신한카드, SKT, KCB)가 보유한 정보를 실시간으로 정보를 조회하고, 통합 GPS 항목을 생성하여 고객사에서 원하는 정보를 전송하는 서비스</div>
+        </div>
       </div>
       <!-- 02 -->
       <div class="cnt-group">
@@ -57,6 +60,9 @@ const active = ref(true);
           <div class="num">02</div>
           <v-divider vertical />
           <div class="title">GPS 주요기능</div>
+        </div>
+        <div class="cnt-text">
+          <div class="text-16">기존 데이터 결합 방식인 가명결합정보는 정책의사결정이나 인사이트 발굴 측면에서는 유용하였으나, 재식별 금지/분리보관 동의 제약사항으로 실제 마케팅 업무는 불가능하였습니다. 하지만 이를 보완하기위해 고객 동의형 GPS 솔루션을 개발하였습니다.<br />활용방법은 고객사 정보와 GrandData 가명결합/분석을 통해 인사이트를 발굴 하여 마케팅에 유용한 GPS 항목을 선별해 드립니다.<br />이후 고객 동의 기반으로 선정된 GPS 항목을 활용하여 효율적인 마케팅 실행이 가능합니다.</div>
         </div>
       </div>
       <div class="btn-list">

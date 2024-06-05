@@ -175,8 +175,17 @@ address span {display: inline-block; margin-right: 1.6rem;}
 .btn-wrap .default + .default {margin-left: 1.6rem;}
 
 /* Margin */
+.mgt0 {
+    margin-top: 0 !important;
+}
 .mgb12 {
     margin-bottom: 1.2rem !important;
+}
+.mgb48 {
+    margin-bottom: 4.8rem !important;
+}
+.mgb64 {
+    margin-bottom: 6.4rem !important;
 }
 
 /* 360 미만일때 일괄적으로 축소*/
@@ -265,6 +274,13 @@ address span {display: inline-block; margin-right: 1.6rem;}
                 margin-left: .8rem;
             }
         }
+    }
+    /* Margin */
+    .mgb48 {
+        margin-bottom: 4rem !important;
+    }
+    .mgb64 {
+        margin-bottom: 4.8rem !important;
     }
 }
 
