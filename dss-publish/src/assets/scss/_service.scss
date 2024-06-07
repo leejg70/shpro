@@ -758,6 +758,10 @@
                 padding: 0;
                 background-color: #f9f9f9;
                 border-radius: 1.6rem;
+                &.marketing {
+                    background-color: transparent;
+                    border-radius: 0;
+                }
                 img {
                     width: 100%;
                 }
