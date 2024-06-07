@@ -421,7 +421,7 @@
 									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
 									<td class="col-url"><router-link to="/PRDS_00_01" target="_blank">/views/pub/SolutionService/PRDS_00_01</router-link></td>
-									<td class="col-date"></td>
+									<td class="col-date">2024-06-07</td>
 									<td class="col-complete"></td>
 									<td class="col-memo"></td>
 								</tr>
@@ -434,7 +434,7 @@
 									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
 									<td class="col-url"><router-link to="/PRDS_00_02" target="_blank">/views/pub/SolutionService/PRDS_00_02</router-link></td>
-									<td class="col-date"></td>
+									<td class="col-date">2024-06-07</td>
 									<td class="col-complete"></td>
 									<td class="col-memo"></td>
 								</tr>
@@ -447,7 +447,7 @@
 									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
 									<td class="col-url"><router-link to="/PRDS_00_03" target="_blank">/views/pub/SolutionService/PRDS_00_03</router-link></td>
-									<td class="col-date"></td>
+									<td class="col-date">2024-06-07</td>
 									<td class="col-complete"></td>
 									<td class="col-memo"></td>
 								</tr>
@@ -460,7 +460,7 @@
 									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
 									<td class="col-url"><router-link to="/PRDS_00_04" target="_blank">/views/pub/SolutionService/PRDS_00_04</router-link></td>
-									<td class="col-date"></td>
+									<td class="col-date">2024-06-07</td>
 									<td class="col-complete"></td>
 									<td class="col-memo"></td>
 								</tr>
@@ -473,7 +473,7 @@
 									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
 									<td class="col-url"><router-link to="/PRDS_00_05" target="_blank">/views/pub/SolutionService/PRDS_00_05</router-link></td>
-									<td class="col-date"></td>
+									<td class="col-date">2024-06-07</td>
 									<td class="col-complete"></td>
 									<td class="col-memo"></td>
 								</tr>

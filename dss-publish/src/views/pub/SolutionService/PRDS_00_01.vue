@@ -124,8 +124,10 @@ const active = ref(true);
           </v-row>
         </div>
       </div>
-      <div class="">
-        <router-link to="">MyBIZMAP_Introduction_V.1.37.pdf</router-link>
+      <div class="btn-attach">
+        <router-link to="" class="text-16">
+          <v-icon class="icon-pdf" />MyBIZMAP_Introduction_V.1.37.pdf
+        </router-link>
       </div>
       <div class="btn-list">
         <v-btn variant="flat" rounded="lg" size="x-large" color="primary">목록</v-btn>

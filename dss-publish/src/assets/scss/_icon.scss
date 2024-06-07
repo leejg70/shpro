@@ -63,6 +63,18 @@
     background-image: url('../images/icon/icon_qna_a.png');
 }
 
+.icon-pdf {
+    width: var(--v-icon-size-medium);
+    height: var(--v-icon-size-medium);
+    background-image: url('../images/icon/icon_pdf.png');
+}
+
+.icon-ppt {
+    width: var(--v-icon-size-medium);
+    height: var(--v-icon-size-medium);
+    background-image: url('../images/icon/icon_ppt.png');
+}
+
 [class*='icon-pick-'] {
     width: 3.2rem;
     height: 3.2rem;
@@ -86,21 +98,25 @@
     background-image: url('../images/icon/icon_flow_arrow.png');
 }
 
-
-
 @media only screen and (max-width: 1280px) {
-    .icon-minus, .icon-plus {
-        width: 2rem;
-        height: 2rem;
-    }
-    
     .icon-q, .icon-a,
     .icon-flow-arrow,
     .icon-prod {
         width: var(--v-icon-size);
         height: var(--v-icon-size);
     }
-
+    .icon-pdf {
+        width: var(--v-icon-size);
+        height: var(--v-icon-size);
+    }
+    .icon-ppt {
+        width: var(--v-icon-size);
+        height: var(--v-icon-size);
+    }
+    .icon-minus, .icon-plus {
+        width: 2rem;
+        height: 2rem;
+    }
     .icon-trash {
         width: 1.6rem;
         height: 1.6rem;

@@ -132,8 +132,10 @@ const active = ref(true);
           </div>
         </div>
       </div>
-      <div class="">
-        <router-link to="">매모판Pro소개서_v1.0.pdf</router-link>
+      <div class="btn-attach">
+        <router-link to="" class="text-16">
+          <v-icon class="icon-pdf" />매모판Pro소개서_v1.0.pdf
+        </router-link>
       </div>
       <div class="btn-list">
         <v-btn variant="flat" rounded="lg" size="x-large" color="primary">목록</v-btn>

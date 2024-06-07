@@ -251,6 +251,19 @@
         margin-bottom: 1.6rem;
     }
 }
+.btn-attach {
+    margin-top: 6.4rem;
+    .text-16 {
+        display: inline-flex;
+        word-break: break-all;
+        text-decoration: underline !important;
+    }
+    .icon-pdf,
+    .icon-ppt {
+        flex-shrink: 0;
+        margin-right: .8rem;
+    }
+}
 
 // 검색결과 - noData
 .search-result {
@@ -1041,6 +1054,9 @@
         .subtitle-22 {
             font-size: 1.6rem;
         }
+    }
+    .btn-attach {
+        margin-top: 4.8rem;
     }
 
     // 검색결과 - noData
