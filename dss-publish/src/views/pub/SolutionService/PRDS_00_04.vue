@@ -63,6 +63,33 @@ const active = ref(true);
         </div>
         <div class="cnt-text">
           <div class="text-16">기존 데이터 결합 방식인 가명결합정보는 정책의사결정이나 인사이트 발굴 측면에서는 유용하였으나, 재식별 금지/분리보관 동의 제약사항으로 실제 마케팅 업무는 불가능하였습니다. 하지만 이를 보완하기위해 고객 동의형 GPS 솔루션을 개발하였습니다.<br />활용방법은 고객사 정보와 GrandData 가명결합/분석을 통해 인사이트를 발굴 하여 마케팅에 유용한 GPS 항목을 선별해 드립니다.<br />이후 고객 동의 기반으로 선정된 GPS 항목을 활용하여 효율적인 마케팅 실행이 가능합니다.</div>
+          <div class="gps-area">
+            <div class="title subtitle-22">GPS서비스 : 동의기반 실시간 정보제공</div>
+            <div class="text-16">GrandData(KCB,신한카드,SKT)가 보유한 정보를 수요기업 개인고객의 동의에 따라 KCB를 통해 실시간으로 제공</div>
+            <div class="img-box">
+              <img src="@/assets/images/content/img_gps_01.png" alt="" />
+            </div>
+          </div>
+          <div class="gps-area">
+            <div class="title subtitle-22">Key Point : 개인정보 활용 동의 획득</div>
+            <ul class="list-dot text-16">
+              <li>개인정보 활용 선택동의 획득시,최대한 구체적으로 제공하는 항목, 이용목적, 이용기간에 대한 설명이 필요</li>
+              <li>이용목적은 고객에게 직접적 혜택이 제공되는 Positive 방향으로 설계 필요</li>
+            </ul>
+            <div class="img-box">
+              <img src="@/assets/images/content/img_gps_02.png" alt="" />
+            </div>
+          </div>
+          <div class="gps-area">
+            <div class="title subtitle-22">활용단계 : 가명결합/분석 결곽기반 마케팅 실행</div>
+            <ul class="list-dot text-16">
+              <li>고객사 + 그랜데이터 가명결합/분석을 통해 발굴한 인사이트를 기반으로 마케팅에 유용한 GPS 항목을 선별</li>
+              <li>고객동의 기반으로 선정된 GPS 항목을 획득하고, 이를 활용하여 효울적인 마케팅 실행</li>
+            </ul>
+            <div class="img-box">
+              <img src="@/assets/images/content/img_gps_03.png" alt="" />
+            </div>
+          </div>
         </div>
       </div>
       <div class="btn-list">

@@ -44,7 +44,9 @@ const active = ref(true);
       </div>
       <!--// 상품 카드 영역 -->
       <div class="cnt-group">
-        
+        <div class="img">
+          <img src="@/assets/images/content/img_data_agency.png" alt="" />
+        </div>
       </div>
       <!-- 01 -->
       <div class="cnt-group">
