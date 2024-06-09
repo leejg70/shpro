@@ -667,26 +667,26 @@
 
 // 솔루션서비스, API서비스
 .static-content {
-    .line-tabs {
-        margin-bottom: 5.6rem;
-        &.active {
-            color: #111518;
-        }
-        .v-tab.v-btn {
-            min-width: auto;
-            padding: 0;
-            color: #888;
-            font-size: 2rem;
-            font-weight: 500;
-            + .v-tab {
-                margin-left: 3.2rem;
-            }
-            &.v-tab--selected {
-                color: #111518;
-                font-weight: 700;
-            }
-        }
-    }
+    // .line-tabs {
+    //     margin-bottom: 5.6rem;
+    //     &.active {
+    //         color: #111518;
+    //     }
+    //     .v-tab.v-btn {
+    //         min-width: auto;
+    //         padding: 0;
+    //         color: #888;
+    //         font-size: 2rem;
+    //         font-weight: 500;
+    //         + .v-tab {
+    //             margin-left: 3.2rem;
+    //         }
+    //         &.v-tab--selected {
+    //             color: #111518;
+    //             font-weight: 700;
+    //         }
+    //     }
+    // }
     .cnt-group {
         + .cnt-group {
             margin-top: 8rem;
