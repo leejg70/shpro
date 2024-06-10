@@ -1,37 +1,48 @@
+<script setup>
+import { ref } from 'vue';
+import Tab01 from './PRDM_01_tab01.vue';
+import Tab02 from './PRDM_01_tab02.vue';
+import Tab03 from './PRDM_01_tab03.vue';
+
+const tabs = ref('');
+</script>
+
 <template>
   <div class="sub-group">
     <div class="sub-title-area">
       <h4 class="sub-title">광고서비스</h4>
     </div>
     <div class="static-content">
-      <!-- 01 -->
-      <div class="cnt-group">
-        <div class="cnt-title subtitle-24">
-          <div class="num">01</div>
-          <v-divider vertical />
-          <div class="title">타겟마케팅이란?</div>
-        </div>
-        <div class="cnt-text">
-          <div class="text-16">신한카드 3,000만 고객/ 다양한 채널/정교한 Targeting 방법론을 바탕으로 고객사의 효과적/ 효율적 마케팅 수행을 대행하며 공동 프로모션 기획 등 다양한 마케팅을 지원합니다.</div>
-          <div class="">
+      <v-sheet>
+        <v-slide-group v-model="tabs" show-arrows mandatory class="line-tabs">
+          <v-slide-group-item
+            v-for="item in [ '타겟마케팅', '모바일서베이', 'SoL-Pay배너광고' ]"
+            :key="item"
+            v-slot="{ isSelected, toggle }"
+          >
+            <v-btn
+              variant="text"
+              size="large"
+              :class="isSelected ? 'active': ''"
+              @click="toggle"
+            >
+              {{ item }}
+            </v-btn>
+          </v-slide-group-item>
+        </v-slide-group>
 
-          </div>
-        </div>
-      </div>
-      <!-- 02 -->
-      <div class="cnt-group">
-        <div class="cnt-title subtitle-24">
-          <div class="num">02</div>
-          <v-divider vertical />
-          <div class="title">서비스 이용 Process</div>
-        </div>
-        <div class="cnt-text">
-          <div class="text-16">해당 서비스는 현재 준비중입니다.<br />문의하기를 통해서 서비스 이용이 가능합니다.</div>
-          <div class="img-box marketing">
-            <img src="@/assets/images/content/img_marketing.png" alt="" />
-          </div>
-        </div>
-      </div>
+        <v-window v-model="tabs">
+          <v-window-item value="0">
+            <Tab01 />
+          </v-window-item>
+          <v-window-item value="1">
+            <Tab02 />
+          </v-window-item>
+          <v-window-item value="2">
+            <Tab03 />
+          </v-window-item>
+        </v-window>
+      </v-sheet>
       <div class="btn-list">
         <v-btn variant="flat" rounded="lg" size="x-large" color="primary">문의하기</v-btn>
       </div>

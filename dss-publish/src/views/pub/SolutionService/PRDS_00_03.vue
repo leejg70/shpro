@@ -119,7 +119,7 @@ const active = ref(true);
               </v-col>
               <v-col cols="12" md="6">
                 <v-card variant="text" class="finace-list">
-                  <div class="title subtitle-18">사업부문멸 개별 분석</div>
+                  <div class="title subtitle-18">산업과 기업을 매칭</div>
                   <div class="text-16">개별 산업 통계 데이터와 연관성이 높은 기업을 매칭하여 해당 데이터가 어떤 기업에 영향을 주는지 쉽게 파악 가능</div>
                   <div class="img">
                     <img src="@/assets/images/content/img_big_finace_06.png" alt="" />
@@ -128,7 +128,7 @@ const active = ref(true);
               </v-col>
               <v-col cols="12" md="6">
                 <v-card variant="text" class="finace-list">
-                  <div class="title subtitle-18">산업지표</div>
+                  <div class="title subtitle-18">한국 신용카드 결제 데이터</div>
                   <div class="text-16">2000만명 이상의 카드 결제 데이터로 160개 기업,600개 이상의 브랜드와 서비스의 결제를 쉽게 조회</div>
                   <div class="img">
                     <img src="@/assets/images/content/img_big_finace_07.png" alt="" />
@@ -137,7 +137,7 @@ const active = ref(true);
               </v-col>
               <v-col cols="12" md="6">
                 <v-card variant="text" class="finace-list">
-                  <div class="title subtitle-18">연관기업 분석</div>
+                  <div class="title subtitle-18">무역통계</div>
                   <div class="text-16">HS코드별,품목별,지역별 무역통계를 잠정치와 확실치로 제공하며 월별/연도별 추세 확인 가능</div>
                   <div class="img">
                     <img src="@/assets/images/content/img_big_finace_08.png" alt="" />
