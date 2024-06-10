@@ -9,26 +9,38 @@ const tabs = ref('');
 <template>
     <div class="sub-group">
         <div class="sub-title-area">
-            <h4 class="sub-title">API상품</h4>
+            <div class="sub-title">API상품</div>
         </div>
 
         <!--  -->
         <div class="static-content">
-            <v-card flat rounded="0">
-                <v-tabs v-model="tabs" class="line-tabs">
-                    <v-tab value="1">API 공통 가이드</v-tab>
-                    <v-tab value="2">API 명세서</v-tab>
-                </v-tabs>
+            <v-sheet>
+                <v-slide-group v-model="tabs" show-arrows mandatory class="line-tabs">
+                    <v-slide-group-item
+                        v-for="item in [ 'API 공통 가이드', 'API 명세서' ]"
+                        :key="item"
+                        v-slot="{ isSelected, toggle }"
+                    >
+                        <v-btn
+                            variant="text"
+                            size="large"
+                            :class="isSelected ? 'active': ''"
+                            @click="toggle"
+                        >
+                            {{ item }}
+                        </v-btn>
+                    </v-slide-group-item>
+                </v-slide-group>
 
                 <v-window v-model="tabs">
-                    <v-window-item value="1">
+                    <v-window-item value="0">
                         <Tab01 />
                     </v-window-item>
-                    <v-window-item value="2">
+                    <v-window-item value="1">
                         <Tab02 />
                     </v-window-item>
                 </v-window>
-            </v-card>
+            </v-sheet>
             <div class="btn-list">
                 <v-btn variant="flat" rounded="lg" size="x-large" color="primary">목록</v-btn>
             </div>
