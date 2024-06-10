@@ -441,26 +441,26 @@ const navigation = reactive({
         <div class="slide-inner">
           <div class="slider">
             <ul>
-              <li><img src="../../../assets/images/main/banner01.png" alt=""></li>
-              <li><img src="../../../assets/images/main/banner02.png" alt=""></li>
-              <li><img src="../../../assets/images/main/banner03.png" alt=""></li>
-              <li><img src="../../../assets/images/main/banner04.png" alt=""></li>
-              <li><img src="../../../assets/images/main/banner05.png" alt=""></li>
-              <li><img src="../../../assets/images/main/banner06.png" alt=""></li>
-              <li><img src="../../../assets/images/main/banner07.png" alt=""></li>
-              <li><img src="../../../assets/images/main/banner08.png" alt=""></li>
-              <li><img src="../../../assets/images/main/banner09.png" alt=""></li>
-            </ul>
-            <ul>
-              <li><img src="../../../assets/images/main/banner01.png" alt=""></li>
-              <li><img src="../../../assets/images/main/banner02.png" alt=""></li>
-              <li><img src="../../../assets/images/main/banner03.png" alt=""></li>
-              <li><img src="../../../assets/images/main/banner04.png" alt=""></li>
-              <li><img src="../../../assets/images/main/banner05.png" alt=""></li>
-              <li><img src="../../../assets/images/main/banner06.png" alt=""></li>
-              <li><img src="../../../assets/images/main/banner07.png" alt=""></li>
-              <li><img src="../../../assets/images/main/banner08.png" alt=""></li>
-              <li><img src="../../../assets/images/main/banner09.png" alt=""></li>
+              <li><img src="../../../assets/images/main/logo_patner_skt.png" alt="SK telecom"></li>
+              <li><img src="../../../assets/images/main/logo_patner_kcb.png" alt="KCB"></li>
+              <li><img src="../../../assets/images/main/logo_patner_finance.png" alt="금융결제원"></li>
+              <li><img src="../../../assets/images/main/logo_patner_skb.png" alt="Sk broadband"></li>
+              <li><img src="../../../assets/images/main/logo_patner_security.png" alt="금융보안원"></li>
+              <li><img src="../../../assets/images/main/logo_patner_consumer.png" alt="Consumer Insinght"></li>
+              <li><img src="../../../assets/images/main/logo_patner_emart.png" alt="emart"></li>
+              <li><img src="../../../assets/images/main/logo_patner_kdx.png" alt="KDX 한국데이터거래소"></li>
+              <li><img src="../../../assets/images/main/logo_patner_lg.png" alt="LG"></li>   
+              <li><img src="../../../assets/images/main/logo_patner_lotteinno.png" alt="롯데이노베이트"></li>  
+              <li><img src="../../../assets/images/main/logo_patner_magis.png" alt="magis"></li>  
+              <li><img src="../../../assets/images/main/logo_patner_pythagraph.png" alt="피타그래프"></li>  
+              <li><img src="../../../assets/images/main/logo_patner_skcnc.png" alt="SK C&C"></li>  
+              <li><img src="../../../assets/images/main/logo_patner_sph.png" alt="SPH"></li>  
+              <li><img src="../../../assets/images/main/logo_patner_connexio.png" alt="connexio"></li>  
+              <li><img src="../../../assets/images/main/logo_patner_coocon.png" alt="coocon"></li>  
+              <li><img src="../../../assets/images/main/logo_patner_finda.png" alt="finda "></li>    
+              <li><img src="../../../assets/images/main/logo_patner_fiscalnote.png" alt="Fiscal Note"></li>  
+              <li><img src="../../../assets/images/main/logo_patner_igawords.png" alt="iga Words"></li>  
+              <li><img src="../../../assets/images/main/logo_patner_toss.png" alt="toss"></li>  
             </ul>
           </div>
         </div>
