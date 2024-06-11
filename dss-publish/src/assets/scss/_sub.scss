@@ -784,68 +784,18 @@ img {
 
 // DataBada
 .static-content {
-    // slide-tab
-    .line-tabs {
-        margin-bottom: 5.6rem;
-        .v-btn {
-            min-width: auto;
-            padding: 0;
-            color: #888;
-            font-size: 2rem;
-            font-weight: 500;
-            + .v-btn {
-                margin-left: 3.2rem;
-            }
-            &.active {
-                color: #111518;
-                font-weight: 700;
-                .v-btn__content::after {
-                    content: '';
-                    position: absolute;
-                    bottom: 0;
-                    left: 0;
-                    height: .3rem;
-                    width: 100%;
-                    background: #111518;
-                    pointer-events: none;
-                }
-            }
-        }
-        .v-icon {
-            display: none;
-        }
-        .v-slide-group__next,
-        .v-slide-group__prev {
-            position: absolute;
-            min-width: 2.4rem;
-            height: 4.8rem;
-            z-index: 1;
-        }
-        .v-slide-group__prev {
-            background: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%);
-        }
-        .v-slide-group__next {
-            right: 0;
-            background: linear-gradient(-90deg, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%);
-        }
-        .v-slide-group__next--disabled,
-        .v-slide-group__prev--disabled {
-            opacity: 0;
-            background: transparent;
-        }
-    }
-    .cnt-text .img {
-        margin-top: 4rem;
-    }
-    .img {
-        &.bg-gray {
-            border-radius: 1.6rem;
-            background-color: #F2F3F6;
-        }
-        img {
-            width: 100%;
-        }
-    }
+    // .cnt-text .img {
+    //     margin-top: 4rem;
+    // }
+    // .img {
+    //     &.bg-gray {
+    //         border-radius: 1.6rem;
+    //         background-color: #F2F3F6;
+    //     }
+    //     img {
+    //         width: 100%;
+    //     }
+    // }
 }
 .card-list-area {
     margin-top: 4rem;
@@ -878,13 +828,29 @@ img {
                     height: 9.6rem;
                 }
                 .list-dot {
-                    margin-left: 3.2em;
+                    margin-left: 3.2rem;
                     color: #333;
                 }
             }
             .col {
                 padding: 1.6rem;
                 text-align: center;
+                .v-icon {
+                    width: 8rem;
+                    height: 8rem;
+                    &.why01 {
+                        background-image: url('../images/icon/icon_consultant_01.png');
+                    }
+                    &.why02 {
+                        background-image: url('../images/icon/icon_consultant_01.png');
+                    }
+                    &.why03 {
+                        background-image: url('../images/icon/icon_consultant_01.png');
+                    }
+                    &.why04 {
+                        background-image: url('../images/icon/icon_consultant_01.png');
+                    }
+                }
                 .subtitle-22 {
                     margin: 3.2rem 0 1.6rem;
                     color: #011B6A;
@@ -924,21 +890,12 @@ img {
         .row {
             display: flex;
             align-items: center;
-            .icon {
-                flex-shrink: 0;
-                min-width: 14.2rem;
-                text-align: center;
-                .subtitle-16 {
-                    margin-top: 2rem;
-                    color: #011B6A;
-                }
-            }
             .title {
                 display: flex;
                 flex-direction: column;
+                align-items: center;
                 flex-shrink: 0;
                 min-width: 14.2rem;
-                align-items: center;
                 color: #011B6A;
                 &::before {
                     content:'';
@@ -960,7 +917,7 @@ img {
                 }
             }
             .text {
-                margin-left: 4rem;
+                margin-left: 4rem; 
                 .subtitle-18 {
                     margin: 1.6rem 0;
                 }
@@ -1048,6 +1005,9 @@ img {
             .v-slide-group__content {
                 .v-btn:first-of-type {
                     margin-left: 2.4rem;
+                }
+                .v-btn:last-of-type {
+                    margin-right: 2.4rem;
                 }
             }
             .v-btn + .v-btn {
