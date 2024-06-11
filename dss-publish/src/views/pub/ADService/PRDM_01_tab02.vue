@@ -33,6 +33,55 @@
                 <li>활용예시 : A유통사의 경우,특정기간 內 특정 점포 및 업종 매출데이터 기반 이탈 고객 대상을 선별하여 서배이 타겟고객으로 선정</li>
               </ul>
             </div>
+            <div class="card-list-area">
+              <v-row>
+                <v-col cols="12" md="4" sm="6">
+                  <v-sheet rounded="lg" class="outlined">
+                    <div class="title subtitle-18">가맹점 기반 필터링</div>
+                    <div class="item survey">
+                      <v-icon class="target franchise" /> 
+                      <ul class="list-dot text-16">
+                        <li
+                          v-for="item in ['업종/지역별','특정 매장 구분']"
+                        >
+                          {{ item }}
+                        </li>
+                      </ul>
+                    </div>
+                  </v-sheet>
+                </v-col>
+                <v-col cols="12" md="4" sm="6">
+                  <v-sheet rounded="lg" class="outlined">
+                    <div class="title subtitle-18">이용일/시간대별 상세화</div>
+                    <div class="item survey">
+                      <v-icon class="target schedule" />
+                      <ul class="list-dot text-16">
+                        <li
+                          v-for="item in ['이용일 : 주중, 주말','시간대 : 아침, 오후']"
+                        >
+                          {{ item }}
+                        </li>
+                      </ul>
+                    </div>
+                  </v-sheet>
+                </v-col>
+                <v-col cols="12" md="4" sm="6">
+                  <v-sheet rounded="lg" class="outlined">
+                    <div class="title subtitle-18">정교한 대상 고객 선정</div>
+                    <div class="item survey">
+                      <v-icon class="target guest" />
+                      <ul class="list-dot text-16">
+                        <li
+                          v-for="item in ['성별/연령/지역','단골고객, 이탈 고객 등']"
+                        >
+                          {{ item }}
+                        </li>
+                      </ul>
+                    </div>
+                  </v-sheet>
+                </v-col>
+              </v-row>
+            </div>
           </div>
           <div class="step-group">
             <div class="step-title subtitle-22">
@@ -45,6 +94,25 @@
                 <li>카드결제 연동 발송시스템을 통해 실사용자에게 신속한 수행이 가능합니다.</li>
                 <li>활용예시 : 대체 상품 결제가 확인될 시, 모바일 서베이 수행을 통해 이탈고객의 이탈 요인 및 소비 패턴에 대한 서베이 진행</li>
               </ul>
+            </div>
+            <div class="card-list-area">
+              <v-row>
+                <v-col cols="12" md="4" sm="6">
+                  <v-sheet rounded="lg" class="outlined">
+                    <div class="title subtitle-18">가맹점 기반 필터링</div>
+                    <div class="item survey">
+                      <v-icon class="target filtering" /> 
+                      <ul class="list-dot text-16">
+                        <li
+                          v-for="item in ['소비경험,만족도 접근성 등']"
+                        >
+                          {{ item }}
+                        </li>
+                      </ul>
+                    </div>
+                  </v-sheet>
+                </v-col>
+              </v-row>
             </div>
           </div>
           <div class="step-group">
@@ -59,6 +127,40 @@
                 <li>활용예시 : 서베이 결과와 시장 및 경쟁사 소비 데이터를 결합하여 고도화된 마케팅 전략수립 진행</li>
               </ul>
             </div>
+            <div class="card-list-area">
+              <v-row>
+                <v-col cols="12" md="4" sm="6">
+                  <v-sheet rounded="lg" class="outlined">
+                    <div class="title subtitle-18">응답 필터링</div>
+                    <div class="item survey">
+                      <v-icon class="target answer" /> 
+                      <ul class="list-dot text-16">
+                        <li
+                          v-for="item in ['불성실응답 제거','무작위 응답 등']"
+                        >
+                          {{ item }}
+                        </li>
+                      </ul>
+                    </div>
+                  </v-sheet>
+                </v-col>
+                <v-col cols="12" md="4" sm="6">
+                  <v-sheet rounded="lg" class="outlined">
+                    <div class="title subtitle-18">소비 Data 결합</div>
+                    <div class="item survey">
+                      <v-icon class="target spend" />
+                      <ul class="list-dot text-16">
+                        <li
+                          v-for="item in ['고객 소비패턴','경쟁사 이용현황 등']"
+                        >
+                          {{ item }}
+                        </li>
+                      </ul>
+                    </div>
+                  </v-sheet>
+                </v-col>
+              </v-row>
+            </div>
           </div>
         </div>
       </div>
@@ -66,3 +168,66 @@
   </div>
   <!-- // tab2 - 모바일서베이 -->
 </template>
+
+<style>
+.static-content {
+  .cnt-group {
+    .card-list-area {
+      .v-sheet {
+        &.outlined {
+          .item {
+            &.survey {
+              min-height: 8.8rem;
+              .v-icon.target {
+                width: 8rem;
+                height: 8rem;
+                margin-bottom: .8rem;
+              }
+            }
+          }
+        }
+      }
+      .v-icon.franchise {
+        background-image: url('@/assets/images/icon/icon_survey_01.png');
+      }
+      .v-icon.schedule {
+        background-image: url('@/assets/images/icon/icon_survey_02.png');
+      }
+      .v-icon.guest {
+        background-image: url('@/assets/images/icon/icon_survey_03.png');
+      }
+      .v-icon.filtering {
+        background-image: url('@/assets/images/icon/icon_survey_04.png');
+      }
+      .v-icon.answer {
+        background-image: url('@/assets/images/icon/icon_survey_05.png');
+      }
+      .v-icon.spend {
+        background-image: url('@/assets/images/icon/icon_survey_06.png');
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 1280px) {
+  .static-content {
+    .cnt-group {
+      .card-list-area {
+        .v-sheet {
+          &.outlined {
+            .item {
+              &.survey {
+                min-height: 7.2rem;
+                .v-icon.target {
+                  width: 6.4rem;
+                  height: 6.4rem;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+</style>
