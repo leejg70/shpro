@@ -147,6 +147,9 @@
             .list-dot {
                 flex-grow: 1;
             }
+            .subtext {
+                flex-grow: 1;
+            }
             .img {
                 width: 100%;
                 height: auto;
@@ -158,8 +161,14 @@
                     border-radius: 0;
                     background-color: transparent;
                 }
+                &.crs {
+                    margin-top: 1.6rem !important;
+                    border-radius: 0;
+                    background-color: transparent;
+                }
                 img {
                     width: 100%;
+                    border-radius: 1.6rem;
                 }
             }
         }
@@ -191,7 +200,7 @@
             .img {
                 width: 100%;
                 height: auto;
-                margin-top: 1.6rem;
+                margin-top: 1.6rem !important;
                 img {
                     width: 100%;
                 }
@@ -796,7 +805,6 @@
             color: #ccc;
             opacity: 1;
         }
-
         .card-list-area {
             margin-top: 4rem;
             .v-sheet {
@@ -816,6 +824,10 @@
                     .title {
                         background-color: #F2F3F6;
                         color: #011B6A;
+                        > span {
+                            font-size: 1.6rem;
+                            font-weight: 300;
+                        }
                     }
                     .item {
                         display: flex;
@@ -831,6 +843,64 @@
                         .list-dot {
                             margin-left: 3.2rem;
                             color: #333;
+                        }
+                        &.targeting {
+                            justify-content: space-between;
+                            .v-icon.target {
+                                align-self: flex-end;
+                                width: 8rem;
+                                height: 8rem;
+                                margin-bottom: .8rem;
+                            }
+                            .list-dot {
+                                margin-left: 0;
+                                .list-line {
+                                    color: #666;
+                                    > li {
+                                        position: relative;
+                                        padding-bottom: .8rem;
+                                        padding-left: 1.3rem;
+                                        &:first-child {
+                                            margin-top: .8rem;
+                                        }
+                                        &:last-child {
+                                            padding-bottom: 0;
+                                        }
+                                        &::before {
+                                            content: '';
+                                            display: inline-block;
+                                            position: absolute;
+                                            top: 1.2rem;
+                                            left: .3rem;
+                                            width: .5rem;
+                                            height: .1rem;
+                                            background-color: #666;
+                                        }
+                                    }
+                                }
+                            }
+                            .desc {
+                                display: flex;
+                                margin: 1.6rem 0 .8rem;
+                                color: #666;
+                                .character {
+                                    margin-right: 0.4rem;
+                                }
+                            }
+                        }
+                        &.survey {
+                            min-height: 8.8rem;
+                            .v-icon.target {
+                                width: 8rem;
+                                height: 8rem;
+                                margin-bottom: .8rem;
+                            }
+                        }
+                        &.cds {
+                            min-height: 6.4em;
+                            .list-dot {
+                                margin-left: 0;
+                            }
                         }
                     }
                     .col {
@@ -905,6 +975,46 @@
             // 통신업
             .v-icon.telecom {
                 background-image: url('../images/icon/icon_telecom.png');
+            }
+            // 최적 고객 발굴
+            .v-icon.discover {
+                background-image: url('../images/icon/icon_marketing_01.png');
+            }
+            // 신한카드 채널 활용
+            .v-icon.channel {
+                background-image: url('../images/icon/icon_marketing_02.png');
+            }
+            // 마케팅 Oppertunity 협의
+            .v-icon.chance {
+                background-image: url('../images/icon/icon_marketing_03.png');
+            }
+            // 마케팅 결과 분석
+            .v-icon.analysis {
+                background-image: url('../images/icon/icon_marketing_04.png');
+            }
+            // 가맹점 기반 필터링
+            .v-icon.franchise {
+                background-image: url('../images/icon/icon_survey_01.png');
+            }
+            // 이용일/시간대별 상세화
+            .v-icon.schedule {
+                background-image: url('../images/icon/icon_survey_02.png');
+            }
+            // 정교한 대상 고객 선정
+            .v-icon.guest {
+                background-image: url('../images/icon/icon_survey_03.png');
+            }
+            // 가맹점 기반 필터링
+            .v-icon.filtering {
+                background-image: url('../images/icon/icon_survey_04.png');
+            }
+            // 응답 필터링
+            .v-icon.answer {
+                background-image: url('../images/icon/icon_survey_05.png');
+            }
+            // 소비 Data 결합
+            .v-icon.spend {
+                background-image: url('../images/icon/icon_survey_06.png');
             }
         }
         .credit-list {
@@ -1212,6 +1322,9 @@
                 }
                 .img {
                     border-radius: .8rem;
+                    img {
+                        border-radius: .8rem;
+                    }
                 }
             }
         }
@@ -1505,15 +1618,6 @@
 
     // 솔루션서비스, API서비스
     .static-content {
-        // .line-tabs {
-        //     margin-bottom: 4rem;
-        //     .v-tab.v-btn {
-        //         font-size: 1.6rem;
-        //         + .v-tab {
-        //             margin-left: 2.4rem;
-        //         }
-        //     }
-        // }
         .cnt-group {
             + .cnt-group {
                 margin-top: 5.6rem;
@@ -1628,6 +1732,38 @@
                             .list-dot {
                                 margin-left: 2.4rem;
                             }
+                            &.targeting {
+                                min-height: 14.5rem;
+                                .v-icon.target {
+                                    align-self: flex-end;
+                                    flex-shrink: 0;
+                                    width: 6.4rem;
+                                    height: 6.4rem;
+                                    margin-left: 2.4rem;
+                                }
+                                .list-dot {
+                                    .list-line {
+                                        > li {
+                                            &::before {
+                                                top: 1rem;
+                                            }
+                                        }
+                                    }
+                                }
+                                .desc {
+                                    margin: .8rem 0;
+                                }
+                            }
+                            &.survey {
+                                min-height: 7.2rem;
+                                .v-icon.target {
+                                    width: 6.4rem;
+                                    height: 6.4rem;
+                                }
+                            }
+                            &.cds {
+                                min-height: 5.8rem;
+                            }
                         }
                     }
                     .title {
@@ -1728,6 +1864,25 @@
                     .img {
                         width: 32rem;
                         margin: 0 3.2rem 0 0;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 960px) {
+    // 광고서비스
+    .static-content {
+        .cnt-group {
+            .card-list-area {
+                .v-sheet {
+                    &.outlined {
+                        .item {
+                            &.targeting {
+                                min-height: auto !important;
+                            }
+                        }
                     }
                 }
             }
