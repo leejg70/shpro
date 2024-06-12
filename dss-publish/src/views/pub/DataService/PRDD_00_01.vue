@@ -9,7 +9,7 @@ const expandRow = ref(false);
 <template>
     <div class="sub-group data-service">
         <div class="sub-title-area">
-            <h4 class="sub-title">Data 상품</h4>
+            <div class="sub-title">Data 상품</div>
         </div>
 
         <!-- 상품 카드 영역 -->
@@ -41,7 +41,7 @@ const expandRow = ref(false);
                 <span v-for="n in [ '스타벅스', '전국', '시간대별결제데이터', '해시태그 영역', '모든 글자 수 노출' ]" class="hashtag text-16">#{{  n  }}</span>
             </div>
             <div class="btn-area">
-                <v-btn variant="flat" rounded="md" size="large" color="secondary">자세히보기</v-btn>
+                <v-btn variant="flat" rounded="md" size="large" color="secondary">자세히보기</v-btn> 
                 <v-btn variant="flat" rounded="md" size="large" color="primary">문의하기</v-btn>
             </div>
         </div>
@@ -85,7 +85,7 @@ const expandRow = ref(false);
                     <!--// 로그인 전 -->
                 </div>
                 <div class="group-setting-info">
-                    <div class="box-title">데이터 세팅 정보</div>
+                    <div class="box-title">업데이트 정보</div>
                     <!-- 로그인 후 -->
                     <div class="info-list">
                         <div class="border-box">
@@ -93,11 +93,11 @@ const expandRow = ref(false);
                             <div class="txt-dd">일별, 주별, 월별, 분기별</div>
                         </div>
                         <div class="border-box">
-                            <div class="txt-dt"><v-icon class="ic01" />제공방식</div>
+                            <div class="txt-dt"><v-icon class="ic02" />제공방식</div>
                             <div class="txt-dd">웹 메일 발송, 파일 다운로드</div>
                         </div>
                         <div class="border-box">
-                            <div class="txt-dt"><v-icon class="ic01" />데이터 포맷</div>
+                            <div class="txt-dt"><v-icon class="ic03" />데이터 포맷</div>
                             <div class="txt-dd">CSV, EXEL, JSON, API</div>
                         </div>
                     </div>
