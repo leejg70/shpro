@@ -49,11 +49,11 @@ const tabs = ref('');
                                         데이터 수요가 가장 높은 카드/통신/신용 각 업권별 1위 사업자가 2021년 출범한 데이터 사업 Alliance로, 현재 금융결제원 및 제조업·유통업도 참여하고 있습니다.
                                     </div>
                                     <div class="img">
-                                        이미지영역
+                                        <img src="@/assets/images/content/img_grandata_01_01.png" alt="" />
                                     </div>
-                                    <div class="subtitle-22" style="margin-bottom:16px;">GranData사업 Alliance 체계</div>
-                                    <div class="img">
-                                        이미지영역
+                                    <div class="subtitle-22 mt-16">GranData사업 Alliance 체계</div>
+                                    <div class="img mt-4">
+                                        <img src="@/assets/images/content/img_grandata_01_02.png" alt="" />
                                     </div>
                                 </div>
                             </div>
@@ -72,13 +72,13 @@ const tabs = ref('');
                                                 <v-sheet rounded="lg" class="flat">
                                                     <div class="title subtitle-18" style="">가명 결합 상품</div>
                                                     <div class="img mt-6">
-                                                        <img src="@/assets/images/content/img01.png" alt="img" />
+                                                        <img src="@/assets/images/content/img_grandata_02_01.png" alt="img" />
                                                     </div>
                                                     <div class="img mt-6">
-                                                        <img src="@/assets/images/content/img01.png" alt="img" />
+                                                        <img src="@/assets/images/content/img_grandata_02_02.png" alt="img" />
                                                     </div>
                                                     <div class="img mt-6">
-                                                        <img src="@/assets/images/content/img01.png" alt="img" />
+                                                        <img src="@/assets/images/content/img_grandata_02_03.png" alt="img" />
                                                     </div>
                                                 </v-sheet>
                                             </v-col>
@@ -86,10 +86,10 @@ const tabs = ref('');
                                                 <v-sheet rounded="lg" class="flat">
                                                     <div class="title subtitle-18" style="">통계 결합 상품</div>
                                                     <div class="img mt-6">
-                                                        <img src="@/assets/images/content/img01.png" alt="img" />
+                                                        <img src="@/assets/images/content/img_grandata_02_04.png" alt="img" />
                                                     </div>
                                                     <div class="img mt-6">
-                                                        <img src="@/assets/images/content/img01.png" alt="img" />
+                                                        <img src="@/assets/images/content/img_grandata_02_05.png" alt="img" />
                                                     </div>
                                                 </v-sheet>
                                             </v-col>
@@ -109,12 +109,14 @@ const tabs = ref('');
                                         GranData는 기업의 비즈니스 성공을 목표로 데이터 분석 기반 다양한 서비스를 제공하고 있습니다.<br />
                                         차별화된 데이터 서비스를 통한 비지니스 Value-up의 기회를 확인해보세요.
                                     </div>
-                                    <div class="img">이미지영역</div>
+                                    <div class="img">
+                                        <img src="@/assets/images/content/img_grandata_03.png" alt="" />
+                                    </div>
                                 </div>
                             </div>
                             <!-- 다운로드 -->
-                            <router-link to="" class="d-flex text-16 text-decoration-underline mt-16" style="line-height:130%;">
-                                <v-icon class="icon-download" />GranData 브로슈어.pdf
+                            <router-link to="" class="text-download text-16 mt-16">
+                                <v-icon class="icon-pdf" /><span class="txt">GranData 브로슈어.pdf</span>
                             </router-link>
                         </div>
                         <!--// tab1 - GranData -->

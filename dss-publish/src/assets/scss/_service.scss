@@ -755,7 +755,6 @@
                 img {
                     width: 100%;
                 }
-
             }
         }
         .step-area {
@@ -827,6 +826,7 @@
                         .v-icon.agency {
                             width: 9.6rem;
                             height: 9.6rem;
+                            margin-bottom: .8rem;
                         }
                         .list-dot {
                             margin-left: 3.2rem;
@@ -843,13 +843,13 @@
                                 background-image: url('../images/icon/icon_consultant_01.png');
                             }
                             &.why02 {
-                                background-image: url('../images/icon/icon_consultant_01.png');
+                                background-image: url('../images/icon/icon_consultant_02.png');
                             }
                             &.why03 {
-                                background-image: url('../images/icon/icon_consultant_01.png');
+                                background-image: url('../images/icon/icon_consultant_03.png');
                             }
                             &.why04 {
-                                background-image: url('../images/icon/icon_consultant_01.png');
+                                background-image: url('../images/icon/icon_consultant_04.png');
                             }
                         }
                         .subtitle-22 {
@@ -921,6 +921,7 @@
                         align-items: center;
                         flex-shrink: 0;
                         min-width: 14.2rem;
+                        margin: 1.6rem 0;
                         color: #011B6A;
                         &::before {
                             content:'';
@@ -935,10 +936,10 @@
                             background-image: url('../images/icon/icon_mycredit_why_01.png');
                         }
                         &.why02::before {
-                            background-image: url('../images/icon/icon_mycredit_why_01.png');
+                            background-image: url('../images/icon/icon_mycredit_why_02.png');
                         }
                         &.why03::before {
-                            background-image: url('../images/icon/icon_mycredit_why_01.png');
+                            background-image: url('../images/icon/icon_mycredit_why_03.png');
                         }
                     }
                     .text {
@@ -963,6 +964,19 @@
     .product-area {
         margin-bottom: 8rem;
     }
+    .text-download {
+        display: flex;
+        color: #333;
+        line-height: 130%;
+        text-decoration: underline !important;
+        .v-icon {
+            flex-shrink: 0;
+            margin-right: .8rem;
+        }
+        .txt {
+            margin-top: 0.35rem;
+        }
+    }
 }
 
 
@@ -978,6 +992,7 @@
         color: #888;
         font-size: 2rem;
         font-weight: 500;
+        line-height: 100%;
         + .v-btn {
             margin-left: 3.2rem;
         }
@@ -1548,6 +1563,20 @@
                     margin-top: 3.2rem;
                     border-radius: .8rem;
                 }
+                .img {
+                    margin-top: 3.2rem;
+                    &.bg-gray {
+                        border-radius: 1.6rem;
+                        background-color: #F2F3F6;
+                    }
+                    &.mt-4 {
+                        margin-top: 1.2rem !important;
+                    }
+                }
+                .subtitle-22.mt-16 {
+                    margin-top: 4.8rem !important;
+                    font-size: 1.6rem;
+                }
             }
             .step-area {
                 .step-group {
@@ -1575,12 +1604,93 @@
             [class*='-title'] {
                 margin-bottom: 1.2rem;
             }
+            .card-list-area {
+                margin-top: 3.2rem;
+                .v-col-12 {
+                    padding: .8rem 1.2rem;
+                }
+                .v-sheet {
+                    &.rounded-lg {
+                        border-radius: .8rem !important;
+                    }
+                    &.flat {
+                        padding: 1.6rem;
+                    }
+                    &.outlined {
+                        padding: 1.2rem;
+                        .item {
+                            min-height: auto;
+                            margin-top: 1.2rem;
+                            .v-icon.agency {
+                                width: 8rem;
+                                height: 8rem;
+                            }
+                            .list-dot {
+                                margin-left: 2.4rem;
+                            }
+                        }
+                    }
+                    .title {
+                        padding: 1rem;
+                        font-size: 1.5rem;
+                        + .img.mt-6 {
+                            margin-top: 1.6rem !important;
+                        }
+                    }
+                    .img.mt-6 + .img.mt-6 {
+                        margin-top: 1.2rem !important;
+                    }
+                }
+            }
             .img-data {
                 padding: 0;
             }
         }
         .product-area {
             margin-bottom: 5.6rem;
+        }
+        .text-download {
+            margin-top: 4.8rem !important;
+            .txt {
+                margin-top: 0.3rem;
+            }
+        }
+        .gran-data {
+            .cnt-group .card-list-area .v-col-12 + .v-col-12 {
+                margin-top: 1.6rem;
+            }
+        }
+    }
+
+    // 공통
+
+    // tab style - line
+    // slide-tab
+    .line-tabs {
+        margin: 0 -2.4rem 4rem;
+        .v-slide-group__content {
+            .v-btn:first-of-type {
+                margin-left: 2.4rem;
+            }
+            .v-btn:last-of-type {
+                margin-right: 2.4rem;
+            }
+        }
+        .v-slide-group__next,
+        .v-slide-group__prev {
+            height: 4rem;
+        }
+        .v-btn {
+            font-size: 1.6rem;
+            + .v-btn {
+                margin-left: 2.4rem;
+            }
+            &.active {
+                .v-btn__content::after {
+                    content: '';
+                    height: .2rem;
+                }
+            }
         }
     }
 

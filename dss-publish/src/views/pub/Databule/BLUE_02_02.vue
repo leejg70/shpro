@@ -137,8 +137,8 @@
             </div> 
         </div>
         <!-- 다운로드 -->
-        <router-link to="" class="d-flex text-16 text-decoration-underline mt-16" style="line-height:130%;">
-            <v-icon class="icon-download" />MyData 브로슈어.pdf
+        <router-link to="" class="text-download text-16 mt-16">
+            <v-icon class="icon-pdf" /><span class="txt">MyData 브로슈어.pdf</span>
         </router-link> 
     </div>
     <!--// tab2 - MyData -->
