@@ -84,7 +84,7 @@ const active = ref(true);
             <div class="title subtitle-22">활용단계 : 가명결합/분석 결곽기반 마케팅 실행</div>
             <ul class="list-dot text-16">
               <li>고객사 + 그랜데이터 가명결합/분석을 통해 발굴한 인사이트를 기반으로 마케팅에 유용한 GPS 항목을 선별</li>
-              <li>고객동의 기반으로 선정된 GPS 항목을 획득하고, 이를 활용하여 효울적인 마케팅 실행</li>
+              <li>고객동의 기반으로 선정된 GPS 항목을 획득하고, 이를 활용하여 효율적인 마케팅 실행</li>
             </ul>
             <div class="img-box">
               <img src="@/assets/images/content/img_gps_03.png" alt="" />
