@@ -58,8 +58,8 @@ const active = ref(true);
             </div>
             <ul class="list-dot text-16">
               <li>월평균 3.2억건의 카드 Big Data를 활용, 기존 솔루션보다 더 빠르고 정확한 분석정보 제공</li>
-              <li>블록, 상원단위 뿐만 아니라, 건물 및 매장 단위의 매출(on/off), 고객, 배후지 등 Micro한 분석 지원</li>
-              <li>카드 Data 외 주변환경(주거인구, 아파트) 등 다양한 Data를 활용하여 다차원적인사이트 제시</li>
+              <li>블록, 상권단위 뿐만 아니라, 건물 및 매장 단위의 매출(on/off), 고객, 배후지 등 Micro한 분석 지원</li>
+              <li>카드 Data 외 주변환경(주거인구, 아파트) 등 다양한 Data를 활용하여 다차원적 인사이트 제시</li>
               <li>AI 및 시각화 분석기법을 통해 깊이 있는 정보를 Web상에서 손쉽게 확인 가능</li>
             </ul>
           </div>
@@ -78,8 +78,7 @@ const active = ref(true);
               <v-card variant="text" class="goods-list">
                 <div class="title subtitle-22">매장정보</div>
                 <ul class="list-dot text-16">
-                  <li>전국 카드단말기가 설치되어 있는 모든 매장별로 추정 매출 트렌드, 방문 및 배달 비중, 상권 내 랭킹 및 방문고객 특성 등</li>
-                  <li>국내 유일의 매장단위 매출정보를 제공합니다.</li>
+                  <li>전국 카드단말기가 설치되어 있는 모든 매장별로 추정 매출 트렌드, 방문 및 배달 비중, 상권 내 랭킹 및 방문고객 특성 등 국내 유일의 매장단위 매출정보를 제공합니다.</li>
                 </ul>
                 <div class="img">
                   <img src="@/assets/images/content/img_bizmap_01.png" alt="" />
@@ -101,8 +100,7 @@ const active = ref(true);
               <v-card variant="text" class="goods-list">
                 <div class="title subtitle-22">상권권역설정</div>
                 <ul class="list-dot text-16">
-                  <li>분석 지역 및 목적에 따라 상권의 범위는 다양할 수 있습니다. 이에 My Bizmap은 반경, 격자, 자유형 등</li>
-                  <li>자유롭게 상권권역을 설정할 수 있습니다.</li>
+                  <li>분석 지역 및 목적에 따라 상권의 범위는 다양할 수 있습니다. 이에 My Bizmap은 반경, 격자, 자유형 등 자유롭게 상권권역을 설정할 수 있습니다.</li>
                 </ul>
                 <div class="img">
                   <img src="@/assets/images/content/img_bizmap_03.png" alt="" />
@@ -113,8 +111,7 @@ const active = ref(true);
               <v-card variant="text" class="goods-list">
                 <div class="title subtitle-22">지역거주자 소비</div>
                 <ul class="list-dot text-16">
-                  <li>관심 혹은 분석대상 지역에 거주하는 소비자의 총 소비 트렌드, 업종별 소비규모 및 지역소비 비중 등</li>
-                  <li>지역 거주민의 소비특성을 파악할 수 있습니다.</li>
+                  <li>관심 혹은 분석대상 지역에 거주하는 소비자의 총 소비 트렌드, 업종별 소비규모 및 지역소비 비중 등 지역 거주민의 소비특성을 파악할 수 있습니다.</li>
                 </ul>
                 <div class="img">
                   <img src="@/assets/images/content/img_bizmap_04.png" alt="" />
