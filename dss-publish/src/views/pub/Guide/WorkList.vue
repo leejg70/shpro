@@ -480,12 +480,12 @@
 								<tr>
 									<td class="col-num"></td>
 									<td class="col-1depth">광고서비스</td>
-									<td class="col-2depth"></td>
+									<td class="col-2depth">타겟마케팅</td>
 									<td class="col-3depth"></td>
 									<td class="col-4depth"></td>
 									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
-									<td class="col-url"><router-link to="/PRDM_00" target="_blank">/views/pub/ADService/PRDM_00</router-link></td>
+									<td class="col-url"><router-link to="/PRDM_01" target="_blank">/views/pub/ADService/PRDM_01</router-link></td>
 									<td class="col-date"></td>
 									<td class="col-complete"></td>
 									<td class="col-memo"></td>
@@ -493,12 +493,25 @@
 								<tr>
 									<td class="col-num"></td>
 									<td class="col-1depth"></td>
-									<td class="col-2depth">타겟마케팅</td>
-									<td class="col-3depth">서비스안내</td>
+									<td class="col-2depth">서베이대행서비스</td>
+									<td class="col-3depth"></td>
 									<td class="col-4depth"></td>
 									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
-									<td class="col-url"><router-link to="/PRDM_01" target="_blank">/views/pub/ADService/PRDM_01</router-link></td>
+									<td class="col-url"><router-link to="/PRDM_02" target="_blank">/views/pub/ADService/PRDM_02</router-link></td>
+									<td class="col-date"></td>
+									<td class="col-complete"></td>
+									<td class="col-memo"></td>
+								</tr>
+								<tr>
+									<td class="col-num"></td>
+									<td class="col-1depth"></td>
+									<td class="col-2depth">SOL-Pay 배너광고</td>
+									<td class="col-3depth"></td>
+									<td class="col-4depth"></td>
+									<td class="col-5depth"></td>
+									<td class="col-point">page</td>
+									<td class="col-url"><router-link to="/PRDM_03" target="_blank">/views/pub/ADService/PRDM_03</router-link></td>
 									<td class="col-date"></td>
 									<td class="col-complete"></td>
 									<td class="col-memo"></td>
@@ -581,32 +594,7 @@
 									<td class="col-complete">삭제</td>
 									<td class="col-memo"></td>
 								</tr>
-								<tr>
-									<td class="col-num"></td>
-									<td class="col-1depth"></td>
-									<td class="col-2depth">서베이대행서비스</td>
-									<td class="col-3depth"></td>
-									<td class="col-4depth"></td>
-									<td class="col-5depth"></td>
-									<td class="col-point">page</td>
-									<td class="col-url"><router-link to="/PRDM_02" target="_blank">/views/pub/ADService/PRDM_02</router-link></td>
-									<td class="col-date"></td>
-									<td class="col-complete"></td>
-									<td class="col-memo"></td>
-								</tr>
-								<tr>
-									<td class="col-num"></td>
-									<td class="col-1depth"></td>
-									<td class="col-2depth">SOL-Pay 배너광고</td>
-									<td class="col-3depth"></td>
-									<td class="col-4depth"></td>
-									<td class="col-5depth"></td>
-									<td class="col-point">page</td>
-									<td class="col-url"><router-link to="/PRDM_03" target="_blank">/views/pub/ADService/PRDM_03</router-link></td>
-									<td class="col-date"></td>
-									<td class="col-complete"></td>
-									<td class="col-memo"></td>
-								</tr>
+
 								<tr>
 									<td class="col-num"></td>
 									<td class="col-1depth">API서비스</td>
@@ -2459,7 +2447,6 @@
 		<!-- //공통/기타 -->
 	</div>
 </template>
-
 <style lang="scss">
 /* IA Title */
 .ia-in-sec {padding:0; max-width:100%;}
