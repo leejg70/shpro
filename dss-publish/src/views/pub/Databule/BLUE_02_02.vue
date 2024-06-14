@@ -14,7 +14,7 @@
                 </div>
                 <div class="card-list-area">
                     <v-row>
-                        <v-col cols="12" md="4" sm="6">
+                        <v-col cols="12" lg="4" md="6" sm="12">
                             <v-sheet rounded="lg" class="outlined">
                                 <div class="title subtitle-18">은행</div>
                                 <div class="item">
@@ -29,7 +29,7 @@
                                 </div>
                             </v-sheet>
                         </v-col>
-                        <v-col cols="12" md="4" sm="6">
+                        <v-col cols="12" lg="4" md="6" sm="12">
                             <v-sheet rounded="lg" class="outlined">
                                 <div class="title subtitle-18">카드</div>
                                 <div class="item">
@@ -44,7 +44,7 @@
                                 </div>
                             </v-sheet>
                         </v-col>
-                        <v-col cols="12" md="4" sm="6">
+                        <v-col cols="12" lg="4" md="6" sm="12">
                             <v-sheet rounded="lg" class="outlined">
                                 <div class="title subtitle-18">보험</div>
                                 <div class="item">
@@ -59,7 +59,7 @@
                                 </div>
                             </v-sheet>
                         </v-col>
-                        <v-col cols="12" md="4" sm="6">
+                        <v-col cols="12" lg="4" md="6" sm="12">
                             <v-sheet rounded="lg" class="outlined">
                                 <div class="title subtitle-18">금융투자</div>
                                 <div class="item">
@@ -74,7 +74,7 @@
                                 </div>
                             </v-sheet>
                         </v-col>
-                        <v-col cols="12" md="4" sm="6">
+                        <v-col cols="12" lg="4" md="6" sm="12">
                             <v-sheet rounded="lg" class="outlined">
                                 <div class="title subtitle-18">전자금융</div>
                                 <div class="item">
@@ -89,7 +89,7 @@
                                 </div>
                             </v-sheet>
                         </v-col>
-                        <v-col cols="12" md="4" sm="6">
+                        <v-col cols="12" lg="4" md="6" sm="12">
                             <v-sheet rounded="lg" class="outlined">
                                 <div class="title subtitle-18">통신업</div>
                                 <div class="item">

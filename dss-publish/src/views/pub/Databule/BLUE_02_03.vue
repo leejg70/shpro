@@ -26,7 +26,7 @@
                 <div class="title">개인사업자특화 상품 Line-up</div>
             </div>
             <div class="cnt-text">
-                <div class="img">
+                <div class="img mt-0">
                     <img src="@/assets/images/content/img_mycredit_02.png" alt="" />
                 </div>
             </div>
@@ -40,17 +40,17 @@
             </div>
             <div class="cnt-text">  
                 <div class="text-16">
-                    개인사업자 CB라이선스 및 빅데이터 분석 전문성에 기반, 사업자 단위 정보 제공 및 종합 분석 서비스 제공 가능
+                    개인사업자 CB라이선스 및 빅데이터 분석 전문성에 기반, 사업자 단위 정보 제공 및 종합 분석 서비스 제공이 가능합니다.
                 </div>
                 <ul class="credit-list">
                     <li>
                         <div class="row">
                             <div class="title subtitle-16 why01">탄탄한 사업 Base</div>
                             <div class="text">
-                                <div class="subtitle-22">개인사업자 CB 및 부수 업무 총 5종 기반 사업자/매장 단위의 해상도 높은 데이터 및 분석 결과를 제공합니다.</div>
+                                <div class="subtitle-22">인허가 기반 사업자/매장 단위의 해상도 높은 데이터 및 분석 결과를 제공합니다.</div>
                                 <div class="subtitle-18">개인사업자 CB 및 부수 업무 총 5종</div>
                                 <ul class="list-dot text-16">
-                                    <li>개인 사업자 신용평점 조회, 제 3자 신용정보제공, 가명/익명처리, DB분석/컨설팅, 솔루션/SW판매</li>
+                                    <li>개인사업자 신용평점조회, 제 3자 신용정보제공, 가명/익명처리, DB분석/컨설팅, 솔루션/SW판매</li>
                                 </ul>
                             </div>
                         </div>
@@ -59,7 +59,7 @@
                         <div class="row">
                             <div class="title subtitle-16 why02">전통금융권과 차별화</div>
                             <div class="text">
-                                <div class="subtitle-22">금융 상품 개발 시, 전통 금융권에서 확보 어려운 당사만의 특화 가맹점·대안 데이터로 차별화된 서비스를 제공합니다.</div>
+                                <div class="subtitle-22">기존 신용정보와 차별화 된 당사만의 특화 가맹점·대안 데이터를 제공합니다.</div>
                                 <div class="subtitle-18">MyCredit 대표 데이터 상품</div>
                                 <ul class="list-dot text-16">
                                     <li>오프라인/배달/온라인 가맹점 프로파일 3종 (MPS-Merchant Profile SVC), 개인고객 소비 패턴 서비스 (BPS-Behavioral Pattern SVC)</li>
@@ -71,7 +71,7 @@
                         <div class="row">
                             <div class="title subtitle-16 why03">공신력 있는 모형</div>
                             <div class="text">
-                                <div class="subtitle-22">특화 데이터 기반 공신력 있는 종합 CB모형을 보유중이며, 빅데이터 분석 전문가 그룹이 고객사를 지원합니다.</div>
+                                <div class="subtitle-22">다양한 종합 및 특화 CB모형을 보유 중이며, 빅데이터 분석 전문가 그룹이 고객사를 지원합니다.</div>
                                 <div class="subtitle-18">MyCredit 대표 모형 상품</div>
                                 <ul class="list-dot text-16">
                                     <li>신용평가모형, 매출추정모형, 안정성 평가지수, 상환능력 예측모형, 업권별 승인·한도 전략모형</li>
@@ -84,8 +84,8 @@
             </div>
         </div>
         <!-- 다운로드 -->
-        <router-link to="" class="d-flex text-16 text-decoration-underline mt-16" style="line-height:130%;">
-            <v-icon class="icon-download" />MyCredit 브로슈어.pdf
+        <router-link to="" class="text-download text-16 mt-16">
+            <v-icon class="icon-pdf" /><span class="txt">MyCredit 브로슈어.pdf</span>
         </router-link>
     </div>
     <!--// tab3 - MyCredit -->

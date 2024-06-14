@@ -12,12 +12,12 @@
                 <div class="text-16">
                     이종 빅데이터 융합은 새로운 인사이트, 비즈니스 및 정책의 기회로 이어집니다.
                 </div>
-                <div class="card-list-area">
+                <div class="card-list-area case02">
                     <v-row>
                         <v-col cols="12" md="6">
                             <v-sheet rounded="lg" class="outlined">
                                 <div class="col">
-                                    <v-icon class="icon-banking" />
+                                    <v-icon class="why01" />
                                     <div class="subtitle-22">고객분석</div>
                                     <div class="text-20">"우리 고객은 주말에 주로 어디에서 무엇을 할까?"</div>
                                 </div>
@@ -26,7 +26,7 @@
                         <v-col cols="12" md="6">
                             <v-sheet rounded="lg" class="outlined">
                                 <div class="col">
-                                    <v-icon class="icon-banking" />
+                                    <v-icon class="why02" />
                                     <div class="subtitle-22">상권분석</div>
                                     <div class="text-20">"어느 지역에 점포를 열어야 매출이 크게 늘게 될까?"</div>
                                 </div>
@@ -35,7 +35,7 @@
                         <v-col cols="12" md="6">
                             <v-sheet rounded="lg" class="outlined">
                                 <div class="col">
-                                    <v-icon class="icon-banking" />
+                                    <v-icon class="why03" />
                                     <div class="subtitle-22">정책수립</div>
                                     <div class="text-20">"어디에 CCTV를 설치해야 우리 주민이 더욱 안전할까?"</div>
                                 </div>
@@ -44,7 +44,7 @@
                         <v-col cols="12" md="6">
                             <v-sheet rounded="lg" class="outlined">
                                 <div class="col">
-                                    <v-icon class="icon-banking" />
+                                    <v-icon class="why04" />
                                     <div class="subtitle-22">상품개발</div>
                                     <div class="text-20">"어떤 상품을 출시해야 소비자가 선택하게 될까?"</div>
                                 </div>
@@ -65,7 +65,7 @@
                 <div class="text-16">
                     데이터 전문기관으로 금융위원회로부터 지정된 공신력 있는 데이터 결합 수행 기관으로, 관련 법률에 따라 신용/금융정보의 결합은 데이터전문기관만이 수행할 수 있습니다.
                 </div>
-                <div class="subtitle-22">신용정보법 제17조의 2 (정보집합물의 결합 등)</div>
+                <div class="subtitle-22 mt-16 mb-4">신용정보법 제17조의 2 (정보집합물의 결합 등)</div>
                 <div class="text-16">신용정보회사 등은 자기가 보유한 정보 집합물을 제3자가 보유한 정보집합물과 결합하려는 경우에는 제26조 4에 따라 지정된 데이터전문기관을 통하여 결합하여야한다.</div>
             </div>
         </div>
@@ -103,7 +103,7 @@
             </div>
         </div>
         <!-- 04 -->
-        <div class="cnt-group">
+        <div class="cnt-group pb-4">
             <div class="cnt-title subtitle-24">
                 <div class="num">04</div>
                 <v-divider vertical />
@@ -156,8 +156,8 @@
             </div>
         </div>
         <!-- 다운로드 -->
-        <router-link to="" class="d-flex text-16 text-decoration-underline mt-16" style="line-height:130%;">
-            <v-icon class="icon-download" />브로슈어.pdf
+        <router-link to="" class="text-download text-16 mt-16">
+            <v-icon class="icon-pdf" /><span class="txt">브로슈어.pdf</span>
         </router-link>
     </div>
     <!--// tab4 - 데이터전문기관 -->
