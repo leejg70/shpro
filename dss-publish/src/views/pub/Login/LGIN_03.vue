@@ -28,10 +28,10 @@ const nameRules = ref(['이름은 필수 입력입니다.']);
 <template>
   <div class="member">
     <div class="member-header">
-      <h3 class="h-title">휴면계정해제</h3>
+      <h3 class="h-title">휴면계정 해제</h3><!-- 2024.06.14 띄워쓰기 수정 -->
     </div>
     <div class="member-step no-flow">
-      <div class="step-txt">본인 인증</div>
+      <div class="step-txt">본인인증</div><!-- 2024.06.14 띄워쓰기 수정 -->
     </div>
     <div class="member-text">
       <p class="text">본인 확인을 위한 휴대폰인증을 진행합니다.</p>
