@@ -117,12 +117,14 @@ const allmenu = ref(false);
                         <!-- 로그인 전 -->
                         <!-- <ul class="login-txt-box">
                             <li><a href="javascript:;" class="menu-login"><v-icon>icon-login</v-icon>로그인</a></li>
-                            <li><a href="javascript:;" class="menu-join"><v-icon>icon-join</v-icon>회원가입</a></li>              
+                            <li><a href="javascript:;" class="menu-join"><v-icon>icon-join</v-icon>회원가입</a></li>
                         </ul> -->
                         <!-- 로그인 후 -->
-                        <div class="logout-txt-box">
-                            <div class="logout-txt">안녕하세요. <span class="name">김신한님!</span></div>
-                        </div>
+                         <!-- 2024.06.17 로그아웃 추가, div ul li로 변경-->
+                        <ul class="logout-txt-box">
+                            <li class="logout-txt">안녕하세요. <span class="name">김신한님!</span></li>
+                            <li><a href="javascript:;" class="menu-login"><v-icon>icon-logout</v-icon>로그아웃</a></li> 
+                        </ul>
                     </div>
                 </div>
                 <div class="outlogin-box"><!--  모바일만 보임 -->

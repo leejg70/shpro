@@ -1774,8 +1774,10 @@
     top: 1.2rem;
     right: 1.2rem;
   }
-
+  .logout-txt-box,
   .login-txt-box {
+    display: flex;
+
     li+li {
       margin-left: 2.4rem;
     }
@@ -1785,19 +1787,27 @@
       display: flex;
       align-items: center;
       padding: .4rem 0;
+      font-size: 1.4rem;
     }
 
     .icon-login {
       width: 1.6rem;
       height: 1.6rem;
-      background-image: url('../images/icon/icon_login.png');
+      background-image: url('../images/icon/icon_head_login.png');
       background-size: 1.6rem;
     }
 
     .icon-join {
       width: 1.6rem;
       height: 1.6rem;
-      background-image: url('../images/icon/icon_join.png');
+      background-image: url('../images/icon/icon_head_join.png');
+      background-size: 1.6rem;
+    }
+    
+    .icon-logout {
+      width: 1.6rem;
+      height: 1.6rem;
+      background-image: url('../images/icon/icon_head_logout.png');
       background-size: 1.6rem;
     }
   }
