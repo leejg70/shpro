@@ -434,7 +434,7 @@ const navigation = reactive({
       <div class="main-datable-inner">
         <h2 class="main-title">
           <span class="fw300">Value Together</span>
-          <span class="fw700">Shinhan Datable</span>
+          <span class="fw700">Shinhan Databiz</span>
         </h2>
       </div>
       <div class="datable-slide">
