@@ -1334,6 +1334,15 @@ const DefaultRoutes = {
         appearMenu : true,
         requiresAuth: false
       }
+    },
+    {
+      name: 'ETC_toast_p',
+      path: '/ETC_toast_p',
+      component: () => import('@/views/pub/Common/ETC_toast_p.vue'),
+      meta: {
+        appearMenu : true,
+        requiresAuth: false
+      }
     }
   ]
 };
