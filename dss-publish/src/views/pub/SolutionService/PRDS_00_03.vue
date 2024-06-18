@@ -220,9 +220,9 @@ const active = ref(true);
         </div>
       </div>
       <div class="btn-attach">
-        <router-link to="" class="text-16">
+        <div role="button" class="text-16">
           <v-icon class="icon-ppt" />빅파이낸스 서비스 소개_20240408.pptx
-        </router-link>
+        </div>
       </div>
       <div class="btn-list">
         <v-btn variant="flat" rounded="lg" size="x-large" color="primary">목록</v-btn>

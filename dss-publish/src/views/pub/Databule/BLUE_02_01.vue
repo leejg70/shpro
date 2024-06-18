@@ -18,7 +18,7 @@ const tabs = ref('');
             <v-sheet>
                 <v-slide-group v-model="tabs" show-arrows mandatory class="line-tabs">
                     <v-slide-group-item
-                        v-for="item in [ 'GranData', 'MyData', 'MyCREDIT', '데이터전문기관' ]"
+                        v-for="item in [ 'GranData', 'MyData', 'MyCredit', '데이터전문기관' ]"
                         :key="item"
                         v-slot="{ isSelected, toggle }"
                     >
@@ -115,9 +115,9 @@ const tabs = ref('');
                                 </div>
                             </div>
                             <!-- 다운로드 -->
-                            <router-link to="" class="text-download text-16 mt-16">
+                            <div role="button" class="text-download text-16 mt-16">
                                 <v-icon class="icon-pdf" /><span class="txt">GranData 브로슈어.pdf</span>
-                            </router-link>
+                            </div>
                         </div>
                         <!--// tab1 - GranData -->
                     </v-window-item>

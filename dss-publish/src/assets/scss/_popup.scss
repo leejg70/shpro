@@ -484,10 +484,8 @@
     }
     .table-download {
       padding: .8rem 0;
-      .v-table > .v-table__wrapper > table > tbody > tr > td a {
-        color: #333;
-        text-align: left;
-        text-decoration: underline !important;
+      .v-table > .v-table__wrapper > table > tbody > tr > td .link {
+        text-decoration: underline;
       }
       .v-table > .v-table__wrapper > table > tbody > tr.disabled {
         pointer-events: none;
@@ -495,9 +493,9 @@
         > td {
           background-color: #f3f3f3;
           color: #aaa;
-          a {
+          .link {
             color: #aaa;
-            text-decoration: none !important;
+            text-decoration: none;
           }
         }
       }

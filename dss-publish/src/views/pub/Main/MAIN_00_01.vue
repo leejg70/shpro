@@ -35,7 +35,7 @@ function onClick() {
                         />
                     </div>
                     <div class="hashtag-area">
-                        <router-link to="" v-for="n in ['스타벅스', '전국', '시간대별결제데이터', '해시태그 한줄까지']" class="hashtag">#{{  n  }}</router-link>
+                        <div role="button" v-for="n in ['스타벅스', '전국', '시간대별결제데이터', '해시태그 한줄까지']" class="hashtag">#{{  n  }}</div>
                     </div>
                 </div>
             </div>

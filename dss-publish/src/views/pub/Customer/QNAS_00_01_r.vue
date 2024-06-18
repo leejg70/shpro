@@ -43,9 +43,9 @@
                     </div>
                     <ul class="download-list">
                         <li v-for="x in 4">
-                            <router-link to="" class="d-flex text-16">
+                            <div role="button" class="d-flex text-16">
                                 <v-icon class="icon-download" />[신한카드데이터데이터전문기관] 비밀유지서약서(230101).pdf
-                            </router-link>
+                            </div>
                         </li>
                     </ul>
                 </div>

@@ -67,13 +67,13 @@ const expandRow = ref(false);
                     <!-- 로그인 후 -->
                     <ul class="download-list">
                         <li>
-                            <router-link to="">전국배달업종 결제 데이터.CSV</router-link>
+                            <div role="button" class="text-download">전국배달업종 결제 데이터.CSV</div>
                         </li>
                         <li>
-                            <router-link to="">데이터 가이드.excel</router-link>
+                            <div role="button" class="text-download">데이터 가이드.excel</div>
                         </li>
                         <li>
-                            <router-link to="">다운로드 리스트 맥시멈 5개.excel</router-link>
+                            <div role="button" class="text-download">다운로드 리스트 맥시멈 5개.excel</div>
                         </li>
                     </ul>
                     <!--// 로그인 후 -->

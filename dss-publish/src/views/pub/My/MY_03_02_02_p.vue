@@ -30,7 +30,7 @@ const download = ref(false);
         <div class="table-download">
           <v-table>
             <colgroup>
-              <col width="526px" />
+              <col width="500px" />
               <col width="140px" />
               <col width="140px" />
               <col width="126px" />
@@ -42,37 +42,37 @@ const download = ref(false);
             </thead>
             <tbody>
               <tr>
-                <td><router-link to="">스타벅스 6월 결제 데이터 /데이터 상품명이 길어질 경우 줄바꿈으로 모두 출력됩니다.</router-link></td>
+                <td class="text-left"><div role="button" class="link">스타벅스 6월 결제 데이터 /데이터 상품명이 길어질 경우 줄바꿈으로 모두 출력됩니다.</div></td>
                 <td>2024.03.20</td>
                 <td>2024.03.20</td>
                 <td>Y</td>
               </tr>
               <tr class="disabled">
-                <td><router-link to="">서울시 상권분석 데이터</router-link></td>
+                <td class="text-left"><div role="button" class="link">서울시 상권분석 데이터</div></td>
                 <td>2024.03.20</td>
                 <td>2024.03.20</td>
                 <td>N</td>
               </tr>
               <tr>
-                <td><router-link to="">스타벅스 5월 결제 데이터</router-link></td>
+                <td class="text-left"><div role="button" class="link">스타벅스 5월 결제 데이터</div></td>
                 <td>2024.03.20</td>
                 <td>2024.03.20</td>
                 <td>Y</td>
               </tr>
               <tr>
-                <td><router-link to="">서울시 중구 배달업체 데이터</router-link></td>
+                <td class="text-left"><div role="button" class="link">서울시 중구 배달업체 데이터</div></td>
                 <td>2024.03.20</td>
                 <td>2024.03.20</td>
                 <td>N</td>
               </tr>
               <tr class="disabled">
-                <td><router-link to="">서울시 상권분석 데이터</router-link></td>
+                <td class="text-left"><div role="button" class="link">서울시 상권분석 데이터</div></td>
                 <td>2024.03.20</td>
                 <td>2024.03.20</td>
                 <td>Y</td>
               </tr>
               <tr>
-                <td><router-link to="">서울시 강남구 배달업체 데이터</router-link></td>
+                <td class="text-left"><div role="button" class="link">서울시 강남구 배달업체 데이터</div></td>
                 <td>2024.03.20</td>
                 <td>2024.03.20</td>
                 <td>N</td>

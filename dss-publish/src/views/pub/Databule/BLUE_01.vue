@@ -55,9 +55,9 @@
                     </div>
                 </div>
                 <!-- 다운로드 -->
-                <router-link to="" class="text-download text-16 mt-16">
+                <div role="button" class="text-download text-16 mt-16">
                     <v-icon class="icon-pdf" /><span class="txt">Data Biz팀 브로슈어_2312_출력용.pdf</span>
-                </router-link>
+                </div>
             </div>
         </div>
         <!--//  -->
