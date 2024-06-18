@@ -178,6 +178,11 @@
     .title {
         margin-bottom: 1.6rem;
     }
+    .finace-box {
+        padding: 4rem;
+        background-color: #f2f3f6;
+        border-radius: 1.6rem;
+    }
     .v-row {
         margin: -2.4rem -3.2rem;
         [class^='v-col-'] {
@@ -735,10 +740,7 @@
                 .img {
                     width: 32rem;
                     height: auto;
-                    margin-right: 4rem;
-                    img {
-                        width: 100%;
-                    }
+                    margin: 0 4rem 0 0;
                 }
             }
             .img-box {
@@ -1335,6 +1337,10 @@
         .subtitle-22 {
             font-size: 1.6rem;
         }
+        .finace-box {
+            padding: 2.4rem;
+            border-radius: .8rem;
+        }
         .v-row {
             margin: -2rem;
             [class^='v-col-'] {
@@ -1655,11 +1661,10 @@
                     }
                 }
                 .bizmap-area {
-                    display: block;
+                    display: flex;
                     margin-top: 3.2rem;
                     .img {
-                        width: 100%;
-                        margin: 0 0 3.2rem 0;
+                        margin: 0 3.2rem 0 0;
                     }
                 }
                 .img-box {
@@ -1897,27 +1902,20 @@
     }
 }
 
-@media (min-width: 960px) {
-    // 솔루션서비스, API서비스
+@media (max-width: 960px) {
     .static-content {
         .cnt-group {
+            // 솔루션서비스
             .cnt-text {
                 .bizmap-area {
-                    display: flex;
+                    display: block;
                     .img {
-                        width: 32rem;
-                        margin: 0 3.2rem 0 0;
+                        width: 100%;
+                        margin: 0 0 3.2rem 0;
                     }
                 }
             }
-        }
-    }
-}
-
-@media (max-width: 960px) {
-    // 광고서비스
-    .static-content {
-        .cnt-group {
+            // 광고서비스
             .card-list-area {
                 .v-sheet {
                     &.outlined {
