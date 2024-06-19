@@ -2438,6 +2438,32 @@
 									<td class="col-complete">2024-05-30</td>
 									<td class="col-memo text-error">로딩화면 완료</td>
 								</tr>
+								<tr>
+									<td class="col-num"></td>
+									<td class="col-1depth">Snack Bar</td>
+									<td class="col-2depth">토스트팝업</td>
+									<td class="col-3depth"></td>
+									<td class="col-4depth"></td>
+									<td class="col-5depth"></td>
+									<td class="col-point">popup</td>
+									<td class="col-url"><router-link to="/ETC_toast_p" target="_blank">/views/pub/Common/ETC_toast_p</router-link></td>
+									<td class="col-date">2024-06-19</td>
+									<td class="col-complete"></td>
+									<td class="col-memo"></td>
+								</tr>
+								<tr>
+									<td class="col-num"></td>
+									<td class="col-1depth">Top button</td>
+									<td class="col-2depth">top</td>
+									<td class="col-3depth"></td>
+									<td class="col-4depth"></td>
+									<td class="col-5depth"></td>
+									<td class="col-point">popup</td>
+									<td class="col-url"><router-link to="/ETC_topbtn_p" target="_blank">/views/pub/Common/ETC_topbtn_p</router-link></td>
+									<td class="col-date">2024-06-19</td>
+									<td class="col-complete"></td>
+									<td class="col-memo"></td>
+								</tr>
 							</tbody>
 						</table>
 					</div>
