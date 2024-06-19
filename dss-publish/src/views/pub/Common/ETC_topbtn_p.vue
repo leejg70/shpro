@@ -1,13 +1,12 @@
 <script setup>
-import snackbar from '../Components/SnackBar.vue';
+import topbutton from '../Components/TopBtn.vue';
 </script>
-
 <template>
   <div class="contents-area">
     Contents<br>Area
   </div>
   <!-- top 버튼 -->
-  <snackbar/>
+  <topbutton />
 </template>
 
 <style lang="scss" Scoped>

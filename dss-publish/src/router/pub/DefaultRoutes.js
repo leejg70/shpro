@@ -1343,6 +1343,15 @@ const DefaultRoutes = {
         appearMenu : true,
         requiresAuth: false
       }
+    },
+    {
+      name: 'ETC_topbtn_p',
+      path: '/ETC_topbtn_p',
+      component: () => import('@/views/pub/Common/ETC_topbtn_p.vue'),
+      meta: {
+        appearMenu : true,
+        requiresAuth: false
+      }
     }
   ]
 };
