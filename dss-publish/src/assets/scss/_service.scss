@@ -172,6 +172,17 @@
                 }
             }
         }
+        &.solpay {
+            .title {
+                text-align: center;
+            }
+            .list-dot {
+                margin-top: 1.6rem;
+            }
+            .img {
+                margin-top: 0;
+            }
+        }
     }
 }
 .finace-list-area {
@@ -1680,6 +1691,9 @@
             }
             .card-list-area {
                 margin-top: 3.2rem;
+                .v-col-12 {
+                    display: flex;
+                }
                 .v-sheet {
                     &.rounded-lg {
                         border-radius: .8rem !important;
@@ -1688,6 +1702,7 @@
                         padding: 1.6rem;
                     }
                     &.outlined {
+                        flex-grow: 1;
                         padding: 1.2rem;
                         .item {
                             // min-height: auto;
