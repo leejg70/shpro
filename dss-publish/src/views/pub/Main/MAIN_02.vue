@@ -51,13 +51,13 @@ const navigation = reactive({
             <a href="javascript:;" class="block-all">
               <div class="main-visual-list" style="background-color: #eee;">
                 <div class="visual-txt-area">
-                  <span class="visual-stit">Data + Blue</span>
+                  <span class="visual-stit">Data + Bada</span>
                   <p class="visual-title">
-                    <span>신한 Data Blue의</span><br>
+                    <span>신한 Data Bada의</span><br>
                     <span>다양한 Data를</span><br>
                     <span>탐험하세요.</span>
                   </p>
-                  <span class="visual-more"><span>Data Blue 바로가기 </span><v-icon>icon-card-arrow</v-icon></span>
+                  <span class="visual-more"><span>Data Bada 바로가기 </span><v-icon>icon-card-arrow</v-icon></span>
                 </div>
                 <div class="visual-img">
                   <img src="../../../assets/images/main/visual_img1.png" alt="">
@@ -69,13 +69,13 @@ const navigation = reactive({
             <a href="javascript:;" class="block-all">
               <div class="main-visual-list" style="background-color: #eee;">
                 <div class="visual-txt-area">
-                  <span class="visual-stit">Data + Blue</span>
+                  <span class="visual-stit">Data + Bada</span>
                   <p class="visual-title">
                     <span>A World beyond</span><br>
                     <span>Imagination</span><br>
                     <span>that Makes Data.</span>
                   </p>
-                  <span class="visual-more"><span>Data Blue 바로가기 </span><v-icon>icon-card-arrow</v-icon></span>
+                  <span class="visual-more"><span>Data Bada 바로가기 </span><v-icon>icon-card-arrow</v-icon></span>
                 </div>
                 <div class="visual-img">
                   <img src="../../../assets/images/main/visual_img2.png" alt="">
@@ -87,13 +87,13 @@ const navigation = reactive({
             <a href="javascript:;" class="block-all">
               <div class="main-visual-list" style="background-color: #eee;">
                 <div class="visual-txt-area">
-                  <span class="visual-stit">Data + Blue</span>
+                  <span class="visual-stit">Data + Bada</span>
                   <p class="visual-title">
-                    <span>신한 Data Blue의</span><br>
+                    <span>신한 Data Bada의</span><br>
                     <span>다양한 Data를</span><br>
                     <span>탐험하세요.</span>
                   </p>
-                  <span class="visual-more"><span>Data Blue 바로가기 </span><v-icon>icon-card-arrow</v-icon></span>
+                  <span class="visual-more"><span>Data Bada 바로가기 </span><v-icon>icon-card-arrow</v-icon></span>
                 </div>
                 <div class="visual-img">
                   <img src="../../../assets/images/main/visual_img1.png" alt="">
@@ -105,13 +105,13 @@ const navigation = reactive({
             <a href="javascript:;" class="block-all">
               <div class="main-visual-list" style="background-color: #eee;">
                 <div class="visual-txt-area">
-                  <span class="visual-stit">Data + Blue</span>
+                  <span class="visual-stit">Data + Bada</span>
                   <p class="visual-title">
                     <span>A World beyond</span><br>
                     <span>Imagination</span><br>
                     <span>that Makes Data.</span>
                   </p>
-                  <span class="visual-more"><span>Data Blue 바로가기 </span><v-icon>icon-card-arrow</v-icon></span>
+                  <span class="visual-more"><span>Data Bada 바로가기 </span><v-icon>icon-card-arrow</v-icon></span>
                 </div>
                 <div class="visual-img">
                   <img src="../../../assets/images/main/visual_img2.png" alt="">
