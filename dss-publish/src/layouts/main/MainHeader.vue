@@ -31,7 +31,7 @@ const allmenu = ref(false);
     <header class="header">
         <div class="head-inner">
             <div class="out-login-wrap">
-                <button type="button" class="btn-daram">DataBlue</button>
+                <button type="button" class="btn-daram">DataBada</button>
                 <ul>
                     <li><a href="javascript:;" class="">로그인</a></li>
                     <li><a href="javascript:;" class="">회원가입</a></li>
@@ -44,7 +44,11 @@ const allmenu = ref(false);
                 </ul>
             </div>
             <div class="gnb-wrap">
-                <h1 class="logo-title"><img src="../../assets/images/common/logo.png" alt="" class="logo"></h1>                
+                <h1 class="logo-title">
+                    <router-link :to="{ name: 'MAIN_01' }">
+                        <img src="../../assets/images/common/logo.png" alt="" class="logo">
+                    </router-link>
+                </h1>                
                 <nav class="gnb-menu"  :class="show ? 'active': ''"   @mouseover="show = true" @mouseout="show = false"><!--2024.05.31  class추가 -->
                     <ul class="menu-list">
                         <li><a href="javascript:;" class="">Data서비스</a></li>
@@ -219,28 +223,3 @@ const allmenu = ref(false);
         </div>
     </v-dialog>
 </template>
-<style>
-/* .slide-up {
-    transition: all 0.25s ease;
-    height: auto;
-    z-index: 9999;
-}
-.slide-up-enter-active {
-  transition: all 0.25s ease;
-  opacity: 1;
-  height: 1px;
-  z-index: 9999;
-
-} */
-
-/* .slide-up-leave-active {
-  transition: all 0.25s cubic-bezier(1, 0.5, 0.8, 1);
-} */
-
-/* .slide-up-enter,
-.slide-up-leave-active {
-    opacity: 0;
-    height: 1px;
-    overflow: hidden;
-}  */
-</style>

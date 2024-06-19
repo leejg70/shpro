@@ -128,7 +128,7 @@ input.v-field__input {background-color: transparent !important;}
 .out-login-wrap > ul li a {display: flex; font-size: 1.4rem; color: #111518;}
 .out-login-wrap > ul li a.name{color: #356CFF;}
 .gnb-wrap .logo,
-.allmenu .logo {height: 4rem;}
+.allmenu .logo {height: 3.6rem;}
 .gnb-wrap .menu-list,.gnb-wrap .util-list {display: flex;}
 .gnb-wrap .menu-list li + li {margin-left: 5.6rem;}
 .gnb-wrap .menu-list li a {display: flex; align-items: center; height: 8rem; font-size: 2rem; font-weight: 500;}
@@ -142,8 +142,8 @@ input.v-field__input {background-color: transparent !important;}
 /* Footer */
 .v-footer.footer {flex: unset; height: auto; margin: 0; padding: 4rem 0; border-top: .1rem solid #e0e0e0;}
 .footer .foot-inner {position: relative; display: flex; width: 100%; margin: 0 auto;}
-.bottom-logo {display: flex; justify-content: center; align-items: center; width: 12rem; height: 3.2rem; padding: 0; background-image: url('../images/common/bottom_logo.png'); background-repeat: no-repeat; background-size: 100%;}
-.addr-wrap {display: flex; flex-direction: column; margin-left: 8.8rem; font-size: 1.4rem;}
+.bottom-logo {display: flex; justify-content: center; align-items: center; width: 16rem; height: 3.2rem; padding: 0; background-image: url('../images/common/bottom_logo.png'); background-repeat: no-repeat; background-size: 100%;}
+.addr-wrap {display: flex; flex-direction: column; margin-left: 12rem; font-size: 1.4rem;}
 .addr-wrap > ul {display: flex; font-family: 'OneShinhan';}
 .addr-wrap > ul > li:not(:first-child) {margin-left: 2.4rem;}
 .addr-wrap > ul > li {position: relative; font-family: 'OneShinhan'; font-weight: 700;}
