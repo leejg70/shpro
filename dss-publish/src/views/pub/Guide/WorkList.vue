@@ -421,7 +421,7 @@
 									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
 									<td class="col-url"><router-link to="/PRDS_00_01" target="_blank">/views/pub/SolutionService/PRDS_00_01</router-link></td>
-									<td class="col-date">2024-06-19</td>
+									<td class="col-date">2024-06-07</td>
 									<td class="col-complete"></td>
 									<td class="col-memo"></td>
 								</tr>
@@ -434,7 +434,7 @@
 									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
 									<td class="col-url"><router-link to="/PRDS_00_02" target="_blank">/views/pub/SolutionService/PRDS_00_02</router-link></td>
-									<td class="col-date">2024-06-19</td>
+									<td class="col-date">2024-06-07</td>
 									<td class="col-complete"></td>
 									<td class="col-memo"></td>
 								</tr>
@@ -447,7 +447,7 @@
 									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
 									<td class="col-url"><router-link to="/PRDS_00_03" target="_blank">/views/pub/SolutionService/PRDS_00_03</router-link></td>
-									<td class="col-date">2024-06-19</td>
+									<td class="col-date">2024-06-07</td>
 									<td class="col-complete"></td>
 									<td class="col-memo"></td>
 								</tr>
@@ -460,7 +460,7 @@
 									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
 									<td class="col-url"><router-link to="/PRDS_00_04" target="_blank">/views/pub/SolutionService/PRDS_00_04</router-link></td>
-									<td class="col-date">2024-06-19</td>
+									<td class="col-date">2024-06-07</td>
 									<td class="col-complete"></td>
 									<td class="col-memo"></td>
 								</tr>
@@ -473,7 +473,7 @@
 									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
 									<td class="col-url"><router-link to="/PRDS_00_05" target="_blank">/views/pub/SolutionService/PRDS_00_05</router-link></td>
-									<td class="col-date">2024-06-19</td>
+									<td class="col-date">2024-06-07</td>
 									<td class="col-complete"></td>
 									<td class="col-memo"></td>
 								</tr>
@@ -2427,29 +2427,16 @@
 								</tr>
 								<tr>
 									<td class="col-num"></td>
-									<td class="col-1depth">Snack Bar</td>
-									<td class="col-2depth">토스트팝업</td>
+									<td class="col-1depth">Loading Bar</td>
+									<td class="col-2depth"></td>
 									<td class="col-3depth"></td>
 									<td class="col-4depth"></td>
 									<td class="col-5depth"></td>
 									<td class="col-point">popup</td>
-									<td class="col-url"><router-link to="/ETC_toast_p" target="_blank">/views/pub/Common/ETC_toast_p</router-link></td>
-									<td class="col-date">2024-06-19</td>
-									<td class="col-complete"></td>
-									<td class="col-memo"></td>
-								</tr>
-								<tr>
-									<td class="col-num"></td>
-									<td class="col-1depth">Top button</td>
-									<td class="col-2depth">top</td>
-									<td class="col-3depth"></td>
-									<td class="col-4depth"></td>
-									<td class="col-5depth"></td>
-									<td class="col-point">popup</td>
-									<td class="col-url"><router-link to="/ETC_topbtn_p" target="_blank">/views/pub/Common/ETC_topbtn_p</router-link></td>
-									<td class="col-date">2024-06-19</td>
-									<td class="col-complete"></td>
-									<td class="col-memo"></td>
+									<td class="col-url"><router-link to="/ETC_04_p" target="_blank">/views/pub/Common/ETC_04_p</router-link></td>
+									<td class="col-date">2024-05-29</td>
+									<td class="col-complete">2024-05-30</td>
+									<td class="col-memo text-error">로딩화면 완료</td>
 								</tr>
 							</tbody>
 						</table>
