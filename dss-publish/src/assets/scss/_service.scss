@@ -748,10 +748,6 @@
                 padding: 0;
                 background-color: #f9f9f9;
                 border-radius: 1.6rem;
-                &.marketing {
-                    background-color: transparent;
-                    border-radius: 0;
-                }
                 img {
                     width: 100%;
                 }
@@ -844,57 +840,37 @@
                         .list-dot {
                             margin-left: 3.2rem;
                             color: #333;
-                        }
-                        &.targeting {
-                            justify-content: space-between;
-                            .v-icon.target {
-                                align-self: flex-end;
-                                width: 8rem;
-                                height: 8rem;
-                                margin-bottom: .8rem;
-                            }
-                            .list-dot {
-                                margin-left: 0;
-                                .list-line {
-                                    color: #666;
-                                    > li {
-                                        position: relative;
-                                        padding-bottom: .8rem;
-                                        padding-left: 1.3rem;
-                                        &:first-child {
-                                            margin-top: .8rem;
-                                        }
-                                        &:last-child {
-                                            padding-bottom: 0;
-                                        }
-                                        &::before {
-                                            content: '';
-                                            display: inline-block;
-                                            position: absolute;
-                                            top: 1.2rem;
-                                            left: .3rem;
-                                            width: .5rem;
-                                            height: .1rem;
-                                            background-color: #666;
-                                        }
+                            .list-line {
+                                color: #666;
+                                > li {
+                                    position: relative;
+                                    padding-bottom: .8rem;
+                                    padding-left: 1.3rem;
+                                    &:first-child {
+                                        margin-top: .8rem;
+                                    }
+                                    &:last-child {
+                                        padding-bottom: 0;
+                                    }
+                                    &::before {
+                                        content: '';
+                                        display: inline-block;
+                                        position: absolute;
+                                        top: 1.2rem;
+                                        left: .3rem;
+                                        width: .5rem;
+                                        height: .1rem;
+                                        background-color: #666;
                                     }
                                 }
                             }
-                            .desc {
-                                display: flex;
-                                margin: 1.6rem 0 .8rem;
-                                color: #666;
-                                .character {
-                                    margin-right: 0.4rem;
-                                }
-                            }
                         }
-                        &.survey {
-                            min-height: 8.8rem;
-                            .v-icon.target {
-                                width: 8rem;
-                                height: 8rem;
-                                margin-bottom: .8rem;
+                        .desc {
+                            display: flex;
+                            margin: 1.6rem 0 .8rem 3.2rem;
+                            color: #666;
+                            .character {
+                                margin-right: .4rem;
                             }
                         }
                         &.cds {
@@ -921,6 +897,21 @@
                             }
                             &.why04 {
                                 background-image: url('../images/icon/icon_consultant_04.png');
+                            }
+                        }
+                        &.survey {
+                            .v-icon {
+                                width: 5.6rem;
+                                height: 5.6rem;
+                                &.survey01 {
+                                    background-image: url('../images/icon/icon_survey_01.png');
+                                }
+                                &.survey02 {
+                                    background-image: url('../images/icon/icon_survey_02.png');
+                                }
+                                &.survey03 {
+                                    background-image: url('../images/icon/icon_survey_03.png');
+                                }
                             }
                         }
                         .subtitle-22 {
@@ -992,30 +983,6 @@
             // 마케팅 결과 분석
             .v-icon.analysis {
                 background-image: url('../images/icon/icon_marketing_04.png');
-            }
-            // 가맹점 기반 필터링
-            .v-icon.franchise {
-                background-image: url('../images/icon/icon_survey_01.png');
-            }
-            // 이용일/시간대별 상세화
-            .v-icon.schedule {
-                background-image: url('../images/icon/icon_survey_02.png');
-            }
-            // 정교한 대상 고객 선정
-            .v-icon.guest {
-                background-image: url('../images/icon/icon_survey_03.png');
-            }
-            // 가맹점 기반 필터링
-            .v-icon.filtering {
-                background-image: url('../images/icon/icon_survey_04.png');
-            }
-            // 응답 필터링
-            .v-icon.answer {
-                background-image: url('../images/icon/icon_survey_05.png');
-            }
-            // 소비 Data 결합
-            .v-icon.spend {
-                background-image: url('../images/icon/icon_survey_06.png');
             }
         }
         .credit-list {
@@ -1089,7 +1056,6 @@
         }
     }
 }
-
 
 // 공통
 
@@ -1732,35 +1698,16 @@
                             }
                             .list-dot {
                                 margin-left: 2.4rem;
-                            }
-                            &.targeting {
-                                min-height: 14.5rem;
-                                .v-icon.target {
-                                    align-self: flex-end;
-                                    flex-shrink: 0;
-                                    width: 6.4rem;
-                                    height: 6.4rem;
-                                    margin-left: 2.4rem;
-                                }
-                                .list-dot {
-                                    .list-line {
-                                        > li {
-                                            &::before {
-                                                top: 1rem;
-                                            }
+                                .list-line {
+                                    > li {
+                                        &::before {
+                                            top: 1rem;
                                         }
                                     }
                                 }
-                                .desc {
-                                    margin: .8rem 0;
-                                }
                             }
-                            &.survey {
-                                min-height: 7.2rem;
-                                .v-icon.target {
-                                    width: 6.4rem;
-                                    height: 6.4rem;
-                                }
+                            .desc {
+                                margin: .8rem 0 .8rem 2.4rem;
                             }
                             &.cds {
                                 min-height: 5.8rem;
@@ -1922,6 +1869,15 @@
                         .item {
                             &.targeting {
                                 min-height: auto !important;
+                                .v-icon {
+                                    display: none;
+                                }
+                                .list-dot {
+                                    margin-left: 0;
+                                }
+                                .desc {
+                                    margin-left: 0;
+                                }
                             }
                         }
                     }
