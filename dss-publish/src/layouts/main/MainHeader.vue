@@ -185,9 +185,9 @@ const allmenu = ref(false);
                         </ul>
                     </div>
                     <div class="allmenu-list">                    
-                        <h2 class="title"><span>DataBlue</span></h2> 
+                        <h2 class="title"><span>DataBada</span></h2> 
                         <ul class="dep1_list">
-                            <li class="item"><a href="javascript:;">DataBlue</a></li>
+                            <li class="item"><a href="javascript:;">DataBada</a></li>
                             <li class="item"><a href="javascript:;">신한 DataUniverse</a></li>
                         </ul>
                     </div>

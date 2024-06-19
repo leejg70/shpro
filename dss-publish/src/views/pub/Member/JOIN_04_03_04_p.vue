@@ -101,7 +101,7 @@ const emailurlRules = ref(['법인 도메인이 올바르지 않습니다. 확�
                   required
                 ></v-text-field>
               </div>
-              <p class="text-tip message">datablue@shinhan.com일 경우 @를 제외한 shinhan.com만 입력해주세요.</p><!-- 2024.05.21 안내문구 추가 -->
+              <p class="text-tip message">databada@shinhan.com일 경우 @를 제외한 shinhan.com만 입력해주세요.</p><!-- 2024.05.21 안내문구 추가 -->
               <!-- <p class="text-tip error">이미 등록된 도메인입니다.</p> -->
             </div>
           </div>

@@ -91,7 +91,7 @@ function onClick() {
                 <div class="title">원하시는 데이터 상품이 없으신가요?</div>
                 <div class="inquiry-box">
                     <div class="text">
-                        Datablue의 데이터 전문가가 해결해 드립니다.<br />
+                        DataBada의 데이터 전문가가 해결해 드립니다.<br />
                         궁금하신점은 데이터 전문가에게 문의해주세요.
                     </div>
                     <div class="ml-auto">
