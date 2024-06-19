@@ -6,7 +6,7 @@ import snackbar from '../Components/SnackBar.vue';
   <div class="contents-area">
     Contents<br>Area
   </div>
-  <!-- top 버튼 -->
+  <!-- 토스트팝업 -->
   <snackbar/>
 </template>
 
