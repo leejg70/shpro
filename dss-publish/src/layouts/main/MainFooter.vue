@@ -21,10 +21,10 @@ const footerLink = shallowRef([
                 <li v-for="(item, i) in footerLink" :key="i"><a :href="item.link">{{ item.title }}</a></li>          
             </ul>
             <address>
-                <p><span>서울특별시 중구 을지로 100 (을지로2가, 파인에비뉴 A동) 신한카드 데이터전문기관</span></p>
-                <p><span>대표전화 : 02-6950-8888</span><span>이메일 : data_admin@shinhan.com</span></p>    
+                <p><span>서울특별시 중구 을지로 100 (을지로2가, 파인에비뉴 A동) 신한카드</span></p>
+                <p><span>이메일: databada@shinhan.com</span></p>    
             </address>
-            <p class="copyright">Copyright 2024 Shinhan Data Specialized Institution All Rights Reserved.</p>
+            <p class="copyright">Copyright 2024 Shinhan Card DataBada. All Rights Reserved.</p>
         </div>
     </div>            
   </v-footer>
