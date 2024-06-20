@@ -33,7 +33,9 @@
 		<!-- //Note -->
 		<br>
 		<div class="ia-total">
-			<p class="ia-msg">전체 페이지 : 157</p>
+			<p class="ia-msg">전체 페이지 : {{ total }}</p>
+			<p class="ia-msg">전체 진척률 : {{ totalPercentage }}%</p>
+			
 			<p class="ia-version">IA 버전 : v1.3</p>
 		</div>
 		<!-- 00_Guide -->
@@ -132,9 +134,9 @@
 			<div class="ia-section-header">
 				<h2 class="ia-h2"><a href="#this" class="accordion-toggle">메인</a></h2>
 				<div class="ia-legend">
-					<span class="item"><em>총 페이지 : </em><em class="legend-total">6</em>,</span>
-					<span class="item c-done"><em>완료 : </em><em class="legend-complete">0</em>,</span>
-					<span class="item"><em>진척률 : </em><em class="legend-process">0%</em></span>
+					<span class="item"><em>총 페이지 : </em><em class="legend-total">{{ counts.gIA1 }}</em>,</span>
+					<span class="item c-done"><em>완료 : </em><em class="legend-complete">{{ dateCounts.gIA1 }}</em>,</span>
+					<span class="item"><em>진척률 : </em><em class="legend-process">{{ percentages.gIA1 }}%</em></span>
 				</div>
 			</div>
 			<div class="ia-section-body" style="height: auto;">
@@ -269,9 +271,9 @@
 			<div class="ia-section-header">
 				<h2 class="ia-h2"><a href="#this" class="accordion-toggle">GNB 메뉴</a></h2>
 				<div class="ia-legend">
-					<span class="item"><em>총 페이지 : </em><em class="legend-total">52</em>,</span>
-					<span class="item c-done"><em>완료 : </em><em class="legend-complete">0</em>,</span>
-					<span class="item"><em>진척률 : </em><em class="legend-process">0%</em></span>
+					<span class="item"><em>총 페이지 : </em><em class="legend-total">{{ counts.gIA2 }}</em>,</span>
+					<span class="item c-done"><em>완료 : </em><em class="legend-complete">{{ dateCounts.gIA2 }}</em>,</span>
+					<span class="item"><em>진척률 : </em><em class="legend-process">{{ percentages.gIA2 }}%</em></span>
 				</div>
 			</div>
 			<div class="ia-section-body" style="height: auto;">
@@ -998,9 +1000,9 @@
 			<div class="ia-section-header">
 				<h2 class="ia-h2"><a href="#this" class="accordion-toggle">그외 메뉴</a></h2>
 				<div class="ia-legend">
-					<span class="item"><em>총 페이지 : </em><em class="legend-total">25</em>,</span>
-					<span class="item c-done"><em>완료 : </em><em class="legend-complete">0</em>,</span>
-					<span class="item"><em>진척률 : </em><em class="legend-process">0%</em></span>
+					<span class="item"><em>총 페이지 : </em><em class="legend-total">{{ counts.gIA3 }}</em>,</span>
+					<span class="item c-done"><em>완료 : </em><em class="legend-complete">{{ dateCounts.gIA3 }}</em>,</span>
+					<span class="item"><em>진척률 : </em><em class="legend-process">{{ percentages.gIA3 }}%</em></span>
 				</div>
 			</div>
 			<div class="ia-section-body" style="height: auto;">
@@ -1390,9 +1392,9 @@
 			<div class="ia-section-header">
 				<h2 class="ia-h2"><a href="#this" class="accordion-toggle">로그인/로그아웃/회원가입</a></h2>
 				<div class="ia-legend">
-					<span class="item"><em>총 페이지 : </em><em class="legend-total">65</em>,</span>
-					<span class="item c-done"><em>완료 : </em><em class="legend-complete">0</em>,</span>
-					<span class="item"><em>진척률 : </em><em class="legend-process">0%</em></span>
+					<span class="item"><em>총 페이지 : </em><em class="legend-total">{{ counts.gIA4 }}</em>,</span>
+					<span class="item c-done"><em>완료 : </em><em class="legend-complete">{{ dateCounts.gIA4 }}</em>,</span>
+					<span class="item"><em>진척률 : </em><em class="legend-process">{{ percentages.gIA4 }}%</em></span>
 				</div>
 			</div>
 			<div class="ia-section-body" style="height: auto;">
@@ -2291,9 +2293,9 @@
 			<div class="ia-section-header">
 				<h2 class="ia-h2"><a href="#this" class="accordion-toggle">공통/기타</a></h2>
 				<div class="ia-legend">
-					<span class="item"><em>총 페이지 : </em><em class="legend-total">9</em>,</span>
-					<span class="item c-done"><em>완료 : </em><em class="legend-complete">0</em>,</span>
-					<span class="item"><em>진척률 : </em><em class="legend-process">0%</em></span>
+					<span class="item"><em>총 페이지 : </em><em class="legend-total">{{ counts.gIA5 }}</em>,</span>
+					<span class="item c-done"><em>완료 : </em><em class="legend-complete">{{ dateCounts.gIA5 }}</em>,</span>
+					<span class="item"><em>진척률 : </em><em class="legend-process">{{ percentages.gIA5 }}%</em></span>
 				</div>
 			</div>
 			<div class="ia-section-body" style="height: auto;">
@@ -2473,6 +2475,80 @@
 		<!-- //공통/기타 -->
 	</div>
 </template>
+
+<script setup>
+import { ref, onMounted, computed } from 'vue';
+
+const ids = ['gIA1', 'gIA2', 'gIA3', 'gIA4', 'gIA5'];
+
+// 트 개수를 저장할 객체
+const counts = ref({
+  gIA1: 0,
+  gIA2: 0,
+  gIA3: 0,
+  gIA4: 0,
+  gIA5: 0,
+});
+
+// 날짜가 있는 col-complete 클래스의 개수를 저장할 객체
+const dateCounts = ref({
+  gIA1: 0,
+  gIA2: 0,
+  gIA3: 0,
+  gIA4: 0,
+  gIA5: 0,
+});
+
+// 백분율을 저장할 객체
+const percentages = ref({
+  gIA1: 0,
+  gIA2: 0,
+  gIA3: 0,
+  gIA4: 0,
+  gIA5: 0,
+});
+
+// 트 개수 총합 계산
+const total = computed(() => {
+  return Object.values(counts.value).reduce((acc, count) => acc + count, 0);
+});
+
+// 날짜가 있는 col-complete 클래스의 총합 계산
+const totalDateCount = computed(() => {
+  return Object.values(dateCounts.value).reduce((acc, count) => acc + count, 0);
+});
+
+// 백분율 계산
+const totalPercentage = computed(() => {
+  const totalElements = total.value;
+  const totalDateElements = totalDateCount.value;
+  return totalElements > 0 ? ((totalDateElements / totalElements) * 100).toFixed(2) : 0;
+});
+
+onMounted(() => {
+  ids.forEach(id => {
+    // 각 id의 tr 개수 계산
+    counts.value[id] = document.querySelectorAll(`#${id} tr`).length - 1;
+
+    // 각 id의 col-complete 클래스 요소 중 날짜가 있는 개수 계산
+    const colCompleteElements = document.querySelectorAll(`#${id} .col-complete`);
+    const colCompleteDateCount = Array.from(colCompleteElements).filter(el => el.textContent.trim() !== '').length - 1;
+
+    // 각 id의 del 클래스 요소 개수 계산
+    const delElements = document.querySelectorAll(`#${id} .del`);
+    const delCount = delElements.length;
+
+    // 날짜가 있는 col-complete 요소 개수에서 del 요소 개수를 뺌
+    dateCounts.value[id] = colCompleteDateCount - delCount;
+
+		// 백분율 계산
+    percentages.value[id] = counts.value[id] > 0 ? ((dateCounts.value[id] / (counts.value[id] - delCount)) * 100).toFixed(2) : 0;
+  });
+});
+</script>
+
+
+
 <style lang="scss">
 /* IA Title */
 .ia-in-sec {padding:0; max-width:100%;}
@@ -2524,7 +2600,7 @@
 .ia-total {position:relative; width:100%; height:24px; margin-bottom:5px;}
 .ia-total .ia-msg {float:left; font-size:16px;}
 .ia-total .ia-version {float:right; font-size:14px;}
-
+.ia-total .ia-msg + .ia-msg{margin-left: 20px;}
 /* Graph */
 .ia-graph li {margin:3px 0;}
 .ia-graph a {display:block; position:relative; line-height:20px;}
