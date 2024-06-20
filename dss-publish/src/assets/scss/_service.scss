@@ -1801,11 +1801,6 @@
                 margin-top: 0.3rem;
             }
         }
-        .gran-data {
-            .cnt-group .card-list-area .v-col-12 + .v-col-12 {
-                margin-top: 1.6rem;
-            }
-        }
     }
 
     // 공통
@@ -1900,6 +1895,11 @@
                 .v-row .v-col-sm-12 .v-sheet.outlined .item {
                     min-height: auto;
                 }
+            }
+        }
+        .gran-data {
+            .cnt-group .card-list-area .v-col-sm-12 + .v-col-sm-12 {
+                margin-top: 1.6rem;
             }
         }
     }

@@ -46,7 +46,7 @@ const tabs = ref('');
                                 </div>
                                 <div class="cnt-text">
                                     <div class="text-16">
-                                        데이터 수요가 가장 높은 카드/통신/신용 각 업권별 1위 사업자가 2021년 출범한 데이터 사업 Alliance로, 현재 금융결제원 및 제조업·유통업도 참여하고 있습니다.
+                                        데이터 수요가 가장 높은 카드/통신/신용 각 업권별 1위 사업자가 2021년 출범한 데이터 사업 Alliance로, 금융결제원 및 제조업·유통업 등 지속적으로 Alliance를 확대해가고 있습니다.
                                     </div>
                                     <div class="img">
                                         <img src="@/assets/images/content/img_grandata_01_01.png" alt="" />
@@ -68,7 +68,7 @@ const tabs = ref('');
                                     <div class="text-16">카드/통신/신용 데이터를 중심으로 고객의 분석 목적에 맞는 다양한 가명결합 및 통계결합 방식의 데이터 상품을 보유하고 있습니다.</div>
                                     <div class="card-list-area">
                                         <v-row>
-                                            <v-col cols="12" md="6">
+                                            <v-col cols="12" md="6" sm="12">
                                                 <v-sheet rounded="lg" class="flat">
                                                     <div class="title subtitle-18" style="">가명 결합 상품</div>
                                                     <div class="img mt-6">
@@ -82,7 +82,7 @@ const tabs = ref('');
                                                     </div>
                                                 </v-sheet>
                                             </v-col>
-                                            <v-col cols="12" md="6">
+                                            <v-col cols="12" md="6" sm="12">
                                                 <v-sheet rounded="lg" class="flat">
                                                     <div class="title subtitle-18" style="">통계 결합 상품</div>
                                                     <div class="img mt-6">
