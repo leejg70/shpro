@@ -136,6 +136,7 @@
 				<div class="ia-legend">
 					<span class="item"><em>총 페이지 : </em><em class="legend-total">{{ counts.gIA1 }}</em>,</span>
 					<span class="item c-done"><em>완료 : </em><em class="legend-complete">{{ dateCounts.gIA1 }}</em>,</span>
+					<span class="item c-done"><em>삭제 : </em><em class="legend-del">{{ delCounts.gIA1 }}</em>,</span>
 					<span class="item"><em>진척률 : </em><em class="legend-process">{{ percentages.gIA1 }}%</em></span>
 				</div>
 			</div>
@@ -273,6 +274,7 @@
 				<div class="ia-legend">
 					<span class="item"><em>총 페이지 : </em><em class="legend-total">{{ counts.gIA2 }}</em>,</span>
 					<span class="item c-done"><em>완료 : </em><em class="legend-complete">{{ dateCounts.gIA2 }}</em>,</span>
+					<span class="item c-done"><em>삭제 : </em><em class="legend-del">{{ delCounts.gIA2 }}</em>,</span>
 					<span class="item"><em>진척률 : </em><em class="legend-process">{{ percentages.gIA2 }}%</em></span>
 				</div>
 			</div>
@@ -658,7 +660,7 @@
 									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
 									<td class="col-url"><router-link to="/PRDA_00_02" target="_blank">/views/pub/APIService/PRDA_00_02</router-link></td>
-									<td class="col-date"></td>
+									<td class="col-date">2024-06-20</td>
 									<td class="col-complete"></td>
 									<td class="col-memo"></td>
 								</tr>
@@ -671,7 +673,7 @@
 									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
 									<td class="col-url"><router-link to="/PRDA_00_03" target="_blank">/views/pub/APIService/PRDA_00_03</router-link></td>
-									<td class="col-date"></td>
+									<td class="col-date">2024-06-20</td>
 									<td class="col-complete"></td>
 									<td class="col-memo"></td>
 								</tr>
@@ -1002,6 +1004,7 @@
 				<div class="ia-legend">
 					<span class="item"><em>총 페이지 : </em><em class="legend-total">{{ counts.gIA3 }}</em>,</span>
 					<span class="item c-done"><em>완료 : </em><em class="legend-complete">{{ dateCounts.gIA3 }}</em>,</span>
+					<span class="item c-done"><em>삭제 : </em><em class="legend-del">{{ delCounts.gIA3 }}</em>,</span>
 					<span class="item"><em>진척률 : </em><em class="legend-process">{{ percentages.gIA3 }}%</em></span>
 				</div>
 			</div>
@@ -1039,7 +1042,7 @@
 									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
 									<td class="col-url"><router-link to="/BLUE_01" target="_blank">/views/pub/Databule/BLUE_01</router-link></td>
-									<td class="col-date"></td>
+									<td class="col-date">2024-06-20</td>
 									<td class="col-complete"></td>
 									<td class="col-memo"></td>
 								</tr>
@@ -1052,7 +1055,7 @@
 									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
 									<td class="col-url"><router-link to="/BLUE_02_01" target="_blank">/views/pub/Databule/BLUE_02_01</router-link></td>
-									<td class="col-date"></td>
+									<td class="col-date">2024-06-20</td>
 									<td class="col-complete"></td>
 									<td class="col-memo"></td>
 								</tr>
@@ -1065,7 +1068,7 @@
 									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
 									<td class="col-url"><router-link to="/BLUE_02_02" target="_blank">/views/pub/Databule/BLUE_02_02</router-link></td>
-									<td class="col-date"></td>
+									<td class="col-date">2024-06-20</td>
 									<td class="col-complete"></td>
 									<td class="col-memo"></td>
 								</tr>
@@ -1078,7 +1081,7 @@
 									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
 									<td class="col-url"><router-link to="/BLUE_02_03" target="_blank">/views/pub/Databule/BLUE_02_03</router-link></td>
-									<td class="col-date"></td>
+									<td class="col-date">2024-06-20</td>
 									<td class="col-complete"></td>
 									<td class="col-memo"></td>
 								</tr>
@@ -1091,7 +1094,7 @@
 									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
 									<td class="col-url"><router-link to="/BLUE_02_04" target="_blank">/views/pub/Databule/BLUE_02_04</router-link></td>
-									<td class="col-date"></td>
+									<td class="col-date">2024-06-20</td>
 									<td class="col-complete"></td>
 									<td class="col-memo"></td>
 								</tr>
@@ -1394,6 +1397,7 @@
 				<div class="ia-legend">
 					<span class="item"><em>총 페이지 : </em><em class="legend-total">{{ counts.gIA4 }}</em>,</span>
 					<span class="item c-done"><em>완료 : </em><em class="legend-complete">{{ dateCounts.gIA4 }}</em>,</span>
+					<span class="item c-done"><em>삭제 : </em><em class="legend-del">{{ delCounts.gIA4 }}</em>,</span>
 					<span class="item"><em>진척률 : </em><em class="legend-process">{{ percentages.gIA4 }}%</em></span>
 				</div>
 			</div>
@@ -2147,7 +2151,7 @@
 									<td class="col-point">popup</td>
 									<td class="col-url"><router-link to="/JOIN_05_04_01_02_p" target="_blank">/views/pub/Agreement/JOIN_05_04_01_02_p</router-link></td>
 									<td class="col-date">2024-05-02</td>
-									<td class="col-complete"></td>
+									<td class="col-complete">상동</td>
 									<td class="col-memo"></td>
 								</tr>
 								<tr>
@@ -2294,7 +2298,8 @@
 				<h2 class="ia-h2"><a href="#this" class="accordion-toggle">공통/기타</a></h2>
 				<div class="ia-legend">
 					<span class="item"><em>총 페이지 : </em><em class="legend-total">{{ counts.gIA5 }}</em>,</span>
-					<span class="item c-done"><em>완료 : </em><em class="legend-complete">{{ dateCounts.gIA5 }}</em>,</span>
+					<span class="item c-done"><em>완료 : </em><em class="legend-complete">{{ dateCounts.gIA5 }}</em>,</span>	
+					<span class="item c-done"><em>삭제 : </em><em class="legend-del">{{ delCounts.gIA5 }}</em>,</span>
 					<span class="item"><em>진척률 : </em><em class="legend-process">{{ percentages.gIA5 }}%</em></span>
 				</div>
 			</div>
@@ -2410,8 +2415,8 @@
 									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
 									<td class="col-url"><router-link to="/ETC_02" target="_blank">/views/pub/Common/ETC_02</router-link></td>
-									<td class="col-date"></td>
-									<td class="col-complete"></td>
+									<td class="col-date">2004-06-20</td>
+									<td class="col-complete">2004-06-20</td>
 									<td class="col-memo"></td>
 								</tr>
 								<tr>
@@ -2423,8 +2428,8 @@
 									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
 									<td class="col-url"><router-link to="/ETC_03" target="_blank">/views/pub/Common/ETC_03</router-link></td>
-									<td class="col-date"></td>
-									<td class="col-complete"></td>
+									<td class="col-date">2004-06-20</td>
+									<td class="col-complete">2004-06-20</td>
 									<td class="col-memo">신한카드로 링크처리</td>
 								</tr>
 								<tr>
@@ -2508,6 +2513,18 @@ const percentages = ref({
   gIA5: 0,
 });
 
+// 삭제된 객체
+const delCounts = ref({
+  gIA1: 0,
+  gIA2: 0,
+  gIA3: 0,
+  gIA4: 0,
+  gIA5: 0,
+});
+
+
+
+
 // 트 개수 총합 계산
 const total = computed(() => {
   return Object.values(counts.value).reduce((acc, count) => acc + count, 0);
@@ -2540,6 +2557,9 @@ onMounted(() => {
 
     // 날짜가 있는 col-complete 요소 개수에서 del 요소 개수를 뺌
     dateCounts.value[id] = colCompleteDateCount - delCount;
+		delCounts.value[id] = delCount;
+
+
 
 		// 백분율 계산
     percentages.value[id] = counts.value[id] > 0 ? ((dateCounts.value[id] / (counts.value[id] - delCount)) * 100).toFixed(2) : 0;
