@@ -2483,10 +2483,7 @@
 
 <script setup>
 import { ref, onMounted, computed } from 'vue';
-
 const ids = ['gIA1', 'gIA2', 'gIA3', 'gIA4', 'gIA5'];
-
-// 트 개수를 저장할 객체
 const counts = ref({
   gIA1: 0,
   gIA2: 0,
@@ -2495,7 +2492,6 @@ const counts = ref({
   gIA5: 0,
 });
 
-// 날짜가 있는 col-complete 클래스의 개수를 저장할 객체
 const dateCounts = ref({
   gIA1: 0,
   gIA2: 0,
@@ -2504,7 +2500,6 @@ const dateCounts = ref({
   gIA5: 0,
 });
 
-// 백분율을 저장할 객체
 const percentages = ref({
   gIA1: 0,
   gIA2: 0,
@@ -2513,7 +2508,6 @@ const percentages = ref({
   gIA5: 0,
 });
 
-// 삭제된 객체
 const delCounts = ref({
   gIA1: 0,
   gIA2: 0,
@@ -2522,20 +2516,14 @@ const delCounts = ref({
   gIA5: 0,
 });
 
-
-
-
-// 트 개수 총합 계산
 const total = computed(() => {
   return Object.values(counts.value).reduce((acc, count) => acc + count, 0);
 });
 
-// 날짜가 있는 col-complete 클래스의 총합 계산
 const totalDateCount = computed(() => {
   return Object.values(dateCounts.value).reduce((acc, count) => acc + count, 0);
 });
 
-// 백분율 계산
 const totalPercentage = computed(() => {
   const totalElements = total.value;
   const totalDateElements = totalDateCount.value;
@@ -2559,15 +2547,11 @@ onMounted(() => {
     dateCounts.value[id] = colCompleteDateCount - delCount;
 		delCounts.value[id] = delCount;
 
-
-
 		// 백분율 계산
     percentages.value[id] = counts.value[id] > 0 ? ((dateCounts.value[id] / (counts.value[id] - delCount)) * 100).toFixed(2) : 0;
   });
 });
 </script>
-
-
 
 <style lang="scss">
 /* IA Title */
