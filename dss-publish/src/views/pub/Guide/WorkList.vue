@@ -1067,10 +1067,10 @@
 									<td class="col-4depth"></td>
 									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
-									<td class="col-url"><router-link to="/BLUE_02_02" target="_blank">/views/pub/Databule/BLUE_02_02</router-link></td>
+									<td class="col-url"><router-link to="" target="_blank">/views/pub/Databule/BLUE_02_02</router-link></td>
 									<td class="col-date">2024-06-20</td>
 									<td class="col-complete"></td>
-									<td class="col-memo"></td>
+									<td class="col-memo">BLUE_02_01 동일</td>
 								</tr>
 								<tr>
 									<td class="col-num"></td>
@@ -1080,10 +1080,10 @@
 									<td class="col-4depth"></td>
 									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
-									<td class="col-url"><router-link to="/BLUE_02_03" target="_blank">/views/pub/Databule/BLUE_02_03</router-link></td>
+									<td class="col-url"><router-link to="" target="_blank">/views/pub/Databule/BLUE_02_03</router-link></td>
 									<td class="col-date">2024-06-20</td>
 									<td class="col-complete"></td>
-									<td class="col-memo"></td>
+									<td class="col-memo">BLUE_02_01 동일</td>
 								</tr>
 								<tr>
 									<td class="col-num"></td>
@@ -1093,10 +1093,10 @@
 									<td class="col-4depth"></td>
 									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
-									<td class="col-url"><router-link to="/BLUE_02_04" target="_blank">/views/pub/Databule/BLUE_02_04</router-link></td>
+									<td class="col-url"><router-link to="" target="_blank">/views/pub/Databule/BLUE_02_04</router-link></td>
 									<td class="col-date">2024-06-20</td>
 									<td class="col-complete"></td>
-									<td class="col-memo"></td>
+									<td class="col-memo">BLUE_02_01 동일</td>
 								</tr>
 								<tr class="del">
 									<td class="col-num"></td>
