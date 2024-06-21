@@ -5,9 +5,6 @@ import { ref } from 'vue';
 const notice = ref(true);
 const show = ref(false);
 const allmenu = ref(false);
-const handleMouseLeave = () => {
-  show.value = false
-}
 </script>
 <template>
     <div class="main-top-banner" v-show="notice">
