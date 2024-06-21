@@ -651,17 +651,21 @@
   .complete-box {
     padding: 8rem 0 4.8rem;
     text-align: center;
-    .icon-success {
+    .icon-success,
+    .icon-logout,
+    .icon-ending-error {
       width: 8rem;
-      height: 8rem;
-      background-image: url('../images/icon/icon_success.png');
+      height: 8rem; 
       background-size: 100%;
     }
+    .icon-success { 
+      background-image: url('../images/icon/icon_success.png');   
+    }
     .icon-logout {
-      width: 8rem;
-      height: 8rem;
       background-image: url('../images/icon/icon_logout.png');
-      background-size: 100%;
+    }
+    .icon-ending-error {
+      background-image: url('../images/icon/icon_ending_error.png');
     }
     .complete-text {
       margin-top: 3.2rem;
@@ -925,11 +929,9 @@
     // 비밀번호 재설정
     .complete-box {
       padding: 4rem 0 3.2rem;
-      .icon-success {
-        width: 7.2rem;
-        height: 7.2rem;
-      }
-      .icon-logout {
+      .icon-success,
+      .icon-logout,
+      .icon-ending-error {
         width: 7.2rem;
         height: 7.2rem;
       }
