@@ -1336,6 +1336,15 @@ const DefaultRoutes = {
       }
     },
     {
+      name: 'ETC_05',
+      path: '/ETC_05',
+      component: () => import('@/views/pub/Common/ETC_05.vue'),
+      meta: {
+        appearMenu : true,
+        requiresAuth: false
+      }
+    },
+    {
       name: 'ETC_toast_p',
       path: '/ETC_toast_p',
       component: () => import('@/views/pub/Common/ETC_toast_p.vue'),
@@ -1348,6 +1357,15 @@ const DefaultRoutes = {
       name: 'ETC_topbtn_p',
       path: '/ETC_topbtn_p',
       component: () => import('@/views/pub/Common/ETC_topbtn_p.vue'),
+      meta: {
+        appearMenu : true,
+        requiresAuth: false
+      }
+    },
+    {
+      name: 'ETC_iframetest',
+      path: '/ETC_iframetest',
+      component: () => import('@/views/pub/Common/ETC_iframetest.vue'),
       meta: {
         appearMenu : true,
         requiresAuth: false
