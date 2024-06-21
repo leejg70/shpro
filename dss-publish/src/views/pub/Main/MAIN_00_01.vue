@@ -83,7 +83,7 @@ function onClick() {
                 <div class="desc">검색된 결과가 없습니다.</div>
             </div>
             <div class="btn-list">
-                <v-btn variant="flat" rounded="lg" size="x-large" color="primary">메인으로</v-btn>
+                <v-btn variant="flat" rounded="lg" size="x-large" color="primary">메인</v-btn>
             </div>
             <!--// 검색결과  - 없음 -->
 
