@@ -2452,9 +2452,9 @@
 									<td class="col-3depth"></td>
 									<td class="col-4depth"></td>
 									<td class="col-5depth"></td>
-									<td class="col-point">popup</td>
+									<td class="col-point">page</td>
 									<td class="col-url"><router-link to="/ETC_05" target="_blank">/views/pub/Common/ETC_05</router-link></td>
-									<td class="col-date"></td>
+									<td class="col-date">2024-06-21</td>
 									<td class="col-complete"></td>
 									<td class="col-memo text-error">신규추가</td>
 								</tr>
