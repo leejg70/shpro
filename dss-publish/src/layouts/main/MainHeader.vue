@@ -5,6 +5,9 @@ import { ref } from 'vue';
 const notice = ref(true);
 const show = ref(false);
 const allmenu = ref(false);
+const handleMouseLeave = () => {
+  show.value = false
+}
 </script>
 <template>
     <div class="main-top-banner" v-show="notice">
@@ -59,7 +62,7 @@ const allmenu = ref(false);
                     </ul> 
                     <!--2024.05.31 위치이동-->  
                     <!--2024.05.31 v-show="show"  @mouseover="show = true" @mouseout="show = false" 삭제처리-->  
-                    <div class="gnb-menu-wrap" >
+                    <div class="gnb-menu-wrap">
                         <div class="gnb-menu-inner">
                             <div class="gnb-menu-list">
                                 <h2 class="title"><span class="title-link">Data서비스</span></h2><!--2024.05.16 링크없는것 span처리-->
