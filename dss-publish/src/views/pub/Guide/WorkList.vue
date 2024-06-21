@@ -36,7 +36,7 @@
 			<p class="ia-msg">전체 페이지 : {{ total }}</p>
 			<p class="ia-msg">전체 진척률 : {{ totalPercentage }}%</p>
 			
-			<p class="ia-version">IA 버전 : v1.3</p>
+			<p class="ia-version">IA 버전 : v1.6</p>
 		</div>
 		<!-- 00_Guide -->
 		<!-- wait:작업중, done:완료, del:삭제, except:보류
@@ -419,7 +419,7 @@
 								<tr>
 									<td class="col-num"></td>
 									<td class="col-1depth"></td>
-									<td class="col-2depth">상세1</td>
+									<td class="col-2depth">상세1(My Bizmap)</td>
 									<td class="col-3depth"></td>
 									<td class="col-4depth"></td>
 									<td class="col-5depth"></td>
@@ -432,7 +432,7 @@
 								<tr>
 									<td class="col-num"></td>
 									<td class="col-1depth"></td>
-									<td class="col-2depth">상세2</td>
+									<td class="col-2depth">상세2(메모판 Pro)</td>
 									<td class="col-3depth"></td>
 									<td class="col-4depth"></td>
 									<td class="col-5depth"></td>
@@ -445,7 +445,7 @@
 								<tr>
 									<td class="col-num"></td>
 									<td class="col-1depth"></td>
-									<td class="col-2depth">상세3</td>
+									<td class="col-2depth">상세3(Big Finace)</td>
 									<td class="col-3depth"></td>
 									<td class="col-4depth"></td>
 									<td class="col-5depth"></td>
@@ -458,7 +458,7 @@
 								<tr>
 									<td class="col-num"></td>
 									<td class="col-1depth"></td>
-									<td class="col-2depth">상세4</td>
+									<td class="col-2depth">상세4(GPS)</td>
 									<td class="col-3depth"></td>
 									<td class="col-4depth"></td>
 									<td class="col-5depth"></td>
@@ -471,7 +471,7 @@
 								<tr>
 									<td class="col-num"></td>
 									<td class="col-1depth"></td>
-									<td class="col-2depth">상세5</td>
+									<td class="col-2depth">상세5(데이터전문기관 결합서비스)</td>
 									<td class="col-3depth"></td>
 									<td class="col-4depth"></td>
 									<td class="col-5depth"></td>
@@ -2444,6 +2444,19 @@
 									<td class="col-date">2024-05-29</td>
 									<td class="col-complete">2024-05-30</td>
 									<td class="col-memo text-error">로딩화면 완료</td>
+								</tr>
+								<tr>
+									<td class="col-num"></td>
+									<td class="col-1depth">오류페이지</td>
+									<td class="col-2depth">일시적오류안내</td>
+									<td class="col-3depth"></td>
+									<td class="col-4depth"></td>
+									<td class="col-5depth"></td>
+									<td class="col-point">popup</td>
+									<td class="col-url"><router-link to="/ETC_05" target="_blank">/views/pub/Common/ETC_05</router-link></td>
+									<td class="col-date"></td>
+									<td class="col-complete"></td>
+									<td class="col-memo text-error">신규추가</td>
 								</tr>
 								<tr>
 									<td class="col-num"></td>
