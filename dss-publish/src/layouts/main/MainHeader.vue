@@ -5,6 +5,9 @@ import { ref } from 'vue';
 const notice = ref(true);
 const show = ref(false);
 const allmenu = ref(false);
+const handleMouseLeave = () => {
+  show.value = false
+}
 </script>
 <template>
     <div class="main-top-banner" v-show="notice">
@@ -49,7 +52,7 @@ const allmenu = ref(false);
                         <img src="../../assets/images/common/logo.png" alt="" class="logo">
                     </router-link>
                 </h1>                
-                <nav class="gnb-menu"  :class="show ? 'active': ''"   @mouseover="show = true" @mouseout="show = false"><!--2024.05.31  class추가 -->
+                <nav class="gnb-menu"  :class="show ? 'active': ''" @click="show = true" @mouseleave="handleMouseLeave"><!--2024.05.31  class추가 -->
                     <ul class="menu-list">
                         <li><a href="javascript:;" class="">Data서비스</a></li>
                         <li><a href="javascript:;" class="">솔루션서비스</a></li>
@@ -59,7 +62,7 @@ const allmenu = ref(false);
                     </ul> 
                     <!--2024.05.31 위치이동-->  
                     <!--2024.05.31 v-show="show"  @mouseover="show = true" @mouseout="show = false" 삭제처리-->  
-                    <div class="gnb-menu-wrap" >
+                    <div class="gnb-menu-wrap" @mouseover="show = true" @mouseout="show = false" >
                         <div class="gnb-menu-inner">
                             <div class="gnb-menu-list">
                                 <h2 class="title"><span class="title-link">Data서비스</span></h2><!--2024.05.16 링크없는것 span처리-->
@@ -79,7 +82,7 @@ const allmenu = ref(false);
                                 <ul class="dep1-list">
                                     <li class="item"><a href="javascript:;">타겟마케팅</a></li>
                                     <li class="item"><a href="javascript:;">모바일서베이</a></li>
-                                    <li class="item"><a href="javascript:;">Sol-Pay배너광고</a></li>
+                                    <li class="item"><a href="javascript:;">SOL페이배너광고</a></li>
                                 </ul>
                             </div>
                             <div class="gnb-menu-list">
@@ -166,7 +169,7 @@ const allmenu = ref(false);
                         <ul class="dep1_list">
                             <li class="item"><a href="javascript:;">타겟마케팅</a></li>
                             <li class="item"><a href="javascript:;">모바일서베이</a></li>
-                            <li class="item"><a href="javascript:;">Sol-Pay배너광고</a></li>
+                            <li class="item"><a href="javascript:;">SOL페이배너광고</a></li>
                         </ul>
                     </div>
                     <div class="allmenu-list">
