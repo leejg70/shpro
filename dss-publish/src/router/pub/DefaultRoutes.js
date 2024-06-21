@@ -1361,15 +1361,6 @@ const DefaultRoutes = {
         appearMenu : true,
         requiresAuth: false
       }
-    },
-    {
-      name: 'ETC_iframetest',
-      path: '/ETC_iframetest',
-      component: () => import('@/views/pub/Common/ETC_iframetest.vue'),
-      meta: {
-        appearMenu : true,
-        requiresAuth: false
-      }
     }
   ]
 };
