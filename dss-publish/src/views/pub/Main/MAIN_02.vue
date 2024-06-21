@@ -163,7 +163,7 @@ const navigation = reactive({
         </div>
         <div class="notice-box">
           <div class="notice-banner">
-            <div class="category-title">데이터블루 활용장</div>
+            <div class="category-title">데이터바다 활용장</div>
             <div class="title">데이터 활용 성공 노하우</div>
             <div class="notice-graph"><v-icon>icon-data-graph</v-icon></div>
           </div>
@@ -283,7 +283,7 @@ const navigation = reactive({
         </div>
         <div class="notice-box">
           <div class="notice-banner">
-            <div class="category-title">데이터블루 활용장</div>
+            <div class="category-title">데이터바다 활용장</div>
             <div class="title">데이터 활용 성공 노하우</div>
             <div class="notice-graph"><v-icon>icon-data-graph</v-icon></div>
           </div>
