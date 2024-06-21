@@ -15,7 +15,7 @@
                 <div class="card-list-area">
                     <v-row>
                         <v-col cols="12" lg="4" md="6" sm="12">
-                            <v-sheet rounded="lg" class="outlined">
+                            <v-sheet rounded="lg" class="outlined d-flex flex-column">
                                 <div class="title subtitle-18">은행</div>
                                 <div class="item">
                                     <v-icon class="agency banking" /> 
@@ -30,13 +30,13 @@
                             </v-sheet>
                         </v-col>
                         <v-col cols="12" lg="4" md="6" sm="12">
-                            <v-sheet rounded="lg" class="outlined">
+                            <v-sheet rounded="lg" class="outlined d-flex flex-column">
                                 <div class="title subtitle-18">카드</div>
                                 <div class="item">
                                     <v-icon class="agency card" />
                                     <ul class="list-dot text-16">
                                         <li
-                                            v-for="item in ['카드기보','포인트 및 선불카드','청구, 결제 및 리볼빙','승인상세','대출상품']"
+                                            v-for="item in ['카드기본','포인트 및 선불카드','청구, 결제 및 리볼빙','승인상세','대출상품']"
                                             >
                                             {{ item }}
                                         </li>
@@ -45,7 +45,7 @@
                             </v-sheet>
                         </v-col>
                         <v-col cols="12" lg="4" md="6" sm="12">
-                            <v-sheet rounded="lg" class="outlined">
+                            <v-sheet rounded="lg" class="outlined d-flex flex-column">
                                 <div class="title subtitle-18">보험</div>
                                 <div class="item">
                                     <v-icon class="agency insurance" />
@@ -60,7 +60,7 @@
                             </v-sheet>
                         </v-col>
                         <v-col cols="12" lg="4" md="6" sm="12">
-                            <v-sheet rounded="lg" class="outlined">
+                            <v-sheet rounded="lg" class="outlined d-flex flex-column">
                                 <div class="title subtitle-18">금융투자</div>
                                 <div class="item">
                                     <v-icon class="agency investment" />
@@ -75,7 +75,7 @@
                             </v-sheet>
                         </v-col>
                         <v-col cols="12" lg="4" md="6" sm="12">
-                            <v-sheet rounded="lg" class="outlined">
+                            <v-sheet rounded="lg" class="outlined d-flex flex-column">
                                 <div class="title subtitle-18">전자금융</div>
                                 <div class="item">
                                     <v-icon class="agency e-finance" />
@@ -90,7 +90,7 @@
                             </v-sheet>
                         </v-col>
                         <v-col cols="12" lg="4" md="6" sm="12">
-                            <v-sheet rounded="lg" class="outlined">
+                            <v-sheet rounded="lg" class="outlined d-flex flex-column">
                                 <div class="title subtitle-18">통신업</div>
                                 <div class="item">
                                     <v-icon class="agency telecom" />

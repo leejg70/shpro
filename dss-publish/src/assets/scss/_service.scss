@@ -794,6 +794,82 @@
                     margin: 0 4rem 0 0;
                 }
             }
+            .custom-carousel {
+                height: 56rem;
+                padding: {
+                    top: 4.8rem;
+                    right: 4rem;
+                    left: 5.6rem;
+                }
+                background: url('@/assets/images/content/img_databada_01_01.png') no-repeat 0 0 / cover;
+                .group {
+                    display: flex;
+                    .text-area {
+                        display: flex;
+                        flex-direction: column;
+                        .title {
+                            margin: 3.2rem 0 5.6rem;
+                            color: #333;
+                            .txt-one {
+                                font-size: 5rem;
+                                line-height: 100%;
+                                > strong {
+                                    font-size: 5.6rem;
+                                }
+                            }
+                            .txt-two {
+                                font-size: 5.6rem;
+                                line-height: 100%;
+                            }
+                            strong {
+                                font-weight: 700;
+                            }
+                            .v-carousel {
+                                margin: 1.6rem 0;
+                                .keyword {
+                                    display: inline-block;
+                                    position: relative;
+                                    color: #011B6A;
+                                    font-size: 6.4rem;
+                                    font-weight: 700;
+                                    line-height: 120%;
+                                    &::after {
+                                        content: '';
+                                        position: absolute;
+                                        left: 0;
+                                        bottom: 0;
+                                        width: 100%;
+                                        height: 2.4rem;
+                                        background-color: #D7E2FF;
+                                        animation: highlight 300ms linear;
+                                        animation-fill-mode: both;
+                                        animation-delay: 300ms;
+                                        z-index: -1;
+                                    }
+                                }
+                            }
+                        }
+                        .text {
+                            max-width: 60rem;
+                            margin-left: .8rem;
+                            color: #333;
+                            white-space: nowrap;
+                            overflow: visible;
+                            >div+div {
+                                margin-top: 1.6rem;
+                            }
+                        }
+                    }
+                    .img-area {
+                        flex-shrink: 0;
+                        width: 48rem;
+                    }
+                }
+            }
+            @keyframes highlight {
+                0% { width: 0; }
+                100% { width: 100%; }
+            }
             .img-box {
                 margin-top: 4rem;
                 padding: 0;
@@ -809,9 +885,6 @@
                     border-radius: 1.6rem;
                     background-color: #F2F3F6;
                 }
-                img {
-                    width: 100%;
-                }
             }
         }
         .step-area {
@@ -820,7 +893,15 @@
                 .step-title {
                     .num {
                         flex-shrink: 0;
-                        font-weight: 300;
+                        height: 3.4rem;
+                        margin-right: 1.6rem;
+                        padding: .8rem 1.6rem;
+                        border: 1px solid #E6E9F1;
+                        border-radius: 1.7rem;
+                        color: #656CE1;
+                        font-size: 1.6rem;
+                        font-weight: 500;
+                        line-height: 100%;
                     }
                     .v-divider--vertical {
                         margin: .55rem 1.6rem;
@@ -883,8 +964,8 @@
                     }
                     .item {
                         display: flex;
+                        flex-grow: 1;
                         align-items: center;
-                        min-height: 16rem;
                         margin-top: 1.6rem;
                         padding: 0 .8rem;
                         .v-icon.agency {
@@ -1003,6 +1084,8 @@
                         }
                     }
                     .text {
+                        flex-grow: 1;
+                        align-content: center;
                         margin: 1.6rem .8rem .8rem;
                         color: #333;
                     }
@@ -1121,6 +1204,9 @@
                 width: 100%;
             }
         }
+        img {
+            width: 100%;
+        }
     }
     .product-area {
         margin-bottom: 8rem;
@@ -1137,13 +1223,6 @@
         .txt {
             margin-top: 0.35rem;
         }
-    }
-}
-
-// GranData
-.gran-data {
-    .cnt-group .card-list-area .v-col-12 {
-        display: block;
     }
 }
 
@@ -1275,6 +1354,9 @@
 // color
 .primary--text {
     color: #356CFF;
+}
+.shinhan-life--text {
+    color: #656CE1;
 }
 
 // v-divider
@@ -1752,6 +1834,56 @@
                         margin: 0 3.2rem 0 0;
                     }
                 }
+                .custom-carousel {
+                    height: 68rem;
+                    padding: {
+                        right: 0;
+                        left: 0;
+                    }
+                    .group {
+                        flex-direction: column;
+                        align-items: center;
+                        .text-area {
+                            height: 100%;
+                            text-align: center;
+                            .title {
+                                margin: 0 0 2.4rem;
+                                .txt-one {
+                                    font-size: 2.5rem;
+                                    > strong {
+                                        font-size: 2.8rem;
+                                    }
+                                }
+                                .txt-two {
+                                    font-size: 2.8rem;
+                                }
+                                .v-carousel {
+                                    height: 3.8rem !important;
+                                    margin: .8rem 0;
+                                    .keyword {
+                                        font-size: 3.2rem;
+                                        &::after {
+                                            height: 1.2rem;
+                                        }
+                                    }
+                                }
+                            }
+                            .text {
+                                max-width: none;
+                                margin: 0 1.6rem;
+                                font-size: 1.4rem;
+                                white-space: pre-wrap;
+                                >div+div {
+                                    margin-top: 1.2rem;
+                                }
+                            }
+                        }
+                        .img-area {
+                            width: 31.2rem;
+                            margin-top: 2.4rem;
+                        }
+                    }
+                }
                 .img-box {
                     margin-top: 3.2rem;
                     border-radius: .8rem;
@@ -1775,10 +1907,15 @@
                 .step-group {
                     margin-top: 4.8rem;
                     .step-title {
-                        font-size: 1.6rem;
-                        .v-divider--vertical {
-                            max-height: 1.8rem;
-                            margin: .3rem .8rem;
+                        .num {
+                            height: 2.4rem;
+                            margin-right: 0.8rem;
+                            padding: .4rem 1.2rem;
+                            border-radius: 1.2rem;
+                            font-size: 1.4rem;
+                        }
+                        .subtitle-22 {
+                            font-size: 1.6rem;
                         }
                     }
                     .list-dot {
@@ -1880,6 +2017,7 @@
                             margin: .8rem 0;
                         }
                         .text {
+                            align-self: flex-start;
                             margin: {
                                 top: 3.2rem;
                                 left: 0;
@@ -1999,14 +2137,11 @@
                         }
                     }
                 }
-                .v-row .v-col-sm-12 .v-sheet.outlined .item {
-                    min-height: auto;
-                }
             }
         }
         // GranData
         .gran-data {
-            .cnt-group .card-list-area .v-col-12 + .v-col-12 {
+            .cnt-group .card-list-area .v-col-sm-12 + .v-col-sm-12 {
                 margin-top: 1.6rem;
             }
         }
