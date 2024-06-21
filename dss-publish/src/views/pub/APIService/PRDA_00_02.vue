@@ -17,7 +17,7 @@ const tabs = ref('');
             <v-sheet>
                 <v-slide-group v-model="tabs" show-arrows mandatory class="line-tabs">
                     <v-slide-group-item
-                        v-for="item in [ 'API 공통 가이드', 'API 명세서' ]"
+                        v-for="item in [ 'API 공통 가이드', 'API 명세서(예시)' ]"
                         :key="item"
                         v-slot="{ isSelected, toggle }"
                     >

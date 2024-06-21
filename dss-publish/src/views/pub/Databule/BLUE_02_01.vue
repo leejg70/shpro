@@ -68,28 +68,28 @@ const tabs = ref('');
                                     <div class="text-16">카드/통신/신용 데이터를 중심으로 고객의 분석 목적에 맞는 다양한 가명결합 및 통계결합 방식의 데이터 상품을 보유하고 있습니다.</div>
                                     <div class="card-list-area">
                                         <v-row>
-                                            <v-col cols="12" md="6" sm="12">
+                                            <v-col cols="12" md="6" sm="12" class="d-block">
                                                 <v-sheet rounded="lg" class="flat">
-                                                    <div class="title subtitle-18" style="">가명 결합 상품</div>
+                                                    <div class="title subtitle-18">가명 결합 상품</div>
                                                     <div class="img mt-6">
-                                                        <img src="@/assets/images/content/img_grandata_02_01.png" alt="img" />
+                                                        <img src="@/assets/images/content/img_grandata_02_01.png" alt="" />
                                                     </div>
                                                     <div class="img mt-6">
-                                                        <img src="@/assets/images/content/img_grandata_02_02.png" alt="img" />
+                                                        <img src="@/assets/images/content/img_grandata_02_02.png" alt="" />
                                                     </div>
                                                     <div class="img mt-6">
-                                                        <img src="@/assets/images/content/img_grandata_02_03.png" alt="img" />
+                                                        <img src="@/assets/images/content/img_grandata_02_03.png" alt="" />
                                                     </div>
                                                 </v-sheet>
                                             </v-col>
-                                            <v-col cols="12" md="6" sm="12">
+                                            <v-col cols="12" md="6" sm="12" class="d-block">
                                                 <v-sheet rounded="lg" class="flat">
-                                                    <div class="title subtitle-18" style="">통계 결합 상품</div>
+                                                    <div class="title subtitle-18">통계 결합 상품</div>
                                                     <div class="img mt-6">
-                                                        <img src="@/assets/images/content/img_grandata_02_04.png" alt="img" />
+                                                        <img src="@/assets/images/content/img_grandata_02_04.png" alt="" />
                                                     </div>
                                                     <div class="img mt-6">
-                                                        <img src="@/assets/images/content/img_grandata_02_05.png" alt="img" />
+                                                        <img src="@/assets/images/content/img_grandata_02_05.png" alt="" />
                                                     </div>
                                                 </v-sheet>
                                             </v-col>

@@ -11,7 +11,7 @@
             <div class="cnt-text">
                 <div class="text-16">
                     신한카드 개인사업자 CB MyCredit은 '19년 금융위원회 혁신금융사업자로 출범하여, '21.9월 금융 최초로 개인사업자 신용정보업 허가를 획득하였습니다.<br />
-                    업계 No.1 신한카드 Big Data와 CB사 SQHO 특화 정보, 그리고 다년간에 축적된 모델링 노하우를 더해 개인사업자에 특화된 다양한 상품을 보유 및 지속 개발하고 있습니다.
+                    업계 No.1 신한카드 Big Data와 CB사 SOHO 특화 정보, 그리고 다년간에 축적된 모델링 노하우를 더해 개인사업자에 특화된 다양한 상품을 보유 및 지속 개발하고 있습니다.
                 </div>
                 <div class="img">
                     <img src="@/assets/images/content/img_mycredit_01.png" alt="" />
@@ -36,7 +36,7 @@
             <div class="cnt-title subtitle-24">
                 <div class="num">03</div>
                 <v-divider vertical />
-                <div class="title">Why MyCREDIT?</div>
+                <div class="title">Why MyCredit?</div>
             </div>
             <div class="cnt-text">  
                 <div class="text-16">
@@ -48,7 +48,7 @@
                             <div class="title subtitle-16 why01">탄탄한 사업 Base</div>
                             <div class="text">
                                 <div class="subtitle-22">인허가 기반 사업자/매장 단위의 해상도 높은 데이터 및 분석 결과를 제공합니다.</div>
-                                <div class="subtitle-18">개인사업자 CB 및 부수 업무 총 5종</div>
+                                <div class="subtitle-18">개인사업자 CB 및 부수 업무 5종</div>
                                 <ul class="list-dot text-16">
                                     <li>개인사업자 신용평점조회, 제 3자 신용정보제공, 가명/익명처리, DB분석/컨설팅, 솔루션/SW판매</li>
                                 </ul>
@@ -71,7 +71,7 @@
                         <div class="row">
                             <div class="title subtitle-16 why03">공신력 있는 모형</div>
                             <div class="text">
-                                <div class="subtitle-22">다양한 종합 및 특화 CB모형을 보유 중이며, 빅데이터 분석 전문가 그룹이 고객사를 지원합니다.</div>
+                                <div class="subtitle-22">다양한 종합 및 특화 CB 모형을 보유 중이며, 빅데이터 분석 전문가 그룹이 고객사를 지원합니다.</div>
                                 <div class="subtitle-18">MyCredit 대표 모형 상품</div>
                                 <ul class="list-dot text-16">
                                     <li>신용평가모형, 매출추정모형, 안정성 평가지수, 상환능력 예측모형, 업권별 승인·한도 전략모형</li>
