@@ -33,7 +33,9 @@
 		<!-- //Note -->
 		<br>
 		<div class="ia-total">
-			<p class="ia-msg">전체 페이지 : {{ total }}</p>
+			<p class="ia-msg">전체 : {{ total }}</p>
+			<p class="ia-msg">완료 : {{ totalDateCount }}</p>
+			<p class="ia-msg">삭제 : {{ totalDelCount }}</p>
 			<p class="ia-msg">전체 진척률 : {{ totalPercentage }}%</p>
 			
 			<p class="ia-version">IA 버전 : v1.6</p>
@@ -327,13 +329,10 @@
 									<td class="col-4depth">결과 有</td>
 									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
-									<td class="col-url">
-										<!-- <router-link to="/PRDD_02_01" target="_blank">/views/pub/DataService/PRDD_02_01</router-link> -->
-										목록화면과 동일
-									</td>
+									<td class="col-url"></td>
 									<td class="col-date">2024-05-07</td>
 									<td class="col-complete">2024-05-22</td>
-									<td class="col-memo">-</td>
+									<td class="col-memo">목록화면과 동일</td>
 								</tr>
 								<tr>
 									<td class="col-num"></td>
@@ -343,13 +342,10 @@
 									<td class="col-4depth">결과 無</td>
 									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
-									<td class="col-url">
-										<!-- <router-link to="/PRDD_02_01_null" target="_blank">/views/pub/DataService/PRDD_02_01_null</router-link> -->
-										목록화면에 취합
-									</td>
+									<td class="col-url"></td>
 									<td class="col-date">2024-05-07</td>
 									<td class="col-complete">2024-05-22</td>
-									<td class="col-memo">-</td>
+									<td class="col-memo">목록화면에 취합</td>
 								</tr>
 								<tr>
 									<td class="col-num"></td>
@@ -374,7 +370,7 @@
 									<td class="col-point">page</td>
 									<td class="col-url"><router-link to="/PRDD_03" target="_blank">/views/pub/DataService/PRDD_03</router-link></td>
 									<td class="col-date">2024-06-20</td>
-									<td class="col-complete"></td>
+									<td class="col-complete">2024-06-24</td>
 									<td class="col-memo"></td>
 								</tr>
 								<tr>
@@ -385,10 +381,10 @@
 									<td class="col-4depth"></td>
 									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
-									<td class="col-url">PRDD_01 동일</td>
+									<td class="col-url"></td>
 									<td class="col-date">2024-05-07</td>
 									<td class="col-complete">2024-05-22</td>
-									<td class="col-memo"></td>
+									<td class="col-memo">PRDD_01 취합</td>
 								</tr>
 								<tr>
 									<td class="col-num"></td>
@@ -398,10 +394,10 @@
 									<td class="col-4depth"></td>
 									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
-									<td class="col-url">PRDD_01 동일</td>
+									<td class="col-url"></td>
 									<td class="col-date">2024-05-07</td>
 									<td class="col-complete">2024-05-22</td>
-									<td class="col-memo"></td>
+									<td class="col-memo">PRDD_01 취합</td>
 								</tr>
 								<tr>
 									<td class="col-num"></td>
@@ -411,10 +407,10 @@
 									<td class="col-4depth"></td>
 									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
-									<td class="col-url">PRDD_01 동일</td>
+									<td class="col-url"></td>
 									<td class="col-date">2024-05-07</td>
 									<td class="col-complete">2024-05-22</td>
-									<td class="col-memo"></td>
+									<td class="col-memo">PRDD_01 취합</td>
 								</tr>
 								<tr>
 									<td class="col-num"></td>
@@ -426,7 +422,7 @@
 									<td class="col-point">page</td>
 									<td class="col-url"><router-link to="/PRDS_00_01" target="_blank">/views/pub/SolutionService/PRDS_00_01</router-link></td>
 									<td class="col-date">2024-06-19</td>
-									<td class="col-complete"></td>
+									<td class="col-complete">2024-06-24</td>
 									<td class="col-memo"></td>
 								</tr>
 								<tr>
@@ -439,7 +435,7 @@
 									<td class="col-point">page</td>
 									<td class="col-url"><router-link to="/PRDS_00_02" target="_blank">/views/pub/SolutionService/PRDS_00_02</router-link></td>
 									<td class="col-date">2024-06-19</td>
-									<td class="col-complete"></td>
+									<td class="col-complete">2024-06-24</td>
 									<td class="col-memo"></td>
 								</tr>
 								<tr>
@@ -452,7 +448,7 @@
 									<td class="col-point">page</td>
 									<td class="col-url"><router-link to="/PRDS_00_03" target="_blank">/views/pub/SolutionService/PRDS_00_03</router-link></td>
 									<td class="col-date">2024-06-19</td>
-									<td class="col-complete"></td>
+									<td class="col-complete">2024-06-24</td>
 									<td class="col-memo"></td>
 								</tr>
 								<tr>
@@ -465,7 +461,7 @@
 									<td class="col-point">page</td>
 									<td class="col-url"><router-link to="/PRDS_00_04" target="_blank">/views/pub/SolutionService/PRDS_00_04</router-link></td>
 									<td class="col-date">2024-06-19</td>
-									<td class="col-complete"></td>
+									<td class="col-complete">2024-06-24</td>
 									<td class="col-memo"></td>
 								</tr>
 								<tr>
@@ -478,7 +474,7 @@
 									<td class="col-point">page</td>
 									<td class="col-url"><router-link to="/PRDS_00_05" target="_blank">/views/pub/SolutionService/PRDS_00_05</router-link></td>
 									<td class="col-date">2024-06-19</td>
-									<td class="col-complete"></td>
+									<td class="col-complete">2024-06-24</td>
 									<td class="col-memo"></td>
 								</tr>
 								<tr>
@@ -491,7 +487,7 @@
 									<td class="col-point">page</td>
 									<td class="col-url"><router-link to="/PRDM_01" target="_blank">/views/pub/ADService/PRDM_01</router-link></td>
 									<td class="col-date">2024-06-20</td>
-									<td class="col-complete"></td>
+									<td class="col-complete">2024-06-24</td>
 									<td class="col-memo"></td>
 								</tr>
 								<tr>
@@ -504,7 +500,7 @@
 									<td class="col-point">page</td>
 									<td class="col-url"><router-link to="/PRDM_02" target="_blank">/views/pub/ADService/PRDM_02</router-link></td>
 									<td class="col-date">2024-06-20</td>
-									<td class="col-complete"></td>
+									<td class="col-complete">2024-06-24</td>
 									<td class="col-memo"></td>
 								</tr>
 								<tr>
@@ -517,7 +513,7 @@
 									<td class="col-point">page</td>
 									<td class="col-url"><router-link to="/PRDM_03" target="_blank">/views/pub/ADService/PRDM_03</router-link></td>
 									<td class="col-date">2024-06-20</td>
-									<td class="col-complete"></td>
+									<td class="col-complete">2024-06-24</td>
 									<td class="col-memo"></td>
 								</tr>
 								<tr class="del">
@@ -598,7 +594,6 @@
 									<td class="col-complete">삭제</td>
 									<td class="col-memo"></td>
 								</tr>
-
 								<tr>
 									<td class="col-num"></td>
 									<td class="col-1depth">API서비스</td>
@@ -607,10 +602,10 @@
 									<td class="col-4depth"></td>
 									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
-									<td class="col-url">PRDD_01 동일</td>
+									<td class="col-url"></td>
 									<td class="col-date">2024-05-07</td>
 									<td class="col-complete">2024-05-22</td>
-									<td class="col-memo"></td>
+									<td class="col-memo">PRDD_01 동일</td>
 								</tr>
 								<tr>
 									<td class="col-num"></td>
@@ -620,10 +615,10 @@
 									<td class="col-4depth"></td>
 									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
-									<td class="col-url">PRDD_01 동일</td>
+									<td class="col-url"></td>
 									<td class="col-date">2024-05-07</td>
 									<td class="col-complete">2024-05-22</td>
-									<td class="col-memo"></td>
+									<td class="col-memo">PRDD_01 동일</td>
 								</tr>
 								<tr>
 									<td class="col-num"></td>
@@ -633,10 +628,10 @@
 									<td class="col-4depth"></td>
 									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
-									<td class="col-url">PRDD_01 동일</td>
+									<td class="col-url"></td>
 									<td class="col-date">2024-05-07</td>
 									<td class="col-complete">2024-05-22</td>
-									<td class="col-memo"></td>
+									<td class="col-memo">PRDD_01 동일</td>
 								</tr>
 								<tr>
 									<td class="col-num"></td>
@@ -661,7 +656,7 @@
 									<td class="col-point">page</td>
 									<td class="col-url"><router-link to="/PRDA_00_02" target="_blank">/views/pub/APIService/PRDA_00_02</router-link></td>
 									<td class="col-date">2024-06-20</td>
-									<td class="col-complete"></td>
+									<td class="col-complete">2024-06-24</td>
 									<td class="col-memo"></td>
 								</tr>
 								<tr>
@@ -674,7 +669,7 @@
 									<td class="col-point">page</td>
 									<td class="col-url"><router-link to="/PRDA_00_03" target="_blank">/views/pub/APIService/PRDA_00_03</router-link></td>
 									<td class="col-date">2024-06-20</td>
-									<td class="col-complete"></td>
+									<td class="col-complete">2024-06-24</td>
 									<td class="col-memo"></td>
 								</tr>
 								<tr>
@@ -869,7 +864,7 @@
 									<td class="col-point">popup</td>
 									<td class="col-url"><router-link to="/MY_03_02_01_p" target="_blank">/views/pub/My/MY_03_02_01_p</router-link></td>
 									<td class="col-date">2024-05-28</td>
-									<td class="col-date">2024-05-29</td>
+									<td class="col-complete">2024-05-29</td>
 									<td class="col-memo">모바일 비제공<br>[2024.06.03] class 추가 => sms-timer</td>
 								</tr>
 								<tr>
@@ -882,7 +877,7 @@
 									<td class="col-point">popup</td>
 									<td class="col-url"><router-link to="/MY_03_02_02_p" target="_blank">/views/pub/My/MY_03_02_02_p</router-link></td>
 									<td class="col-date">2024-05-28</td>
-									<td class="col-date">2024-05-29</td>
+									<td class="col-complete">2024-05-29</td>
 									<td class="col-memo">모바일 비제공</td>
 								</tr>
 								<tr>
@@ -908,7 +903,7 @@
 									<td class="col-point">page</td>
 									<td class="col-url"><router-link to="/MY_07" target="_blank">/views/pub/My/MY_07</router-link></td>
 									<td class="col-date"></td>
-									<td class="col-complete" data-complete="del"></td>
+									<td class="col-complete">삭제</td>
 									<td class="col-memo"></td>								
 								</tr>
 								<tr class="del">
@@ -921,7 +916,7 @@
 									<td class="col-point">page</td>
 									<td class="col-url"><router-link to="/MY_07_01" target="_blank">/views/pub/My/MY_07_01</router-link></td>
 									<td class="col-date"></td>
-									<td class="col-complete" data-complete="del"></td>
+									<td class="col-complete">삭제</td>
 									<td class="col-memo"></td>
 								</tr>
 								<tr>
@@ -986,7 +981,7 @@
 									<td class="col-point">popup</td>
 									<td class="col-url"><router-link to="/MY_00_04_p" target="_blank">/views/pub/My/MY_00_04_p</router-link></td>
 									<td class="col-date"></td>
-									<td class="col-complete" data-complete="del"></td>
+									<td class="col-complete">삭제</td>
 									<td class="col-memo"></td>
 								</tr>
 							</tbody>
@@ -1043,7 +1038,7 @@
 									<td class="col-point">page</td>
 									<td class="col-url"><router-link to="/BLUE_01" target="_blank">/views/pub/Databule/BLUE_01</router-link></td>
 									<td class="col-date">2024-06-20</td>
-									<td class="col-complete"></td>
+									<td class="col-complete">2024-06-24</td>
 									<td class="col-memo"></td>
 								</tr>
 								<tr>
@@ -1056,7 +1051,7 @@
 									<td class="col-point">page</td>
 									<td class="col-url"><router-link to="/BLUE_02_01" target="_blank">/views/pub/Databule/BLUE_02_01</router-link></td>
 									<td class="col-date">2024-06-20</td>
-									<td class="col-complete"></td>
+									<td class="col-complete">2024-06-24</td>
 									<td class="col-memo"></td>
 								</tr>
 								<tr>
@@ -1067,11 +1062,9 @@
 									<td class="col-4depth"></td>
 									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
-									<td class="col-url">
-										<!-- <router-link to="/BLUE_02_02" target="_blank">/views/pub/Databule/BLUE_02_02</router-link> -->
-									</td>
+									<td class="col-url"></td>
 									<td class="col-date">2024-06-20</td>
-									<td class="col-complete"></td>
+									<td class="col-complete">2024-06-24</td>
 									<td class="col-memo">BLUE_02_01에 반영</td>
 								</tr>
 								<tr>
@@ -1082,11 +1075,9 @@
 									<td class="col-4depth"></td>
 									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
-									<td class="col-url">
-										<!-- <router-link to="/BLUE_02_03" target="_blank">/views/pub/Databule/BLUE_02_03</router-link> -->
-									</td>
+									<td class="col-url"></td>
 									<td class="col-date">2024-06-20</td>
-									<td class="col-complete"></td>
+									<td class="col-complete">2024-06-24</td>
 									<td class="col-memo">BLUE_02_01에 반영</td>
 								</tr>
 								<tr>
@@ -1097,11 +1088,9 @@
 									<td class="col-4depth"></td>
 									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
-									<td class="col-url">
-										<!-- <router-link to="/BLUE_02_04" target="_blank">/views/pub/Databule/BLUE_02_04</router-link> -->
-									</td>
+									<td class="col-url"></td>
 									<td class="col-date">2024-06-20</td>
-									<td class="col-complete"></td>
+									<td class="col-complete">2024-06-24</td>
 									<td class="col-memo">BLUE_02_01에 반영</td>
 								</tr>
 								<tr class="del">
@@ -1114,7 +1103,7 @@
 									<td class="col-point">page</td>
 									<td class="col-url"><router-link to="/BLUE_02_05" target="_blank">/views/pub/Databule/BLUE_02_05</router-link></td>
 									<td class="col-date"></td>
-									<td class="col-complete" data-complete="del"></td>
+									<td class="col-complete">삭제</td>
 									<td class="col-memo"></td>
 								</tr>
 								<tr>
@@ -1138,13 +1127,10 @@
 									<td class="col-4depth">결과 有</td>
 									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
-									<td class="col-url">
-										<!-- <router-link to="/NOTI_02_01" target="_blank">/views/pub/Customer/NOTI_02_01</router-link> -->
-										목록화면에 취합
-									</td>
+									<td class="col-url"></td>
 									<td class="col-date">2024-05-09</td>
 									<td class="col-complete">2024-05-17</td>
-									<td class="col-memo"></td>
+									<td class="col-memo">목록화면에 취합</td>
 								</tr>
 								<tr>
 									<td class="col-num"></td>
@@ -1154,13 +1140,10 @@
 									<td class="col-4depth">결과 無</td>
 									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
-									<td class="col-url">
-										<!-- <router-link to="/NOTI_02_01_null" target="_blank">/views/pub/Customer/NOTI_02_01_null</router-link> -->
-										목록화면에 취합
-									</td>
+									<td class="col-url"></td>
 									<td class="col-date">2024-05-09</td>
 									<td class="col-complete">2024-05-17</td>
-									<td class="col-memo"></td>
+									<td class="col-memo">목록화면에 취합</td>
 								</tr>
 								<tr>
 									<td class="col-num"></td>
@@ -1209,13 +1192,10 @@
 									<td class="col-4depth">결과 有</td>
 									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
-									<td class="col-url">
-										<!-- <router-link to="/QNAS_02_01" target="_blank">/views/pub/Customer/QNAS_02_01</router-link> -->
-										목록화면에 취합
-									</td>
+									<td class="col-url"></td>
 									<td class="col-date">2024-05-22</td>
 									<td class="col-complete">2024-05-23</td>
-									<td class="col-memo"></td>
+									<td class="col-memo">목록화면에 취합</td>
 								</tr>
 								<tr>
 									<td class="col-num"></td>
@@ -1225,13 +1205,10 @@
 									<td class="col-4depth">결과 無</td>
 									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
-									<td class="col-url">
-										<!-- <router-link to="/QNAS_02_01_null" target="_blank">/views/pub/Customer/QNAS_02_01_null</router-link> -->
-										목록화면에 취합
-									</td>
+									<td class="col-url"></td>
 									<td class="col-date">2024-05-22</td>
 									<td class="col-complete">2024-05-23</td>
-									<td class="col-memo"></td>
+									<td class="col-memo">목록화면에 취합</td>
 								</tr>
 								<tr>
 									<td class="col-num"></td>
@@ -1254,13 +1231,10 @@
 									<td class="col-4depth">수정</td>
 									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
-									<td class="col-url">
-										<!-- <router-link to="/QNAS_00_01_u" target="_blank">/views/pub/Customer/QNAS_00_01_u</router-link> -->
-										등록화면과 동일함
-									</td>
+									<td class="col-url"></td>
 									<td class="col-date">2024-05-22</td>
 									<td class="col-complete">2024-05-23</td>
-									<td class="col-memo"></td>
+									<td class="col-memo">등록화면과 동일함</td>
 								</tr>
 								<tr>
 									<td class="col-num"></td>
@@ -1322,13 +1296,10 @@
 									<td class="col-4depth">결과 有</td>
 									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
-									<td class="col-url">
-										<!-- <router-link to="/COMU_02_01" target="_blank">/views/pub/Community/COMU_02_01</router-link> -->
-										목록화면에 취합
-									</td>
+									<td class="col-url"></td>
 									<td class="col-date">2024-05-24</td>
 									<td class="col-complete">2024-05-28</td>
-									<td class="col-memo"></td>
+									<td class="col-memo">목록화면에 취합</td>
 								</tr>
 								<tr>
 									<td class="col-num"></td>
@@ -1338,13 +1309,10 @@
 									<td class="col-4depth">결과 無</td>
 									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
-									<td class="col-url">
-										<!-- <router-link to="/COMU_02_01_null" target="_blank">/views/pub/Community/COMU_02_01_null</router-link> -->
-										목록화면에 취합
-									</td>
+									<td class="col-url"></td>
 									<td class="col-date">2024-05-24</td>
 									<td class="col-complete">2024-05-28</td>
-									<td class="col-memo"></td>
+									<td class="col-memo">목록화면에 취합</td>
 								</tr>
 								<tr>
 									<td class="col-num"></td>
@@ -1367,13 +1335,10 @@
 									<td class="col-4depth">수정</td>
 									<td class="col-5depth"></td>
 									<td class="col-point">page</td>
-									<td class="col-url">
-										<!-- <router-link to="/COMU_02_02_u" target="_blank">/views/pub/Community/COMU_02_02_u</router-link> -->
-										등록화면과 동일
-									</td>
+									<td class="col-url"></td>
 									<td class="col-date">2024-05-24</td>
 									<td class="col-complete">2024-05-28</td>
-									<td class="col-memo"></td>
+									<td class="col-memo">등록화면과 동일</td>
 								</tr>
 								<tr>
 									<td class="col-num"></td>
@@ -2461,7 +2426,7 @@
 									<td class="col-point">page</td>
 									<td class="col-url"><router-link to="/ETC_05" target="_blank">/views/pub/Common/ETC_05</router-link></td>
 									<td class="col-date">2024-06-21</td>
-									<td class="col-complete"></td>
+									<td class="col-complete">2024-06-24</td>
 									<td class="col-memo text-error">신규추가</td>
 								</tr>
 								<tr>
@@ -2474,7 +2439,7 @@
 									<td class="col-point">popup</td>
 									<td class="col-url"><router-link to="/ETC_toast_p" target="_blank">/views/pub/Common/ETC_toast_p</router-link></td>
 									<td class="col-date">2024-06-19</td>
-									<td class="col-complete"></td>
+									<td class="col-complete">2024-06-24</td>
 									<td class="col-memo">모바일 사이즈에서만 작동</td>
 								</tr>
 								<tr>
@@ -2487,7 +2452,7 @@
 									<td class="col-point">popup</td>
 									<td class="col-url"><router-link to="/ETC_topbtn_p" target="_blank">/views/pub/Common/ETC_topbtn_p</router-link></td>
 									<td class="col-date">2024-06-19</td>
-									<td class="col-complete"></td>
+									<td class="col-complete">2024-06-24</td>
 									<td class="col-memo"></td>
 								</tr>
 							</tbody>
@@ -2543,10 +2508,16 @@ const totalDateCount = computed(() => {
   return Object.values(dateCounts.value).reduce((acc, count) => acc + count, 0);
 });
 
+// 모든 ID의 del 요소의 총 개수 계산
+const totalDelCount = computed(() => {
+  return Object.values(delCounts.value).reduce((acc, count) => acc + count, 0);
+});
+
 const totalPercentage = computed(() => {
   const totalElements = total.value;
-  const totalDateElements = totalDateCount.value;
-  return totalElements > 0 ? ((totalDateElements / totalElements) * 100).toFixed(2) : 0;
+	const totalDelElements = totalDelCount.value;
+  const totalDateElements = totalDateCount.value ;
+  return totalElements > 0 ? (((totalDateElements + totalDelElements) / totalElements) * 100).toFixed(2) : 0;
 });
 
 onMounted(() => {
