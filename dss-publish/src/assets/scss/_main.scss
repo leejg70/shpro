@@ -510,22 +510,22 @@
                     .ico-main-data {
                         background-image: url('../images/icon/icon_main_data_play.png');
                         background-size: 1092rem 12rem;
-                        animation: data-play 2s steps(91) infinite;
+                        animation: data-play 3s steps(91) infinite;
                     }
                     .ico-main-solution {
                         background-image: url('../images/icon/icon_main_solution_play.png');
                         background-size: 1104rem 12rem;
-                        animation: solution-play 2s steps(92) infinite;
+                        animation: solution-play 3s steps(92) infinite;
                     }
                     .ico-main-ad {
                         background-image: url('../images/icon/icon_main_ad_play.png');
                         background-size: 1092rem 12rem;
-                        animation: ad-play 2s steps(91) infinite;
+                        animation: ad-play 3s steps(91) infinite;
                     }
                     .ico-main-api {
                         background-image: url('../images/icon/icon_main_api_play.png');
                         background-size: 1092rem 12rem;
-                        animation: api-play 2s steps(91) infinite;
+                        animation: api-play 3s steps(91) infinite;
                     }    
                     @keyframes data-play {
                         from { background-position: 0 0; }    
