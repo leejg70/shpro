@@ -6,7 +6,9 @@ const notice = ref(true);
 const show = ref(false);
 const allmenu = ref(false);
 const handleMouseLeave = () => {
-  show.value = false
+    setTimeout(() =>{
+        show.value = false
+    }, 350)
 }
 </script>
 <template>
@@ -62,6 +64,7 @@ const handleMouseLeave = () => {
                     </ul> 
                     <!--2024.05.31 위치이동-->  
                     <!--2024.05.31 v-show="show"  @mouseover="show = true" @mouseout="show = false" 삭제처리-->  
+
                     <div class="gnb-menu-wrap">
                         <div class="gnb-menu-inner">
                             <div class="gnb-menu-list">
@@ -112,7 +115,10 @@ const handleMouseLeave = () => {
             </div>
         </div>   
     </header>
-    <div class="menu-dim" :class="show ? 'active': ''"></div><!--2024.05.31 추가 -->
+    <transition name="fade">
+        <div class="menu-dim"  v-show="show " ></div><!--2024.05.31 추가 -->
+    </transition>
+    
     
     <!--  전체메뉴 -->
     <v-dialog v-model="allmenu" fullscreen  class="menu-full-popup">
