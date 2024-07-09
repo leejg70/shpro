@@ -1,4 +1,3 @@
-
 @charset "UTF-8";
 
 /* Font-face */
@@ -266,7 +265,7 @@ input.v-field__input {background-color: transparent !important;}
             font-size: 1.4rem;
             > ul {
                 display: flex; 
-                font-family: 'OneShinhan';
+                font-family: 'OneShinhan', sans-serif;
                 > li:not(:first-child) {
                     margin-left: 2.4rem;
                 }
@@ -275,7 +274,7 @@ input.v-field__input {background-color: transparent !important;}
                     > a{
                         padding: 4px 0px;
                         font-size: 1.4rem; 
-                        font-family: 'OneShinhan'; 
+                        font-family: 'OneShinhan', sans-serif; 
                         font-weight: 700;
                     }
                 }
