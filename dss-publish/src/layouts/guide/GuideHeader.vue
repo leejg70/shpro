@@ -1,15 +1,17 @@
+
 <template>
   <header class="header">
-            <div class="head-inner">             
-        
+            <div class="head-inner">       
                 <div class="gnb-wrap">
-                    <h1 class="title1"><img src="../../assets/img/common/logo.png" alt="" class="logo"></h1>
+                    <h1 class="title1">
+                        <router-link to="/">worklist</router-link>                       
+                    </h1>
                     <nav class="gnb-menu">
                         <ul class="menu-list">
-                            <li><router-link to="/guide/01">인풋가이드</router-link></li>
-                            <li><router-link to="/guide/02">버튼가이드</router-link></li>
-                            <li><router-link to="/guide/03">체크박스가이드</router-link></li>
-                            <li><router-link to="/worklist">워크리스트</router-link></li>             
+                            <li><router-link to="/guide/01" >인풋</router-link></li>
+                            <li><router-link to="/guide/02"  >버튼</router-link></li>
+                            <li><router-link to="/guide/03"  >아이콘</router-link></li>
+                            <li><router-link to="/guide/04"  >팝업</router-link></li>                                    
                         </ul>                         
                     </nav>
                     <!-- // Menu --> 
@@ -25,3 +27,5 @@
         </header>
   <!-- //header-->
 </template>
+<style scoped>
+</style>

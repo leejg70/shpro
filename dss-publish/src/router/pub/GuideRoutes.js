@@ -1,4 +1,4 @@
-const MainRoutes = {
+const GuideRoutes = {
   path: '/',
   meta: {
     requiresAuth: false
@@ -27,12 +27,21 @@ const MainRoutes = {
     {
       name: 'guide03',
       path: '/guide/03',
-      component: () => import('@/views/pub/Guide/CheckBox.vue'),
+      component: () => import('@/views/pub/Guide/GuideIcon.vue'),
       meta: {
         appearMenu : true,
         requiresAuth: false
       }
     },
+    {
+        name: 'guide04',
+        path: '/guide/04',
+        component: () => import('@/views/pub/Guide/GuidePopup.vue'),
+        meta: {
+          appearMenu : true,
+          requiresAuth: false
+        }
+      },
     {
       name: 'worklist',
       path: '/',
@@ -45,4 +54,4 @@ const MainRoutes = {
   ]
 };
 
-export default MainRoutes;
+export default GuideRoutes;

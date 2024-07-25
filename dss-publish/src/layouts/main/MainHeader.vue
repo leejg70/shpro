@@ -117,8 +117,7 @@ const handleMouseLeave = () => {
     </header>
     <transition name="fade">
         <div class="menu-dim"  v-show="show " ></div><!--2024.05.31 추가 -->
-    </transition>
-    
+    </transition>   
     
     <!--  전체메뉴 -->
     <v-dialog v-model="allmenu" fullscreen  class="menu-full-popup">

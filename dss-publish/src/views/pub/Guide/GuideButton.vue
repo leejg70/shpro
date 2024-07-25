@@ -1,796 +1,415 @@
 <script setup>
 import { ref } from 'vue';
 
-// common components
-// import SvgSprite from '@/components/shared/SvgSprite.vue';
-// import ComponentTitle from '@/components/shared/ComponentTitle.vue';
-// import UiParentCard from '@/components/shared/UiParentCard.vue';
-
-// component content
-const page = ref({ title: 'Buttons' });
-const subContent = ref({ content: 'Buttons allow users to take actions, and make choices, with a single tap.' });
-const path = ref({ filepath: 'src/views/forms/components/buttons' });
-const link = ref({ filelink: 'https://vuetifyjs.com/en/components/buttons' });
-
-// buttons color data
-const btnsColor = ref(['primary', 'secondary', 'Tertiary', 'Outlinded',  'Info' ,'error']);
-const btnsColor1 = ref([
-  {
-    name: 'primary',
-    color: 'darkprimary'
-  },
-  {
-    name: 'secondary',
-    color: 'darksecondary'
-  },
-  {
-    name: 'Tertiary',
-    color: 'darkinfo'
-  },
-  {
-    name: 'Outlinded',
-    color: 'darksuccess'
-  },
-  {
-    name: 'error',
-    color: 'darkerror'
-  }
-]);
-
-// buttons size data
-const btnsSize = ref(['x-small', 'small', 'large', 'x-large']);
-
-// buttons data
-const btnsContent = ref(['one', 'two', 'three']);
-
-const loading = ref(false);
-
-function load() {
-  loading.value = true;
-  setTimeout(() => {
-    loading.value = false;
-  }, 3000);
-}
+const radioGroup = ref('비공개');
+const items = [
+    { name: '이용문의', value: '01' },
+    { name: '제휴문의', value: '02' },
+    { name: '기술문의', value: '03' },
+    { name: 'Data서비스 문의', value: '04' },
+    { name: '솔루션서비스 문의', value: '05' },
+    { name: 'API서비스 문의', value: '06' },
+    { name: '광고서비스 문의', value: '07' },
+]
+const selected = ref()
+const tabs = ref('');
 </script>
 
-// ===============================|| Ui Buttons ||=============================== //
-<template>
-  <ComponentTitle :title="page.title" :subContent="subContent.content" :path="path.filepath" :link="link.filelink"></ComponentTitle>
-  <v-row>
-    <v-col cols="12">
-      <v-row>
-        <!-- Base Buttons -->
-        <v-col cols="12" md="6">
-          <v-row>
-            <v-col cols="12">
-              <UiParentCard title="Button x-large">
-                <div class="d-flex ga-4 align-center flex-column flex-wrap flex-sm-row fill-height">
-                  <v-btn
-                    :ripple="false"
-                    variant="flat"
-                    color="primary"
-                    size="x-large"
-                    rounded="lg"
-                  >
-                    primary
-                  </v-btn>
-                  <v-btn
-                    :ripple="false"
-                    variant="flat"
-                    color="secondary"
-                    size="x-large"
-                    rounded="lg"
-                  >
-                    secondary
-                  </v-btn>
-                  <v-btn
-                  :ripple="false"
-                    variant="flat"
-                    color="Tertiary"
-                    size="x-large"
-                    rounded="lg"
-                  >
-                    Tertiary
-                  </v-btn>
-                  <v-btn
-                    :ripple="false"
-                    variant="outlined"
-                    color="primary"
-                    size="x-large"
-                    rounded="lg"
-                  >
-                    primary outlined
-                  </v-btn>
-                  <v-btn
-                    :ripple="false"
-                    variant="outlined"
-                    color="Outlinded"
-                    size="x-large"
-                    rounded="lg"
-                  >
-                    Outlinded
-                  </v-btn>
-                </div>
-              </UiParentCard>
-            </v-col>
-            <!-- Outlined Buttons -->
-            <v-col cols="12">
-              <UiParentCard title="Button large">
-                <div class="d-flex ga-4 align-center flex-column flex-wrap flex-sm-row fill-height">
-                  <v-btn
-                    :ripple="false"
-                    variant="flat"
-                    color="primary"
-                    size="large"
-                    rounded="md"
-                  >
-                    primary
-                  </v-btn>
-                  <v-btn
-                    :ripple="false"
-                    variant="tonal"
-                    color="secondary"
-                    size="large"
-                    rounded="md"
-                  >
-                    secondary
-                  </v-btn>
-                  <v-btn
-                    :ripple="false"
-                    variant="flat"
-                    color="Tertiary"
-                    size="large"
-                    rounded="md"
-                  >
-                    Tertiary
-                  </v-btn>
-                  <v-btn
-                    :ripple="false"
-                    variant="outlined"
-                    color="primary"
-                    size="large"
-                    rounded="md"
-                  >
-                    primary outlined
-                  </v-btn>
-                  <v-btn
-                    :ripple="false"
-                    variant="outlined"
-                    color="Outlinded"
-                    size="large"
-                    rounded="md"
-                  >
-                    Outlinded
-                  </v-btn>
-                </div>
-              </UiParentCard>
-            </v-col>
-            <!-- Outlined Buttons -->
-            <v-col cols="12">
-              <UiParentCard title="Button small">
-                <div class="d-flex ga-4 align-center flex-column flex-wrap flex-sm-row fill-height">               
-                  <v-btn
-                    :ripple="false"
-                    variant="flat"
-                    color="primary"
-                    size="small"
-                    rounded="md"
-                  >
-                    primary
-                  </v-btn>
-                  <v-btn
-                    :ripple="false"
-                    variant="tonal"
-                    color="secondary"
-                    size="small"
-                    rounded="md"
-                  >
-                    secondary
-                  </v-btn>
-                  <v-btn
-                    :ripple="false"
-                    variant="flat"
-                    color="Tertiary"
-                    size="small"
-                    rounded="md"
-                  >
-                    Tertiary
-                  </v-btn> 
-                  <v-btn
-                    :ripple="false"
-                    variant="outlined"
-                    color="primary"
-                    size="small"
-                    rounded="md"
-                  >
-                    primary outlined
-                  </v-btn>
-                  <v-btn
-                    :ripple="false"
-                    variant="outlined"
-                    color="Outlinded"
-                    size="small"
-                    rounded="md"
-                  >
-                    Outlinded
-                  </v-btn>                  
-                </div>
-              </UiParentCard>
-            </v-col>
-            <!-- Outlined Buttons -->
-            <v-col cols="12">
-              <UiParentCard title="Button x-small">
-                <div class="d-flex ga-4 align-center flex-column flex-wrap flex-sm-row fill-height">               
-                  <v-btn
-                  :ripple="false"
-                    variant="flat" 
-                    olor="primary"
-                    size="x-small"
-                    rounded="md"
-                  >
-                    primary
-                  </v-btn>
-                  <v-btn
-                    :ripple="false"
-                    variant="tonal"
-                    color="secondary"
-                    size="x-small"
-                    rounded="md"
-                  >
-                    secondary
-                  </v-btn>
-                  <v-btn
-                    :ripple="false"
-                    variant="flat"
-                    color="Tertiary"
-                    size="x-small"
-                    rounded="md"
-                  >
-                    Tertiary
-                  </v-btn> 
-                  <v-btn
-                    :ripple="false"
-                    variant="outlined"
-                    color="primary"
-                    size="x-small"
-                    rounded="md"
-                  >
-                    primary outlined
-                  </v-btn>
-                  <v-btn
-                    :ripple="false"
-                    variant="outlined"
-                    color="Outlinded"
-                    size="x-small"
-                    rounded="md"
-                  >
-                    Outlinded
-                  </v-btn>                  
-                </div>
-              </UiParentCard>
-            </v-col>
-            <!-- Outlined Buttons -->
-            <v-col cols="12">
-              <UiParentCard title="Button disabled">
-                <div class="d-flex ga-4 align-center flex-column flex-wrap flex-sm-row fill-height">               
-                  <v-btn
-                    text="Cotained"
-                    variant="flat"
-                    color="primary"
-                    size="x-large"
-                    rounded="lg"
-                    disabled
-                  >
-                    primary
-                  </v-btn>
-                  <v-btn
-                    text="Cotained"
-                    variant="tonal"
-                    color="secondary"
-                    size="x-large"
-                    rounded="lg"
-                    disabled
-                  >
-                    secondary
-                  </v-btn>
-                  <v-btn
-                    text="Cotained"
-                    variant="flat"
-                    color="Tertiary"
-                    size="x-large"
-                    rounded="lg"
-                    disabled
-                  >
-                    Tertiary
-                  </v-btn> 
-                  <v-btn
-                    text="Cotained"
-                    variant="outlined"
-                    color="primary"
-                    size="x-large"
-                    rounded="lg"
-                    disabled
-                  >
-                    primary outlined
-                  </v-btn>
-                  <v-btn
-                    text="Cotained"
-                    variant="outlined"
-                    color="Outlinded"
-                    size="x-large"
-                    rounded="lg"
-                    disabled
-                  >
-                    Outlinded
-                  </v-btn>                  
-                </div>
-              </UiParentCard>
-            </v-col>
-            <!-- Outlined Buttons -->
-
-
-
-
-
-
-
-
-            \
-
-
-
-            <v-col cols="12">
-              <UiParentCard title="Outlined Button">
-                <div class="d-flex ga-4 align-center flex-column flex-wrap flex-sm-row fill-height">
-                  <v-btn v-for="btn in btnsColor" rounded="md" :key="btn" :color="btn" variant="outlined">
-                    {{ btn }}
-                  </v-btn>
-                </div>
-              </UiParentCard>
-            </v-col>
-            <!-- Dashed Buttons -->
-            <v-col cols="12">
-              <UiParentCard title="Dashed Button">
-                <div class="d-flex ga-4 align-center flex-column flex-wrap flex-sm-row fill-height">
-                  <v-btn v-for="btn in btnsColor" rounded="md" :key="btn" :color="btn" :class="`${btn}-dashed`" variant="tonal">
-                    {{ btn }}
-                  </v-btn>
-                </div>
-              </UiParentCard>
-            </v-col>
-            <!-- Flat Buttons -->
-            <v-col cols="12">
-              <UiParentCard title="Flat Button">
-                <div class="d-flex ga-4 align-center flex-column flex-wrap flex-sm-row fill-height">
-                  <v-btn v-for="btn in btnsColor" :key="btn" :color="btn" variant="flat" rounded="md">
-                    {{ btn }}
-                  </v-btn>
-                </div>
-              </UiParentCard>
-            </v-col>
-            <!-- Text Buttons -->
-            <v-col cols="12">
-              <UiParentCard title="Text Button">
-                <div class="d-flex flex-wrap ga-4 my-2 align-center flex-column flex-wrap flex-sm-row fill-height">
-                  <v-btn v-for="btn in btnsColor" rounded="md" :key="btn" :color="btn" variant="text">
-                    {{ btn }}
-                  </v-btn>
-                </div>
-              </UiParentCard>
-            </v-col>
-            <!-- Shadow Button -->
-            <v-col cols="12">
-              <UiParentCard title="Shadow Button">
-                <div class="d-flex flex-wrap ga-4 align-center flex-column flex-sm-row fill-height">
-                  <v-btn
-                    variant="flat"
-                    v-for="btn in btnsColor1"
-                    rounded="md"
-                    :key="btn.name"
-                    :color="btn.color"
-                    :class="`${btn.name}-shadow`"
-                  >
-                    {{ btn.name }}
-                  </v-btn>
-                </div>
-              </UiParentCard>
-            </v-col>
-            <!-- With Icons -->
-            <v-col cols="12">
-              <UiParentCard title="With Icons">
-                <div class="d-flex ga-4 align-center flex-column flex-wrap flex-sm-row fill-height">
-                  <v-btn flat color="primary" rounded="md">
-                    <template v-slot:prepend>
-                      <SvgSprite name="custom-home-outline" style="width: 18px; height: 18px" />
-                    </template>
-                    Home
-                  </v-btn>
-                  <v-btn flat color="secondary" rounded="md">
-                    Profile
-                    <template v-slot:append>
-                      <SvgSprite name="custom-smile-fill" style="width: 18px; height: 18px" />
-                    </template>
-                  </v-btn>
-                  <v-btn flat color="info" rounded="md" variant="outlined">
-                    <template v-slot:prepend>
-                      <SvgSprite name="custom-navigation-outline" style="width: 18px; height: 18px" />
-                    </template>
-                    Address
-                  </v-btn>
-                  <v-btn flat color="success" rounded="md" variant="outlined">
-                    <template v-slot:prepend>
-                      <SvgSprite name="custom-circle-plus-outline" style="width: 18px; height: 18px" />
-                    </template>
-                    Add
-                  </v-btn>
-                  <v-btn flat color="warning" rounded="md" variant="outlined">
-                    Send
-                    <template v-slot:append>
-                      <SvgSprite name="custom-send-outline" style="width: 18px; height: 18px" />
-                    </template>
-                  </v-btn>
-                  <v-btn flat color="error" rounded="md" variant="text">
-                    Cancel
-                    <template v-slot:append>
-                      <SvgSprite name="custom-close" style="width: 18px; height: 18px; transform: rotate(45deg)" />
-                    </template>
-                  </v-btn>
-                </div>
-              </UiParentCard>
-            </v-col>
-            <!-- Sizes -->
-            <v-col cols="12">
-              <UiParentCard title="Button size">
-                <div class="d-flex flex-wrap ga-4 align-start flex-column flex-wrap flex-sm-row fill-height">
-                  <v-btn v-for="btn in btnsSize" rounded="md" :key="btn" :size="btn" color="primary"> {{ btn }} </v-btn>
-                </div>
-              </UiParentCard>
-            </v-col>
-            <!-- Disabled -->
-            <v-col cols="12">
-              <UiParentCard title="Disabled Button">
-                <div class="d-flex flex-wrap ga-4 align-start flex-wrap flex-row fill-height">
-                  <v-btn text="Default" rounded="md" variant="text" disabled></v-btn>
-                  <v-btn text="Cotained" rounded="md" variant="tonal" disabled></v-btn>
-                  <v-btn text="Outlined" rounded="md" variant="outlined" disabled></v-btn>
-                  <v-btn text="Dashed" rounded="md" variant="tonal" class="secondary-dashed" disabled></v-btn>
-                  <v-btn icon variant="tonal" aria-label="button" rounded="md" disabled>
-                    <SvgSprite name="custom-home-outline" style="width: 20px; height: 20px" />
-                  </v-btn>
-                  <v-btn icon variant="outlined" aria-label="button" rounded="md" disabled>
-                    <SvgSprite name="custom-circle-plus-outline" style="width: 20px; height: 20px" />
-                  </v-btn>
-                  <v-btn icon class="secondary-dashed" aria-label="button" rounded="md" variant="tonal" disabled>
-                    <SvgSprite name="custom-send-outline" style="width: 20px; height: 20px" />
-                  </v-btn>
-                </div>
-              </UiParentCard>
-            </v-col>
-            <!-- Block level -->
-            <v-col cols="12">
-              <UiParentCard title="Block level">
-                <v-row>
-                  <v-col cols="12" sm="6">
-                    <v-btn color="primary" rounded="md" block>Primary</v-btn>
-                  </v-col>
-                  <v-col cols="12" sm="6">
-                    <v-btn color="secondary" rounded="md" variant="outlined" block>Secondary</v-btn>
-                  </v-col>
-                </v-row>
-              </UiParentCard>
-            </v-col>
-          </v-row>
+<template> 
+  <div class="guide-wrap">   
+    <v-row>
+        <h2 class="sub-title">Buttons</h2>
+        <v-col cols="12">        
+        <UiParentCard title="Button x-large">
+            <div class="d-flex ga-4 align-center flex-column flex-wrap flex-sm-row fill-height">
+            <v-btn
+                :ripple="false"
+                variant="flat"
+                color="primary"
+                size="x-large"
+                rounded="lg"
+            >
+                primary
+            </v-btn>
+            <v-btn
+                :ripple="false"
+                variant="flat"
+                color="secondary"
+                size="x-large"
+                rounded="lg"
+            >
+                secondary
+            </v-btn>
+            <v-btn
+            :ripple="false"
+                variant="flat"
+                color="Tertiary"
+                size="x-large"
+                rounded="lg"
+            >
+                Tertiary
+            </v-btn>
+            <v-btn
+                :ripple="false"
+                variant="outlined"
+                color="primary"
+                size="x-large"
+                rounded="lg"
+            >
+                primary outlined
+            </v-btn>
+            <v-btn
+                :ripple="false"
+                variant="outlined"
+                color="Outlinded"
+                size="x-large"
+                rounded="lg"
+            >
+                Outlinded
+            </v-btn>
+            </div>
+        </UiParentCard>
         </v-col>
-
-
-
-        <!-- Base Buttons -->
-        <v-col cols="12" md="6">
-          <v-row>
-            <v-col cols="12">
-              <UiParentCard title="Basic Button">
-                <div class="d-flex ga-4 align-center flex-column flex-wrap flex-sm-row fill-height">
-                  <v-btn v-for="btn in btnsColor" rounded="md" :key="btn" :color="btn">
-                    {{ btn }}
-                  </v-btn>
-                </div>
-              </UiParentCard>
-            </v-col>
-            <!-- Outlined Buttons -->
-            <v-col cols="12">
-              <UiParentCard title="Outlined Button">
-                <div class="d-flex ga-4 align-center flex-column flex-wrap flex-sm-row fill-height">
-                  <v-btn v-for="btn in btnsColor" rounded="md" :key="btn" :color="btn" variant="outlined">
-                    {{ btn }}
-                  </v-btn>
-                </div>
-              </UiParentCard>
-            </v-col>
-            <!-- Dashed Buttons -->
-            <v-col cols="12">
-              <UiParentCard title="Dashed Button">
-                <div class="d-flex ga-4 align-center flex-column flex-wrap flex-sm-row fill-height">
-                  <v-btn v-for="btn in btnsColor" rounded="md" :key="btn" :color="btn" :class="`${btn}-dashed`" variant="tonal">
-                    {{ btn }}
-                  </v-btn>
-                </div>
-              </UiParentCard>
-            </v-col>
-            <!-- Flat Buttons -->
-            <v-col cols="12">
-              <UiParentCard title="Flat Button">
-                <div class="d-flex ga-4 align-center flex-column flex-wrap flex-sm-row fill-height">
-                  <v-btn v-for="btn in btnsColor" :key="btn" :color="btn" variant="flat" rounded="md">
-                    {{ btn }}
-                  </v-btn>
-                </div>
-              </UiParentCard>
-            </v-col>
-            <!-- Text Buttons -->
-            <v-col cols="12">
-              <UiParentCard title="Text Button">
-                <div class="d-flex flex-wrap ga-4 my-2 align-center flex-column flex-wrap flex-sm-row fill-height">
-                  <v-btn v-for="btn in btnsColor" rounded="md" :key="btn" :color="btn" variant="text">
-                    {{ btn }}
-                  </v-btn>
-                </div>
-              </UiParentCard>
-            </v-col>
-            <!-- Shadow Button -->
-            <v-col cols="12">
-              <UiParentCard title="Shadow Button">
-                <div class="d-flex flex-wrap ga-4 align-center flex-column flex-sm-row fill-height">
-                  <v-btn
-                    variant="flat"
-                    v-for="btn in btnsColor1"
-                    rounded="md"
-                    :key="btn.name"
-                    :color="btn.color"
-                    :class="`${btn.name}-shadow`"
-                  >
-                    {{ btn.name }}
-                  </v-btn>
-                </div>
-              </UiParentCard>
-            </v-col>
-            <!-- With Icons -->
-            <v-col cols="12">
-              <UiParentCard title="With Icons">
-                <div class="d-flex ga-4 align-center flex-column flex-wrap flex-sm-row fill-height">
-                  <v-btn flat color="primary" rounded="md">
-                    <template v-slot:prepend>
-                      <SvgSprite name="custom-home-outline" style="width: 18px; height: 18px" />
-                    </template>
-                    Home
-                  </v-btn>
-                  <v-btn flat color="secondary" rounded="md">
-                    Profile
-                    <template v-slot:append>
-                      <SvgSprite name="custom-smile-fill" style="width: 18px; height: 18px" />
-                    </template>
-                  </v-btn>
-                  <v-btn flat color="info" rounded="md" variant="outlined">
-                    <template v-slot:prepend>
-                      <SvgSprite name="custom-navigation-outline" style="width: 18px; height: 18px" />
-                    </template>
-                    Address
-                  </v-btn>
-                  <v-btn flat color="success" rounded="md" variant="outlined">
-                    <template v-slot:prepend>
-                      <SvgSprite name="custom-circle-plus-outline" style="width: 18px; height: 18px" />
-                    </template>
-                    Add
-                  </v-btn>
-                  <v-btn flat color="warning" rounded="md" variant="outlined">
-                    Send
-                    <template v-slot:append>
-                      <SvgSprite name="custom-send-outline" style="width: 18px; height: 18px" />
-                    </template>
-                  </v-btn>
-                  <v-btn flat color="error" rounded="md" variant="text">
-                    Cancel
-                    <template v-slot:append>
-                      <SvgSprite name="custom-close" style="width: 18px; height: 18px; transform: rotate(45deg)" />
-                    </template>
-                  </v-btn>
-                </div>
-              </UiParentCard>
-            </v-col>
-            <!-- Sizes -->
-            <v-col cols="12">
-              <UiParentCard title="Button size">
-                <div class="d-flex flex-wrap ga-4 align-start flex-column flex-wrap flex-sm-row fill-height">
-                  <v-btn v-for="btn in btnsSize" rounded="md" :key="btn" :size="btn" color="primary"> {{ btn }} </v-btn>
-                </div>
-              </UiParentCard>
-            </v-col>
-            <!-- Disabled -->
-            <v-col cols="12">
-              <UiParentCard title="Disabled Button">
-                <div class="d-flex flex-wrap ga-4 align-start flex-wrap flex-row fill-height">
-                  <v-btn text="Default" rounded="md" variant="text" disabled></v-btn>
-                  <v-btn text="Cotained" rounded="md" variant="tonal" disabled></v-btn>
-                  <v-btn text="Outlined" rounded="md" variant="outlined" disabled></v-btn>
-                  <v-btn text="Dashed" rounded="md" variant="tonal" class="secondary-dashed" disabled></v-btn>
-                  <v-btn icon variant="tonal" aria-label="button" rounded="md" disabled>
-                    <SvgSprite name="custom-home-outline" style="width: 20px; height: 20px" />
-                  </v-btn>
-                  <v-btn icon variant="outlined" aria-label="button" rounded="md" disabled>
-                    <SvgSprite name="custom-circle-plus-outline" style="width: 20px; height: 20px" />
-                  </v-btn>
-                  <v-btn icon class="secondary-dashed" aria-label="button" rounded="md" variant="tonal" disabled>
-                    <SvgSprite name="custom-send-outline" style="width: 20px; height: 20px" />
-                  </v-btn>
-                </div>
-              </UiParentCard>
-            </v-col>
-            <!-- Block level -->
-            <v-col cols="12">
-              <UiParentCard title="Block level">
-                <v-row>
-                  <v-col cols="12" sm="6">
-                    <v-btn color="primary" rounded="md" block>Primary</v-btn>
-                  </v-col>
-                  <v-col cols="12" sm="6">
-                    <v-btn color="secondary" rounded="md" variant="outlined" block>Secondary</v-btn>
-                  </v-col>
-                </v-row>
-              </UiParentCard>
-            </v-col>
-          </v-row>
+        <!-- Outlined Buttons -->
+        <v-col cols="12">
+        <UiParentCard title="Button large">
+            <div class="d-flex ga-4 align-center flex-column flex-wrap flex-sm-row fill-height">
+            <v-btn
+                :ripple="false"
+                variant="flat"
+                color="primary"
+                size="large"
+                rounded="md"
+            >
+                primary
+            </v-btn>
+            <v-btn
+                :ripple="false"
+                variant="flat"
+                color="secondary"
+                size="large"
+                rounded="md"
+            >
+                secondary
+            </v-btn>
+            <v-btn
+                :ripple="false"
+                variant="flat"
+                color="Tertiary"
+                size="large"
+                rounded="md"
+            >
+                Tertiary
+            </v-btn>
+            <v-btn
+                :ripple="false"
+                variant="outlined"
+                color="primary"
+                size="large"
+                rounded="md"
+            >
+                primary outlined
+            </v-btn>
+            <v-btn
+                :ripple="false"
+                variant="outlined"
+                color="Outlinded"
+                size="large"
+                rounded="md"
+            >
+                Outlinded
+            </v-btn>
+            </div>
+        </UiParentCard>
         </v-col>
-        <v-col cols="12" md="6">
-          <v-row>
-            <!-- Button group -->
-            <v-col cols="12">
-              <UiParentCard title="Button group">
-                <div class="d-flex flex-column ga-4">
-                  <v-btn-group divided variant="flat" color="primary" density="compact">
-                    <v-btn v-for="btn in btnsContent" :key="btn">{{ btn }}</v-btn>
-                  </v-btn-group>
-                  <v-btn-group divided variant="outlined" color="primary" density="compact">
-                    <v-btn v-for="btn in btnsContent" :key="btn">{{ btn }}</v-btn>
-                  </v-btn-group>
-                  <v-btn-group divided color="primary" variant="text" density="compact">
-                    <v-btn v-for="btn in btnsContent" :key="btn">{{ btn }}</v-btn>
-                  </v-btn-group>
-                  <v-btn-group divided variant="outlined" color="warning" density="compact">
-                    <v-btn v-for="btn in btnsContent" :key="btn">{{ btn }}</v-btn>
-                  </v-btn-group>
-                </div>
-              </UiParentCard>
-            </v-col>
-            <v-col cols="12">
-              <UiParentCard title="Fab">
-                <div class="d-flex ga-4 flex-wrap">
-                  <v-btn icon size="large" aria-label="button" variant="elevated" color="primary" class="primary-shadow">
-                    <SvgSprite name="custom-plus" style="width: 20px; height: 20px" />
-                  </v-btn>
-                  <v-btn icon size="large" aria-label="button" variant="elevated" color="info" class="info-shadow">
-                    <SvgSprite name="custom-edit-outline" style="width: 20px; height: 20px" />
-                  </v-btn>
-                  <v-btn icon size="large" aria-label="button" variant="elevated" disabled>
-                    <SvgSprite name="custom-mic-off" style="width: 20px; height: 20px" />
-                  </v-btn>
-                  <v-btn size="large" variant="elevated" rounded="pill" color="error" class="error-shadow">Extended</v-btn>
-                </div>
-              </UiParentCard>
-            </v-col>
-            <v-col cols="12">
-              <h5 class="text-h5 mb-5">Extended Button</h5>
-              <!-- Icon button -->
-              <UiParentCard title="Icon Button">
-                <v-row>
-                  <v-col cols="12">
-                    <div class="d-flex flex-wrap ga-4">
-                      <v-btn color="primary" aria-label="button" variant="flat" icon rounded="md">
-                        <SvgSprite name="custom-home-outline" style="width: 20px; height: 20px" />
-                      </v-btn>
-                      <v-btn color="secondary" aria-label="button" variant="flat" icon rounded="md">
-                        <SvgSprite name="custom-smile-fill" style="width: 20px; height: 20px" />
-                      </v-btn>
-                      <v-btn color="info" aria-label="button" icon rounded="md" variant="outlined">
-                        <SvgSprite name="custom-navigation-outline" style="width: 20px; height: 20px" />
-                      </v-btn>
-                      <v-btn color="success" aria-label="button" icon rounded="md" variant="outlined">
-                        <SvgSprite name="custom-circle-plus-outline" style="width: 20px; height: 20px" />
-                      </v-btn>
-                      <v-btn color="warning" aria-label="button" icon rounded="md" variant="tonal" class="warning-dashed">
-                        <SvgSprite name="custom-send-outline" style="width: 20px; height: 20px" />
-                      </v-btn>
-                      <v-btn color="error" aria-label="button" icon rounded="md" variant="text">
-                        <SvgSprite name="custom-close" style="width: 20px; height: 20px; transform: rotate(45deg)" />
-                      </v-btn>
-                    </div>
-                  </v-col>
-                  <v-col cols="12">
-                    <div class="d-flex flex-wrap ga-4">
-                      <v-btn color="primary" aria-label="button" icon>
-                        <SvgSprite name="custom-home-outline" style="width: 20px; height: 20px" />
-                      </v-btn>
-                      <v-btn color="secondary" aria-label="button" icon>
-                        <SvgSprite name="custom-smile-fill" style="width: 20px; height: 20px" />
-                      </v-btn>
-                      <v-btn color="info" aria-label="button" icon variant="outlined">
-                        <SvgSprite name="custom-navigation-outline" style="width: 20px; height: 20px" />
-                      </v-btn>
-                      <v-btn color="success" aria-label="button" icon variant="outlined">
-                        <SvgSprite name="custom-circle-plus-outline" style="width: 20px; height: 20px" />
-                      </v-btn>
-                      <v-btn color="warning" aria-label="button" icon variant="tonal" class="warning-dashed">
-                        <SvgSprite name="custom-send-outline" style="width: 20px; height: 20px" />
-                      </v-btn>
-                      <v-btn color="error" aria-label="button" icon variant="text">
-                        <SvgSprite name="custom-close" style="width: 20px; height: 20px; transform: rotate(45deg)" />
-                      </v-btn>
-                    </div>
-                  </v-col>
-                </v-row>
-              </UiParentCard>
-            </v-col>
-            <!-- Loading button -->
-            <v-col cols="12">
-              <UiParentCard title="Loading Button">
-                <div class="d-flex flex-wrap ga-4">
-                  <v-btn :loading="loading" rounded="md" color="primary" @click="load">
-                    <template v-slot:prepend>
-                      <SvgSprite name="custom-home-outline" style="width: 18px; height: 18px" />
-                    </template>
-                    Home
-                  </v-btn>
-                  <v-btn color="secondary" variant="outlined" rounded="md">
-                    Edit
-                    <v-progress-circular size="16" indeterminate color="secondary" aria-label="progressbar" class="ml-2">
-                    </v-progress-circular>
-                  </v-btn>
-                  <v-btn color="info" rounded="md" variant="tonal" text="Loading..." class="info-dashed"></v-btn>
-                  <v-btn color="success" variant="flat" icon rounded="md">
-                    <v-progress-circular size="16" indeterminate aria-label="progressbar"> </v-progress-circular>
-                  </v-btn>
-                  <v-btn color="warning" icon variant="tonal" class="warning-dashed">
-                    <v-progress-circular size="16" indeterminate aria-label="progressbar"> </v-progress-circular>
-                  </v-btn>
-                  <v-btn color="error" icon variant="text">
-                    <v-progress-circular size="16" indeterminate aria-label="progressbar"> </v-progress-circular>
-                  </v-btn>
-                </div>
-              </UiParentCard>
-            </v-col>
-            <!-- Ripple button -->
-            <v-col cols="12">
-              <UiParentCard title="Ripple">
-                <div class="d-flex flex-wrap ga-4">
-                  <v-btn color="primary" rounded="md"> With Ripple </v-btn>
-                  <v-btn color="primary" rounded="md" :ripple="false"> Without Ripple </v-btn>
-                </div>
-              </UiParentCard>
-            </v-col>
-            <!-- Density button -->
-            <v-col cols="12">
-              <UiParentCard title="Density">
-                <div class="d-flex flex-wrap align-center ga-4">
-                  <v-btn density="compact" rounded="md" color="primary">Compact Button</v-btn>
-                  <v-btn density="comfortable" rounded="md" color="primary">Comfortable Button</v-btn>
-                  <v-btn density="default" rounded="md" color="primary">Default Button</v-btn>
-                </div>
-              </UiParentCard>
-            </v-col>
-            <!-- Rounded -->
-            <v-col cols="12">
-              <UiParentCard title="Rounded">
-                <div class="d-flex ga-4 align-center flex-column flex-wrap flex-sm-row fill-height">
-                  <v-btn rounded="0" color="primary">Rounded 0</v-btn>
-                  <v-btn rounded="xs" color="secondary">Rounded xs</v-btn>
-                  <v-btn rounded="sm" color="success">Rounded sm</v-btn>
-                  <v-btn color="info">Rounded sm</v-btn>
-                  <v-btn rounded="lg" color="warning">Rounded lg</v-btn>
-                  <v-btn rounded="xl" color="error">Rounded xl</v-btn>
-                </div>
-              </UiParentCard>
-            </v-col>
-          </v-row>
+        <!-- Outlined Buttons -->
+        <v-col cols="12">
+        <UiParentCard title="Button small">
+            <div class="d-flex ga-4 align-center flex-column flex-wrap flex-sm-row fill-height">               
+            <v-btn
+                :ripple="false"
+                variant="flat"
+                color="primary"
+                size="small"
+                rounded="md"
+            >
+                primary
+            </v-btn>
+            <v-btn
+                :ripple="false"
+                variant="flat"
+                color="secondary"
+                size="small"
+                rounded="md"
+            >
+                secondary
+            </v-btn>
+            <v-btn
+                :ripple="false"
+                variant="flat"
+                color="Tertiary"
+                size="small"
+                rounded="md"
+            >
+                Tertiary
+            </v-btn> 
+            <v-btn
+                :ripple="false"
+                variant="outlined"
+                color="primary"
+                size="small"
+                rounded="md"
+            >
+                primary outlined
+            </v-btn>
+            <v-btn
+                :ripple="false"
+                variant="outlined"
+                color="Outlinded"
+                size="small"
+                rounded="md"
+            >
+                Outlinded
+            </v-btn>                  
+            </div>
+        </UiParentCard>
         </v-col>
-      </v-row>
-    </v-col>
-  </v-row>
+        <!-- Outlined Buttons -->
+        <v-col cols="12">
+        <UiParentCard title="Button x-small">
+            <div class="d-flex ga-4 align-center flex-column flex-wrap flex-sm-row fill-height">               
+            <v-btn
+                :ripple="false"
+                variant="flat" 
+                color="primary"
+                size="x-small"
+                rounded="md"
+            >
+                primary
+            </v-btn>
+            <v-btn
+                :ripple="false"
+                variant="flat"
+                color="secondary"
+                size="x-small"
+                rounded="md"
+            >
+                secondary
+            </v-btn>
+            <v-btn
+                :ripple="false"
+                variant="flat"
+                color="Tertiary"
+                size="x-small"
+                rounded="md"
+            >
+                Tertiary
+            </v-btn> 
+            <v-btn
+                :ripple="false"
+                variant="outlined"
+                color="primary"
+                size="x-small"
+                rounded="md"
+            >
+                primary outlined
+            </v-btn>
+            <v-btn
+                :ripple="false"
+                variant="outlined"
+                color="Outlinded"
+                size="x-small"
+                rounded="md"
+            >
+                Outlinded
+            </v-btn>                  
+            </div>
+        </UiParentCard>
+        </v-col>
+        <!-- Outlined Buttons -->
+        <v-col cols="12">
+        <UiParentCard title="Button disabled">
+            <div class="d-flex ga-4 align-center flex-column flex-wrap flex-sm-row fill-height">               
+            <v-btn
+                :ripple="false"
+                variant="flat"
+                color="primary"
+                size="x-large"
+                rounded="lg"
+                disabled
+            >
+                primary
+            </v-btn> 
+            <v-btn
+                :ripple="false"
+                variant="outlined"
+                color="primary"
+                size="x-large"
+                rounded="lg"
+                disabled
+            >
+                primary outlined
+            </v-btn>
+            <v-btn
+                :ripple="false"
+                variant="outlined"
+                color="Outlinded"
+                size="x-large"
+                rounded="lg"
+                disabled
+            >
+                Outlinded
+            </v-btn>                  
+            </div>
+        </UiParentCard>
+        </v-col>
+        <!-- Outlined Buttons --> 
+    </v-row>
+
+    <v-row>
+        <h2 class="sub-title">Line Tabs</h2>
+        <v-col cols="12">
+            <v-sheet>
+                <v-slide-group v-model="tabs" show-arrows mandatory class="line-tabs">
+                    <v-slide-group-item
+                        v-for="item in [ '1번째 텝', '2번째 텝', '3번째 텝', '4번째 텝' ]"
+                        :key="item"
+                        v-slot="{ isSelected, toggle }"
+                    >
+                        <v-btn
+                            variant="text"
+                            size="large"
+                            :class="isSelected ? 'active': ''"
+                            @click="toggle"
+                        >
+                            {{ item }}
+                        </v-btn>
+                    </v-slide-group-item>
+                </v-slide-group>
+
+                <v-window v-model="tabs">
+                    <v-window-item value="0">
+                        <!-- tab1 - GranData -->
+                        1번째 텝
+                        <!--// tab1 - GranData -->
+                    </v-window-item>
+                    <v-window-item value="1">
+                        <!-- tab1 - GranData -->
+                        2번째 텝
+                        <!--// tab1 - GranData -->
+                    </v-window-item>
+                    <v-window-item value="2">
+                        <!-- tab1 - GranData -->
+                        3번째 텝
+                        <!--// tab1 - GranData -->
+                    </v-window-item>
+                    <v-window-item value="3">
+                       <!-- tab1 - GranData -->
+                       4번째 텝
+                     <!--// tab1 - GranData -->
+                    </v-window-item>
+                </v-window>
+            </v-sheet>
+        </v-col>
+    </v-row>
+
+    <v-row>
+        <h2 class="sub-title">Slide Tabs</h2>
+        <v-col cols="12">
+            <div class="slide-btn">
+                <v-slide-group v-model="selected" show-arrows mandatory>
+                    <v-slide-group-item
+                        v-for="item in [ '전체', 'Data 상품', '솔루션서비스', 'API서비스' ]"
+                        :key="item"
+                        v-slot="{ isSelected, toggle }"
+                    >
+                        <v-btn
+                            min-width="8rem"
+                            rounded="xl"
+                            variant="outlined"
+                            size="large"
+                            :class="isSelected ? 'bg-primary-darkblue': ''"
+                            @click="toggle"
+                        >
+                            {{ item }}
+                        </v-btn>
+                    </v-slide-group-item>
+                </v-slide-group>
+            </div>               
+        </v-col>     
+    </v-row>
+    <v-row>
+        <h2 class="sub-title">Flag</h2>
+        <v-col cols="12">
+            <div class="prod-flag-wrap">
+                <span class="flag blue">시장분석</span>
+                <span class="flag violet">지역경제</span> 
+                <span class="flag green">대안신용</span>
+                <span class="flag yellow">마이데이터</span>
+                <span class="flag pink">카드데이터</span>
+            </div>                
+        </v-col>     
+    </v-row>
+    <v-row>
+        <h2 class="sub-title">Badge</h2>
+        <v-col cols="12">
+            <div class="badge">
+                    <v-badge color="#FFF5E7" text-color="#FF9C00" content="NEW" class="badge-txt" />
+                    <v-badge color="#FFF5F5" text-color="#FF6666" content="HOT" class="badge-txt" />
+                </div>              
+        </v-col>     
+    </v-row>
+    <v-row>
+        <h2 class="sub-title">Radio</h2>
+        <v-col cols="12">
+            <div class="inp-radio">
+                <v-radio-group
+                    v-model="radioGroup"
+                    hide-details
+                    inline
+                    density="compact"
+                >
+                    <v-radio label="공개" value="공개" />
+                    <v-radio label="비공개" value="비공개" />
+                </v-radio-group>
+            </div>                 
+        </v-col>     
+    </v-row>
+    <v-row>
+        <h2 class="sub-title">Select</h2>
+        <v-col cols="12">
+            <div class="inp-select" style="max-width:38.4rem;">
+                <v-select
+                    v-model="selected"
+                    :items="items"
+                    item-title="name"
+                    item-value="value"
+                    hide-details
+                    variant="outlined"
+                    color="primary"
+                    placeholder="선택"
+                />
+            </div>                 
+        </v-col>     
+    </v-row>    
+  </div>
 </template>
+<style scoped>
+.guide-wrap {
+    padding: 4rem;
+    margin: 0 auto;
+    max-width: 128rem;
+
+   .sub-title {
+    padding: 1rem 0;    
+    font-size: 2rem;
+   }
+   .member {
+        padding: 0;
+        max-width: 100%;
+    }
+    .v-row + .v-row{
+        margin-top: 5rem;
+    }
+}
+</style>

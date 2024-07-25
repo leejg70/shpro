@@ -1,18 +1,32 @@
 <script setup>
-import { ref } from 'vue';
+import { ref, watch, reactive } from 'vue';
 
-const formTerms = ref({
-  value: ['0', '1', '2', '3', '4'],
-  allSelected: false,
-});
+const checkAll = ref(false)
+const agreeList = reactive([
+  { text: '[필수] 휴대폰 본인확인 이용 동의', checked: false },
+  { text: '[필수] 고유식별정보 처리 동의', checked: false },
+  { text: '[필수] 통신사 이용약관 동의', checked: false },
+  { text: '[필수] 개인정보 수집 및 이용 동의', checked: false },
+  { text: '[필수] 개인정보 제3자 제공 동의', checked: false },
+])
+// 모든 체크 전환을 처리하는 방법
+const toggleAll = () => {
+  agreeList.forEach(agree => agree.checked = checkAll.value)
+}
+// 개별 체크 변경 처리 방법
+const checkIndividual = () => {
+  checkAll.value = agreeList.every(agree => agree.checked)
+}
+// agreement에서 변경 내용보기 업데이트 할 목록 체크 
+watch(() => agreeList.map(agree => agree.checked), (newValues) => {
+  checkAll.value = newValues.every(checked => checked)
+})
+// 토글버튼 처리
 const agreeOnOf = ref(false);
 const agreeClick = () => {
-  if(agreeOnOf.value == false){
-    agreeOnOf.value = true ;
-  } else {
-    agreeOnOf.value = false;
-  }
-};
+  agreeOnOf.value = !agreeOnOf.value
+}
+
 const realNm = ref('');
 const birthday = ref('');
 const gender = ref('');
@@ -47,7 +61,8 @@ const nameRules = ref(['이름은 필수 입력입니다.']);
               <dt class="terms-header">
                 <div class="form-checkbox">
                   <v-checkbox
-                    v-model="formTerms.allSelected"
+                    v-model="checkAll" 
+                    @change="toggleAll"
                     label="휴대폰 본인확인 전체 동의"
                     hide-details
                     class="check-all"
@@ -64,11 +79,12 @@ const nameRules = ref(['이름은 필수 입력입니다.']);
                 </v-btn>
               </dt>
               <dd v-show="agreeOnOf" class="terms-body">
-                <div class="check-wrap">
+                <div class="check-wrap" v-for="(agree, index) in agreeList" :key="index">
                   <div class="form-checkbox">
                     <v-checkbox
-                      :value="formTerms.value[0]"
-                      label="[필수] 휴대폰 본인확인 이용 동의"
+                      v-model="agree.checked"                   
+                      :label="agree.text"
+                      @change="checkIndividual"
                       hide-details
                       class="check-agree"
                     ></v-checkbox>
@@ -80,75 +96,7 @@ const nameRules = ref(['이름은 필수 입력입니다.']);
                     <span>내용보기</span>
                     <v-icon>icon-arrow-right</v-icon>
                   </v-btn>
-                </div>
-                <div class="check-wrap">
-                  <div class="form-checkbox">
-                    <v-checkbox
-                      :value="formTerms.value[1]"
-                      label="[필수] 고유식별정보 처리 동의"
-                      hide-details
-                      class="check-agree"
-                    ></v-checkbox>
-                  </div>
-                  <v-btn
-                    variant="text"
-                    class="btn-link"
-                  >
-                    <span>내용보기</span>
-                    <v-icon>icon-arrow-right</v-icon>
-                  </v-btn>
-                </div>
-                <div class="check-wrap">
-                  <div class="form-checkbox">
-                    <v-checkbox
-                      :value="formTerms.value[2]"
-                      label="[필수] 통신사 이용약관 동의"
-                      hide-details
-                      class="check-agree"
-                    ></v-checkbox>
-                  </div>
-                  <v-btn
-                    variant="text"
-                    class="btn-link"
-                  >
-                    <span>내용보기</span>
-                    <v-icon>icon-arrow-right</v-icon>
-                  </v-btn>
-                </div>
-                <div class="check-wrap">
-                  <div class="form-checkbox">
-                    <v-checkbox
-                      :value="formTerms.value[3]"
-                      label="[필수] 개인정보 수집 및 이용 동의"
-                      hide-details
-                      class="check-agree"
-                    ></v-checkbox>
-                  </div>
-                  <v-btn
-                    variant="text"
-                    class="btn-link"
-                  >
-                    <span>내용보기</span>
-                    <v-icon>icon-arrow-right</v-icon>
-                  </v-btn>
-                </div>
-                <div class="check-wrap">
-                  <div class="form-checkbox">
-                    <v-checkbox
-                      :value="formTerms.value[4]"
-                      label="[필수] 개인정보 제3자 제공 동의"
-                      hide-details
-                      class="check-agree"
-                    ></v-checkbox>
-                  </div>
-                  <v-btn
-                    variant="text"
-                    class="btn-link"
-                  >
-                    <span>내용보기</span>
-                    <v-icon>icon-arrow-right</v-icon>
-                  </v-btn>
-                </div>
+                </div>                
               </dd>
             </dl>
           </div>

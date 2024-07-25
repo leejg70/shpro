@@ -354,7 +354,14 @@ input.v-field__input {background-color: transparent !important;}
     }
 }
 
-@media only screen and (max-width: 1280px) {
+/* 960 이상일때 일괄적으로 축소*/
+@media (min-width: 960px) and (max-width: 1279px) {
+    html{
+        font-size: 0.7813vw !important;
+    }
+}
+
+@media only screen and (max-width: 960px) {
     .v-field__input {
         padding-left: 1.2rem;
         padding-right: 1.2rem;

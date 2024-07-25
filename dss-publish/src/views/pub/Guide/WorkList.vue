@@ -41,14 +41,14 @@
 			<p class="ia-version">IA 버전 : v1.6</p>
 		</div>
 		<!-- 00_Guide -->
-		<!-- wait:작업중, done:완료, del:삭제, except:보류
+		<!-- wait:작업중, done:완료, del:삭제, except:보류-->
 		<section class="ia-section ia-section-ajax" data-file="ajax_ia_0" data-color="01a2de" id="gIA0">
 			<div class="ia-section-header">
-				<h2 class="ia-h2"><a href="#this" class="accordion-toggle">01_가이드</a></h2>
+				<h2 class="ia-h2"><a href="#this" class="accordion-toggle">가이드</a></h2>
 				<div class="ia-legend">
-					<span class="item"><em>총 페이지 : </em><em class="legend-total">25</em>,</span>
-					<span class="item c-done"><em>완료 : </em><em class="legend-complete">0</em>,</span>
-					<span class="item"><em>진척률 : </em><em class="legend-process">0%</em></span>
+					<span class="item"><em>총 페이지 : </em><em class="legend-total">4</em>,</span>
+					<span class="item c-done"><em>완료 : </em><em class="legend-complete">4</em>,</span>
+					<span class="item"><em>진척률 : </em><em class="legend-process">100%</em></span>
 				</div>
 			</div>
 			<div class="ia-section-body" style="height: auto;">
@@ -66,61 +66,70 @@
 							</caption>
 							<thead>
 								<tr>
-									<th scope="col">번호</th>
+									<th scope="col" class="col-num">번호</th>
 									<th scope="col" class="col-1depth">1Depth</th>
 									<th scope="col" class="col-2depth">2Depth</th>
 									<th scope="col" class="col-3depth">3Depth</th>
-									<th scope="col" class="col-4depth" style="display: none;">4Depth</th>
-									<th scope="col" class="col-5depth" style="display: none;">5Depth</th>
-									<th scope="col" class="col-point">유형</th>
-									<th scope="col">URL</th>
+									<th scope="col" class="col-4depth">4Depth</th>
+									<th scope="col" class="col-5depth">5Depth</th>
+									<th scope="col" class="col-point">구분</th>
+									<th scope="col" class="col-url">URL</th>
 									<th scope="col" class="col-date">날짜</th>
-									<th scope="col">상태</th>
-									<th scope="col">담당자</th>
-									<th scope="col">비고</th>
+									<th scope="col" class="col-complete">상태</th>						
+									<th scope="col" class="col-memo">비고</th>
 								</tr>
 							</thead>
 							<tbody>
 								<tr>
-									<td class="col-num">1</td>
+									<td class="col-num"></td>
 									<td class="col-1depth">가이드</td>
-									<td class="col-2depth">인풋</td>
+									<td class="col-2depth">인풋/셀렉트버튼/라디오버튼</td>
 									<td class="col-3depth"></td>
-									<td class="col-4depth" style="display: none;"></td>
-									<td class="col-5depth" style="display: none;"></td>
+									<td class="col-4depth"></td>
+									<td class="col-5depth"></td>
 									<td class="col-type" data-type=""></td>
-									<td class="col-url"><router-link to="/guide/01" target="_blank">GuideInput</router-link></td>
+									<td class="col-url"><router-link to="/guide/01" target="_blank">/views/Guide/GuideInput</router-link></td>
 									<td class="col-date"></td>
-									<td class="col-complete"></td>
-									<td class="col-worker"></td>
+									<td class="col-complete"></td>							
 									<td class="col-memo"></td>
 								</tr>
 								<tr>
-									<td class="col-num">2</td>
+									<td class="col-num"></td>
 									<td class="col-1depth"></td>
-									<td class="col-2depth">버튼</td>
+									<td class="col-2depth">버튼/텝/Flag/Badge/Radio/Select</td>
 									<td class="col-3depth"></td>
-									<td class="col-4depth" style="display: none;"></td>
-									<td class="col-5depth" style="display: none;"></td>
+									<td class="col-4depth"></td>
+									<td class="col-5depth"></td>
 									<td class="col-type" data-type=""></td>
-									<td class="col-url"><router-link to="/guide/02" target="_blank">GuideButton</router-link></td>
+									<td class="col-url"><router-link to="/guide/02" target="_blank">/views/Guide/GuideButton</router-link></td>
 									<td class="col-date"></td>
-									<td class="col-complete"></td>
-									<td class="col-worker"></td>
+									<td class="col-complete"></td>							
 									<td class="col-memo"></td>
 								</tr>
 								<tr>
-									<td class="col-num">3</td>
+									<td class="col-num"></td>
 									<td class="col-1depth"></td>
-									<td class="col-2depth">체크박스</td>
+									<td class="col-2depth">아이콘</td>
 									<td class="col-3depth"></td>
-									<td class="col-4depth" style="display: none;"></td>
-									<td class="col-5depth" style="display: none;"></td>
+									<td class="col-4depth"></td>
+									<td class="col-5depth"></td>
 									<td class="col-type" data-type=""></td>
-									<td class="col-url"><router-link to="/guide/03" target="_blank">CheckBox</router-link></td>
+									<td class="col-url"><router-link to="/guide/03" target="_blank">/views/Guide/GuideIcon</router-link></td>
 									<td class="col-date"></td>
-									<td class="col-complete"></td>
-									<td class="col-worker"></td>
+									<td class="col-complete"></td>								
+									<td class="col-memo"></td>
+								</tr>
+                                <tr>
+									<td class="col-num"></td>
+									<td class="col-1depth"></td>
+									<td class="col-2depth">Alert/Confirm/약관/공지팝업</td>
+									<td class="col-3depth"></td>
+									<td class="col-4depth"></td>
+									<td class="col-5depth"></td>
+									<td class="col-type" data-type=""></td>
+									<td class="col-url"><router-link to="/guide/04" target="_blank">/views/Guide/GuidePopup</router-link></td>
+									<td class="col-date"></td>
+									<td class="col-complete"></td>								
 									<td class="col-memo"></td>
 								</tr>
 							</tbody>
@@ -129,7 +138,7 @@
 				</div>
 			</div>
 		</section>
-		//00_Guide -->
+		<!-- 00_Guide -->
 
 		<!-- 메인 -->
 		<section class="ia-section ia-section-ajax" data-file="ajax_ia_1" data-color="01a2de" id="gIA1">
